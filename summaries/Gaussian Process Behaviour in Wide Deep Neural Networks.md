@@ -7,7 +7,7 @@
 ****
 
 #### General comment on paper quality:
-- Very well written and mathematically rigorous paper that I'd recommend anyone interested in theoretical properties of deep learning to read.
+- Very well written and mathematically rigorous paper that I'd recommend anyone interested in theoretical properties of deep learning to read. An interesting and pleasent read.
 
 #### Paper overview:
 - The authors study the relationship between random, wide, fully connected, feedforward neural networks and Gaussian processes. 
