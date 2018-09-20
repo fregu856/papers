@@ -10,7 +10,7 @@
 - - - Very well written and mathematically rigorous paper that I'd recommend anyone interested in theoretical properties of deep learning to read. An interesting and pleasent read.
 
 #### Paper overview:
-- - -The authors study the relationship between random, wide, fully connected, feedforward neural networks and Gaussian processes. 
+- - - The authors study the relationship between random, wide, fully connected, feedforward neural networks and Gaussian processes. 
 
 - - - The network weights are assumed to be independent normally distributed with their variances sensibly scaled as the network grows.
 
