@@ -5,4 +5,5 @@
 
 ****
 
-- Bla blabla bla TODO!
+##### General comments on paper quality:
+- Blabla bla TODO!
