@@ -7,3 +7,8 @@
 
 ##### General comments on paper quality:
 - Blabla bla TODO!
+
+##### Overview:
+- Blabla bla TODO!
+
+(what more headlines makes sense? look at some summaries from the thesis project)
