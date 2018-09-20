@@ -2,7 +2,7 @@
 
 Summaries of papers I have read during my time as a PhD student.
 
-commented_pdfs contains pdfs with comments, highlights etc. (visible at least in Okular on Ubuntu) for all papers. 
+*commented_pdfs* contains pdfs with comments, highlights etc. (visible at least in Okular on Ubuntu) for all papers. 
 
 ****
 ### Papers
