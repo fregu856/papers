@@ -12,7 +12,7 @@
 #### Paper overview:
 - The authors study the relationship between random, wide, fully connected, feedforward neural networks and Gaussian processes. 
 
-- The network weights are assumed to be independent normally distributed with their variances sensibly scaled as the network grows.
+- - The network weights are assumed to be independent normally distributed with their variances sensibly scaled as the network grows.
 
 - They show that, under broad conditions, as the network is made increasingly wide, the implied random input-to-output function converges in distribution to a Gaussian process.
 
