@@ -6,7 +6,7 @@
 
 ****
 
-#### General comment on paper quality:
+#### General comments on paper quality:
 - Very well written and mathematically rigorous paper that I'd recommend anyone interested in theoretical properties of deep learning to read. An interesting and pleasent read.
 
 #### Paper overview:
