@@ -1,5 +1,7 @@
 # About
 
+Summaries of papers I have read during my time as a PhD student.
+
 ****
 ### Papers
 
