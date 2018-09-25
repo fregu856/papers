@@ -26,4 +26,4 @@
 
 - Thus, I'm not quite sure how significant the contribution of this paper actually is. Essentially, they have taken the method for modeling aleatoric uncertainty from [Kendall and Gal](https://github.com/fregu856/papers/blob/master/summaries/What%20Uncertainties%20Do%20We%20Need%20in%20Bayesian%20Deep%20Learning%20for%20Computer%20Vision%3F.md) and applied this to slightly different tasks.
 
-Also, my question from the Kendall and Gal [summary](https://github.com/fregu856/papers/blob/master/summaries/What%20Uncertainties%20Do%20We%20Need%20in%20Bayesian%20Deep%20Learning%20for%20Computer%20Vision%3F.md) still remains. Even if we assume negligible epistemic (model) uncertainty, how much can we actually trust the outputted aleatoric uncertainty?
+- Also, my question from the Kendall and Gal [summary](https://github.com/fregu856/papers/blob/master/summaries/What%20Uncertainties%20Do%20We%20Need%20in%20Bayesian%20Deep%20Learning%20for%20Computer%20Vision%3F.md) still remains. Even if we assume negligible epistemic (model) uncertainty, how much can we actually trust the outputted aleatoric uncertainty?
