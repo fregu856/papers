@@ -8,7 +8,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ### Papers
 
 ##### [18-09-25]
-- Deep Confidence: A Computationally Efficient Framework for Calculating Reliable Errors for Deep Neural Networks [[pdf]](https://arxiv.org/abs/1809.09060) [[pdf with comments]]() [[summary]]()
+- Deep Confidence: A Computationally Efficient Framework for Calculating Reliable Errors for Deep Neural Networks [[pdf]](https://arxiv.org/abs/1809.09060) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Deep%20Confidence:%20A%20Computationally%20Efficient%20Framework%20for%20Calculating%20Reliable%20Errors%20for%20Deep%20Neural%20Networks.md)
 - *Isidro Cortes-Ciriano, Andreas Bender*
 - `2018-09-24`
 
