@@ -7,6 +7,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Papers
 
+##### [18-09-25]
+- Leveraging Heteroscedastic Aleatoric Uncertainties for Robust Real-Time LiDAR 3D Object Detection [[pdf]](https://arxiv.org/abs/1809.05590) [[pdf with comments]]() [[summary]]()
+- *Di Feng, Lars Rosenbaum, Fabian Timm, Klaus Dietmayer*
+- `2018-09-14`
+
 ##### [18-09-24]
 - Lightweight Probabilistic Deep Networks [[pdf]](https://arxiv.org/abs/1805.11327) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Lightweight%20Probabilistic%20Deep%20Networks_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Lightweight%20Probabilistic%20Deep%20Networks.md)
 - *Jochen Gast, Stefan Roth*
