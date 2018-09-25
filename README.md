@@ -8,7 +8,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ### Papers
 
 ##### [18-09-24]
-- Lightweight Probabilistic Deep Networks [[pdf]](https://arxiv.org/abs/1805.11327) [[pdf with comments]]() [[summary]]()
+- Lightweight Probabilistic Deep Networks [[pdf]](https://arxiv.org/abs/1805.11327) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Lightweight%20Probabilistic%20Deep%20Networks.md)
 - *Jochen Gast, Stefan Roth*
 - `2018-05-29, CVPR2018`
 
