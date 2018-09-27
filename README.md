@@ -8,7 +8,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ### Papers
 
 ##### [18-09-27]
-- Neural Autoregressive Flows [[pdf]](https://arxiv.org/abs/1804.00779) [[pdf with comments]]() [[summary]]()
+- Neural Autoregressive Flows [[pdf]](https://arxiv.org/abs/1804.00779) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Autoregressive%20Flows.md)
 - *Chin-Wei Huang, David Krueger, Alexandre Lacoste, Aaron Courville*
 - `2018-04-03, ICML2018`
 
