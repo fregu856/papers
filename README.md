@@ -5,7 +5,7 @@ Summaries of papers I have read during my time as a PhD student.
 The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible at least in Okular on Ubuntu) for all papers. 
 
 ****
-### Papers
+### Papers (7 in total)
 
 ##### [18-09-27]
 - Conditional Neural Processes [[pdf]](https://arxiv.org/abs/1807.01613) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Conditional%20Neural%20Processes.md)
