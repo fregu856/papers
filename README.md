@@ -8,7 +8,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ### Papers
 
 ##### [18-09-27]
-- Conditional Neural Processes [[pdf]](https://arxiv.org/abs/1807.01613) [[pdf with comments]]() [[summary]]()
+- Conditional Neural Processes [[pdf]](https://arxiv.org/abs/1807.01613) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Conditional%20Neural%20Processes.md)
 - *Marta Garnelo, Dan Rosenbaum, Chris J. Maddison, Tiago Ramalho, David Saxton, Murray Shanahan, Yee Whye Teh, Danilo J. Rezende, S. M. Ali Eslami*
 - `2018-07-04, ICML2018`
 
