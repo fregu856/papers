@@ -25,7 +25,7 @@
 - - Image completion:
 - - - Given a few pixels as observations, predict the pixel values at all pixel locations. CNP is found to outperform both a kNN and GP baseline, at least when the number of given observations is relatively small.
 - - One-shot classification:
-- - - While CNP does NOT set a new SOTA, it is found to have comparable performance as significantly more complex models.
+- - - While CNP does NOT set a new SOTA, it is found to have comparable performance to significantly more complex models.
 
 - The authors conclude by arguing that a trained CNP is more general than conventional deep learning models, in that it encapsulates the high-level statistics of a family of functions. As such it constitutes a high-level abstraction that can be reused for multiple tasks.
 
