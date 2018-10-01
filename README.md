@@ -8,7 +8,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ### Papers
 
 ##### [18-09-30] [paper8]
-- Neural Processes [[pdf]](https://arxiv.org/abs/1807.01622) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Processes.md)
+- Neural Processes [[pdf]](https://arxiv.org/abs/1807.01622) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Processes_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Processes.md)
 - *Marta Garnelo, Jonathan Schwarz, Dan Rosenbaum, Fabio Viola, Danilo J. Rezende, S.M. Ali Eslami, Yee Whye Teh*
 - `2018-07-04, ICML2018 Workshop`
 
