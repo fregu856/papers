@@ -11,7 +11,7 @@
 ### Paper overview:
 - The authors present a family of neural models called Conditional Neural Processes (CNPs), which aim to combine the benefits of Gaussian Processes (which exploit prior knowledge to quickly infer the shape of a new function at test time, but computationally scale poorly with increased dimension and dataset size) and deep neural networks (which excel at function approximation, but need to be trained from scratch for each new function).
 
-- A CNP feeds each observation ($x_i, y_i$) (a labeled example) through a neural network h to extract an embedding r_i. The embeddings r_i are aggregated to a single embedding r using a symmetric aggregator function (e.g. taking the mean). The embedding r is then fed together with each target x*_i (unlabeled example) as input to the neural network g, which produces a corresponding prediction y*_i. The predictions are thus made *conditioned* on the observations (x_i, y_i).
+- A CNP feeds each observation (x_i, y_i) (a labeled example) through a neural network h to extract an embedding r_i. The embeddings r_i are aggregated to a single embedding r using a symmetric aggregator function (e.g. taking the mean). The embedding r is then fed together with each target x*_i (unlabeled example) as input to the neural network g, which produces a corresponding prediction y*_i. The predictions are thus made *conditioned* on the observations (x_i, y_i).
 
 - For example, given observations of an unknown function's value y_i at locations x_i, we would like to predict the function's value at new locations x*_i, conditioned on the observations.
 
