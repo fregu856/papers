@@ -8,7 +8,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ### Papers
 
 ##### [18-10-04] [paper9]
-- On gradient regularizers for MMD GANs [[pdf]](https://arxiv.org/abs/1805.11565) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/On%20gradient%20regularizers%20for%20MMD%20GANs.md)
+- On gradient regularizers for MMD GANs [[pdf]](https://arxiv.org/abs/1805.11565) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20gradient%20regularizers%20for%20MMD%20GANs_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/On%20gradient%20regularizers%20for%20MMD%20GANs.md)
 - *Michael Arbel, Dougal J. Sutherland, Mikołaj Bińkowski, Arthur Gretton*
 - `2018-05-29`
 
