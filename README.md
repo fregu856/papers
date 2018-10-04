@@ -10,7 +10,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ##### [18-10-04] [paper9]
 - On gradient regularizers for MMD GANs [[pdf]](https://arxiv.org/abs/1805.11565) [[pdf with comments]]() [[summary]]()
 - *Michael Arbel, Dougal J. Sutherland, Mikołaj Bińkowski, Arthur Gretton*
-- `2018-05-29, `
+- `2018-05-29`
 
 ##### [18-09-30] [paper8]
 - Neural Processes [[pdf]](https://arxiv.org/abs/1807.01622) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Processes_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Processes.md)
