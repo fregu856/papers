@@ -6,10 +6,9 @@
 ****
 
 ### General comments on paper quality:
-- TODO!
+- Well-written but rather heavy paper to read, I did definitely not have the background required neither to fully understand nor to properly appreciate the proposed methods. I would probably need to do some more background reading and then come back and read this paper again.
 
 ### Paper overview:
-- TODO!
+- The authors propose the method *Gradient-Constrained MMD* and its approximation *Scaled MMD*, MMD GAN architectures which are trained using a novel loss function that regularizes the gradients of the critic (gradient-based regularization).
 
-### Comments:
-- TODO!
+- The authors experimentally evaluate their proposed architectures on the task of unsupervised image generation, on three different datasets (CIFAR-10 (32x32 images), CelebA (160x160 images) and ImageNet (64x64 images)) and using three different metrics (Inception score (IS), FID and KID). They find that their proposed losses lead to stable training and that they outperform (or at least obtain highly comparable performance to) state-of-the-art methods (e.g. Wasserstein GAN).
