@@ -4,8 +4,15 @@ Summaries of papers I have read during my time as a PhD student.
 
 The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible at least in Okular on Ubuntu) for all papers. 
 
+## Index
+- [All Papers](#all-papers)
+- [3D Object Detection](#3d-object-detection)
+
 ****
-### Papers
+****
+
+****
+### All Papers:
 
 ##### [18-10-04] [paper10]
 - PIXOR: Real-time 3D Object Detection from Point Clouds [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_PIXOR_Real-Time_3D_CVPR_2018_paper.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PIXOR:%20Real-time%203D%20Object%20Detection%20from%20Point%20Clouds_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/PIXOR:%20Real-time%203D%20Object%20Detection%20from%20Point%20Clouds.md)
@@ -57,3 +64,18 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - *Alexander G. de G. Matthews, Mark Rowland, Jiri Hron, Richard E. Turner, Zoubin Ghahramani*
 - `2018-08-16, ICLR2018`
 
+****
+****
+
+****
+### 3D Object Detection:
+
+##### [18-10-04] [paper10]
+- PIXOR: Real-time 3D Object Detection from Point Clouds [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_PIXOR_Real-Time_3D_CVPR_2018_paper.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PIXOR:%20Real-time%203D%20Object%20Detection%20from%20Point%20Clouds_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/PIXOR:%20Real-time%203D%20Object%20Detection%20from%20Point%20Clouds.md)
+- *Bin Yang, Wenjie Luo, Raquel Urtasun*
+- `CVPR2018`
+
+##### [18-09-25] [paper4]
+- Leveraging Heteroscedastic Aleatoric Uncertainties for Robust Real-Time LiDAR 3D Object Detection [[pdf]](https://arxiv.org/abs/1809.05590) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Leveraging%20Heteroscedastic%20Aleatoric%20Uncertainties%20for%20Robust%20Real-Time%20LiDAR%203D%20Object%20Detection_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Leveraging%20Heteroscedastic%20Aleatoric%20Uncertainties%20for%20Robust%20Real-Time%20LiDAR%203D%20Object%20Detection.md)
+- *Di Feng, Lars Rosenbaum, Fabian Timm, Klaus Dietmayer*
+- `2018-09-14`
