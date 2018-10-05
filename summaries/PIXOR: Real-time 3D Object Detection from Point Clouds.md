@@ -1,5 +1,5 @@
 ### General comments on paper quality:
-- Quite well-written paper, although there are a couple of typos (weird grammar). Quite interesting proposed 3D localization model.
+- Fairly well-written paper, although there are a couple of typos (weird grammar). Quite interesting proposed 3D localization model.
 
 ### Paper overview:
 - The authors present a single-stage, LiDAR-only model for 3D localization of vehicles (bird's eye view).
