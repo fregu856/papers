@@ -11,7 +11,7 @@ Well-written paper, the proposed method is fairly clearly explained.
 ### Paper overview:
 The authors present a method called Noise Contrastive Priors (NCPs). The key idea is to train a model to output high **epistemic/model** uncertainty for data points which lie outside of the training distribution (out-of-distribution data, OOD data). To do this, NCPs add noise to some of the inputs during training and, for these noisy inputs, try to minimize the KL divergence to a wide prior distribution.
 
-NCPs do NOT try to add noise only to the subset of the training data which lie close to the boundary of the training data distribution, but instead add noise to any input data. Empirically, the authors saw no significant difference in performance between these two approaches.
+NCPs do NOT try to add noise only to the subset of the training data which actually lie close to the boundary of the training data distribution, but instead add noise to any input data. Empirically, the authors saw no significant difference in performance between these two approaches.
 
 The authors apply NCPs both to a small Bayesian Neural Network and to an OOD classifier model, and experimentally evaluate their models on regression tasks.
 
