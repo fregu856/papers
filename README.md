@@ -6,6 +6,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ## Index
 - [All Papers](#all-papers)
+- [Uncertainty Estimation](#uncertainty-estimation)
 - [3D Object Detection](#3d-object-detection)
 
 ****
@@ -76,6 +77,9 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ****
+
+****
+### Uncertainty Estimation:
 
 ****
 ### 3D Object Detection:
