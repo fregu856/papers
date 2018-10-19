@@ -91,6 +91,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Uncertainty Estimation:
 
+##### [18-10-19] [paper14]
+- Uncertainty in Neural Networks: Bayesian Ensembling [[pdf]](https://arxiv.org/abs/1810.05546) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20in%20Neural%20Networks:%20Bayesian%20Ensembling.md)
+- *Tim Pearce, Mohamed Zaki, Alexandra Brintrup, Andy Neel*
+- `2018-10-12, AISTATS2019 submission`
+
 ##### [18-10-18] [paper13]
 - Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles [[pdf]](https://arxiv.org/abs/1612.01474) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Simple%20and%20Scalable%20Predictive%20Uncertainty%20Estimation%20using%20Deep%20Ensembles_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Simple%20and%20Scalable%20Predictive%20Uncertainty%20Estimation%20using%20Deep%20Ensembles.md)
 - *Balaji Lakshminarayanan, Alexander Pritzel, Charles Blundell*
