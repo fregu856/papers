@@ -15,6 +15,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### All Papers:
 
+##### [18-10-25] [paper15]
+- Bayesian Convolutional Neural Networks with Many Channels are Gaussian Processes [[pdf]](https://arxiv.org/abs/1810.05148) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Bayesian%20Convolutional%20Neural%20Networks%20with%20Many%20Channels%20are%20Gaussian%20Processes.md)
+- *Roman Novak, Lechao Xiao, Jaehoon Lee, Yasaman Bahri, Daniel A. Abolafia, Jeffrey Pennington, Jascha Sohl-Dickstein*
+- `2018-10-11`
+
 ##### [18-10-19] [paper14]
 - Uncertainty in Neural Networks: Bayesian Ensembling [[pdf]](https://arxiv.org/abs/1810.05546) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20in%20Neural%20Networks:%20Bayesian%20Ensembling_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20in%20Neural%20Networks:%20Bayesian%20Ensembling.md)
 - *Tim Pearce, Mohamed Zaki, Alexandra Brintrup, Andy Neel*
