@@ -16,7 +16,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ### All Papers:
 
 ##### [18-10-25] [paper15]
-- Bayesian Convolutional Neural Networks with Many Channels are Gaussian Processes [[pdf]](https://arxiv.org/abs/1810.05148) [[pdf with comments]]() [[summary]](-)
+- Bayesian Convolutional Neural Networks with Many Channels are Gaussian Processes [[pdf]](https://arxiv.org/abs/1810.05148) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Bayesian%20Convolutional%20Neural%20Networks%20with%20Many%20Channels%20are%20Gaussian%20Processes.md)
 - *Roman Novak, Lechao Xiao, Jaehoon Lee, Yasaman Bahri, Daniel A. Abolafia, Jeffrey Pennington, Jascha Sohl-Dickstein*
 - `2018-10-11`
 
