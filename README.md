@@ -9,6 +9,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Uncertainty Estimation](#uncertainty-estimation)
 - [3D Object Detection](#3d-object-detection)
 - [Medical Imaging](#medical-imaging)
+- [SysCon DL Reading Group](#syscon-dl-reading-group)
 
 ****
 ****
@@ -236,5 +237,32 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Medical Imaging:
+****
+****
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### SysCon DL Reading Group:
 
