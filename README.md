@@ -9,6 +9,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Uncertainty Estimation](#uncertainty-estimation)
 - [3D Object Detection](#3d-object-detection)
 - [Medical Imaging](#medical-imaging)
+- [SysCon DL Reading Group](#syscon-dl-reading-group)
 
 ****
 ****
@@ -17,7 +18,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ### All Papers:
 
 ##### [18-11-08] [paper17]
-- The Lottery Ticket Hypothesis: Finding Small, Trainable Neural Networks [[pdf]](https://arxiv.org/abs/1803.03635) [[pdf with comments]]() [[summary]]()
+- The Lottery Ticket Hypothesis: Finding Small, Trainable Neural Networks [[pdf]](https://arxiv.org/abs/1803.03635) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/The%20Lottery%20Ticket%20Hypothesis:%20Finding%20Small%2C%20Trainable%20Neural%20Networks.md)
 - *Jonathan Frankle, Michael Carbin*
 - `2018-03-09, ICLR2019 submission`
 
@@ -236,5 +237,61 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Medical Imaging:
+****
+****
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### SysCon DL Reading Group:
+
+##### [18-11-08] [paper17]
+- The Lottery Ticket Hypothesis: Finding Small, Trainable Neural Networks [[pdf]](https://arxiv.org/abs/1803.03635) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/The%20Lottery%20Ticket%20Hypothesis:%20Finding%20Small%2C%20Trainable%20Neural%20Networks.md)
+- *Jonathan Frankle, Michael Carbin*
+- `2018-03-09, ICLR2019 submission`
+
+##### [18-09-27] [paper7]
+- Conditional Neural Processes [[pdf]](https://arxiv.org/abs/1807.01613) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conditional%20Neural%20Processes_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Conditional%20Neural%20Processes.md)
+- *Marta Garnelo, Dan Rosenbaum, Chris J. Maddison, Tiago Ramalho, David Saxton, Murray Shanahan, Yee Whye Teh, Danilo J. Rezende, S. M. Ali Eslami*
+- `2018-07-04, ICML2018`
+
+##### [18-10-25] [paper15]
+- Bayesian Convolutional Neural Networks with Many Channels are Gaussian Processes [[pdf]](https://arxiv.org/abs/1810.05148) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Convolutional%20Neural%20Networks%20with%20Many%20Channels%20are%20Gaussian%20Processes_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Bayesian%20Convolutional%20Neural%20Networks%20with%20Many%20Channels%20are%20Gaussian%20Processes.md)
+- *Roman Novak, Lechao Xiao, Jaehoon Lee, Yasaman Bahri, Daniel A. Abolafia, Jeffrey Pennington, Jascha Sohl-Dickstein*
+- `2018-10-11`
+
+##### [18-10-04] [paper9]
+- On gradient regularizers for MMD GANs [[pdf]](https://arxiv.org/abs/1805.11565) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20gradient%20regularizers%20for%20MMD%20GANs_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/On%20gradient%20regularizers%20for%20MMD%20GANs.md)
+- *Michael Arbel, Dougal J. Sutherland, Mikołaj Bińkowski, Arthur Gretton*
+- `2018-05-29`
+
+##### [18-09-27] [paper6]
+- Neural Autoregressive Flows [[pdf]](https://arxiv.org/abs/1804.00779) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Autoregressive%20Flows_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Autoregressive%20Flows.md)
+- *Chin-Wei Huang, David Krueger, Alexandre Lacoste, Aaron Courville*
+- `2018-04-03, ICML2018`
+
+##### [18-09-20] [paper1]
+- Gaussian Process Behaviour in Wide Deep Neural Networks [[pdf]](https://arxiv.org/abs/1804.11271) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gaussian%20Process%20Behaviour%20in%20Wide%20Deep%20Neural%20Networks.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Gaussian%20Process%20Behaviour%20in%20Wide%20Deep%20Neural%20Networks.md)
+- *Alexander G. de G. Matthews, Mark Rowland, Jiri Hron, Richard E. Turner, Zoubin Ghahramani*
+- `2018-08-16, ICLR2018`
