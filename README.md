@@ -17,7 +17,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ### All Papers:
 
 ##### [18-11-08] [paper17]
-- The Lottery Ticket Hypothesis: Finding Small, Trainable Neural Networks [[pdf]](https://arxiv.org/abs/1803.03635) [[pdf with comments]]() [[summary]]()
+- The Lottery Ticket Hypothesis: Finding Small, Trainable Neural Networks [[pdf]](https://arxiv.org/abs/1803.03635) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/The%20Lottery%20Ticket%20Hypothesis:%20Finding%20Small%2C%20Trainable%20Neural%20Networks.md)
 - *Jonathan Frankle, Michael Carbin*
 - `2018-03-09, ICLR2019 submission`
 
