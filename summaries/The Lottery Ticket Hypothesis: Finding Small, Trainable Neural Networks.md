@@ -9,7 +9,7 @@
 - Well-written and very interesting paper. Not particularly heavy to read.
 
 ### Paper overview:
-- iming to help and explain why it empirically seems easier to train large networks than small ones, the authors articulate the *lottery ticket hypothesis*: any large network that trains successfully contains a smaller subnetwork that, when initialized with the same initial parameter values again (i.e., the parameter values they had before the original training began), can be trained in isolation to match (or surpass) the accuracy of the original network, while converging in at most the same number of iterations. The authors call these subnetworks *winning tickets*. 
+- Aiming to help and explain why it empirically seems easier to train large networks than small ones, the authors articulate the *lottery ticket hypothesis*: any large network that trains successfully contains a smaller subnetwork that, when initialized with the same initial parameter values again (i.e., the parameter values they had before the original training began), can be trained in isolation to match (or surpass) the accuracy of the original network, while converging in at most the same number of iterations. The authors call these subnetworks *winning tickets*. 
 
 - When randomly re-initializing the parameters or randomly modifying the connections of winning tickets, they are no longer capable of matching the performance of the original network. Neither structure nor initialization alone is thus responsible for a winning ticket's success. 
 
