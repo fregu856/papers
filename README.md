@@ -17,6 +17,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### All Papers:
 
+##### [18-11-12] [paper18]
+- Large-Scale Visual Active Learning with Deep Probabilistic Ensembles [[pdf]](https://arxiv.org/abs/1811.03575) [[pdf with comments]]() [[summary]]()
+- *Kashyap Chitta, Jose M. Alvarez, Adam Lesnikowski*
+- `2018-11-08`
+
 ##### [18-11-08] [paper17]
 - The Lottery Ticket Hypothesis: Finding Small, Trainable Neural Networks [[pdf]](https://arxiv.org/abs/1803.03635) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Lottery%20Ticket%20Hypothesis:%20Finding%20Small%2C%20Trainable%20Neural%20Networks_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/The%20Lottery%20Ticket%20Hypothesis:%20Finding%20Small%2C%20Trainable%20Neural%20Networks.md)
 - *Jonathan Frankle, Michael Carbin*
