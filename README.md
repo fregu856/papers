@@ -18,7 +18,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ### All Papers:
 
 ##### [18-11-12] [paper18]
-- Large-Scale Visual Active Learning with Deep Probabilistic Ensembles [[pdf]](https://arxiv.org/abs/1811.03575) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Large-Scale%20Visual%20Active%20Learning%20with%20Deep%20Probabilistic%20Ensembles.md)
+- Large-Scale Visual Active Learning with Deep Probabilistic Ensembles [[pdf]](https://arxiv.org/abs/1811.03575) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large-Scale%20Visual%20Active%20Learning%20with%20Deep%20Probabilistic%20Ensembles_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Large-Scale%20Visual%20Active%20Learning%20with%20Deep%20Probabilistic%20Ensembles.md)
 - *Kashyap Chitta, Jose M. Alvarez, Adam Lesnikowski*
 - `2018-11-08`
 
@@ -135,7 +135,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ### Uncertainty Estimation:
 
 ##### [18-11-12] [paper18]
-- Large-Scale Visual Active Learning with Deep Probabilistic Ensembles [[pdf]](https://arxiv.org/abs/1811.03575) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Large-Scale%20Visual%20Active%20Learning%20with%20Deep%20Probabilistic%20Ensembles.md)
+- Large-Scale Visual Active Learning with Deep Probabilistic Ensembles [[pdf]](https://arxiv.org/abs/1811.03575) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large-Scale%20Visual%20Active%20Learning%20with%20Deep%20Probabilistic%20Ensembles_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Large-Scale%20Visual%20Active%20Learning%20with%20Deep%20Probabilistic%20Ensembles.md)
 - *Kashyap Chitta, Jose M. Alvarez, Adam Lesnikowski*
 - `2018-11-08`
 
