@@ -19,7 +19,7 @@
 
 - Note that the E ensemble networks have to be trained jointly, meaning that the memory requirement scales linearly with E.
 
-- They experienced some difficulties when trying to train an ensemble of just E=2, 3 networks, as the regularization term caused instability and divergence of the loss. This problem was mitigated by setting E >= 4, and ended up using E=8 for all of their experiments (beyond E=8 they observed diminishing returns).
+- They experienced some difficulties when trying to train an ensemble of just E=2, 3 networks, as the regularization term caused instability and divergence of the loss. This problem was mitigated by setting E >= 4, and they ended up using E=8 for all of their experiments (beyond E=8 they observed diminishing returns).
 
 - In the experiments, they e.g. compare DPEs to using an ensemble trained using standard L2 regularization on all four datasets. DPEs are found to consistently outperform the standard ensemble, but the performance gain is not very big.
  
