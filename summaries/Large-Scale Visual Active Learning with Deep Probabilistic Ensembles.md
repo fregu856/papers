@@ -21,7 +21,7 @@
 
 - They experienced some difficulties when trying to train an ensemble of just E=2, 3 networks, as the regularization term caused instability and divergence of the loss. This problem was mitigated by setting E >= 4, and they ended up using E=8 for all of their experiments (beyond E=8 they observed diminishing returns).
 
-- In the experiments, they e.g. compare DPEs to using an ensemble trained using standard L2 regularization on all four datasets. DPEs are found to consistently outperform the standard ensemble, but the performance gain is not very big.
+- In the experiments, they e.g. compare DPEs to using an ensemble trained using standard L2 regularization on all four datasets. DPEs were found to consistently outperform the standard ensemble, but the performance gain is not very big.
  
 ### Comments:
 - Definitely an interesting method. Nice to see more than just an intuitive argument for why ensembling seems to provide reasonable uncertainty estimates, even though the derivation contains multiple approximations (variational inference approximation, approximation of the expectations). 
