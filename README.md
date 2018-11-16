@@ -142,8 +142,18 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
 ****
 ### Uncertainty Estimation:
+
+##### [18-11-16] [paper20]
+- Uncertainty Estimates and Multi-Hypotheses Networks for Optical Flow [[pdf]](https://arxiv.org/abs/1802.07095) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Estimates%20and%20Multi-Hypotheses%20Networks%20for%20Optical%20Flow.md)
+- *Eddy Ilg, Özgün Çiçek, Silvio Galesso, Aaron Klein, Osama Makansi, Frank Hutter, Thomas Brox*
+- `2018-08-06, ECCV2018`
 
 ##### [18-11-12] [paper18]
 - Large-Scale Visual Active Learning with Deep Probabilistic Ensembles [[pdf]](https://arxiv.org/abs/1811.03575) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large-Scale%20Visual%20Active%20Learning%20with%20Deep%20Probabilistic%20Ensembles_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Large-Scale%20Visual%20Active%20Learning%20with%20Deep%20Probabilistic%20Ensembles.md)
@@ -213,8 +223,15 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
 ****
 ### Autonomous Driving:
+
+##### [18-11-16] [paper20]
+- Uncertainty Estimates and Multi-Hypotheses Networks for Optical Flow [[pdf]](https://arxiv.org/abs/1802.07095) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Estimates%20and%20Multi-Hypotheses%20Networks%20for%20Optical%20Flow.md)
+- *Eddy Ilg, Özgün Çiçek, Silvio Galesso, Aaron Klein, Osama Makansi, Frank Hutter, Thomas Brox*
+- `2018-08-06, ECCV2018`
 
 ##### [18-10-26] [paper16]
 - Towards Safe Autonomous Driving: Capture Uncertainty in the Deep Neural Network For Lidar 3D Vehicle Detection [[pdf]](https://arxiv.org/abs/1804.05132) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Towards%20Safe%20Autonomous%20Driving:%20Capture%20Uncertainty%20in%20the%20Deep%20Neural%20Network%20For%20Lidar%203D%20Vehicle%20Detection_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Towards%20Safe%20Autonomous%20Driving:%20Capture%20Uncertainty%20in%20the%20Deep%20Neural%20Network%20For%20Lidar%203D%20Vehicle%20Detection.md)
@@ -265,10 +282,14 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
 ****
 ### Medical Imaging:
 ****
 ****
+
+
 
 
 
