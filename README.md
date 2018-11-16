@@ -7,8 +7,9 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ## Index
 - [All Papers](#all-papers)
 - [Uncertainty Estimation](#uncertainty-estimation)
-- [3D Object Detection](#3d-object-detection)
+- [Autonomous Driving](#autonomous-driving)
 - [Medical Imaging](#medical-imaging)
+- [3D Object Detection](#3d-object-detection)
 - [SysCon DL Reading Group](#syscon-dl-reading-group)
 
 ****
@@ -17,8 +18,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### All Papers:
 
+##### [18-11-16] [paper20]
+- Uncertainty Estimates and Multi-Hypotheses Networks for Optical Flow [[pdf]](https://arxiv.org/abs/1802.07095) [[pdf with comments]]() [[summary]]()
+- *Eddy Ilg, Özgün Çiçek, Silvio Galesso, Aaron Klein, Osama Makansi, Frank Hutter, Thomas Brox*
+- `2018-08-06, ECCV2018`
+
 ##### [18-11-15] [paper19]
-- Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV) [[pdf]](https://arxiv.org/abs/1711.11279) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Interpretability%20Beyond%20Feature%20Attribution:%20Quantitative%20Testing%20with%20Concept%20Activation%20Vectors%20(TCAV).md)
+- Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV) [[pdf]](https://arxiv.org/abs/1711.11279) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Interpretability%20Beyond%20Feature%20Attribution:%20Quantitative%20Testing%20with%20Concept%20Activation%20Vectors%20(TCAV)_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Interpretability%20Beyond%20Feature%20Attribution:%20Quantitative%20Testing%20with%20Concept%20Activation%20Vectors%20(TCAV).md)
 - *Been Kim, Martin Wattenberg, Justin Gilmer, Carrie Cai, James Wexler, Fernanda Viegas, Rory Sayres*
 - `2018-06-07, ICML2018`
 
@@ -205,8 +211,10 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
 ****
-### 3D Object Detection:
+### Autonomous Driving:
 
 ##### [18-10-26] [paper16]
 - Towards Safe Autonomous Driving: Capture Uncertainty in the Deep Neural Network For Lidar 3D Vehicle Detection [[pdf]](https://arxiv.org/abs/1804.05132) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Towards%20Safe%20Autonomous%20Driving:%20Capture%20Uncertainty%20in%20the%20Deep%20Neural%20Network%20For%20Lidar%203D%20Vehicle%20Detection_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Towards%20Safe%20Autonomous%20Driving:%20Capture%20Uncertainty%20in%20the%20Deep%20Neural%20Network%20For%20Lidar%203D%20Vehicle%20Detection.md)
@@ -227,8 +235,15 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - Leveraging Heteroscedastic Aleatoric Uncertainties for Robust Real-Time LiDAR 3D Object Detection [[pdf]](https://arxiv.org/abs/1809.05590) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Leveraging%20Heteroscedastic%20Aleatoric%20Uncertainties%20for%20Robust%20Real-Time%20LiDAR%203D%20Object%20Detection_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Leveraging%20Heteroscedastic%20Aleatoric%20Uncertainties%20for%20Robust%20Real-Time%20LiDAR%203D%20Object%20Detection.md)
 - *Di Feng, Lars Rosenbaum, Fabian Timm, Klaus Dietmayer*
 - `2018-09-14`
+
+##### [18-09-24] [paper2]
+- What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? [[pdf]](https://arxiv.org/abs/1703.04977) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/What%20Uncertainties%20Do%20We%20Need%20in%20Bayesian%20Deep%20Learning%20for%20Computer%20Vision%3F_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/What%20Uncertainties%20Do%20We%20Need%20in%20Bayesian%20Deep%20Learning%20for%20Computer%20Vision%3F.md)
+- *Alex Kendall, Yarin Gal*
+- `2017-10-05, NIPS2017`
+
 ****
 ****
+
 
 
 
@@ -278,11 +293,60 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+****
+### 3D Object Detection:
+
+##### [18-10-26] [paper16]
+- Towards Safe Autonomous Driving: Capture Uncertainty in the Deep Neural Network For Lidar 3D Vehicle Detection [[pdf]](https://arxiv.org/abs/1804.05132) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Towards%20Safe%20Autonomous%20Driving:%20Capture%20Uncertainty%20in%20the%20Deep%20Neural%20Network%20For%20Lidar%203D%20Vehicle%20Detection_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Towards%20Safe%20Autonomous%20Driving:%20Capture%20Uncertainty%20in%20the%20Deep%20Neural%20Network%20For%20Lidar%203D%20Vehicle%20Detection.md)
+- *Di Feng, Lars Rosenbaum, Klaus Dietmayer*
+- `2018-09-08, ITSC2018`
+
+##### [18-10-05] [paper11]
+- VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection [[pdf]](https://arxiv.org/abs/1711.06396) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VoxelNet:%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/VoxelNet:%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection.md)
+- *Yin Zhou, Oncel Tuzel*
+- `2017-11-17, CVPR2018`
+
+##### [18-10-04] [paper10]
+- PIXOR: Real-time 3D Object Detection from Point Clouds [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_PIXOR_Real-Time_3D_CVPR_2018_paper.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PIXOR:%20Real-time%203D%20Object%20Detection%20from%20Point%20Clouds_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/PIXOR:%20Real-time%203D%20Object%20Detection%20from%20Point%20Clouds.md)
+- *Bin Yang, Wenjie Luo, Raquel Urtasun*
+- `CVPR2018`
+
+##### [18-09-25] [paper4]
+- Leveraging Heteroscedastic Aleatoric Uncertainties for Robust Real-Time LiDAR 3D Object Detection [[pdf]](https://arxiv.org/abs/1809.05590) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Leveraging%20Heteroscedastic%20Aleatoric%20Uncertainties%20for%20Robust%20Real-Time%20LiDAR%203D%20Object%20Detection_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Leveraging%20Heteroscedastic%20Aleatoric%20Uncertainties%20for%20Robust%20Real-Time%20LiDAR%203D%20Object%20Detection.md)
+- *Di Feng, Lars Rosenbaum, Fabian Timm, Klaus Dietmayer*
+- `2018-09-14`
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ****
 ### SysCon DL Reading Group:
 
 ##### [18-11-15] [paper19]
-- Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV) [[pdf]](https://arxiv.org/abs/1711.11279) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Interpretability%20Beyond%20Feature%20Attribution:%20Quantitative%20Testing%20with%20Concept%20Activation%20Vectors%20(TCAV).md)
+- Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV) [[pdf]](https://arxiv.org/abs/1711.11279) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Interpretability%20Beyond%20Feature%20Attribution:%20Quantitative%20Testing%20with%20Concept%20Activation%20Vectors%20(TCAV)_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Interpretability%20Beyond%20Feature%20Attribution:%20Quantitative%20Testing%20with%20Concept%20Activation%20Vectors%20(TCAV).md)
 - *Been Kim, Martin Wattenberg, Justin Gilmer, Carrie Cai, James Wexler, Fernanda Viegas, Rory Sayres*
 - `2018-06-07, ICML2018`
 
