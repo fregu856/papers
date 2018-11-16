@@ -17,7 +17,7 @@
 
 - By combining CAVs with directional derivatives, one can measure the sensitivity of a model's predictions to changes in the input towards the direction of a given concept. TCAV uses this to compute a model's conceptual sensitivity across entire classes of inputs, by computing the fraction of images for a given class which were positively influenced by a given concept (the directional derivatives were positive).
 
-- They qualitatively evaluate their method by e.g. sorting images of a given class based on how similar they are to various concepts (e.g. finding the images of "necktie" which are most similar to the concept "model woman") , and comparing the TCAV scores of different concepts for a given classification (e.g. finding that "red" is more important than "blue" for the classification of "fire engine").
+- They qualitatively evaluate their method by e.g. sorting images of a given class based on how similar they are to various concepts (e.g. finding the images of "necktie" which are most similar to the concept "model woman"), and comparing the TCAV scores of different concepts for a given classification (e.g. finding that "red" is more important than "blue" for the classification of "fire engine").
 
 ### Comments:
 - Quite interesting method which I suppose could be useful for some use-cases. I do however find it quite difficult to say how well the proposed method actually works, i.e., it is quite difficult to know whether the successful examples in the paper are just cherry-picked, or if the method consistently makes sense.
