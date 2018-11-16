@@ -41,4 +41,4 @@
 
 - I am however not completely convinced by the evaluation. I get how the sparsification plots measure the quality of the *relative* uncertainties (i.e., whether or not the model has learned what pixels are the most/least uncertain), but what about the absolute magnitude? Could it be that a model consistently under/over-estimates the uncertainties? If we were to create prediction intervals based on the estimated uncertainties, would they then have valid coverage?
 
-- The multi-headed network is an interesting idea, I did not expect it to yield the best performance. 
+- The multi-headed network is definitely an interesting idea, I did not expect it to yield the best performance. 
