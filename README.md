@@ -371,6 +371,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### SysCon DL Reading Group:
 
+##### [18-11-22] [paper21]
+- When Recurrent Models Don't Need To Be Recurrent [[pdf]](https://arxiv.org/abs/1805.10369) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/When%20Recurrent%20Models%20Don't%20Need%20To%20Be%20Recurrent.md)
+- *John Miller, Moritz Hardt*
+- `2018-05-29`
+
 ##### [18-11-15] [paper19]
 - Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV) [[pdf]](https://arxiv.org/abs/1711.11279) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Interpretability%20Beyond%20Feature%20Attribution:%20Quantitative%20Testing%20with%20Concept%20Activation%20Vectors%20(TCAV)_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Interpretability%20Beyond%20Feature%20Attribution:%20Quantitative%20Testing%20with%20Concept%20Activation%20Vectors%20(TCAV).md)
 - *Been Kim, Martin Wattenberg, Justin Gilmer, Carrie Cai, James Wexler, Fernanda Viegas, Rory Sayres*
