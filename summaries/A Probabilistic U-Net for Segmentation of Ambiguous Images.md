@@ -32,4 +32,4 @@
 
 - If we take the mean of the prior-net Gaussian as our sample, I guess we would produce the most likely segmentation? And I guess sigma of this Gaussian is then a measure of the corresponding uncertainty? How about uncertainty estimates for the pixel-wise predictions, could you extract those as well somehow? Just treat the M maps of predicted class scores like you would when using MC-dropout or ensembles (e.g. take the sample variance as a measure of the epistemic uncertainty), or could you get this directly from the Gaussian?
 
-- Also, would this method not at all work if you only have ground truth label per image?
+- Also, would this method not at all work if you only have one ground truth label per image?
