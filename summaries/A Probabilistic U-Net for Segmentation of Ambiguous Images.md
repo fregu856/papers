@@ -31,3 +31,5 @@
 - The method is mainly intended for the medical imaging domain, where I definitely can see why you might want a model that outputs a set of plausible segmentations which then can be further analyzed by medical professionals. For autonomous driving however, I guess what you ultimately want is just the most likely prediction and, crucially, the corresponding uncertainty of this prediction. Can we extract this from the proposed method?
 
 - If we take the mean of the prior-net Gaussian as our sample, I guess we would produce the most likely segmentation? And I guess sigma of this Gaussian is then a measure of the corresponding uncertainty? How about uncertainty estimates for the pixel-wise predictions, could you extract those as well somehow? Just treat the M maps of predicted class scores like you would when using MC-dropout or ensembles (e.g. take the sample variance as a measure of the epistemic uncertainty), or could you get this directly from the Gaussian?
+
+- Also, would this method not at all work if you only have ground truth label per image?
