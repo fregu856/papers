@@ -6,7 +6,7 @@
 ****
 
 ### General comments on paper quality:
-- Well-written and very interesting paper. I had to read it a couple of times to really start understanding everything. 
+- Well-written and very interesting paper. I had to read it a couple of times to really start understanding everything though. 
 
 ### Paper overview:
 - The authors present a classification model in which they replace the standard softmax output layer with an output layer that outputs parameters of a Dirichlet distribution ([resource1](https://en.wikipedia.org/wiki/Dirichlet_distribution), [resource2](https://endymecy.gitbooks.io/spark-ml-source-analysis/content/%E8%81%9A%E7%B1%BB/LDA/docs/dirichlet.pdf)). I.e., they assume a Dirichlet output distribution, similarly to [Gast and Roth](https://github.com/fregu856/papers/blob/master/summaries/Lightweight%20Probabilistic%20Deep%20Networks.md). The authors interpret the behavior of this predictor from an evidential reasoning / subjective logic perspective (two terms which I am unfamiliar with): *"By placing a Dirichlet distribution on the class probabilities, we treat predictions of a neural net as subjective opinions and learn the function that collects the evidence leading to these opinions by a deterministic neural net from data"*. 
