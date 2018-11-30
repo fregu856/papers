@@ -5,4 +5,8 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+Well-written and very interesting paper. I had to read it a couple of times to really understand everything. 
+
+### Paper overview:
+The authors present a classification model in which they replace the standard softmax output layer with an output layer that outputs parameters of a Dirichlet distribution ([[resource1]](https://en.wikipedia.org/wiki/Dirichlet_distribution), [[resource2]](https://endymecy.gitbooks.io/spark-ml-source-analysis/content/%E8%81%9A%E7%B1%BB/LDA/docs/dirichlet.pdf))
