@@ -18,6 +18,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### All Papers:
 
+##### [18-12-06] [paper25]
+- Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[pdf with comments]]() [[summary]]()
+- *Jishnu Mukhoti, Yarin Gal*
+- `2018-11-30`
+
 ##### [18-12-05] [paper24]
 - On Calibration of Modern Neural Networks [[pdf]](https://arxiv.org/abs/1706.04599) [[code]](https://github.com/gpleiss/temperature_scaling) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20Calibration%20of%20Modern%20Neural%20Networks.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/On%20Calibration%20of%20Modern%20Neural%20Networks.md)
 - *Chuan Guo, Geoff Pleiss, Yu Sun, Kilian Q. Weinberger*
