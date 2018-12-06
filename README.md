@@ -18,8 +18,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### All Papers:
 
+##### [18-12-06] [paper26]
+- Uncertainty quantification using Bayesian neural networks in classification: Application to ischemic stroke lesion segmentation [[pdf]](https://openreview.net/forum?id=Sk_P2Q9sG) [[video]](https://youtu.be/ixGQfepu8Hg) [[pdf with comments]]() [[summary]]()
+- *Yongchan Kwon, Joong-Ho Won, Beom Joon Kim, Myunghee Cho Paik*
+- `2018-04-13, MIDL2018`
+
 ##### [18-12-06] [paper25]
-- Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[pdf with comments]]() [[summary]]()
+- Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.md)
 - *Jishnu Mukhoti, Yarin Gal*
 - `2018-11-30`
 
@@ -175,6 +180,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Uncertainty Estimation:
 
+##### [18-12-06] [paper25]
+- Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.md)
+- *Jishnu Mukhoti, Yarin Gal*
+- `2018-11-30`
+
 ##### [18-12-05] [paper24]
 - On Calibration of Modern Neural Networks [[pdf]](https://arxiv.org/abs/1706.04599) [[code]](https://github.com/gpleiss/temperature_scaling) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20Calibration%20of%20Modern%20Neural%20Networks.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/On%20Calibration%20of%20Modern%20Neural%20Networks.md)
 - *Chuan Guo, Geoff Pleiss, Yu Sun, Kilian Q. Weinberger*
@@ -267,6 +277,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Autonomous Driving:
+
+##### [18-12-06] [paper25]
+- Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.md)
+- *Jishnu Mukhoti, Yarin Gal*
+- `2018-11-30`
 
 ##### [18-11-22] [paper22]
 -  A Probabilistic U-Net for Segmentation of Ambiguous Images [[pdf]](https://arxiv.org/abs/1806.05034) [[code]](https://github.com/SimonKohl/probabilistic_unet) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Probabilistic%20U-Net%20for%20Segmentation%20of%20Ambiguous%20Images.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/A%20Probabilistic%20U-Net%20for%20Segmentation%20of%20Ambiguous%20Images.md)
