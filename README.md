@@ -24,7 +24,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-04-13, MIDL2018` -->
 
 ##### [18-12-06] [paper25]
-- Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.md)
+- Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.md)
 - *Jishnu Mukhoti, Yarin Gal*
 - `2018-11-30`
 
@@ -180,13 +180,8 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Uncertainty Estimation:
 
-##### [18-12-06] [paper26]
-- Uncertainty quantification using Bayesian neural networks in classification: Application to ischemic stroke lesion segmentation [[pdf]](https://openreview.net/forum?id=Sk_P2Q9sG) [[video]](https://youtu.be/ixGQfepu8Hg) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20quantification%20using%20Bayesian%20neural%20networks%20in%20classification:%20Application%20to%20ischemic%20stroke%20lesion%20segmentation.md)
-- *Yongchan Kwon, Joong-Ho Won, Beom Joon Kim, Myunghee Cho Paik*
-- `2018-04-13, MIDL2018`
-
 ##### [18-12-06] [paper25]
-- Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.md)
+- Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.md)
 - *Jishnu Mukhoti, Yarin Gal*
 - `2018-11-30`
 
@@ -284,7 +279,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ### Autonomous Driving:
 
 ##### [18-12-06] [paper25]
-- Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.md)
+- Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.md)
 - *Jishnu Mukhoti, Yarin Gal*
 - `2018-11-30`
 
@@ -351,11 +346,6 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Medical Imaging:
-
-##### [18-12-06] [paper26]
-- Uncertainty quantification using Bayesian neural networks in classification: Application to ischemic stroke lesion segmentation [[pdf]](https://openreview.net/forum?id=Sk_P2Q9sG) [[video]](https://youtu.be/ixGQfepu8Hg) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20quantification%20using%20Bayesian%20neural%20networks%20in%20classification:%20Application%20to%20ischemic%20stroke%20lesion%20segmentation.md)
-- *Yongchan Kwon, Joong-Ho Won, Beom Joon Kim, Myunghee Cho Paik*
-- `2018-04-13, MIDL2018`
 
 ##### [18-11-22] [paper22]
 -  A Probabilistic U-Net for Segmentation of Ambiguous Images [[pdf]](https://arxiv.org/abs/1806.05034) [[code]](https://github.com/SimonKohl/probabilistic_unet) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Probabilistic%20U-Net%20for%20Segmentation%20of%20Ambiguous%20Images.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/A%20Probabilistic%20U-Net%20for%20Segmentation%20of%20Ambiguous%20Images.md)
