@@ -23,6 +23,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - *Yongchan Kwon, Joong-Ho Won, Beom Joon Kim, Myunghee Cho Paik*
 - `2018-04-13, MIDL2018` -->
 
+##### [18-12-12] [paper26]
+- Neural Ordinary Differential Equations [[pdf]](https://arxiv.org/abs/1806.07366) [[slides]](https://www.cs.toronto.edu/~duvenaud/talks/ode-talk-google.pdf) [[pdf with comments]]() [[summary]]()
+- *Ricky T. Q. Chen, Yulia Rubanova, Jesse Bettencourt, David Duvenaud*
+- `2018-10-22, NeurIPS2018`
+
 ##### [18-12-06] [paper25]
 - Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.md)
 - *Jishnu Mukhoti, Yarin Gal*
