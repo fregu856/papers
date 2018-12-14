@@ -11,7 +11,7 @@
 ### Paper overview:
 - The authors introduce a new family of deep neural networks by using black-box ODE solvers as a model component. 
 
-- Instead of specifying a discrete sequence of hidden layers by: h_{t+1} = h_{t} + f(h_t, theta_t), where f is some neural network architecture, they interpret these iterative updates as an Euler discretization/approximation of the corresponding continuous dynamics and directly specify this ODE: dh(t)/dt = f(h(t), theta). To compute gradients, they use the adjoint method, which essentially entails solving a second, augmented ODE backwards in time.
+- Instead of specifying a discrete sequence of hidden layers by: h_{t+1} = h_t + f(h_t, theta_t), where f is some neural network architecture, they interpret these iterative updates as an Euler discretization/approximation of the corresponding continuous dynamics and directly specify this ODE: dh(t)/dt = f(h(t), theta). To compute gradients, they use the adjoint method, which essentially entails solving a second, augmented ODE backwards in time.
 
 - For example, if you remove the final ReLU layer, do not perform any down-sampling and have the same number of input- and output channels, a residual block in ResNet specifies a transformation precisely of the kind h_{t+1} = h_{t} + f(h_t, theta_t). Instead of stacking a number of these residual blocks, one could thus directly parameterize the corresponding ODE, dh(t)/dt = f(h(t), theta), and use an ODE solver to obtain h(T) as your output. The authors provide a [code example](https://github.com/rtqichen/torchdiffeq/blob/master/examples/odenet_mnist.py) where they replace 6 such residual blocks with this parameterized ODE in a larger classification model:
 ```
