@@ -24,7 +24,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-04-13, MIDL2018` -->
 
 ##### [18-12-14] [paper27]
-- Acquisition of Localization Confidence for Accurate Object Detection [[pdf]](https://arxiv.org/abs/1807.11590) [[code]](https://github.com/vacancy/PreciseRoIPooling) [[oral presentation]](https://youtu.be/SNCsXOFr_Ug) [[pdf with comments]]() [[summary]]()
+- Acquisition of Localization Confidence for Accurate Object Detection [[pdf]](https://arxiv.org/abs/1807.11590) [[code]](https://github.com/vacancy/PreciseRoIPooling) [[oral presentation]](https://youtu.be/SNCsXOFr_Ug) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Acquisition%20of%20Localization%20Confidence%20for%20Accurate%20Object%20Detection.md)
 - *Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, Yuning Jiang*
 - `2018-07-30, ECCV2018`
 
@@ -190,6 +190,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Uncertainty Estimation:
 
+##### [18-12-14] [paper27]
+- Acquisition of Localization Confidence for Accurate Object Detection [[pdf]](https://arxiv.org/abs/1807.11590) [[code]](https://github.com/vacancy/PreciseRoIPooling) [[oral presentation]](https://youtu.be/SNCsXOFr_Ug) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Acquisition%20of%20Localization%20Confidence%20for%20Accurate%20Object%20Detection.md)
+- *Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, Yuning Jiang*
+- `2018-07-30, ECCV2018`
+
 ##### [18-12-06] [paper25]
 - Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.md)
 - *Jishnu Mukhoti, Yarin Gal*
@@ -287,6 +292,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Autonomous Driving:
+
+##### [18-12-14] [paper27]
+- Acquisition of Localization Confidence for Accurate Object Detection [[pdf]](https://arxiv.org/abs/1807.11590) [[code]](https://github.com/vacancy/PreciseRoIPooling) [[oral presentation]](https://youtu.be/SNCsXOFr_Ug) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Acquisition%20of%20Localization%20Confidence%20for%20Accurate%20Object%20Detection.md)
+- *Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, Yuning Jiang*
+- `2018-07-30, ECCV2018`
 
 ##### [18-12-06] [paper25]
 - Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.md)
