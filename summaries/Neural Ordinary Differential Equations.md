@@ -6,14 +6,14 @@
 ****
 
 ### General comments on paper quality:
-Reasonably well-written but very interesting paper. The examples could have been more thoroughly explained, it feels like the authors probably struggled to stay within the page limit.
+- Reasonably well-written but very interesting paper. The examples could have been more thoroughly explained, it feels like the authors probably struggled to stay within the page limit.
 
 ### Paper overview:
-The authors introduce a new family of deep neural networks by using black-box ODE solvers as a model component. 
+- The authors introduce a new family of deep neural networks by using black-box ODE solvers as a model component. 
 
-Instead of specifying a discrete sequence of hidden layers by: h_{t+1} = h_{t} + f(h_t, theta_t), where f is some neural network architecture, they interpret these iterative updates as an Euler discretization/approximation of the corresponding continuous dynamics and directly specify this ODE: dh(t)/dt = f(h(t), theta).
+- Instead of specifying a discrete sequence of hidden layers by: h_{t+1} = h_{t} + f(h_t, theta_t), where f is some neural network architecture, they interpret these iterative updates as an Euler discretization/approximation of the corresponding continuous dynamics and directly specify this ODE: dh(t)/dt = f(h(t), theta). To compute gradients, they use the adjoint method, which essentially entails solving a second, augmented ODE backwards in time.
 
-For example, if you remove the final ReLU layer, do not perform any down-sampling and have the same number of input- and output channels, a residual block in ResNet specifies a transformation precisely of the kind h_{t+1} = h_{t} + f(h_t, theta_t). Instead of stacking a number of these residual blocks, one could thus directly parameterize the corresponding ODE, dh(t)/dt = f(h(t), theta), and use an ODE solver to obtain h(T) as your output. The authors provide a [code example](https://github.com/rtqichen/torchdiffeq/blob/master/examples/odenet_mnist.py) where they replace 6 such residual blocks with this parameterized ODE:
+- For example, if you remove the final ReLU layer, do not perform any down-sampling and have the same number of input- and output channels, a residual block in ResNet specifies a transformation precisely of the kind h_{t+1} = h_{t} + f(h_t, theta_t). Instead of stacking a number of these residual blocks, one could thus directly parameterize the corresponding ODE, dh(t)/dt = f(h(t), theta), and use an ODE solver to obtain h(T) as your output. The authors provide a [code example](https://github.com/rtqichen/torchdiffeq/blob/master/examples/odenet_mnist.py) where they replace 6 such residual blocks with this parameterized ODE in a larger classification model:
 ```
 class ResBlock(nn.Module):
     expansion = 1
@@ -86,3 +86,12 @@ feature_layers = [ODEBlock(ODEfunc(64))] if is_odenet else [ResBlock(64, 64) for
 .
 model = nn.Sequential(*downsampling_layers, *feature_layers, *fc_layers).to(device)
 ```
+
+- When empirically evaluating this approach on MNIST, they find that the model using one ODEBlock instead of 6 ResBlocks achieves almost identical test accuracy, while using fewer parameters (parameters for just one block instead of six).
+
+- The authors also apply their approach to density estimation and time-series modeling, but I chose to focus mainly on the ResNet example.
+ 
+### Comments:
+- Very interesting idea. Would be interesting to attempt to implement e.g. a ResNet101 using this approach. I guess one could try and keep the down-sampling layers, but otherwise replace layer1 - layer4 with one ODEBlock each? 
+
+- It is however not at all clear to me how well this approach would scale to large-scale problems. Would it become too slow? Or would you lose accuracy/performance? Or would the training perhaps even become unstable? Definitely an interesting idea, but much more empirical evaluation is needed.
