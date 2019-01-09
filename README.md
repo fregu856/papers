@@ -456,57 +456,57 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - *Marta Garnelo, Jonathan Schwarz, Dan Rosenbaum, Fabio Viola, Danilo J. Rezende, S.M. Ali Eslami, Yee Whye Teh*
 - `2018-07-04, ICML2018 Workshop`
 
-##### [18-12-12] [paper26]
+##### [2018 w.50] [18-12-12] [paper26]
 - Neural Ordinary Differential Equations [[pdf]](https://arxiv.org/abs/1806.07366) [[code]](https://github.com/rtqichen/torchdiffeq) [[slides]](https://www.cs.toronto.edu/~duvenaud/talks/ode-talk-google.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Ordinary%20Differential%20Equations.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Ordinary%20Differential%20Equations.md)
 - *Ricky T. Q. Chen, Yulia Rubanova, Jesse Bettencourt, David Duvenaud*
 - `2018-10-22, NeurIPS2018`
 
-##### [18-11-29] [paper23]
+##### [2018 w.49] [18-11-29] [paper23]
 -  Evidential Deep Learning to Quantify Classification Uncertainty [[pdf]](https://arxiv.org/abs/1806.01768) [[poster]](https://muratsensoy.github.io/NIPS18_EDL_poster.pdf) [[code example]](https://muratsensoy.github.io/uncertainty.html) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evidential%20Deep%20Learning%20to%20Quantify%20Classification%20Uncertainty.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Evidential%20Deep%20Learning%20to%20Quantify%20Classification%20Uncertainty.md)
 - *Murat Sensoy, Lance Kaplan, Melih Kandemir*
 - `2018-10-31, NeurIPS2018`
 
-##### [18-11-22] [paper22]
+##### [2018 w.48] [18-11-22] [paper22]
 -  A Probabilistic U-Net for Segmentation of Ambiguous Images [[pdf]](https://arxiv.org/abs/1806.05034) [[code]](https://github.com/SimonKohl/probabilistic_unet) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Probabilistic%20U-Net%20for%20Segmentation%20of%20Ambiguous%20Images.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/A%20Probabilistic%20U-Net%20for%20Segmentation%20of%20Ambiguous%20Images.md)
 - *Simon A. A. Kohl, Bernardino Romera-Paredes, Clemens Meyer, Jeffrey De Fauw, Joseph R. Ledsam, Klaus H. Maier-Hein, S. M. Ali Eslami, Danilo Jimenez Rezende, Olaf Ronneberger*
 - `2018-10-29, NeurIPS2018`
 
-##### [18-11-22] [paper21]
+##### [2018 w.47] [18-11-22] [paper21]
 - When Recurrent Models Don't Need To Be Recurrent [[pdf]](https://arxiv.org/abs/1805.10369) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/When%20Recurrent%20Models%20Don%E2%80%99t%20Need%20To%20Be%20Recurrent.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/When%20Recurrent%20Models%20Don't%20Need%20To%20Be%20Recurrent.md)
 - *John Miller, Moritz Hardt*
 - `2018-05-29`
 
-##### [18-11-15] [paper19]
+##### [2018 w.46] [18-11-15] [paper19]
 - Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV) [[pdf]](https://arxiv.org/abs/1711.11279) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Interpretability%20Beyond%20Feature%20Attribution:%20Quantitative%20Testing%20with%20Concept%20Activation%20Vectors%20(TCAV)_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Interpretability%20Beyond%20Feature%20Attribution:%20Quantitative%20Testing%20with%20Concept%20Activation%20Vectors%20(TCAV).md)
 - *Been Kim, Martin Wattenberg, Justin Gilmer, Carrie Cai, James Wexler, Fernanda Viegas, Rory Sayres*
 - `2018-06-07, ICML2018`
 
-##### [18-11-08] [paper17]
+##### [2018 w.45] [18-11-08] [paper17]
 - The Lottery Ticket Hypothesis: Finding Small, Trainable Neural Networks [[pdf]](https://arxiv.org/abs/1803.03635) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Lottery%20Ticket%20Hypothesis:%20Finding%20Small%2C%20Trainable%20Neural%20Networks_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/The%20Lottery%20Ticket%20Hypothesis:%20Finding%20Small%2C%20Trainable%20Neural%20Networks.md)
 - *Jonathan Frankle, Michael Carbin*
 - `2018-03-09, ICLR2019 submission`
 
-##### [18-09-27] [paper7]
+##### [2018 w.44] [18-09-27] [paper7]
 - Conditional Neural Processes [[pdf]](https://arxiv.org/abs/1807.01613) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conditional%20Neural%20Processes_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Conditional%20Neural%20Processes.md)
 - *Marta Garnelo, Dan Rosenbaum, Chris J. Maddison, Tiago Ramalho, David Saxton, Murray Shanahan, Yee Whye Teh, Danilo J. Rezende, S. M. Ali Eslami*
 - `2018-07-04, ICML2018`
 
-##### [18-10-25] [paper15]
+##### [2018 w.43] [18-10-25] [paper15]
 - Bayesian Convolutional Neural Networks with Many Channels are Gaussian Processes [[pdf]](https://arxiv.org/abs/1810.05148) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Convolutional%20Neural%20Networks%20with%20Many%20Channels%20are%20Gaussian%20Processes_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Bayesian%20Convolutional%20Neural%20Networks%20with%20Many%20Channels%20are%20Gaussian%20Processes.md)
 - *Roman Novak, Lechao Xiao, Jaehoon Lee, Yasaman Bahri, Daniel A. Abolafia, Jeffrey Pennington, Jascha Sohl-Dickstein*
 - `2018-10-11`
 
-##### [18-10-04] [paper9]
+##### [2018 w.42] [18-10-04] [paper9]
 - On gradient regularizers for MMD GANs [[pdf]](https://arxiv.org/abs/1805.11565) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20gradient%20regularizers%20for%20MMD%20GANs_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/On%20gradient%20regularizers%20for%20MMD%20GANs.md)
 - *Michael Arbel, Dougal J. Sutherland, Mikołaj Bińkowski, Arthur Gretton*
 - `2018-05-29`
 
-##### [18-09-27] [paper6]
+##### [2018 w.41] [18-09-27] [paper6]
 - Neural Autoregressive Flows [[pdf]](https://arxiv.org/abs/1804.00779) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Autoregressive%20Flows_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Autoregressive%20Flows.md)
 - *Chin-Wei Huang, David Krueger, Alexandre Lacoste, Aaron Courville*
 - `2018-04-03, ICML2018`
 
-##### [18-09-20] [paper1]
+##### [2018 w.40] [18-09-20] [paper1]
 - Gaussian Process Behaviour in Wide Deep Neural Networks [[pdf]](https://arxiv.org/abs/1804.11271) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gaussian%20Process%20Behaviour%20in%20Wide%20Deep%20Neural%20Networks.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Gaussian%20Process%20Behaviour%20in%20Wide%20Deep%20Neural%20Networks.md)
 - *Alexander G. de G. Matthews, Mark Rowland, Jiri Hron, Richard E. Turner, Zoubin Ghahramani*
 - `2018-08-16, ICLR2018`
