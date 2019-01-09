@@ -20,15 +20,20 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### All Papers:
 
-<!-- ##### [18-12-06] [paper26]
+<!-- ##### [18-12-06] [paperXXXXXXXXX]
 - Uncertainty quantification using Bayesian neural networks in classification: Application to ischemic stroke lesion segmentation [[pdf]](https://openreview.net/forum?id=Sk_P2Q9sG) [[video]](https://youtu.be/ixGQfepu8Hg) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20quantification%20using%20Bayesian%20neural%20networks20in%20classification:%20Application%20to%20ischemic%20stroke%20lesion%20segmentation.md)
 - *Yongchan Kwon, Joong-Ho Won, Beom Joon Kim, Myunghee Cho Paik*
 - `2018-04-13, MIDL2018` -->
 
-##### [18-12-14] [paper27]
+<!-- ##### [18-12-14] [paperXXXXXXXXXXX]
 - Acquisition of Localization Confidence for Accurate Object Detection [[pdf]](https://arxiv.org/abs/1807.11590) [[code]](https://github.com/vacancy/PreciseRoIPooling) [[oral presentation]](https://youtu.be/SNCsXOFr_Ug) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Acquisition%20of%20Localization%20Confidence%20for%20Accurate%20Object%20Detection.md)
 - *Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, Yuning Jiang*
-- `2018-07-30, ECCV2018`
+- `2018-07-30, ECCV2018` -->
+
+##### [19-01-09] [paper27]
+- Relaxed Softmax: Efficient Confidence Auto-Calibration for Safe Pedestrian Detection [[pdf]](https://openreview.net/forum?id=S1lG7aTnqQ) [[poster]](http://www.robots.ox.ac.uk/~vgg/publications/2018/Neumann18c/poster.pdf) [[pdf with comments]]() [[summary]]()
+- *Lukas Neumann, Andrew Zisserman, Andrea Vedaldi*
+- `2018-11-29, NeurIPS2018 Workshop`
 
 ##### [18-12-12] [paper26]
 - Neural Ordinary Differential Equations [[pdf]](https://arxiv.org/abs/1806.07366) [[code]](https://github.com/rtqichen/torchdiffeq) [[slides]](https://www.cs.toronto.edu/~duvenaud/talks/ode-talk-google.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Ordinary%20Differential%20Equations.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Ordinary%20Differential%20Equations.md)
