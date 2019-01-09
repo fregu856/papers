@@ -11,6 +11,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Medical Imaging](#medical-imaging)
 - [3D Object Detection](#3d-object-detection)
 - [SysCon DL Reading Group](#syscon-dl-reading-group)
+- - [2019](#2019)
 - - [2018](#2018)
 
 ****
@@ -451,6 +452,8 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### SysCon DL Reading Group:
+
+#### 2019:
 
 ##### [2019 w.2] [18-09-30] [paper8]
 - Neural Processes [[pdf]](https://arxiv.org/abs/1807.01622) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Processes_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Processes.md)
