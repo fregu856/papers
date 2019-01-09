@@ -458,6 +458,9 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### SysCon DL Reading Group:
 
+- [2019](#2019)
+- [2018](#2018)
+
 #### 2019:
 
 ##### [2019 w.2] [18-09-30] [paper8]
