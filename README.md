@@ -11,6 +11,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Medical Imaging](#medical-imaging)
 - [3D Object Detection](#3d-object-detection)
 - [SysCon DL Reading Group](#syscon-dl-reading-group)
+- - [2018](#2018)
 
 ****
 ****
@@ -455,6 +456,8 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - Neural Processes [[pdf]](https://arxiv.org/abs/1807.01622) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Processes_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Processes.md)
 - *Marta Garnelo, Jonathan Schwarz, Dan Rosenbaum, Fabio Viola, Danilo J. Rezende, S.M. Ali Eslami, Yee Whye Teh*
 - `2018-07-04, ICML2018 Workshop`
+
+#### 2018:
 
 ##### [2018 w.50] [18-12-12] [paper26]
 - Neural Ordinary Differential Equations [[pdf]](https://arxiv.org/abs/1806.07366) [[code]](https://github.com/rtqichen/torchdiffeq) [[slides]](https://www.cs.toronto.edu/~duvenaud/talks/ode-talk-google.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Ordinary%20Differential%20Equations.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Ordinary%20Differential%20Equations.md)
