@@ -11,8 +11,6 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Medical Imaging](#medical-imaging)
 - [3D Object Detection](#3d-object-detection)
 - [SysCon DL Reading Group](#syscon-dl-reading-group)
-- - [2019](#2019)
-- - [2018](#2018)
 
 ****
 ****
