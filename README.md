@@ -558,16 +558,21 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `1994-12, The Annals of Statistics`
 
 ##### [2018 w.50 II]
-- Particle Gibbs with Ancestor Sampling [[pdf]](http://jmlr.org/papers/volume15/lindsten14a/lindsten14a.pdf) [[pdf with comments]]()
+- Particle Gibbs with Ancestor Sampling [[pdf]](http://jmlr.org/papers/volume15/lindsten14a/lindsten14a.pdf)
 - *Fredrik Lindsten, Michael I. Jordan, Thomas B. Schön*
 - `2014-06-14, Journal of Machine Learning Research`
 
 ##### [2018 w.50 I]
-- Particle Markov chain Monte Carlo methods [[pdf]](https://www.stats.ox.ac.uk/~doucet/andrieu_doucet_holenstein_PMCMC.pdf) [[pdf with comments]]()
+- Particle Markov chain Monte Carlo methods [[pdf]](https://www.stats.ox.ac.uk/~doucet/andrieu_doucet_holenstein_PMCMC.pdf)
 - *Christophe Andrieu, Arnaud Doucet, Roman Holenstein*
 - `2010, Journal of the Royal Statistical Society`
 
 ##### [2018 w.48]
-- State Space LSTM Models with Particle MCMC Inference [[pdf]](https://arxiv.org/abs/1711.11179) [[pdf with comments]]()
+- State Space LSTM Models with Particle MCMC Inference [[pdf]](https://arxiv.org/abs/1711.11179)
 - *Xun Zheng, Manzil Zaheer, Amr Ahmed, Yuan Wang, Eric P Xing, Alexander J Smola*
 - `2017-11-30`
+
+##### [2018 w.46]
+- Rethinking the Effective Sample Size [[pdf]](https://arxiv.org/abs/1809.04129)
+- *Víctor Elvira, Luca Martino, Christian P. Robert*
+- `2018-09-11, `
