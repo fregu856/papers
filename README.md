@@ -11,6 +11,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Medical Imaging](#medical-imaging)
 - [3D Object Detection](#3d-object-detection)
 - [SysCon DL Reading Group](#syscon-dl-reading-group)
+- [SysCon MC Reading Group](#syscon-mc-reading-group)
 
 ****
 ****
@@ -29,7 +30,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-07-30, ECCV2018` -->
 
 ##### [19-01-17] [paper28]
-- How Does Batch Normalization Help Optimization? [[pdf]](https://arxiv.org/abs/1805.11604) [[poster]](http://people.csail.mit.edu/tsipras/batchnorm_poster.pdf) [[video]](https://youtu.be/ZOabsYbmBRM) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/How%20Does%20Batch%20Normalization%20Help%20Optimization%3F.md)
+- How Does Batch Normalization Help Optimization? [[pdf]](https://arxiv.org/abs/1805.11604) [[poster]](http://people.csail.mit.edu/tsipras/batchnorm_poster.pdf) [[video]](https://youtu.be/ZOabsYbmBRM) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20Does%20Batch%20Normalization%20Help%20Optimization%3F.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/How%20Does%20Batch%20Normalization%20Help%20Optimization%3F.md)
 - *Shibani Santurkar, Dimitris Tsipras, Andrew Ilyas, Aleksander Madry*
 - `2018-10-27, NeurIPS2018`
 
@@ -467,7 +468,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 #### 2019:
 
 ##### [2019 w.3] ~~[19-01-17] [paper28]~~
-- How Does Batch Normalization Help Optimization? [[pdf]](https://arxiv.org/abs/1805.11604) [[poster]](http://people.csail.mit.edu/tsipras/batchnorm_poster.pdf) [[video]](https://youtu.be/ZOabsYbmBRM) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/How%20Does%20Batch%20Normalization%20Help%20Optimization%3F.md)
+- How Does Batch Normalization Help Optimization? [[pdf]](https://arxiv.org/abs/1805.11604) [[poster]](http://people.csail.mit.edu/tsipras/batchnorm_poster.pdf) [[video]](https://youtu.be/ZOabsYbmBRM) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20Does%20Batch%20Normalization%20Help%20Optimization%3F.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/How%20Does%20Batch%20Normalization%20Help%20Optimization%3F.md)
 - *Shibani Santurkar, Dimitris Tsipras, Andrew Ilyas, Aleksander Madry*
 - `2018-10-27, NeurIPS2018`
 
@@ -532,3 +533,26 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - Gaussian Process Behaviour in Wide Deep Neural Networks [[pdf]](https://arxiv.org/abs/1804.11271) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gaussian%20Process%20Behaviour%20in%20Wide%20Deep%20Neural%20Networks.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Gaussian%20Process%20Behaviour%20in%20Wide%20Deep%20Neural%20Networks.md)
 - *Alexander G. de G. Matthews, Mark Rowland, Jiri Hron, Richard E. Turner, Zoubin Ghahramani*
 - `2018-08-16, ICLR2018`
+
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### SysCon MC Reading Group:
+
+##### [2019 w.3]
+- Markov Chains for Exploring Posterior Distributions [[pdf]](http://www.stat.rice.edu/~dcox/Stat552/Mcmc/tierneyMCMCAnnStat94.pdf) [[pdf with comments]]()
+- *Luke Tierney*
+- `1994-12-01, The Annals of Statistics`
