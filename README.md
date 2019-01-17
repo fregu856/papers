@@ -10,8 +10,8 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Autonomous Driving](#autonomous-driving)
 - [Medical Imaging](#medical-imaging)
 - [3D Object Detection](#3d-object-detection)
-- [SysCon DL Reading Group](#syscon-dl-reading-group)
-- [SysCon MC Reading Group](#syscon-mc-reading-group)
+- [SysCon Deep Learning Reading Group](#syscon-deep-learning-reading-group)
+- [SysCon Monte Carlo Reading Group](#syscon-monte-carlo-reading-group)
 
 ****
 ****
@@ -460,7 +460,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 ****
-### SysCon DL Reading Group:
+### SysCon Deep Learning Reading Group:
 
 - [2019](#2019)
 - [2018](#2018)
@@ -550,7 +550,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 ****
-### SysCon MC Reading Group:
+### SysCon Monte Carlo Reading Group:
 
 ##### [2019 w.3]
 - Markov Chains for Exploring Posterior Distributions [[pdf]](http://www.stat.rice.edu/~dcox/Stat552/Mcmc/tierneyMCMCAnnStat94.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Markov%20Chains%20for%20Exploring%20Posterior%20Distributions.pdf)
