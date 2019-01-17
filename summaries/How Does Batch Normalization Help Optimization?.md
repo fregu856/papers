@@ -8,7 +8,7 @@
 (I had to make this summary less detailed than usual)
 
 ### General comments on paper quality:
-- Well-written and interesting paper. A recommended read if you have ever been given the explanation that batch normalization works because it reduces the internal covariate shift (ICS). 
+- Well-written and interesting paper. A recommended read if you have ever been given the explanation that batch normalization works because it reduces the internal covariate shift. 
 
 ### Paper overview:
 - The abstract summarizes the paper very well:
@@ -19,3 +19,8 @@
 - _"Instead, we identify a key effect that BatchNorm has on the training process: it reparametrizes the underlying optimization problem to make it more stable (in the sense of loss Lipschitzness) and smooth (in the sense of “effective” β-smoothness of the loss). This implies that the gradients used in training are more predictive and well-behaved, which enables faster and more effective optimization."_
 
 - _"We also show that this smoothing effect is not unique to BatchNorm. In fact, several other natural normalization strategies have similar impact and result in a comparable performance gain."_
+
+### Comments:
+- It has never been clear to me how/why batch normalization works, I even had to remove all BatchNorm layers in an architecture once to get the model to train properly. Thus, I definitely appreciate this type of investigation.
+
+- It is somewhat unclear to me how general the presented theoretical results actually are.
