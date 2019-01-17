@@ -29,7 +29,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-07-30, ECCV2018` -->
 
 ##### [19-01-17] [paper28]
-- How Does Batch Normalization Help Optimization? [[pdf]](https://arxiv.org/abs/1805.11604) [[poster]](http://people.csail.mit.edu/tsipras/batchnorm_poster.pdf) [[video]](https://youtu.be/ZOabsYbmBRM) [[pdf with comments]]() [[summary]]()
+- How Does Batch Normalization Help Optimization? [[pdf]](https://arxiv.org/abs/1805.11604) [[poster]](http://people.csail.mit.edu/tsipras/batchnorm_poster.pdf) [[video]](https://youtu.be/ZOabsYbmBRM) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/How%20Does%20Batch%20Normalization%20Help%20Optimization%3F.md)
 - *Shibani Santurkar, Dimitris Tsipras, Andrew Ilyas, Aleksander Madry*
 - `2018-10-27, NeurIPS2018`
 
@@ -465,6 +465,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2018](#2018)
 
 #### 2019:
+
+##### [2019 w.3] ~~[19-01-17] [paper28]~~
+- How Does Batch Normalization Help Optimization? [[pdf]](https://arxiv.org/abs/1805.11604) [[poster]](http://people.csail.mit.edu/tsipras/batchnorm_poster.pdf) [[video]](https://youtu.be/ZOabsYbmBRM) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/How%20Does%20Batch%20Normalization%20Help%20Optimization%3F.md)
+- *Shibani Santurkar, Dimitris Tsipras, Andrew Ilyas, Aleksander Madry*
+- `2018-10-27, NeurIPS2018`
 
 ##### [2019 w.2] ~~[18-09-30] [paper8]~~
 - Neural Processes [[pdf]](https://arxiv.org/abs/1807.01622) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Processes_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Processes.md)
