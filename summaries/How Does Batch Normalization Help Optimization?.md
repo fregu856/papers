@@ -5,7 +5,7 @@
 
 ****
 
-(I was not able to spend as much time as I would normally like writing this summary)
+_(I was not able to spend as much time as I would normally like writing this summary)_
 
 ### General comments on paper quality:
 - Well-written and interesting paper. A recommended read if you have ever been given the explanation that batch normalization works because it reduces the internal covariate shift (ICS). 
