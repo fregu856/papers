@@ -553,6 +553,6 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ### SysCon MC Reading Group:
 
 ##### [2019 w.3]
-- Markov Chains for Exploring Posterior Distributions [[pdf]](http://www.stat.rice.edu/~dcox/Stat552/Mcmc/tierneyMCMCAnnStat94.pdf) [[pdf with comments]]()
+- Markov Chains for Exploring Posterior Distributions [[pdf]](http://www.stat.rice.edu/~dcox/Stat552/Mcmc/tierneyMCMCAnnStat94.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Markov%20Chains%20for%20Exploring%20Posterior%20Distributions.pdf)
 - *Luke Tierney*
 - `1994-12-01, The Annals of Statistics`
