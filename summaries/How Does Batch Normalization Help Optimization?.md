@@ -5,4 +5,12 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+Well-written and interesting paper. A recommended read if you have ever been given the explanation that batch normalization (BatchNorm) works because it reduces the internal covariate shift (ICS). 
+
+### Paper overview:
+The abstract summarizes the paper very well:
+- _Batch Normalization (BatchNorm) is a widely adopted technique that enables faster and more stable training of deep neural networks (DNNs). Despite its pervasiveness, the exact reasons for BatchNorm's effectiveness are still poorly understood. The popular belief is that this effectiveness stems from controlling the change of the layers' input distributions during training to reduce the so-called "internal covariate shift". In this work, we demonstrate that such distributional stability of layer inputs has little to do with the success of BatchNorm. Instead, we uncover a more fundamental impact of BatchNorm on the training process: it makes the optimization landscape significantly smoother. This smoothness induces a more predictive and stable behavior of the gradients, allowing for faster training._
+
+
+### Comments:
