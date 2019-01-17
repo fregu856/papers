@@ -566,3 +566,8 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - Particle Markov chain Monte Carlo methods [[pdf]](https://www.stats.ox.ac.uk/~doucet/andrieu_doucet_holenstein_PMCMC.pdf) [[pdf with comments]]()
 - *Christophe Andrieu, Arnaud Doucet, Roman Holenstein*
 - `2010, Journal of the Royal Statistical Society`
+
+##### [2018 w.48]
+- State Space LSTM Models with Particle MCMC Inference [[pdf]](https://arxiv.org/abs/1711.11179) [[pdf with comments]]()
+- *Xun Zheng, Manzil Zaheer, Amr Ahmed, Yuan Wang, Eric P Xing, Alexander J Smola*
+- `2017-11-30`
