@@ -555,4 +555,14 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ##### [2019 w.3]
 - Markov Chains for Exploring Posterior Distributions [[pdf]](http://www.stat.rice.edu/~dcox/Stat552/Mcmc/tierneyMCMCAnnStat94.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Markov%20Chains%20for%20Exploring%20Posterior%20Distributions.pdf)
 - *Luke Tierney*
-- `1994-12-01, The Annals of Statistics`
+- `1994-12, The Annals of Statistics`
+
+##### [2018 w.50 II]
+- Particle Gibbs with Ancestor Sampling [[pdf]](http://jmlr.org/papers/volume15/lindsten14a/lindsten14a.pdf) [[pdf with comments]]()
+- *Fredrik Lindsten, Michael I. Jordan, Thomas B. Schön*
+- `2014-06-14, Journal of Machine Learning Research`
+
+##### [2018 w.50 I]
+- Particle Markov chain Monte Carlo methods [[pdf]](https://www.stats.ox.ac.uk/~doucet/andrieu_doucet_holenstein_PMCMC.pdf) [[pdf with comments]]()
+- *Christophe Andrieu, Arnaud Doucet, Roman Holenstein*
+- `2010, Journal of the Royal Statistical Society`
