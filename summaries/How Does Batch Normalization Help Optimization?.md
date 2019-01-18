@@ -8,7 +8,7 @@
 (I had to make this summary less detailed than usual)
 
 ### General comments on paper quality:
-- Well-written and interesting paper. A recommended read if you have ever been given the explanation that batch normalization works because it reduces the internal covariate shift. 
+- Quite well-written and interesting paper. A recommended read if you have ever been given the explanation that batch normalization works because it reduces the internal covariate shift. 
 
 ### Paper overview:
 - The abstract summarizes the paper very well:
