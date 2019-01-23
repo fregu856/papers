@@ -30,7 +30,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-07-30, ECCV2018` -->
 
 ##### [19-01-23] [paper29]
-- Bayesian Learning via Stochastic Gradient Langevin Dynamics [[pdf]](https://www.ics.uci.edu/~welling/publications/papers/stoclangevin_v6.pdf) [[pdf with comments]]() [[summary (TODO!)]]()
+- Bayesian Learning via Stochastic Gradient Langevin Dynamics [[pdf]](https://www.ics.uci.edu/~welling/publications/papers/stoclangevin_v6.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Learning%20via%20Stochastic%20Gradient%20Langevin%20Dynamics.pdf) [[summary (TODO!)]]()
 - *Max Welling, Yee Whye Teh*
 - `ICML2011`
 
@@ -207,7 +207,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ### Uncertainty Estimation:
 
 ##### [19-01-23] [paper29]
-- Bayesian Learning via Stochastic Gradient Langevin Dynamics [[pdf]](https://www.ics.uci.edu/~welling/publications/papers/stoclangevin_v6.pdf) [[pdf with comments]]() [[summary (TODO!)]]()
+- Bayesian Learning via Stochastic Gradient Langevin Dynamics [[pdf]](https://www.ics.uci.edu/~welling/publications/papers/stoclangevin_v6.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Learning%20via%20Stochastic%20Gradient%20Langevin%20Dynamics.pdf) [[summary (TODO!)]]()
 - *Max Welling, Yee Whye Teh*
 - `ICML2011`
 
