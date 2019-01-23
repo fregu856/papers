@@ -10,8 +10,8 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Autonomous Driving](#autonomous-driving)
 - [Medical Imaging](#medical-imaging)
 - [3D Object Detection](#3d-object-detection)
-- [SysCon DL Reading Group](#syscon-dl-reading-group)
-- [SysCon MC Reading Group](#syscon-mc-reading-group)
+- [SysCon Deep Learning Reading Group](#syscon-deep-learning-reading-group)
+- [SysCon Monte Carlo Reading Group](#syscon-monte-carlo-reading-group)
 
 ****
 ****
@@ -28,6 +28,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - Acquisition of Localization Confidence for Accurate Object Detection [[pdf]](https://arxiv.org/abs/1807.11590) [[code]](https://github.com/vacancy/PreciseRoIPooling) [[oral presentation]](https://youtu.be/SNCsXOFr_Ug) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Acquisition%20of%20Localization%20Confidence%20for%20Accurate%20Object%20Detection.md)
 - *Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, Yuning Jiang*
 - `2018-07-30, ECCV2018` -->
+
+##### [19-01-23] [paper29]
+- Bayesian Learning via Stochastic Gradient Langevin Dynamics [[pdf]](https://www.ics.uci.edu/~welling/publications/papers/stoclangevin_v6.pdf) [[pdf with comments]]() [[summary (TODO!)]]()
+- *Max Welling, Yee Whye Teh*
+- `ICML2011`
 
 ##### [19-01-17] [paper28]
 - How Does Batch Normalization Help Optimization? [[pdf]](https://arxiv.org/abs/1805.11604) [[poster]](http://people.csail.mit.edu/tsipras/batchnorm_poster.pdf) [[video]](https://youtu.be/ZOabsYbmBRM) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20Does%20Batch%20Normalization%20Help%20Optimization%3F.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/How%20Does%20Batch%20Normalization%20Help%20Optimization%3F.md)
@@ -200,6 +205,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Uncertainty Estimation:
+
+##### [19-01-23] [paper29]
+- Bayesian Learning via Stochastic Gradient Langevin Dynamics [[pdf]](https://www.ics.uci.edu/~welling/publications/papers/stoclangevin_v6.pdf) [[pdf with comments]]() [[summary (TODO!)]]()
+- *Max Welling, Yee Whye Teh*
+- `ICML2011`
 
 ##### [19-01-09] [paper27]
 - Relaxed Softmax: Efficient Confidence Auto-Calibration for Safe Pedestrian Detection [[pdf]](https://openreview.net/forum?id=S1lG7aTnqQ) [[poster]](http://www.robots.ox.ac.uk/~vgg/publications/2018/Neumann18c/poster.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Relaxed%20Softmax:%20Efficient%20Confidence%20Auto-Calibration%20for%20Safe%20Pedestrian%20Detection.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Relaxed%20Softmax:%20Efficient%20Confidence%20Auto-Calibration%20for%20Safe%20Pedestrian%20Detection.md)
@@ -460,7 +470,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 ****
-### SysCon DL Reading Group:
+### SysCon Deep Learning Reading Group:
 
 - [2019](#2019)
 - [2018](#2018)
@@ -550,9 +560,29 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 ****
-### SysCon MC Reading Group:
+### SysCon Monte Carlo Reading Group:
 
 ##### [2019 w.3]
-- Markov Chains for Exploring Posterior Distributions [[pdf]](http://www.stat.rice.edu/~dcox/Stat552/Mcmc/tierneyMCMCAnnStat94.pdf) [[pdf with comments]]()
+- Markov Chains for Exploring Posterior Distributions [[pdf]](http://www.stat.rice.edu/~dcox/Stat552/Mcmc/tierneyMCMCAnnStat94.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Markov%20Chains%20for%20Exploring%20Posterior%20Distributions.pdf)
 - *Luke Tierney*
-- `1994-12-01, The Annals of Statistics`
+- `1994-12, The Annals of Statistics`
+
+##### [2018 w.50 II]
+- Particle Gibbs with Ancestor Sampling [[pdf]](http://jmlr.org/papers/volume15/lindsten14a/lindsten14a.pdf)
+- *Fredrik Lindsten, Michael I. Jordan, Thomas B. Schön*
+- `2014-06-14, Journal of Machine Learning Research`
+
+##### [2018 w.50 I]
+- Particle Markov chain Monte Carlo methods [[pdf]](https://www.stats.ox.ac.uk/~doucet/andrieu_doucet_holenstein_PMCMC.pdf)
+- *Christophe Andrieu, Arnaud Doucet, Roman Holenstein*
+- `2010, Journal of the Royal Statistical Society`
+
+##### [2018 w.48]
+- State Space LSTM Models with Particle MCMC Inference [[pdf]](https://arxiv.org/abs/1711.11179)
+- *Xun Zheng, Manzil Zaheer, Amr Ahmed, Yuan Wang, Eric P Xing, Alexander J Smola*
+- `2017-11-30`
+
+##### [2018 w.46]
+- Rethinking the Effective Sample Size [[pdf]](https://arxiv.org/abs/1809.04129)
+- *Víctor Elvira, Luca Martino, Christian P. Robert*
+- `2018-09-11, `
