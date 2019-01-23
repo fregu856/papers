@@ -29,6 +29,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - *Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, Yuning Jiang*
 - `2018-07-30, ECCV2018` -->
 
+##### [19-01-23] [paper29]
+- Bayesian Learning via Stochastic Gradient Langevin Dynamics [[pdf]](https://www.ics.uci.edu/~welling/publications/papers/stoclangevin_v6.pdf) [[pdf with comments]]()
+- *Max Welling, Yee Whye Teh*
+- `ICML2011`
+
 ##### [19-01-17] [paper28]
 - How Does Batch Normalization Help Optimization? [[pdf]](https://arxiv.org/abs/1805.11604) [[poster]](http://people.csail.mit.edu/tsipras/batchnorm_poster.pdf) [[video]](https://youtu.be/ZOabsYbmBRM) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20Does%20Batch%20Normalization%20Help%20Optimization%3F.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/How%20Does%20Batch%20Normalization%20Help%20Optimization%3F.md)
 - *Shibani Santurkar, Dimitris Tsipras, Andrew Ilyas, Aleksander Madry*
