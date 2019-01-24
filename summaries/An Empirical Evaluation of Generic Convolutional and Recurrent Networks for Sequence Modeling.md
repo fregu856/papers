@@ -5,4 +5,11 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+Well-written and interesting paper.
+
+### Paper overview:
+_"We conduct a systematic evaluation of generic convolutional and recurrent architectures for sequence modeling. The models are evaluated across a broad range of standard tasks that are commonly used to benchmark recurrent networks. Our results indicate that a simple convolutional architecture outperforms canonical recurrent networks such as LSTMs across a diverse range of tasks and datasets, while demonstrating longer effective memory. We conclude that the common association between sequence modeling and recurrent networks should be reconsidered, and convolutional networks should be regarded as a natural starting point for sequence modeling tasks."_
+
+
+### Comments:
