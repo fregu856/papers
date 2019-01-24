@@ -40,7 +40,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-04-19`
 
 ##### [19-01-23] [paper30]
-- Stochastic Gradient Hamiltonian Monte Carlo [[pdf]](https://arxiv.org/abs/1402.4102) [[pdf with comments]]() [[summary (TODO!)]]()
+- Stochastic Gradient Hamiltonian Monte Carlo [[pdf]](https://arxiv.org/abs/1402.4102) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stochastic%20Gradient%20Hamiltonian%20Monte%20Carlo.pdf) [[summary (TODO!)]]()
 - *Tianqi Chen, Emily B. Fox, Carlos Guestrin*
 - `2014-05-12, ICML2014`
 
@@ -227,7 +227,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2016-08-10`
 
 ##### [19-01-23] [paper30]
-- Stochastic Gradient Hamiltonian Monte Carlo [[pdf]](https://arxiv.org/abs/1402.4102) [[pdf with comments]]() [[summary (TODO!)]]()
+- Stochastic Gradient Hamiltonian Monte Carlo [[pdf]](https://arxiv.org/abs/1402.4102) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stochastic%20Gradient%20Hamiltonian%20Monte%20Carlo.pdf) [[summary (TODO!)]]()
 - *Tianqi Chen, Emily B. Fox, Carlos Guestrin*
 - `2014-05-12, ICML2014`
 
