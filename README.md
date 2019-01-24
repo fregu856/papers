@@ -29,6 +29,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - *Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, Yuning Jiang*
 - `2018-07-30, ECCV2018` -->
 
+##### [19-01-24] [paper31]
+- An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling [[pdf]](https://arxiv.org/abs/1803.01271) [[code]](https://github.com/locuslab/TCN) [[pdf with comments]]() [[summary]]()
+- *Shaojie Bai, J. Zico Kolter, Vladlen Koltun*
+- `2018-04-19`
+
 ##### [19-01-23] [paper30]
 - Stochastic Gradient Hamiltonian Monte Carlo [[pdf]](https://arxiv.org/abs/1402.4102) [[pdf with comments]]() [[summary (TODO!)]]()
 - *Tianqi Chen, Emily B. Fox, Carlos Guestrin*
