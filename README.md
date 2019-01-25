@@ -29,8 +29,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - *Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, Yuning Jiang*
 - `2018-07-30, ECCV2018` -->
 
+##### [19-01-25] [paper34]
+- Meta-Learning For Stochastic Gradient MCMC [[pdf]](https://openreview.net/forum?id=HkeoOo09YX) [[code]](https://github.com/WenboGong/MetaSGMCMC) [[slides]](http://yingzhenli.net/home/pdf/uai_udl_meta_sampler.pdf) [[pdf with comments]]() [[summary (TODO!)]]()
+- *Wenbo Gong, Yingzhen Li, José Miguel Hernández-Lobato*
+- `2018-10-28, ICLR2019`
+
 ##### [19-01-25] [paper33]
--  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[pdf with comments]]() [[summary (TODO!)]]()
+-  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.pdf) [[summary (TODO!)]]()
 - *Yi-An Ma, Tianqi Chen, Emily B. Fox*
 - `2015-06-15, NeurIPS2015`
 
@@ -226,8 +231,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Uncertainty Estimation:
 
+##### [19-01-25] [paper34]
+- Meta-Learning For Stochastic Gradient MCMC [[pdf]](https://openreview.net/forum?id=HkeoOo09YX) [[code]](https://github.com/WenboGong/MetaSGMCMC) [[slides]](http://yingzhenli.net/home/pdf/uai_udl_meta_sampler.pdf) [[pdf with comments]]() [[summary (TODO!)]]()
+- *Wenbo Gong, Yingzhen Li, José Miguel Hernández-Lobato*
+- `2018-10-28, ICLR2019`
+
 ##### [19-01-25] [paper33]
--  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[pdf with comments]]() [[summary (TODO!)]]()
+-  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.pdf) [[summary (TODO!)]]()
 - *Yi-An Ma, Tianqi Chen, Emily B. Fox*
 - `2015-06-15, NeurIPS2015`
 
