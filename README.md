@@ -30,7 +30,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-07-30, ECCV2018` -->
 
 ##### [19-01-25] [paper34]
-- Meta-Learning For Stochastic Gradient MCMC [[pdf]](https://openreview.net/forum?id=HkeoOo09YX) [[code]](https://github.com/WenboGong/MetaSGMCMC) [[slides]](http://yingzhenli.net/home/pdf/uai_udl_meta_sampler.pdf) [[pdf with comments]]() [[summary (TODO!)]]()
+- Meta-Learning For Stochastic Gradient MCMC [[pdf]](https://openreview.net/forum?id=HkeoOo09YX) [[code]](https://github.com/WenboGong/MetaSGMCMC) [[slides]](http://yingzhenli.net/home/pdf/uai_udl_meta_sampler.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Meta-Learning%20For%20Stochastic%20Gradient%20MCMC.pdf) [[summary (TODO!)]]()
 - *Wenbo Gong, Yingzhen Li, José Miguel Hernández-Lobato*
 - `2018-10-28, ICLR2019`
 
@@ -232,7 +232,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ### Uncertainty Estimation:
 
 ##### [19-01-25] [paper34]
-- Meta-Learning For Stochastic Gradient MCMC [[pdf]](https://openreview.net/forum?id=HkeoOo09YX) [[code]](https://github.com/WenboGong/MetaSGMCMC) [[slides]](http://yingzhenli.net/home/pdf/uai_udl_meta_sampler.pdf) [[pdf with comments]]() [[summary (TODO!)]]()
+- Meta-Learning For Stochastic Gradient MCMC [[pdf]](https://openreview.net/forum?id=HkeoOo09YX) [[code]](https://github.com/WenboGong/MetaSGMCMC) [[slides]](http://yingzhenli.net/home/pdf/uai_udl_meta_sampler.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Meta-Learning%20For%20Stochastic%20Gradient%20MCMC.pdf) [[summary (TODO!)]]()
 - *Wenbo Gong, Yingzhen Li, José Miguel Hernández-Lobato*
 - `2018-10-28, ICLR2019`
 
