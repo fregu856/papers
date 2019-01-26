@@ -12,4 +12,3 @@
 - I find it weird that they only evaluate their models in terms of accuracy. It is of course a good thing that SG-MCMC methods seem to compare favorably with optimization approaches, but I would have been more interested in an evaluation of some kind of uncertainty estimate (e.g. the sample variance). 
 
 - The studied applications are not overly interesting, the paper seems somewhat dated in that regard.
-
