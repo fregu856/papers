@@ -7,10 +7,10 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ## Index
 - [All Papers](#all-papers)
 - [Uncertainty Estimation](#uncertainty-estimation)
+- - [Stochastic Gradient MCMC](#stochastic-gradient-mcmc)
 - [Autonomous Driving](#autonomous-driving)
 - [Medical Imaging](#medical-imaging)
 - [3D Object Detection](#3d-object-detection)
-- [Stochastic Gradient MCMC](#stochastic-gradient-mcmc)
 - [SysCon Deep Learning Reading Group](#syscon-deep-learning-reading-group)
 - [SysCon Monte Carlo Reading Group](#syscon-monte-carlo-reading-group)
 
