@@ -10,6 +10,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Autonomous Driving](#autonomous-driving)
 - [Medical Imaging](#medical-imaging)
 - [3D Object Detection](#3d-object-detection)
+- [Stochastic Gradient MCMC](#stochastic-gradient-mcmc)
 - [SysCon Deep Learning Reading Group](#syscon-deep-learning-reading-group)
 - [SysCon Monte Carlo Reading Group](#syscon-monte-carlo-reading-group)
 
@@ -440,6 +441,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
 ****
 ### Medical Imaging:
 
@@ -500,6 +502,70 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-09-14`
 ****
 ****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### Stochastic Gradient MCMC:
+
+##### [19-01-26] [paper35]
+- Learning Weight Uncertainty with Stochastic Gradient MCMC for Shape Classification [[pdf]](http://people.duke.edu/~cl319/doc/papers/dbnn_shape_cvpr.pdf)  [[poster]](https://zhegan27.github.io/Papers/dbnn_shape_poster.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Weight%20Uncertainty%20with%20Stochastic%20Gradient%20MCMC%20for%20Shape%20Classification.pdf) [[summary (TODO!)]]()
+- *Chunyuan Li, Andrew Stevens, Changyou Chen, Yunchen Pu, Zhe Gan, Lawrence Carin*
+- `2015, CVPR2016`
+
+##### [19-01-25] [paper34]
+- Meta-Learning For Stochastic Gradient MCMC [[pdf]](https://openreview.net/forum?id=HkeoOo09YX) [[code]](https://github.com/WenboGong/MetaSGMCMC) [[slides]](http://yingzhenli.net/home/pdf/uai_udl_meta_sampler.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Meta-Learning%20For%20Stochastic%20Gradient%20MCMC.pdf) [[summary (TODO!)]]()
+- *Wenbo Gong, Yingzhen Li, José Miguel Hernández-Lobato*
+- `2018-10-28, ICLR2019`
+
+##### [19-01-25] [paper33]
+-  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.pdf) [[summary (TODO!)]]()
+- *Yi-An Ma, Tianqi Chen, Emily B. Fox*
+- `2015-06-15, NeurIPS2015`
+
+##### [19-01-24] [paper32]
+- Tutorial: Introduction to Stochastic Gradient Markov Chain Monte Carlo Methods [[pdf]](https://cse.buffalo.edu/~changyou/PDF/sgmcmc_intro_without_video.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Tutorial:%20Introduction%20to%20Stochastic%20Gradient%20Markov%20Chain%20Monte%20Carlo%20Methods.pdf)
+- *Changyou Chen*
+- `2016-08-10`
+
+##### [19-01-23] [paper30]
+- Stochastic Gradient Hamiltonian Monte Carlo [[pdf]](https://arxiv.org/abs/1402.4102) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stochastic%20Gradient%20Hamiltonian%20Monte%20Carlo.pdf) [[summary (TODO!)]]()
+- *Tianqi Chen, Emily B. Fox, Carlos Guestrin*
+- `2014-05-12, ICML2014`
+
+##### [19-01-23] [paper29]
+- Bayesian Learning via Stochastic Gradient Langevin Dynamics [[pdf]](https://www.ics.uci.edu/~welling/publications/papers/stoclangevin_v6.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Learning%20via%20Stochastic%20Gradient%20Langevin%20Dynamics.pdf) [[summary (TODO!)]]()
+- *Max Welling, Yee Whye Teh*
+- `ICML2011`
+
+****
+****
+
+
+
+
+
+
 
 
 
