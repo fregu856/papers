@@ -11,6 +11,8 @@
 ### Comments:
 - Seems like a good starting point for learning about variational methods applied to neural networks. The theory is presented in a clear way. The presented method also seems fairly straightforward to implement.
 
+- They mainly reference _"Keeping Neural Networks Simple by Minimizing the Description Length of the Weights"_ and _"Practical Variational Inference for Neural Networks"_ as relevant previous work.
+
 - In equation (2), one would have to run the model on the data for multiple weight samples, seems quite computationally expensive?
 
 - Using a diagonal Gaussian for the variational posterior, I wonder how much of an approximation that actually is? Is the true posterior e.g. very likely to be multi-modal?
