@@ -8,7 +8,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [All Papers](#all-papers)
 - [Uncertainty Estimation](#uncertainty-estimation)
 - - [Stochastic Gradient MCMC](#stochastic-gradient-mcmc)
-- - [Variational Bayes](#variational-bayes)
+- - [Variational Inference](#variational-inference)
 - [Autonomous Driving](#autonomous-driving)
 - [Medical Imaging](#medical-imaging)
 - [3D Object Detection](#3d-object-detection)
@@ -591,7 +591,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 ****
-### Variational Bayes:
+### Variational Inference:
 
 ##### [19-01-27] [paper36]
 - Weight Uncertainty in Neural Networks [[pdf]](https://arxiv.org/abs/1505.05424) [[pdf with comments]]() [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Weight%20Uncertainty%20in%20Neural%20Networks.md)
