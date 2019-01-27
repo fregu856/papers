@@ -5,4 +5,14 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Well-written and interesting paper. I am not particularly familiar with variational methods, but still found the paper quite easy to read and understand.
+
+### Comments:
+- Seems like a good starting point for learning about variational methods applied to neural networks. The theory is presented in a clear way. The presented method also seems fairly straightforward to implement.
+
+- In equation (2), one would have to run the model on the data for multiple weight samples, seems quite computationally expensive?
+
+- Using a diagonal Gaussian for the variational posterior, I wonder how much of an approximation that actually is? Is the true posterior e.g. very likely to be multi-modal?
+
+- The MNIST models are only evaluated in terms of accuracy. The regression experiment is quite neat (good to see that the uncertainty increases away from the training data), but they provide very little details. I find it difficult to draw any conclusions from the Bandits experiment.
