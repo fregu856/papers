@@ -13,7 +13,7 @@
 
 - They mainly reference _"Keeping Neural Networks Simple by Minimizing the Description Length of the Weights"_ and _"Practical Variational Inference for Neural Networks"_ as relevant previous work.
 
-- In equation (2), one would have to run the model on the data for multiple weight samples, seems quite computationally expensive?
+- In equation (2), one would have to run the model on the data for multiple weight samples? Seems quite computationally expensive?
 
 - Using a diagonal Gaussian for the variational posterior, I wonder how much of an approximation that actually is? Is the true posterior e.g. very likely to be multi-modal?
 
