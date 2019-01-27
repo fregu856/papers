@@ -17,4 +17,4 @@
 
 - Using a diagonal Gaussian for the variational posterior, I wonder how much of an approximation that actually is? Is the true posterior e.g. very likely to be multi-modal?
 
-- The MNIST models are only evaluated in terms of accuracy. The regression experiment is quite neat (good to see that the uncertainty increases away from the training data), but they provide very little details. I find it difficult to draw any conclusions from the Bandits experiment.
+- The MNIST models are only evaluated in terms of accuracy. The regression experiment is quite neat (good to see that the uncertainty increases away from the training data), but they provide very little details. I find it difficult to draw any real conclusions from the Bandits experiment.
