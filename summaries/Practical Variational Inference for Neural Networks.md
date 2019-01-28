@@ -6,7 +6,9 @@
 ****
 
 ### General comments on paper quality:
-Reasonably well-written and somewhat interesting paper.
+- Reasonably well-written and somewhat interesting paper.
 
 ### Comments:
-The paper seems quite dated compared to [_"Weight Uncertainty in Neural Networks"_](https://github.com/fregu856/papers/blob/master/summaries/Weight%20Uncertainty%20in%20Neural%20Networks.md)
+- The paper seems quite dated compared to [_"Weight Uncertainty in Neural Networks"_](https://github.com/fregu856/papers/blob/master/summaries/Weight%20Uncertainty%20in%20Neural%20Networks.md). I also found it more difficult to read and understand than [_"Weight Uncertainty in Neural Networks"_](https://github.com/fregu856/papers/blob/master/summaries/Weight%20Uncertainty%20in%20Neural%20Networks.md).
+
+- One can probably just skip reading this paper, for an introduction to variational methods applied to neural networks it is better to read [_"Weight Uncertainty in Neural Networks"_](https://github.com/fregu856/papers/blob/master/summaries/Weight%20Uncertainty%20in%20Neural%20Networks.md) instead.
