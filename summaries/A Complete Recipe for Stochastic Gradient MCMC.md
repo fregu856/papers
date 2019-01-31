@@ -5,4 +5,10 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+Well-written and very interesting paper. After reading the papers on [SGLD](https://www.ics.uci.edu/~welling/publications/papers/stoclangevin_v6.pdf) and [SGHMC](https://arxiv.org/abs/1402.4102)
+
+### Paper overview:
+
+
+### Comments:
