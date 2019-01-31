@@ -52,7 +52,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-10-28, ICLR2019`
 
 ##### [19-01-25] [paper33]
--  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.pdf) [[summary (TODO!)]]()
+-  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.md)
 - *Yi-An Ma, Tianqi Chen, Emily B. Fox*
 - `2015-06-15, NeurIPS2015`
 
@@ -269,7 +269,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-10-28, ICLR2019`
 
 ##### [19-01-25] [paper33]
--  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.pdf) [[summary (TODO!)]]()
+-  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.md)
 - *Yi-An Ma, Tianqi Chen, Emily B. Fox*
 - `2015-06-15, NeurIPS2015`
 
@@ -560,7 +560,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-10-28, ICLR2019`
 
 ##### [19-01-25] [paper33]
--  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.pdf) [[summary (TODO!)]]()
+-  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.md)
 - *Yi-An Ma, Tianqi Chen, Emily B. Fox*
 - `2015-06-15, NeurIPS2015`
 
@@ -653,6 +653,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2018](#2018)
 
 #### 2019:
+
+##### [2019 w.5] ~~[19-01-25] [paper33]~~
+-  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.md)
+- *Yi-An Ma, Tianqi Chen, Emily B. Fox*
+- `2015-06-15, NeurIPS2015`
 
 ##### [2019 w.4] ~~[19-01-24] [paper31]~~
 - An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling [[pdf]](https://arxiv.org/abs/1803.01271) [[code]](https://github.com/locuslab/TCN) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Empirical%20Evaluation%20of%20Generic%20Convolutional%20and%20Recurrent%20Networks%20for%20Sequence%20Modeling.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/An%20Empirical%20Evaluation%20of%20Generic%20Convolutional%20and%20Recurrent%20Networks%20for%20Sequence%20Modeling.md)
