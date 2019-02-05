@@ -32,7 +32,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-07-30, ECCV2018` -->
 
 ##### [19-02-05] [paper38]
-- Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models [[pdf]](https://arxiv.org/abs/1805.12114) [[poster]](https://kchua.github.io/misc/poster.pdf) [[video]](https://youtu.be/3d8ixUMSiL8) [[code]](https://github.com/kchua/handful-of-trials) [[pdf with comments]]() [[summary]]()
+- Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models [[pdf]](https://arxiv.org/abs/1805.12114) [[poster]](https://kchua.github.io/misc/poster.pdf) [[video]](https://youtu.be/3d8ixUMSiL8) [[code]](https://github.com/kchua/handful-of-trials) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Deep%20Reinforcement%20Learning%20in%20a%20Handful%20of%20Trials%20using%20Probabilistic%20Dynamics%20Models.md)
 - *Kurtland Chua, Roberto Calandra, Rowan McAllister, Sergey Levine*
 - `2018-05-30, NeurIPS2018`
 
@@ -659,6 +659,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### 2019:
 
+##### [2019 w.6] ~~[19-02-05] [paper38]~~
+- Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models [[pdf]](https://arxiv.org/abs/1805.12114) [[poster]](https://kchua.github.io/misc/poster.pdf) [[video]](https://youtu.be/3d8ixUMSiL8) [[code]](https://github.com/kchua/handful-of-trials) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Deep%20Reinforcement%20Learning%20in%20a%20Handful%20of%20Trials%20using%20Probabilistic%20Dynamics%20Models.md)
+- *Kurtland Chua, Roberto Calandra, Rowan McAllister, Sergey Levine*
+- `2018-05-30, NeurIPS2018`
+
 ##### [2019 w.5] ~~[19-01-25] [paper33]~~
 -  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.md)
 - *Yi-An Ma, Tianqi Chen, Emily B. Fox*
@@ -753,6 +758,16 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### SysCon Monte Carlo Reading Group:
+
+##### [2019 w.6 II]
+- The Continuous-Discrete Time Feedback Particle Filter [[pdf]](https://ieeexplore.ieee.org/document/6859259)
+- *Tao Yang, Henk A. P. Blom, Prashant G. Mehta*
+- `2014, American Control Conference`
+
+##### [2019 w.6 I]
+- Feedback Particle Filter [[pdf]](https://ieeexplore.ieee.org/document/6530707)
+- *Tao Yang, Prashant G. Mehta, Sean P. Meyn*
+- `2013, IEEE Transactions on Automatic Control`
 
 ##### [2019 w.3]
 - Markov Chains for Exploring Posterior Distributions [[pdf]](http://www.stat.rice.edu/~dcox/Stat552/Mcmc/tierneyMCMCAnnStat94.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Markov%20Chains%20for%20Exploring%20Posterior%20Distributions.pdf)
