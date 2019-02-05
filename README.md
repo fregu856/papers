@@ -759,6 +759,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### SysCon Monte Carlo Reading Group:
 
+##### [2019 w.6 II]
+- The Continuous-Discrete Time Feedback Particle Filter [[pdf]](https://ieeexplore.ieee.org/document/6859259)
+- *Tao Yang, Henk A. P. Blom, Prashant G. Mehta*
+- `2014, American Control Conference`
+
 ##### [2019 w.6 I]
 - Feedback Particle Filter [[pdf]](https://ieeexplore.ieee.org/document/6530707)
 - *Tao Yang, Prashant G. Mehta, Sean P. Meyn*
