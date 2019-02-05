@@ -9,7 +9,7 @@
 - Well-written and very interesting paper. It applies relatively common methods for uncertainty estimation (ensemble of probabilistic NNs) to an interesting problem in RL and shows promising results.
 
 ### Paper overview:
-- The authors present a model-based RL algorithm called _Probabilistic Ensembles with Trajectory Sampling (PETS)_, that (at least roughly) matches the asymptotic performance of SOTA model-free algorithms on four control tasks, while requiring significantly fewer samples (model-based algorithms generally have much better sample efficiency, but worse asymptotic performance than the best model-free algorithms).
+- The authors present a *model-based* RL algorithm called _Probabilistic Ensembles with Trajectory Sampling (PETS)_, that (at least roughly) matches the asymptotic performance of SOTA *model-free* algorithms on four control tasks, while requiring significantly fewer samples (model-based algorithms generally have much better sample efficiency, but worse asymptotic performance than the best model-free algorithms).
 
 - They use an ensemble of probabilistic NNs (Probabilistic Ensemble, PE) to learn a probabilistic dynamics model, p_theta(s_{t+1} | s_t, a_t), where s_t is the state and a_t is the taken action at time t. 
 
