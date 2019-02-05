@@ -759,6 +759,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### SysCon Monte Carlo Reading Group:
 
+##### [2019 w.6 I]
+- Feedback Particle Filter [[pdf]](https://ieeexplore.ieee.org/document/6530707)
+- *Tao Yang, Prashant G. Mehta, Sean P. Meyn*
+- `2013, IEEE Transactions on Automatic Control`
+
 ##### [2019 w.3]
 - Markov Chains for Exploring Posterior Distributions [[pdf]](http://www.stat.rice.edu/~dcox/Stat552/Mcmc/tierneyMCMCAnnStat94.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Markov%20Chains%20for%20Exploring%20Posterior%20Distributions.pdf)
 - *Luke Tierney*
