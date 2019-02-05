@@ -17,7 +17,7 @@
 
 - The B ensemble models are trained on separate (but overlapping) datasets: for each ensemble model, a dataset is created by drawing N examples with replacement from the original dataset D (which also contains N examples).
 
-- The B ensemble models are then used in the trajectory sampling step, where P state particles s_t_p are propagated forward in time by iteratively sampling s_t+1_p ~ p_theta_b(s_t+1_p | s_t_p, a_t)). I.e., each ensemble model outputs a distribution, and we sample particles from these B distributions. This results in P trajectory samples, The authors used P=20, B=5 in all their experiments.
+- The B ensemble models are then used in the trajectory sampling step, where P state particles s_t_p are propagated forward in time by iteratively sampling s_t+1_p ~ p_theta_b(s_t+1_p | s_t_p, a_t)). I.e., each ensemble model outputs a distribution, and they sample particles from these B distributions. This results in P trajectory samples, The authors used P=20, B=5 in all their experiments.
 
 - Based on these P state trajectory samples, s_t:t+T_p (which we hope approximate the true distribution over trajectories s_t:t+T), MPC is finally used to compute the next action a_t. 
 
