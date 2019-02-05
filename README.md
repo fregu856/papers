@@ -7,6 +7,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ## Index
 - [All Papers](#all-papers)
 - [Uncertainty Estimation](#uncertainty-estimation)
+- - [Ensembling](#ensembling)
 - - [Stochastic Gradient MCMC](#stochastic-gradient-mcmc)
 - - [Variational Inference](#variational-inference)
 - [Autonomous Driving](#autonomous-driving)
@@ -31,8 +32,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - *Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, Yuning Jiang*
 - `2018-07-30, ECCV2018` -->
 
+##### [19-02-06] [paper39]
+- Probabilistic Backpropagation for Scalable Learning of Bayesian Neural Networks [[pdf]](https://arxiv.org/abs/1502.05336) [[pdf with comments]]() [[comments]]()
+- *José Miguel Hernández-Lobato, Ryan P. Adams*
+- `2015-07-15, ICML2015`
+
 ##### [19-02-05] [paper38]
-- Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models [[pdf]](https://arxiv.org/abs/1805.12114) [[poster]](https://kchua.github.io/misc/poster.pdf) [[video]](https://youtu.be/3d8ixUMSiL8) [[code]](https://github.com/kchua/handful-of-trials) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Deep%20Reinforcement%20Learning%20in%20a%20Handful%20of%20Trials%20using%20Probabilistic%20Dynamics%20Models.md)
+- Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models [[pdf]](https://arxiv.org/abs/1805.12114) [[poster]](https://kchua.github.io/misc/poster.pdf) [[video]](https://youtu.be/3d8ixUMSiL8) [[code]](https://github.com/kchua/handful-of-trials) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Reinforcement%20Learning%20in%20a%20Handful%20of%20Trials%20using%20Probabilistic%20Dynamics%20Models.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Deep%20Reinforcement%20Learning%20in%20a%20Handful%20of%20Trials%20using%20Probabilistic%20Dynamics%20Models.md)
 - *Kurtland Chua, Roberto Calandra, Rowan McAllister, Sergey Levine*
 - `2018-05-30, NeurIPS2018`
 
@@ -252,6 +258,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Uncertainty Estimation:
+
+##### [19-02-05] [paper38]
+- Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models [[pdf]](https://arxiv.org/abs/1805.12114) [[poster]](https://kchua.github.io/misc/poster.pdf) [[video]](https://youtu.be/3d8ixUMSiL8) [[code]](https://github.com/kchua/handful-of-trials) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Reinforcement%20Learning%20in%20a%20Handful%20of%20Trials%20using%20Probabilistic%20Dynamics%20Models.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Deep%20Reinforcement%20Learning%20in%20a%20Handful%20of%20Trials%20using%20Probabilistic%20Dynamics%20Models.md)
+- *Kurtland Chua, Roberto Calandra, Rowan McAllister, Sergey Levine*
+- `2018-05-30, NeurIPS2018`
 
 ##### [19-01-28] [paper37]
 - Practical Variational Inference for Neural Networks [[pdf]](https://www.cs.toronto.edu/~graves/nips_2011.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Practical%20Variational%20Inference%20for%20Neural%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Practical%20Variational%20Inference%20for%20Neural%20Networks.md)
@@ -552,6 +563,68 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 ****
+### Ensembling:
+
+##### [19-02-05] [paper38]
+- Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models [[pdf]](https://arxiv.org/abs/1805.12114) [[poster]](https://kchua.github.io/misc/poster.pdf) [[video]](https://youtu.be/3d8ixUMSiL8) [[code]](https://github.com/kchua/handful-of-trials) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Reinforcement%20Learning%20in%20a%20Handful%20of%20Trials%20using%20Probabilistic%20Dynamics%20Models.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Deep%20Reinforcement%20Learning%20in%20a%20Handful%20of%20Trials%20using%20Probabilistic%20Dynamics%20Models.md)
+- *Kurtland Chua, Roberto Calandra, Rowan McAllister, Sergey Levine*
+- `2018-05-30, NeurIPS2018`
+
+##### [18-11-16] [paper20]
+- Uncertainty Estimates and Multi-Hypotheses Networks for Optical Flow [[pdf]](https://arxiv.org/abs/1802.07095) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimates%20and%20Multi-Hypotheses%20Networks%20for%20Optical%20Flow_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Estimates%20and%20Multi-Hypotheses%20Networks%20for%20Optical%20Flow.md)
+- *Eddy Ilg, Özgün Çiçek, Silvio Galesso, Aaron Klein, Osama Makansi, Frank Hutter, Thomas Brox*
+- `2018-08-06, ECCV2018`
+
+##### [18-11-12] [paper18]
+- Large-Scale Visual Active Learning with Deep Probabilistic Ensembles [[pdf]](https://arxiv.org/abs/1811.03575) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large-Scale%20Visual%20Active%20Learning%20with%20Deep%20Probabilistic%20Ensembles_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Large-Scale%20Visual%20Active%20Learning%20with%20Deep%20Probabilistic%20Ensembles.md)
+- *Kashyap Chitta, Jose M. Alvarez, Adam Lesnikowski*
+- `2018-11-08`
+
+##### [18-10-19] [paper14]
+- Uncertainty in Neural Networks: Bayesian Ensembling [[pdf]](https://arxiv.org/abs/1810.05546) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20in%20Neural%20Networks:%20Bayesian%20Ensembling_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20in%20Neural%20Networks:%20Bayesian%20Ensembling.md)
+- *Tim Pearce, Mohamed Zaki, Alexandra Brintrup, Andy Neel*
+- `2018-10-12, AISTATS2019 submission`
+
+##### [18-10-18] [paper13]
+- Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles [[pdf]](https://arxiv.org/abs/1612.01474) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Simple%20and%20Scalable%20Predictive%20Uncertainty%20Estimation%20using%20Deep%20Ensembles_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Simple%20and%20Scalable%20Predictive%20Uncertainty%20Estimation%20using%20Deep%20Ensembles.md)
+- *Balaji Lakshminarayanan, Alexander Pritzel, Charles Blundell*
+- `2017-11-17, NeurIPS2017`
+
+##### [18-09-25] [paper5]
+- Deep Confidence: A Computationally Efficient Framework for Calculating Reliable Errors for Deep Neural Networks [[pdf]](https://arxiv.org/abs/1809.09060) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Confidence:%20A%20Computationally%20Efficient%20Framework%20for%20Calculating%20Reliable%20Errors%20for%20Deep%20Neural%20Networks.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Deep%20Confidence:%20A%20Computationally%20Efficient%20Framework%20for%20Calculating%20Reliable%20Errors%20for%20Deep%20Neural%20Networks.md)
+- *Isidro Cortes-Ciriano, Andreas Bender*
+- `2018-09-24`
+
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
 ### Stochastic Gradient MCMC:
 
 ##### [19-01-26] [paper35]
@@ -660,7 +733,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 #### 2019:
 
 ##### [2019 w.6] ~~[19-02-05] [paper38]~~
-- Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models [[pdf]](https://arxiv.org/abs/1805.12114) [[poster]](https://kchua.github.io/misc/poster.pdf) [[video]](https://youtu.be/3d8ixUMSiL8) [[code]](https://github.com/kchua/handful-of-trials) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Deep%20Reinforcement%20Learning%20in%20a%20Handful%20of%20Trials%20using%20Probabilistic%20Dynamics%20Models.md)
+- Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models [[pdf]](https://arxiv.org/abs/1805.12114) [[poster]](https://kchua.github.io/misc/poster.pdf) [[video]](https://youtu.be/3d8ixUMSiL8) [[code]](https://github.com/kchua/handful-of-trials) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Reinforcement%20Learning%20in%20a%20Handful%20of%20Trials%20using%20Probabilistic%20Dynamics%20Models.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Deep%20Reinforcement%20Learning%20in%20a%20Handful%20of%20Trials%20using%20Probabilistic%20Dynamics%20Models.md)
 - *Kurtland Chua, Roberto Calandra, Rowan McAllister, Sergey Levine*
 - `2018-05-30, NeurIPS2018`
 
