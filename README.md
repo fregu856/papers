@@ -32,6 +32,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - *Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, Yuning Jiang*
 - `2018-07-30, ECCV2018` -->
 
+##### [19-02-08] [paper41]
+-  Bayesian Dark Knowledge [[pdf]](https://arxiv.org/abs/1506.04416) [[pdf with comments]]() [[comments]]()
+- *Anoop Korattikara, Vivek Rathod, Kevin Murphy, Max Welling*
+- `2015-06-07, NeurIPS2015`
+
 ##### [19-02-07] [paper40]
 - Noisy Natural Gradient as Variational Inference [[pdf]](https://arxiv.org/abs/1712.02390) [[video]](https://youtu.be/bWItvHYqKl8) [[code]](https://github.com/pomonam/NoisyNaturalGradient) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noisy%20Natural%20Gradient%20as%20Variational%20Inference.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Noisy%20Natural%20Gradient%20as%20Variational%20Inference.md)
 - *Guodong Zhang, Shengyang Sun, David Duvenaud, Roger Grosse*
