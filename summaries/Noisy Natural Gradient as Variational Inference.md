@@ -5,4 +5,12 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Well-written and somewhat interesting paper.
+
+### Comments:
+- Quite a heavy read for me as I am not particularly familiar with natural gradient optimization methods or K-FAC.
+
+- I get that not being restricted to just fully-factorized Gaussian variational posteriors is something that could improve performance, but is it actually practical for properly large networks?
+
+- They mention previous work on extending variational methods to non-fully-factorized posteriors, but I found them quite difficult to compare. It is not clear to me whether or not the presented method actually is a clear improvement (either in terms of performance or practicality).
