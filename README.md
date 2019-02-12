@@ -32,7 +32,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - *Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, Yuning Jiang*
 - `2018-07-30, ECCV2018` -->
 
-##### [19-02-08] [paper41]
+##### [19-02-12] [paper41]
 -  Bayesian Dark Knowledge [[pdf]](https://arxiv.org/abs/1506.04416) [[pdf with comments]]() [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Bayesian%20Dark%20Knowledge.md)
 - *Anoop Korattikara, Vivek Rathod, Kevin Murphy, Max Welling*
 - `2015-06-07, NeurIPS2015`
@@ -269,7 +269,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Uncertainty Estimation:
 
-##### [19-02-08] [paper41]
+##### [19-02-12] [paper41]
 -  Bayesian Dark Knowledge [[pdf]](https://arxiv.org/abs/1506.04416) [[pdf with comments]]() [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Bayesian%20Dark%20Knowledge.md)
 - *Anoop Korattikara, Vivek Rathod, Kevin Murphy, Max Welling*
 - `2015-06-07, NeurIPS2015`
