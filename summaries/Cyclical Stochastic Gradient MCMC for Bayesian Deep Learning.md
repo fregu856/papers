@@ -6,7 +6,7 @@
 ****
 
 ### General comments on paper quality:
-- Well-written and VERY interesting paper (did find a couple of typos though).
+- Well-written and VERY interesting paper (I did find a couple of typos though).
 
 ### Comments:
 - Very interesting method. I have however done some experiments using their code, and I find that samples from the same cycle produce very similar predictions. Thus I am somewhat skeptical that the method actually is significantly better than snapshot-ensembling, or just regular ensembling for that matter. The results in table 3 do seem to suggest that there is something to gain from collecting more than just one sample per cycle though, right? I need to do more experiments and investigate this further.
