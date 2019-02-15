@@ -13,7 +13,9 @@
 
 - Also, in SG-MCMC we have to (essentially) add Gaussian noise to the SGD update and decay the learning rate to obtain samples from the true posterior in the infinite limit. I am thus somewhat confused by the theoretical analysis in this paper.
 
-- I would have liked to see a comparison with basic ensembling. In section C.5 they write that SWAG usually performs somewhat worse than deep ensembles, but that this is OK since SWAG is much faster to train. _"Thus SWAG will be particularly valuable when training time is limited, but inference time may not be."_, when is this actually true?
+- I would have liked to see a comparison with basic ensembling. In section C.5 they write that SWAG usually performs somewhat worse than deep ensembles, but that this is OK since SWAG is much faster to train. "Thus SWAG will be particularly valuable when training time is limited, but inference time may not be.", when is this actually true?
+
+- It makes intuitive sense that this method will generate parameter samples with some variance (instead of just a single point estimate) and thus also provide some kind of estimate of the model uncertainty. However, it is not really theoretically grounded in any significant way, at least not more than e.g. ensembling.
 
 - The most interesting experiment for which they provide reliability diagrams is IMO CIFAR-10 --> STL-10. I note that even the best model still is quite significantly over-confident in this case.
 
