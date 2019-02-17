@@ -5,4 +5,10 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Well-written and quite interesting paper.
+
+### Comments:
+- I think that the paper is a good introduction to methods for NN loss function visualization and previous work aiming to understand the corresponding optimization problem. They cite a number of papers which seem interesting, I will probably try and read a couple of those in the future.
+
+- It would be interesting to apply their visualization method to some of my own  problems, I will probably look more carefully at their code at some point. It is however not immediately obvious to me how to apply their "filter normalization" to e.g. an MLP network. 
