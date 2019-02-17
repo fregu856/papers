@@ -6,7 +6,7 @@
 ****
 
 ### General comments on paper quality:
-- Well-written and quite interesting paper.
+- Interesting and quite well-written paper.
 
 ### Comments:
 - I think that the paper is a good introduction to methods for NN loss function visualization and previous work aiming to understand the corresponding optimization problem. They cite a number of papers which seem interesting, I will probably try and read a couple of those in the future.
