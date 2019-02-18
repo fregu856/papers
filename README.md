@@ -978,7 +978,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### SysCon Deep Learning Reading Group:
 
-<!-- Fredrik -> Calle -> David -> Niklas -> Antonio -> Benny -> Fredrik... -->
+<!-- Fredrik -> Calle -> David -> Benny -> Niklas -> Antonio -> Fredrik... -->
 
 - [2019](#2019)
 - [2018](#2018)
