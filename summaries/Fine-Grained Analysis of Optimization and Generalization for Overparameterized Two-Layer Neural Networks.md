@@ -5,4 +5,14 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Somewhat interesting paper that is quite theoretical. I found it to be a rather heavy read, and I did not fully understand absolutely everything.
+
+### Comments:
+- I did not quite get why they fix the weights a_i of the second layer?
+
+- They use gradient descent (GD) instead of SGD, could you obtain similar results also for SGD?
+
+- I think that I probably did not understand the paper well enough to really be able to judge how significant/interesting the presented results actually are. How restrictive are their assumptions? In what way / to what extent could these results be of practical use in real-world applications?
+
+- The reference section seems like a pretty neat resource for previous work on characterization of NN loss landscapes etc. 
