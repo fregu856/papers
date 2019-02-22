@@ -36,7 +36,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-07-30, ECCV2018` -->
 
 ##### [19-02-22] [paper45]
-- Fine-Grained Analysis of Optimization and Generalization for Overparameterized Two-Layer Neural Networks [[pdf]](https://arxiv.org/abs/1901.08584) [[pdf with comments (TODO!)]]() [[comments]])
+- Fine-Grained Analysis of Optimization and Generalization for Overparameterized Two-Layer Neural Networks [[pdf]](https://arxiv.org/abs/1901.08584) [[pdf with comments (TODO!)]]() [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Fine-Grained%20Analysis%20of%20Optimization%20and%20Generalization%20for%20Overparameterized%20Two-Layer%20Neural%20Networks.md)
 - *Sanjeev Arora, Simon S. Du, Wei Hu, Zhiyuan Li, Ruosong Wang*
 - `2019-01-24`
 
@@ -476,6 +476,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Theoretical Properties of Deep Learning:
+
+##### [19-02-22] [paper45]
+- Fine-Grained Analysis of Optimization and Generalization for Overparameterized Two-Layer Neural Networks [[pdf]](https://arxiv.org/abs/1901.08584) [[pdf with comments (TODO!)]]() [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Fine-Grained%20Analysis%20of%20Optimization%20and%20Generalization%20for%20Overparameterized%20Two-Layer%20Neural%20Networks.md)
+- *Sanjeev Arora, Simon S. Du, Wei Hu, Zhiyuan Li, Ruosong Wang*
+- `2019-01-24`
 
 ##### [19-02-17] [paper44]
 - Visualizing the Loss Landscape of Neural Nets [[pdf]](https://arxiv.org/abs/1712.09913) [[code]](https://github.com/tomgoldstein/loss-landscape) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Visualizing%20the%20Loss%20Landscape%20of%20Neural%20Nets.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Visualizing%20the%20Loss%20Landscape%20of%20Neural%20Nets.md)
@@ -989,6 +994,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2018](#2018)
 
 #### 2019:
+
+##### [2019 w.8] ~~[19-02-22] [paper45]~~
+- Fine-Grained Analysis of Optimization and Generalization for Overparameterized Two-Layer Neural Networks [[pdf]](https://arxiv.org/abs/1901.08584) [[pdf with comments (TODO!)]]() [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Fine-Grained%20Analysis%20of%20Optimization%20and%20Generalization%20for%20Overparameterized%20Two-Layer%20Neural%20Networks.md)
+- *Sanjeev Arora, Simon S. Du, Wei Hu, Zhiyuan Li, Ruosong Wang*
+- `2019-01-24`
 
 ##### [2019 w.7] ~~[19-02-14] [paper43]~~
 -  A Simple Baseline for Bayesian Uncertainty in Deep Learning [[pdf]](https://arxiv.org/abs/1902.02476) [[code]](https://github.com/wjmaddox/swa_gaussian) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Simple%20Baseline%20for%20Bayesian%20Uncertainty%20in%20Deep%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Simple%20Baseline%20for%20Bayesian%20Uncertainty%20in%20Deep%20Learning.md)
