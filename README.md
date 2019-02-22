@@ -36,7 +36,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-07-30, ECCV2018` -->
 
 ##### [19-02-22] [paper45]
-- Fine-Grained Analysis of Optimization and Generalization for Overparameterized Two-Layer Neural Networks [[pdf]](https://arxiv.org/abs/1901.08584) [[pdf with comments (TODO!)]]() [[comments]]()
+- Fine-Grained Analysis of Optimization and Generalization for Overparameterized Two-Layer Neural Networks [[pdf]](https://arxiv.org/abs/1901.08584) [[pdf with comments (TODO!)]]() [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Fine-Grained%20Analysis%20of%20Optimization%20and%20Generalization%20for%20Overparameterized%20Two-Layer%20Neural%20Networks.md)
 - *Sanjeev Arora, Simon S. Du, Wei Hu, Zhiyuan Li, Ruosong Wang*
 - `2019-01-24`
 
