@@ -36,7 +36,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-07-30, ECCV2018` -->
 
 ##### [19-02-25] [paper46]
-- Evaluating model calibration in classification [[pdf]](https://arxiv.org/abs/1902.06977) [[code]](https://github.com/uu-sml/calibration) [[pdf with comments (TODO!)]]() [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20model%20calibration%20in%20classification.md)
+- Evaluating model calibration in classification [[pdf]](https://arxiv.org/abs/1902.06977) [[code]](https://github.com/uu-sml/calibration) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20model%20calibration%20in%20classification.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20model%20calibration%20in%20classification.md)
 - *Juozas Vaicenavicius, David Widmann, Carl Andersson, Fredrik Lindsten, Jacob Roll, Thomas B. Schön*
 - `2019-02-19, AISTATS2019`
 
@@ -296,6 +296,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Uncertainty Estimation:
+
+##### [19-02-25] [paper46]
+- Evaluating model calibration in classification [[pdf]](https://arxiv.org/abs/1902.06977) [[code]](https://github.com/uu-sml/calibration) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20model%20calibration%20in%20classification.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20model%20calibration%20in%20classification.md)
+- *Juozas Vaicenavicius, David Widmann, Carl Andersson, Fredrik Lindsten, Jacob Roll, Thomas B. Schön*
+- `2019-02-19, AISTATS2019`
 
 ##### [19-02-14] [paper43]
 -  A Simple Baseline for Bayesian Uncertainty in Deep Learning [[pdf]](https://arxiv.org/abs/1902.02476) [[code]](https://github.com/wjmaddox/swa_gaussian) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Simple%20Baseline%20for%20Bayesian%20Uncertainty%20in%20Deep%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Simple%20Baseline%20for%20Bayesian%20Uncertainty%20in%20Deep%20Learning.md)
