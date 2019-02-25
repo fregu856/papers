@@ -9,4 +9,4 @@
 - Well-written and interesting paper. It is however a quite theoretical paper, and I personally found it difficult to follow certain sections. It also uses notation that I am not fully familiar with.
 
 ### Comments:
-- This work seems important, and I will try to keep it in mind in the future. It is however still not quite clear to me what one should do in practice to evaluate and compare calibration of large models on large-scale datasets in a more rigorous way.
+- This work seems important, and I will try to keep it in mind in the future. It is however still not quite clear to me what one should do in practice to evaluate and compare calibration of large models on large-scale datasets in a more rigorous way. I will probably need to read the paper again.
