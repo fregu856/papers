@@ -25,15 +25,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### All Papers:
 
-<!-- ##### [18-12-06] [paperXXXXXXXXX]
-- Uncertainty quantification using Bayesian neural networks in classification: Application to ischemic stroke lesion segmentation [[pdf]](https://openreview.net/forum?id=Sk_P2Q9sG) [[video]](https://youtu.be/ixGQfepu8Hg) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20quantification%20using%20Bayesian%20neural%20networks20in%20classification:%20Application%20to%20ischemic%20stroke%20lesion%20segmentation.md)
-- *Yongchan Kwon, Joong-Ho Won, Beom Joon Kim, Myunghee Cho Paik*
-- `2018-04-13, MIDL2018` -->
-
-<!-- ##### [18-12-14] [paperXXXXXXXXXXX]
-- Acquisition of Localization Confidence for Accurate Object Detection [[pdf]](https://arxiv.org/abs/1807.11590) [[code]](https://github.com/vacancy/PreciseRoIPooling) [[oral presentation]](https://youtu.be/SNCsXOFr_Ug) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Acquisition%20of%20Localization%20Confidence%20for%20Accurate%20Object%20Detection.md)
-- *Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, Yuning Jiang*
-- `2018-07-30, ECCV2018` -->
+<!-- Aven kategorisera baserat pa konferens? Har ju manga NeurIPS2018-papper nu t.ex. -->
 
 ##### [19-02-27] [paper47]
 - Predictive Uncertainty Estimation via Prior Networks [[pdf]](https://arxiv.org/abs/1802.10501) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predictive%20Uncertainty%20Estimation%20via%20Prior%20Networks.pdf) [[comments (TODO!)]](https://github.com/fregu856/papers/blob/master/summaries/Predictive%20Uncertainty%20Estimation%20via%20Prior%20Networks.md)
