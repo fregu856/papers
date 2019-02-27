@@ -25,7 +25,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### All Papers:
 
-<!-- Aven kategorisera baserat pa konferens? Har ju manga NeurIPS2018-papper nu t.ex. -->
+<!-- Aven kategorisera baserat pa konferens? Har ju manga NeurIPS2018-papper nu t.ex. Aven baserat pa vilket ar de skrevs? -->
 
 ##### [19-02-27] [paper47]
 - Predictive Uncertainty Estimation via Prior Networks [[pdf]](https://arxiv.org/abs/1802.10501) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predictive%20Uncertainty%20Estimation%20via%20Prior%20Networks.pdf) [[comments (TODO!)]](https://github.com/fregu856/papers/blob/master/summaries/Predictive%20Uncertainty%20Estimation%20via%20Prior%20Networks.md)
