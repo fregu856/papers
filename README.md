@@ -27,6 +27,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 <!-- Aven kategorisera baserat pa konferens? Har ju manga NeurIPS2018-papper nu t.ex. Aven baserat pa vilket ar de skrevs? -->
 
+##### [19-03-01] [paper48]
+- Language Models are Unsupervised Multitask Learners [[pdf]](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) [[blog post]](https://blog.openai.com/better-language-models/) [[code]](https://github.com/openai/gpt-2) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever*
+- `2018-02-14`
+
 ##### [19-02-27] [paper47]
 - Predictive Uncertainty Estimation via Prior Networks [[pdf]](https://arxiv.org/abs/1802.10501) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predictive%20Uncertainty%20Estimation%20via%20Prior%20Networks.pdf) [[comments (TODO!)]](https://github.com/fregu856/papers/blob/master/summaries/Predictive%20Uncertainty%20Estimation%20via%20Prior%20Networks.md)
 - *Andrey Malinin, Mark Gales*
