@@ -25,18 +25,15 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### All Papers:
 
-<!-- ##### [18-12-06] [paperXXXXXXXXX]
-- Uncertainty quantification using Bayesian neural networks in classification: Application to ischemic stroke lesion segmentation [[pdf]](https://openreview.net/forum?id=Sk_P2Q9sG) [[video]](https://youtu.be/ixGQfepu8Hg) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20quantification%20using%20Bayesian%20neural%20networks20in%20classification:%20Application%20to%20ischemic%20stroke%20lesion%20segmentation.md)
-- *Yongchan Kwon, Joong-Ho Won, Beom Joon Kim, Myunghee Cho Paik*
-- `2018-04-13, MIDL2018` -->
+<!-- Aven kategorisera baserat pa konferens? Har ju manga NeurIPS2018-papper nu t.ex. Aven baserat pa vilket ar de skrevs? -->
 
-<!-- ##### [18-12-14] [paperXXXXXXXXXXX]
-- Acquisition of Localization Confidence for Accurate Object Detection [[pdf]](https://arxiv.org/abs/1807.11590) [[code]](https://github.com/vacancy/PreciseRoIPooling) [[oral presentation]](https://youtu.be/SNCsXOFr_Ug) [[pdf with comments]]() [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Acquisition%20of%20Localization%20Confidence%20for%20Accurate%20Object%20Detection.md)
-- *Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, Yuning Jiang*
-- `2018-07-30, ECCV2018` -->
+##### [19-03-01] [paper48]
+- Language Models are Unsupervised Multitask Learners [[pdf]](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) [[blog post]](https://blog.openai.com/better-language-models/) [[code]](https://github.com/openai/gpt-2) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever*
+- `2018-02-14`
 
 ##### [19-02-27] [paper47]
-- Predictive Uncertainty Estimation via Prior Networks [[pdf]](https://arxiv.org/abs/1802.10501) [[pdf with comments]]() [[comments]]()
+- Predictive Uncertainty Estimation via Prior Networks [[pdf]](https://arxiv.org/abs/1802.10501) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predictive%20Uncertainty%20Estimation%20via%20Prior%20Networks.pdf) [[comments (TODO!)]](https://github.com/fregu856/papers/blob/master/summaries/Predictive%20Uncertainty%20Estimation%20via%20Prior%20Networks.md)
 - *Andrey Malinin, Mark Gales*
 - `2018-02-28, NeurIPS2018`
 
@@ -301,6 +298,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Uncertainty Estimation:
+
+##### [19-02-27] [paper47]
+- Predictive Uncertainty Estimation via Prior Networks [[pdf]](https://arxiv.org/abs/1802.10501) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predictive%20Uncertainty%20Estimation%20via%20Prior%20Networks.pdf) [[comments (TODO!)]](https://github.com/fregu856/papers/blob/master/summaries/Predictive%20Uncertainty%20Estimation%20via%20Prior%20Networks.md)
+- *Andrey Malinin, Mark Gales*
+- `2018-02-28, NeurIPS2018`
 
 ##### [19-02-25] [paper46]
 - Evaluating model calibration in classification [[pdf]](https://arxiv.org/abs/1902.06977) [[code]](https://github.com/uu-sml/calibration) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20model%20calibration%20in%20classification.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20model%20calibration%20in%20classification.md)
