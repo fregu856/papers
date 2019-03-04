@@ -18,6 +18,8 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Reinforcement Learning](#reinforcement-learning)
 - [SysCon Deep Learning Reading Group](#syscon-deep-learning-reading-group)
 - [SysCon Monte Carlo Reading Group](#syscon-monte-carlo-reading-group)
+- [NeurIPS](#neurips)
+- - [NeurIPS 2018](#neurips-2018)
 
 ****
 ****
@@ -1170,4 +1172,46 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ##### [2018 w.46]
 - Rethinking the Effective Sample Size [[pdf]](https://arxiv.org/abs/1809.04129)
 - *Víctor Elvira, Luca Martino, Christian P. Robert*
-- `2018-09-11, `
+- `2018-09-11,
+
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### NeurIPS:
+
+- [NeurIPS 2018](#neurips-2018)
+
+#### NeurIPS 2018:
+
+##### [19-03-04] [paper49]
+- Coupled Variational Bayes via Optimization Embedding [[pdf]](https://papers.nips.cc/paper/8177-coupled-variational-bayes-via-optimization-embedding.pdf) [[code]](https://github.com/Hanjun-Dai/cvb) [[pdf with comments (TODO!)]]() [[comments (TODO!)]](https://github.com/fregu856/papers/blob/master/summaries/Coupled%20Variational%20Bayes%20via%20Optimization%20Embedding.md)
+- *Bo Dai, Hanjun Dai, Niao He, Weiyang Liu, Zhen Liu, Jianshu Chen, Lin Xiao, Le Song*
+- `NeurIPS2018`
+
