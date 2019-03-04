@@ -20,6 +20,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [SysCon Monte Carlo Reading Group](#syscon-monte-carlo-reading-group)
 - [NeurIPS](#neurips)
 - - [NeurIPS 2018](#neurips-2018)
+- - [NeurIPS 2017](#neurips-2017)
 
 ****
 ****
@@ -1207,6 +1208,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ### NeurIPS:
 
 - [NeurIPS 2018](#neurips-2018)
+- [NeurIPS 2017](#neurips-2017)
 
 #### NeurIPS 2018:
 
@@ -1259,3 +1261,5 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - On gradient regularizers for MMD GANs [[pdf]](https://arxiv.org/abs/1805.11565) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20gradient%20regularizers%20for%20MMD%20GANs_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/On%20gradient%20regularizers%20for%20MMD%20GANs.md)
 - *Michael Arbel, Dougal J. Sutherland, Mikołaj Bińkowski, Arthur Gretton*
 - `2018-05-29, NeurIPS2018`
+
+#### NeurIPS 2017:
