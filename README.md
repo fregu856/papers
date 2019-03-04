@@ -22,6 +22,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [NeurIPS 2018](#neurips-2018)
 - - [NeurIPS 2017](#neurips-2017)
 - - [NeurIPS 2015](#neurips-2015)
+- - [NeurIPS 2011](#neurips-2011)
 
 ****
 ****
@@ -1211,6 +1212,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [NeurIPS 2018](#neurips-2018)
 - [NeurIPS 2017](#neurips-2017)
 - [NeurIPS 2015](#neurips-2015)
+- [NeurIPS 2011](#neurips-2011)
 
 #### NeurIPS 2018:
 
@@ -1287,3 +1289,10 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 -  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.md)
 - *Yi-An Ma, Tianqi Chen, Emily B. Fox*
 - `2015-06-15, NeurIPS2015`
+
+#### NeurIPS 2011:
+
+##### [19-01-28] [paper37]
+- Practical Variational Inference for Neural Networks [[pdf]](https://www.cs.toronto.edu/~graves/nips_2011.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Practical%20Variational%20Inference%20for%20Neural%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Practical%20Variational%20Inference%20for%20Neural%20Networks.md)
+- *Alex Graves*
+- `NeurIPS2011`
