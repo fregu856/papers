@@ -1,7 +1,7 @@
-##### [18-09-24] [paper3]
-- Lightweight Probabilistic Deep Networks [[pdf]](https://arxiv.org/abs/1805.11327) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Lightweight%20Probabilistic%20Deep%20Networks_.pdf)
-- *Jochen Gast, Stefan Roth*
-- `2018-05-29, CVPR2018`
+##### [19-03-04] [paper49]
+- Coupled Variational Bayes via Optimization Embedding [[pdf]](https://papers.nips.cc/paper/8177-coupled-variational-bayes-via-optimization-embedding.pdf) [[code]](https://github.com/Hanjun-Dai/cvb) [[pdf with comments]]()
+- *Bo Dai, Hanjun Dai, Niao He, Weiyang Liu, Zhen Liu, Jianshu Chen, Lin Xiao, Le Song*
+- `NeurIPS2018`
 
 ****
 
