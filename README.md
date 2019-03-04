@@ -23,6 +23,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [NeurIPS 2017](#neurips-2017)
 - - [NeurIPS 2015](#neurips-2015)
 - - [NeurIPS 2011](#neurips-2011)
+- [ICML](#icml)
+- - [ICML 2018](#icml-2018)
+- - [ICML 2017](#icml-2017)
+- - [ICML 2015](#icml-2015)
+- - [ICML 2014](#icml-2014)
+- - [ICML 2011](#icml-2011)
 - [ICLR](#iclr)
 - - [ICLR 2019](#iclr-2019)
 - - [ICLR 2018](#iclr-2018)
@@ -1302,6 +1308,130 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### ICML:
+
+- [ICML 2018](#icml-2018)
+- [ICML 2017](#icml-2017)
+- [ICML 2015](#icml-2015)
+- [ICML 2014](#icml-2014)
+- [ICML 2011](#icml-2011)
+
+#### ICML 2018:
+
+##### [19-02-07] [paper40]
+- Noisy Natural Gradient as Variational Inference [[pdf]](https://arxiv.org/abs/1712.02390) [[video]](https://youtu.be/bWItvHYqKl8) [[code]](https://github.com/pomonam/NoisyNaturalGradient) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noisy%20Natural%20Gradient%20as%20Variational%20Inference.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Noisy%20Natural%20Gradient%20as%20Variational%20Inference.md)
+- *Guodong Zhang, Shengyang Sun, David Duvenaud, Roger Grosse*
+- `2017-12-06, ICML2018`
+
+##### [18-11-15] [paper19]
+- Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV) [[pdf]](https://arxiv.org/abs/1711.11279) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Interpretability%20Beyond%20Feature%20Attribution:%20Quantitative%20Testing%20with%20Concept%20Activation%20Vectors%20(TCAV)_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Interpretability%20Beyond%20Feature%20Attribution:%20Quantitative%20Testing%20with%20Concept%20Activation%20Vectors%20(TCAV).md)
+- *Been Kim, Martin Wattenberg, Justin Gilmer, Carrie Cai, James Wexler, Fernanda Viegas, Rory Sayres*
+- `2018-06-07, ICML2018`
+
+##### [18-10-18] [paper12]
+- Reliable Uncertainty Estimates in Deep Neural Networks using Noise Contrastive Priors [[pdf]](https://arxiv.org/abs/1807.09289) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Reliable%20Uncertainty%20Estimates%20in%20Deep%20Neural%20Networks%20using%20Noise%20Contrastive%20Priors_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Reliable%20Uncertainty%20Estimates%20in%20Deep%20Neural%20Networks%20using%20Noise%20Contrastive%20Priors.md)
+- *Danijar Hafner, Dustin Tran, Alex Irpan, Timothy Lillicrap, James Davidson*
+- `2018-07-24, ICML2018 Workshop`
+
+##### [18-09-30] [paper8]
+- Neural Processes [[pdf]](https://arxiv.org/abs/1807.01622) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Processes_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Processes.md)
+- *Marta Garnelo, Jonathan Schwarz, Dan Rosenbaum, Fabio Viola, Danilo J. Rezende, S.M. Ali Eslami, Yee Whye Teh*
+- `2018-07-04, ICML2018 Workshop`
+
+##### [18-09-27] [paper7]
+- Conditional Neural Processes [[pdf]](https://arxiv.org/abs/1807.01613) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conditional%20Neural%20Processes_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Conditional%20Neural%20Processes.md)
+- *Marta Garnelo, Dan Rosenbaum, Chris J. Maddison, Tiago Ramalho, David Saxton, Murray Shanahan, Yee Whye Teh, Danilo J. Rezende, S. M. Ali Eslami*
+- `2018-07-04, ICML2018`
+
+##### [18-09-27] [paper6]
+- Neural Autoregressive Flows [[pdf]](https://arxiv.org/abs/1804.00779) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Autoregressive%20Flows_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Autoregressive%20Flows.md)
+- *Chin-Wei Huang, David Krueger, Alexandre Lacoste, Aaron Courville*
+- `2018-04-03, ICML2018`
+
+#### ICML 2017:
+
+##### [18-12-05] [paper24]
+- On Calibration of Modern Neural Networks [[pdf]](https://arxiv.org/abs/1706.04599) [[code]](https://github.com/gpleiss/temperature_scaling) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20Calibration%20of%20Modern%20Neural%20Networks.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/On%20Calibration%20of%20Modern%20Neural%20Networks.md)
+- *Chuan Guo, Geoff Pleiss, Yu Sun, Kilian Q. Weinberger*
+- `2017-08-03, ICML2017`
+
+#### ICML 2015:
+
+##### [19-02-06] [paper39]
+- Probabilistic Backpropagation for Scalable Learning of Bayesian Neural Networks [[pdf]](https://arxiv.org/abs/1502.05336) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%20Backpropagation%20for%20Scalable%20Learning%20of%20Bayesian%20Neural%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Probabilistic%20Backpropagation%20for%20Scalable%20Learning%20of%20Bayesian%20Neural%20Networks.md)
+- *José Miguel Hernández-Lobato, Ryan P. Adams*
+- `2015-07-15, ICML2015`
+
+##### [19-01-27] [paper36]
+- Weight Uncertainty in Neural Networks [[pdf]](https://arxiv.org/abs/1505.05424) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Weight%20Uncertainty%20in%20Neural%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Weight%20Uncertainty%20in%20Neural%20Networks.md)
+- *Charles Blundell, Julien Cornebise, Koray Kavukcuoglu, Daan Wierstra*
+- `2015-05-20, ICML2015`
+
+#### ICML 2014:
+
+##### [19-01-23] [paper30]
+- Stochastic Gradient Hamiltonian Monte Carlo [[pdf]](https://arxiv.org/abs/1402.4102) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stochastic%20Gradient%20Hamiltonian%20Monte%20Carlo.pdf) [[summary (TODO!)]]()
+- *Tianqi Chen, Emily B. Fox, Carlos Guestrin*
+- `2014-05-12, ICML2014`
+
+#### ICML 2011:
+
+##### [19-01-23] [paper29]
+- Bayesian Learning via Stochastic Gradient Langevin Dynamics [[pdf]](https://www.ics.uci.edu/~welling/publications/papers/stoclangevin_v6.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Learning%20via%20Stochastic%20Gradient%20Langevin%20Dynamics.pdf) [[summary (TODO!)]]()
+- *Max Welling, Yee Whye Teh*
+- `ICML2011`
+
+****
+****
+
+
+
+
+
+
+
+
+
+
 
 
 
