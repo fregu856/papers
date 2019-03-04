@@ -21,6 +21,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [NeurIPS](#neurips)
 - - [NeurIPS 2018](#neurips-2018)
 - - [NeurIPS 2017](#neurips-2017)
+- - [NeurIPS 2015](#neurips-2015)
 
 ****
 ****
@@ -1209,6 +1210,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 - [NeurIPS 2018](#neurips-2018)
 - [NeurIPS 2017](#neurips-2017)
+- [NeurIPS 2015](#neurips-2015)
 
 #### NeurIPS 2018:
 
@@ -1273,3 +1275,15 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? [[pdf]](https://arxiv.org/abs/1703.04977) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/What%20Uncertainties%20Do%20We%20Need%20in%20Bayesian%20Deep%20Learning%20for%20Computer%20Vision%3F_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/What%20Uncertainties%20Do%20We%20Need%20in%20Bayesian%20Deep%20Learning%20for%20Computer%20Vision%3F.md)
 - *Alex Kendall, Yarin Gal*
 - `2017-10-05, NeurIPS2017`
+
+#### NeurIPS 2015:
+
+##### [19-02-12] [paper41]
+-  Bayesian Dark Knowledge [[pdf]](https://arxiv.org/abs/1506.04416) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Dark%20Knowledge.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Bayesian%20Dark%20Knowledge.md)
+- *Anoop Korattikara, Vivek Rathod, Kevin Murphy, Max Welling*
+- `2015-06-07, NeurIPS2015`
+
+##### [19-01-25] [paper33]
+-  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.md)
+- *Yi-An Ma, Tianqi Chen, Emily B. Fox*
+- `2015-06-15, NeurIPS2015`
