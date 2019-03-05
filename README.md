@@ -1031,10 +1031,10 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 <!-- Fredrik -> Calle -> David -> Benny -> Niklas -> Antonio -> Fredrik... -->
 
-- [2019](#2019)
-- [2018](#2018)
+- [Reading Group Papers in 2019](#reading-group-papers-in-2019)
+- [Reading Group Papers in  2018](#reading-group-papers-in-2018)
 
-#### 2019:
+#### Reading Group Papers in 2019:
 
 ##### [2019 w.10] ~~[19-03-04] [paper49]~~
 - Coupled Variational Bayes via Optimization Embedding [[pdf]](https://papers.nips.cc/paper/8177-coupled-variational-bayes-via-optimization-embedding.pdf) [[code]](https://github.com/Hanjun-Dai/cvb) [[pdf with comments (TODO!)]]() [[comments (TODO!)]](https://github.com/fregu856/papers/blob/master/summaries/Coupled%20Variational%20Bayes%20via%20Optimization%20Embedding.md)
@@ -1081,7 +1081,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - *Marta Garnelo, Jonathan Schwarz, Dan Rosenbaum, Fabio Viola, Danilo J. Rezende, S.M. Ali Eslami, Yee Whye Teh*
 - `2018-07-04, ICML2018 Workshop`
 
-#### 2018:
+#### Reading Group Papers in 2018:
 
 ##### [2018 w.50] ~~[18-12-12] [paper26]~~
 - Neural Ordinary Differential Equations [[pdf]](https://arxiv.org/abs/1806.07366) [[code]](https://github.com/rtqichen/torchdiffeq) [[slides]](https://www.cs.toronto.edu/~duvenaud/talks/ode-talk-google.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Ordinary%20Differential%20Equations.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Ordinary%20Differential%20Equations.md)
