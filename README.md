@@ -35,6 +35,8 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [CVPR](#cvpr)
 - - [CVPR 2018](#cvpr-2018)
 - - [CVPR 2016](#cvpr-2016)
+- [ECCV](#eccv)
+- - [ECCV 2018](#eccv-2018)
 
 ****
 ****
@@ -1565,3 +1567,54 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - Learning Weight Uncertainty with Stochastic Gradient MCMC for Shape Classification [[pdf]](http://people.duke.edu/~cl319/doc/papers/dbnn_shape_cvpr.pdf)  [[poster]](https://zhegan27.github.io/Papers/dbnn_shape_poster.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Weight%20Uncertainty%20with%20Stochastic%20Gradient%20MCMC%20for%20Shape%20Classification.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Learning%20Weight%20Uncertainty%20with%20Stochastic%20Gradient%20MCMC%20for%20Shape%20Classification.md)
 - *Chunyuan Li, Andrew Stevens, Changyou Chen, Yunchen Pu, Zhe Gan, Lawrence Carin*
 - `CVPR2016`
+
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### ECCV:
+
+- [ECCV 2018](#eccv-2018)
+
+#### ECCV 2018:
+
+##### [18-11-16] [paper20]
+- Uncertainty Estimates and Multi-Hypotheses Networks for Optical Flow [[pdf]](https://arxiv.org/abs/1802.07095) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimates%20and%20Multi-Hypotheses%20Networks%20for%20Optical%20Flow_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Estimates%20and%20Multi-Hypotheses%20Networks%20for%20Optical%20Flow.md)
+- *Eddy Ilg, Özgün Çiçek, Silvio Galesso, Aaron Klein, Osama Makansi, Frank Hutter, Thomas Brox*
+- `2018-08-06, ECCV2018`
