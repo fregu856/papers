@@ -18,6 +18,9 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Reinforcement Learning](#reinforcement-learning)
 - [SysCon Deep Learning Reading Group](#syscon-deep-learning-reading-group)
 - [SysCon Monte Carlo Reading Group](#syscon-monte-carlo-reading-group)
+- [Papers by Year](#papers-by-year)
+- - [2019](#2019)
+- - [2018](#2018)
 - [NeurIPS](#neurips)
 - - [NeurIPS 2018](#neurips-2018)
 - - [NeurIPS 2017](#neurips-2017)
@@ -1623,3 +1626,55 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - Uncertainty Estimates and Multi-Hypotheses Networks for Optical Flow [[pdf]](https://arxiv.org/abs/1802.07095) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimates%20and%20Multi-Hypotheses%20Networks%20for%20Optical%20Flow_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Estimates%20and%20Multi-Hypotheses%20Networks%20for%20Optical%20Flow.md)
 - *Eddy Ilg, Özgün Çiçek, Silvio Galesso, Aaron Klein, Osama Makansi, Frank Hutter, Thomas Brox*
 - `2018-08-06, ECCV2018`
+
+
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### Papers by Year:
+
+- [2019](#2019)
+
+#### 2019:
+
+
