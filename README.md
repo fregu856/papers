@@ -44,7 +44,10 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### All Papers:
 
-<!-- Aven kategorisera baserat pa konferens? Har ju manga NeurIPS2018-papper nu t.ex. Aven baserat pa vilket ar de skrevs? -->
+- [Papers Read in 2019](#papers-read-in-2019)
+- [Papers Read in 2018](#papers-read-in-2018)
+
+#### Papers Read in 2019:
 
 ##### [19-03-04] [paper49]
 - Coupled Variational Bayes via Optimization Embedding [[pdf]](https://papers.nips.cc/paper/8177-coupled-variational-bayes-via-optimization-embedding.pdf) [[code]](https://github.com/Hanjun-Dai/cvb) [[pdf with comments (TODO!)]]() [[comments (TODO!)]](https://github.com/fregu856/papers/blob/master/summaries/Coupled%20Variational%20Bayes%20via%20Optimization%20Embedding.md)
@@ -160,6 +163,8 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - Relaxed Softmax: Efficient Confidence Auto-Calibration for Safe Pedestrian Detection [[pdf]](https://openreview.net/forum?id=S1lG7aTnqQ) [[poster]](http://www.robots.ox.ac.uk/~vgg/publications/2018/Neumann18c/poster.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Relaxed%20Softmax:%20Efficient%20Confidence%20Auto-Calibration%20for%20Safe%20Pedestrian%20Detection.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Relaxed%20Softmax:%20Efficient%20Confidence%20Auto-Calibration%20for%20Safe%20Pedestrian%20Detection.md)
 - *Lukas Neumann, Andrew Zisserman, Andrea Vedaldi*
 - `2018-11-29, NeurIPS2018 Workshop`
+
+#### Papers Read in 2018:
 
 ##### [18-12-12] [paper26]
 - Neural Ordinary Differential Equations [[pdf]](https://arxiv.org/abs/1806.07366) [[code]](https://github.com/rtqichen/torchdiffeq) [[slides]](https://www.cs.toronto.edu/~duvenaud/talks/ode-talk-google.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Ordinary%20Differential%20Equations.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Ordinary%20Differential%20Equations.md)
@@ -1032,7 +1037,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 <!-- Fredrik -> Calle -> David -> Benny -> Niklas -> Antonio -> Fredrik... -->
 
 - [Reading Group Papers in 2019](#reading-group-papers-in-2019)
-- [Reading Group Papers in  2018](#reading-group-papers-in-2018)
+- [Reading Group Papers in 2018](#reading-group-papers-in-2018)
 
 #### Reading Group Papers in 2019:
 
