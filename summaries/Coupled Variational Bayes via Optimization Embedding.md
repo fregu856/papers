@@ -5,4 +5,10 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Quite well-written and interesting paper. It was however a quite heavy read. Also, I should definitely have done some more background reading on VAEs etc. (e.g., "Auto-encoding variational bayes", "Variational inference with normalizing flows", "Improved variational inference with inverse autoregressive flow") before trying to read this paper. 
+
+### Comments:
+- I did not properly understand their proposed method, I found section 3 quite difficult to follow. Definitely not clear to me how one actually would implement this in practice.
+
+- I am not sure how strong the experimental results actually are, it is not completely obvious to me that their proposed method actually outperforms the baselines in a significant way. 
