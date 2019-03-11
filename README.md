@@ -11,6 +11,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [Stochastic Gradient MCMC](#stochastic-gradient-mcmc)
 - - [Variational Inference](#variational-inference)
 - [Theoretical Properties of Deep Learning](#theoretical-properties-of-deep-learning)
+- [VAEs](#vaes)
 - [Autonomous Driving](#autonomous-driving)
 - [Medical Imaging](#medical-imaging)
 - [3D Object Detection](#3d-object-detection)
@@ -572,6 +573,45 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### VAEs:
+
+##### [19-03-11] [paper50]
+- Auto-Encoding Variational Bayes [[pdf]](https://arxiv.org/abs/1312.6114) [[pdf with comments]]() [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Auto-Encoding%20Variational%20Bayes.md)
+- *Diederik P Kingma, Max Welling*
+- `2014-05-01, ICLR2014`
+
+##### [19-03-04] [paper49]
+- Coupled Variational Bayes via Optimization Embedding [[pdf]](https://papers.nips.cc/paper/8177-coupled-variational-bayes-via-optimization-embedding.pdf) [[poster]](http://wyliu.com/papers/LiuNIPS18_CVB_poster.pdf) [[code]](https://github.com/Hanjun-Dai/cvb) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Coupled%20Variational%20Bayes%20via%20Optimization%20Embedding.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Coupled%20Variational%20Bayes%20via%20Optimization%20Embedding.md)
+- *Bo Dai, Hanjun Dai, Niao He, Weiyang Liu, Zhen Liu, Jianshu Chen, Lin Xiao, Le Song*
+- `NeurIPS2018`
+
+****
+****
 
 
 
