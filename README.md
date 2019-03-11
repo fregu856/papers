@@ -40,6 +40,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [ICLR](#iclr)
 - - [ICLR 2019](#iclr-2019)
 - - [ICLR 2018](#iclr-2018)
+- - [ICLR 2014](#iclr-2014)
 - [CVPR](#cvpr)
 - - [CVPR 2018](#cvpr-2018)
 - - [CVPR 2016](#cvpr-2016)
@@ -1487,6 +1488,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 - [ICLR 2019](#iclr-2019)
 - [ICLR 2018](#iclr-2018)
+- [ICLR 2014](#iclr-2014)
 
 #### ICLR 2019:
 
@@ -1516,6 +1518,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - Gaussian Process Behaviour in Wide Deep Neural Networks [[pdf]](https://arxiv.org/abs/1804.11271) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gaussian%20Process%20Behaviour%20in%20Wide%20Deep%20Neural%20Networks.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Gaussian%20Process%20Behaviour%20in%20Wide%20Deep%20Neural%20Networks.md)
 - *Alexander G. de G. Matthews, Mark Rowland, Jiri Hron, Richard E. Turner, Zoubin Ghahramani*
 - `2018-08-16, ICLR2018`
+
+#### ICLR 2014:
+
+##### [19-03-11] [paper50]
+- Auto-Encoding Variational Bayes [[pdf]](https://arxiv.org/abs/1312.6114) [[pdf with comments (TODO!)]]() [[comments (TOOD!)]](https://github.com/fregu856/papers/blob/master/summaries/Auto-Encoding%20Variational%20Bayes.md)
+- *Diederik P Kingma, Max Welling*
+- `2014-05-01, ICLR2014`
 
 ****
 ****
