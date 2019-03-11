@@ -58,7 +58,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 #### Papers Read in 2019:
 
 ##### [19-03-11] [paper50]
-- Auto-Encoding Variational Bayes [[pdf]](https://arxiv.org/abs/1312.6114) [[pdf with comments]]() [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Auto-Encoding%20Variational%20Bayes.md)
+- Auto-Encoding Variational Bayes [[pdf]](https://arxiv.org/abs/1312.6114) [[pdf with comments (TODO!)]]() [[comments (TOOD!)]](https://github.com/fregu856/papers/blob/master/summaries/Auto-Encoding%20Variational%20Bayes.md)
 - *Diederik P Kingma, Max Welling*
 - `2014-05-01, ICLR2014`
 
@@ -1932,6 +1932,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2015-06-15, NeurIPS2015`
 
 #### 2014:
+
+##### [19-03-11] [paper50]
+- Auto-Encoding Variational Bayes [[pdf]](https://arxiv.org/abs/1312.6114) [[pdf with comments]]() [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Auto-Encoding%20Variational%20Bayes.md)
+- *Diederik P Kingma, Max Welling*
+- `2014-05-01, ICLR2014`
 
 ##### [19-01-23] [paper30]
 - Stochastic Gradient Hamiltonian Monte Carlo [[pdf]](https://arxiv.org/abs/1402.4102) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stochastic%20Gradient%20Hamiltonian%20Monte%20Carlo.pdf) [[summary (TODO!)]]()
