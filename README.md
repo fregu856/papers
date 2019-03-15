@@ -59,6 +59,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2019:
 
+##### [19-03-15] [paper51]
+- A recurrent neural network without chaos [[pdf]](https://arxiv.org/abs/1612.06212) [[pdf with comments]]() [[comments]]()
+- *Thomas Laurent, James von Brecht*
+- `2016-12-19, ICLR2017`
+
 ##### [19-03-11] [paper50]
 - Auto-Encoding Variational Bayes [[pdf]](https://arxiv.org/abs/1312.6114) [[pdf with comments (TODO!)]]() [[comments (TOOD!)]](https://github.com/fregu856/papers/blob/master/summaries/Auto-Encoding%20Variational%20Bayes.md)
 - *Diederik P Kingma, Max Welling*
