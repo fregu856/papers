@@ -5,4 +5,10 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Quite well-written and somewhat interesting paper.
+
+### Comments:
+- I note that their LSTM implementation consistently outperformed their proposed CFN, albeit with a small margin.
+
+- Would be interesting to know if this architecture has been studied further since the release of this paper, can it match LSTM performance also on more complicated tasks?
