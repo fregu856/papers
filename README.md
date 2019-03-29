@@ -60,6 +60,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2019:
 
+##### [19-03-29] [paper52]
+- Generating High Fidelity Images with Subscale Pixel Networks and Multidimensional Upscaling [[pdf]](https://openreview.net/forum?id=HylzTiC5Km) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/GENERATING%20HIGH%20FIDELITY%20IMAGES%20WITH%20SUBSCALE%20PIXEL%20NETWORKS%20AND%20MULTIDIMENSIONAL%20UPSCALING.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Generating%20High%20Fidelity%20Images%20with%20Subscale%20Pixel%20Networks%20and%20Multidimensional%20Upscaling.md)
+- *Jacob Menick, Nal Kalchbrenner*
+- `2018-12-04, ICLR2019`
+
 ##### [19-03-15] [paper51]
 - A recurrent neural network without chaos [[pdf]](https://arxiv.org/abs/1612.06212) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20recurrent%20neural%20network%20without%20chaos.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20recurrent%20neural%20network%20without%20chaos.md)
 - *Thomas Laurent, James von Brecht*
