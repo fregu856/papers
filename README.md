@@ -359,6 +359,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Uncertainty Estimation:
 
+##### [19-04-05] [paper53]
+- Stochastic Gradient Descent as Approximate Bayesian Inference [[pdf]](https://arxiv.org/abs/1704.04289) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stochastic%20Gradient%20Descent%20as%20Approximate%20Bayesian%20Inference.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Stochastic%20Gradient%20Descent%20as%20Approximate%20Bayesian%20Inference.md)
+- *Stephan Mandt, Matthew D. Hoffman, David M. Blei*
+- `2017-04-13, Journal of Machine Learning Research 18 (2017)`
+
 ##### [19-02-27] [paper47]
 - Predictive Uncertainty Estimation via Prior Networks [[pdf]](https://arxiv.org/abs/1802.10501) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predictive%20Uncertainty%20Estimation%20via%20Prior%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Predictive%20Uncertainty%20Estimation%20via%20Prior%20Networks.md)
 - *Andrey Malinin, Mark Gales*
@@ -1001,6 +1006,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Stochastic Gradient MCMC:
 
+##### [19-04-05] [paper53]
+- Stochastic Gradient Descent as Approximate Bayesian Inference [[pdf]](https://arxiv.org/abs/1704.04289) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stochastic%20Gradient%20Descent%20as%20Approximate%20Bayesian%20Inference.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Stochastic%20Gradient%20Descent%20as%20Approximate%20Bayesian%20Inference.md)
+- *Stephan Mandt, Matthew D. Hoffman, David M. Blei*
+- `2017-04-13, Journal of Machine Learning Research 18 (2017)`
+
 ##### [19-02-13] [paper42]
 -  Cyclical Stochastic Gradient MCMC for Bayesian Deep Learning [[pdf]](https://arxiv.org/abs/1902.03932) [[code]](https://github.com/ruqizhang/csgmcmc) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Cyclical%20Stochastic%20Gradient%20MCMC%20for%20Bayesian%20Deep%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Cyclical%20Stochastic%20Gradient%20MCMC%20for%20Bayesian%20Deep%20Learning.md)
 - *Ruqi Zhang, Chunyuan Li, Jianyi Zhang, Changyou Chen, Andrew Gordon Wilson*
@@ -1115,6 +1125,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Reading Group Papers in 2018](#reading-group-papers-in-2018)
 
 #### Reading Group Papers in 2019:
+
+##### [2019 w.14] ~~[19-04-05] [paper53]~~
+- Stochastic Gradient Descent as Approximate Bayesian Inference [[pdf]](https://arxiv.org/abs/1704.04289) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stochastic%20Gradient%20Descent%20as%20Approximate%20Bayesian%20Inference.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Stochastic%20Gradient%20Descent%20as%20Approximate%20Bayesian%20Inference.md)
+- *Stephan Mandt, Matthew D. Hoffman, David M. Blei*
+- `2017-04-13, Journal of Machine Learning Research 18 (2017)`
 
 ##### [2019 w.13] ~~[19-03-29] [paper52]~~
 - Generating High Fidelity Images with Subscale Pixel Networks and Multidimensional Upscaling [[pdf]](https://openreview.net/forum?id=HylzTiC5Km) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/GENERATING%20HIGH%20FIDELITY%20IMAGES%20WITH%20SUBSCALE%20PIXEL%20NETWORKS%20AND%20MULTIDIMENSIONAL%20UPSCALING.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Generating%20High%20Fidelity%20Images%20with%20Subscale%20Pixel%20Networks%20and%20Multidimensional%20Upscaling.md)
@@ -1969,6 +1984,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-08-16, ICLR2018`
 
 #### 2017:
+
+##### [19-04-05] [paper53]
+- Stochastic Gradient Descent as Approximate Bayesian Inference [[pdf]](https://arxiv.org/abs/1704.04289) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stochastic%20Gradient%20Descent%20as%20Approximate%20Bayesian%20Inference.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Stochastic%20Gradient%20Descent%20as%20Approximate%20Bayesian%20Inference.md)
+- *Stephan Mandt, Matthew D. Hoffman, David M. Blei*
+- `2017-04-13, Journal of Machine Learning Research 18 (2017)`
 
 ##### [19-02-17] [paper44]
 - Visualizing the Loss Landscape of Neural Nets [[pdf]](https://arxiv.org/abs/1712.09913) [[code]](https://github.com/tomgoldstein/loss-landscape) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Visualizing%20the%20Loss%20Landscape%20of%20Neural%20Nets.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Visualizing%20the%20Loss%20Landscape%20of%20Neural%20Nets.md)
