@@ -6,7 +6,7 @@
 ****
 
 ### General comments on paper quality:
-Quite well-written paper. The proposed architecture was explained in a quite clear way, even for someone who is not super familiar with the field.
+- Quite well-written paper. The proposed architecture was explained in a quite clear way, even for someone who is not super familiar with the field.
 
 ### Comments:
-Not too related to my particular research, but still a quite interesting paper. I also think that the proposed architecture, the Transformer, has been extensively used in subsequent state-of-the-art models (I remember seeing it mentioned in a few different papers)? This paper is thus probably a good background read for those interested in language modeling, translation etc.
+- Not too related to my particular research, but still a quite interesting paper. I also think that the proposed architecture, the Transformer, has been extensively used in subsequent state-of-the-art models (I remember seeing it mentioned in a few different papers)? This paper is thus probably a good background read for those interested in language modeling, translation etc.
