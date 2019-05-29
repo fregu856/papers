@@ -61,7 +61,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 #### Papers Read in 2019:
 
 ##### [19-05-29] [paper54]
-- Attention Is All You Need [[pdf]](https://arxiv.org/abs/1706.03762) [[pdf with comments]]() [[comments]]()
+- Attention Is All You Need [[pdf]](https://arxiv.org/abs/1706.03762) [[pdf with comments]]() [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Attention%20Is%20All%20You%20Need.md)
 - *Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin*
 - `2017-06-12, NeurIPS2017`
 
