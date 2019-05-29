@@ -60,6 +60,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2019:
 
+##### [19-05-29] [paper54]
+- Attention Is All You Need [[pdf]](https://arxiv.org/abs/1706.03762) [[pdf with comments]]() [[comments]]()
+- *Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin*
+- `2017-06-12, NeurIPS2017`
+
 ##### [19-04-05] [paper53]
 - Stochastic Gradient Descent as Approximate Bayesian Inference [[pdf]](https://arxiv.org/abs/1704.04289) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stochastic%20Gradient%20Descent%20as%20Approximate%20Bayesian%20Inference.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Stochastic%20Gradient%20Descent%20as%20Approximate%20Bayesian%20Inference.md)
 - *Stephan Mandt, Matthew D. Hoffman, David M. Blei*
