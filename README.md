@@ -15,6 +15,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Autonomous Driving](#autonomous-driving)
 - [Medical Imaging](#medical-imaging)
 - [3D Object Detection](#3d-object-detection)
+- [Instance Segmentation](#instance-segmentation)
 - [Sequence Modeling](#sequence-modeling)
 - [Reinforcement Learning](#reinforcement-learning)
 - [SysCon Deep Learning Reading Group](#syscon-deep-learning-reading-group)
@@ -61,8 +62,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2019:
 
+##### [19-07-02] [paper58]
+- Instance Segmentation by Jointly Optimizing Spatial Embeddings and Clustering Bandwidth [[pdf]](https://arxiv.org/abs/1906.11109) [[code]](https://github.com/davyneven/SpatialEmbeddings) [[pdf with comments TODO!]]() [[comments TODO!]]()
+- *Davy Neven, Bert De Brabandere, Marc Proesmans, Luc Van Gool*
+- `2019-06-26, CVPR2019`
+
 ##### [19-06-12] [paper57]
-- ATOM: Accurate Tracking by Overlap Maximization [[pdf]](https://arxiv.org/abs/1811.07628) [[code]](https://github.com/visionml/pytracking) [[pdf with comments TODO!]]() [[comments TODO!]]()
+- ATOM: Accurate Tracking by Overlap Maximization [[pdf]](https://arxiv.org/abs/1811.07628) [[code]](https://github.com/visionml/pytracking) [[pdf with comments TODO!]]() [[comments TODO!]](https://github.com/fregu856/papers/blob/master/summaries/ATOM:%20Accurate%20Tracking%20by%20Overlap%20Maximization.md)
 - *Martin Danelljan, Goutam Bhat, Fahad Shahbaz Khan, Michael Felsberg*
 - `2018-11-19, CVPR2019`
 
@@ -836,6 +842,54 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### Instance Segmentation:
+
+##### [18-09-25] [paper4]
+- Leveraging Heteroscedastic Aleatoric Uncertainties for Robust Real-Time LiDAR 3D Object Detection [[pdf]](https://arxiv.org/abs/1809.05590) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Leveraging%20Heteroscedastic%20Aleatoric%20Uncertainties%20for%20Robust%20Real-Time%20LiDAR%203D%20Object%20Detection_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Leveraging%20Heteroscedastic%20Aleatoric%20Uncertainties%20for%20Robust%20Real-Time%20LiDAR%203D%20Object%20Detection.md)
+- *Di Feng, Lars Rosenbaum, Fabian Timm, Klaus Dietmayer*
+- `2018-09-14`
+****
+****
 
 
 
