@@ -62,6 +62,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2019:
 
+##### [19-07-02] [paper58]
+- Instance Segmentation by Jointly Optimizing Spatial Embeddings and Clustering Bandwidth [[pdf]](https://arxiv.org/abs/1906.11109) [[code]](https://github.com/davyneven/SpatialEmbeddings) [[pdf with comments TODO!]]() [[comments TODO!]]()
+- *Davy Neven, Bert De Brabandere, Marc Proesmans, Luc Van Gool*
+- `2019-06-26, CVPR2019`
+
 ##### [19-06-12] [paper57]
 - ATOM: Accurate Tracking by Overlap Maximization [[pdf]](https://arxiv.org/abs/1811.07628) [[code]](https://github.com/visionml/pytracking) [[pdf with comments TODO!]]() [[comments TODO!]](https://github.com/fregu856/papers/blob/master/summaries/ATOM:%20Accurate%20Tracking%20by%20Overlap%20Maximization.md)
 - *Martin Danelljan, Goutam Bhat, Fahad Shahbaz Khan, Michael Felsberg*
