@@ -5,4 +5,6 @@
 
 ****
 
-TODO!
+- Interesting idea that intuitively makes a lot of sense, neat to see that it actually seems to work quite well.
+
+- While the predicted IoU is a measure of "localization confidence", it is not an ideal measure of localization uncertainty. Having an estimated variance each for (x, y, w, h) would provide more information.
