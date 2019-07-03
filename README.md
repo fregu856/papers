@@ -17,6 +17,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Object Detection](#object-detection)
 - [3D Object Detection](#3d-object-detection)
 - [Instance Segmentation](#instance-segmentation)
+- [Visual Tracking](#visual-tracking)
 - [Sequence Modeling](#sequence-modeling)
 - [Reinforcement Learning](#reinforcement-learning)
 - [SysCon Deep Learning Reading Group](#syscon-deep-learning-reading-group)
@@ -1045,6 +1046,56 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### Visual Tracking:
+
+
+****
+****
 
 
 
