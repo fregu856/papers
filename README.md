@@ -63,7 +63,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 #### Papers Read in 2019:
 
 ##### [19-07-02] [paper58]
-- Instance Segmentation by Jointly Optimizing Spatial Embeddings and Clustering Bandwidth [[pdf]](https://arxiv.org/abs/1906.11109) [[code]](https://github.com/davyneven/SpatialEmbeddings) [[pdf with comments TODO!]]() [[comments TODO!]]()
+- Instance Segmentation by Jointly Optimizing Spatial Embeddings and Clustering Bandwidth [[pdf]](https://arxiv.org/abs/1906.11109) [[code]](https://github.com/davyneven/SpatialEmbeddings) [[pdf with comments TODO!]]() [[comments TODO!]](https://github.com/fregu856/papers/blob/master/summaries/Instance%20Segmentation%20by%20Jointly%20Optimizing%20Spatial%20Embeddings%20and%20Clustering%20Bandwidth.md)
 - *Davy Neven, Bert De Brabandere, Marc Proesmans, Luc Van Gool*
 - `2019-06-26, CVPR2019`
 
