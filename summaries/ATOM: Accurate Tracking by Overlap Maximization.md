@@ -5,4 +5,10 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Well-written and interesting paper. 
+
+### Comments:
+- They employ the idea of [IoU-Net](https://github.com/fregu856/papers/blob/master/summaries/Acquisition%20of%20Localization%20Confidence%20for%20Accurate%20Object%20Detection.md) in order to perform target estimation and thus improve tracking accuracy. Interesting that this idea seems to work well also in this case.
+
+- The paper also gives a quite comprehensive introduction to visual object tracking in general, making the proposed method relatively easy to understand also for someone new to the field.
