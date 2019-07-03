@@ -64,7 +64,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 #### Papers Read in 2019:
 
 ##### [19-07-03] [paper58]
-- Objects as Points [[pdf]](https://arxiv.org/abs/1904.07850) [[code]](https://github.com/xingyizhou/CenterNet) [[pdf with comments]]() [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Objects%20as%20Points.md)
+- Objects as Points [[pdf]](https://arxiv.org/abs/1904.07850) [[code]](https://github.com/xingyizhou/CenterNet) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Objects%20as%20Points.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Objects%20as%20Points.md)
 - *Xingyi Zhou, Dequan Wang, Philipp Krähenbühl*
 - `2019-04-16`
 
