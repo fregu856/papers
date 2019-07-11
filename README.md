@@ -63,6 +63,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2019:
 
+##### [19-07-10] [paper59]
+- PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud [[pdf]](https://arxiv.org/abs/1812.04244) [[code]](https://github.com/sshaoshuai/PointRCNN) [[pdf with comments TODO!]]() [[comments TODO!]](https://github.com/fregu856/papers/blob/master/summaries/PointRCNN:%203D%20Object%20Proposal%20Generation%20and%20Detection%20from%20Point%20Cloud.md)
+- *Shaoshuai Shi, Xiaogang Wang, Hongsheng Li*
+- `2018-12-11, CVPR2019`
+
 ##### [19-07-03] [paper58]
 - Objects as Points [[pdf]](https://arxiv.org/abs/1904.07850) [[code]](https://github.com/xingyizhou/CenterNet) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Objects%20as%20Points.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Objects%20as%20Points.md)
 - *Xingyi Zhou, Dequan Wang, Philipp Krähenbühl*
