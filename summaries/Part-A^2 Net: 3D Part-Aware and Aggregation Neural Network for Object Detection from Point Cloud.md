@@ -1,7 +1,7 @@
-##### [18-09-24] [paper3]
-- Lightweight Probabilistic Deep Networks [[pdf]](https://arxiv.org/abs/1805.11327) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Lightweight%20Probabilistic%20Deep%20Networks_.pdf)
-- *Jochen Gast, Stefan Roth*
-- `2018-05-29, CVPR2018`
+##### [19-07-11] [paper60]
+- Part-A^2 Net: 3D Part-Aware and Aggregation Neural Network for Object Detection from Point Cloud [[pdf]](https://arxiv.org/abs/1907.03670) [[pdf with comments]]()
+- *Shaoshuai Shi, Zhe Wang, Xiaogang Wang, Hongsheng Li*
+- `2019-07-08`
 
 ****
 
