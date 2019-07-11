@@ -5,4 +5,8 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Interesting and quite well-written paper.
+
+### Comments:
+- I think I like this approach to 3DOD. Directly processing the point cloud and generating proposals by classifying each point as foreground/background makes sense, is quite simple and seems to perform well. Their bin-based regression losses seem somewhat strange though.
