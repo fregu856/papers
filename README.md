@@ -64,7 +64,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 #### Papers Read in 2019:
 
 ##### [19-10-04] [paper61]
-- Trellis Networks for Sequence Modeling [[pdf]](https://arxiv.org/abs/1810.06682) [[code]](https://github.com/locuslab/trellisnet) [[pdf with comments]]() [[comments (TODO!)]](https://github.com/fregu856/papers/blob/master/summaries/Trellis%20Networks%20for%20Sequence%20Modeling.md)
+- Trellis Networks for Sequence Modeling [[pdf]](https://arxiv.org/abs/1810.06682) [[code]](https://github.com/locuslab/trellisnet) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Trellis%20Networks%20for%20Sequence%20Modeling.pdf) [[comments (TODO!)]](https://github.com/fregu856/papers/blob/master/summaries/Trellis%20Networks%20for%20Sequence%20Modeling.md)
 - *Shaojie Bai, J. Zico Kolter, Vladlen Koltun*
 - `2018-10-15, ICLR2019`
 
