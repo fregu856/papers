@@ -5,4 +5,13 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Well-written and quite interesting paper.
+
+
+### Comments:
+- Interesting model, quite neat indeed how it can be seen as a bridge between RNNs and TCNs.
+
+- The fact that they share weights across all network layers intuitively seems quite odd to me, but I guess it stems from the construction based on M-truncated RNNs?
+
+- It is not obvious to me why they chose to use a gated activation function based on the LSTM cell, would using a "normal" activation function (e.g. ReLu) result in a significant drop in performance?
