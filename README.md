@@ -63,6 +63,16 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2019:
 
+##### [19-10-11] [paper62]
+- Variational Inference with Normalizing Flows [[pdf]](https://arxiv.org/abs/1505.05770) [[pdf with comments]]() [[comments (TODO!)]]()
+- *Danilo Jimenez Rezende, Shakir Mohamed*
+- `2015-05-21, ICML2015`
+
+##### [19-10-04] [paper61]
+- Trellis Networks for Sequence Modeling [[pdf]](https://arxiv.org/abs/1810.06682) [[code]](https://github.com/locuslab/trellisnet) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Trellis%20Networks%20for%20Sequence%20Modeling.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Trellis%20Networks%20for%20Sequence%20Modeling.md)
+- *Shaojie Bai, J. Zico Kolter, Vladlen Koltun*
+- `2018-10-15, ICLR2019`
+
 ##### [19-07-11] [paper60]
 - Part-A^2 Net: 3D Part-Aware and Aggregation Neural Network for Object Detection from Point Cloud [[pdf]](https://arxiv.org/abs/1907.03670) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Part-A%5E2%20Net:%203D%20Part-Aware%20and%20Aggregation%20Neural%20Network%20for%20Object%20Detection%20from%20Point%20Cloud.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Part-A%5E2%20Net:%203D%20Part-Aware%20and%20Aggregation%20Neural%20Network%20for%20Object%20Detection%20from%20Point%20Cloud.md)
 - *Shaoshuai Shi, Zhe Wang, Xiaogang Wang, Hongsheng Li*
@@ -1274,6 +1284,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Sequence Modeling:
 
+##### [19-10-04] [paper61]
+- Trellis Networks for Sequence Modeling [[pdf]](https://arxiv.org/abs/1810.06682) [[code]](https://github.com/locuslab/trellisnet) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Trellis%20Networks%20for%20Sequence%20Modeling.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Trellis%20Networks%20for%20Sequence%20Modeling.md)
+- *Shaojie Bai, J. Zico Kolter, Vladlen Koltun*
+- `2018-10-15, ICLR2019`
+
 ##### [19-05-29] [paper54]
 - Attention Is All You Need [[pdf]](https://arxiv.org/abs/1706.03762) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Attention%20Is%20All%20You%20Need.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Attention%20Is%20All%20You%20Need.md)
 - *Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin*
@@ -1696,6 +1711,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Reading Group Papers in 2018](#reading-group-papers-in-2018)
 
 #### Reading Group Papers in 2019:
+
+##### [2019 w.40] ~~[19-10-04] [paper61]~~
+- Trellis Networks for Sequence Modeling [[pdf]](https://arxiv.org/abs/1810.06682) [[code]](https://github.com/locuslab/trellisnet) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Trellis%20Networks%20for%20Sequence%20Modeling.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Trellis%20Networks%20for%20Sequence%20Modeling.md)
+- *Shaojie Bai, J. Zico Kolter, Vladlen Koltun*
+- `2018-10-15, ICLR2019`
 
 ##### [2019 w.23] ~~[19-06-05] [paper55]~~
 - LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving [[pdf]](https://arxiv.org/abs/1903.08701) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/LaserNet:%20An%20Efficient%20Probabilistic%203D%20Object%20Detector%20for%20Autonomous%20Driving.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/LaserNet:%20An%20Efficient%20Probabilistic%203D%20Object%20Detector%20for%20Autonomous%20Driving.md)
@@ -2256,6 +2276,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### ICLR 2019:
 
+##### [19-10-04] [paper61]
+- Trellis Networks for Sequence Modeling [[pdf]](https://arxiv.org/abs/1810.06682) [[code]](https://github.com/locuslab/trellisnet) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Trellis%20Networks%20for%20Sequence%20Modeling.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Trellis%20Networks%20for%20Sequence%20Modeling.md)
+- *Shaojie Bai, J. Zico Kolter, Vladlen Koltun*
+- `2018-10-15, ICLR2019`
+
 ##### [19-03-29] [paper52]
 - Generating High Fidelity Images with Subscale Pixel Networks and Multidimensional Upscaling [[pdf]](https://openreview.net/forum?id=HylzTiC5Km) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/GENERATING%20HIGH%20FIDELITY%20IMAGES%20WITH%20SUBSCALE%20PIXEL%20NETWORKS%20AND%20MULTIDIMENSIONAL%20UPSCALING.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Generating%20High%20Fidelity%20Images%20with%20Subscale%20Pixel%20Networks%20and%20Multidimensional%20Upscaling.md)
 - *Jacob Menick, Nal Kalchbrenner*
@@ -2599,6 +2624,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2019-02-11`
 
 #### 2018:
+
+##### [19-10-04] [paper61]
+- Trellis Networks for Sequence Modeling [[pdf]](https://arxiv.org/abs/1810.06682) [[code]](https://github.com/locuslab/trellisnet) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Trellis%20Networks%20for%20Sequence%20Modeling.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Trellis%20Networks%20for%20Sequence%20Modeling.md)
+- *Shaojie Bai, J. Zico Kolter, Vladlen Koltun*
+- `2018-10-15, ICLR2019`
 
 ##### [19-07-10] [paper59]
 - PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud [[pdf]](https://arxiv.org/abs/1812.04244) [[code]](https://github.com/sshaoshuai/PointRCNN) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PointRCNN:%203D%20Object%20Proposal%20Generation%20and%20Detection%20from%20Point%20Cloud.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/PointRCNN:%203D%20Object%20Proposal%20Generation%20and%20Detection%20from%20Point%20Cloud.md)
