@@ -12,6 +12,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [Variational Inference](#variational-inference)
 - [Theoretical Properties of Deep Learning](#theoretical-properties-of-deep-learning)
 - [VAEs](#vaes)
+- [Normalizing Flows](#normalizing-flows)
 - [Autonomous Driving](#autonomous-driving)
 - [Medical Imaging](#medical-imaging)
 - [Object Detection](#object-detection)
@@ -767,6 +768,58 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### Normalizing Flows:
+
+
+
+****
+****
 
 
 
