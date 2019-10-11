@@ -69,6 +69,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - *Danilo Jimenez Rezende, Shakir Mohamed*
 - `2015-05-21, ICML2015`
 
+##### [19-10-11] [paper62]
+- Variational Inference with Normalizing Flows [[pdf]](https://arxiv.org/abs/1505.05770) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Variational%20Inference%20with%20Normalizing%20Flows.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Variational%20Inference%20with%20Normalizing%20Flows.md)
+- *Danilo Jimenez Rezende, Shakir Mohamed*
+- `2015-05-21, ICML2015`
+
 ##### [19-10-04] [paper61]
 - Trellis Networks for Sequence Modeling [[pdf]](https://arxiv.org/abs/1810.06682) [[code]](https://github.com/locuslab/trellisnet) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Trellis%20Networks%20for%20Sequence%20Modeling.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Trellis%20Networks%20for%20Sequence%20Modeling.md)
 - *Shaojie Bai, J. Zico Kolter, Vladlen Koltun*
@@ -816,8 +821,10 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Normalizing Flows:
 
-
-
+##### [19-10-11] [paper62]
+- Variational Inference with Normalizing Flows [[pdf]](https://arxiv.org/abs/1505.05770) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Variational%20Inference%20with%20Normalizing%20Flows.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Variational%20Inference%20with%20Normalizing%20Flows.md)
+- *Danilo Jimenez Rezende, Shakir Mohamed*
+- `2015-05-21, ICML2015`
 ****
 ****
 
@@ -938,7 +945,6 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? [[pdf]](https://arxiv.org/abs/1703.04977) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/What%20Uncertainties%20Do%20We%20Need%20in%20Bayesian%20Deep%20Learning%20for%20Computer%20Vision%3F_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/What%20Uncertainties%20Do%20We%20Need%20in%20Bayesian%20Deep%20Learning%20for%20Computer%20Vision%3F.md)
 - *Alex Kendall, Yarin Gal*
 - `2017-10-05, NeurIPS2017`
-
 ****
 ****
 
@@ -1002,7 +1008,6 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 -  A Probabilistic U-Net for Segmentation of Ambiguous Images [[pdf]](https://arxiv.org/abs/1806.05034) [[code]](https://github.com/SimonKohl/probabilistic_unet) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Probabilistic%20U-Net%20for%20Segmentation%20of%20Ambiguous%20Images.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/A%20Probabilistic%20U-Net%20for%20Segmentation%20of%20Ambiguous%20Images.md)
 - *Simon A. A. Kohl, Bernardino Romera-Paredes, Clemens Meyer, Jeffrey De Fauw, Joseph R. Ledsam, Klaus H. Maier-Hein, S. M. Ali Eslami, Danilo Jimenez Rezende, Olaf Ronneberger*
 - `2018-10-29, NeurIPS2018`
-
 ****
 ****
 
@@ -1765,6 +1770,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Reading Group Papers in 2019:
 
+##### [2019 w.41] ~~[19-10-11] [paper62]~~
+- Variational Inference with Normalizing Flows [[pdf]](https://arxiv.org/abs/1505.05770) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Variational%20Inference%20with%20Normalizing%20Flows.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Variational%20Inference%20with%20Normalizing%20Flows.md)
+- *Danilo Jimenez Rezende, Shakir Mohamed*
+- `2015-05-21, ICML2015`
+
 ##### [2019 w.40] ~~[19-10-04] [paper61]~~
 - Trellis Networks for Sequence Modeling [[pdf]](https://arxiv.org/abs/1810.06682) [[code]](https://github.com/locuslab/trellisnet) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Trellis%20Networks%20for%20Sequence%20Modeling.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Trellis%20Networks%20for%20Sequence%20Modeling.md)
 - *Shaojie Bai, J. Zico Kolter, Vladlen Koltun*
@@ -2237,6 +2247,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2017-08-03, ICML2017`
 
 #### ICML 2015:
+
+##### [19-10-11] [paper62]
+- Variational Inference with Normalizing Flows [[pdf]](https://arxiv.org/abs/1505.05770) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Variational%20Inference%20with%20Normalizing%20Flows.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Variational%20Inference%20with%20Normalizing%20Flows.md)
+- *Danilo Jimenez Rezende, Shakir Mohamed*
+- `2015-05-21, ICML2015`
 
 ##### [19-02-06] [paper39]
 - Probabilistic Backpropagation for Scalable Learning of Bayesian Neural Networks [[pdf]](https://arxiv.org/abs/1502.05336) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%20Backpropagation%20for%20Scalable%20Learning%20of%20Bayesian%20Neural%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Probabilistic%20Backpropagation%20for%20Scalable%20Learning%20of%20Bayesian%20Neural%20Networks.md)
@@ -2908,6 +2923,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2016-08-10`
 
 #### 2015:
+
+##### [19-10-11] [paper62]
+- Variational Inference with Normalizing Flows [[pdf]](https://arxiv.org/abs/1505.05770) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Variational%20Inference%20with%20Normalizing%20Flows.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Variational%20Inference%20with%20Normalizing%20Flows.md)
+- *Danilo Jimenez Rezende, Shakir Mohamed*
+- `2015-05-21, ICML2015`
 
 ##### [19-02-12] [paper41]
 -  Bayesian Dark Knowledge [[pdf]](https://arxiv.org/abs/1506.04416) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Dark%20Knowledge.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Bayesian%20Dark%20Knowledge.md)
