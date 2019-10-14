@@ -5,4 +5,11 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Well-written and quite interesting paper.
+
+
+### Comments:
+- I was initially somewhat confused by this paper, as I was expecting it to deal with variational inference for approximate Bayesian inference.
+
+- Seems like a good starting point for flow-based methods, I will continue reading-up on more recent/advanced techniques.
