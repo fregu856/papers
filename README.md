@@ -65,7 +65,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 #### Papers Read in 2019:
 
 ##### [19-10-11] [paper62]
-- Variational Inference with Normalizing Flows [[pdf]](https://arxiv.org/abs/1505.05770) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Variational%20Inference%20with%20Normalizing%20Flows.pdf) [[comments (TODO!)]](https://github.com/fregu856/papers/blob/master/summaries/Variational%20Inference%20with%20Normalizing%20Flows.md)
+- Variational Inference with Normalizing Flows [[pdf]](https://arxiv.org/abs/1505.05770) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Variational%20Inference%20with%20Normalizing%20Flows.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Variational%20Inference%20with%20Normalizing%20Flows.md)
 - *Danilo Jimenez Rezende, Shakir Mohamed*
 - `2015-05-21, ICML2015`
 
