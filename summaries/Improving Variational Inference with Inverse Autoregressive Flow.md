@@ -5,4 +5,10 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Interesting and very well-written paper.
+
+### Comments:
+- Does a very good job introducing the general problem setup, normalizing flows, autoregressive models etc. Definitely a good introductory paper,  it straightened out a few things I found confusing in [Variational Inference with Normalizing Flows](https://github.com/fregu856/papers/blob/master/summaries/Variational%20Inference%20with%20Normalizing%20Flows.md).
+
+- The experimental results are however not very strong nor particularly extensive, IMO. 
