@@ -831,6 +831,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - Variational Inference with Normalizing Flows [[pdf]](https://arxiv.org/abs/1505.05770) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Variational%20Inference%20with%20Normalizing%20Flows.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Variational%20Inference%20with%20Normalizing%20Flows.md)
 - *Danilo Jimenez Rezende, Shakir Mohamed*
 - `2015-05-21, ICML2015`
+
+##### [18-09-27] [paper6]
+- Neural Autoregressive Flows [[pdf]](https://arxiv.org/abs/1804.00779) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Autoregressive%20Flows_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Autoregressive%20Flows.md)
+- *Chin-Wei Huang, David Krueger, Alexandre Lacoste, Aaron Courville*
+- `2018-04-03, ICML2018`
 ****
 ****
 
@@ -1775,6 +1780,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Reading Group Papers in 2018](#reading-group-papers-in-2018)
 
 #### Reading Group Papers in 2019:
+
+##### [2019 w.43] ~~[18-09-27] [paper6]~~
+- Neural Autoregressive Flows [[pdf]](https://arxiv.org/abs/1804.00779) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Autoregressive%20Flows_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Autoregressive%20Flows.md)
+- *Chin-Wei Huang, David Krueger, Alexandre Lacoste, Aaron Courville*
+- `2018-04-03, ICML2018`
 
 ##### [2019 w.42] ~~[19-10-18] [paper63]~~
 - Improving Variational Inference with Inverse Autoregressive Flow [[pdf]](https://arxiv.org/abs/1606.04934) [[code]](https://github.com/openai/iaf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Improving%20Variational%20Inference%20with%20Inverse%20Autoregressive%20Flow.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Improving%20Variational%20Inference%20with%20Inverse%20Autoregressive%20Flow.md)
