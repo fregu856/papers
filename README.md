@@ -53,6 +53,8 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [CVPR 2016](#cvpr-2016)
 - [ECCV](#eccv)
 - - [ECCV 2018](#eccv-2018)
+- [CDC](#cdc)
+- - [CDC 2018](#cdc-2018)
 
 ****
 ****
@@ -2629,6 +2631,56 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### CDC:
+
+- [CDC 2018](#cdc-2018)
+
+#### CDC 2018:
+
+
+
+
+****
+****
 
 
 
