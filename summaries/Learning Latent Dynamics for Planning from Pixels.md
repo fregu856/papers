@@ -13,4 +13,4 @@
 
 - It's not entirely clear to me how this approach differs from "Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models" (PETS), apart from the fact that PETS actually has access to the state (so, they don't need to apply VAE stuff to construct a latent state representation).
 
-- The provided CODE seems like it could be very useful. Is it easy to use? The model seems to train on just 1 GPU in just 1 day anyway, which is good.
+- The provided code seems like it could be very useful. Is it easy to use? The model seems to train on just 1 GPU in just 1 day anyway, which is good.
