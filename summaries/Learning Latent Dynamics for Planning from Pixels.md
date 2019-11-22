@@ -6,7 +6,7 @@
 ****
 
 ### General comments on paper quality:
-- Very well-written and interesting paper! Very good introduction to the entire field of model-based RL I feel like.
+- Well-written and interesting paper! Very good introduction to the entire field of model-based RL I feel like.
 
 ### Comments:
 - Seems quite odd to me that they spend an entire page on "Latent overshooting", but then don't actually use it for their RSSM model?
