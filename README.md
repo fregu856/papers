@@ -1478,6 +1478,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Reinforcement Learning:
 
+##### [19-11-29] [paper67]
+- Dream to Control: Learning Behaviors by Latent Imagination [[pdf]](https://openreview.net/forum?id=S1lOTC4tDS) [[webpage]](https://dreamrl.github.io/) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Dream%20to%20Control%20Learning%20Behaviors%20by%20Latent%20Imagination.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Dream%20to%20Control:%20Learning%20Behaviors%20by%20Latent%20Imagination.md)
+- *Anonymous*
+- `2019-09`
+
 ##### [19-11-22] [paper65]
 - Learning Latent Dynamics for Planning from Pixels [[pdf]](https://arxiv.org/abs/1811.04551) [[code]](https://github.com/google-research/planet) [[blog]](https://ai.googleblog.com/2019/02/introducing-planet-deep-planning.html) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Latent%20Dynamics%20for%20Planning%20from%20Pixels.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Learning%20Latent%20Dynamics%20for%20Planning%20from%20Pixels.md)
 - *Danijar Hafner, Timothy Lillicrap, Ian Fischer, Ruben Villegas, David Ha, Honglak Lee, James Davidson*
@@ -1890,6 +1895,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Reading Group Papers in 2018](#reading-group-papers-in-2018)
 
 #### Reading Group Papers in 2019:
+
+##### [2019 w.48] ~~[19-11-29] [paper67]~~
+- Dream to Control: Learning Behaviors by Latent Imagination [[pdf]](https://openreview.net/forum?id=S1lOTC4tDS) [[webpage]](https://dreamrl.github.io/) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Dream%20to%20Control%20Learning%20Behaviors%20by%20Latent%20Imagination.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Dream%20to%20Control:%20Learning%20Behaviors%20by%20Latent%20Imagination.md)
+- *Anonymous*
+- `2019-09`
 
 ##### [2019 w.47] ~~[19-11-22] [paper65]~~
 - Learning Latent Dynamics for Planning from Pixels [[pdf]](https://arxiv.org/abs/1811.04551) [[code]](https://github.com/google-research/planet) [[blog]](https://ai.googleblog.com/2019/02/introducing-planet-deep-planning.html) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Latent%20Dynamics%20for%20Planning%20from%20Pixels.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Learning%20Latent%20Dynamics%20for%20Planning%20from%20Pixels.md)
@@ -2864,6 +2874,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2011](#2011)
 
 #### 2019:
+
+##### [19-11-29] [paper67]
+- Dream to Control: Learning Behaviors by Latent Imagination [[pdf]](https://openreview.net/forum?id=S1lOTC4tDS) [[webpage]](https://dreamrl.github.io/) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Dream%20to%20Control%20Learning%20Behaviors%20by%20Latent%20Imagination.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Dream%20to%20Control:%20Learning%20Behaviors%20by%20Latent%20Imagination.md)
+- *Anonymous*
+- `2019-09`
 
 ##### [19-07-11] [paper60]
 - Part-A^2 Net: 3D Part-Aware and Aggregation Neural Network for Object Detection from Point Cloud [[pdf]](https://arxiv.org/abs/1907.03670) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Part-A%5E2%20Net:%203D%20Part-Aware%20and%20Aggregation%20Neural%20Network%20for%20Object%20Detection%20from%20Point%20Cloud.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Part-A%5E2%20Net:%203D%20Part-Aware%20and%20Aggregation%20Neural%20Network%20for%20Object%20Detection%20from%20Point%20Cloud.md)
