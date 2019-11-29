@@ -70,7 +70,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 #### Papers Read in 2019:
 
 ##### [19-11-29] [paper67]
-- Dream to Control: Learning Behaviors by Latent Imagination [[pdf]](https://openreview.net/forum?id=S1lOTC4tDS) [[webpage]](https://dreamrl.github.io/) [[pdf with comments]]() [[comments]]()
+- Dream to Control: Learning Behaviors by Latent Imagination [[pdf]](https://openreview.net/forum?id=S1lOTC4tDS) [[webpage]](https://dreamrl.github.io/) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Dream%20to%20Control%20Learning%20Behaviors%20by%20Latent%20Imagination.pdf) [[comments]]()
 - *Anonymous*
 - `2019-09`
 
