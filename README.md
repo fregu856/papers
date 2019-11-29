@@ -71,7 +71,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ##### [19-11-29] [paper67]
 - Dream to Control: Learning Behaviors by Latent Imagination [[pdf]](https://openreview.net/forum?id=S1lOTC4tDS) [[webpage]](https://dreamrl.github.io/) [[pdf with comments]]() [[comments]]()
-- **
+- *Anonymous*
 - `2019-09`
 
 ##### [19-11-26] [paper66]
