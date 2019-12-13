@@ -32,7 +32,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [2015](#2015)
 - - [2014](#2014)
 - - [2011](#2011)
-- - [2006](#2016)
+- - [2006](#2006)
 - [NeurIPS](#neurips)
 - - [NeurIPS 2018](#neurips-2018)
 - - [NeurIPS 2017](#neurips-2017)
