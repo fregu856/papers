@@ -70,7 +70,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 #### Papers Read in 2019:
 
 ##### [19-12-13] [paper68]
-- A Tutorial on Energy-Based Learning [[pdf]](http://yann.lecun.com/exdb/publis/orig/lecun-06.pdf) [[pdf with comments]]() [[comments]]()
+- A Tutorial on Energy-Based Learning [[pdf]](http://yann.lecun.com/exdb/publis/orig/lecun-06.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Tutorial%20on%20Energy-Based%20Learning.pdf) [[comments]]()
 - *Yann LeCun, Sumit Chopra, Raia Hadsell, Marc Aurelio Ranzato, Fu Jie Huang*
 - `2006-08-19`
 
