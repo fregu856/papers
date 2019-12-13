@@ -21,6 +21,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Sequence Modeling](#sequence-modeling)
 - [Reinforcement Learning](#reinforcement-learning)
 - [System Identification](#system-identification)
+- [Energy-Based Models](#energy-based-models)
 - [SysCon Deep Learning Reading Group](#syscon-deep-learning-reading-group)
 - [SysCon Monte Carlo Reading Group](#syscon-monte-carlo-reading-group)
 - [Papers by Year](#papers-by-year)
@@ -31,6 +32,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [2015](#2015)
 - - [2014](#2014)
 - - [2011](#2011)
+- - [2006](#2016)
 - [NeurIPS](#neurips)
 - - [NeurIPS 2018](#neurips-2018)
 - - [NeurIPS 2017](#neurips-2017)
@@ -1540,6 +1542,19 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ****
 ### System Identification:
 
@@ -1555,6 +1570,77 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### Energy-Based Models:
+
+##### [19-12-13] [paper68]
+- A Tutorial on Energy-Based Learning [[pdf]](http://yann.lecun.com/exdb/publis/orig/lecun-06.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Tutorial%20on%20Energy-Based%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Tutorial%20on%20Energy-Based%20Learning.md)
+- *Yann LeCun, Sumit Chopra, Raia Hadsell, Marc Aurelio Ranzato, Fu Jie Huang*
+- `2006-08-19`
+
+****
+****
+
 
 
 
@@ -3226,3 +3312,10 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - Bayesian Learning via Stochastic Gradient Langevin Dynamics [[pdf]](https://www.ics.uci.edu/~welling/publications/papers/stoclangevin_v6.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Learning%20via%20Stochastic%20Gradient%20Langevin%20Dynamics.pdf) [[summary (TODO!)]]()
 - *Max Welling, Yee Whye Teh*
 - `ICML2011`
+
+#### 2006:
+
+##### [19-12-13] [paper68]
+- A Tutorial on Energy-Based Learning [[pdf]](http://yann.lecun.com/exdb/publis/orig/lecun-06.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Tutorial%20on%20Energy-Based%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Tutorial%20on%20Energy-Based%20Learning.md)
+- *Yann LeCun, Sumit Chopra, Raia Hadsell, Marc Aurelio Ranzato, Fu Jie Huang*
+- `2006-08-19`
