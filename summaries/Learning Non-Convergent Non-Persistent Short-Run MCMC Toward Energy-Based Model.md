@@ -5,4 +5,12 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Well-written and interesting paper.
+
+### Comments:
+- Seeing the non-convergent, short-run MCMC as a learned generator/flow model is a really neat and interesting idea. I find figure 9 in the appendix interesting. 
+
+- It is somewhat difficult for me to judge how impressive the experimental results are, I do not really know how strong the baselines are or how significant the improvements are.
+
+- I found section 4 difficult to follow.
