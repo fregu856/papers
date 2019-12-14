@@ -76,11 +76,17 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2019:
 
+##### [19-12-14] [paper69]
+- Learning Non-Convergent Non-Persistent Short-Run MCMC Toward Energy-Based Model [[pdf]](https://arxiv.org/abs/1904.09770) [[poster]](https://neurips.cc/Conferences/2019/Schedule?showEvent=13661) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Erik Nijkamp, Mitch Hill, Song-Chun Zhu, Ying Nian Wu*
+- `2019-04-22, NeurIPS 2019`
+- [[Energy-Based Models]](#energy-based-models)
+
 ##### [19-12-13] [paper68]
 - A Tutorial on Energy-Based Learning [[pdf]](http://yann.lecun.com/exdb/publis/orig/lecun-06.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Tutorial%20on%20Energy-Based%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Tutorial%20on%20Energy-Based%20Learning.md)
 - *Yann LeCun, Sumit Chopra, Raia Hadsell, Marc Aurelio Ranzato, Fu Jie Huang*
 - `2006-08-19`
-- [{Energy-Based Models}](#energy-based-models)
+- [[Energy-Based Models]](#energy-based-models)
 
 ##### [19-11-29] [paper67]
 - Dream to Control: Learning Behaviors by Latent Imagination [[pdf]](https://openreview.net/forum?id=S1lOTC4tDS) [[webpage]](https://dreamrl.github.io/) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Dream%20to%20Control%20Learning%20Behaviors%20by%20Latent%20Imagination.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Dream%20to%20Control:%20Learning%20Behaviors%20by%20Latent%20Imagination.md)
