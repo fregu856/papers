@@ -77,6 +77,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2019:
 
+##### [19-12-15] [paper70]
+- Implicit Generation and Generalization in Energy-Based Models [[pdf]](https://arxiv.org/abs/1903.08689) [[code]](https://github.com/openai/ebm_code_release) [[blog]](https://openai.com/blog/energy-based-models/) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Yilun Du, Igor Mordatch*
+- `2019-04-20, NeurIPS 2019`
+- [[Energy-Based Models]](#energy-based-models)
+
 ##### [19-12-14] [paper69]
 - Learning Non-Convergent Non-Persistent Short-Run MCMC Toward Energy-Based Model [[pdf]](https://arxiv.org/abs/1904.09770) [[poster]](https://neurips.cc/Conferences/2019/Schedule?showEvent=13661) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Non-Convergent%20Non-Persistent%20Short-Run%20MCMC%20Toward%20Energy-Based%20Model.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Learning%20Non-Convergent%20Non-Persistent%20Short-Run%20MCMC%20Toward%20Energy-Based%20Model.md)
 - *Erik Nijkamp, Mitch Hill, Song-Chun Zhu, Ying Nian Wu*
