@@ -79,6 +79,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2019:
 
+##### [19-12-20] [paper74]
+- Your Classifier is Secretly an Energy Based Model and You Should Treat it Like One [[pdf]](https://arxiv.org/abs/1912.03263) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Will Grathwohl, Kuan-Chieh Wang, Jörn-Henrik Jacobsen, David Duvenaud, Mohammad Norouzi, Kevin Swersky*
+- `2019-12-06, ICLR 2020`
+- [[Energy-Based Models]](#energy-based-models)
+
 ##### [19-12-20] [paper73]
 - Noise Contrastive Estimation and Negative Sampling for Conditional Models: Consistency and Statistical Efficiency [[pdf]](https://arxiv.org/abs/1809.01812) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise%20Contrastive%20Estimation%20and%20Negative%20Sampling%20for%20Conditional%20Models:%20Consistency%20and%20Statistical%20Efficiency.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Noise%20Contrastive%20Estimation%20and%20Negative%20Sampling%20for%20Conditional%20Models:%20Consistency%20and%20Statistical%20Efficiency.md)
 - *Zhuang Ma, Michael Collins*
