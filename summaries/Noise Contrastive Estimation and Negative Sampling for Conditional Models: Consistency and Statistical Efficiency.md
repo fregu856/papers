@@ -11,4 +11,4 @@
 ### Comments:
 - Quite theoretical paper with a bunch of proofs, it is not exactly the type of paper I was looking for.
 
-- Interesting to see NCE specifically for supervised problems (modelling p(y | x)), but I am not sure how much I actually learned by reading this paper.
+- Interesting to see NCE applied specifically to supervised problems (modelling p(y | x)), but I am not sure how much I actually learned by reading this paper.
