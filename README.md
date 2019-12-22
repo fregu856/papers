@@ -48,6 +48,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [ICML 2014](#icml-2014)
 - - [ICML 2011](#icml-2011)
 - [ICLR](#iclr)
+- - [ICLR 2020](#iclr-2020)
 - - [ICLR 2019](#iclr-2019)
 - - [ICLR 2018](#iclr-2018)
 - - [ICLR 2017](#iclr-2017)
@@ -1684,6 +1685,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Energy-Based Models:
 
+##### [19-12-22] [paper74]
+- Your Classifier is Secretly an Energy Based Model and You Should Treat it Like One [[pdf]](https://arxiv.org/abs/1912.03263) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20Classifier%20is%20Secretly%20an%20Energy%20Based%20Model%20and%20You%20Should%20Treat%20it%20Like%20One.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Your%20Classifier%20is%20Secretly%20an%20Energy%20Based%20Model%20and%20You%20Should%20Treat%20it%20Like%20One.md)
+- *Will Grathwohl, Kuan-Chieh Wang, Jörn-Henrik Jacobsen, David Duvenaud, Mohammad Norouzi, Kevin Swersky*
+- `2019-12-06, ICLR 2020`
+- [[Energy-Based Models]](#energy-based-models)
+
 ##### [19-12-20] [paper73]
 - Noise Contrastive Estimation and Negative Sampling for Conditional Models: Consistency and Statistical Efficiency [[pdf]](https://arxiv.org/abs/1809.01812) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise%20Contrastive%20Estimation%20and%20Negative%20Sampling%20for%20Conditional%20Models:%20Consistency%20and%20Statistical%20Efficiency.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Noise%20Contrastive%20Estimation%20and%20Negative%20Sampling%20for%20Conditional%20Models:%20Consistency%20and%20Statistical%20Efficiency.md)
 - *Zhuang Ma, Michael Collins*
@@ -2697,10 +2704,19 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### ICLR:
 
+- [ICLR 2020](#iclr-2020)
 - [ICLR 2019](#iclr-2019)
 - [ICLR 2018](#iclr-2018)
 - [ICLR 2017](#iclr-2017)
 - [ICLR 2014](#iclr-2014)
+
+#### ICLR 2020:
+
+##### [19-12-22] [paper74]
+- Your Classifier is Secretly an Energy Based Model and You Should Treat it Like One [[pdf]](https://arxiv.org/abs/1912.03263) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20Classifier%20is%20Secretly%20an%20Energy%20Based%20Model%20and%20You%20Should%20Treat%20it%20Like%20One.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Your%20Classifier%20is%20Secretly%20an%20Energy%20Based%20Model%20and%20You%20Should%20Treat%20it%20Like%20One.md)
+- *Will Grathwohl, Kuan-Chieh Wang, Jörn-Henrik Jacobsen, David Duvenaud, Mohammad Norouzi, Kevin Swersky*
+- `2019-12-06, ICLR 2020`
+- [[Energy-Based Models]](#energy-based-models)
 
 #### ICLR 2019:
 
@@ -3120,6 +3136,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2011](#2011)
 
 #### 2019:
+
+##### [19-12-22] [paper74]
+- Your Classifier is Secretly an Energy Based Model and You Should Treat it Like One [[pdf]](https://arxiv.org/abs/1912.03263) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20Classifier%20is%20Secretly%20an%20Energy%20Based%20Model%20and%20You%20Should%20Treat%20it%20Like%20One.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Your%20Classifier%20is%20Secretly%20an%20Energy%20Based%20Model%20and%20You%20Should%20Treat%20it%20Like%20One.md)
+- *Will Grathwohl, Kuan-Chieh Wang, Jörn-Henrik Jacobsen, David Duvenaud, Mohammad Norouzi, Kevin Swersky*
+- `2019-12-06, ICLR 2020`
+- [[Energy-Based Models]](#energy-based-models)
 
 ##### [19-12-20] [paper72]
 - Flow Contrastive Estimation of Energy-Based Models [[pdf]](https://arxiv.org/abs/1912.00589) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Flow%20Contrastive%20Estimation%20of%20Energy-Based%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Flow%20Contrastive%20Estimation%20of%20Energy-Based%20Models.md)
