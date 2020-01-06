@@ -832,6 +832,16 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
 ****
 ### VAEs:
 
@@ -852,6 +862,14 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ****
+
+
+
+
+
+
+
+
 
 
 
@@ -935,6 +953,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-04-03, ICML2018`
 ****
 ****
+
+
+
+
+
+
 
 
 
@@ -1109,6 +1133,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
 ****
 ### Medical Imaging:
 
@@ -1118,6 +1148,20 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-10-29, NeurIPS2018`
 ****
 ****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1197,6 +1241,16 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-07-30, ECCV2018`
 ****
 ****
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1383,6 +1437,18 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ****
 ### Visual Tracking:
 
@@ -1392,6 +1458,25 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-11-19, CVPR2019`
 ****
 ****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1538,6 +1623,26 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ****
 ### Reinforcement Learning:
 
@@ -1557,6 +1662,28 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-05-30, NeurIPS2018`
 ****
 ****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1686,8 +1813,29 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ****
 ### Energy-Based Models:
+
+##### [20-01-06] [paper75]
+- Maximum Entropy Generators for Energy-Based Models [[pdf]](https://arxiv.org/abs/1901.08508) [[code]](https://github.com/ritheshkumar95/energy_based_generative_models) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Maximum%20Entropy%20Generators%20for%20Energy-Based%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Maximum%20Entropy%20Generators%20for%20Energy-Based%20Models.md)
+- *Rithesh Kumar, Sherjil Ozair, Anirudh Goyal, Aaron Courville, Yoshua Bengio*
+- `2019-01-24`
+- [[Energy-Based Models]](#energy-based-models)
 
 ##### [19-12-22] [paper74]
 - Your Classifier is Secretly an Energy Based Model and You Should Treat it Like One [[pdf]](https://arxiv.org/abs/1912.03263) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20Classifier%20is%20Secretly%20an%20Energy%20Based%20Model%20and%20You%20Should%20Treat%20it%20Like%20One.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Your%20Classifier%20is%20Secretly%20an%20Energy%20Based%20Model%20and%20You%20Should%20Treat%20it%20Like%20One.md)
@@ -1733,6 +1881,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ****
+
+
+
+
+
+
+
 
 
 
@@ -1902,6 +2057,16 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
 ****
 ### Stochastic Gradient MCMC:
 
@@ -2002,6 +2167,19 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ****
 ### Variational Inference:
 
@@ -2022,6 +2200,22 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2390,6 +2584,28 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ****
 ### NeurIPS:
 
@@ -2511,6 +2727,25 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2705,6 +2940,22 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ****
 ### ICLR:
 
@@ -2777,6 +3028,18 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ****
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2950,6 +3213,23 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ****
 ### ECCV:
 
@@ -2970,6 +3250,29 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3082,6 +3385,26 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ****
 ### AAAI:
 
@@ -3128,6 +3451,32 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ****
 ### Papers by Year:
 
@@ -3140,6 +3489,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2011](#2011)
 
 #### 2019:
+
+##### [20-01-06] [paper75]
+- Maximum Entropy Generators for Energy-Based Models [[pdf]](https://arxiv.org/abs/1901.08508) [[code]](https://github.com/ritheshkumar95/energy_based_generative_models) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Maximum%20Entropy%20Generators%20for%20Energy-Based%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Maximum%20Entropy%20Generators%20for%20Energy-Based%20Models.md)
+- *Rithesh Kumar, Sherjil Ozair, Anirudh Goyal, Aaron Courville, Yoshua Bengio*
+- `2019-01-24`
+- [[Energy-Based Models]](#energy-based-models)
 
 ##### [19-12-22] [paper74]
 - Your Classifier is Secretly an Energy Based Model and You Should Treat it Like One [[pdf]](https://arxiv.org/abs/1912.03263) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20Classifier%20is%20Secretly%20an%20Energy%20Based%20Model%20and%20You%20Should%20Treat%20it%20Like%20One.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Your%20Classifier%20is%20Secretly%20an%20Energy%20Based%20Model%20and%20You%20Should%20Treat%20it%20Like%20One.md)
