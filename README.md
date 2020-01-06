@@ -76,7 +76,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2020:
 
-
+##### [20-01-06] [paper75]
+- Maximum Entropy Generators for Energy-Based Models [[pdf]](https://arxiv.org/abs/1901.08508) [[code]](https://github.com/ritheshkumar95/energy_based_generative_models) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Rithesh Kumar, Sherjil Ozair, Anirudh Goyal, Aaron Courville, Yoshua Bengio*
+- `2019-01-24`
+- [[Energy-Based Models]](#energy-based-models)
 
 #### Papers Read in 2019:
 
