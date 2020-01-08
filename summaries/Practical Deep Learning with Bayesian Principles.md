@@ -5,4 +5,16 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Interesting and quite well-written paper.
+
+### Comments:
+- To me, this mainly seems like a more practically useful alternative to [Bayes by Backprop](https://github.com/fregu856/papers/blob/master/summaries/Weight%20Uncertainty%20in%20Neural%20Networks.md), scaling up variational inference to e.g. ResNet on ImageNet. The variational posterior approximation q is still just a diagonal Gaussian.
+
+- I still do not fully understand natural-gradient variational inference.
+
+- Only image classification is considered.
+
+- It seems to perform ish as well as Adam in terms of accuracy (although it is 2-5 times slower to train), while quite consistently performing better in terms of calibration (ECE).
+
+- The authors also compare with MC-dropout in terms of quality of the predictive probabilities, but these results are IMO not very conclusive. 
