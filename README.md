@@ -76,6 +76,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2020:
 
+##### [20-01-08] [paper76]
+- Practical Deep Learning with Bayesian Principles [[pdf]](https://arxiv.org/abs/1906.02506) [[code]](https://github.com/team-approx-bayes/dl-with-bayes) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Kazuki Osawa, Siddharth Swaroop, Anirudh Jain, Runa Eschenhagen, Richard E. Turner, Rio Yokota, Mohammad Emtiyaz Khan*
+- `2019-06-06, NeurIPS 2019`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Variational Inference]](#variational-inference)
+
 ##### [20-01-06] [paper75]
 - Maximum Entropy Generators for Energy-Based Models [[pdf]](https://arxiv.org/abs/1901.08508) [[code]](https://github.com/ritheshkumar95/energy_based_generative_models) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Maximum%20Entropy%20Generators%20for%20Energy-Based%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Maximum%20Entropy%20Generators%20for%20Energy-Based%20Models.md)
 - *Rithesh Kumar, Sherjil Ozair, Anirudh Goyal, Aaron Courville, Yoshua Bengio*
