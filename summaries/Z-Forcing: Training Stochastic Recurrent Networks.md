@@ -5,4 +5,12 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Quite interesting and well-written paper.
+
+### Comments:
+- Seems like Marco Fraccaro's [thesis](https://github.com/fregu856/papers/blob/master/summaries/Deep%20Latent%20Variable%20Models%20for%20Sequential%20Data.md) covers most of this paper, overall the proposed architecture is still quite similar to VRNN/SRNN both in design and performance.
+
+- The auxiliary cost seems to improve performance quite consistently, but nothing revolutionary.  
+
+- It is not quite clear to me if the proposed architecture is more or less difficult / computationally expensive to train than SRNN.
