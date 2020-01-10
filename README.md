@@ -863,6 +863,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### VAEs:
 
+##### [20-01-10] [paper77]
+- Z-Forcing: Training Stochastic Recurrent Networks [[pdf]](https://arxiv.org/abs/1711.05411) [[code]](https://github.com/sordonia/zforcing) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.md)
+- *Anirudh Goyal, Alessandro Sordoni, Marc-Alexandre Côté, Nan Rosemary Ke, Yoshua Bengio*
+- `2017-11-15, NeurIPS 2017`
+- [[VAEs]](#vaes) [[Sequence Modeling]](#sequence-modeling)
+
 ##### [19-11-26] [paper66]
 - Deep Latent Variable Models for Sequential Data [[pdf]](https://backend.orbit.dtu.dk/ws/portalfiles/portal/160548008/phd475_Fraccaro_M.pdf)  [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Latent%20Variable%20Models%20for%20Sequential%20Data.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Deep%20Latent%20Variable%20Models%20for%20Sequential%20Data.md)
 - *Marco Fraccaro*
@@ -1552,6 +1558,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Sequence Modeling:
+
+##### [20-01-10] [paper77]
+- Z-Forcing: Training Stochastic Recurrent Networks [[pdf]](https://arxiv.org/abs/1711.05411) [[code]](https://github.com/sordonia/zforcing) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.md)
+- *Anirudh Goyal, Alessandro Sordoni, Marc-Alexandre Côté, Nan Rosemary Ke, Yoshua Bengio*
+- `2017-11-15, NeurIPS 2017`
+- [[VAEs]](#vaes) [[Sequence Modeling]](#sequence-modeling)
 
 ##### [19-11-26] [paper66]
 - Deep Latent Variable Models for Sequential Data [[pdf]](https://backend.orbit.dtu.dk/ws/portalfiles/portal/160548008/phd475_Fraccaro_M.pdf)  [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Latent%20Variable%20Models%20for%20Sequential%20Data.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Deep%20Latent%20Variable%20Models%20for%20Sequential%20Data.md)
@@ -2291,10 +2303,17 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### SysCon Deep Learning Reading Group:
 
-<!-- Fredrik -> Calle -> David -> Benny -> Niklas -> Antonio -> Fredrik... -->
-
+- [Reading Group Papers in 2020](#reading-group-papers-in-2020)
 - [Reading Group Papers in 2019](#reading-group-papers-in-2019)
 - [Reading Group Papers in 2018](#reading-group-papers-in-2018)
+
+#### Reading Group Papers in 2020:
+
+##### [2020 w.2] ~~[20-01-10] [paper77]~~
+- Z-Forcing: Training Stochastic Recurrent Networks [[pdf]](https://arxiv.org/abs/1711.05411) [[code]](https://github.com/sordonia/zforcing) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.md)
+- *Anirudh Goyal, Alessandro Sordoni, Marc-Alexandre Côté, Nan Rosemary Ke, Yoshua Bengio*
+- `2017-11-15, NeurIPS 2017`
+- [[VAEs]](#vaes) [[Sequence Modeling]](#sequence-modeling)
 
 #### Reading Group Papers in 2019:
 
@@ -2713,6 +2732,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-05-29, NeurIPS2018`
 
 #### NeurIPS 2017:
+
+##### [20-01-10] [paper77]
+- Z-Forcing: Training Stochastic Recurrent Networks [[pdf]](https://arxiv.org/abs/1711.05411) [[code]](https://github.com/sordonia/zforcing) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.md)
+- *Anirudh Goyal, Alessandro Sordoni, Marc-Alexandre Côté, Nan Rosemary Ke, Yoshua Bengio*
+- `2017-11-15, NeurIPS 2017`
+- [[VAEs]](#vaes) [[Sequence Modeling]](#sequence-modeling)
 
 ##### [19-05-29] [paper54]
 - Attention Is All You Need [[pdf]](https://arxiv.org/abs/1706.03762) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Attention%20Is%20All%20You%20Need.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Attention%20Is%20All%20You%20Need.md)
@@ -3801,6 +3826,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-08-16, ICLR2018`
 
 #### 2017:
+
+##### [20-01-10] [paper77]
+- Z-Forcing: Training Stochastic Recurrent Networks [[pdf]](https://arxiv.org/abs/1711.05411) [[code]](https://github.com/sordonia/zforcing) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.md)
+- *Anirudh Goyal, Alessandro Sordoni, Marc-Alexandre Côté, Nan Rosemary Ke, Yoshua Bengio*
+- `2017-11-15, NeurIPS 2017`
+- [[VAEs]](#vaes) [[Sequence Modeling]](#sequence-modeling)
 
 ##### [19-05-29] [paper54]
 - Attention Is All You Need [[pdf]](https://arxiv.org/abs/1706.03762) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Attention%20Is%20All%20You%20Need.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Attention%20Is%20All%20You%20Need.md)
