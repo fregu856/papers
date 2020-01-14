@@ -59,10 +59,10 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [CVPR 2016](#cvpr-2016)
 - [ECCV](#eccv)
 - - [ECCV 2018](#eccv-2018)
-- [CDC](#cdc)
-- - [CDC 2018](#cdc-2018)
 - [AAAI](#aaai)
 - - [AAAI 2020](#aaai-2020)
+- [CDC](#cdc)
+- - [CDC 2018](#cdc-2018)
 
 ****
 ****
@@ -75,6 +75,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2020:
+
+##### [20-01-14] [paper78]
+- Noise-contrastive estimation: A new estimation principle for unnormalized statistical models [[pdf]](http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf) [[pdf with comments (TODO!)]](f) [[comments (TODO!)]]()
+- *Michael Gutmann, Aapo Hyv¨arinen*
+- `2009, AISTATS 2010`
+- [[Energy-Based Models]](#energy-based-models)
 
 ##### [20-01-10] [paper77]
 - Z-Forcing: Training Stochastic Recurrent Networks [[pdf]](https://arxiv.org/abs/1711.05411) [[code]](https://github.com/sordonia/zforcing) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.md)
