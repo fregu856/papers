@@ -59,6 +59,9 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [CVPR 2016](#cvpr-2016)
 - [ECCV](#eccv)
 - - [ECCV 2018](#eccv-2018)
+- [AISTATS](#aistats)
+- - [AISTATS 2019](#aistats-2019)
+- - [AISTATS 2010](#aistats-2010)
 - [AAAI](#aaai)
 - - [AAAI 2020](#aaai-2020)
 - [CDC](#cdc)
@@ -3548,6 +3551,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2015](#2015)
 - [2014](#2014)
 - [2011](#2011)
+- [2006](#2006)
 
 #### 2019:
 
