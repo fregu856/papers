@@ -5,4 +5,14 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Well-written and quite interesting paper.
+
+### Comments:
+- The examples in section 3 are neat and quite pedagogical.
+
+- I would probably need to read a couple of papers covering the basics of score matching, and then come back and read this paper again to fully appreciate it.
+
+- Like they write, their training method could be used to train an EBM (by replacing their score network with the gradient of the energy in the EBM). This would then be just like "denoising score matching", but combining multiple noise levels in a combined objective? 
+
+- I suppose that their annealed Langevin approach could also be used to sample from an EBM. This does however seem very computationally expensive, as they run T=100 steps of Langevin dynamics for each of the L=10 noise levels?
