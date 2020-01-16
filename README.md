@@ -34,6 +34,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [2011](#2011)
 - - [2009](#2009)
 - - [2006](#2006)
+- - [2004](#2004)
 - [NeurIPS](#neurips)
 - - [NeurIPS 2019](#neurips-2019)
 - - [NeurIPS 2018](#neurips-2018)
@@ -67,6 +68,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [AAAI 2020](#aaai-2020)
 - [CDC](#cdc)
 - - [CDC 2018](#cdc-2018)
+- [JMLR](#jmlr)
 
 ****
 ****
@@ -80,15 +82,21 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2020:
 
+##### [20-01-16] [paper80]
+- Estimation of Non-Normalized Statistical Models by Score Matching [[pdf]](http://www.jmlr.org/papers/v6/hyvarinen05a.html) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Aapo Hyvärinen*
+- `2004-11, JMLR 6`
+- [[Energy-Based Models]](#energy-based-models)
+
 ##### [20-01-15] [paper79]
-- Generative Modeling by Estimating Gradients of the Data Distribution [[pdf]](https://arxiv.org/abs/1907.05600) [[code]](https://github.com/ermongroup/ncsn) [[poster]](https://yang-song.github.io/papers/NeurIPS2019/ncsn-poster.pdf) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- Generative Modeling by Estimating Gradients of the Data Distribution [[pdf]](https://arxiv.org/abs/1907.05600) [[code]](https://github.com/ermongroup/ncsn) [[poster]](https://yang-song.github.io/papers/NeurIPS2019/ncsn-poster.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generative%20Modeling%20by%20Estimating%20Gradients%20of%20the%20Data%20Distribution.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Generative%20Modeling%20by%20Estimating%20Gradients%20of%20the%20Data%20Distribution.md)
 - *Yang Song, Stefano Ermon*
 - `2019-07-12, NeurIPS 2019`
 - [[Energy-Based Models]](#energy-based-models)
 
 ##### [20-01-14] [paper78]
 - Noise-contrastive estimation: A new estimation principle for unnormalized statistical models [[pdf]](http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.md)
-- *Michael Gutmann, Aapo Hyvarinen*
+- *Michael Gutmann, Aapo Hyvärinen*
 - `2009, AISTATS 2010`
 - [[Energy-Based Models]](#energy-based-models)
 
@@ -493,6 +501,21 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1877,9 +1900,15 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Energy-Based Models:
 
+##### [20-01-15] [paper79]
+- Generative Modeling by Estimating Gradients of the Data Distribution [[pdf]](https://arxiv.org/abs/1907.05600) [[code]](https://github.com/ermongroup/ncsn) [[poster]](https://yang-song.github.io/papers/NeurIPS2019/ncsn-poster.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generative%20Modeling%20by%20Estimating%20Gradients%20of%20the%20Data%20Distribution.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Generative%20Modeling%20by%20Estimating%20Gradients%20of%20the%20Data%20Distribution.md)
+- *Yang Song, Stefano Ermon*
+- `2019-07-12, NeurIPS 2019`
+- [[Energy-Based Models]](#energy-based-models)
+
 ##### [20-01-14] [paper78]
 - Noise-contrastive estimation: A new estimation principle for unnormalized statistical models [[pdf]](http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.md)
-- *Michael Gutmann, Aapo Hyvarinen*
+- *Michael Gutmann, Aapo Hyvärinen*
 - `2009, AISTATS 2010`
 - [[Energy-Based Models]](#energy-based-models)
 
@@ -2683,6 +2712,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### NeurIPS 2019:
 
+##### [20-01-15] [paper79]
+- Generative Modeling by Estimating Gradients of the Data Distribution [[pdf]](https://arxiv.org/abs/1907.05600) [[code]](https://github.com/ermongroup/ncsn) [[poster]](https://yang-song.github.io/papers/NeurIPS2019/ncsn-poster.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generative%20Modeling%20by%20Estimating%20Gradients%20of%20the%20Data%20Distribution.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Generative%20Modeling%20by%20Estimating%20Gradients%20of%20the%20Data%20Distribution.md)
+- *Yang Song, Stefano Ermon*
+- `2019-07-12, NeurIPS 2019`
+- [[Energy-Based Models]](#energy-based-models)
+
 ##### [20-01-08] [paper76]
 - Practical Deep Learning with Bayesian Principles [[pdf]](https://arxiv.org/abs/1906.02506) [[code]](https://github.com/team-approx-bayes/dl-with-bayes) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Practical%20Deep%20Learning%20with%20Bayesian%20Principles.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Practical%20Deep%20Learning%20with%20Bayesian%20Principles.md)
 - *Kazuki Osawa, Siddharth Swaroop, Anirudh Jain, Runa Eschenhagen, Richard E. Turner, Rio Yokota, Mohammad Emtiyaz Khan*
@@ -3420,7 +3455,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ##### [20-01-14] [paper78]
 - Noise-contrastive estimation: A new estimation principle for unnormalized statistical models [[pdf]](http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.md)
-- *Michael Gutmann, Aapo Hyvarinen*
+- *Michael Gutmann, Aapo Hyvärinen*
 - `2009, AISTATS 2010`
 - [[Energy-Based Models]](#energy-based-models)
 
@@ -3627,6 +3662,61 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+****
+### JMLR:
+
+
+
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3700,8 +3790,15 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2011](#2011)
 - [2009](#2009)
 - [2006](#2006)
+- [2004](#2004)
 
 #### 2019:
+
+##### [20-01-15] [paper79]
+- Generative Modeling by Estimating Gradients of the Data Distribution [[pdf]](https://arxiv.org/abs/1907.05600) [[code]](https://github.com/ermongroup/ncsn) [[poster]](https://yang-song.github.io/papers/NeurIPS2019/ncsn-poster.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generative%20Modeling%20by%20Estimating%20Gradients%20of%20the%20Data%20Distribution.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Generative%20Modeling%20by%20Estimating%20Gradients%20of%20the%20Data%20Distribution.md)
+- *Yang Song, Stefano Ermon*
+- `2019-07-12, NeurIPS 2019`
+- [[Energy-Based Models]](#energy-based-models)
 
 ##### [20-01-08] [paper76]
 - Practical Deep Learning with Bayesian Principles [[pdf]](https://arxiv.org/abs/1906.02506) [[code]](https://github.com/team-approx-bayes/dl-with-bayes) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Practical%20Deep%20Learning%20with%20Bayesian%20Principles.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Practical%20Deep%20Learning%20with%20Bayesian%20Principles.md)
@@ -4108,7 +4205,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ##### [20-01-14] [paper78]
 - Noise-contrastive estimation: A new estimation principle for unnormalized statistical models [[pdf]](http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.md)
-- *Michael Gutmann, Aapo Hyvarinen*
+- *Michael Gutmann, Aapo Aapo Hyvärinen*
 - `2009, AISTATS 2010`
 - [[Energy-Based Models]](#energy-based-models)
 
@@ -4119,3 +4216,6 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - *Yann LeCun, Sumit Chopra, Raia Hadsell, Marc Aurelio Ranzato, Fu Jie Huang*
 - `2006-08-19`
 - [[Energy-Based Models]](#energy-based-models)
+
+#### 2004:
+
