@@ -34,6 +34,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [2011](#2011)
 - - [2009](#2009)
 - - [2006](#2006)
+- - [2004](#2004)
 - [NeurIPS](#neurips)
 - - [NeurIPS 2019](#neurips-2019)
 - - [NeurIPS 2018](#neurips-2018)
@@ -3789,6 +3790,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2011](#2011)
 - [2009](#2009)
 - [2006](#2006)
+- [2004](#2004)
 
 #### 2019:
 
@@ -4214,3 +4216,6 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - *Yann LeCun, Sumit Chopra, Raia Hadsell, Marc Aurelio Ranzato, Fu Jie Huang*
 - `2006-08-19`
 - [[Energy-Based Models]](#energy-based-models)
+
+#### 2004:
+
