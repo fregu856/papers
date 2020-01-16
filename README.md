@@ -80,6 +80,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2020:
 
+##### [20-01-16] [paper80]
+- Estimation of Non-Normalized Statistical Models by Score Matching [[pdf]](http://www.jmlr.org/papers/v6/hyvarinen05a.html) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Aapo Hyvärinen*
+- `2004-11, JMLR 6`
+- [[Energy-Based Models]](#energy-based-models)
+
 ##### [20-01-15] [paper79]
 - Generative Modeling by Estimating Gradients of the Data Distribution [[pdf]](https://arxiv.org/abs/1907.05600) [[code]](https://github.com/ermongroup/ncsn) [[poster]](https://yang-song.github.io/papers/NeurIPS2019/ncsn-poster.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generative%20Modeling%20by%20Estimating%20Gradients%20of%20the%20Data%20Distribution.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Generative%20Modeling%20by%20Estimating%20Gradients%20of%20the%20Data%20Distribution.md)
 - *Yang Song, Stefano Ermon*
@@ -88,7 +94,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ##### [20-01-14] [paper78]
 - Noise-contrastive estimation: A new estimation principle for unnormalized statistical models [[pdf]](http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.md)
-- *Michael Gutmann, Aapo Hyvarinen*
+- *Michael Gutmann, Aapo Hyvärinen*
 - `2009, AISTATS 2010`
 - [[Energy-Based Models]](#energy-based-models)
 
@@ -1900,7 +1906,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ##### [20-01-14] [paper78]
 - Noise-contrastive estimation: A new estimation principle for unnormalized statistical models [[pdf]](http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.md)
-- *Michael Gutmann, Aapo Hyvarinen*
+- *Michael Gutmann, Aapo Hyvärinen*
 - `2009, AISTATS 2010`
 - [[Energy-Based Models]](#energy-based-models)
 
@@ -3447,7 +3453,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ##### [20-01-14] [paper78]
 - Noise-contrastive estimation: A new estimation principle for unnormalized statistical models [[pdf]](http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.md)
-- *Michael Gutmann, Aapo Hyvarinen*
+- *Michael Gutmann, Aapo Hyvärinen*
 - `2009, AISTATS 2010`
 - [[Energy-Based Models]](#energy-based-models)
 
@@ -4141,7 +4147,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ##### [20-01-14] [paper78]
 - Noise-contrastive estimation: A new estimation principle for unnormalized statistical models [[pdf]](http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.md)
-- *Michael Gutmann, Aapo Hyvarinen*
+- *Michael Gutmann, Aapo Aapo Hyvärinen*
 - `2009, AISTATS 2010`
 - [[Energy-Based Models]](#energy-based-models)
 
