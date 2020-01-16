@@ -5,4 +5,10 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Interesting and very well-written paper.
+
+### Comments:
+- The original paper for score matching. Somewhat dated of course, but still interesting and very well-written. It provides a really neat introduction to score matching!
+
+- I did not read section 3 super carefully, as the examples seemed quite dated.
