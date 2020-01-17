@@ -13,4 +13,4 @@
 
 - I am however not overly impressed by the choice of experiments. 
 
-- The experiment in figure 2 seems somewhat biased in their favor.  I think it would be a more fair comparison if the number of layers in the MLP was allowed to be increased (since this would increase its expressivity)?
+- The experiment in figure 2 seems somewhat biased in their favor? I think it would be a more fair comparison if the number of layers in the MLP was allowed to be increased (since this would increase its expressivity)?
