@@ -5,4 +5,10 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Quite well-written and interesting paper.
+
+### Comments:
+- The original paper for "denoising score matching", which it does a good job explaining. 
+
+- It also provides some improved understanding of score matching in general, and provides some quite interesting references for further reading.
