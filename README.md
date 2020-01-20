@@ -32,6 +32,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [2015](#2015)
 - - [2014](#2014)
 - - [2011](#2011)
+- - [2010](#2010)
 - - [2009](#2009)
 - - [2006](#2006)
 - - [2004](#2004)
@@ -81,6 +82,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2020:
+
+##### [20-01-20] [paper82]
+- A Connection Between Score Matching and Denoising Autoencoders [[pdf]](https://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport_1358.pdf) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Pascal Vincent*
+- `2010-12`
+- [[Energy-Based Models]](#energy-based-models)
 
 ##### [20-01-17] [paper81]
 - Multiplicative Interactions and Where to Find Them [[pdf]](https://openreview.net/forum?id=rylnK6VtDH) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Multiplicative%20Interactions%20and%20Where%20to%20Find%20Them.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Multiplicative%20Interactions%20and%20Where%20to%20Find%20Them.md)
@@ -3828,6 +3835,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2015](#2015)
 - [2014](#2014)
 - [2011](#2011)
+- [2010](#2010)
 - [2009](#2009)
 - [2006](#2006)
 - [2004](#2004)
@@ -4246,6 +4254,10 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - Bayesian Learning via Stochastic Gradient Langevin Dynamics [[pdf]](https://www.ics.uci.edu/~welling/publications/papers/stoclangevin_v6.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Learning%20via%20Stochastic%20Gradient%20Langevin%20Dynamics.pdf) [[summary (TODO!)]]()
 - *Max Welling, Yee Whye Teh*
 - `ICML2011`
+
+#### 2010:
+
+
 
 #### 2009:
 
