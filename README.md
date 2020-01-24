@@ -83,8 +83,14 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2020:
 
+##### [20-01-24] [paper83]
+- A Primal-Dual link between GANs and Autoencoders [[pdf]](http://papers.nips.cc/paper/8333-a-primal-dual-link-between-gans-and-autoencoders) [[poster]](https://drive.google.com/file/d/1ifPldBOeuSa2Iwh3ESVGmRJQKzs9XgPv/view) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Hisham Husain, Richard Nock, Robert C. Williamson*
+- `2019-04-26, NeurIPS 2019`
+- [[TODO! TODO!]](#TODO)
+
 ##### [20-01-20] [paper82]
-- A Connection Between Score Matching and Denoising Autoencoders [[pdf]](https://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport_1358.pdf) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- A Connection Between Score Matching and Denoising Autoencoders [[pdf]](https://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport_1358.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Connection%20Between%20Score%20Matching%20and%20Denoising%20Autoencoders.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Connection%20Between%20Score%20Matching%20and%20Denoising%20Autoencoders.md)
 - *Pascal Vincent*
 - `2010-12`
 - [[Energy-Based Models]](#energy-based-models)
@@ -1924,6 +1930,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Energy-Based Models:
+
+##### [20-01-20] [paper82]
+- A Connection Between Score Matching and Denoising Autoencoders [[pdf]](https://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport_1358.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Connection%20Between%20Score%20Matching%20and%20Denoising%20Autoencoders.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Connection%20Between%20Score%20Matching%20and%20Denoising%20Autoencoders.md)
+- *Pascal Vincent*
+- `2010-12`
+- [[Energy-Based Models]](#energy-based-models)
 
 ##### [20-01-16] [paper80]
 - Estimation of Non-Normalized Statistical Models by Score Matching [[pdf]](http://www.jmlr.org/papers/v6/hyvarinen05a.html) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Estimation%20of%20Non-Normalized%20Statistical%20Models%20by%20Score%20Matching.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Estimation%20of%20Non-Normalized%20Statistical%20Models%20by%20Score%20Matching.md)
@@ -4257,7 +4269,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### 2010:
 
-
+##### [20-01-20] [paper82]
+- A Connection Between Score Matching and Denoising Autoencoders [[pdf]](https://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport_1358.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Connection%20Between%20Score%20Matching%20and%20Denoising%20Autoencoders.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Connection%20Between%20Score%20Matching%20and%20Denoising%20Autoencoders.md)
+- *Pascal Vincent*
+- `2010-12`
+- [[Energy-Based Models]](#energy-based-models)
 
 #### 2009:
 
