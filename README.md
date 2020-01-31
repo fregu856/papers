@@ -87,7 +87,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - Modelling heterogeneous distributions with an Uncountable Mixture of Asymmetric Laplacians [[pdf]](https://arxiv.org/abs/1910.12288) [[code]](https://github.com/BBVA/UMAL) [[video]](https://vimeo.com/369179175) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Modelling%20heterogeneous%20distributions%20with%20an%20Uncountable%20Mixture%20of%20Asymmetric%20Laplacians.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Modelling%20heterogeneous%20distributions%20with%20an%20Uncountable%20Mixture%20of%20Asymmetric%20Laplacians.md)
 - *Axel Brando, Jose A. Rodríguez-Serrano, Jordi Vitrià, Alberto Rubio*
 - `2019-10-27, NeurIPS 2019`
-- [[TODO!TODO!TODO!TODO!]](#TODO)
+- [[Uncertainty Estimation]](#uncertainty-estimation)
 
 ##### [20-01-24] [paper83]
 - A Primal-Dual link between GANs and Autoencoders [[pdf]](http://papers.nips.cc/paper/8333-a-primal-dual-link-between-gans-and-autoencoders) [[poster]](https://drive.google.com/file/d/1ifPldBOeuSa2Iwh3ESVGmRJQKzs9XgPv/view) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Primal-Dual%20link%20between%20GANs%20and%20Autoencoders.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Primal-Dual%20link%20between%20GANs%20and%20Autoencoders.md)
