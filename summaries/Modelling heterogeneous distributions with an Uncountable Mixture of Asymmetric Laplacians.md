@@ -5,4 +5,10 @@
 
 ****
 
-TODO
+### General comments on paper quality:
+- Quite well-written and interesting paper.
+
+### Comments:
+- The connection to quantile regression is quite neat, but in the end, their loss in equation 6 just corresponds to a latent variable model (with a uniform distribution for the latent variable tau) trained using straightforward Monte Carlo sampling.
+
+- I am definitely not impressed with the experiments. They only consider very simple problems, y is always 1D, and they only compare with self-implemented baselines. The results are IMO not overly conclusive either, the single Laplacian model is e.g. better calibrated than their proposed method in Figure 3.
