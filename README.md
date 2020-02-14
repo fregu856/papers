@@ -603,6 +603,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Uncertainty Estimation:
 
+##### [20-02-13] [paper86]
+- Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[pdf]](https://arxiv.org/abs/1710.07283) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.md)
+- *Stefan Depeweg, José Miguel Hernández-Lobato, Finale Doshi-Velez, Steffen Udluft*
+- `2017-10-19, ICML 2018`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Reinforcement Learning]](#reinforcement-learning)
+
 ##### [20-02-08] [paper85]
 - Uncertainty Decomposition in Bayesian Neural Networks with Latent Variables [[pdf]](https://arxiv.org/abs/1706.08495) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Decomposition%20in%20Bayesian%20Neural%20Networks%20with%20Latent%20Variables.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Decomposition%20in%20Bayesian%20Neural%20Networks%20with%20Latent%20Variables.md)
 - *Stefan Depeweg, José Miguel Hernández-Lobato, Finale Doshi-Velez, Steffen Udluft*
@@ -1782,6 +1788,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Reinforcement Learning:
 
+##### [20-02-13] [paper86]
+- Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[pdf]](https://arxiv.org/abs/1710.07283) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.md)
+- *Stefan Depeweg, José Miguel Hernández-Lobato, Finale Doshi-Velez, Steffen Udluft*
+- `2017-10-19, ICML 2018`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Reinforcement Learning]](#reinforcement-learning)
+
 ##### [20-02-08] [paper85]
 - Uncertainty Decomposition in Bayesian Neural Networks with Latent Variables [[pdf]](https://arxiv.org/abs/1706.08495) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Decomposition%20in%20Bayesian%20Neural%20Networks%20with%20Latent%20Variables.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Decomposition%20in%20Bayesian%20Neural%20Networks%20with%20Latent%20Variables.md)
 - *Stefan Depeweg, José Miguel Hernández-Lobato, Finale Doshi-Velez, Steffen Udluft*
@@ -2445,6 +2457,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Reading Group Papers in 2020:
 
+##### [2020 w.7] ~~[20-02-13] [paper86]~~
+- Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[pdf]](https://arxiv.org/abs/1710.07283) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.md)
+- *Stefan Depeweg, José Miguel Hernández-Lobato, Finale Doshi-Velez, Steffen Udluft*
+- `2017-10-19, ICML 2018`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Reinforcement Learning]](#reinforcement-learning)
+
 ##### [2020 w.6] ~~[20-02-08] [paper85]~~
 - Uncertainty Decomposition in Bayesian Neural Networks with Latent Variables [[pdf]](https://arxiv.org/abs/1706.08495) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Decomposition%20in%20Bayesian%20Neural%20Networks%20with%20Latent%20Variables.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Decomposition%20in%20Bayesian%20Neural%20Networks%20with%20Latent%20Variables.md)
 - *Stefan Depeweg, José Miguel Hernández-Lobato, Finale Doshi-Velez, Steffen Udluft*
@@ -3047,6 +3065,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-11-12, ICML2019`
 
 #### ICML 2018:
+
+##### [20-02-13] [paper86]
+- Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[pdf]](https://arxiv.org/abs/1710.07283) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.md)
+- *Stefan Depeweg, José Miguel Hernández-Lobato, Finale Doshi-Velez, Steffen Udluft*
+- `2017-10-19, ICML 2018`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Reinforcement Learning]](#reinforcement-learning)
 
 ##### [19-02-07] [paper40]
 - Noisy Natural Gradient as Variational Inference [[pdf]](https://arxiv.org/abs/1712.02390) [[video]](https://youtu.be/bWItvHYqKl8) [[code]](https://github.com/pomonam/NoisyNaturalGradient) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noisy%20Natural%20Gradient%20as%20Variational%20Inference.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Noisy%20Natural%20Gradient%20as%20Variational%20Inference.md)
@@ -4231,6 +4255,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-08-16, ICLR2018`
 
 #### 2017:
+
+##### [20-02-13] [paper86]
+- Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[pdf]](https://arxiv.org/abs/1710.07283) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.md)
+- *Stefan Depeweg, José Miguel Hernández-Lobato, Finale Doshi-Velez, Steffen Udluft*
+- `2017-10-19, ICML 2018`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Reinforcement Learning]](#reinforcement-learning)
 
 ##### [20-02-08] [paper85]
 - Uncertainty Decomposition in Bayesian Neural Networks with Latent Variables [[pdf]](https://arxiv.org/abs/1706.08495) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Decomposition%20in%20Bayesian%20Neural%20Networks%20with%20Latent%20Variables.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Decomposition%20in%20Bayesian%20Neural%20Networks%20with%20Latent%20Variables.md)
