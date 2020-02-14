@@ -5,4 +5,8 @@
 
 ****
 
-TODO
+### General comments on paper quality:
+- Well-written and quite interesting paper.
+
+### Comments:
+- Obviously similar to "Uncertainty Decomposition in Bayesian Neural Networks with Latent Variables", but contains more details, further experiments, and does a better job explaining some of the core concepts.
