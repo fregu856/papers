@@ -1600,7 +1600,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### 3D Multi-Object Tracking:
 
-
+##### [20-02-15] [paper88]
+- A Baseline for 3D Multi-Object Tracking [[pdf]](https://arxiv.org/abs/1907.03961) [[code]](https://github.com/xinshuoweng/AB3DMOT) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Baseline%20for%203D%20Multi-Object%20Tracking.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Baseline%20for%203D%20Multi-Object%20Tracking.md)
+- *Xinshuo Weng, Kris Kitani*
+- `2019-07-09`
+- [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
 ****
 ****
 
@@ -4063,6 +4067,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2019:
+
+##### [20-02-15] [paper88]
+- A Baseline for 3D Multi-Object Tracking [[pdf]](https://arxiv.org/abs/1907.03961) [[code]](https://github.com/xinshuoweng/AB3DMOT) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Baseline%20for%203D%20Multi-Object%20Tracking.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Baseline%20for%203D%20Multi-Object%20Tracking.md)
+- *Xinshuo Weng, Kris Kitani*
+- `2019-07-09`
+- [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
 
 ##### [20-02-14] [paper87]
 - A Contrastive Divergence for Combining Variational Inference and MCMC [[pdf]](https://arxiv.org/abs/1905.04062) [[code]](https://github.com/franrruiz/vcd_divergence) [[slides]](https://franrruiz.github.io/contents/group_talks/EMS-Jul2019.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.md)
