@@ -17,6 +17,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Medical Imaging](#medical-imaging)
 - [Object Detection](#object-detection)
 - [3D Object Detection](#3d-object-detection)
+- [3D Multi-Object Tracking](#3d-multi-object-tracking)
 - [Visual Tracking](#visual-tracking)
 - [Sequence Modeling](#sequence-modeling)
 - [Reinforcement Learning](#reinforcement-learning)
@@ -83,11 +84,17 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2020:
 
+##### [20-02-15] [paper88]
+- A Baseline for 3D Multi-Object Tracking [[pdf]](https://arxiv.org/abs/1907.03961) [[code]](https://github.com/xinshuoweng/AB3DMOT) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Xinshuo Weng, Kris Kitani*
+- `2019-07-09`
+- [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
+
 ##### [20-02-14] [paper87]
-- A Contrastive Divergence for Combining Variational Inference and MCMC [[pdf]](https://arxiv.org/abs/1905.04062) [[code]](https://github.com/franrruiz/vcd_divergence) [[slides]](https://franrruiz.github.io/contents/group_talks/EMS-Jul2019.pdf) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- A Contrastive Divergence for Combining Variational Inference and MCMC [[pdf]](https://arxiv.org/abs/1905.04062) [[code]](https://github.com/franrruiz/vcd_divergence) [[slides]](https://franrruiz.github.io/contents/group_talks/EMS-Jul2019.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.md)
 - *Francisco J. R. Ruiz, Michalis K. Titsias*
 - `2019-05-10, ICML 2019`
-- [[TODO! TODO!]](#TODO!)
+- [[VAEs]](#vaes)
 
 ##### [20-02-13] [paper86]
 - Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[pdf]](https://arxiv.org/abs/1710.07283) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.md)
@@ -975,6 +982,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### VAEs:
 
+##### [20-02-14] [paper87]
+- A Contrastive Divergence for Combining Variational Inference and MCMC [[pdf]](https://arxiv.org/abs/1905.04062) [[code]](https://github.com/franrruiz/vcd_divergence) [[slides]](https://franrruiz.github.io/contents/group_talks/EMS-Jul2019.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.md)
+- *Francisco J. R. Ruiz, Michalis K. Titsias*
+- `2019-05-10, ICML 2019`
+- [[VAEs]](#vaes)
+
 ##### [20-01-10] [paper77]
 - Z-Forcing: Training Stochastic Recurrent Networks [[pdf]](https://arxiv.org/abs/1711.05411) [[code]](https://github.com/sordonia/zforcing) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.md)
 - *Anirudh Goyal, Alessandro Sordoni, Marc-Alexandre Côté, Nan Rosemary Ke, Yoshua Bengio*
@@ -1501,6 +1514,95 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### 3D Multi-Object Tracking:
+
+
+****
+****
 
 
 
@@ -3065,6 +3167,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### ICML 2019:
 
+##### [20-02-14] [paper87]
+- A Contrastive Divergence for Combining Variational Inference and MCMC [[pdf]](https://arxiv.org/abs/1905.04062) [[code]](https://github.com/franrruiz/vcd_divergence) [[slides]](https://franrruiz.github.io/contents/group_talks/EMS-Jul2019.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.md)
+- *Francisco J. R. Ruiz, Michalis K. Titsias*
+- `2019-05-10, ICML 2019`
+- [[VAEs]](#vaes)
+
 ##### [19-11-22] [paper65]
 - Learning Latent Dynamics for Planning from Pixels [[pdf]](https://arxiv.org/abs/1811.04551) [[code]](https://github.com/google-research/planet) [[blog]](https://ai.googleblog.com/2019/02/introducing-planet-deep-planning.html) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Latent%20Dynamics%20for%20Planning%20from%20Pixels.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Learning%20Latent%20Dynamics%20for%20Planning%20from%20Pixels.md)
 - *Danijar Hafner, Timothy Lillicrap, Ian Fischer, Ruben Villegas, David Ha, Honglak Lee, James Davidson*
@@ -3955,6 +4063,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2019:
+
+##### [20-02-14] [paper87]
+- A Contrastive Divergence for Combining Variational Inference and MCMC [[pdf]](https://arxiv.org/abs/1905.04062) [[code]](https://github.com/franrruiz/vcd_divergence) [[slides]](https://franrruiz.github.io/contents/group_talks/EMS-Jul2019.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.md)
+- *Francisco J. R. Ruiz, Michalis K. Titsias*
+- `2019-05-10, ICML 2019`
+- [[VAEs]](#vaes)
 
 ##### [20-01-31] [paper84]
 - Modelling heterogeneous distributions with an Uncountable Mixture of Asymmetric Laplacians [[pdf]](https://arxiv.org/abs/1910.12288) [[code]](https://github.com/BBVA/UMAL) [[video]](https://vimeo.com/369179175) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Modelling%20heterogeneous%20distributions%20with%20an%20Uncountable%20Mixture%20of%20Asymmetric%20Laplacians.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Modelling%20heterogeneous%20distributions%20with%20an%20Uncountable%20Mixture%20of%20Asymmetric%20Laplacians.md)
