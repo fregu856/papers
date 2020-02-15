@@ -5,4 +5,10 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Well-written and interesting paper.
+
+### Comments:
+- Provides a neat introduction to 3D multi-object tracking in general, especially since the proposed method is intentionally straightforward and simple. It seems like a very good starting point.
+
+- It is not clear to me exactly how the update step i in the Kalman filter is implemented? How did they set the covariance matrices? (I guess you could find this in the provided code though)
