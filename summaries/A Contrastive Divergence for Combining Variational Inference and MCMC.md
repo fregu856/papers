@@ -5,4 +5,8 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Interesting and very well-written paper.
+
+### Comments:
+- I feel like I never quite know how significant improvements such as those in Table 2 actually are. What would you get if you instead used a more complex variational family (e.g. flow-based) and fitted that via standard KL, would the proposed method outperform also this baseline? And how would those compare in terms of computational cost?
