@@ -975,6 +975,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### VAEs:
 
+##### [20-02-14] [paper87]
+- A Contrastive Divergence for Combining Variational Inference and MCMC [[pdf]](https://arxiv.org/abs/1905.04062) [[code]](https://github.com/franrruiz/vcd_divergence) [[slides]](https://franrruiz.github.io/contents/group_talks/EMS-Jul2019.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.md)
+- *Francisco J. R. Ruiz, Michalis K. Titsias*
+- `2019-05-10, ICML 2019`
+- [[VAEs]](#vaes)
+
 ##### [20-01-10] [paper77]
 - Z-Forcing: Training Stochastic Recurrent Networks [[pdf]](https://arxiv.org/abs/1711.05411) [[code]](https://github.com/sordonia/zforcing) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.md)
 - *Anirudh Goyal, Alessandro Sordoni, Marc-Alexandre Côté, Nan Rosemary Ke, Yoshua Bengio*
@@ -3065,6 +3071,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### ICML 2019:
 
+##### [20-02-14] [paper87]
+- A Contrastive Divergence for Combining Variational Inference and MCMC [[pdf]](https://arxiv.org/abs/1905.04062) [[code]](https://github.com/franrruiz/vcd_divergence) [[slides]](https://franrruiz.github.io/contents/group_talks/EMS-Jul2019.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.md)
+- *Francisco J. R. Ruiz, Michalis K. Titsias*
+- `2019-05-10, ICML 2019`
+- [[VAEs]](#vaes)
+
 ##### [19-11-22] [paper65]
 - Learning Latent Dynamics for Planning from Pixels [[pdf]](https://arxiv.org/abs/1811.04551) [[code]](https://github.com/google-research/planet) [[blog]](https://ai.googleblog.com/2019/02/introducing-planet-deep-planning.html) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Latent%20Dynamics%20for%20Planning%20from%20Pixels.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Learning%20Latent%20Dynamics%20for%20Planning%20from%20Pixels.md)
 - *Danijar Hafner, Timothy Lillicrap, Ian Fischer, Ruben Villegas, David Ha, Honglak Lee, James Davidson*
@@ -3955,6 +3967,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2019:
+
+##### [20-02-14] [paper87]
+- A Contrastive Divergence for Combining Variational Inference and MCMC [[pdf]](https://arxiv.org/abs/1905.04062) [[code]](https://github.com/franrruiz/vcd_divergence) [[slides]](https://franrruiz.github.io/contents/group_talks/EMS-Jul2019.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.md)
+- *Francisco J. R. Ruiz, Michalis K. Titsias*
+- `2019-05-10, ICML 2019`
+- [[VAEs]](#vaes)
 
 ##### [20-01-31] [paper84]
 - Modelling heterogeneous distributions with an Uncountable Mixture of Asymmetric Laplacians [[pdf]](https://arxiv.org/abs/1910.12288) [[code]](https://github.com/BBVA/UMAL) [[video]](https://vimeo.com/369179175) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Modelling%20heterogeneous%20distributions%20with%20an%20Uncountable%20Mixture%20of%20Asymmetric%20Laplacians.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Modelling%20heterogeneous%20distributions%20with%20an%20Uncountable%20Mixture%20of%20Asymmetric%20Laplacians.md)
