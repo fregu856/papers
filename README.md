@@ -17,6 +17,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Medical Imaging](#medical-imaging)
 - [Object Detection](#object-detection)
 - [3D Object Detection](#3d-object-detection)
+- [3D Object Tracking](#3d-object-tracking)
 - [Visual Tracking](#visual-tracking)
 - [Sequence Modeling](#sequence-modeling)
 - [Reinforcement Learning](#reinforcement-learning)
@@ -82,6 +83,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2020:
+
+##### [20-02-15] [paper88]
+- A Baseline for 3D Multi-Object Tracking [[pdf]](https://arxiv.org/abs/1907.03961) [[code]](https://github.com/xinshuoweng/AB3DMOT) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Xinshuo Weng, Kris Kitani*
+- `2019-07-09`
+- [[3D Object Tracking]](##3d-object-tracking)
 
 ##### [20-02-14] [paper87]
 - A Contrastive Divergence for Combining Variational Inference and MCMC [[pdf]](https://arxiv.org/abs/1905.04062) [[code]](https://github.com/franrruiz/vcd_divergence) [[slides]](https://franrruiz.github.io/contents/group_talks/EMS-Jul2019.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.md)
@@ -1507,6 +1514,95 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### 3D Object Tracking:
+
+
+****
+****
 
 
 
