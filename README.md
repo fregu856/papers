@@ -26,6 +26,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [SysCon Deep Learning Reading Group](#syscon-deep-learning-reading-group)
 - [SysCon Monte Carlo Reading Group](#syscon-monte-carlo-reading-group)
 - [Papers by Year](#papers-by-year)
+- - [2020](#2020)
 - - [2019](#2019)
 - - [2018](#2018)
 - - [2017](#2017)
@@ -1605,6 +1606,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### 3D Multi-Object Tracking:
+
+##### [20-02-18] [paper89]
+- Probabilistic 3D Multi-Object Tracking for Autonomous Driving [[pdf]](https://arxiv.org/abs/2001.05673) [[code]](https://github.com/eddyhkchiu/mahalanobis_3d_multi_object_tracking) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%203D%20Multi-Object%20Tracking%20for%20Autonomous%20Driving.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Probabilistic%203D%20Multi-Object%20Tracking%20for%20Autonomous%20Driving.md)
+- *Hsu-kuang Chiu, Antonio Prioletti, Jie Li, Jeannette Bohg*
+- `2020-01-16`
+- [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
 
 ##### [20-02-15] [paper88]
 - A Baseline for 3D Multi-Object Tracking [[pdf]](https://arxiv.org/abs/1907.03961) [[code]](https://github.com/xinshuoweng/AB3DMOT) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Baseline%20for%203D%20Multi-Object%20Tracking.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Baseline%20for%203D%20Multi-Object%20Tracking.md)
@@ -4060,6 +4067,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Papers by Year:
 
+- [2020](#2020)
 - [2019](#2019)
 - [2018](#2018)
 - [2017](#2017)
@@ -4071,6 +4079,14 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2009](#2009)
 - [2006](#2006)
 - [2004](#2004)
+
+#### 2020:
+
+##### [20-02-18] [paper89]
+- Probabilistic 3D Multi-Object Tracking for Autonomous Driving [[pdf]](https://arxiv.org/abs/2001.05673) [[code]](https://github.com/eddyhkchiu/mahalanobis_3d_multi_object_tracking) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%203D%20Multi-Object%20Tracking%20for%20Autonomous%20Driving.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Probabilistic%203D%20Multi-Object%20Tracking%20for%20Autonomous%20Driving.md)
+- *Hsu-kuang Chiu, Antonio Prioletti, Jie Li, Jeannette Bohg*
+- `2020-01-16`
+- [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
 
 #### 2019:
 
