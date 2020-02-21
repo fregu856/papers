@@ -23,9 +23,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Reinforcement Learning](#reinforcement-learning)
 - [System Identification](#system-identification)
 - [Energy-Based Models](#energy-based-models)
+- [Neural Processes](#neural-processes)
 - [SysCon Deep Learning Reading Group](#syscon-deep-learning-reading-group)
 - [SysCon Monte Carlo Reading Group](#syscon-monte-carlo-reading-group)
 - [Papers by Year](#papers-by-year)
+- - [2020](#2020)
 - - [2019](#2019)
 - - [2018](#2018)
 - - [2017](#2017)
@@ -84,8 +86,14 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2020:
 
+##### [20-02-21] [paper90]
+- Convolutional Conditional Neural Processes [[pdf]](https://arxiv.org/abs/1910.13556) [[code]](https://github.com/cambridge-mlg/convcnp) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Jonathan Gordon, Wessel P. Bruinsma, Andrew Y. K. Foong, James Requeima, Yann Dubois, Richard E. Turner*
+- `2019-10-29, ICLR 2020`
+- [[Neural Processes]](#neural-processes)
+
 ##### [20-02-18] [paper89]
-- Probabilistic 3D Multi-Object Tracking for Autonomous Driving [[pdf]](https://arxiv.org/abs/2001.05673) [[code]](https://github.com/eddyhkchiu/mahalanobis_3d_multi_object_tracking) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- Probabilistic 3D Multi-Object Tracking for Autonomous Driving [[pdf]](https://arxiv.org/abs/2001.05673) [[code]](https://github.com/eddyhkchiu/mahalanobis_3d_multi_object_tracking) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%203D%20Multi-Object%20Tracking%20for%20Autonomous%20Driving.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Probabilistic%203D%20Multi-Object%20Tracking%20for%20Autonomous%20Driving.md)
 - *Hsu-kuang Chiu, Antonio Prioletti, Jie Li, Jeannette Bohg*
 - `2020-01-16`
 - [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
@@ -1606,6 +1614,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### 3D Multi-Object Tracking:
 
+##### [20-02-18] [paper89]
+- Probabilistic 3D Multi-Object Tracking for Autonomous Driving [[pdf]](https://arxiv.org/abs/2001.05673) [[code]](https://github.com/eddyhkchiu/mahalanobis_3d_multi_object_tracking) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%203D%20Multi-Object%20Tracking%20for%20Autonomous%20Driving.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Probabilistic%203D%20Multi-Object%20Tracking%20for%20Autonomous%20Driving.md)
+- *Hsu-kuang Chiu, Antonio Prioletti, Jie Li, Jeannette Bohg*
+- `2020-01-16`
+- [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
+
 ##### [20-02-15] [paper88]
 - A Baseline for 3D Multi-Object Tracking [[pdf]](https://arxiv.org/abs/1907.03961) [[code]](https://github.com/xinshuoweng/AB3DMOT) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Baseline%20for%203D%20Multi-Object%20Tracking.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Baseline%20for%203D%20Multi-Object%20Tracking.md)
 - *Xinshuo Weng, Kris Kitani*
@@ -2502,6 +2516,151 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### Neural Processes:
+
+##### [18-09-30] [paper8]
+- Neural Processes [[pdf]](https://arxiv.org/abs/1807.01622) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Processes_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Processes.md)
+- *Marta Garnelo, Jonathan Schwarz, Dan Rosenbaum, Fabio Viola, Danilo J. Rezende, S.M. Ali Eslami, Yee Whye Teh*
+- `2018-07-04, ICML2018 Workshop`
+
+##### [18-09-27] [paper7]
+- Conditional Neural Processes [[pdf]](https://arxiv.org/abs/1807.01613) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conditional%20Neural%20Processes_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Conditional%20Neural%20Processes.md)
+- *Marta Garnelo, Dan Rosenbaum, Chris J. Maddison, Tiago Ramalho, David Saxton, Murray Shanahan, Yee Whye Teh, Danilo J. Rezende, S. M. Ali Eslami*
+- `2018-07-04, ICML2018`
+
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4060,6 +4219,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Papers by Year:
 
+- [2020](#2020)
 - [2019](#2019)
 - [2018](#2018)
 - [2017](#2017)
@@ -4071,6 +4231,14 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2009](#2009)
 - [2006](#2006)
 - [2004](#2004)
+
+#### 2020:
+
+##### [20-02-18] [paper89]
+- Probabilistic 3D Multi-Object Tracking for Autonomous Driving [[pdf]](https://arxiv.org/abs/2001.05673) [[code]](https://github.com/eddyhkchiu/mahalanobis_3d_multi_object_tracking) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%203D%20Multi-Object%20Tracking%20for%20Autonomous%20Driving.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Probabilistic%203D%20Multi-Object%20Tracking%20for%20Autonomous%20Driving.md)
+- *Hsu-kuang Chiu, Antonio Prioletti, Jie Li, Jeannette Bohg*
+- `2020-01-16`
+- [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
 
 #### 2019:
 
