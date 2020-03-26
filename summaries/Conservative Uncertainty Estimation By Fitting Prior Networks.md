@@ -5,4 +5,14 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Interesting and somewhat well-written paper.
+
+### Comments:
+- I found it quite difficult to actually understand the method at first, I think the authors could have done a better job describing it.
+
+- I guess that "f" should be replaced with "f_i" in equation (2)?
+
+- "...the obtained uncertainties are larger than ones arrived at by Bayesian inference.", I did not quite get this though. The estimated uncertainty is conservative w.r.t. the posterior process associated with the prior process (the prior process defined by randomly initializing neural networks), but only if this prior process can be assumed to be Gaussian? So, do we actually have any guarantees? I am not sure if the proposed method actually is any less "hand-wavy" than e.g. ensembling.
+
+- The experimental results seem quite promising, but I do not agree that this is "an extensive empirical comparison" (only experiments on CIFAR-10).
