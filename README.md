@@ -648,6 +648,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Uncertainty Estimation:
 
+##### [20-03-26] [paper93]
+- Conservative Uncertainty Estimation By Fitting Prior Networks [[pdf]](https://openreview.net/forum?id=BJlahxHYDS) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conservative%20Uncertainty%20Estimation%20By%20Fitting%20Prior%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Conservative%20Uncertainty%20Estimation%20By%20Fitting%20Prior%20Networks.md)
+- *Kamil Ciosek, Vincent Fortuin, Ryota Tomioka, Katja Hofmann, Richard Turner*
+- `2019-10-25, ICLR 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) 
+
 ##### [20-02-28] [paper91]
 - Bayesian Deep Learning and a Probabilistic Perspective of Generalization [[pdf]](https://arxiv.org/abs/2002.08791) [[code]](https://github.com/izmailovpavel/understandingbdl) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Deep%20Learning%20and%20a%20Probabilistic%20Perspective%20of%20Generalization.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Bayesian%20Deep%20Learning%20and%20a%20Probabilistic%20Perspective%20of%20Generalization.md)
 - *Andrew Gordon Wilson, Pavel Izmailov*
@@ -2776,6 +2782,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Reading Group Papers in 2020:
 
+##### [2020 w.12] ~~[20-03-26] [paper93]~~
+- Conservative Uncertainty Estimation By Fitting Prior Networks [[pdf]](https://openreview.net/forum?id=BJlahxHYDS) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conservative%20Uncertainty%20Estimation%20By%20Fitting%20Prior%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Conservative%20Uncertainty%20Estimation%20By%20Fitting%20Prior%20Networks.md)
+- *Kamil Ciosek, Vincent Fortuin, Ryota Tomioka, Katja Hofmann, Richard Turner*
+- `2019-10-25, ICLR 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) 
+
 ##### [2020 w.10] ~~[20-03-09] [paper92]~~
 - Batch Normalization Biases Deep Residual Networks Towards Shallow Paths [[pdf]](https://arxiv.org/abs/2002.10444) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Batch%20Normalization%20Biases%20Deep%20Residual%20Networks%20Towards%20Shallow%20Path.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Batch%20Normalization%20Biases%20Deep%20Residual%20Networks%20Towards%20Shallow%20Paths.md)
 - *Soham De, Samuel L. Smith*
@@ -3567,6 +3579,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### ICLR 2020:
 
+##### [20-03-26] [paper93]
+- Conservative Uncertainty Estimation By Fitting Prior Networks [[pdf]](https://openreview.net/forum?id=BJlahxHYDS) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conservative%20Uncertainty%20Estimation%20By%20Fitting%20Prior%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Conservative%20Uncertainty%20Estimation%20By%20Fitting%20Prior%20Networks.md)
+- *Kamil Ciosek, Vincent Fortuin, Ryota Tomioka, Katja Hofmann, Richard Turner*
+- `2019-10-25, ICLR 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) 
+
 ##### [20-02-21] [paper90]
 - Convolutional Conditional Neural Processes [[pdf]](https://arxiv.org/abs/1910.13556) [[code]](https://github.com/cambridge-mlg/convcnp) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Convolutional%20Conditional%20Neural%20Processes.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Convolutional%20Conditional%20Neural%20Processes.md)
 - *Jonathan Gordon, Wessel P. Bruinsma, Andrew Y. K. Foong, James Requeima, Yann Dubois, Richard E. Turner*
@@ -4319,6 +4337,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
 
 #### 2019:
+
+##### [20-03-26] [paper93]
+- Conservative Uncertainty Estimation By Fitting Prior Networks [[pdf]](https://openreview.net/forum?id=BJlahxHYDS) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conservative%20Uncertainty%20Estimation%20By%20Fitting%20Prior%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Conservative%20Uncertainty%20Estimation%20By%20Fitting%20Prior%20Networks.md)
+- *Kamil Ciosek, Vincent Fortuin, Ryota Tomioka, Katja Hofmann, Richard Turner*
+- `2019-10-25, ICLR 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) 
 
 ##### [20-02-21] [paper90]
 - Convolutional Conditional Neural Processes [[pdf]](https://arxiv.org/abs/1910.13556) [[code]](https://github.com/cambridge-mlg/convcnp) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Convolutional%20Conditional%20Neural%20Processes.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Convolutional%20Conditional%20Neural%20Processes.md)
