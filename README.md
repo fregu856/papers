@@ -86,6 +86,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2020:
 
+##### [20-03-26] [paper93]
+- Conservative Uncertainty Estimation By Fitting Prior Networks [[pdf]](https://openreview.net/forum?id=BJlahxHYDS) [[pdf with comments]]() [[comments]]()
+- *Kamil Ciosek, Vincent Fortuin, Ryota Tomioka, Katja Hofmann, Richard Turner*
+- `2019-10-25, ICLR 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) 
+
 ##### [20-03-09] [paper92]
 - Batch Normalization Biases Deep Residual Networks Towards Shallow Paths [[pdf]](https://arxiv.org/abs/2002.10444) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Batch%20Normalization%20Biases%20Deep%20Residual%20Networks%20Towards%20Shallow%20Path.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Batch%20Normalization%20Biases%20Deep%20Residual%20Networks%20Towards%20Shallow%20Paths.md)
 - *Soham De, Samuel L. Smith*
