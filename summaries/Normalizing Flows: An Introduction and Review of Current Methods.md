@@ -5,4 +5,8 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Quite well-written and somewhat interesting paper.
+
+### Comments:
+- The paper is probably too short for it to actually fulfill the goal of "provide context and explanation to enable a reader to become familiar with the basics". It seems to me like one would have to have a pretty good understanding of normalizing flows, and various common variants, already beforehand to actually benefit much from this paper.
