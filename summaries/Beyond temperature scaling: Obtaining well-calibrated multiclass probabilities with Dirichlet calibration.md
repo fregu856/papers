@@ -5,4 +5,16 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Well-written and quite interesting paper.
+
+### Comments:
+- Does a good job describing different notions of calibration (Definition 1 - 3).
+
+- Classwise-ECE intuitively makes sense as a reasonable metric. 
+
+- I did not quite follow the paragraph on interpretability (or figure 2).
+
+- The experiments seem extensive and rigorously conducted. 
+
+- So, matrix scaling (with ODIR regularization) outperforms Dirichlet calibration?
