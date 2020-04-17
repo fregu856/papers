@@ -86,6 +86,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2020:
 
+##### [20-04-17] [paper97]
+- How Good is the Bayes Posterior in Deep Neural Networks Really? [[pdf]](https://arxiv.org/abs/2002.02405) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Florian Wenzel, Kevin Roth, Bastiaan S. Veeling, Jakub Świątkowski, Linh Tran, Stephan Mandt, Jasper Snoek, Tim Salimans, Rodolphe Jenatton, Sebastian Nowozin*
+- `2020-02-06`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Stochastic Gradient MCMC]](#stochastic-gradient-mcmc)
+
 ##### [20-04-09] [paper96]
 - Beyond temperature scaling: Obtaining well-calibrated multiclass probabilities with Dirichlet calibration [[pdf]](https://arxiv.org/abs/1910.12656) [[code]](https://github.com/dirichletcal/experiments_neurips) [[poster]](https://dirichletcal.github.io/documents/neurips2019/poster.pdf) [[slides]](https://dirichletcal.github.io/documents/neurips2019/slides.pdf) [[video]](https://dirichletcal.github.io/documents/neurips2019/video/Meelis_Ettekanne.mp4) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Beyond%20temperature%20scaling:%20Obtaining%20well-calibrated%20multiclass%20probabilities%20with%20Dirichlet%20calibration.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Beyond%20temperature%20scaling:%20Obtaining%20well-calibrated%20multiclass%20probabilities%20with%20Dirichlet%20calibration.md)
 - *Meelis Kull, Miquel Perello-Nieto, Markus Kängsepp, Telmo Silva Filho, Hao Song, Peter Flach*
