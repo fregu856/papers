@@ -5,4 +5,10 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Somewhat well-written and interesting paper.
+
+### Comments:
+- Quite odd paper. They refer to the appendix a whole lot, this work is not really suited for an 8 page paper IMO. They present a bunch of hypotheses, but I do not quite know what to do with in the end. The paper is rather inconclusive.
+
+- I found it somewhat odd that they only evaluate the methods in terms of predictive performance, that is usually not the reason why people turn to Bayesian deep learning models.
