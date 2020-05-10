@@ -5,4 +5,8 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Somewhat well-written and interesting paper.
+
+### Comments:
+- Somewhat odd paper, I did not properly understand everything. It is not clear to me how the energy functional used here is connected to energy-based models.
