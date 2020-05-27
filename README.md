@@ -86,8 +86,14 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2020:
 
+##### [20-05-27] [paper99]
+- BatchEnsemble: An Alternative Approach to Efficient Ensemble and Lifelong Learning [[pdf]](https://arxiv.org/abs/2002.06715) [[code]](https://github.com/google/edward2) [[video]](https://iclr.cc/virtual_2020/poster_Sklf1yrYDr.html) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Yeming Wen, Dustin Tran, Jimmy Ba*
+- `2020-02-17, ICLR 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Ensembling]](#ensembling)
+
 ##### [20-05-10] [paper98]
-- Stable Neural Flows [[pdf]](https://arxiv.org/abs/2003.08063) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- Stable Neural Flows [[pdf]](https://arxiv.org/abs/2003.08063) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stable%20Neural%20Flows%20.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Stable%20Neural%20Flows.md)
 - *Stefano Massaroli, Michael Poli, Michelangelo Bin, Jinkyoo Park, Atsushi Yamashita, Hajime Asama*
 - `2020-03-18`
 
@@ -2853,6 +2859,17 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Reading Group Papers in 2020:
 
+##### [2020 w.20] ~~[19-12-22] [paper74]~~
+- Your Classifier is Secretly an Energy Based Model and You Should Treat it Like One [[pdf]](https://arxiv.org/abs/1912.03263) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20Classifier%20is%20Secretly%20an%20Energy%20Based%20Model%20and%20You%20Should%20Treat%20it%20Like%20One.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Your%20Classifier%20is%20Secretly%20an%20Energy%20Based%20Model%20and%20You%20Should%20Treat%20it%20Like%20One.md)
+- *Will Grathwohl, Kuan-Chieh Wang, Jörn-Henrik Jacobsen, David Duvenaud, Mohammad Norouzi, Kevin Swersky*
+- `2019-12-06, ICLR 2020`
+- [[Energy-Based Models]](#energy-based-models)
+
+##### [2020 w.19] ~~[20-05-10] [paper98]~~
+- Stable Neural Flows [[pdf]](https://arxiv.org/abs/2003.08063) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stable%20Neural%20Flows%20.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Stable%20Neural%20Flows.md)
+- *Stefano Massaroli, Michael Poli, Michelangelo Bin, Jinkyoo Park, Atsushi Yamashita, Hajime Asama*
+- `2020-03-18`
+
 ##### [2020 w.16] ~~[20-04-17] [paper97]~~
 - How Good is the Bayes Posterior in Deep Neural Networks Really? [[pdf]](https://arxiv.org/abs/2002.02405) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20Good%20is%20the%20Bayes%20Posterior%20in%20Deep%20Neural%20Networks%20Really%3F.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/How%20Good%20is%20the%20Bayes%20Posterior%20in%20Deep%20Neural%20Networks%20Really%3F.md)
 - *Florian Wenzel, Kevin Roth, Bastiaan S. Veeling, Jakub Świątkowski, Linh Tran, Stephan Mandt, Jasper Snoek, Tim Salimans, Rodolphe Jenatton, Sebastian Nowozin*
@@ -4424,6 +4441,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2020:
+
+##### [20-05-10] [paper98]
+- Stable Neural Flows [[pdf]](https://arxiv.org/abs/2003.08063) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stable%20Neural%20Flows%20.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Stable%20Neural%20Flows.md)
+- *Stefano Massaroli, Michael Poli, Michelangelo Bin, Jinkyoo Park, Atsushi Yamashita, Hajime Asama*
+- `2020-03-18`
 
 ##### [20-04-17] [paper97]
 - How Good is the Bayes Posterior in Deep Neural Networks Really? [[pdf]](https://arxiv.org/abs/2002.02405) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20Good%20is%20the%20Bayes%20Posterior%20in%20Deep%20Neural%20Networks%20Really%3F.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/How%20Good%20is%20the%20Bayes%20Posterior%20in%20Deep%20Neural%20Networks%20Really%3F.md)
