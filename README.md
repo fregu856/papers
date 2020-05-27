@@ -86,6 +86,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2020:
 
+##### [20-05-27] [paper99]
+- BatchEnsemble: An Alternative Approach to Efficient Ensemble and Lifelong Learning [[pdf]](https://arxiv.org/abs/2002.06715) [[code]](https://github.com/google/edward2) [[video]](https://iclr.cc/virtual_2020/poster_Sklf1yrYDr.html) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Yeming Wen, Dustin Tran, Jimmy Ba*
+- `2020-02-17, ICLR 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Ensembling]](#ensembling)
+
 ##### [20-05-10] [paper98]
 - Stable Neural Flows [[pdf]](https://arxiv.org/abs/2003.08063) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stable%20Neural%20Flows%20.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Stable%20Neural%20Flows.md)
 - *Stefano Massaroli, Michael Poli, Michelangelo Bin, Jinkyoo Park, Atsushi Yamashita, Hajime Asama*
