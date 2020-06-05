@@ -47,6 +47,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [NeurIPS 2015](#neurips-2015)
 - - [NeurIPS 2011](#neurips-2011)
 - [ICML](#icml)
+- - [ICML 2020](#icml-2020)
 - - [ICML 2019](#icml-2019)
 - - [ICML 2018](#icml-2018)
 - - [ICML 2017](#icml-2017)
@@ -85,6 +86,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2020:
+
+##### [20-06-05] [paper100]
+- Efficient and Scalable Bayesian Neural Nets with Rank-1 Factors [[pdf]](https://arxiv.org/abs/2005.07186) [[code]](https://github.com/google/edward2) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Michael W. Dusenberry, Ghassen Jerfel, Yeming Wen, Yi-an Ma, Jasper Snoek, Katherine Heller, Balaji Lakshminarayanan, Dustin Tran*
+- `2020-05-14, ICML 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
 
 ##### [20-05-27] [paper99]
 - BatchEnsemble: An Alternative Approach to Efficient Ensemble and Lifelong Learning [[pdf]](https://arxiv.org/abs/2002.06715) [[code]](https://github.com/google/edward2) [[video]](https://iclr.cc/virtual_2020/poster_Sklf1yrYDr.html) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/BatchEnsemble:%20An%20Alternative%20Approach%20to%20Efficient%20Ensemble%20and%20Lifelong%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/BatchEnsemble:%20An%20Alternative%20Approach%20to%20Efficient%20Ensemble%20and%20Lifelong%20Learning.md)
@@ -3535,12 +3542,17 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### ICML:
 
+- [ICML 2020](#icml-2020)
 - [ICML 2019](#icml-2019)
 - [ICML 2018](#icml-2018)
 - [ICML 2017](#icml-2017)
 - [ICML 2015](#icml-2015)
 - [ICML 2014](#icml-2014)
 - [ICML 2011](#icml-2011)
+
+#### ICML 2020:
+
+
 
 #### ICML 2019:
 
