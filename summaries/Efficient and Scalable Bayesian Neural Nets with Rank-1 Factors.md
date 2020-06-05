@@ -5,4 +5,10 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Quite well-written and interesting paper.
+
+### Comments:
+- Extenstion of the [BatchEnsemble paper](https://github.com/fregu856/papers/blob/master/summaries/BatchEnsemble:%20An%20Alternative%20Approach%20to%20Efficient%20Ensemble%20and%20Lifelong%20Learning.md). Still a quite neat and simple idea, and performance seems to be consistently improved compared to BatchEnsemble.
+
+- Not quite clear to me if the model is much more difficult to implement or train. Seems quite promising overall.
