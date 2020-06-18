@@ -9,7 +9,7 @@
 - Well-written and interesting paper.
 
 ### Comments:
-- Provides a quite interesting comparison of EBMs and flow-based models in the introduction ("By choosing a flow model, one is making the assumption that the true data distribution is one that is in principle simple to sample from, and is computationally efficient to normalize.").
+- Provides a quite interesting comparison of EBMs and flow-based models in the introduction (_"By choosing a flow model, one is making the assumption that the true data distribution is one that is in principle simple to sample from, and is computationally efficient to normalize."_).
 
 - Provides a pretty good introduction to Noise Contrastive Estimation (NCE).
 
