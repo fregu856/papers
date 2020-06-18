@@ -61,6 +61,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [ICLR 2017](#iclr-2017)
 - - [ICLR 2014](#iclr-2014)
 - [CVPR](#cvpr)
+- - [CVPR 2020](#cvpr-2020)
 - - [CVPR 2019](#cvpr-2019)
 - - [CVPR 2018](#cvpr-2018)
 - - [CVPR 2016](#cvpr-2016)
@@ -3938,9 +3939,14 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### CVPR:
 
+- [CVPR 2019](#cvpr-2020)
 - [CVPR 2019](#cvpr-2019)
 - [CVPR 2018](#cvpr-2018)
 - [CVPR 2016](#cvpr-2016)
+
+#### CVPR 2020:
+
+
 
 #### CVPR 2019:
 
