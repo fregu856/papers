@@ -5,4 +5,12 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Interesting and very well-written paper.
+
+### Comments:
+- Neat and interesting idea.
+
+- The paper is well-written and provides a clear and quite intuitive description of EBMs, VAEs and other related work.
+
+- The comment _"Learning well-formed energy landscape remains a challenging problem, and our experience suggests that the learned energy function can be sensitive to the setting of hyper-parameters and within the training algorithm."_ is somewhat concerning.
