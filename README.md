@@ -1117,6 +1117,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### VAEs:
 
+##### [20-06-18] [paper102]
+- Joint Training of Variational Auto-Encoder and Latent Energy-Based Model [[pdf]](https://arxiv.org/abs/2006.06059) [[code]](https://hthth0801.github.io/jointLearning/) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.md)
+- *Tian Han, Erik Nijkamp, Linqi Zhou, Bo Pang, Song-Chun Zhu, Ying Nian Wu*
+- `2020-06-10, CVPR 2020`
+- [[VAEs]](#vaes) [[Energy-Based Models]](#energy-based-models)
+
 ##### [20-02-14] [paper87]
 - A Contrastive Divergence for Combining Variational Inference and MCMC [[pdf]](https://arxiv.org/abs/1905.04062) [[code]](https://github.com/franrruiz/vcd_divergence) [[slides]](https://franrruiz.github.io/contents/group_talks/EMS-Jul2019.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.md)
 - *Francisco J. R. Ruiz, Michalis K. Titsias*
@@ -2250,6 +2256,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Energy-Based Models:
 
+##### [20-06-18] [paper102]
+- Joint Training of Variational Auto-Encoder and Latent Energy-Based Model [[pdf]](https://arxiv.org/abs/2006.06059) [[code]](https://hthth0801.github.io/jointLearning/) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.md)
+- *Tian Han, Erik Nijkamp, Linqi Zhou, Bo Pang, Song-Chun Zhu, Ying Nian Wu*
+- `2020-06-10, CVPR 2020`
+- [[VAEs]](#vaes) [[Energy-Based Models]](#energy-based-models)
+
 ##### [20-01-20] [paper82]
 - A Connection Between Score Matching and Denoising Autoencoders [[pdf]](https://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport_1358.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Connection%20Between%20Score%20Matching%20and%20Denoising%20Autoencoders.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20Connection%20Between%20Score%20Matching%20and%20Denoising%20Autoencoders.md)
 - *Pascal Vincent*
@@ -2908,6 +2920,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Reading Group Papers in 2018](#reading-group-papers-in-2018)
 
 #### Reading Group Papers in 2020:
+
+##### [2020 w.25] ~~[20-06-18] [paper102]~~
+- Joint Training of Variational Auto-Encoder and Latent Energy-Based Model [[pdf]](https://arxiv.org/abs/2006.06059) [[code]](https://hthth0801.github.io/jointLearning/) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.md)
+- *Tian Han, Erik Nijkamp, Linqi Zhou, Bo Pang, Song-Chun Zhu, Ying Nian Wu*
+- `2020-06-10, CVPR 2020`
+- [[VAEs]](#vaes) [[Energy-Based Models]](#energy-based-models)
 
 ##### [2020 w.24] ~~[20-06-12] [paper101]~~
 - End-to-End Object Detection with Transformers [[pdf]](https://arxiv.org/abs/2005.12872) [[code]](https://github.com/facebookresearch/detr) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-End%20Object%20Detection%20with%20Transformers.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/End-to-End%20Object%20Detection%20with%20Transformers.md)
@@ -3946,7 +3964,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### CVPR 2020:
 
-
+##### [20-06-18] [paper102]
+- Joint Training of Variational Auto-Encoder and Latent Energy-Based Model [[pdf]](https://arxiv.org/abs/2006.06059) [[code]](https://hthth0801.github.io/jointLearning/) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.md)
+- *Tian Han, Erik Nijkamp, Linqi Zhou, Bo Pang, Song-Chun Zhu, Ying Nian Wu*
+- `2020-06-10, CVPR 2020`
+- [[VAEs]](#vaes) [[Energy-Based Models]](#energy-based-models)
 
 #### CVPR 2019:
 
@@ -4529,6 +4551,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2020:
+
+##### [20-06-18] [paper102]
+- Joint Training of Variational Auto-Encoder and Latent Energy-Based Model [[pdf]](https://arxiv.org/abs/2006.06059) [[code]](https://hthth0801.github.io/jointLearning/) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.md)
+- *Tian Han, Erik Nijkamp, Linqi Zhou, Bo Pang, Song-Chun Zhu, Ying Nian Wu*
+- `2020-06-10, CVPR 2020`
+- [[VAEs]](#vaes) [[Energy-Based Models]](#energy-based-models)
 
 ##### [20-06-12] [paper101]
 - End-to-End Object Detection with Transformers [[pdf]](https://arxiv.org/abs/2005.12872) [[code]](https://github.com/facebookresearch/detr) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-End%20Object%20Detection%20with%20Transformers.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/End-to-End%20Object%20Detection%20with%20Transformers.md)
