@@ -272,7 +272,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ##### [19-12-20] [paper72]
 - Flow Contrastive Estimation of Energy-Based Models [[pdf]](https://arxiv.org/abs/1912.00589) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Flow%20Contrastive%20Estimation%20of%20Energy-Based%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Flow%20Contrastive%20Estimation%20of%20Energy-Based%20Models.md)
 - *Ruiqi Gao, Erik Nijkamp, Diederik P. Kingma, Zhen Xu, Andrew M. Dai, Ying Nian Wu*
-- `2019-12-02`
+- `2019-12-02, CVPR 2020`
 - [[Energy-Based Models]](#energy-based-models) [[Normalizing Flows]](#normalizing-flows)
 
 ##### [19-12-19] [paper71]
@@ -1225,7 +1225,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ##### [19-12-20] [paper72]
 - Flow Contrastive Estimation of Energy-Based Models [[pdf]](https://arxiv.org/abs/1912.00589) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Flow%20Contrastive%20Estimation%20of%20Energy-Based%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Flow%20Contrastive%20Estimation%20of%20Energy-Based%20Models.md)
 - *Ruiqi Gao, Erik Nijkamp, Diederik P. Kingma, Zhen Xu, Andrew M. Dai, Ying Nian Wu*
-- `2019-12-02`
+- `2019-12-02, CVPR 2020`
 - [[Energy-Based Models]](#energy-based-models) [[Normalizing Flows]](#normalizing-flows)
 
 ##### [19-11-26] [paper66]
@@ -2307,7 +2307,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ##### [19-12-20] [paper72]
 - Flow Contrastive Estimation of Energy-Based Models [[pdf]](https://arxiv.org/abs/1912.00589) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Flow%20Contrastive%20Estimation%20of%20Energy-Based%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Flow%20Contrastive%20Estimation%20of%20Energy-Based%20Models.md)
 - *Ruiqi Gao, Erik Nijkamp, Diederik P. Kingma, Zhen Xu, Andrew M. Dai, Ying Nian Wu*
-- `2019-12-02`
+- `2019-12-02, CVPR 2020`
 - [[Energy-Based Models]](#energy-based-models) [[Normalizing Flows]](#normalizing-flows)
 
 ##### [19-12-19] [paper71]
@@ -3970,6 +3970,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2020-06-10, CVPR 2020`
 - [[VAEs]](#vaes) [[Energy-Based Models]](#energy-based-models)
 
+##### [19-12-20] [paper72]
+- Flow Contrastive Estimation of Energy-Based Models [[pdf]](https://arxiv.org/abs/1912.00589) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Flow%20Contrastive%20Estimation%20of%20Energy-Based%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Flow%20Contrastive%20Estimation%20of%20Energy-Based%20Models.md)
+- *Ruiqi Gao, Erik Nijkamp, Diederik P. Kingma, Zhen Xu, Andrew M. Dai, Ying Nian Wu*
+- `2019-12-02, CVPR 2020`
+- [[Energy-Based Models]](#energy-based-models) [[Normalizing Flows]](#normalizing-flows)
+
 #### CVPR 2019:
 
 ##### [19-07-10] [paper59]
@@ -4694,7 +4700,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ##### [19-12-20] [paper72]
 - Flow Contrastive Estimation of Energy-Based Models [[pdf]](https://arxiv.org/abs/1912.00589) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Flow%20Contrastive%20Estimation%20of%20Energy-Based%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Flow%20Contrastive%20Estimation%20of%20Energy-Based%20Models.md)
 - *Ruiqi Gao, Erik Nijkamp, Diederik P. Kingma, Zhen Xu, Andrew M. Dai, Ying Nian Wu*
-- `2019-12-02`
+- `2019-12-02, CVPR 2020`
 - [[Energy-Based Models]](#energy-based-models) [[Normalizing Flows]](#normalizing-flows)
 
 ##### [19-12-19] [paper71]
