@@ -1,7 +1,7 @@
 ##### [19-12-20] [paper72]
 - Flow Contrastive Estimation of Energy-Based Models [[pdf]](https://arxiv.org/abs/1912.00589) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Flow%20Contrastive%20Estimation%20of%20Energy-Based%20Models.pdf)
 - *Ruiqi Gao, Erik Nijkamp, Diederik P. Kingma, Zhen Xu, Andrew M. Dai, Ying Nian Wu*
-- `2019-12-02`
+- `2019-12-02, CVPR 2020`
 
 ****
 
