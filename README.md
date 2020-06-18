@@ -87,6 +87,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2020:
 
+##### [20-06-18] [paper102]
+- Joint Training of Variational Auto-Encoder and Latent Energy-Based Model [[pdf]](https://arxiv.org/abs/2006.06059) [[code]](https://hthth0801.github.io/jointLearning/) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Tian Han, Erik Nijkamp, Linqi Zhou, Bo Pang, Song-Chun Zhu, Ying Nian Wu*
+- `2020-06-10, CVPR 2020`
+- [[VAEs]](#vaes) [[Energy-Based Models]](#energy-based-models)
+
 ##### [20-06-12] [paper101]
 - End-to-End Object Detection with Transformers [[pdf]](https://arxiv.org/abs/2005.12872) [[code]](https://github.com/facebookresearch/detr) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-End%20Object%20Detection%20with%20Transformers.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/End-to-End%20Object%20Detection%20with%20Transformers.md)
 - *Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko*
