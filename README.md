@@ -2262,6 +2262,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Energy-Based Models:
 
+##### [20-09-04] [paper103]
+- Denoising Diffusion Probabilistic Models [[pdf]](https://arxiv.org/abs/2006.11239) [[code]](https://github.com/hojonathanho/diffusion) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Denoising%20Diffusion%20Probabilistic%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Denoising%20Diffusion%20Probabilistic%20Models.md)
+- *Jonathan Ho, Ajay Jain, Pieter Abbeel*
+- `20-06-19`
+- [[Energy-Based Models]](#energy-based-models)
+
 ##### [20-06-18] [paper102]
 - Joint Training of Variational Auto-Encoder and Latent Energy-Based Model [[pdf]](https://arxiv.org/abs/2006.06059) [[code]](https://hthth0801.github.io/jointLearning/) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.md)
 - *Tian Han, Erik Nijkamp, Linqi Zhou, Bo Pang, Song-Chun Zhu, Ying Nian Wu*
@@ -2926,6 +2932,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Reading Group Papers in 2018](#reading-group-papers-in-2018)
 
 #### Reading Group Papers in 2020:
+
+##### [2020 w.36] ~~[20-09-04] [paper103]~~
+- Denoising Diffusion Probabilistic Models [[pdf]](https://arxiv.org/abs/2006.11239) [[code]](https://github.com/hojonathanho/diffusion) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Denoising%20Diffusion%20Probabilistic%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Denoising%20Diffusion%20Probabilistic%20Models.md)
+- *Jonathan Ho, Ajay Jain, Pieter Abbeel*
+- `20-06-19`
+- [[Energy-Based Models]](#energy-based-models)
 
 ##### [2020 w.25] ~~[20-06-18] [paper102]~~
 - Joint Training of Variational Auto-Encoder and Latent Energy-Based Model [[pdf]](https://arxiv.org/abs/2006.06059) [[code]](https://hthth0801.github.io/jointLearning/) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.md)
@@ -4563,6 +4575,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2020:
+
+##### [20-09-04] [paper103]
+- Denoising Diffusion Probabilistic Models [[pdf]](https://arxiv.org/abs/2006.11239) [[code]](https://github.com/hojonathanho/diffusion) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Denoising%20Diffusion%20Probabilistic%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Denoising%20Diffusion%20Probabilistic%20Models.md)
+- *Jonathan Ho, Ajay Jain, Pieter Abbeel*
+- `20-06-19`
+- [[Energy-Based Models]](#energy-based-models)
 
 ##### [20-06-18] [paper102]
 - Joint Training of Variational Auto-Encoder and Latent Energy-Based Model [[pdf]](https://arxiv.org/abs/2006.06059) [[code]](https://hthth0801.github.io/jointLearning/) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.md)
