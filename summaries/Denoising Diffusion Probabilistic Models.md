@@ -5,4 +5,8 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+Quite well-written and interesting paper.
+
+### Comments:
+I do find the connection between "diffusion probabilistic models" and denoising score matching relatively interesting. Since I was not familiar with diffusion probabilistic models, the paper was however a quite heavy read, and the established connection didn't really improve my intuition (reading [Generative Modeling by Estimating Gradients of the Data Distribution](https://github.com/fregu856/papers/blob/master/summaries/Generative%20Modeling%20by%20Estimating%20Gradients%20of%20the%20Data%20Distribution.md) gave a better understanding of score matching, I think).
