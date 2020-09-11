@@ -5,4 +5,12 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Quite well-written and somewhat interesting paper.
+
+### Comments:
+- Interesting paper in the sense that it was quite different compared to basically all other papers I've read.
+
+- The proposed method seemed odd in the beginning, but eventually I think I understood it reasonably well.
+
+- Still not quite sure how useful GLNs actually would be in practice though. It seems promising for online/continual learning applications, but only toy examples were considered in the paper? I don't think I understand the method well enough to properly assess its potential impact.
