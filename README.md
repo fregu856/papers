@@ -2938,6 +2938,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Reading Group Papers in 2020:
 
+##### [2020 w.37] ~~[20-09-11] [paper104]~~
+- Gated Linear Networks [[pdf]](https://arxiv.org/abs/1910.01526) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gated%20Linear%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Gated%20Linear%20Networks.md)
+- *Joel Veness, Tor Lattimore, David Budden, Avishkar Bhoopchand, Christopher Mattern, Agnieszka Grabska-Barwinska, Eren Sezener, Jianan Wang, Peter Toth, Simon Schmitt, Marcus Hutter*
+- `2020-06-11`
+
 ##### [2020 w.36] ~~[20-09-04] [paper103]~~
 - Denoising Diffusion Probabilistic Models [[pdf]](https://arxiv.org/abs/2006.11239) [[code]](https://github.com/hojonathanho/diffusion) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Denoising%20Diffusion%20Probabilistic%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Denoising%20Diffusion%20Probabilistic%20Models.md)
 - *Jonathan Ho, Ajay Jain, Pieter Abbeel*
@@ -4580,6 +4585,11 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2020:
+
+##### [20-09-11] [paper104]
+- Gated Linear Networks [[pdf]](https://arxiv.org/abs/1910.01526) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gated%20Linear%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Gated%20Linear%20Networks.md)
+- *Joel Veness, Tor Lattimore, David Budden, Avishkar Bhoopchand, Christopher Mattern, Agnieszka Grabska-Barwinska, Eren Sezener, Jianan Wang, Peter Toth, Simon Schmitt, Marcus Hutter*
+- `2020-06-11`
 
 ##### [20-09-04] [paper103]
 - Denoising Diffusion Probabilistic Models [[pdf]](https://arxiv.org/abs/2006.11239) [[code]](https://github.com/hojonathanho/diffusion) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Denoising%20Diffusion%20Probabilistic%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Denoising%20Diffusion%20Probabilistic%20Models.md)
