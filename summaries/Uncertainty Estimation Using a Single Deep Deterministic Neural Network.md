@@ -5,4 +5,10 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Well-written and quite interesting paper.
+
+### Comments:
+- Interesting and neat idea, it definitely makes some intuitive sense.
+
+- In the end though, I was not overly impressed. Once they used the more realistic setup on the CIFAR10 experiment (not using a third dataset to tune lambda), the proposed method was outperformed by ensembling (also using quite few networks). Yes, their method is more computationally efficient at test time (which is indeed very important in many applications), but it also seems quite a lot less convenient to train, involves setting a couple of important hyperparameters and so on. Interesting method and a step in the right direction though.
