@@ -726,6 +726,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Uncertainty Estimation:
 
+##### [20-09-24] [paper106]
+- Simple and Principled Uncertainty Estimation with Deterministic Deep Learning via Distance Awareness [[pdf]](https://arxiv.org/abs/2006.10108) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Simple%20and%20Principled%20Uncertainty%20Estimation%20with%20Deterministic%20Deep%20Learning%20via%20Distance%20Awareness.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Simple%20and%20Principled%20Uncertainty%20Estimation%20with%20Deterministic%20Deep%20Learning%20via%20Distance%20Awareness.md)
+- *Jeremiah Zhe Liu, Zi Lin, Shreyas Padhy, Dustin Tran, Tania Bedrax-Weiss, Balaji Lakshminarayanan*
+- `2020-06-17`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+
 ##### [20-09-21] [paper105]
 - Uncertainty Estimation Using a Single Deep Deterministic Neural Network [[pdf]](https://arxiv.org/abs/2003.02037) [[code]](https://github.com/y0ast/deterministic-uncertainty-quantification) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.md)
 - *Joost van Amersfoort, Lewis Smith, Yee Whye Teh, Yarin Gal*
@@ -2958,6 +2964,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Reading Group Papers in 2020:
 
+##### [2020 w.39] ~~[20-09-24] [paper106]~~
+- Simple and Principled Uncertainty Estimation with Deterministic Deep Learning via Distance Awareness [[pdf]](https://arxiv.org/abs/2006.10108) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Simple%20and%20Principled%20Uncertainty%20Estimation%20with%20Deterministic%20Deep%20Learning%20via%20Distance%20Awareness.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Simple%20and%20Principled%20Uncertainty%20Estimation%20with%20Deterministic%20Deep%20Learning%20via%20Distance%20Awareness.md)
+- *Jeremiah Zhe Liu, Zi Lin, Shreyas Padhy, Dustin Tran, Tania Bedrax-Weiss, Balaji Lakshminarayanan*
+- `2020-06-17`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+
 ##### [2020 w.38] ~~[20-09-21] [paper105]~~
 - Uncertainty Estimation Using a Single Deep Deterministic Neural Network [[pdf]](https://arxiv.org/abs/2003.02037) [[code]](https://github.com/y0ast/deterministic-uncertainty-quantification) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.md)
 - *Joost van Amersfoort, Lewis Smith, Yee Whye Teh, Yarin Gal*
@@ -4617,6 +4629,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2020:
+
+##### [20-09-24] [paper106]
+- Simple and Principled Uncertainty Estimation with Deterministic Deep Learning via Distance Awareness [[pdf]](https://arxiv.org/abs/2006.10108) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Simple%20and%20Principled%20Uncertainty%20Estimation%20with%20Deterministic%20Deep%20Learning%20via%20Distance%20Awareness.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Simple%20and%20Principled%20Uncertainty%20Estimation%20with%20Deterministic%20Deep%20Learning%20via%20Distance%20Awareness.md)
+- *Jeremiah Zhe Liu, Zi Lin, Shreyas Padhy, Dustin Tran, Tania Bedrax-Weiss, Balaji Lakshminarayanan*
+- `2020-06-17`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
 
 ##### [20-09-21] [paper105]
 - Uncertainty Estimation Using a Single Deep Deterministic Neural Network [[pdf]](https://arxiv.org/abs/2003.02037) [[code]](https://github.com/y0ast/deterministic-uncertainty-quantification) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.md)
