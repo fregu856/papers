@@ -5,4 +5,12 @@
 
 ****
 
-TODO!
+### General comments on paper quality:
+- Interesting paper.
+
+### Comments:
+- Quite a heavy read (section 2 and 3). I didn't really spend enough time reading the paper to fully understand everything.
+
+- The "distance awareness" concept intuitively makes a lot of sense, the example in Figure 1 is impressive, and the results on CIFAR10/100 are also encouraging. 
+
+- I did find section 3.1 quite confusing, Appendix A was definitely useful.
