@@ -66,6 +66,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [CVPR 2018](#cvpr-2018)
 - - [CVPR 2016](#cvpr-2016)
 - [ECCV](#eccv)
+- - [ECCV 2020](#eccv-2020)
 - - [ECCV 2018](#eccv-2018)
 - [AISTATS](#aistats)
 - - [AISTATS 2019](#aistats-2019)
@@ -120,7 +121,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ##### [20-06-12] [paper101]
 - End-to-End Object Detection with Transformers [[pdf]](https://arxiv.org/abs/2005.12872) [[code]](https://github.com/facebookresearch/detr) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-End%20Object%20Detection%20with%20Transformers.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/End-to-End%20Object%20Detection%20with%20Transformers.md)
 - *Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko*
-- `2020-05-26`
+- `2020-05-26, ECCV 2020`
 - [[Object Detection]](#object-detection)
 
 ##### [20-06-05] [paper100]
@@ -1564,7 +1565,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ##### [20-06-12] [paper101]
 - End-to-End Object Detection with Transformers [[pdf]](https://arxiv.org/abs/2005.12872) [[code]](https://github.com/facebookresearch/detr) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-End%20Object%20Detection%20with%20Transformers.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/End-to-End%20Object%20Detection%20with%20Transformers.md)
 - *Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko*
-- `2020-05-26`
+- `2020-05-26, ECCV 2020`
 - [[Object Detection]](#object-detection)
 
 ##### [19-07-03] [paper58]
@@ -2996,7 +2997,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ##### [2020 w.24] ~~[20-06-12] [paper101]~~
 - End-to-End Object Detection with Transformers [[pdf]](https://arxiv.org/abs/2005.12872) [[code]](https://github.com/facebookresearch/detr) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-End%20Object%20Detection%20with%20Transformers.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/End-to-End%20Object%20Detection%20with%20Transformers.md)
 - *Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko*
-- `2020-05-26`
+- `2020-05-26, ECCV 2020`
 - [[Object Detection]](#object-detection)
 
 ##### [2020 w.23] ~~[20-06-05] [paper100]~~
@@ -4175,7 +4176,16 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### ECCV:
 
+- [ECCV 2020](#eccv-2020)
 - [ECCV 2018](#eccv-2018)
+
+#### ECCV 2020:
+
+##### [20-06-12] [paper101]
+- End-to-End Object Detection with Transformers [[pdf]](https://arxiv.org/abs/2005.12872) [[code]](https://github.com/facebookresearch/detr) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-End%20Object%20Detection%20with%20Transformers.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/End-to-End%20Object%20Detection%20with%20Transformers.md)
+- *Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko*
+- `2020-05-26, ECCV 2020`
+- [[Object Detection]](#object-detection)
 
 #### ECCV 2018:
 
@@ -4662,7 +4672,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ##### [20-06-12] [paper101]
 - End-to-End Object Detection with Transformers [[pdf]](https://arxiv.org/abs/2005.12872) [[code]](https://github.com/facebookresearch/detr) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-End%20Object%20Detection%20with%20Transformers.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/End-to-End%20Object%20Detection%20with%20Transformers.md)
 - *Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko*
-- `2020-05-26`
+- `2020-05-26, ECCV 2020`
 - [[Object Detection]](#object-detection)
 
 ##### [20-06-05] [paper100]
