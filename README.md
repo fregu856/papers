@@ -88,8 +88,14 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2020:
 
+##### [20-09-24] [paper106]
+- Simple and Principled Uncertainty Estimation with Deterministic Deep Learning via Distance Awareness [[pdf]](https://arxiv.org/abs/2006.10108) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *Jeremiah Zhe Liu, Zi Lin, Shreyas Padhy, Dustin Tran, Tania Bedrax-Weiss, Balaji Lakshminarayanan*
+- `2020-06-17`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+
 ##### [20-09-21] [paper105]
-- Uncertainty Estimation Using a Single Deep Deterministic Neural Network [[pdf]](https://arxiv.org/abs/2003.02037) [[code]](https://github.com/y0ast/deterministic-uncertainty-quantification) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- Uncertainty Estimation Using a Single Deep Deterministic Neural Network [[pdf]](https://arxiv.org/abs/2003.02037) [[code]](https://github.com/y0ast/deterministic-uncertainty-quantification) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.md)
 - *Joost van Amersfoort, Lewis Smith, Yee Whye Teh, Yarin Gal*
 - `2020-03-04, ICML 2020`
 - [[Uncertainty Estimation]](#uncertainty-estimation)
@@ -719,6 +725,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Uncertainty Estimation:
+
+##### [20-09-21] [paper105]
+- Uncertainty Estimation Using a Single Deep Deterministic Neural Network [[pdf]](https://arxiv.org/abs/2003.02037) [[code]](https://github.com/y0ast/deterministic-uncertainty-quantification) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.md)
+- *Joost van Amersfoort, Lewis Smith, Yee Whye Teh, Yarin Gal*
+- `2020-03-04, ICML 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
 
 ##### [20-06-05] [paper100]
 - Efficient and Scalable Bayesian Neural Nets with Rank-1 Factors [[pdf]](https://arxiv.org/abs/2005.07186) [[code]](https://github.com/google/edward2) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Efficient%20and%20Scalable%20Bayesian%20Neural%20Nets%20with%20Rank-1%20Factors.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Efficient%20and%20Scalable%20Bayesian%20Neural%20Nets%20with%20Rank-1%20Factors.md)
@@ -2942,9 +2954,15 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Reading Group Papers in 2019](#reading-group-papers-in-2019)
 - [Reading Group Papers in 2018](#reading-group-papers-in-2018)
 
-(Current paper selection order: Calle --> Daniel --> David --> Fredrik --> Calle --> ...)
+(Current paper selection order: Calle --> Daniel --> David --> Fredrik --> John --> Calle --> ...)
 
 #### Reading Group Papers in 2020:
+
+##### [2020 w.38] ~~[20-09-21] [paper105]~~
+- Uncertainty Estimation Using a Single Deep Deterministic Neural Network [[pdf]](https://arxiv.org/abs/2003.02037) [[code]](https://github.com/y0ast/deterministic-uncertainty-quantification) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.md)
+- *Joost van Amersfoort, Lewis Smith, Yee Whye Teh, Yarin Gal*
+- `2020-03-04, ICML 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
 
 ##### [2020 w.37] ~~[20-09-11] [paper104]~~
 - Gated Linear Networks [[pdf]](https://arxiv.org/abs/1910.01526) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gated%20Linear%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Gated%20Linear%20Networks.md)
@@ -3648,6 +3666,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [ICML 2011](#icml-2011)
 
 #### ICML 2020:
+
+##### [20-09-21] [paper105]
+- Uncertainty Estimation Using a Single Deep Deterministic Neural Network [[pdf]](https://arxiv.org/abs/2003.02037) [[code]](https://github.com/y0ast/deterministic-uncertainty-quantification) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.md)
+- *Joost van Amersfoort, Lewis Smith, Yee Whye Teh, Yarin Gal*
+- `2020-03-04, ICML 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
 
 ##### [20-06-05] [paper100]
 - Efficient and Scalable Bayesian Neural Nets with Rank-1 Factors [[pdf]](https://arxiv.org/abs/2005.07186) [[code]](https://github.com/google/edward2) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Efficient%20and%20Scalable%20Bayesian%20Neural%20Nets%20with%20Rank-1%20Factors.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Efficient%20and%20Scalable%20Bayesian%20Neural%20Nets%20with%20Rank-1%20Factors.md)
@@ -4593,6 +4617,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2020:
+
+##### [20-09-21] [paper105]
+- Uncertainty Estimation Using a Single Deep Deterministic Neural Network [[pdf]](https://arxiv.org/abs/2003.02037) [[code]](https://github.com/y0ast/deterministic-uncertainty-quantification) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.md)
+- *Joost van Amersfoort, Lewis Smith, Yee Whye Teh, Yarin Gal*
+- `2020-03-04, ICML 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
 
 ##### [20-09-11] [paper104]
 - Gated Linear Networks [[pdf]](https://arxiv.org/abs/1910.01526) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gated%20Linear%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Gated%20Linear%20Networks.md)
