@@ -11,4 +11,4 @@
 ### Comments:
 - Neat and quite simple idea. I am however not entirely sure how easy it is to implement, it must complicate things somewhat at least?
 
-- Not overly impressed by the calibration/uncertainty experiments, the proposed method is actually quite significantly outperform by standard ensembling. The decrease in test-time computational cost is however impressive.
+- Not overly impressed by the calibration/uncertainty experiments, the proposed method is actually quite significantly outperformed by standard ensembling. The decrease in test-time computational cost is however impressive.
