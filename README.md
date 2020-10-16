@@ -89,7 +89,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2020:
 
-##### [20-10-09] [paper106]
+##### [20-10-16] [paper108]
+- Implicit Gradient Regularization [[pdf]](https://arxiv.org/abs/2009.11162) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
+- *David G.T. Barrett, Benoit Dherin*
+- `2020-09-23`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+
+##### [20-10-09] [paper107]
 - Satellite Conjunction Analysis and the False Confidence Theorem [[pdf]](https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.2018.0565) [[pdf with comments (TODO!)]]() [[comments (TODO!)]]()
 - *Michael Scott Balch, Ryan Martin, Scott Ferson*
 - `2018-03-21`
