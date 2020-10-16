@@ -6,8 +6,8 @@
 ****
 
 ### General comments on paper quality:
-Well-written and somewhat interesting paper.
+- Well-written and somewhat interesting paper.
 
 ### Comments:
-Quite interesting concept, makes some intuitive sense. Not sure if the experimental results were super convincing though.
+- Quite interesting concept, makes some intuitive sense. Not sure if the experimental results were super convincing though.
 
