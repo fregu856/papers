@@ -90,7 +90,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 #### Papers Read in 2020:
 
 ##### [20-10-16] [paper108]
-- Implicit Gradient Regularization [[pdf]](https://arxiv.org/abs/2009.11162) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Implicit%20Gradient%20Regularization.pdf) [[comments (TODO!)]]()
+- Implicit Gradient Regularization [[pdf]](https://arxiv.org/abs/2009.11162) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Implicit%20Gradient%20Regularization.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Implicit%20Gradient%20Regularization.md)
 - *David G.T. Barrett, Benoit Dherin*
 - `2020-09-23`
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
