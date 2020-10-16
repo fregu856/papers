@@ -96,7 +96,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 ##### [20-10-09] [paper107]
-- Satellite Conjunction Analysis and the False Confidence Theorem [[pdf]](https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.2018.0565) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Satellite%20conjunction%20analysis%20and%20the%20false%20confidence%20theorem.pdf) [[comments (TODO!)]]()
+- Satellite Conjunction Analysis and the False Confidence Theorem [[pdf]](https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.2018.0565) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Satellite%20conjunction%20analysis%20and%20the%20false%20confidence%20theorem.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Satellite%20Conjunction%20Analysis%20and%20the%20False%20Confidence%20Theorem.md)
 - *Michael Scott Balch, Ryan Martin, Scott Ferson*
 - `2018-03-21`
 
