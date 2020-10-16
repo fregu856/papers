@@ -1042,6 +1042,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Theoretical Properties of Deep Learning:
 
+##### [20-10-16] [paper108]
+- Implicit Gradient Regularization [[pdf]](https://arxiv.org/abs/2009.11162) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Implicit%20Gradient%20Regularization.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Implicit%20Gradient%20Regularization.md)
+- *David G.T. Barrett, Benoit Dherin*
+- `2020-09-23`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+
 ##### [20-03-09] [paper92]
 - Batch Normalization Biases Deep Residual Networks Towards Shallow Paths [[pdf]](https://arxiv.org/abs/2002.10444) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Batch%20Normalization%20Biases%20Deep%20Residual%20Networks%20Towards%20Shallow%20Path.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Batch%20Normalization%20Biases%20Deep%20Residual%20Networks%20Towards%20Shallow%20Paths.md)
 - *Soham De, Samuel L. Smith*
@@ -2977,6 +2983,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Reading Group Papers in 2020:
 
+##### [2020 w.42] ~~[20-10-16] [paper108]~~
+- Implicit Gradient Regularization [[pdf]](https://arxiv.org/abs/2009.11162) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Implicit%20Gradient%20Regularization.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Implicit%20Gradient%20Regularization.md)
+- *David G.T. Barrett, Benoit Dherin*
+- `2020-09-23`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+
 ##### [2020 w.41] ~~[20-10-09] [paper107]~~
 - Satellite Conjunction Analysis and the False Confidence Theorem [[pdf]](https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.2018.0565) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Satellite%20conjunction%20analysis%20and%20the%20false%20confidence%20theorem.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Satellite%20Conjunction%20Analysis%20and%20the%20False%20Confidence%20Theorem.md)
 - *Michael Scott Balch, Ryan Martin, Scott Ferson*
@@ -4665,6 +4677,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2020:
+
+##### [20-10-16] [paper108]
+- Implicit Gradient Regularization [[pdf]](https://arxiv.org/abs/2009.11162) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Implicit%20Gradient%20Regularization.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Implicit%20Gradient%20Regularization.md)
+- *David G.T. Barrett, Benoit Dherin*
+- `2020-09-23`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 ##### [20-09-24] [paper106]
 - Simple and Principled Uncertainty Estimation with Deterministic Deep Learning via Distance Awareness [[pdf]](https://arxiv.org/abs/2006.10108) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Simple%20and%20Principled%20Uncertainty%20Estimation%20with%20Deterministic%20Deep%20Learning%20via%20Distance%20Awareness.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Simple%20and%20Principled%20Uncertainty%20Estimation%20with%20Deterministic%20Deep%20Learning%20via%20Distance%20Awareness.md)
