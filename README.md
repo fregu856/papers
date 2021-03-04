@@ -2979,7 +2979,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Reading Group Papers in 2019](#reading-group-papers-in-2019)
 - [Reading Group Papers in 2018](#reading-group-papers-in-2018)
 
-(Current paper selection order: Calle --> Daniel --> David --> Fredrik --> John --> Calle --> ...)
+(Current paper selection order: Calle --> Carmen --> Daniel --> David --> Fredrik --> John --> Calle --> ...)
 
 #### Reading Group Papers in 2020:
 
