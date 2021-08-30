@@ -24,6 +24,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [System Identification](#system-identification)
 - [Energy-Based Models](#energy-based-models)
 - [Neural Processes](#neural-processes)
+- [Transformers](#transformers)
 - [SysCon Deep Learning Reading Group](#syscon-deep-learning-reading-group)
 - [SysCon Monte Carlo Reading Group](#syscon-monte-carlo-reading-group)
 - [Papers by Year](#papers-by-year)
@@ -90,6 +91,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2020:
+
+##### [20-11-27] [paper112]
+- Rethinking Attention with Performers
+ [[pdf]](https://arxiv.org/abs/2009.14794) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Rethinking%20Attention%20with%20Performers.pdf)
+- *Krzysztof Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song, Andreea Gane, Tamas Sarlos, Peter Hawkins, Jared Davis, Afroz Mohiuddin, Lukasz Kaiser, David Belanger, Lucy Colwell, Adrian Weller*
+- `2020-10-30, ICLR 2021`
+- [[Transformers]](#transformers)
 
 ##### [20-11-23] [paper111]
 - Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images
@@ -3022,6 +3030,102 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+****
+### Transformers:
+
+##### [20-11-27] [paper112]
+- Rethinking Attention with Performers
+ [[pdf]](https://arxiv.org/abs/2009.14794) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Rethinking%20Attention%20with%20Performers.pdf)
+- *Krzysztof Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song, Andreea Gane, Tamas Sarlos, Peter Hawkins, Jared Davis, Afroz Mohiuddin, Lukasz Kaiser, David Belanger, Lucy Colwell, Adrian Weller*
+- `2020-10-30, ICLR 2021`
+- [[Transformers]](#transformers)
+
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ****
 ### SysCon Deep Learning Reading Group:
 
@@ -3961,6 +4065,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### ICLR 2021:
 
+##### [20-11-27] [paper112]
+- Rethinking Attention with Performers
+ [[pdf]](https://arxiv.org/abs/2009.14794) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Rethinking%20Attention%20with%20Performers.pdf)
+- *Krzysztof Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song, Andreea Gane, Tamas Sarlos, Peter Hawkins, Jared Davis, Afroz Mohiuddin, Lukasz Kaiser, David Belanger, Lucy Colwell, Adrian Weller*
+- `2020-10-30, ICLR 2021`
+- [[Transformers]](#transformers)
+
 ##### [20-11-23] [paper111]
 - Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images
  [[pdf]](https://arxiv.org/abs/2011.10650) [[code]](https://github.com/openai/vdvae) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Very%20Deep%20VAEs%20Generalize%20Autoregressive%20Models%20and%20Can%20Outperform%20Them%20on%20Images.pdf)
@@ -4751,6 +4862,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2020:
+
+##### [20-11-27] [paper112]
+- Rethinking Attention with Performers
+ [[pdf]](https://arxiv.org/abs/2009.14794) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Rethinking%20Attention%20with%20Performers.pdf)
+- *Krzysztof Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song, Andreea Gane, Tamas Sarlos, Peter Hawkins, Jared Davis, Afroz Mohiuddin, Lukasz Kaiser, David Belanger, Lucy Colwell, Adrian Weller*
+- `2020-10-30, ICLR 2021`
+- [[Transformers]](#transformers)
 
 ##### [20-11-23] [paper111]
 - Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images
