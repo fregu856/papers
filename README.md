@@ -92,6 +92,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2020:
 
+##### [20-12-14] [paper113]
+- Dissecting Neural ODEs
+ [[pdf]](https://arxiv.org/abs/2002.08071) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Dissecting%20Neural%20ODEs.pdf)
+- *Stefano Massaroli, Michael Poli, Jinkyoo Park, Atsushi Yamashita, Hajime Asama*
+- `2020-02-19, NeurIPS 2020`
+- [[Transformers]](#transformers)
+
 ##### [20-11-27] [paper112]
 - Rethinking Attention with Performers
  [[pdf]](https://arxiv.org/abs/2009.14794) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Rethinking%20Attention%20with%20Performers.pdf)
