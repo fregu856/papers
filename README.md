@@ -91,6 +91,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2020:
 
+##### [20-11-23] [paper111]
+- Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images
+ [[pdf]](https://arxiv.org/abs/2011.10650) [[code]](https://github.com/openai/vdvae) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Very%20Deep%20VAEs%20Generalize%20Autoregressive%20Models%20and%20Can%20Outperform%20Them%20on%20Images.pdf)
+- *Rewon Child*
+- `2020-11-20, ICLR 2021`
+- [[VAEs]](#vaes)
+
 ##### [20-11-13] [paper110]
 - VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models
  [[pdf]](https://arxiv.org/abs/2010.00654) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VAEBM:%20A%20Symbiosis%20between%20Variational%20Autoencoders%20and%20Energy-based%20Models.pdf)
@@ -1192,6 +1199,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### VAEs:
+
+##### [20-11-23] [paper111]
+- Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images
+ [[pdf]](https://arxiv.org/abs/2011.10650) [[code]](https://github.com/openai/vdvae) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Very%20Deep%20VAEs%20Generalize%20Autoregressive%20Models%20and%20Can%20Outperform%20Them%20on%20Images.pdf)
+- *Rewon Child*
+- `2020-11-20, ICLR 2021`
+- [[VAEs]](#vaes)
 
 ##### [20-11-13] [paper110]
 - VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models
@@ -3947,6 +3961,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### ICLR 2021:
 
+##### [20-11-23] [paper111]
+- Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images
+ [[pdf]](https://arxiv.org/abs/2011.10650) [[code]](https://github.com/openai/vdvae) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Very%20Deep%20VAEs%20Generalize%20Autoregressive%20Models%20and%20Can%20Outperform%20Them%20on%20Images.pdf)
+- *Rewon Child*
+- `2020-11-20, ICLR 2021`
+- [[VAEs]](#vaes)
+
 ##### [20-11-13] [paper110]
 - VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models
  [[pdf]](https://arxiv.org/abs/2010.00654) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VAEBM:%20A%20Symbiosis%20between%20Variational%20Autoencoders%20and%20Energy-based%20Models.pdf)
@@ -4730,6 +4751,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2020:
+
+##### [20-11-23] [paper111]
+- Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images
+ [[pdf]](https://arxiv.org/abs/2011.10650) [[code]](https://github.com/openai/vdvae) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Very%20Deep%20VAEs%20Generalize%20Autoregressive%20Models%20and%20Can%20Outperform%20Them%20on%20Images.pdf)
+- *Rewon Child*
+- `2020-11-20, ICLR 2021`
+- [[VAEs]](#vaes)
 
 ##### [20-11-13] [paper110]
 - VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models
