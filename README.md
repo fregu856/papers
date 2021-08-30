@@ -24,6 +24,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [System Identification](#system-identification)
 - [Energy-Based Models](#energy-based-models)
 - [Neural Processes](#neural-processes)
+- [Neural ODEs](#neural-odes)
 - [Transformers](#transformers)
 - [SysCon Deep Learning Reading Group](#syscon-deep-learning-reading-group)
 - [SysCon Monte Carlo Reading Group](#syscon-monte-carlo-reading-group)
@@ -97,6 +98,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
  [[pdf]](https://arxiv.org/abs/2002.08071) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Dissecting%20Neural%20ODEs.pdf)
 - *Stefano Massaroli, Michael Poli, Jinkyoo Park, Atsushi Yamashita, Hajime Asama*
 - `2020-02-19, NeurIPS 2020`
+- [[Neural ODEs]](#neural-odes)
 
 ##### [20-11-27] [paper112]
 - Rethinking Attention with Performers
@@ -582,6 +584,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - Neural Ordinary Differential Equations [[pdf]](https://arxiv.org/abs/1806.07366) [[code]](https://github.com/rtqichen/torchdiffeq) [[slides]](https://www.cs.toronto.edu/~duvenaud/talks/ode-talk-google.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Ordinary%20Differential%20Equations.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Ordinary%20Differential%20Equations.md)
 - *Ricky T. Q. Chen, Yulia Rubanova, Jesse Bettencourt, David Duvenaud*
 - `2018-10-22, NeurIPS2018`
+- [[Neural ODEs]](#neural-odes)
 
 ##### [18-12-06] [paper25]
 - Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.md)
@@ -2959,6 +2962,108 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### Neural ODEs:
+
+##### [20-12-14] [paper113]
+- Dissecting Neural ODEs
+ [[pdf]](https://arxiv.org/abs/2002.08071) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Dissecting%20Neural%20ODEs.pdf)
+- *Stefano Massaroli, Michael Poli, Jinkyoo Park, Atsushi Yamashita, Hajime Asama*
+- `2020-02-19, NeurIPS 2020`
+- [[Neural ODEs]](#neural-odes)
+
+##### [18-12-12] [paper26]
+- Neural Ordinary Differential Equations [[pdf]](https://arxiv.org/abs/1806.07366) [[code]](https://github.com/rtqichen/torchdiffeq) [[slides]](https://www.cs.toronto.edu/~duvenaud/talks/ode-talk-google.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Ordinary%20Differential%20Equations.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Ordinary%20Differential%20Equations.md)
+- *Ricky T. Q. Chen, Yulia Rubanova, Jesse Bettencourt, David Duvenaud*
+- `2018-10-22, NeurIPS2018`
+- [[Neural ODEs]](#neural-odes)
+
+****
+****
 
 
 
