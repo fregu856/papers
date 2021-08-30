@@ -56,6 +56,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [ICML 2014](#icml-2014)
 - - [ICML 2011](#icml-2011)
 - [ICLR](#iclr)
+- - [ICLR 2021](#iclr-2021)
 - - [ICLR 2020](#iclr-2020)
 - - [ICLR 2019](#iclr-2019)
 - - [ICLR 2018](#iclr-2018)
@@ -89,6 +90,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2020:
+
+##### [20-11-13] [paper110]
+- VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models
+ [[pdf]](https://arxiv.org/abs/2010.00654) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VAEBM:%20A%20Symbiosis%20between%20Variational%20Autoencoders%20and%20Energy-based%20Models.pdf)
+- *Zhisheng Xiao, Karsten Kreis, Jan Kautz, Arash Vahdat*
+- `2020-10-01, ICLR 2021`
+- [[Energy-Based Models]](#energy-based-models) [[VAEs]](#vaes)
 
 ##### [20-11-06] [paper109]
 - Approximate Inference Turns Deep Networks into Gaussian Processes
@@ -1184,6 +1192,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### VAEs:
+
+##### [20-11-13] [paper110]
+- VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models
+ [[pdf]](https://arxiv.org/abs/2010.00654) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VAEBM:%20A%20Symbiosis%20between%20Variational%20Autoencoders%20and%20Energy-based%20Models.pdf)
+- *Zhisheng Xiao, Karsten Kreis, Jan Kautz, Arash Vahdat*
+- `2020-10-01, ICLR 2021`
+- [[Energy-Based Models]](#energy-based-models) [[VAEs]](#vaes)
 
 ##### [20-06-18] [paper102]
 - Joint Training of Variational Auto-Encoder and Latent Energy-Based Model [[pdf]](https://arxiv.org/abs/2006.06059) [[code]](https://hthth0801.github.io/jointLearning/) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.md)
@@ -2323,6 +2338,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Energy-Based Models:
+
+##### [20-11-13] [paper110]
+- VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models
+ [[pdf]](https://arxiv.org/abs/2010.00654) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VAEBM:%20A%20Symbiosis%20between%20Variational%20Autoencoders%20and%20Energy-based%20Models.pdf)
+- *Zhisheng Xiao, Karsten Kreis, Jan Kautz, Arash Vahdat*
+- `2020-10-01, ICLR 2021`
+- [[Energy-Based Models]](#energy-based-models) [[VAEs]](#vaes)
 
 ##### [20-09-04] [paper103]
 - Denoising Diffusion Probabilistic Models [[pdf]](https://arxiv.org/abs/2006.11239) [[code]](https://github.com/hojonathanho/diffusion) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Denoising%20Diffusion%20Probabilistic%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Denoising%20Diffusion%20Probabilistic%20Models.md)
@@ -3916,11 +3938,21 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### ICLR:
 
+- [ICLR 2021](#iclr-2021)
 - [ICLR 2020](#iclr-2020)
 - [ICLR 2019](#iclr-2019)
 - [ICLR 2018](#iclr-2018)
 - [ICLR 2017](#iclr-2017)
 - [ICLR 2014](#iclr-2014)
+
+#### ICLR 2021:
+
+##### [20-11-13] [paper110]
+- VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models
+ [[pdf]](https://arxiv.org/abs/2010.00654) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VAEBM:%20A%20Symbiosis%20between%20Variational%20Autoencoders%20and%20Energy-based%20Models.pdf)
+- *Zhisheng Xiao, Karsten Kreis, Jan Kautz, Arash Vahdat*
+- `2020-10-01, ICLR 2021`
+- [[Energy-Based Models]](#energy-based-models) [[VAEs]](#vaes)
 
 #### ICLR 2020:
 
@@ -4698,6 +4730,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2020:
+
+##### [20-11-13] [paper110]
+- VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models
+ [[pdf]](https://arxiv.org/abs/2010.00654) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VAEBM:%20A%20Symbiosis%20between%20Variational%20Autoencoders%20and%20Energy-based%20Models.pdf)
+- *Zhisheng Xiao, Karsten Kreis, Jan Kautz, Arash Vahdat*
+- `2020-10-01, ICLR 2021`
+- [[Energy-Based Models]](#energy-based-models) [[VAEs]](#vaes)
 
 ##### [20-10-16] [paper108]
 - Implicit Gradient Regularization [[pdf]](https://arxiv.org/abs/2009.11162) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Implicit%20Gradient%20Regularization.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Implicit%20Gradient%20Regularization.md)
