@@ -87,9 +87,19 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### All Papers:
 
+- [Papers Read in 2021](#papers-read-in-2021)
 - [Papers Read in 2020](#papers-read-in-2020)
 - [Papers Read in 2019](#papers-read-in-2019)
 - [Papers Read in 2018](#papers-read-in-2018)
+
+#### Papers Read in 2021:
+
+##### [21-01-15] [paper115]
+- Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
+ [[pdf]](https://arxiv.org/abs/2006.16236) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20are%20RNNs:%20Fast%20Autoregressive%20Transformers%20with%20Linear%20Attention.pdf)
+- *Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, François Fleuret*
+- `2020-06-29, ICML 2020`
+- [[Transformers]](#transformers)
 
 #### Papers Read in 2020:
 
@@ -3162,6 +3172,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Transformers:
 
+##### [21-01-15] [paper115]
+- Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
+ [[pdf]](https://arxiv.org/abs/2006.16236) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20are%20RNNs:%20Fast%20Autoregressive%20Transformers%20with%20Linear%20Attention.pdf)
+- *Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, François Fleuret*
+- `2020-06-29, ICML 2020`
+- [[Transformers]](#transformers)
+
 ##### [20-11-27] [paper112]
 - Rethinking Attention with Performers
  [[pdf]](https://arxiv.org/abs/2009.14794) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Rethinking%20Attention%20with%20Performers.pdf)
@@ -4009,6 +4026,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [ICML 2011](#icml-2011)
 
 #### ICML 2020:
+
+##### [21-01-15] [paper115]
+- Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
+ [[pdf]](https://arxiv.org/abs/2006.16236) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20are%20RNNs:%20Fast%20Autoregressive%20Transformers%20with%20Linear%20Attention.pdf)
+- *Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, François Fleuret*
+- `2020-06-29, ICML 2020`
+- [[Transformers]](#transformers)
 
 ##### [20-09-21] [paper105]
 - Uncertainty Estimation Using a Single Deep Deterministic Neural Network [[pdf]](https://arxiv.org/abs/2003.02037) [[code]](https://github.com/y0ast/deterministic-uncertainty-quantification) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.md)
@@ -5000,6 +5024,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2020:
+
+##### [21-01-15] [paper115]
+- Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
+ [[pdf]](https://arxiv.org/abs/2006.16236) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20are%20RNNs:%20Fast%20Autoregressive%20Transformers%20with%20Linear%20Attention.pdf)
+- *Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, François Fleuret*
+- `2020-06-29, ICML 2020`
+- [[Transformers]](#transformers)
 
 ##### [20-12-18] [paper114]
 - Score-Based Generative Modeling through Stochastic Differential Equations
