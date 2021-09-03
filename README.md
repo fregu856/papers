@@ -94,6 +94,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-01-22] [paper116]
+- Getting a CLUE: A Method for Explaining Uncertainty Estimates
+ [[pdf]](https://arxiv.org/abs/2006.06848) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Getting%20a%20CLUE:%20A%20Method%20for%20Explaining%20Uncertainty%20Estimates.pdf)
+- *Javier Antorán, Umang Bhatt, Tameem Adel, Adrian Weller, José Miguel Hernández-Lobato*
+- `2020-06-11, ICLR 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+
 ##### [21-01-15] [paper115]
 - Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
  [[pdf]](https://arxiv.org/abs/2006.16236) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20are%20RNNs:%20Fast%20Autoregressive%20Transformers%20with%20Linear%20Attention.pdf)
@@ -794,6 +801,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Uncertainty Estimation:
+
+##### [21-01-22] [paper116]
+- Getting a CLUE: A Method for Explaining Uncertainty Estimates
+ [[pdf]](https://arxiv.org/abs/2006.06848) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Getting%20a%20CLUE:%20A%20Method%20for%20Explaining%20Uncertainty%20Estimates.pdf)
+- *Javier Antorán, Umang Bhatt, Tameem Adel, Adrian Weller, José Miguel Hernández-Lobato*
+- `2020-06-11, ICLR 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
 
 ##### [20-09-24] [paper106]
 - Simple and Principled Uncertainty Estimation with Deterministic Deep Learning via Distance Awareness [[pdf]](https://arxiv.org/abs/2006.10108) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Simple%20and%20Principled%20Uncertainty%20Estimation%20with%20Deterministic%20Deep%20Learning%20via%20Distance%20Awareness.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Simple%20and%20Principled%20Uncertainty%20Estimation%20with%20Deterministic%20Deep%20Learning%20via%20Distance%20Awareness.md)
@@ -4220,6 +4234,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### ICLR 2021:
 
+##### [21-01-22] [paper116]
+- Getting a CLUE: A Method for Explaining Uncertainty Estimates
+ [[pdf]](https://arxiv.org/abs/2006.06848) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Getting%20a%20CLUE:%20A%20Method%20for%20Explaining%20Uncertainty%20Estimates.pdf)
+- *Javier Antorán, Umang Bhatt, Tameem Adel, Adrian Weller, José Miguel Hernández-Lobato*
+- `2020-06-11, ICLR 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+
 ##### [20-12-18] [paper114]
 - Score-Based Generative Modeling through Stochastic Differential Equations
  [[pdf]](https://arxiv.org/abs/2011.13456) [[code]](https://github.com/yang-song/score_sde) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations.pdf)
@@ -5024,6 +5045,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2020:
+
+##### [21-01-22] [paper116]
+- Getting a CLUE: A Method for Explaining Uncertainty Estimates
+ [[pdf]](https://arxiv.org/abs/2006.06848) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Getting%20a%20CLUE:%20A%20Method%20for%20Explaining%20Uncertainty%20Estimates.pdf)
+- *Javier Antorán, Umang Bhatt, Tameem Adel, Adrian Weller, José Miguel Hernández-Lobato*
+- `2020-06-11, ICLR 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
 
 ##### [21-01-15] [paper115]
 - Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
