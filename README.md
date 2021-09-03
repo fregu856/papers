@@ -94,6 +94,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-01-29] [paper117]
+- No MCMC for Me: Amortized Sampling for Fast and Stable Training of Energy-Based Models
+ [[pdf]](https://arxiv.org/abs/2010.04230) [[code]](https://github.com/wgrathwohl/VERA) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/No%20MCMC%20for%20me:%20Amortized%20sampling%20for%20fast%20and%20stable%20training%20of%20energy-based%20models.pdf)
+- *Will Grathwohl, Jacob Kelly, Milad Hashemi, Mohammad Norouzi, Kevin Swersky, David Duvenaud*
+- `2020-10-08, ICLR 2021`
+- [[Energy-Based Models]](#energy-based-models)
+
 ##### [21-01-22] [paper116]
 - Getting a CLUE: A Method for Explaining Uncertainty Estimates
  [[pdf]](https://arxiv.org/abs/2006.06848) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Getting%20a%20CLUE:%20A%20Method%20for%20Explaining%20Uncertainty%20Estimates.pdf)
@@ -2401,6 +2408,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Energy-Based Models:
 
+##### [21-01-29] [paper117]
+- No MCMC for Me: Amortized Sampling for Fast and Stable Training of Energy-Based Models
+ [[pdf]](https://arxiv.org/abs/2010.04230) [[code]](https://github.com/wgrathwohl/VERA) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/No%20MCMC%20for%20me:%20Amortized%20sampling%20for%20fast%20and%20stable%20training%20of%20energy-based%20models.pdf)
+- *Will Grathwohl, Jacob Kelly, Milad Hashemi, Mohammad Norouzi, Kevin Swersky, David Duvenaud*
+- `2020-10-08, ICLR 2021`
+- [[Energy-Based Models]](#energy-based-models)
+
 ##### [20-11-13] [paper110]
 - VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models
  [[pdf]](https://arxiv.org/abs/2010.00654) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VAEBM:%20A%20Symbiosis%20between%20Variational%20Autoencoders%20and%20Energy-based%20Models.pdf)
@@ -4234,6 +4248,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### ICLR 2021:
 
+##### [21-01-29] [paper117]
+- No MCMC for Me: Amortized Sampling for Fast and Stable Training of Energy-Based Models
+ [[pdf]](https://arxiv.org/abs/2010.04230) [[code]](https://github.com/wgrathwohl/VERA) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/No%20MCMC%20for%20me:%20Amortized%20sampling%20for%20fast%20and%20stable%20training%20of%20energy-based%20models.pdf)
+- *Will Grathwohl, Jacob Kelly, Milad Hashemi, Mohammad Norouzi, Kevin Swersky, David Duvenaud*
+- `2020-10-08, ICLR 2021`
+- [[Energy-Based Models]](#energy-based-models)
+
 ##### [21-01-22] [paper116]
 - Getting a CLUE: A Method for Explaining Uncertainty Estimates
  [[pdf]](https://arxiv.org/abs/2006.06848) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Getting%20a%20CLUE:%20A%20Method%20for%20Explaining%20Uncertainty%20Estimates.pdf)
@@ -5045,6 +5066,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2020:
+
+##### [21-01-29] [paper117]
+- No MCMC for Me: Amortized Sampling for Fast and Stable Training of Energy-Based Models
+ [[pdf]](https://arxiv.org/abs/2010.04230) [[code]](https://github.com/wgrathwohl/VERA) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/No%20MCMC%20for%20me:%20Amortized%20sampling%20for%20fast%20and%20stable%20training%20of%20energy-based%20models.pdf)
+- *Will Grathwohl, Jacob Kelly, Milad Hashemi, Mohammad Norouzi, Kevin Swersky, David Duvenaud*
+- `2020-10-08, ICLR 2021`
+- [[Energy-Based Models]](#energy-based-models)
 
 ##### [21-01-22] [paper116]
 - Getting a CLUE: A Method for Explaining Uncertainty Estimates
