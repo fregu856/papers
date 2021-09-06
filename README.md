@@ -65,6 +65,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [ICLR 2017](#iclr-2017)
 - - [ICLR 2014](#iclr-2014)
 - [CVPR](#cvpr)
+- - [CVPR 2021](#cvpr-2021)
 - - [CVPR 2020](#cvpr-2020)
 - - [CVPR 2019](#cvpr-2019)
 - - [CVPR 2018](#cvpr-2018)
@@ -93,6 +94,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2021:
+
+##### [21-02-05] [paper118]
+- Meta Pseudo Labels
+ [[pdf]](https://arxiv.org/abs/2003.10580) [[code]](https://github.com/google-research/google-research/tree/master/meta_pseudo_labels) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Meta%20Pseudo%20Labels.pdf)
+- *Hieu Pham, Zihang Dai, Qizhe Xie, Minh-Thang Luong, Quoc V. Le*
+- `2020-03-23, CVPR 2021`
 
 ##### [21-01-29] [paper117]
 - No MCMC for Me: Amortized Sampling for Fast and Stable Training of Energy-Based Models
@@ -4457,10 +4464,19 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### CVPR:
 
+- [CVPR 2021](#cvpr-2021)
 - [CVPR 2020](#cvpr-2020)
 - [CVPR 2019](#cvpr-2019)
 - [CVPR 2018](#cvpr-2018)
 - [CVPR 2016](#cvpr-2016)
+
+#### CVPR 2021:
+
+##### [21-02-05] [paper118]
+- Meta Pseudo Labels
+ [[pdf]](https://arxiv.org/abs/2003.10580) [[code]](https://github.com/google-research/google-research/tree/master/meta_pseudo_labels) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Meta%20Pseudo%20Labels.pdf)
+- *Hieu Pham, Zihang Dai, Qizhe Xie, Minh-Thang Luong, Quoc V. Le*
+- `2020-03-23, CVPR 2021`
 
 #### CVPR 2020:
 
@@ -5066,6 +5082,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2020:
+
+##### [21-02-05] [paper118]
+- Meta Pseudo Labels
+ [[pdf]](https://arxiv.org/abs/2003.10580) [[code]](https://github.com/google-research/google-research/tree/master/meta_pseudo_labels) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Meta%20Pseudo%20Labels.pdf)
+- *Hieu Pham, Zihang Dai, Qizhe Xie, Minh-Thang Luong, Quoc V. Le*
+- `2020-03-23, CVPR 2021`
 
 ##### [21-01-29] [paper117]
 - No MCMC for Me: Amortized Sampling for Fast and Stable Training of Energy-Based Models
