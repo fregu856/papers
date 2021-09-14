@@ -97,6 +97,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-03-26] [paper125]
+- Your GAN is Secretly an Energy-based Model and You Should use Discriminator Driven Latent Sampling
+ [[pdf]](https://arxiv.org/abs/2003.06060) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20GAN%20is%20Secretly%20an%20Energy-based%20Model%20and%20You%20Should%20Use%20Discriminator%20Driven%20Latent%20Sampling.pdf)
+- *Tong Che, Ruixiang Zhang, Jascha Sohl-Dickstein, Hugo Larochelle, Liam Paull, Yuan Cao, Yoshua Bengio*
+- `2020-03-12, NeurIPS 2020`
+- [[Energy-Based Models]](#energy-based-models)
+
 ##### [21-03-19] [paper124]
 - Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability
  [[pdf]](https://arxiv.org/abs/2103.00065) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gradient%20Descent%20on%20Neural%20Networks%20Typically%20Occurs%20at%20the%20Edge%20of%20Stability.pdf)
@@ -2477,6 +2484,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Energy-Based Models:
 
+##### [21-03-26] [paper125]
+- Your GAN is Secretly an Energy-based Model and You Should use Discriminator Driven Latent Sampling
+ [[pdf]](https://arxiv.org/abs/2003.06060) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20GAN%20is%20Secretly%20an%20Energy-based%20Model%20and%20You%20Should%20Use%20Discriminator%20Driven%20Latent%20Sampling.pdf)
+- *Tong Che, Ruixiang Zhang, Jascha Sohl-Dickstein, Hugo Larochelle, Liam Paull, Yuan Cao, Yoshua Bengio*
+- `2020-03-12, NeurIPS 2020`
+- [[Energy-Based Models]](#energy-based-models)
+
 ##### [21-01-29] [paper117]
 - No MCMC for Me: Amortized Sampling for Fast and Stable Training of Energy-Based Models
  [[pdf]](https://arxiv.org/abs/2010.04230) [[code]](https://github.com/wgrathwohl/VERA) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/No%20MCMC%20for%20me:%20Amortized%20sampling%20for%20fast%20and%20stable%20training%20of%20energy-based%20models.pdf)
@@ -3883,6 +3897,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### NeurIPS 2020:
 
+##### [21-03-26] [paper125]
+- Your GAN is Secretly an Energy-based Model and You Should use Discriminator Driven Latent Sampling
+ [[pdf]](https://arxiv.org/abs/2003.06060) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20GAN%20is%20Secretly%20an%20Energy-based%20Model%20and%20You%20Should%20Use%20Discriminator%20Driven%20Latent%20Sampling.pdf)
+- *Tong Che, Ruixiang Zhang, Jascha Sohl-Dickstein, Hugo Larochelle, Liam Paull, Yuan Cao, Yoshua Bengio*
+- `2020-03-12, NeurIPS 2020`
+- [[Energy-Based Models]](#energy-based-models)
+
 ##### [21-03-12] [paper123]
 - Unsupervised Learning of Visual Features by Contrasting Cluster Assignments
  [[pdf]](https://arxiv.org/abs/2006.09882) [[code]](https://github.com/facebookresearch/swav) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Unsupervised%20Learning%20of%20Visual%20Features%20by%20Contrasting%20Cluster%20Assignments.pdf)
@@ -5216,6 +5237,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 #### 2020:
+
+##### [21-03-26] [paper125]
+- Your GAN is Secretly an Energy-based Model and You Should use Discriminator Driven Latent Sampling
+ [[pdf]](https://arxiv.org/abs/2003.06060) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20GAN%20is%20Secretly%20an%20Energy-based%20Model%20and%20You%20Should%20Use%20Discriminator%20Driven%20Latent%20Sampling.pdf)
+- *Tong Che, Ruixiang Zhang, Jascha Sohl-Dickstein, Hugo Larochelle, Liam Paull, Yuan Cao, Yoshua Bengio*
+- `2020-03-12, NeurIPS 2020`
+- [[Energy-Based Models]](#energy-based-models)
 
 ##### [21-03-12] [paper123]
 - Unsupervised Learning of Visual Features by Contrasting Cluster Assignments
