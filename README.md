@@ -51,6 +51,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [NeurIPS 2015](#neurips-2015)
 - - [NeurIPS 2011](#neurips-2011)
 - [ICML](#icml)
+- - [ICML 2021](#icml-2021)
 - - [ICML 2020](#icml-2020)
 - - [ICML 2019](#icml-2019)
 - - [ICML 2018](#icml-2018)
@@ -95,6 +96,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2021:
+
+##### [21-02-19] [paper120]
+- Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision
+ [[pdf]](https://arxiv.org/abs/2102.05918) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Scaling%20Up%20Visual%20and%20Vision-Language%20Representation%20Learning%20With%20Noisy%20Text%20Supervision.pdf)
+- *Chao Jia, Yinfei Yang, Ye Xia, Yi-Ting Chen, Zarana Parekh, Hieu Pham, Quoc V. Le, Yunhsuan Sung, Zhen Li, Tom Duerig*
+- `2021-02-11, ICML 2021`
 
 ##### [21-02-12] [paper119]
 - On the Origin of Implicit Regularization in Stochastic Gradient Descent
@@ -4067,6 +4074,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### ICML:
 
+- [ICML 2021](#icml-2021)
 - [ICML 2020](#icml-2020)
 - [ICML 2019](#icml-2019)
 - [ICML 2018](#icml-2018)
@@ -4074,6 +4082,14 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [ICML 2015](#icml-2015)
 - [ICML 2014](#icml-2014)
 - [ICML 2011](#icml-2011)
+
+#### ICML 2021:
+
+##### [21-02-19] [paper120]
+- Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision
+ [[pdf]](https://arxiv.org/abs/2102.05918) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Scaling%20Up%20Visual%20and%20Vision-Language%20Representation%20Learning%20With%20Noisy%20Text%20Supervision.pdf)
+- *Chao Jia, Yinfei Yang, Ye Xia, Yi-Ting Chen, Zarana Parekh, Hieu Pham, Quoc V. Le, Yunhsuan Sung, Zhen Li, Tom Duerig*
+- `2021-02-11, ICML 2021`
 
 #### ICML 2020:
 
@@ -5105,6 +5121,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-02-19] [paper120]
+- Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision
+ [[pdf]](https://arxiv.org/abs/2102.05918) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Scaling%20Up%20Visual%20and%20Vision-Language%20Representation%20Learning%20With%20Noisy%20Text%20Supervision.pdf)
+- *Chao Jia, Yinfei Yang, Ye Xia, Yi-Ting Chen, Zarana Parekh, Hieu Pham, Quoc V. Le, Yunhsuan Sung, Zhen Li, Tom Duerig*
+- `2021-02-11, ICML 2021`
 
 ##### [21-02-12] [paper119]
 - On the Origin of Implicit Regularization in Stochastic Gradient Descent
