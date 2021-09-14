@@ -97,6 +97,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-03-04] [paper122]
+- Infinitely Deep Bayesian Neural Networks with Stochastic Differential Equations
+ [[pdf]](https://arxiv.org/abs/2102.06559) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Infinitely%20Deep%20Bayesian%20Neural%20Networks%20with%20Stochastic%20Differential%20Equations.pdf)
+- *Winnie Xu, Ricky T.Q. Chen, Xuechen Li, David Duvenaud*
+- `2021-02-12`
+- [[Neural ODEs]](#neural-odes) [[Uncertainty Estimation]](#uncertainty-estimation)
+
 ##### [21-02-26] [paper121]
 - Neural Relational Inference for Interacting Systems
  [[pdf]](https://arxiv.org/abs/1802.04687) [[code]](https://github.com/ethanfetaya/NRI) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Relational%20Inference%20for%20Interacting%20Systems.pdf)
@@ -836,6 +843,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Uncertainty Estimation:
+
+##### [21-03-04] [paper122]
+- Infinitely Deep Bayesian Neural Networks with Stochastic Differential Equations
+ [[pdf]](https://arxiv.org/abs/2102.06559) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Infinitely%20Deep%20Bayesian%20Neural%20Networks%20with%20Stochastic%20Differential%20Equations.pdf)
+- *Winnie Xu, Ricky T.Q. Chen, Xuechen Li, David Duvenaud*
+- `2021-02-12`
+- [[Neural ODEs]](#neural-odes) [[Uncertainty Estimation]](#uncertainty-estimation)
 
 ##### [21-01-22] [paper116]
 - Getting a CLUE: A Method for Explaining Uncertainty Estimates
@@ -3129,6 +3143,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Neural ODEs:
 
+##### [21-03-04] [paper122]
+- Infinitely Deep Bayesian Neural Networks with Stochastic Differential Equations
+ [[pdf]](https://arxiv.org/abs/2102.06559) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Infinitely%20Deep%20Bayesian%20Neural%20Networks%20with%20Stochastic%20Differential%20Equations.pdf)
+- *Winnie Xu, Ricky T.Q. Chen, Xuechen Li, David Duvenaud*
+- `2021-02-12`
+- [[Neural ODEs]](#neural-odes) [[Uncertainty Estimation]](#uncertainty-estimation)
+
 ##### [20-12-18] [paper114]
 - Score-Based Generative Modeling through Stochastic Differential Equations
  [[pdf]](https://arxiv.org/abs/2011.13456) [[code]](https://github.com/yang-song/score_sde) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations.pdf)
@@ -5133,6 +5154,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-03-04] [paper122]
+- Infinitely Deep Bayesian Neural Networks with Stochastic Differential Equations
+ [[pdf]](https://arxiv.org/abs/2102.06559) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Infinitely%20Deep%20Bayesian%20Neural%20Networks%20with%20Stochastic%20Differential%20Equations.pdf)
+- *Winnie Xu, Ricky T.Q. Chen, Xuechen Li, David Duvenaud*
+- `2021-02-12`
+- [[Neural ODEs]](#neural-odes) [[Uncertainty Estimation]](#uncertainty-estimation)
 
 ##### [21-02-19] [paper120]
 - Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision
