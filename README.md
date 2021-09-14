@@ -97,6 +97,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-02-26] [paper121]
+- Neural Relational Inference for Interacting Systems
+ [[pdf]](https://arxiv.org/abs/1802.04687) [[code]](https://github.com/ethanfetaya/NRI) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Relational%20Inference%20for%20Interacting%20Systems.pdf)
+- *Thomas Kipf, Ethan Fetaya, Kuan-Chieh Wang, Max Welling, Richard Zemel*
+- `2018-02-13, ICML 2018`
+
 ##### [21-02-19] [paper120]
 - Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision
  [[pdf]](https://arxiv.org/abs/2102.05918) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Scaling%20Up%20Visual%20and%20Vision-Language%20Representation%20Learning%20With%20Noisy%20Text%20Supervision.pdf)
@@ -4127,6 +4133,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### ICML 2018:
 
+##### [21-02-26] [paper121]
+- Neural Relational Inference for Interacting Systems
+ [[pdf]](https://arxiv.org/abs/1802.04687) [[code]](https://github.com/ethanfetaya/NRI) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Relational%20Inference%20for%20Interacting%20Systems.pdf)
+- *Thomas Kipf, Ethan Fetaya, Kuan-Chieh Wang, Max Welling, Richard Zemel*
+- `2018-02-13, ICML 2018`
+
 ##### [20-02-13] [paper86]
 - Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[pdf]](https://arxiv.org/abs/1710.07283) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.md)
 - *Stefan Depeweg, José Miguel Hernández-Lobato, Finale Doshi-Velez, Steffen Udluft*
@@ -5443,6 +5455,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2019-02-11`
 
 #### 2018:
+
+##### [21-02-26] [paper121]
+- Neural Relational Inference for Interacting Systems
+ [[pdf]](https://arxiv.org/abs/1802.04687) [[code]](https://github.com/ethanfetaya/NRI) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Relational%20Inference%20for%20Interacting%20Systems.pdf)
+- *Thomas Kipf, Ethan Fetaya, Kuan-Chieh Wang, Max Welling, Richard Zemel*
+- `2018-02-13, ICML 2018`
 
 ##### [20-10-09] [paper107]
 - Satellite Conjunction Analysis and the False Confidence Theorem [[pdf]](https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.2018.0565) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Satellite%20conjunction%20analysis%20and%20the%20false%20confidence%20theorem.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Satellite%20Conjunction%20Analysis%20and%20the%20False%20Confidence%20Theorem.md)
