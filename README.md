@@ -29,6 +29,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [SysCon Deep Learning Reading Group](#syscon-deep-learning-reading-group)
 - [SysCon Monte Carlo Reading Group](#syscon-monte-carlo-reading-group)
 - [Papers by Year](#papers-by-year)
+- - [2021](#2021)
 - - [2020](#2020)
 - - [2019](#2019)
 - - [2018](#2018)
@@ -94,6 +95,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2021:
+
+##### [21-02-12] [paper119]
+- On the Origin of Implicit Regularization in Stochastic Gradient Descent
+ [[pdf]](https://arxiv.org/abs/2101.12176) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Origin%20of%20Implicit%20Regularization%20in%20Stochastic%20Gradient%20Descent.pdf)
+- *Samuel L. Smith, Benoit Dherin, David G. T. Barrett, Soham De*
+- `2021-01-28, ICLR 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 ##### [21-02-05] [paper118]
 - Meta Pseudo Labels
@@ -1125,6 +1133,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Theoretical Properties of Deep Learning:
+
+##### [21-02-12] [paper119]
+- On the Origin of Implicit Regularization in Stochastic Gradient Descent
+ [[pdf]](https://arxiv.org/abs/2101.12176) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Origin%20of%20Implicit%20Regularization%20in%20Stochastic%20Gradient%20Descent.pdf)
+- *Samuel L. Smith, Benoit Dherin, David G. T. Barrett, Soham De*
+- `2021-01-28, ICLR 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 ##### [20-11-06] [paper109]
 - Approximate Inference Turns Deep Networks into Gaussian Processes
@@ -4255,6 +4270,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### ICLR 2021:
 
+##### [21-02-12] [paper119]
+- On the Origin of Implicit Regularization in Stochastic Gradient Descent
+ [[pdf]](https://arxiv.org/abs/2101.12176) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Origin%20of%20Implicit%20Regularization%20in%20Stochastic%20Gradient%20Descent.pdf)
+- *Samuel L. Smith, Benoit Dherin, David G. T. Barrett, Soham De*
+- `2021-01-28, ICLR 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+
 ##### [21-01-29] [paper117]
 - No MCMC for Me: Amortized Sampling for Fast and Stable Training of Energy-Based Models
  [[pdf]](https://arxiv.org/abs/2010.04230) [[code]](https://github.com/wgrathwohl/VERA) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/No%20MCMC%20for%20me:%20Amortized%20sampling%20for%20fast%20and%20stable%20training%20of%20energy-based%20models.pdf)
@@ -5068,6 +5090,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Papers by Year:
 
+- [2021](#2021)
 - [2020](#2020)
 - [2019](#2019)
 - [2018](#2018)
@@ -5080,6 +5103,15 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2009](#2009)
 - [2006](#2006)
 - [2004](#2004)
+
+#### 2021:
+
+##### [21-02-12] [paper119]
+- On the Origin of Implicit Regularization in Stochastic Gradient Descent
+ [[pdf]](https://arxiv.org/abs/2101.12176) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Origin%20of%20Implicit%20Regularization%20in%20Stochastic%20Gradient%20Descent.pdf)
+- *Samuel L. Smith, Benoit Dherin, David G. T. Barrett, Soham De*
+- `2021-01-28, ICLR 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 #### 2020:
 
