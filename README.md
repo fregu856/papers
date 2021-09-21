@@ -97,6 +97,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-04-01] [paper126]
+- Loss Surface Simplexes for Mode Connecting Volumes and Fast Ensembling
+ [[pdf]](https://arxiv.org/abs/2102.13042) [[code]](https://github.com/g-benton/loss-surface-simplexes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Loss%20Surface%20Simplexes%20for%20Mode%20Connecting%20Volumes%20and%20Fast%20Ensembling.pdf)
+- *Gregory W. Benton, Wesley J. Maddox, Sanae Lotfi, Andrew Gordon Wilson*
+- `2021-02-25, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Ensembling]](#ensembling)
+
 ##### [21-03-26] [paper125]
 - Your GAN is Secretly an Energy-based Model and You Should use Discriminator Driven Latent Sampling
  [[pdf]](https://arxiv.org/abs/2003.06060) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20GAN%20is%20Secretly%20an%20Energy-based%20Model%20and%20You%20Should%20Use%20Discriminator%20Driven%20Latent%20Sampling.pdf)
@@ -863,6 +870,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Uncertainty Estimation:
+
+##### [21-04-01] [paper126]
+- Loss Surface Simplexes for Mode Connecting Volumes and Fast Ensembling
+ [[pdf]](https://arxiv.org/abs/2102.13042) [[code]](https://github.com/g-benton/loss-surface-simplexes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Loss%20Surface%20Simplexes%20for%20Mode%20Connecting%20Volumes%20and%20Fast%20Ensembling.pdf)
+- *Gregory W. Benton, Wesley J. Maddox, Sanae Lotfi, Andrew Gordon Wilson*
+- `2021-02-25, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Ensembling]](#ensembling)
 
 ##### [21-03-04] [paper122]
 - Infinitely Deep Bayesian Neural Networks with Stochastic Differential Equations
@@ -2668,6 +2682,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Ensembling:
 
+##### [21-04-01] [paper126]
+- Loss Surface Simplexes for Mode Connecting Volumes and Fast Ensembling
+ [[pdf]](https://arxiv.org/abs/2102.13042) [[code]](https://github.com/g-benton/loss-surface-simplexes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Loss%20Surface%20Simplexes%20for%20Mode%20Connecting%20Volumes%20and%20Fast%20Ensembling.pdf)
+- *Gregory W. Benton, Wesley J. Maddox, Sanae Lotfi, Andrew Gordon Wilson*
+- `2021-02-25, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Ensembling]](#ensembling)
+
 ##### [20-05-27] [paper99]
 - BatchEnsemble: An Alternative Approach to Efficient Ensemble and Lifelong Learning [[pdf]](https://arxiv.org/abs/2002.06715) [[code]](https://github.com/google/edward2) [[video]](https://iclr.cc/virtual_2020/poster_Sklf1yrYDr.html) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/BatchEnsemble:%20An%20Alternative%20Approach%20to%20Efficient%20Ensemble%20and%20Lifelong%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/BatchEnsemble:%20An%20Alternative%20Approach%20to%20Efficient%20Ensemble%20and%20Lifelong%20Learning.md)
 - *Yeming Wen, Dustin Tran, Jimmy Ba*
@@ -4159,6 +4180,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### ICML 2021:
 
+##### [21-04-01] [paper126]
+- Loss Surface Simplexes for Mode Connecting Volumes and Fast Ensembling
+ [[pdf]](https://arxiv.org/abs/2102.13042) [[code]](https://github.com/g-benton/loss-surface-simplexes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Loss%20Surface%20Simplexes%20for%20Mode%20Connecting%20Volumes%20and%20Fast%20Ensembling.pdf)
+- *Gregory W. Benton, Wesley J. Maddox, Sanae Lotfi, Andrew Gordon Wilson*
+- `2021-02-25, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Ensembling]](#ensembling)
+
 ##### [21-02-19] [paper120]
 - Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision
  [[pdf]](https://arxiv.org/abs/2102.05918) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Scaling%20Up%20Visual%20and%20Vision-Language%20Representation%20Learning%20With%20Noisy%20Text%20Supervision.pdf)
@@ -5208,6 +5236,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-04-01] [paper126]
+- Loss Surface Simplexes for Mode Connecting Volumes and Fast Ensembling
+ [[pdf]](https://arxiv.org/abs/2102.13042) [[code]](https://github.com/g-benton/loss-surface-simplexes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Loss%20Surface%20Simplexes%20for%20Mode%20Connecting%20Volumes%20and%20Fast%20Ensembling.pdf)
+- *Gregory W. Benton, Wesley J. Maddox, Sanae Lotfi, Andrew Gordon Wilson*
+- `2021-02-25, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Ensembling]](#ensembling)
 
 ##### [21-03-19] [paper124]
 - Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability
