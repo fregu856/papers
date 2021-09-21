@@ -97,6 +97,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-05-07] [paper130]
+- PixelTransformer: Sample Conditioned Signal Generation
+ [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
+- *Shubham Tulsiani, Abhinav Gupta
+- `2021-03-29, ICML 2021`
+- [[Neural Processes]](#neural-processes) [[Transformers]](#transformers)
+
 ##### [21-04-29] [paper129]
 - Stiff Neural Ordinary Differential Equations
  [[pdf]](https://arxiv.org/abs/2103.15341) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stiff%20Neural%20Ordinary%20Differential%20Equations.pdf)
@@ -3117,6 +3124,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Neural Processes:
 
+##### [21-05-07] [paper130]
+- PixelTransformer: Sample Conditioned Signal Generation
+ [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
+- *Shubham Tulsiani, Abhinav Gupta
+- `2021-03-29, ICML 2021`
+- [[Neural Processes]](#neural-processes) [[Transformers]](#transformers)
+
 ##### [20-02-21] [paper90]
 - Convolutional Conditional Neural Processes [[pdf]](https://arxiv.org/abs/1910.13556) [[code]](https://github.com/cambridge-mlg/convcnp) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Convolutional%20Conditional%20Neural%20Processes.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Convolutional%20Conditional%20Neural%20Processes.md)
 - *Jonathan Gordon, Wessel P. Bruinsma, Andrew Y. K. Foong, James Requeima, Yann Dubois, Richard E. Turner*
@@ -3344,6 +3358,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Transformers:
+
+##### [21-05-07] [paper130]
+- PixelTransformer: Sample Conditioned Signal Generation
+ [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
+- *Shubham Tulsiani, Abhinav Gupta
+- `2021-03-29, ICML 2021`
+- [[Neural Processes]](#neural-processes) [[Transformers]](#transformers)
 
 ##### [21-01-15] [paper115]
 - Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
@@ -4213,6 +4234,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [ICML 2011](#icml-2011)
 
 #### ICML 2021:
+
+##### [21-05-07] [paper130]
+- PixelTransformer: Sample Conditioned Signal Generation
+ [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
+- *Shubham Tulsiani, Abhinav Gupta
+- `2021-03-29, ICML 2021`
+- [[Neural Processes]](#neural-processes) [[Transformers]](#transformers)
 
 ##### [21-04-01] [paper126]
 - Loss Surface Simplexes for Mode Connecting Volumes and Fast Ensembling
@@ -5276,6 +5304,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-05-07] [paper130]
+- PixelTransformer: Sample Conditioned Signal Generation
+ [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
+- *Shubham Tulsiani, Abhinav Gupta
+- `2021-03-29, ICML 2021`
+- [[Neural Processes]](#neural-processes) [[Transformers]](#transformers)
 
 ##### [21-04-29] [paper129]
 - Stiff Neural Ordinary Differential Equations
