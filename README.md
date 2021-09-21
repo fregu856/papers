@@ -97,6 +97,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-04-29] [paper129]
+- Stiff Neural Ordinary Differential Equations
+ [[pdf]](https://arxiv.org/abs/2103.15341) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stiff%20Neural%20Ordinary%20Differential%20Equations.pdf)
+- *Suyong Kim, Weiqi Ji, Sili Deng, Yingbo Ma, Christopher Rackauckas*
+- `2021-03-29`
+- [[Neural ODEs]](#neural-odes)
+
 ##### [21-04-16] [paper128]
 - Learning Mesh-Based Simulation with Graph Networks
  [[pdf]](https://arxiv.org/abs/2010.03409) [[code]](https://github.com/deepmind/deepmind-research/tree/master/meshgraphnets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Mesh-Based%20Simulation%20with%20Graph%20Networks.pdf)
@@ -3218,6 +3225,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Neural ODEs:
 
+##### [21-04-29] [paper129]
+- Stiff Neural Ordinary Differential Equations
+ [[pdf]](https://arxiv.org/abs/2103.15341) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stiff%20Neural%20Ordinary%20Differential%20Equations.pdf)
+- *Suyong Kim, Weiqi Ji, Sili Deng, Yingbo Ma, Christopher Rackauckas*
+- `2021-03-29`
+- [[Neural ODEs]](#neural-odes)
+
 ##### [21-03-04] [paper122]
 - Infinitely Deep Bayesian Neural Networks with Stochastic Differential Equations
  [[pdf]](https://arxiv.org/abs/2102.06559) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Infinitely%20Deep%20Bayesian%20Neural%20Networks%20with%20Stochastic%20Differential%20Equations.pdf)
@@ -5262,6 +5276,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-04-29] [paper129]
+- Stiff Neural Ordinary Differential Equations
+ [[pdf]](https://arxiv.org/abs/2103.15341) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stiff%20Neural%20Ordinary%20Differential%20Equations.pdf)
+- *Suyong Kim, Weiqi Ji, Sili Deng, Yingbo Ma, Christopher Rackauckas*
+- `2021-03-29`
+- [[Neural ODEs]](#neural-odes)
 
 ##### [21-04-01] [paper126]
 - Loss Surface Simplexes for Mode Connecting Volumes and Fast Ensembling
