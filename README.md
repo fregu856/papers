@@ -97,6 +97,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-04-16] [paper128]
+- Learning Mesh-Based Simulation with Graph Networks
+ [[pdf]](https://arxiv.org/abs/2010.03409) [[code]](https://github.com/deepmind/deepmind-research/tree/master/meshgraphnets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Mesh-Based%20Simulation%20with%20Graph%20Networks.pdf)
+- *Tobias Pfaff, Meire Fortunato, Alvaro Sanchez-Gonzalez, Peter W. Battaglia*
+- `2020-10-07, ICLR 2021`
+
 ##### [21-04-09] [paper127]
 - Q-Learning in enormous action spaces via amortized approximate maximization
  [[pdf]](https://arxiv.org/abs/2001.08116) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Q-Learning%20in%20enormous%20action%20spaces%20via%20amortized%20approximate%20maximization.pdf)
@@ -4408,6 +4414,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### ICLR 2021:
 
+##### [21-04-16] [paper128]
+- Learning Mesh-Based Simulation with Graph Networks
+ [[pdf]](https://arxiv.org/abs/2010.03409) [[code]](https://github.com/deepmind/deepmind-research/tree/master/meshgraphnets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Mesh-Based%20Simulation%20with%20Graph%20Networks.pdf)
+- *Tobias Pfaff, Meire Fortunato, Alvaro Sanchez-Gonzalez, Peter W. Battaglia*
+- `2020-10-07, ICLR 2021`
+
 ##### [21-03-19] [paper124]
 - Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability
  [[pdf]](https://arxiv.org/abs/2103.00065) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gradient%20Descent%20on%20Neural%20Networks%20Typically%20Occurs%20at%20the%20Edge%20of%20Stability.pdf)
@@ -5286,6 +5298,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 #### 2020:
+
+##### [21-04-16] [paper128]
+- Learning Mesh-Based Simulation with Graph Networks
+ [[pdf]](https://arxiv.org/abs/2010.03409) [[code]](https://github.com/deepmind/deepmind-research/tree/master/meshgraphnets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Mesh-Based%20Simulation%20with%20Graph%20Networks.pdf)
+- *Tobias Pfaff, Meire Fortunato, Alvaro Sanchez-Gonzalez, Peter W. Battaglia*
+- `2020-10-07, ICLR 2021`
 
 ##### [21-04-09] [paper127]
 - Q-Learning in enormous action spaces via amortized approximate maximization
