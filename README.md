@@ -24,9 +24,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [System Identification](#system-identification)
 - [Energy-Based Models](#energy-based-models)
 - [Neural Processes](#neural-processes)
+- [Neural ODEs](#neural-odes)
+- [Transformers](#transformers)
 - [SysCon Deep Learning Reading Group](#syscon-deep-learning-reading-group)
 - [SysCon Monte Carlo Reading Group](#syscon-monte-carlo-reading-group)
 - [Papers by Year](#papers-by-year)
+- - [2021](#2021)
 - - [2020](#2020)
 - - [2019](#2019)
 - - [2018](#2018)
@@ -48,6 +51,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [NeurIPS 2015](#neurips-2015)
 - - [NeurIPS 2011](#neurips-2011)
 - [ICML](#icml)
+- - [ICML 2021](#icml-2021)
 - - [ICML 2020](#icml-2020)
 - - [ICML 2019](#icml-2019)
 - - [ICML 2018](#icml-2018)
@@ -56,12 +60,14 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [ICML 2014](#icml-2014)
 - - [ICML 2011](#icml-2011)
 - [ICLR](#iclr)
+- - [ICLR 2021](#iclr-2021)
 - - [ICLR 2020](#iclr-2020)
 - - [ICLR 2019](#iclr-2019)
 - - [ICLR 2018](#iclr-2018)
 - - [ICLR 2017](#iclr-2017)
 - - [ICLR 2014](#iclr-2014)
 - [CVPR](#cvpr)
+- - [CVPR 2021](#cvpr-2021)
 - - [CVPR 2020](#cvpr-2020)
 - - [CVPR 2019](#cvpr-2019)
 - - [CVPR 2018](#cvpr-2018)
@@ -84,11 +90,163 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### All Papers:
 
+- [Papers Read in 2021](#papers-read-in-2021)
 - [Papers Read in 2020](#papers-read-in-2020)
 - [Papers Read in 2019](#papers-read-in-2019)
 - [Papers Read in 2018](#papers-read-in-2018)
 
+#### Papers Read in 2021:
+
+##### [21-05-07] [paper130]
+- PixelTransformer: Sample Conditioned Signal Generation
+ [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
+- *Shubham Tulsiani, Abhinav Gupta*
+- `2021-03-29, ICML 2021`
+- [[Neural Processes]](#neural-processes) [[Transformers]](#transformers)
+
+##### [21-04-29] [paper129]
+- Stiff Neural Ordinary Differential Equations
+ [[pdf]](https://arxiv.org/abs/2103.15341) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stiff%20Neural%20Ordinary%20Differential%20Equations.pdf)
+- *Suyong Kim, Weiqi Ji, Sili Deng, Yingbo Ma, Christopher Rackauckas*
+- `2021-03-29`
+- [[Neural ODEs]](#neural-odes)
+
+##### [21-04-16] [paper128]
+- Learning Mesh-Based Simulation with Graph Networks
+ [[pdf]](https://arxiv.org/abs/2010.03409) [[code]](https://github.com/deepmind/deepmind-research/tree/master/meshgraphnets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Mesh-Based%20Simulation%20with%20Graph%20Networks.pdf)
+- *Tobias Pfaff, Meire Fortunato, Alvaro Sanchez-Gonzalez, Peter W. Battaglia*
+- `2020-10-07, ICLR 2021`
+
+##### [21-04-09] [paper127]
+- Q-Learning in enormous action spaces via amortized approximate maximization
+ [[pdf]](https://arxiv.org/abs/2001.08116) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Q-Learning%20in%20enormous%20action%20spaces%20via%20amortized%20approximate%20maximization.pdf)
+- *Tom Van de Wiele, David Warde-Farley, Andriy Mnih, Volodymyr Mnih*
+- `2020-01-22`
+- [[Reinforcement Learning]](#reinforcement-learning)
+
+##### [21-04-01] [paper126]
+- Loss Surface Simplexes for Mode Connecting Volumes and Fast Ensembling
+ [[pdf]](https://arxiv.org/abs/2102.13042) [[code]](https://github.com/g-benton/loss-surface-simplexes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Loss%20Surface%20Simplexes%20for%20Mode%20Connecting%20Volumes%20and%20Fast%20Ensembling.pdf)
+- *Gregory W. Benton, Wesley J. Maddox, Sanae Lotfi, Andrew Gordon Wilson*
+- `2021-02-25, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Ensembling]](#ensembling)
+
+##### [21-03-26] [paper125]
+- Your GAN is Secretly an Energy-based Model and You Should use Discriminator Driven Latent Sampling
+ [[pdf]](https://arxiv.org/abs/2003.06060) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20GAN%20is%20Secretly%20an%20Energy-based%20Model%20and%20You%20Should%20Use%20Discriminator%20Driven%20Latent%20Sampling.pdf)
+- *Tong Che, Ruixiang Zhang, Jascha Sohl-Dickstein, Hugo Larochelle, Liam Paull, Yuan Cao, Yoshua Bengio*
+- `2020-03-12, NeurIPS 2020`
+- [[Energy-Based Models]](#energy-based-models)
+
+##### [21-03-19] [paper124]
+- Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability
+ [[pdf]](https://arxiv.org/abs/2103.00065) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gradient%20Descent%20on%20Neural%20Networks%20Typically%20Occurs%20at%20the%20Edge%20of%20Stability.pdf)
+- *Jeremy M. Cohen, Simran Kaur, Yuanzhi Li, J. Zico Kolter, Ameet Talwalkar*
+- `2021-02-26, ICLR 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+
+##### [21-03-12] [paper123]
+- Unsupervised Learning of Visual Features by Contrasting Cluster Assignments
+ [[pdf]](https://arxiv.org/abs/2006.09882) [[code]](https://github.com/facebookresearch/swav) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Unsupervised%20Learning%20of%20Visual%20Features%20by%20Contrasting%20Cluster%20Assignments.pdf)
+- *Mathilde Caron, Ishan Misra, Julien Mairal, Priya Goyal, Piotr Bojanowski, Armand Joulin*
+- `2020-06-17, NeurIPS 2020`
+
+##### [21-03-04] [paper122]
+- Infinitely Deep Bayesian Neural Networks with Stochastic Differential Equations
+ [[pdf]](https://arxiv.org/abs/2102.06559) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Infinitely%20Deep%20Bayesian%20Neural%20Networks%20with%20Stochastic%20Differential%20Equations.pdf)
+- *Winnie Xu, Ricky T.Q. Chen, Xuechen Li, David Duvenaud*
+- `2021-02-12`
+- [[Neural ODEs]](#neural-odes) [[Uncertainty Estimation]](#uncertainty-estimation)
+
+##### [21-02-26] [paper121]
+- Neural Relational Inference for Interacting Systems
+ [[pdf]](https://arxiv.org/abs/1802.04687) [[code]](https://github.com/ethanfetaya/NRI) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Relational%20Inference%20for%20Interacting%20Systems.pdf)
+- *Thomas Kipf, Ethan Fetaya, Kuan-Chieh Wang, Max Welling, Richard Zemel*
+- `2018-02-13, ICML 2018`
+
+##### [21-02-19] [paper120]
+- Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision
+ [[pdf]](https://arxiv.org/abs/2102.05918) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Scaling%20Up%20Visual%20and%20Vision-Language%20Representation%20Learning%20With%20Noisy%20Text%20Supervision.pdf)
+- *Chao Jia, Yinfei Yang, Ye Xia, Yi-Ting Chen, Zarana Parekh, Hieu Pham, Quoc V. Le, Yunhsuan Sung, Zhen Li, Tom Duerig*
+- `2021-02-11, ICML 2021`
+
+##### [21-02-12] [paper119]
+- On the Origin of Implicit Regularization in Stochastic Gradient Descent
+ [[pdf]](https://arxiv.org/abs/2101.12176) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Origin%20of%20Implicit%20Regularization%20in%20Stochastic%20Gradient%20Descent.pdf)
+- *Samuel L. Smith, Benoit Dherin, David G. T. Barrett, Soham De*
+- `2021-01-28, ICLR 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+
+##### [21-02-05] [paper118]
+- Meta Pseudo Labels
+ [[pdf]](https://arxiv.org/abs/2003.10580) [[code]](https://github.com/google-research/google-research/tree/master/meta_pseudo_labels) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Meta%20Pseudo%20Labels.pdf)
+- *Hieu Pham, Zihang Dai, Qizhe Xie, Minh-Thang Luong, Quoc V. Le*
+- `2020-03-23, CVPR 2021`
+
+##### [21-01-29] [paper117]
+- No MCMC for Me: Amortized Sampling for Fast and Stable Training of Energy-Based Models
+ [[pdf]](https://arxiv.org/abs/2010.04230) [[code]](https://github.com/wgrathwohl/VERA) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/No%20MCMC%20for%20me:%20Amortized%20sampling%20for%20fast%20and%20stable%20training%20of%20energy-based%20models.pdf)
+- *Will Grathwohl, Jacob Kelly, Milad Hashemi, Mohammad Norouzi, Kevin Swersky, David Duvenaud*
+- `2020-10-08, ICLR 2021`
+- [[Energy-Based Models]](#energy-based-models)
+
+##### [21-01-22] [paper116]
+- Getting a CLUE: A Method for Explaining Uncertainty Estimates
+ [[pdf]](https://arxiv.org/abs/2006.06848) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Getting%20a%20CLUE:%20A%20Method%20for%20Explaining%20Uncertainty%20Estimates.pdf)
+- *Javier Antorán, Umang Bhatt, Tameem Adel, Adrian Weller, José Miguel Hernández-Lobato*
+- `2020-06-11, ICLR 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+
+##### [21-01-15] [paper115]
+- Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
+ [[pdf]](https://arxiv.org/abs/2006.16236) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20are%20RNNs:%20Fast%20Autoregressive%20Transformers%20with%20Linear%20Attention.pdf)
+- *Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, François Fleuret*
+- `2020-06-29, ICML 2020`
+- [[Transformers]](#transformers)
+
 #### Papers Read in 2020:
+
+##### [20-12-18] [paper114]
+- Score-Based Generative Modeling through Stochastic Differential Equations
+ [[pdf]](https://arxiv.org/abs/2011.13456) [[code]](https://github.com/yang-song/score_sde) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations.pdf)
+- *Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole*
+- `2020-11-26, ICLR 2021`
+- [[Neural ODEs]](#neural-odes)
+
+##### [20-12-14] [paper113]
+- Dissecting Neural ODEs
+ [[pdf]](https://arxiv.org/abs/2002.08071) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Dissecting%20Neural%20ODEs.pdf)
+- *Stefano Massaroli, Michael Poli, Jinkyoo Park, Atsushi Yamashita, Hajime Asama*
+- `2020-02-19, NeurIPS 2020`
+- [[Neural ODEs]](#neural-odes)
+
+##### [20-11-27] [paper112]
+- Rethinking Attention with Performers
+ [[pdf]](https://arxiv.org/abs/2009.14794) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Rethinking%20Attention%20with%20Performers.pdf)
+- *Krzysztof Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song, Andreea Gane, Tamas Sarlos, Peter Hawkins, Jared Davis, Afroz Mohiuddin, Lukasz Kaiser, David Belanger, Lucy Colwell, Adrian Weller*
+- `2020-10-30, ICLR 2021`
+- [[Transformers]](#transformers)
+
+##### [20-11-23] [paper111]
+- Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images
+ [[pdf]](https://arxiv.org/abs/2011.10650) [[code]](https://github.com/openai/vdvae) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Very%20Deep%20VAEs%20Generalize%20Autoregressive%20Models%20and%20Can%20Outperform%20Them%20on%20Images.pdf)
+- *Rewon Child*
+- `2020-11-20, ICLR 2021`
+- [[VAEs]](#vaes)
+
+##### [20-11-13] [paper110]
+- VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models
+ [[pdf]](https://arxiv.org/abs/2010.00654) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VAEBM:%20A%20Symbiosis%20between%20Variational%20Autoencoders%20and%20Energy-based%20Models.pdf)
+- *Zhisheng Xiao, Karsten Kreis, Jan Kautz, Arash Vahdat*
+- `2020-10-01, ICLR 2021`
+- [[Energy-Based Models]](#energy-based-models) [[VAEs]](#vaes)
+
+##### [20-11-06] [paper109]
+- Approximate Inference Turns Deep Networks into Gaussian Processes
+ [[pdf]](https://arxiv.org/abs/1906.01930) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Approximate%20Inference%20Turns%20Deep%20Networks%20into%20Gaussian%20Processes.pdf)
+- *Mohammad Emtiyaz Khan, Alexander Immer, Ehsan Abedi, Maciej Korzepa*
+- `2019-06-05, NeurIPS 2019`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 ##### [20-10-16] [paper108]
 - Implicit Gradient Regularization [[pdf]](https://arxiv.org/abs/2009.11162) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Implicit%20Gradient%20Regularization.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Implicit%20Gradient%20Regularization.md)
@@ -546,6 +704,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - Neural Ordinary Differential Equations [[pdf]](https://arxiv.org/abs/1806.07366) [[code]](https://github.com/rtqichen/torchdiffeq) [[slides]](https://www.cs.toronto.edu/~duvenaud/talks/ode-talk-google.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Ordinary%20Differential%20Equations.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Ordinary%20Differential%20Equations.md)
 - *Ricky T. Q. Chen, Yulia Rubanova, Jesse Bettencourt, David Duvenaud*
 - `2018-10-22, NeurIPS2018`
+- [[Neural ODEs]](#neural-odes)
 
 ##### [18-12-06] [paper25]
 - Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.md)
@@ -738,6 +897,27 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Uncertainty Estimation:
+
+##### [21-04-01] [paper126]
+- Loss Surface Simplexes for Mode Connecting Volumes and Fast Ensembling
+ [[pdf]](https://arxiv.org/abs/2102.13042) [[code]](https://github.com/g-benton/loss-surface-simplexes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Loss%20Surface%20Simplexes%20for%20Mode%20Connecting%20Volumes%20and%20Fast%20Ensembling.pdf)
+- *Gregory W. Benton, Wesley J. Maddox, Sanae Lotfi, Andrew Gordon Wilson*
+- `2021-02-25, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Ensembling]](#ensembling)
+
+##### [21-03-04] [paper122]
+- Infinitely Deep Bayesian Neural Networks with Stochastic Differential Equations
+ [[pdf]](https://arxiv.org/abs/2102.06559) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Infinitely%20Deep%20Bayesian%20Neural%20Networks%20with%20Stochastic%20Differential%20Equations.pdf)
+- *Winnie Xu, Ricky T.Q. Chen, Xuechen Li, David Duvenaud*
+- `2021-02-12`
+- [[Neural ODEs]](#neural-odes) [[Uncertainty Estimation]](#uncertainty-estimation)
+
+##### [21-01-22] [paper116]
+- Getting a CLUE: A Method for Explaining Uncertainty Estimates
+ [[pdf]](https://arxiv.org/abs/2006.06848) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Getting%20a%20CLUE:%20A%20Method%20for%20Explaining%20Uncertainty%20Estimates.pdf)
+- *Javier Antorán, Umang Bhatt, Tameem Adel, Adrian Weller, José Miguel Hernández-Lobato*
+- `2020-06-11, ICLR 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
 
 ##### [20-09-24] [paper106]
 - Simple and Principled Uncertainty Estimation with Deterministic Deep Learning via Distance Awareness [[pdf]](https://arxiv.org/abs/2006.10108) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Simple%20and%20Principled%20Uncertainty%20Estimation%20with%20Deterministic%20Deep%20Learning%20via%20Distance%20Awareness.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Simple%20and%20Principled%20Uncertainty%20Estimation%20with%20Deterministic%20Deep%20Learning%20via%20Distance%20Awareness.md)
@@ -1042,6 +1222,27 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Theoretical Properties of Deep Learning:
 
+##### [21-03-19] [paper124]
+- Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability
+ [[pdf]](https://arxiv.org/abs/2103.00065) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gradient%20Descent%20on%20Neural%20Networks%20Typically%20Occurs%20at%20the%20Edge%20of%20Stability.pdf)
+- *Jeremy M. Cohen, Simran Kaur, Yuanzhi Li, J. Zico Kolter, Ameet Talwalkar*
+- `2021-02-26, ICLR 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+
+##### [21-02-12] [paper119]
+- On the Origin of Implicit Regularization in Stochastic Gradient Descent
+ [[pdf]](https://arxiv.org/abs/2101.12176) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Origin%20of%20Implicit%20Regularization%20in%20Stochastic%20Gradient%20Descent.pdf)
+- *Samuel L. Smith, Benoit Dherin, David G. T. Barrett, Soham De*
+- `2021-01-28, ICLR 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+
+##### [20-11-06] [paper109]
+- Approximate Inference Turns Deep Networks into Gaussian Processes
+ [[pdf]](https://arxiv.org/abs/1906.01930) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Approximate%20Inference%20Turns%20Deep%20Networks%20into%20Gaussian%20Processes.pdf)
+- *Mohammad Emtiyaz Khan, Alexander Immer, Ehsan Abedi, Maciej Korzepa*
+- `2019-06-05, NeurIPS 2019`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+
 ##### [20-10-16] [paper108]
 - Implicit Gradient Regularization [[pdf]](https://arxiv.org/abs/2009.11162) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Implicit%20Gradient%20Regularization.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Implicit%20Gradient%20Regularization.md)
 - *David G.T. Barrett, Benoit Dherin*
@@ -1170,6 +1371,20 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### VAEs:
+
+##### [20-11-23] [paper111]
+- Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images
+ [[pdf]](https://arxiv.org/abs/2011.10650) [[code]](https://github.com/openai/vdvae) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Very%20Deep%20VAEs%20Generalize%20Autoregressive%20Models%20and%20Can%20Outperform%20Them%20on%20Images.pdf)
+- *Rewon Child*
+- `2020-11-20, ICLR 2021`
+- [[VAEs]](#vaes)
+
+##### [20-11-13] [paper110]
+- VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models
+ [[pdf]](https://arxiv.org/abs/2010.00654) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VAEBM:%20A%20Symbiosis%20between%20Variational%20Autoencoders%20and%20Energy-based%20Models.pdf)
+- *Zhisheng Xiao, Karsten Kreis, Jan Kautz, Arash Vahdat*
+- `2020-10-01, ICLR 2021`
+- [[Energy-Based Models]](#energy-based-models) [[VAEs]](#vaes)
 
 ##### [20-06-18] [paper102]
 - Joint Training of Variational Auto-Encoder and Latent Energy-Based Model [[pdf]](https://arxiv.org/abs/2006.06059) [[code]](https://hthth0801.github.io/jointLearning/) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.md)
@@ -2113,6 +2328,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Reinforcement Learning:
 
+##### [21-04-09] [paper127]
+- Q-Learning in enormous action spaces via amortized approximate maximization
+ [[pdf]](https://arxiv.org/abs/2001.08116) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Q-Learning%20in%20enormous%20action%20spaces%20via%20amortized%20approximate%20maximization.pdf)
+- *Tom Van de Wiele, David Warde-Farley, Andriy Mnih, Volodymyr Mnih*
+- `2020-01-22`
+- [[Reinforcement Learning]](#reinforcement-learning)
+
 ##### [20-02-13] [paper86]
 - Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[pdf]](https://arxiv.org/abs/1710.07283) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.md)
 - *Stefan Depeweg, José Miguel Hernández-Lobato, Finale Doshi-Velez, Steffen Udluft*
@@ -2310,6 +2532,27 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Energy-Based Models:
 
+##### [21-03-26] [paper125]
+- Your GAN is Secretly an Energy-based Model and You Should use Discriminator Driven Latent Sampling
+ [[pdf]](https://arxiv.org/abs/2003.06060) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20GAN%20is%20Secretly%20an%20Energy-based%20Model%20and%20You%20Should%20Use%20Discriminator%20Driven%20Latent%20Sampling.pdf)
+- *Tong Che, Ruixiang Zhang, Jascha Sohl-Dickstein, Hugo Larochelle, Liam Paull, Yuan Cao, Yoshua Bengio*
+- `2020-03-12, NeurIPS 2020`
+- [[Energy-Based Models]](#energy-based-models)
+
+##### [21-01-29] [paper117]
+- No MCMC for Me: Amortized Sampling for Fast and Stable Training of Energy-Based Models
+ [[pdf]](https://arxiv.org/abs/2010.04230) [[code]](https://github.com/wgrathwohl/VERA) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/No%20MCMC%20for%20me:%20Amortized%20sampling%20for%20fast%20and%20stable%20training%20of%20energy-based%20models.pdf)
+- *Will Grathwohl, Jacob Kelly, Milad Hashemi, Mohammad Norouzi, Kevin Swersky, David Duvenaud*
+- `2020-10-08, ICLR 2021`
+- [[Energy-Based Models]](#energy-based-models)
+
+##### [20-11-13] [paper110]
+- VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models
+ [[pdf]](https://arxiv.org/abs/2010.00654) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VAEBM:%20A%20Symbiosis%20between%20Variational%20Autoencoders%20and%20Energy-based%20Models.pdf)
+- *Zhisheng Xiao, Karsten Kreis, Jan Kautz, Arash Vahdat*
+- `2020-10-01, ICLR 2021`
+- [[Energy-Based Models]](#energy-based-models) [[VAEs]](#vaes)
+
 ##### [20-09-04] [paper103]
 - Denoising Diffusion Probabilistic Models [[pdf]](https://arxiv.org/abs/2006.11239) [[code]](https://github.com/hojonathanho/diffusion) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Denoising%20Diffusion%20Probabilistic%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Denoising%20Diffusion%20Probabilistic%20Models.md)
 - *Jonathan Ho, Ajay Jain, Pieter Abbeel*
@@ -2472,6 +2715,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### Ensembling:
+
+##### [21-04-01] [paper126]
+- Loss Surface Simplexes for Mode Connecting Volumes and Fast Ensembling
+ [[pdf]](https://arxiv.org/abs/2102.13042) [[code]](https://github.com/g-benton/loss-surface-simplexes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Loss%20Surface%20Simplexes%20for%20Mode%20Connecting%20Volumes%20and%20Fast%20Ensembling.pdf)
+- *Gregory W. Benton, Wesley J. Maddox, Sanae Lotfi, Andrew Gordon Wilson*
+- `2021-02-25, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Ensembling]](#ensembling)
 
 ##### [20-05-27] [paper99]
 - BatchEnsemble: An Alternative Approach to Efficient Ensemble and Lifelong Learning [[pdf]](https://arxiv.org/abs/2002.06715) [[code]](https://github.com/google/edward2) [[video]](https://iclr.cc/virtual_2020/poster_Sklf1yrYDr.html) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/BatchEnsemble:%20An%20Alternative%20Approach%20to%20Efficient%20Ensemble%20and%20Lifelong%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/BatchEnsemble:%20An%20Alternative%20Approach%20to%20Efficient%20Ensemble%20and%20Lifelong%20Learning.md)
@@ -2874,6 +3124,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Neural Processes:
 
+##### [21-05-07] [paper130]
+- PixelTransformer: Sample Conditioned Signal Generation
+ [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
+- *Shubham Tulsiani, Abhinav Gupta*
+- `2021-03-29, ICML 2021`
+- [[Neural Processes]](#neural-processes) [[Transformers]](#transformers)
+
 ##### [20-02-21] [paper90]
 - Convolutional Conditional Neural Processes [[pdf]](https://arxiv.org/abs/1910.13556) [[code]](https://github.com/cambridge-mlg/convcnp) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Convolutional%20Conditional%20Neural%20Processes.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Convolutional%20Conditional%20Neural%20Processes.md)
 - *Jonathan Gordon, Wessel P. Bruinsma, Andrew Y. K. Foong, James Requeima, Yann Dubois, Richard E. Turner*
@@ -2889,6 +3146,239 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - Conditional Neural Processes [[pdf]](https://arxiv.org/abs/1807.01613) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conditional%20Neural%20Processes_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Conditional%20Neural%20Processes.md)
 - *Marta Garnelo, Dan Rosenbaum, Chris J. Maddison, Tiago Ramalho, David Saxton, Murray Shanahan, Yee Whye Teh, Danilo J. Rezende, S. M. Ali Eslami*
 - `2018-07-04, ICML2018`
+
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### Neural ODEs:
+
+##### [21-04-29] [paper129]
+- Stiff Neural Ordinary Differential Equations
+ [[pdf]](https://arxiv.org/abs/2103.15341) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stiff%20Neural%20Ordinary%20Differential%20Equations.pdf)
+- *Suyong Kim, Weiqi Ji, Sili Deng, Yingbo Ma, Christopher Rackauckas*
+- `2021-03-29`
+- [[Neural ODEs]](#neural-odes)
+
+##### [21-03-04] [paper122]
+- Infinitely Deep Bayesian Neural Networks with Stochastic Differential Equations
+ [[pdf]](https://arxiv.org/abs/2102.06559) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Infinitely%20Deep%20Bayesian%20Neural%20Networks%20with%20Stochastic%20Differential%20Equations.pdf)
+- *Winnie Xu, Ricky T.Q. Chen, Xuechen Li, David Duvenaud*
+- `2021-02-12`
+- [[Neural ODEs]](#neural-odes) [[Uncertainty Estimation]](#uncertainty-estimation)
+
+##### [20-12-18] [paper114]
+- Score-Based Generative Modeling through Stochastic Differential Equations
+ [[pdf]](https://arxiv.org/abs/2011.13456) [[code]](https://github.com/yang-song/score_sde) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations.pdf)
+- *Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole*
+- `2020-11-26, ICLR 2021`
+- [[Neural ODEs]](#neural-odes)
+
+##### [20-12-14] [paper113]
+- Dissecting Neural ODEs
+ [[pdf]](https://arxiv.org/abs/2002.08071) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Dissecting%20Neural%20ODEs.pdf)
+- *Stefano Massaroli, Michael Poli, Jinkyoo Park, Atsushi Yamashita, Hajime Asama*
+- `2020-02-19, NeurIPS 2020`
+- [[Neural ODEs]](#neural-odes)
+
+##### [18-12-12] [paper26]
+- Neural Ordinary Differential Equations [[pdf]](https://arxiv.org/abs/1806.07366) [[code]](https://github.com/rtqichen/torchdiffeq) [[slides]](https://www.cs.toronto.edu/~duvenaud/talks/ode-talk-google.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Ordinary%20Differential%20Equations.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Ordinary%20Differential%20Equations.md)
+- *Ricky T. Q. Chen, Yulia Rubanova, Jesse Bettencourt, David Duvenaud*
+- `2018-10-22, NeurIPS2018`
+- [[Neural ODEs]](#neural-odes)
+
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### Transformers:
+
+##### [21-05-07] [paper130]
+- PixelTransformer: Sample Conditioned Signal Generation
+ [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
+- *Shubham Tulsiani, Abhinav Gupta*
+- `2021-03-29, ICML 2021`
+- [[Neural Processes]](#neural-processes) [[Transformers]](#transformers)
+
+##### [21-01-15] [paper115]
+- Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
+ [[pdf]](https://arxiv.org/abs/2006.16236) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20are%20RNNs:%20Fast%20Autoregressive%20Transformers%20with%20Linear%20Attention.pdf)
+- *Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, François Fleuret*
+- `2020-06-29, ICML 2020`
+- [[Transformers]](#transformers)
+
+##### [20-11-27] [paper112]
+- Rethinking Attention with Performers
+ [[pdf]](https://arxiv.org/abs/2009.14794) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Rethinking%20Attention%20with%20Performers.pdf)
+- *Krzysztof Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song, Andreea Gane, Tamas Sarlos, Peter Hawkins, Jared Davis, Afroz Mohiuddin, Lukasz Kaiser, David Belanger, Lucy Colwell, Adrian Weller*
+- `2020-10-30, ICLR 2021`
+- [[Transformers]](#transformers)
 
 ****
 ****
@@ -3483,6 +3973,25 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### NeurIPS 2020:
 
+##### [21-03-26] [paper125]
+- Your GAN is Secretly an Energy-based Model and You Should use Discriminator Driven Latent Sampling
+ [[pdf]](https://arxiv.org/abs/2003.06060) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20GAN%20is%20Secretly%20an%20Energy-based%20Model%20and%20You%20Should%20Use%20Discriminator%20Driven%20Latent%20Sampling.pdf)
+- *Tong Che, Ruixiang Zhang, Jascha Sohl-Dickstein, Hugo Larochelle, Liam Paull, Yuan Cao, Yoshua Bengio*
+- `2020-03-12, NeurIPS 2020`
+- [[Energy-Based Models]](#energy-based-models)
+
+##### [21-03-12] [paper123]
+- Unsupervised Learning of Visual Features by Contrasting Cluster Assignments
+ [[pdf]](https://arxiv.org/abs/2006.09882) [[code]](https://github.com/facebookresearch/swav) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Unsupervised%20Learning%20of%20Visual%20Features%20by%20Contrasting%20Cluster%20Assignments.pdf)
+- *Mathilde Caron, Ishan Misra, Julien Mairal, Priya Goyal, Piotr Bojanowski, Armand Joulin*
+- `2020-06-17, NeurIPS 2020`
+
+##### [20-12-14] [paper113]
+- Dissecting Neural ODEs
+ [[pdf]](https://arxiv.org/abs/2002.08071) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Dissecting%20Neural%20ODEs.pdf)
+- *Stefano Massaroli, Michael Poli, Jinkyoo Park, Atsushi Yamashita, Hajime Asama*
+- `2020-02-19, NeurIPS 2020`
+
 ##### [20-09-24] [paper106]
 - Simple and Principled Uncertainty Estimation with Deterministic Deep Learning via Distance Awareness [[pdf]](https://arxiv.org/abs/2006.10108) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Simple%20and%20Principled%20Uncertainty%20Estimation%20with%20Deterministic%20Deep%20Learning%20via%20Distance%20Awareness.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Simple%20and%20Principled%20Uncertainty%20Estimation%20with%20Deterministic%20Deep%20Learning%20via%20Distance%20Awareness.md)
 - *Jeremiah Zhe Liu, Zi Lin, Shreyas Padhy, Dustin Tran, Tania Bedrax-Weiss, Balaji Lakshminarayanan*
@@ -3490,6 +3999,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [[Uncertainty Estimation]](#uncertainty-estimation)
 
 #### NeurIPS 2019:
+
+##### [20-11-06] [paper109]
+- Approximate Inference Turns Deep Networks into Gaussian Processes
+ [[pdf]](https://arxiv.org/abs/1906.01930) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Approximate%20Inference%20Turns%20Deep%20Networks%20into%20Gaussian%20Processes.pdf)
+- *Mohammad Emtiyaz Khan, Alexander Immer, Ehsan Abedi, Maciej Korzepa*
+- `2019-06-05, NeurIPS 2019`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 ##### [20-04-09] [paper96]
 - Beyond temperature scaling: Obtaining well-calibrated multiclass probabilities with Dirichlet calibration [[pdf]](https://arxiv.org/abs/1910.12656) [[code]](https://github.com/dirichletcal/experiments_neurips) [[poster]](https://dirichletcal.github.io/documents/neurips2019/poster.pdf) [[slides]](https://dirichletcal.github.io/documents/neurips2019/slides.pdf) [[video]](https://dirichletcal.github.io/documents/neurips2019/video/Meelis_Ettekanne.mp4) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Beyond%20temperature%20scaling:%20Obtaining%20well-calibrated%20multiclass%20probabilities%20with%20Dirichlet%20calibration.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Beyond%20temperature%20scaling:%20Obtaining%20well-calibrated%20multiclass%20probabilities%20with%20Dirichlet%20calibration.md)
@@ -3708,6 +4224,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### ICML:
 
+- [ICML 2021](#icml-2021)
 - [ICML 2020](#icml-2020)
 - [ICML 2019](#icml-2019)
 - [ICML 2018](#icml-2018)
@@ -3716,7 +4233,36 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [ICML 2014](#icml-2014)
 - [ICML 2011](#icml-2011)
 
+#### ICML 2021:
+
+##### [21-05-07] [paper130]
+- PixelTransformer: Sample Conditioned Signal Generation
+ [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
+- *Shubham Tulsiani, Abhinav Gupta*
+- `2021-03-29, ICML 2021`
+- [[Neural Processes]](#neural-processes) [[Transformers]](#transformers)
+
+##### [21-04-01] [paper126]
+- Loss Surface Simplexes for Mode Connecting Volumes and Fast Ensembling
+ [[pdf]](https://arxiv.org/abs/2102.13042) [[code]](https://github.com/g-benton/loss-surface-simplexes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Loss%20Surface%20Simplexes%20for%20Mode%20Connecting%20Volumes%20and%20Fast%20Ensembling.pdf)
+- *Gregory W. Benton, Wesley J. Maddox, Sanae Lotfi, Andrew Gordon Wilson*
+- `2021-02-25, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Ensembling]](#ensembling)
+
+##### [21-02-19] [paper120]
+- Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision
+ [[pdf]](https://arxiv.org/abs/2102.05918) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Scaling%20Up%20Visual%20and%20Vision-Language%20Representation%20Learning%20With%20Noisy%20Text%20Supervision.pdf)
+- *Chao Jia, Yinfei Yang, Ye Xia, Yi-Ting Chen, Zarana Parekh, Hieu Pham, Quoc V. Le, Yunhsuan Sung, Zhen Li, Tom Duerig*
+- `2021-02-11, ICML 2021`
+
 #### ICML 2020:
+
+##### [21-01-15] [paper115]
+- Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
+ [[pdf]](https://arxiv.org/abs/2006.16236) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20are%20RNNs:%20Fast%20Autoregressive%20Transformers%20with%20Linear%20Attention.pdf)
+- *Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, François Fleuret*
+- `2020-06-29, ICML 2020`
+- [[Transformers]](#transformers)
 
 ##### [20-09-21] [paper105]
 - Uncertainty Estimation Using a Single Deep Deterministic Neural Network [[pdf]](https://arxiv.org/abs/2003.02037) [[code]](https://github.com/y0ast/deterministic-uncertainty-quantification) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.md)
@@ -3744,6 +4290,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-11-12, ICML2019`
 
 #### ICML 2018:
+
+##### [21-02-26] [paper121]
+- Neural Relational Inference for Interacting Systems
+ [[pdf]](https://arxiv.org/abs/1802.04687) [[code]](https://github.com/ethanfetaya/NRI) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Relational%20Inference%20for%20Interacting%20Systems.pdf)
+- *Thomas Kipf, Ethan Fetaya, Kuan-Chieh Wang, Max Welling, Richard Zemel*
+- `2018-02-13, ICML 2018`
 
 ##### [20-02-13] [paper86]
 - Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[pdf]](https://arxiv.org/abs/1710.07283) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.md)
@@ -3895,11 +4447,76 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### ICLR:
 
+- [ICLR 2021](#iclr-2021)
 - [ICLR 2020](#iclr-2020)
 - [ICLR 2019](#iclr-2019)
 - [ICLR 2018](#iclr-2018)
 - [ICLR 2017](#iclr-2017)
 - [ICLR 2014](#iclr-2014)
+
+#### ICLR 2021:
+
+##### [21-04-16] [paper128]
+- Learning Mesh-Based Simulation with Graph Networks
+ [[pdf]](https://arxiv.org/abs/2010.03409) [[code]](https://github.com/deepmind/deepmind-research/tree/master/meshgraphnets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Mesh-Based%20Simulation%20with%20Graph%20Networks.pdf)
+- *Tobias Pfaff, Meire Fortunato, Alvaro Sanchez-Gonzalez, Peter W. Battaglia*
+- `2020-10-07, ICLR 2021`
+
+##### [21-03-19] [paper124]
+- Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability
+ [[pdf]](https://arxiv.org/abs/2103.00065) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gradient%20Descent%20on%20Neural%20Networks%20Typically%20Occurs%20at%20the%20Edge%20of%20Stability.pdf)
+- *Jeremy M. Cohen, Simran Kaur, Yuanzhi Li, J. Zico Kolter, Ameet Talwalkar*
+- `2021-02-26, ICLR 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+
+##### [21-02-12] [paper119]
+- On the Origin of Implicit Regularization in Stochastic Gradient Descent
+ [[pdf]](https://arxiv.org/abs/2101.12176) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Origin%20of%20Implicit%20Regularization%20in%20Stochastic%20Gradient%20Descent.pdf)
+- *Samuel L. Smith, Benoit Dherin, David G. T. Barrett, Soham De*
+- `2021-01-28, ICLR 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+
+##### [21-01-29] [paper117]
+- No MCMC for Me: Amortized Sampling for Fast and Stable Training of Energy-Based Models
+ [[pdf]](https://arxiv.org/abs/2010.04230) [[code]](https://github.com/wgrathwohl/VERA) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/No%20MCMC%20for%20me:%20Amortized%20sampling%20for%20fast%20and%20stable%20training%20of%20energy-based%20models.pdf)
+- *Will Grathwohl, Jacob Kelly, Milad Hashemi, Mohammad Norouzi, Kevin Swersky, David Duvenaud*
+- `2020-10-08, ICLR 2021`
+- [[Energy-Based Models]](#energy-based-models)
+
+##### [21-01-22] [paper116]
+- Getting a CLUE: A Method for Explaining Uncertainty Estimates
+ [[pdf]](https://arxiv.org/abs/2006.06848) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Getting%20a%20CLUE:%20A%20Method%20for%20Explaining%20Uncertainty%20Estimates.pdf)
+- *Javier Antorán, Umang Bhatt, Tameem Adel, Adrian Weller, José Miguel Hernández-Lobato*
+- `2020-06-11, ICLR 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+
+##### [20-12-18] [paper114]
+- Score-Based Generative Modeling through Stochastic Differential Equations
+ [[pdf]](https://arxiv.org/abs/2011.13456) [[code]](https://github.com/yang-song/score_sde) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations.pdf)
+- *Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole*
+- `2020-11-26, ICLR 2021`
+- [[Neural ODEs]](#neural-odes)
+
+##### [20-11-27] [paper112]
+- Rethinking Attention with Performers
+ [[pdf]](https://arxiv.org/abs/2009.14794) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Rethinking%20Attention%20with%20Performers.pdf)
+- *Krzysztof Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song, Andreea Gane, Tamas Sarlos, Peter Hawkins, Jared Davis, Afroz Mohiuddin, Lukasz Kaiser, David Belanger, Lucy Colwell, Adrian Weller*
+- `2020-10-30, ICLR 2021`
+- [[Transformers]](#transformers)
+
+##### [20-11-23] [paper111]
+- Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images
+ [[pdf]](https://arxiv.org/abs/2011.10650) [[code]](https://github.com/openai/vdvae) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Very%20Deep%20VAEs%20Generalize%20Autoregressive%20Models%20and%20Can%20Outperform%20Them%20on%20Images.pdf)
+- *Rewon Child*
+- `2020-11-20, ICLR 2021`
+- [[VAEs]](#vaes)
+
+##### [20-11-13] [paper110]
+- VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models
+ [[pdf]](https://arxiv.org/abs/2010.00654) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VAEBM:%20A%20Symbiosis%20between%20Variational%20Autoencoders%20and%20Energy-based%20Models.pdf)
+- *Zhisheng Xiao, Karsten Kreis, Jan Kautz, Arash Vahdat*
+- `2020-10-01, ICLR 2021`
+- [[Energy-Based Models]](#energy-based-models) [[VAEs]](#vaes)
 
 #### ICLR 2020:
 
@@ -4068,10 +4685,19 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### CVPR:
 
+- [CVPR 2021](#cvpr-2021)
 - [CVPR 2020](#cvpr-2020)
 - [CVPR 2019](#cvpr-2019)
 - [CVPR 2018](#cvpr-2018)
 - [CVPR 2016](#cvpr-2016)
+
+#### CVPR 2021:
+
+##### [21-02-05] [paper118]
+- Meta Pseudo Labels
+ [[pdf]](https://arxiv.org/abs/2003.10580) [[code]](https://github.com/google-research/google-research/tree/master/meta_pseudo_labels) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Meta%20Pseudo%20Labels.pdf)
+- *Hieu Pham, Zihang Dai, Qizhe Xie, Minh-Thang Luong, Quoc V. Le*
+- `2020-03-23, CVPR 2021`
 
 #### CVPR 2020:
 
@@ -4663,6 +5289,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Papers by Year:
 
+- [2021](#2021)
 - [2020](#2020)
 - [2019](#2019)
 - [2018](#2018)
@@ -4676,7 +5303,144 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2006](#2006)
 - [2004](#2004)
 
+#### 2021:
+
+##### [21-05-07] [paper130]
+- PixelTransformer: Sample Conditioned Signal Generation
+ [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
+- *Shubham Tulsiani, Abhinav Gupta*
+- `2021-03-29, ICML 2021`
+- [[Neural Processes]](#neural-processes) [[Transformers]](#transformers)
+
+##### [21-04-29] [paper129]
+- Stiff Neural Ordinary Differential Equations
+ [[pdf]](https://arxiv.org/abs/2103.15341) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stiff%20Neural%20Ordinary%20Differential%20Equations.pdf)
+- *Suyong Kim, Weiqi Ji, Sili Deng, Yingbo Ma, Christopher Rackauckas*
+- `2021-03-29`
+- [[Neural ODEs]](#neural-odes)
+
+##### [21-04-01] [paper126]
+- Loss Surface Simplexes for Mode Connecting Volumes and Fast Ensembling
+ [[pdf]](https://arxiv.org/abs/2102.13042) [[code]](https://github.com/g-benton/loss-surface-simplexes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Loss%20Surface%20Simplexes%20for%20Mode%20Connecting%20Volumes%20and%20Fast%20Ensembling.pdf)
+- *Gregory W. Benton, Wesley J. Maddox, Sanae Lotfi, Andrew Gordon Wilson*
+- `2021-02-25, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Ensembling]](#ensembling)
+
+##### [21-03-19] [paper124]
+- Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability
+ [[pdf]](https://arxiv.org/abs/2103.00065) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gradient%20Descent%20on%20Neural%20Networks%20Typically%20Occurs%20at%20the%20Edge%20of%20Stability.pdf)
+- *Jeremy M. Cohen, Simran Kaur, Yuanzhi Li, J. Zico Kolter, Ameet Talwalkar*
+- `2021-02-26, ICLR 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+
+##### [21-03-04] [paper122]
+- Infinitely Deep Bayesian Neural Networks with Stochastic Differential Equations
+ [[pdf]](https://arxiv.org/abs/2102.06559) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Infinitely%20Deep%20Bayesian%20Neural%20Networks%20with%20Stochastic%20Differential%20Equations.pdf)
+- *Winnie Xu, Ricky T.Q. Chen, Xuechen Li, David Duvenaud*
+- `2021-02-12`
+- [[Neural ODEs]](#neural-odes) [[Uncertainty Estimation]](#uncertainty-estimation)
+
+##### [21-02-19] [paper120]
+- Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision
+ [[pdf]](https://arxiv.org/abs/2102.05918) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Scaling%20Up%20Visual%20and%20Vision-Language%20Representation%20Learning%20With%20Noisy%20Text%20Supervision.pdf)
+- *Chao Jia, Yinfei Yang, Ye Xia, Yi-Ting Chen, Zarana Parekh, Hieu Pham, Quoc V. Le, Yunhsuan Sung, Zhen Li, Tom Duerig*
+- `2021-02-11, ICML 2021`
+
+##### [21-02-12] [paper119]
+- On the Origin of Implicit Regularization in Stochastic Gradient Descent
+ [[pdf]](https://arxiv.org/abs/2101.12176) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Origin%20of%20Implicit%20Regularization%20in%20Stochastic%20Gradient%20Descent.pdf)
+- *Samuel L. Smith, Benoit Dherin, David G. T. Barrett, Soham De*
+- `2021-01-28, ICLR 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+
 #### 2020:
+
+##### [21-04-16] [paper128]
+- Learning Mesh-Based Simulation with Graph Networks
+ [[pdf]](https://arxiv.org/abs/2010.03409) [[code]](https://github.com/deepmind/deepmind-research/tree/master/meshgraphnets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Mesh-Based%20Simulation%20with%20Graph%20Networks.pdf)
+- *Tobias Pfaff, Meire Fortunato, Alvaro Sanchez-Gonzalez, Peter W. Battaglia*
+- `2020-10-07, ICLR 2021`
+
+##### [21-04-09] [paper127]
+- Q-Learning in enormous action spaces via amortized approximate maximization
+ [[pdf]](https://arxiv.org/abs/2001.08116) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Q-Learning%20in%20enormous%20action%20spaces%20via%20amortized%20approximate%20maximization.pdf)
+- *Tom Van de Wiele, David Warde-Farley, Andriy Mnih, Volodymyr Mnih*
+- `2020-01-22`
+- [[Reinforcement Learning]](#reinforcement-learning)
+
+##### [21-03-26] [paper125]
+- Your GAN is Secretly an Energy-based Model and You Should use Discriminator Driven Latent Sampling
+ [[pdf]](https://arxiv.org/abs/2003.06060) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20GAN%20is%20Secretly%20an%20Energy-based%20Model%20and%20You%20Should%20Use%20Discriminator%20Driven%20Latent%20Sampling.pdf)
+- *Tong Che, Ruixiang Zhang, Jascha Sohl-Dickstein, Hugo Larochelle, Liam Paull, Yuan Cao, Yoshua Bengio*
+- `2020-03-12, NeurIPS 2020`
+- [[Energy-Based Models]](#energy-based-models)
+
+##### [21-03-12] [paper123]
+- Unsupervised Learning of Visual Features by Contrasting Cluster Assignments
+ [[pdf]](https://arxiv.org/abs/2006.09882) [[code]](https://github.com/facebookresearch/swav) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Unsupervised%20Learning%20of%20Visual%20Features%20by%20Contrasting%20Cluster%20Assignments.pdf)
+- *Mathilde Caron, Ishan Misra, Julien Mairal, Priya Goyal, Piotr Bojanowski, Armand Joulin*
+- `2020-06-17, NeurIPS 2020`
+
+##### [21-02-05] [paper118]
+- Meta Pseudo Labels
+ [[pdf]](https://arxiv.org/abs/2003.10580) [[code]](https://github.com/google-research/google-research/tree/master/meta_pseudo_labels) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Meta%20Pseudo%20Labels.pdf)
+- *Hieu Pham, Zihang Dai, Qizhe Xie, Minh-Thang Luong, Quoc V. Le*
+- `2020-03-23, CVPR 2021`
+
+##### [21-01-29] [paper117]
+- No MCMC for Me: Amortized Sampling for Fast and Stable Training of Energy-Based Models
+ [[pdf]](https://arxiv.org/abs/2010.04230) [[code]](https://github.com/wgrathwohl/VERA) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/No%20MCMC%20for%20me:%20Amortized%20sampling%20for%20fast%20and%20stable%20training%20of%20energy-based%20models.pdf)
+- *Will Grathwohl, Jacob Kelly, Milad Hashemi, Mohammad Norouzi, Kevin Swersky, David Duvenaud*
+- `2020-10-08, ICLR 2021`
+- [[Energy-Based Models]](#energy-based-models)
+
+##### [21-01-22] [paper116]
+- Getting a CLUE: A Method for Explaining Uncertainty Estimates
+ [[pdf]](https://arxiv.org/abs/2006.06848) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Getting%20a%20CLUE:%20A%20Method%20for%20Explaining%20Uncertainty%20Estimates.pdf)
+- *Javier Antorán, Umang Bhatt, Tameem Adel, Adrian Weller, José Miguel Hernández-Lobato*
+- `2020-06-11, ICLR 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+
+##### [21-01-15] [paper115]
+- Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
+ [[pdf]](https://arxiv.org/abs/2006.16236) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20are%20RNNs:%20Fast%20Autoregressive%20Transformers%20with%20Linear%20Attention.pdf)
+- *Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, François Fleuret*
+- `2020-06-29, ICML 2020`
+- [[Transformers]](#transformers)
+
+##### [20-12-18] [paper114]
+- Score-Based Generative Modeling through Stochastic Differential Equations
+ [[pdf]](https://arxiv.org/abs/2011.13456) [[code]](https://github.com/yang-song/score_sde) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations.pdf)
+- *Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole*
+- `2020-11-26, ICLR 2021`
+- [[Neural ODEs]](#neural-odes)
+
+##### [20-12-14] [paper113]
+- Dissecting Neural ODEs
+ [[pdf]](https://arxiv.org/abs/2002.08071) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Dissecting%20Neural%20ODEs.pdf)
+- *Stefano Massaroli, Michael Poli, Jinkyoo Park, Atsushi Yamashita, Hajime Asama*
+- `2020-02-19, NeurIPS 2020`
+
+##### [20-11-27] [paper112]
+- Rethinking Attention with Performers
+ [[pdf]](https://arxiv.org/abs/2009.14794) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Rethinking%20Attention%20with%20Performers.pdf)
+- *Krzysztof Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song, Andreea Gane, Tamas Sarlos, Peter Hawkins, Jared Davis, Afroz Mohiuddin, Lukasz Kaiser, David Belanger, Lucy Colwell, Adrian Weller*
+- `2020-10-30, ICLR 2021`
+- [[Transformers]](#transformers)
+
+##### [20-11-23] [paper111]
+- Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images
+ [[pdf]](https://arxiv.org/abs/2011.10650) [[code]](https://github.com/openai/vdvae) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Very%20Deep%20VAEs%20Generalize%20Autoregressive%20Models%20and%20Can%20Outperform%20Them%20on%20Images.pdf)
+- *Rewon Child*
+- `2020-11-20, ICLR 2021`
+- [[VAEs]](#vaes)
+
+##### [20-11-13] [paper110]
+- VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models
+ [[pdf]](https://arxiv.org/abs/2010.00654) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VAEBM:%20A%20Symbiosis%20between%20Variational%20Autoencoders%20and%20Energy-based%20Models.pdf)
+- *Zhisheng Xiao, Karsten Kreis, Jan Kautz, Arash Vahdat*
+- `2020-10-01, ICLR 2021`
+- [[Energy-Based Models]](#energy-based-models) [[VAEs]](#vaes)
 
 ##### [20-10-16] [paper108]
 - Implicit Gradient Regularization [[pdf]](https://arxiv.org/abs/2009.11162) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Implicit%20Gradient%20Regularization.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Implicit%20Gradient%20Regularization.md)
@@ -4767,6 +5531,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
 
 #### 2019:
+
+##### [20-11-06] [paper109]
+- Approximate Inference Turns Deep Networks into Gaussian Processes
+ [[pdf]](https://arxiv.org/abs/1906.01930) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Approximate%20Inference%20Turns%20Deep%20Networks%20into%20Gaussian%20Processes.pdf)
+- *Mohammad Emtiyaz Khan, Alexander Immer, Ehsan Abedi, Maciej Korzepa*
+- `2019-06-05, NeurIPS 2019`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 ##### [20-04-09] [paper96]
 - Beyond temperature scaling: Obtaining well-calibrated multiclass probabilities with Dirichlet calibration [[pdf]](https://arxiv.org/abs/1910.12656) [[code]](https://github.com/dirichletcal/experiments_neurips) [[poster]](https://dirichletcal.github.io/documents/neurips2019/poster.pdf) [[slides]](https://dirichletcal.github.io/documents/neurips2019/slides.pdf) [[video]](https://dirichletcal.github.io/documents/neurips2019/video/Meelis_Ettekanne.mp4) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Beyond%20temperature%20scaling:%20Obtaining%20well-calibrated%20multiclass%20probabilities%20with%20Dirichlet%20calibration.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Beyond%20temperature%20scaling:%20Obtaining%20well-calibrated%20multiclass%20probabilities%20with%20Dirichlet%20calibration.md)
@@ -4916,6 +5687,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2019-02-11`
 
 #### 2018:
+
+##### [21-02-26] [paper121]
+- Neural Relational Inference for Interacting Systems
+ [[pdf]](https://arxiv.org/abs/1802.04687) [[code]](https://github.com/ethanfetaya/NRI) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Relational%20Inference%20for%20Interacting%20Systems.pdf)
+- *Thomas Kipf, Ethan Fetaya, Kuan-Chieh Wang, Max Welling, Richard Zemel*
+- `2018-02-13, ICML 2018`
 
 ##### [20-10-09] [paper107]
 - Satellite Conjunction Analysis and the False Confidence Theorem [[pdf]](https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.2018.0565) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Satellite%20conjunction%20analysis%20and%20the%20false%20confidence%20theorem.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Satellite%20Conjunction%20Analysis%20and%20the%20False%20Confidence%20Theorem.md)
