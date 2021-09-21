@@ -100,7 +100,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ##### [21-05-07] [paper130]
 - PixelTransformer: Sample Conditioned Signal Generation
  [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
-- *Shubham Tulsiani, Abhinav Gupta
+- *Shubham Tulsiani, Abhinav Gupta*
 - `2021-03-29, ICML 2021`
 - [[Neural Processes]](#neural-processes) [[Transformers]](#transformers)
 
@@ -3127,7 +3127,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ##### [21-05-07] [paper130]
 - PixelTransformer: Sample Conditioned Signal Generation
  [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
-- *Shubham Tulsiani, Abhinav Gupta
+- *Shubham Tulsiani, Abhinav Gupta*
 - `2021-03-29, ICML 2021`
 - [[Neural Processes]](#neural-processes) [[Transformers]](#transformers)
 
@@ -3362,7 +3362,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ##### [21-05-07] [paper130]
 - PixelTransformer: Sample Conditioned Signal Generation
  [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
-- *Shubham Tulsiani, Abhinav Gupta
+- *Shubham Tulsiani, Abhinav Gupta*
 - `2021-03-29, ICML 2021`
 - [[Neural Processes]](#neural-processes) [[Transformers]](#transformers)
 
@@ -4238,7 +4238,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ##### [21-05-07] [paper130]
 - PixelTransformer: Sample Conditioned Signal Generation
  [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
-- *Shubham Tulsiani, Abhinav Gupta
+- *Shubham Tulsiani, Abhinav Gupta*
 - `2021-03-29, ICML 2021`
 - [[Neural Processes]](#neural-processes) [[Transformers]](#transformers)
 
@@ -5308,7 +5308,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ##### [21-05-07] [paper130]
 - PixelTransformer: Sample Conditioned Signal Generation
  [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
-- *Shubham Tulsiani, Abhinav Gupta
+- *Shubham Tulsiani, Abhinav Gupta*
 - `2021-03-29, ICML 2021`
 - [[Neural Processes]](#neural-processes) [[Transformers]](#transformers)
 
