@@ -18,6 +18,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Object Detection](#object-detection)
 - [3D Object Detection](#3d-object-detection)
 - [3D Multi-Object Tracking](#3d-multi-object-tracking)
+- [3D Human Pose Estimation](#3d-human-pose-estimation)
 - [Visual Tracking](#visual-tracking)
 - [Sequence Modeling](#sequence-modeling)
 - [Reinforcement Learning](#reinforcement-learning)
@@ -75,6 +76,8 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [ECCV](#eccv)
 - - [ECCV 2020](#eccv-2020)
 - - [ECCV 2018](#eccv-2018)
+- [ICCV](#iccv)
+- - [ICCV 2021](#iccv-2021)
 - [AISTATS](#aistats)
 - - [AISTATS 2019](#aistats-2019)
 - - [AISTATS 2010](#aistats-2010)
@@ -96,6 +99,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2021:
+
+##### [21-06-04] [paper131]
+- HuMoR: 3D Human Motion Model for Robust Pose Estimation
+ [[pdf]](https://arxiv.org/abs/2105.04668) [[code]](https://geometry.stanford.edu/projects/humor/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/HuMoR:%203D%20Human%20Motion%20Model%20for%20Robust%20Pose%20Estimation.pdf)
+- *Davis Rempe, Tolga Birdal, Aaron Hertzmann, Jimei Yang, Srinath Sridhar, Leonidas J. Guibas*
+- `2021-05-10, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-05-07] [paper130]
 - PixelTransformer: Sample Conditioned Signal Generation
@@ -2035,6 +2045,98 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
 ****
 ****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### 3D Human Pose Estimation:
+
+##### [21-06-04] [paper131]
+- HuMoR: 3D Human Motion Model for Robust Pose Estimation
+ [[pdf]](https://arxiv.org/abs/2105.04668) [[code]](https://geometry.stanford.edu/projects/humor/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/HuMoR:%203D%20Human%20Motion%20Model%20for%20Robust%20Pose%20Estimation.pdf)
+- *Davis Rempe, Tolga Birdal, Aaron Hertzmann, Jimei Yang, Srinath Sridhar, Leonidas J. Guibas*
+- `2021-05-10, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4932,6 +5034,106 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+****
+### ICCV:
+
+- [ICCV 2021](#iccv-2021)
+
+#### ICCV 2021:
+
+##### [21-06-04] [paper131]
+- HuMoR: 3D Human Motion Model for Robust Pose Estimation
+ [[pdf]](https://arxiv.org/abs/2105.04668) [[code]](https://geometry.stanford.edu/projects/humor/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/HuMoR:%203D%20Human%20Motion%20Model%20for%20Robust%20Pose%20Estimation.pdf)
+- *Davis Rempe, Tolga Birdal, Aaron Hertzmann, Jimei Yang, Srinath Sridhar, Leonidas J. Guibas*
+- `2021-05-10, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5304,6 +5506,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-06-04] [paper131]
+- HuMoR: 3D Human Motion Model for Robust Pose Estimation
+ [[pdf]](https://arxiv.org/abs/2105.04668) [[code]](https://geometry.stanford.edu/projects/humor/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/HuMoR:%203D%20Human%20Motion%20Model%20for%20Robust%20Pose%20Estimation.pdf)
+- *Davis Rempe, Tolga Birdal, Aaron Hertzmann, Jimei Yang, Srinath Sridhar, Leonidas J. Guibas*
+- `2021-05-10, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-05-07] [paper130]
 - PixelTransformer: Sample Conditioned Signal Generation
