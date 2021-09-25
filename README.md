@@ -100,6 +100,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-06-15] [paper133]
+- End-to-end Recovery of Human Shape and Pose
+ [[pdf]](https://arxiv.org/abs/1712.06584) [[code]](https://github.com/akanazawa/hmr) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-end%20Recovery%20of%20Human%20Shape%20and%20Pose.pdf)
+- *Angjoo Kanazawa, Michael J. Black, David W. Jacobs, Jitendra Malik*
+- `2017-12-18, CVPR 2018`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+
 ##### [21-06-14] [paper132]
 - 3D Multi-bodies: Fitting Sets of Plausible 3D Human Models to Ambiguous Image Data
  [[pdf]](https://arxiv.org/abs/2011.00980) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/3D%20Multi-bodies:%20Fitting%20Sets%20of%20Plausible%203D%20Human%20Models%20to%20Ambiguous%20Image%20Data.pdf)
@@ -2121,6 +2128,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### 3D Human Pose Estimation:
+
+##### [21-06-15] [paper133]
+- End-to-end Recovery of Human Shape and Pose
+ [[pdf]](https://arxiv.org/abs/1712.06584) [[code]](https://github.com/akanazawa/hmr) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-end%20Recovery%20of%20Human%20Shape%20and%20Pose.pdf)
+- *Angjoo Kanazawa, Michael J. Black, David W. Jacobs, Jitendra Malik*
+- `2017-12-18, CVPR 2018`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-06-14] [paper132]
 - 3D Multi-bodies: Fitting Sets of Plausible 3D Human Models to Ambiguous Image Data
@@ -4855,6 +4869,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### CVPR 2018:
 
+##### [21-06-15] [paper133]
+- End-to-end Recovery of Human Shape and Pose
+ [[pdf]](https://arxiv.org/abs/1712.06584) [[code]](https://github.com/akanazawa/hmr) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-end%20Recovery%20of%20Human%20Shape%20and%20Pose.pdf)
+- *Angjoo Kanazawa, Michael J. Black, David W. Jacobs, Jitendra Malik*
+- `2017-12-18, CVPR 2018`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+
 ##### [18-10-05] [paper11]
 - VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection [[pdf]](https://arxiv.org/abs/1711.06396) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VoxelNet:%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/VoxelNet:%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection.md)
 - *Yin Zhou, Oncel Tuzel*
@@ -5924,6 +5945,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2019-02-11`
 
 #### 2018:
+
+##### [21-06-15] [paper133]
+- End-to-end Recovery of Human Shape and Pose
+ [[pdf]](https://arxiv.org/abs/1712.06584) [[code]](https://github.com/akanazawa/hmr) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-end%20Recovery%20of%20Human%20Shape%20and%20Pose.pdf)
+- *Angjoo Kanazawa, Michael J. Black, David W. Jacobs, Jitendra Malik*
+- `2017-12-18, CVPR 2018`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-02-26] [paper121]
 - Neural Relational Inference for Interacting Systems
