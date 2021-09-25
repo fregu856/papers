@@ -78,6 +78,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [ECCV 2018](#eccv-2018)
 - [ICCV](#iccv)
 - - [ICCV 2021](#iccv-2021)
+- - [ICCV 2017](#iccv-2017)
 - [AISTATS](#aistats)
 - - [AISTATS 2019](#aistats-2019)
 - - [AISTATS 2010](#aistats-2010)
@@ -99,6 +100,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2021:
+
+##### [21-06-16] [paper135]
+- A simple yet effective baseline for 3d human pose estimation
+ [[pdf]](https://arxiv.org/abs/1705.03098) [[code]](https://github.com/una-dinosauria/3d-pose-baseline) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20simple%20yet%20effective%20baseline%20for%203d%20human%20pose%20estimation.pdf)
+- *Julieta Martinez, Rayat Hossain, Javier Romero, James J. Little*
+- `2017-05-08, ICCV 2017`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-06-16] [paper134]
 - Estimating Egocentric 3D Human Pose in Global Space
@@ -2135,6 +2143,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### 3D Human Pose Estimation:
+
+##### [21-06-16] [paper135]
+- A simple yet effective baseline for 3d human pose estimation
+ [[pdf]](https://arxiv.org/abs/1705.03098) [[code]](https://github.com/una-dinosauria/3d-pose-baseline) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20simple%20yet%20effective%20baseline%20for%203d%20human%20pose%20estimation.pdf)
+- *Julieta Martinez, Rayat Hossain, Javier Romero, James J. Little*
+- `2017-05-08, ICCV 2017`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-06-16] [paper134]
 - Estimating Egocentric 3D Human Pose in Global Space
@@ -5094,6 +5109,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ### ICCV:
 
 - [ICCV 2021](#iccv-2021)
+- [ICCV 2017](#iccv-2017)
 
 #### ICCV 2021:
 
@@ -5109,6 +5125,15 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
  [[pdf]](https://arxiv.org/abs/2105.04668) [[code]](https://geometry.stanford.edu/projects/humor/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/HuMoR:%203D%20Human%20Motion%20Model%20for%20Robust%20Pose%20Estimation.pdf)
 - *Davis Rempe, Tolga Birdal, Aaron Hertzmann, Jimei Yang, Srinath Sridhar, Leonidas J. Guibas*
 - `2021-05-10, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+
+#### ICCV 2017:
+
+##### [21-06-16] [paper135]
+- A simple yet effective baseline for 3d human pose estimation
+ [[pdf]](https://arxiv.org/abs/1705.03098) [[code]](https://github.com/una-dinosauria/3d-pose-baseline) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20simple%20yet%20effective%20baseline%20for%203d%20human%20pose%20estimation.pdf)
+- *Julieta Martinez, Rayat Hossain, Javier Romero, James J. Little*
+- `2017-05-08, ICCV 2017`
 - [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ****
@@ -5974,13 +5999,6 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### 2018:
 
-##### [21-06-15] [paper133]
-- End-to-end Recovery of Human Shape and Pose
- [[pdf]](https://arxiv.org/abs/1712.06584) [[code]](https://github.com/akanazawa/hmr) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-end%20Recovery%20of%20Human%20Shape%20and%20Pose.pdf)
-- *Angjoo Kanazawa, Michael J. Black, David W. Jacobs, Jitendra Malik*
-- `2017-12-18, CVPR 2018`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
-
 ##### [21-02-26] [paper121]
 - Neural Relational Inference for Interacting Systems
  [[pdf]](https://arxiv.org/abs/1802.04687) [[code]](https://github.com/ethanfetaya/NRI) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Relational%20Inference%20for%20Interacting%20Systems.pdf)
@@ -6184,6 +6202,20 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2018-08-16, ICLR2018`
 
 #### 2017:
+
+##### [21-06-16] [paper135]
+- A simple yet effective baseline for 3d human pose estimation
+ [[pdf]](https://arxiv.org/abs/1705.03098) [[code]](https://github.com/una-dinosauria/3d-pose-baseline) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20simple%20yet%20effective%20baseline%20for%203d%20human%20pose%20estimation.pdf)
+- *Julieta Martinez, Rayat Hossain, Javier Romero, James J. Little*
+- `2017-05-08, ICCV 2017`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+
+##### [21-06-15] [paper133]
+- End-to-end Recovery of Human Shape and Pose
+ [[pdf]](https://arxiv.org/abs/1712.06584) [[code]](https://github.com/akanazawa/hmr) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-end%20Recovery%20of%20Human%20Shape%20and%20Pose.pdf)
+- *Angjoo Kanazawa, Michael J. Black, David W. Jacobs, Jitendra Malik*
+- `2017-12-18, CVPR 2018`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [20-02-13] [paper86]
 - Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[pdf]](https://arxiv.org/abs/1710.07283) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.md)
