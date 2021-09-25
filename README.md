@@ -78,6 +78,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [ECCV 2018](#eccv-2018)
 - [ICCV](#iccv)
 - - [ICCV 2021](#iccv-2021)
+- - [ICCV 2019](#iccv-2019)
 - - [ICCV 2017](#iccv-2017)
 - [AISTATS](#aistats)
 - - [AISTATS 2019](#aistats-2019)
@@ -100,6 +101,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2021:
+
+##### [21-06-17] [paper136]
+- Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop
+ [[pdf]](https://arxiv.org/abs/1909.12828) [[code]](https://github.com/nkolot/SPIN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Reconstruct%203D%20Human%20Pose%20and%20Shape%20via%20Model-fitting%20in%20the%20Loop.pdf)
+- *Nikos Kolotouros, Georgios Pavlakos, Michael J. Black, Kostas Daniilidis*
+- `2019-09-27, ICCV 2019`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-06-16] [paper135]
 - A simple yet effective baseline for 3d human pose estimation
@@ -2143,6 +2151,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### 3D Human Pose Estimation:
+
+##### [21-06-17] [paper136]
+- Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop
+ [[pdf]](https://arxiv.org/abs/1909.12828) [[code]](https://github.com/nkolot/SPIN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Reconstruct%203D%20Human%20Pose%20and%20Shape%20via%20Model-fitting%20in%20the%20Loop.pdf)
+- *Nikos Kolotouros, Georgios Pavlakos, Michael J. Black, Kostas Daniilidis*
+- `2019-09-27, ICCV 2019`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-06-16] [paper135]
 - A simple yet effective baseline for 3d human pose estimation
@@ -5109,6 +5124,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ### ICCV:
 
 - [ICCV 2021](#iccv-2021)
+- [ICCV 2019](#iccv-2019)
 - [ICCV 2017](#iccv-2017)
 
 #### ICCV 2021:
@@ -5125,6 +5141,15 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
  [[pdf]](https://arxiv.org/abs/2105.04668) [[code]](https://geometry.stanford.edu/projects/humor/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/HuMoR:%203D%20Human%20Motion%20Model%20for%20Robust%20Pose%20Estimation.pdf)
 - *Davis Rempe, Tolga Birdal, Aaron Hertzmann, Jimei Yang, Srinath Sridhar, Leonidas J. Guibas*
 - `2021-05-10, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+
+#### ICCV 2019:
+
+##### [21-06-17] [paper136]
+- Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop
+ [[pdf]](https://arxiv.org/abs/1909.12828) [[code]](https://github.com/nkolot/SPIN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Reconstruct%203D%20Human%20Pose%20and%20Shape%20via%20Model-fitting%20in%20the%20Loop.pdf)
+- *Nikos Kolotouros, Georgios Pavlakos, Michael J. Black, Kostas Daniilidis*
+- `2019-09-27, ICCV 2019`
 - [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 #### ICCV 2017:
@@ -5842,6 +5867,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
 
 #### 2019:
+
+##### [21-06-17] [paper136]
+- Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop
+ [[pdf]](https://arxiv.org/abs/1909.12828) [[code]](https://github.com/nkolot/SPIN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Reconstruct%203D%20Human%20Pose%20and%20Shape%20via%20Model-fitting%20in%20the%20Loop.pdf)
+- *Nikos Kolotouros, Georgios Pavlakos, Michael J. Black, Kostas Daniilidis*
+- `2019-09-27, ICCV 2019`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [20-11-06] [paper109]
 - Approximate Inference Turns Deep Networks into Gaussian Processes
