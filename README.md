@@ -100,6 +100,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-06-16] [paper134]
+- Estimating Egocentric 3D Human Pose in Global Space
+ [[pdf]](https://arxiv.org/abs/2104.13454) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Estimating%20Egocentric%203D%20Human%20Pose%20in%20Global%20Space.pdf)
+- *Jian Wang, Lingjie Liu, Weipeng Xu, Kripasindhu Sarkar, Christian Theobalt*
+- `2021-04-27, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+
 ##### [21-06-15] [paper133]
 - End-to-end Recovery of Human Shape and Pose
  [[pdf]](https://arxiv.org/abs/1712.06584) [[code]](https://github.com/akanazawa/hmr) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-end%20Recovery%20of%20Human%20Shape%20and%20Pose.pdf)
@@ -2128,6 +2135,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### 3D Human Pose Estimation:
+
+##### [21-06-16] [paper134]
+- Estimating Egocentric 3D Human Pose in Global Space
+ [[pdf]](https://arxiv.org/abs/2104.13454) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Estimating%20Egocentric%203D%20Human%20Pose%20in%20Global%20Space.pdf)
+- *Jian Wang, Lingjie Liu, Weipeng Xu, Kripasindhu Sarkar, Christian Theobalt*
+- `2021-04-27, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-06-15] [paper133]
 - End-to-end Recovery of Human Shape and Pose
@@ -5083,6 +5097,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### ICCV 2021:
 
+##### [21-06-16] [paper134]
+- Estimating Egocentric 3D Human Pose in Global Space
+ [[pdf]](https://arxiv.org/abs/2104.13454) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Estimating%20Egocentric%203D%20Human%20Pose%20in%20Global%20Space.pdf)
+- *Jian Wang, Lingjie Liu, Weipeng Xu, Kripasindhu Sarkar, Christian Theobalt*
+- `2021-04-27, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+
 ##### [21-06-04] [paper131]
 - HuMoR: 3D Human Motion Model for Robust Pose Estimation
  [[pdf]](https://arxiv.org/abs/2105.04668) [[code]](https://geometry.stanford.edu/projects/humor/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/HuMoR:%203D%20Human%20Motion%20Model%20for%20Robust%20Pose%20Estimation.pdf)
@@ -5548,6 +5569,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-06-16] [paper134]
+- Estimating Egocentric 3D Human Pose in Global Space
+ [[pdf]](https://arxiv.org/abs/2104.13454) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Estimating%20Egocentric%203D%20Human%20Pose%20in%20Global%20Space.pdf)
+- *Jian Wang, Lingjie Liu, Weipeng Xu, Kripasindhu Sarkar, Christian Theobalt*
+- `2021-04-27, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-06-04] [paper131]
 - HuMoR: 3D Human Motion Model for Robust Pose Estimation
