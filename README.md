@@ -100,6 +100,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-06-14] [paper132]
+- 3D Multi-bodies: Fitting Sets of Plausible 3D Human Models to Ambiguous Image Data
+ [[pdf]](https://arxiv.org/abs/2011.00980) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/3D%20Multi-bodies:%20Fitting%20Sets%20of%20Plausible%203D%20Human%20Models%20to%20Ambiguous%20Image%20Data.pdf)
+- *Benjamin Biggs, Sébastien Ehrhadt, Hanbyul Joo, Benjamin Graham, Andrea Vedaldi, David Novotny*
+- `2020-11-02, NeurIPS 2020`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+
 ##### [21-06-04] [paper131]
 - HuMoR: 3D Human Motion Model for Robust Pose Estimation
  [[pdf]](https://arxiv.org/abs/2105.04668) [[code]](https://geometry.stanford.edu/projects/humor/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/HuMoR:%203D%20Human%20Motion%20Model%20for%20Robust%20Pose%20Estimation.pdf)
@@ -2115,6 +2122,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### 3D Human Pose Estimation:
 
+##### [21-06-14] [paper132]
+- 3D Multi-bodies: Fitting Sets of Plausible 3D Human Models to Ambiguous Image Data
+ [[pdf]](https://arxiv.org/abs/2011.00980) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/3D%20Multi-bodies:%20Fitting%20Sets%20of%20Plausible%203D%20Human%20Models%20to%20Ambiguous%20Image%20Data.pdf)
+- *Benjamin Biggs, Sébastien Ehrhadt, Hanbyul Joo, Benjamin Graham, Andrea Vedaldi, David Novotny*
+- `2020-11-02, NeurIPS 2020`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+
 ##### [21-06-04] [paper131]
 - HuMoR: 3D Human Motion Model for Robust Pose Estimation
  [[pdf]](https://arxiv.org/abs/2105.04668) [[code]](https://geometry.stanford.edu/projects/humor/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/HuMoR:%203D%20Human%20Motion%20Model%20for%20Robust%20Pose%20Estimation.pdf)
@@ -4075,6 +4089,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### NeurIPS 2020:
 
+##### [21-06-14] [paper132]
+- 3D Multi-bodies: Fitting Sets of Plausible 3D Human Models to Ambiguous Image Data
+ [[pdf]](https://arxiv.org/abs/2011.00980) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/3D%20Multi-bodies:%20Fitting%20Sets%20of%20Plausible%203D%20Human%20Models%20to%20Ambiguous%20Image%20Data.pdf)
+- *Benjamin Biggs, Sébastien Ehrhadt, Hanbyul Joo, Benjamin Graham, Andrea Vedaldi, David Novotny*
+- `2020-11-02, NeurIPS 2020`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+
 ##### [21-03-26] [paper125]
 - Your GAN is Secretly an Energy-based Model and You Should use Discriminator Driven Latent Sampling
  [[pdf]](https://arxiv.org/abs/2003.06060) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20GAN%20is%20Secretly%20an%20Energy-based%20Model%20and%20You%20Should%20Use%20Discriminator%20Driven%20Latent%20Sampling.pdf)
@@ -5563,6 +5584,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 #### 2020:
+
+##### [21-06-14] [paper132]
+- 3D Multi-bodies: Fitting Sets of Plausible 3D Human Models to Ambiguous Image Data
+ [[pdf]](https://arxiv.org/abs/2011.00980) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/3D%20Multi-bodies:%20Fitting%20Sets%20of%20Plausible%203D%20Human%20Models%20to%20Ambiguous%20Image%20Data.pdf)
+- *Benjamin Biggs, Sébastien Ehrhadt, Hanbyul Joo, Benjamin Graham, Andrea Vedaldi, David Novotny*
+- `2020-11-02, NeurIPS 2020`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-04-16] [paper128]
 - Learning Mesh-Based Simulation with Graph Networks
