@@ -102,6 +102,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-06-17] [paper137]
+- Exemplar Fine-Tuning for 3D Human Model Fitting Towards In-the-Wild 3D Human Pose Estimation
+ [[pdf]](https://arxiv.org/abs/2004.03686) [[code]](https://github.com/facebookresearch/eft) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Exemplar%20Fine-Tuning%20for%203D%20Human%20Model%20Fitting%20Towards%20In-the-Wild%203D%20Human%20Pose%20Estimation.pdf)
+- *Hanbyul Joo, Natalia Neverova, Andrea Vedaldi*
+- `2020-04-07`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+
 ##### [21-06-17] [paper136]
 - Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop
  [[pdf]](https://arxiv.org/abs/1909.12828) [[code]](https://github.com/nkolot/SPIN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Reconstruct%203D%20Human%20Pose%20and%20Shape%20via%20Model-fitting%20in%20the%20Loop.pdf)
@@ -2151,6 +2158,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### 3D Human Pose Estimation:
+
+##### [21-06-17] [paper137]
+- Exemplar Fine-Tuning for 3D Human Model Fitting Towards In-the-Wild 3D Human Pose Estimation
+ [[pdf]](https://arxiv.org/abs/2004.03686) [[code]](https://github.com/facebookresearch/eft) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Exemplar%20Fine-Tuning%20for%203D%20Human%20Model%20Fitting%20Towards%20In-the-Wild%203D%20Human%20Pose%20Estimation.pdf)
+- *Hanbyul Joo, Natalia Neverova, Andrea Vedaldi*
+- `2020-04-07`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-06-17] [paper136]
 - Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop
@@ -5683,6 +5697,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 #### 2020:
+
+##### [21-06-17] [paper137]
+- Exemplar Fine-Tuning for 3D Human Model Fitting Towards In-the-Wild 3D Human Pose Estimation
+ [[pdf]](https://arxiv.org/abs/2004.03686) [[code]](https://github.com/facebookresearch/eft) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Exemplar%20Fine-Tuning%20for%203D%20Human%20Model%20Fitting%20Towards%20In-the-Wild%203D%20Human%20Pose%20Estimation.pdf)
+- *Hanbyul Joo, Natalia Neverova, Andrea Vedaldi*
+- `2020-04-07`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-06-14] [paper132]
 - 3D Multi-bodies: Fitting Sets of Plausible 3D Human Models to Ambiguous Image Data
