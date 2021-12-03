@@ -104,6 +104,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-09-02] [paper143]
+- Character Controllers Using Motion VAEs
+ [[pdf]](https://arxiv.org/abs/2103.14274) [[code]](https://github.com/electronicarts/character-motion-vaes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Character%20Controllers%20Using%20Motion%20VAEs.pdf)
+- *Hung Yu Ling, Fabio Zinno, George Cheng, Michiel van de Panne*
+- `2021-03-26, SIGGRAPH 2020`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+
 ##### [21-08-27] [paper142]
 - DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation
  [[pdf]](https://arxiv.org/abs/1901.05103) [[code]](https://github.com/facebookresearch/DeepSDF) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DeepSDF:%20Learning%20Continuous%20Signed%20Distance%20Functions%20for%20Shape%20Representation.pdf)
@@ -2196,6 +2203,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### 3D Human Pose Estimation:
+
+##### [21-09-02] [paper143]
+- Character Controllers Using Motion VAEs
+ [[pdf]](https://arxiv.org/abs/2103.14274) [[code]](https://github.com/electronicarts/character-motion-vaes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Character%20Controllers%20Using%20Motion%20VAEs.pdf)
+- *Hung Yu Ling, Fabio Zinno, George Cheng, Michiel van de Panne*
+- `2021-03-26, SIGGRAPH 2020`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-06-19] [paper141]
 - Generating Multiple Hypotheses for 3D Human Pose Estimation with Mixture Density Network
@@ -5835,6 +5849,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-09-02] [paper143]
+- Character Controllers Using Motion VAEs
+ [[pdf]](https://arxiv.org/abs/2103.14274) [[code]](https://github.com/electronicarts/character-motion-vaes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Character%20Controllers%20Using%20Motion%20VAEs.pdf)
+- *Hung Yu Ling, Fabio Zinno, George Cheng, Michiel van de Panne*
+- `2021-03-26, SIGGRAPH 2020`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-06-16] [paper134]
 - Estimating Egocentric 3D Human Pose in Global Space
