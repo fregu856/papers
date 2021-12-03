@@ -105,7 +105,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ##### [21-06-19] [paper140]
 - Expressive Body Capture: 3D Hands, Face, and Body from a Single Image
- [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://github.com/vchoutas/smplify-x) [[annotated pdf]](TODO!)
+ [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://github.com/vchoutas/smplify-x) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Expressive%20Body%20Capture:%203D%20Hands%2C%20Face%2C%20and%20Body%20from%20a%20Single%20Image.pdf)
 - *Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A. A. Osman, Dimitrios Tzionas, Michael J. Black*
 - `2019-04-11, CVPR 2019`
 - [[3D Human Pose Estimation]](#3d-human-pose-estimation)
