@@ -103,6 +103,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-06-19] [paper141]
+- Generating Multiple Hypotheses for 3D Human Pose Estimation with Mixture Density Network
+ [[pdf]](https://arxiv.org/abs/1904.05547) [[code]](https://github.com/chaneyddtt/Generating-Multiple-Hypotheses-for-3D-Human-Pose-Estimation-with-Mixture-Density-Network) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generating%20Multiple%20Hypotheses%20for%203D%20Human%20Pose%20Estimation%20with%20Mixture%20Density%20Network.pdf)
+- *Chen Li, Gim Hee Lee*
+- `2019-04-11, CVPR 2019`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+
 ##### [21-06-19] [paper140]
 - Expressive Body Capture: 3D Hands, Face, and Body from a Single Image
  [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://github.com/vchoutas/smplify-x) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Expressive%20Body%20Capture:%203D%20Hands%2C%20Face%2C%20and%20Body%20from%20a%20Single%20Image.pdf)
@@ -2181,6 +2188,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### 3D Human Pose Estimation:
+
+##### [21-06-19] [paper141]
+- Generating Multiple Hypotheses for 3D Human Pose Estimation with Mixture Density Network
+ [[pdf]](https://arxiv.org/abs/1904.05547) [[code]](https://github.com/chaneyddtt/Generating-Multiple-Hypotheses-for-3D-Human-Pose-Estimation-with-Mixture-Density-Network) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generating%20Multiple%20Hypotheses%20for%203D%20Human%20Pose%20Estimation%20with%20Mixture%20Density%20Network.pdf)
+- *Chen Li, Gim Hee Lee*
+- `2019-04-11, CVPR 2019`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-06-19] [paper140]
 - Expressive Body Capture: 3D Hands, Face, and Body from a Single Image
@@ -4962,6 +4976,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### CVPR 2019:
 
+##### [21-06-19] [paper141]
+- Generating Multiple Hypotheses for 3D Human Pose Estimation with Mixture Density Network
+ [[pdf]](https://arxiv.org/abs/1904.05547) [[code]](https://github.com/chaneyddtt/Generating-Multiple-Hypotheses-for-3D-Human-Pose-Estimation-with-Mixture-Density-Network) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generating%20Multiple%20Hypotheses%20for%203D%20Human%20Pose%20Estimation%20with%20Mixture%20Density%20Network.pdf)
+- *Chen Li, Gim Hee Lee*
+- `2019-04-11, CVPR 2019`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+
 ##### [21-06-19] [paper140]
 - Expressive Body Capture: 3D Hands, Face, and Body from a Single Image
  [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://github.com/vchoutas/smplify-x) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Expressive%20Body%20Capture:%203D%20Hands%2C%20Face%2C%20and%20Body%20from%20a%20Single%20Image.pdf)
@@ -5964,6 +5985,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
 
 #### 2019:
+
+##### [21-06-19] [paper141]
+- Generating Multiple Hypotheses for 3D Human Pose Estimation with Mixture Density Network
+ [[pdf]](https://arxiv.org/abs/1904.05547) [[code]](https://github.com/chaneyddtt/Generating-Multiple-Hypotheses-for-3D-Human-Pose-Estimation-with-Mixture-Density-Network) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generating%20Multiple%20Hypotheses%20for%203D%20Human%20Pose%20Estimation%20with%20Mixture%20Density%20Network.pdf)
+- *Chen Li, Gim Hee Lee*
+- `2019-04-11, CVPR 2019`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-06-19] [paper140]
 - Expressive Body Capture: 3D Hands, Face, and Body from a Single Image
