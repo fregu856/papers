@@ -76,6 +76,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [ECCV](#eccv)
 - - [ECCV 2020](#eccv-2020)
 - - [ECCV 2018](#eccv-2018)
+- - [ECCV 2016](#eccv-2016)
 - [ICCV](#iccv)
 - - [ICCV 2021](#iccv-2021)
 - - [ICCV 2019](#iccv-2019)
@@ -101,6 +102,21 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2021:
+
+##### [21-06-19] [paper140]
+- Expressive Body Capture: 3D Hands, Face, and Body from a Single Image
+ [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://github.com/vchoutas/smplify-x) [[annotated pdf]](TODO!)
+- *Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A. A. Osman, Dimitrios Tzionas, Michael J. Black*
+- `2019-04-11, CVPR 2019`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- ```Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.```
+
+##### [21-06-18] [paper139]
+- Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image
+ [[pdf]](https://arxiv.org/abs/1607.08128) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Keep%20it%20SMPL:%20Automatic%20Estimation%20of%203D%20Human%20Pose%20and%20Shape%20from%20a%20Single%20Image.pdf)
+- *Federica Bogo, Angjoo Kanazawa, Christoph Lassner, Peter Gehler, Javier Romero, Michael J. Black*
+- `2016-07-27, ECCV 2016`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-06-18] [paper138]
 - Beyond Static Features for Temporally Consistent 3D Human Pose and Shape from a Video
@@ -2165,6 +2181,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### 3D Human Pose Estimation:
+
+##### [21-06-18] [paper139]
+- Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image
+ [[pdf]](https://arxiv.org/abs/1607.08128) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Keep%20it%20SMPL:%20Automatic%20Estimation%20of%203D%20Human%20Pose%20and%20Shape%20from%20a%20Single%20Image.pdf)
+- *Federica Bogo, Angjoo Kanazawa, Christoph Lassner, Peter Gehler, Javier Romero, Michael J. Black*
+- `2016-07-27, ECCV 2016`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-06-18] [paper138]
 - Beyond Static Features for Temporally Consistent 3D Human Pose and Shape from a Video
@@ -5065,6 +5088,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 - [ECCV 2020](#eccv-2020)
 - [ECCV 2018](#eccv-2018)
+- [ECCV 2016](#eccv-2016)
 
 #### ECCV 2020:
 
@@ -5086,6 +5110,14 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - *Eddy Ilg, Özgün Çiçek, Silvio Galesso, Aaron Klein, Osama Makansi, Frank Hutter, Thomas Brox*
 - `2018-08-06, ECCV2018`
 
+#### ECCV 2016:
+
+##### [21-06-18] [paper139]
+- Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image
+ [[pdf]](https://arxiv.org/abs/1607.08128) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Keep%20it%20SMPL:%20Automatic%20Estimation%20of%203D%20Human%20Pose%20and%20Shape%20from%20a%20Single%20Image.pdf)
+- *Federica Bogo, Angjoo Kanazawa, Christoph Lassner, Peter Gehler, Javier Romero, Michael J. Black*
+- `2016-07-27, ECCV 2016`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ****
 ****
@@ -6357,6 +6389,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - `2017-10-05, NeurIPS2017`
 
 #### 2016:
+
+##### [21-06-18] [paper139]
+- Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image
+ [[pdf]](https://arxiv.org/abs/1607.08128) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Keep%20it%20SMPL:%20Automatic%20Estimation%20of%203D%20Human%20Pose%20and%20Shape%20from%20a%20Single%20Image.pdf)
+- *Federica Bogo, Angjoo Kanazawa, Christoph Lassner, Peter Gehler, Javier Romero, Michael J. Black*
+- `2016-07-27, ECCV 2016`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [19-10-18] [paper63]
 - Improving Variational Inference with Inverse Autoregressive Flow [[pdf]](https://arxiv.org/abs/1606.04934) [[code]](https://github.com/openai/iaf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Improving%20Variational%20Inference%20with%20Inverse%20Autoregressive%20Flow.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Improving%20Variational%20Inference%20with%20Inverse%20Autoregressive%20Flow.md)
