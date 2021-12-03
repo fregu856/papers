@@ -103,6 +103,16 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-06-19] [paper140]
+- Expressive Body Capture: 3D Hands, Face, and Body from a Single Image
+ [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://github.com/vchoutas/smplify-x) [[annotated pdf]](TODO!)
+- *Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A. A. Osman, Dimitrios Tzionas, Michael J. Black*
+- `2019-04-11, CVPR 2019`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.
+```
+
 ##### [21-06-18] [paper139]
 - Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image
  [[pdf]](https://arxiv.org/abs/1607.08128) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Keep%20it%20SMPL:%20Automatic%20Estimation%20of%203D%20Human%20Pose%20and%20Shape%20from%20a%20Single%20Image.pdf)
