@@ -104,6 +104,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-09-02] [paper144]
+- Differentiable Particle Filtering via Entropy-Regularized Optimal Transport
+ [[pdf]](https://arxiv.org/abs/2102.07850) [[code]](https://github.com/JTT94/filterflow) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Differentiable%20Particle%20Filtering%20via%20Entropy-Regularized%20Optimal%20Transport.pdf)
+- *Adrien Corenflos, James Thornton, George Deligiannidis, Arnaud Doucet*
+- `2021-02-15, ICML 2021`
+
 ##### [21-09-02] [paper143]
 - Character Controllers Using Motion VAEs
  [[pdf]](https://arxiv.org/abs/2103.14274) [[code]](https://github.com/electronicarts/character-motion-vaes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Character%20Controllers%20Using%20Motion%20VAEs.pdf)
@@ -4608,6 +4614,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### ICML 2021:
 
+##### [21-09-02] [paper144]
+- Differentiable Particle Filtering via Entropy-Regularized Optimal Transport
+ [[pdf]](https://arxiv.org/abs/2102.07850) [[code]](https://github.com/JTT94/filterflow) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Differentiable%20Particle%20Filtering%20via%20Entropy-Regularized%20Optimal%20Transport.pdf)
+- *Adrien Corenflos, James Thornton, George Deligiannidis, Arnaud Doucet*
+- `2021-02-15, ICML 2021`
+
 ##### [21-05-07] [paper130]
 - PixelTransformer: Sample Conditioned Signal Generation
  [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
@@ -5849,6 +5861,12 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-09-02] [paper144]
+- Differentiable Particle Filtering via Entropy-Regularized Optimal Transport
+ [[pdf]](https://arxiv.org/abs/2102.07850) [[code]](https://github.com/JTT94/filterflow) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Differentiable%20Particle%20Filtering%20via%20Entropy-Regularized%20Optimal%20Transport.pdf)
+- *Adrien Corenflos, James Thornton, George Deligiannidis, Arnaud Doucet*
+- `2021-02-15, ICML 2021`
 
 ##### [21-09-02] [paper143]
 - Character Controllers Using Motion VAEs
