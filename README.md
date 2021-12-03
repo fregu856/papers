@@ -27,6 +27,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Neural Processes](#neural-processes)
 - [Neural ODEs](#neural-odes)
 - [Transformers](#transformers)
+- [Implicit Neural Representations](#implicit-neural-representations)
 - [SysCon Deep Learning Reading Group](#syscon-deep-learning-reading-group)
 - [SysCon Monte Carlo Reading Group](#syscon-monte-carlo-reading-group)
 - [Papers by Year](#papers-by-year)
@@ -102,6 +103,20 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2021:
+
+##### [21-08-27] [paper142]
+- DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation
+ [[pdf]](https://arxiv.org/abs/1901.05103) [[code]](https://github.com/facebookresearch/DeepSDF) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DeepSDF:%20Learning%20Continuous%20Signed%20Distance%20Functions%20for%20Shape%20Representation.pdf)
+- *Jeong Joon Park, Peter Florence, Julian Straub, Richard Newcombe, Steven Lovegrove*
+- `2019-01-16, CVPR 2019`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+
+##### [21-06-19] [paper141]
+- Generating Multiple Hypotheses for 3D Human Pose Estimation with Mixture Density Network
+ [[pdf]](https://arxiv.org/abs/1904.05547) [[code]](https://github.com/chaneyddtt/Generating-Multiple-Hypotheses-for-3D-Human-Pose-Estimation-with-Mixture-Density-Network) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generating%20Multiple%20Hypotheses%20for%203D%20Human%20Pose%20Estimation%20with%20Mixture%20Density%20Network.pdf)
+- *Chen Li, Gim Hee Lee*
+- `2019-04-11, CVPR 2019`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-06-19] [paper140]
 - Expressive Body Capture: 3D Hands, Face, and Body from a Single Image
@@ -2182,6 +2197,13 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### 3D Human Pose Estimation:
 
+##### [21-06-19] [paper141]
+- Generating Multiple Hypotheses for 3D Human Pose Estimation with Mixture Density Network
+ [[pdf]](https://arxiv.org/abs/1904.05547) [[code]](https://github.com/chaneyddtt/Generating-Multiple-Hypotheses-for-3D-Human-Pose-Estimation-with-Mixture-Density-Network) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generating%20Multiple%20Hypotheses%20for%203D%20Human%20Pose%20Estimation%20with%20Mixture%20Density%20Network.pdf)
+- *Chen Li, Gim Hee Lee*
+- `2019-04-11, CVPR 2019`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+
 ##### [21-06-19] [paper140]
 - Expressive Body Capture: 3D Hands, Face, and Body from a Single Image
  [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://github.com/vchoutas/smplify-x) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Expressive%20Body%20Capture:%203D%20Hands%2C%20Face%2C%20and%20Body%20from%20a%20Single%20Image.pdf)
@@ -3680,6 +3702,103 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 
 
+****
+### Implicit Neural Representations:
+
+##### [21-08-27] [paper142]
+- DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation
+ [[pdf]](https://arxiv.org/abs/1901.05103) [[code]](https://github.com/facebookresearch/DeepSDF) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DeepSDF:%20Learning%20Continuous%20Signed%20Distance%20Functions%20for%20Shape%20Representation.pdf)
+- *Jeong Joon Park, Peter Florence, Julian Straub, Richard Newcombe, Steven Lovegrove*
+- `2019-01-16, CVPR 2019`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4962,6 +5081,20 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### CVPR 2019:
 
+##### [21-08-27] [paper142]
+- DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation
+ [[pdf]](https://arxiv.org/abs/1901.05103) [[code]](https://github.com/facebookresearch/DeepSDF) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DeepSDF:%20Learning%20Continuous%20Signed%20Distance%20Functions%20for%20Shape%20Representation.pdf)
+- *Jeong Joon Park, Peter Florence, Julian Straub, Richard Newcombe, Steven Lovegrove*
+- `2019-01-16, CVPR 2019`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+
+##### [21-06-19] [paper141]
+- Generating Multiple Hypotheses for 3D Human Pose Estimation with Mixture Density Network
+ [[pdf]](https://arxiv.org/abs/1904.05547) [[code]](https://github.com/chaneyddtt/Generating-Multiple-Hypotheses-for-3D-Human-Pose-Estimation-with-Mixture-Density-Network) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generating%20Multiple%20Hypotheses%20for%203D%20Human%20Pose%20Estimation%20with%20Mixture%20Density%20Network.pdf)
+- *Chen Li, Gim Hee Lee*
+- `2019-04-11, CVPR 2019`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+
 ##### [21-06-19] [paper140]
 - Expressive Body Capture: 3D Hands, Face, and Body from a Single Image
  [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://github.com/vchoutas/smplify-x) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Expressive%20Body%20Capture:%203D%20Hands%2C%20Face%2C%20and%20Body%20from%20a%20Single%20Image.pdf)
@@ -5964,6 +6097,20 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
 
 #### 2019:
+
+##### [21-08-27] [paper142]
+- DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation
+ [[pdf]](https://arxiv.org/abs/1901.05103) [[code]](https://github.com/facebookresearch/DeepSDF) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DeepSDF:%20Learning%20Continuous%20Signed%20Distance%20Functions%20for%20Shape%20Representation.pdf)
+- *Jeong Joon Park, Peter Florence, Julian Straub, Richard Newcombe, Steven Lovegrove*
+- `2019-01-16, CVPR 2019`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+
+##### [21-06-19] [paper141]
+- Generating Multiple Hypotheses for 3D Human Pose Estimation with Mixture Density Network
+ [[pdf]](https://arxiv.org/abs/1904.05547) [[code]](https://github.com/chaneyddtt/Generating-Multiple-Hypotheses-for-3D-Human-Pose-Estimation-with-Mixture-Density-Network) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generating%20Multiple%20Hypotheses%20for%203D%20Human%20Pose%20Estimation%20with%20Mixture%20Density%20Network.pdf)
+- *Chen Li, Gim Hee Lee*
+- `2019-04-11, CVPR 2019`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-06-19] [paper140]
 - Expressive Body Capture: 3D Hands, Face, and Body from a Single Image
