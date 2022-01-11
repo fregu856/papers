@@ -2243,8 +2243,10 @@ Very well-written and quite interesting paper. Gives a good understanding of the
  [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://github.com/vchoutas/smplify-x) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Expressive%20Body%20Capture:%203D%20Hands%2C%20Face%2C%20and%20Body%20from%20a%20Single%20Image.pdf)
 - *Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A. A. Osman, Dimitrios Tzionas, Michael J. Black*
 - `2019-04-11, CVPR 2019`
-- ```Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.```
 - [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.
+```
 
 ##### [21-06-18] [paper139]
 - Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image
@@ -5140,8 +5142,10 @@ Very well-written and quite interesting paper. Gives a good understanding of the
  [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://github.com/vchoutas/smplify-x) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Expressive%20Body%20Capture:%203D%20Hands%2C%20Face%2C%20and%20Body%20from%20a%20Single%20Image.pdf)
 - *Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A. A. Osman, Dimitrios Tzionas, Michael J. Black*
 - `2019-04-11, CVPR 2019`
-- ```Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.```
 - [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.
+```
 
 ##### [19-07-10] [paper59]
 - PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud [[pdf]](https://arxiv.org/abs/1812.04244) [[code]](https://github.com/sshaoshuai/PointRCNN) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PointRCNN:%203D%20Object%20Proposal%20Generation%20and%20Detection%20from%20Point%20Cloud.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/PointRCNN:%203D%20Object%20Proposal%20Generation%20and%20Detection%20from%20Point%20Cloud.md)
@@ -6170,8 +6174,10 @@ Very well-written and quite interesting paper. Gives a good understanding of the
  [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://github.com/vchoutas/smplify-x) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Expressive%20Body%20Capture:%203D%20Hands%2C%20Face%2C%20and%20Body%20from%20a%20Single%20Image.pdf)
 - *Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A. A. Osman, Dimitrios Tzionas, Michael J. Black*
 - `2019-04-11, CVPR 2019`
-- ```Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.```
 - [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.
+```
 
 ##### [21-06-17] [paper136]
 - Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop
