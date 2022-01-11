@@ -107,7 +107,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ##### [21-09-15] [paper146]
 - NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
- [[pdf]](https://arxiv.org/abs/2003.08934) [[code]](https://github.com/bmild/nerf) [[annotated pdf]](TODO!)
+ [[pdf]](https://arxiv.org/abs/2003.08934) [[code]](https://github.com/bmild/nerf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/NeRF:%20Representing%20Scenes%20as%20Neural%20Radiance%20Fields%20for%20View%20Synthesis.pdf)
 - *Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng*
 - `2020-03-19, ECCV 2020`
 - [[Implicit Neural Representations]](#implicit-neural-representations)
@@ -3766,6 +3766,18 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Implicit Neural Representations:
 
+##### [21-09-15] [paper146]
+- NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
+ [[pdf]](https://arxiv.org/abs/2003.08934) [[code]](https://github.com/bmild/nerf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/NeRF:%20Representing%20Scenes%20as%20Neural%20Radiance%20Fields%20for%20View%20Synthesis.pdf)
+- *Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng*
+- `2020-03-19, ECCV 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Extremely well-written and interesting paper. I really enjoyed reading it, and I would recommend anyone interested in computer vision to read it as well.
+
+All parts of the proposed method are clearly explained and relatively easy to understand, including the volume rendering techniques which I was unfamiliar with.
+```
+
 ##### [21-08-27] [paper142]
 - DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation
  [[pdf]](https://arxiv.org/abs/1901.05103) [[code]](https://github.com/facebookresearch/DeepSDF) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DeepSDF:%20Learning%20Continuous%20Signed%20Distance%20Functions%20for%20Shape%20Representation.pdf)
@@ -5325,6 +5337,18 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 
 #### ECCV 2020:
 
+##### [21-09-15] [paper146]
+- NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
+ [[pdf]](https://arxiv.org/abs/2003.08934) [[code]](https://github.com/bmild/nerf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/NeRF:%20Representing%20Scenes%20as%20Neural%20Radiance%20Fields%20for%20View%20Synthesis.pdf)
+- *Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng*
+- `2020-03-19, ECCV 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Extremely well-written and interesting paper. I really enjoyed reading it, and I would recommend anyone interested in computer vision to read it as well.
+
+All parts of the proposed method are clearly explained and relatively easy to understand, including the volume rendering techniques which I was unfamiliar with.
+```
+
 ##### [20-06-12] [paper101]
 - End-to-End Object Detection with Transformers [[pdf]](https://arxiv.org/abs/2005.12872) [[code]](https://github.com/facebookresearch/detr) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-End%20Object%20Detection%20with%20Transformers.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/End-to-End%20Object%20Detection%20with%20Transformers.md)
 - *Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko*
@@ -6008,6 +6032,18 @@ Thorough experimental evaluation. Quite interesting findings.
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 #### 2020:
+
+##### [21-09-15] [paper146]
+- NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
+ [[pdf]](https://arxiv.org/abs/2003.08934) [[code]](https://github.com/bmild/nerf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/NeRF:%20Representing%20Scenes%20as%20Neural%20Radiance%20Fields%20for%20View%20Synthesis.pdf)
+- *Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng*
+- `2020-03-19, ECCV 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Extremely well-written and interesting paper. I really enjoyed reading it, and I would recommend anyone interested in computer vision to read it as well.
+
+All parts of the proposed method are clearly explained and relatively easy to understand, including the volume rendering techniques which I was unfamiliar with.
+```
 
 ##### [21-06-18] [paper138]
 - Beyond Static Features for Temporally Consistent 3D Human Pose and Shape from a Video
