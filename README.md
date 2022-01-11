@@ -45,6 +45,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [2006](#2006)
 - - [2004](#2004)
 - [NeurIPS](#neurips)
+- - [NeurIPS 2021](#neurips-2021)
 - - [NeurIPS 2020](#neurips-2020)
 - - [NeurIPS 2019](#neurips-2019)
 - - [NeurIPS 2018](#neurips-2018)
@@ -1016,6 +1017,18 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 
 ****
 ### Uncertainty Estimation:
+
+##### [21-09-08] [paper145]
+- Revisiting the Calibration of Modern Neural Networks
+ [[pdf]](https://arxiv.org/abs/2106.07998) [[code]](https://github.com/google-research/robustness_metrics/tree/master/robustness_metrics/projects/revisiting_calibration) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Revisiting%20the%20Calibration%20of%20Modern%20Neural%20Networks.pdf)
+- *Matthias Minderer, Josip Djolonga, Rob Romijnders, Frances Hubis, Xiaohua Zhai, Neil Houlsby, Dustin Tran, Mario Lucic*
+- `2021-06-15, NeurIPS 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Well-written paper. Everything is quite clearly explained and easy to understand. Quite enjoyable to read overall. 
+
+Thorough experimental evaluation. Quite interesting findings.
+```
 
 ##### [21-04-01] [paper126]
 - Loss Surface Simplexes for Mode Connecting Volumes and Fast Ensembling
@@ -4351,6 +4364,7 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### NeurIPS:
 
+- [NeurIPS 2021](#neurips-2021)
 - [NeurIPS 2020](#neurips-2020)
 - [NeurIPS 2019](#neurips-2019)
 - [NeurIPS 2018](#neurips-2018)
@@ -4358,6 +4372,20 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - [NeurIPS 2016](#neurips-2016)
 - [NeurIPS 2015](#neurips-2015)
 - [NeurIPS 2011](#neurips-2011)
+
+#### NeurIPS 2021:
+
+##### [21-09-08] [paper145]
+- Revisiting the Calibration of Modern Neural Networks
+ [[pdf]](https://arxiv.org/abs/2106.07998) [[code]](https://github.com/google-research/robustness_metrics/tree/master/robustness_metrics/projects/revisiting_calibration) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Revisiting%20the%20Calibration%20of%20Modern%20Neural%20Networks.pdf)
+- *Matthias Minderer, Josip Djolonga, Rob Romijnders, Frances Hubis, Xiaohua Zhai, Neil Houlsby, Dustin Tran, Mario Lucic*
+- `2021-06-15, NeurIPS 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Well-written paper. Everything is quite clearly explained and easy to understand. Quite enjoyable to read overall. 
+
+Thorough experimental evaluation. Quite interesting findings.
+```
 
 #### NeurIPS 2020:
 
@@ -5879,6 +5907,18 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-09-08] [paper145]
+- Revisiting the Calibration of Modern Neural Networks
+ [[pdf]](https://arxiv.org/abs/2106.07998) [[code]](https://github.com/google-research/robustness_metrics/tree/master/robustness_metrics/projects/revisiting_calibration) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Revisiting%20the%20Calibration%20of%20Modern%20Neural%20Networks.pdf)
+- *Matthias Minderer, Josip Djolonga, Rob Romijnders, Frances Hubis, Xiaohua Zhai, Neil Houlsby, Dustin Tran, Mario Lucic*
+- `2021-06-15, NeurIPS 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Well-written paper. Everything is quite clearly explained and easy to understand. Quite enjoyable to read overall. 
+
+Thorough experimental evaluation. Quite interesting findings.
+```
 
 ##### [21-09-02] [paper144]
 - Differentiable Particle Filtering via Entropy-Regularized Optimal Transport
