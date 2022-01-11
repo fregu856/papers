@@ -107,7 +107,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ##### [21-09-17] [paper147]
 - Human Pose Regression with Residual Log-likelihood Estimation
- [[pdf]](https://arxiv.org/abs/2107.11291) [[code]](https://github.com/Jeff-sjtu/res-loglikelihood-regression) [[annotated pdf]](TODO! TODO!)
+ [[pdf]](https://arxiv.org/abs/2107.11291) [[code]](https://github.com/Jeff-sjtu/res-loglikelihood-regression) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Human%20Pose%20Regression%20with%20Residual%20Log-likelihood%20Estimation.pdf)
 - *Jiefeng Li, Siyuan Bian, Ailing Zeng, Can Wang, Bo Pang, Wentao Liu, Cewu Lu*
 - `2021-07-23, ICCV 2021`
 - [[3D Human Pose Estimation]](#3d-human-pose-estimation)
