@@ -105,6 +105,20 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-09-17] [paper147]
+- Human Pose Regression with Residual Log-likelihood Estimation
+ [[pdf]](https://arxiv.org/abs/2107.11291) [[code]](https://github.com/Jeff-sjtu/res-loglikelihood-regression) [[annotated pdf]](TODO! TODO!)
+- *Jiefeng Li, Siyuan Bian, Ailing Zeng, Can Wang, Bo Pang, Wentao Liu, Cewu Lu*
+- `2021-07-23, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Quite interesting paper, but also quite strange/confusing. I don't think the proposed method is explained particularly well, at least I found it quite difficult to properly understand what they actually are doing.
+
+In the end it seems like they are learning a global loss function that is very similar to doing probabilistic regression with a Gauss/Laplace model of p(y|x) (with learned mean and variance)? See Figure 4 in the Appendix.
+
+And while it's true that their performance is much better than for direct regression with an L2/L1 loss (see e.g. Table 1), they only compare with Gauss/Laplace probabilistic regression once (Table 7) and in that case the Laplace model is actually quite competitive?
+```
+
 ##### [21-09-15] [paper146]
 - NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
  [[pdf]](https://arxiv.org/abs/2003.08934) [[code]](https://github.com/bmild/nerf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/NeRF:%20Representing%20Scenes%20as%20Neural%20Radiance%20Fields%20for%20View%20Synthesis.pdf)
