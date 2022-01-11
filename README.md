@@ -105,6 +105,18 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-09-15] [paper146]
+- NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
+ [[pdf]](https://arxiv.org/abs/2003.08934) [[code]](https://github.com/bmild/nerf) [[annotated pdf]](TODO!)
+- *Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng*
+- `2020-03-19, ECCV 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Extremely well-written and interesting paper. I really enjoyed reading it, and I would recommend anyone interested in computer vision to read it as well.
+
+All parts of the proposed method are clearly explained and relatively easy to understand, including the volume rendering techniques which I was unfamiliar with.
+```
+
 ##### [21-09-08] [paper145]
 - Revisiting the Calibration of Modern Neural Networks
  [[pdf]](https://arxiv.org/abs/2106.07998) [[code]](https://github.com/google-research/robustness_metrics/tree/master/robustness_metrics/projects/revisiting_calibration) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Revisiting%20the%20Calibration%20of%20Modern%20Neural%20Networks.pdf)
