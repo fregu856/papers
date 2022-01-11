@@ -110,7 +110,9 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - *Matthias Minderer, Josip Djolonga, Rob Romijnders, Frances Hubis, Xiaohua Zhai, Neil Houlsby, Dustin Tran, Mario Lucic*
 - `2021-06-15, NeurIPS 2021`
 ```
-Well-written paper. Everything is quite clearly explained and easy to understand. Quite enjoyable to read overall. Thorough experimental evaluation. Quite interesting findings
+Well-written paper. Everything is quite clearly explained and easy to understand. Quite enjoyable to read overall. 
+
+Thorough experimental evaluation. Quite interesting findings.
 ```
 - [[Uncertainty Estimation]](#uncertainty-estimation)
 
