@@ -1054,6 +1054,16 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Uncertainty Estimation:
 
+##### [21-09-21] [paper148]
+- Hierarchical VAEs Know What They Don't Know
+ [[pdf]](https://arxiv.org/abs/2102.08248) [[code]](https://github.com/JakobHavtorn/hvae-oodd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20VAEs%20Know%20What%20They%20Don't%20Know.pdf)
+- *Jakob D. Havtorn, Jes Frellsen, Søren Hauberg, Lars Maaløe*
+- `2021-02-16, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[VAEs]](#vaes)
+```
+Very well-written and quite interesting paper, I enjoyed reading it. Everything is quite well-explained, it's relatively easy to follow. The paper provides a good overview of the out-of-distribution detection problem and current methods.
+```
+
 ##### [21-09-08] [paper145]
 - Revisiting the Calibration of Modern Neural Networks
  [[pdf]](https://arxiv.org/abs/2106.07998) [[code]](https://github.com/google-research/robustness_metrics/tree/master/robustness_metrics/projects/revisiting_calibration) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Revisiting%20the%20Calibration%20of%20Modern%20Neural%20Networks.pdf)
@@ -1539,6 +1549,16 @@ Thorough experimental evaluation. Quite interesting findings.
 
 ****
 ### VAEs:
+
+##### [21-09-21] [paper148]
+- Hierarchical VAEs Know What They Don't Know
+ [[pdf]](https://arxiv.org/abs/2102.08248) [[code]](https://github.com/JakobHavtorn/hvae-oodd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20VAEs%20Know%20What%20They%20Don't%20Know.pdf)
+- *Jakob D. Havtorn, Jes Frellsen, Søren Hauberg, Lars Maaløe*
+- `2021-02-16, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[VAEs]](#vaes)
+```
+Very well-written and quite interesting paper, I enjoyed reading it. Everything is quite well-explained, it's relatively easy to follow. The paper provides a good overview of the out-of-distribution detection problem and current methods.
+```
 
 ##### [20-11-23] [paper111]
 - Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images
@@ -4720,6 +4740,16 @@ Thorough experimental evaluation. Quite interesting findings.
 
 #### ICML 2021:
 
+##### [21-09-21] [paper148]
+- Hierarchical VAEs Know What They Don't Know
+ [[pdf]](https://arxiv.org/abs/2102.08248) [[code]](https://github.com/JakobHavtorn/hvae-oodd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20VAEs%20Know%20What%20They%20Don't%20Know.pdf)
+- *Jakob D. Havtorn, Jes Frellsen, Søren Hauberg, Lars Maaløe*
+- `2021-02-16, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[VAEs]](#vaes)
+```
+Very well-written and quite interesting paper, I enjoyed reading it. Everything is quite well-explained, it's relatively easy to follow. The paper provides a good overview of the out-of-distribution detection problem and current methods.
+```
+
 ##### [21-09-02] [paper144]
 - Differentiable Particle Filtering via Entropy-Regularized Optimal Transport
  [[pdf]](https://arxiv.org/abs/2102.07850) [[code]](https://github.com/JTT94/filterflow) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Differentiable%20Particle%20Filtering%20via%20Entropy-Regularized%20Optimal%20Transport.pdf)
@@ -5995,6 +6025,16 @@ And while it's true that their performance is much better than for direct regres
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-09-21] [paper148]
+- Hierarchical VAEs Know What They Don't Know
+ [[pdf]](https://arxiv.org/abs/2102.08248) [[code]](https://github.com/JakobHavtorn/hvae-oodd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20VAEs%20Know%20What%20They%20Don't%20Know.pdf)
+- *Jakob D. Havtorn, Jes Frellsen, Søren Hauberg, Lars Maaløe*
+- `2021-02-16, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[VAEs]](#vaes)
+```
+Very well-written and quite interesting paper, I enjoyed reading it. Everything is quite well-explained, it's relatively easy to follow. The paper provides a good overview of the out-of-distribution detection problem and current methods.
+```
 
 ##### [21-09-17] [paper147]
 - Human Pose Regression with Residual Log-likelihood Estimation
