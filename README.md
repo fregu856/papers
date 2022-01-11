@@ -109,7 +109,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
  [[pdf]](https://arxiv.org/abs/2106.07998) [[code]](https://github.com/google-research/robustness_metrics/tree/master/robustness_metrics/projects/revisiting_calibration) [[annotated pdf]](TODO! TODO!)
 - *Matthias Minderer, Josip Djolonga, Rob Romijnders, Frances Hubis, Xiaohua Zhai, Neil Houlsby, Dustin Tran, Mario Lucic*
 - `2021-06-15, NeurIPS 2021`
-- ```Well-written paper. Everything is quite clearly explained and easy to understand. Quite enjoyable to read overall. Thorough experimental evaluation. Quite interesting findings.```
+- ```Well-written paper. Everything is quite clearly explained and easy to understand. Quite enjoyable to read overall.\\ Thorough experimental evaluation. Quite interesting findings.```
 - [[Uncertainty Estimation]](#uncertainty-estimation)
 
 ##### [21-09-02] [paper144]
