@@ -115,7 +115,6 @@ Well-written paper. Everything is quite clearly explained and easy to understand
 
 Thorough experimental evaluation. Quite interesting findings.
 ```
-- [[Uncertainty Estimation]](#uncertainty-estimation)
 
 ##### [21-09-02] [paper144]
 - Differentiable Particle Filtering via Entropy-Regularized Optimal Transport
