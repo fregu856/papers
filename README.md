@@ -104,6 +104,16 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-09-08] [paper145]
+- Revisiting the Calibration of Modern Neural Networks
+ [[pdf]](https://arxiv.org/abs/2106.07998) [[code]](https://github.com/google-research/robustness_metrics/tree/master/robustness_metrics/projects/revisiting_calibration) [[annotated pdf]](TODO! TODO!)
+- *Matthias Minderer, Josip Djolonga, Rob Romijnders, Frances Hubis, Xiaohua Zhai, Neil Houlsby, Dustin Tran, Mario Lucic*
+- `2021-06-15, NeurIPS 2021`
+- ```Well-written paper. Everything is quite clearly explained and easy to understand. Quite enjoyable to read overall. 
+
+Thorough experimental evaluation. Quite interesting findings.```
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+
 ##### [21-09-02] [paper144]
 - Differentiable Particle Filtering via Entropy-Regularized Optimal Transport
  [[pdf]](https://arxiv.org/abs/2102.07850) [[code]](https://github.com/JTT94/filterflow) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Differentiable%20Particle%20Filtering%20via%20Entropy-Regularized%20Optimal%20Transport.pdf)
