@@ -148,8 +148,10 @@ Thorough experimental evaluation. Quite interesting findings.
  [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://github.com/vchoutas/smplify-x) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Expressive%20Body%20Capture:%203D%20Hands%2C%20Face%2C%20and%20Body%20from%20a%20Single%20Image.pdf)
 - *Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A. A. Osman, Dimitrios Tzionas, Michael J. Black*
 - `2019-04-11, CVPR 2019`
-- ```Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.```
 - [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.
+```
 
 ##### [21-06-18] [paper139]
 - Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image
