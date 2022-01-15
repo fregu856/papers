@@ -105,6 +105,16 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-09-23] [paper149]
+- Physics-based Human Motion Estimation and Synthesis from Videos
+ [[pdf]](https://arxiv.org/abs/2109.09913) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Physics-based%20Human%20Motion%20Estimation%20and%20Synthesis%20from%20Videos.pdf)
+- *Kevin Xie, Tingwu Wang, Umar Iqbal, Yunrong Guo, Sanja Fidler, Florian Shkurti*
+- `2021-09-21, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. The general idea, refining frame-by-frame pose estimates via physical constraints, intuitively makes a lot of sense. I did however find it quite difficult to understand all the details in Section 3.
+```
+
 ##### [21-09-21] [paper148]
 - Hierarchical VAEs Know What They Don't Know
  [[pdf]](https://arxiv.org/abs/2102.08248) [[code]](https://github.com/JakobHavtorn/hvae-oodd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20VAEs%20Know%20What%20They%20Don't%20Know.pdf)
@@ -2292,6 +2302,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 
 ****
 ### 3D Human Pose Estimation:
+
+##### [21-09-23] [paper149]
+- Physics-based Human Motion Estimation and Synthesis from Videos
+ [[pdf]](https://arxiv.org/abs/2109.09913) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Physics-based%20Human%20Motion%20Estimation%20and%20Synthesis%20from%20Videos.pdf)
+- *Kevin Xie, Tingwu Wang, Umar Iqbal, Yunrong Guo, Sanja Fidler, Florian Shkurti*
+- `2021-09-21, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. The general idea, refining frame-by-frame pose estimates via physical constraints, intuitively makes a lot of sense. I did however find it quite difficult to understand all the details in Section 3.
+```
 
 ##### [21-09-17] [paper147]
 - Human Pose Regression with Residual Log-likelihood Estimation
@@ -5521,6 +5541,16 @@ All parts of the proposed method are clearly explained and relatively easy to un
 
 #### ICCV 2021:
 
+##### [21-09-23] [paper149]
+- Physics-based Human Motion Estimation and Synthesis from Videos
+ [[pdf]](https://arxiv.org/abs/2109.09913) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Physics-based%20Human%20Motion%20Estimation%20and%20Synthesis%20from%20Videos.pdf)
+- *Kevin Xie, Tingwu Wang, Umar Iqbal, Yunrong Guo, Sanja Fidler, Florian Shkurti*
+- `2021-09-21, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. The general idea, refining frame-by-frame pose estimates via physical constraints, intuitively makes a lot of sense. I did however find it quite difficult to understand all the details in Section 3.
+```
+
 ##### [21-09-17] [paper147]
 - Human Pose Regression with Residual Log-likelihood Estimation
  [[pdf]](https://arxiv.org/abs/2107.11291) [[code]](https://github.com/Jeff-sjtu/res-loglikelihood-regression) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Human%20Pose%20Regression%20with%20Residual%20Log-likelihood%20Estimation.pdf)
@@ -6025,6 +6055,16 @@ And while it's true that their performance is much better than for direct regres
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-09-23] [paper149]
+- Physics-based Human Motion Estimation and Synthesis from Videos
+ [[pdf]](https://arxiv.org/abs/2109.09913) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Physics-based%20Human%20Motion%20Estimation%20and%20Synthesis%20from%20Videos.pdf)
+- *Kevin Xie, Tingwu Wang, Umar Iqbal, Yunrong Guo, Sanja Fidler, Florian Shkurti*
+- `2021-09-21, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. The general idea, refining frame-by-frame pose estimates via physical constraints, intuitively makes a lot of sense. I did however find it quite difficult to understand all the details in Section 3.
+```
 
 ##### [21-09-21] [paper148]
 - Hierarchical VAEs Know What They Don't Know
