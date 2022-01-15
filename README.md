@@ -1,8 +1,6 @@
 # About
 
-Summaries of papers I have read during my time as a PhD student.
-
-The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible at least in Okular on Ubuntu) for all papers. 
+I categorize, annotate and write a short comment on all research papers I read. 
 
 ## Index
 - [All Papers](#all-papers)
