@@ -45,6 +45,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [2006](#2006)
 - - [2004](#2004)
 - [NeurIPS](#neurips)
+- - [NeurIPS 2021](#neurips-2021)
 - - [NeurIPS 2020](#neurips-2020)
 - - [NeurIPS 2019](#neurips-2019)
 - - [NeurIPS 2018](#neurips-2018)
@@ -104,6 +105,60 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-09-21] [paper148]
+- Hierarchical VAEs Know What They Don't Know
+ [[pdf]](https://arxiv.org/abs/2102.08248) [[code]](https://github.com/JakobHavtorn/hvae-oodd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20VAEs%20Know%20What%20They%20Don't%20Know.pdf)
+- *Jakob D. Havtorn, Jes Frellsen, Søren Hauberg, Lars Maaløe*
+- `2021-02-16, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[VAEs]](#vaes)
+```
+Very well-written and quite interesting paper, I enjoyed reading it. Everything is quite well-explained, it's relatively easy to follow. The paper provides a good overview of the out-of-distribution detection problem and current methods.
+```
+
+##### [21-09-17] [paper147]
+- Human Pose Regression with Residual Log-likelihood Estimation
+ [[pdf]](https://arxiv.org/abs/2107.11291) [[code]](https://github.com/Jeff-sjtu/res-loglikelihood-regression) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Human%20Pose%20Regression%20with%20Residual%20Log-likelihood%20Estimation.pdf)
+- *Jiefeng Li, Siyuan Bian, Ailing Zeng, Can Wang, Bo Pang, Wentao Liu, Cewu Lu*
+- `2021-07-23, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Quite interesting paper, but also quite strange/confusing. I don't think the proposed method is explained particularly well, at least I found it quite difficult to properly understand what they actually are doing.
+
+In the end it seems like they are learning a global loss function that is very similar to doing probabilistic regression with a Gauss/Laplace model of p(y|x) (with learned mean and variance)? See Figure 4 in the Appendix.
+
+And while it's true that their performance is much better than for direct regression with an L2/L1 loss (see e.g. Table 1), they only compare with Gauss/Laplace probabilistic regression once (Table 7) and in that case the Laplace model is actually quite competitive?
+```
+
+##### [21-09-15] [paper146]
+- NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
+ [[pdf]](https://arxiv.org/abs/2003.08934) [[code]](https://github.com/bmild/nerf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/NeRF:%20Representing%20Scenes%20as%20Neural%20Radiance%20Fields%20for%20View%20Synthesis.pdf)
+- *Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng*
+- `2020-03-19, ECCV 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Extremely well-written and interesting paper. I really enjoyed reading it, and I would recommend anyone interested in computer vision to read it as well.
+
+All parts of the proposed method are clearly explained and relatively easy to understand, including the volume rendering techniques which I was unfamiliar with.
+```
+
+##### [21-09-08] [paper145]
+- Revisiting the Calibration of Modern Neural Networks
+ [[pdf]](https://arxiv.org/abs/2106.07998) [[code]](https://github.com/google-research/robustness_metrics/tree/master/robustness_metrics/projects/revisiting_calibration) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Revisiting%20the%20Calibration%20of%20Modern%20Neural%20Networks.pdf)
+- *Matthias Minderer, Josip Djolonga, Rob Romijnders, Frances Hubis, Xiaohua Zhai, Neil Houlsby, Dustin Tran, Mario Lucic*
+- `2021-06-15, NeurIPS 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Well-written paper. Everything is quite clearly explained and easy to understand. Quite enjoyable to read overall. 
+
+Thorough experimental evaluation. Quite interesting findings.
+```
+
+##### [21-09-02] [paper144]
+- Differentiable Particle Filtering via Entropy-Regularized Optimal Transport
+ [[pdf]](https://arxiv.org/abs/2102.07850) [[code]](https://github.com/JTT94/filterflow) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Differentiable%20Particle%20Filtering%20via%20Entropy-Regularized%20Optimal%20Transport.pdf)
+- *Adrien Corenflos, James Thornton, George Deligiannidis, Arnaud Doucet*
+- `2021-02-15, ICML 2021`
+
 ##### [21-09-02] [paper143]
 - Character Controllers Using Motion VAEs
  [[pdf]](https://arxiv.org/abs/2103.14274) [[code]](https://github.com/electronicarts/character-motion-vaes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Character%20Controllers%20Using%20Motion%20VAEs.pdf)
@@ -130,8 +185,10 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
  [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://github.com/vchoutas/smplify-x) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Expressive%20Body%20Capture:%203D%20Hands%2C%20Face%2C%20and%20Body%20from%20a%20Single%20Image.pdf)
 - *Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A. A. Osman, Dimitrios Tzionas, Michael J. Black*
 - `2019-04-11, CVPR 2019`
-- ```Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.```
 - [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.
+```
 
 ##### [21-06-18] [paper139]
 - Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image
@@ -997,6 +1054,28 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Uncertainty Estimation:
 
+##### [21-09-21] [paper148]
+- Hierarchical VAEs Know What They Don't Know
+ [[pdf]](https://arxiv.org/abs/2102.08248) [[code]](https://github.com/JakobHavtorn/hvae-oodd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20VAEs%20Know%20What%20They%20Don't%20Know.pdf)
+- *Jakob D. Havtorn, Jes Frellsen, Søren Hauberg, Lars Maaløe*
+- `2021-02-16, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[VAEs]](#vaes)
+```
+Very well-written and quite interesting paper, I enjoyed reading it. Everything is quite well-explained, it's relatively easy to follow. The paper provides a good overview of the out-of-distribution detection problem and current methods.
+```
+
+##### [21-09-08] [paper145]
+- Revisiting the Calibration of Modern Neural Networks
+ [[pdf]](https://arxiv.org/abs/2106.07998) [[code]](https://github.com/google-research/robustness_metrics/tree/master/robustness_metrics/projects/revisiting_calibration) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Revisiting%20the%20Calibration%20of%20Modern%20Neural%20Networks.pdf)
+- *Matthias Minderer, Josip Djolonga, Rob Romijnders, Frances Hubis, Xiaohua Zhai, Neil Houlsby, Dustin Tran, Mario Lucic*
+- `2021-06-15, NeurIPS 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Well-written paper. Everything is quite clearly explained and easy to understand. Quite enjoyable to read overall. 
+
+Thorough experimental evaluation. Quite interesting findings.
+```
+
 ##### [21-04-01] [paper126]
 - Loss Surface Simplexes for Mode Connecting Volumes and Fast Ensembling
  [[pdf]](https://arxiv.org/abs/2102.13042) [[code]](https://github.com/g-benton/loss-surface-simplexes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Loss%20Surface%20Simplexes%20for%20Mode%20Connecting%20Volumes%20and%20Fast%20Ensembling.pdf)
@@ -1470,6 +1549,16 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 ****
 ### VAEs:
+
+##### [21-09-21] [paper148]
+- Hierarchical VAEs Know What They Don't Know
+ [[pdf]](https://arxiv.org/abs/2102.08248) [[code]](https://github.com/JakobHavtorn/hvae-oodd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20VAEs%20Know%20What%20They%20Don't%20Know.pdf)
+- *Jakob D. Havtorn, Jes Frellsen, Søren Hauberg, Lars Maaløe*
+- `2021-02-16, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[VAEs]](#vaes)
+```
+Very well-written and quite interesting paper, I enjoyed reading it. Everything is quite well-explained, it's relatively easy to follow. The paper provides a good overview of the out-of-distribution detection problem and current methods.
+```
 
 ##### [20-11-23] [paper111]
 - Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images
@@ -2204,6 +2293,20 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### 3D Human Pose Estimation:
 
+##### [21-09-17] [paper147]
+- Human Pose Regression with Residual Log-likelihood Estimation
+ [[pdf]](https://arxiv.org/abs/2107.11291) [[code]](https://github.com/Jeff-sjtu/res-loglikelihood-regression) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Human%20Pose%20Regression%20with%20Residual%20Log-likelihood%20Estimation.pdf)
+- *Jiefeng Li, Siyuan Bian, Ailing Zeng, Can Wang, Bo Pang, Wentao Liu, Cewu Lu*
+- `2021-07-23, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Quite interesting paper, but also quite strange/confusing. I don't think the proposed method is explained particularly well, at least I found it quite difficult to properly understand what they actually are doing.
+
+In the end it seems like they are learning a global loss function that is very similar to doing probabilistic regression with a Gauss/Laplace model of p(y|x) (with learned mean and variance)? See Figure 4 in the Appendix.
+
+And while it's true that their performance is much better than for direct regression with an L2/L1 loss (see e.g. Table 1), they only compare with Gauss/Laplace probabilistic regression once (Table 7) and in that case the Laplace model is actually quite competitive?
+```
+
 ##### [21-09-02] [paper143]
 - Character Controllers Using Motion VAEs
  [[pdf]](https://arxiv.org/abs/2103.14274) [[code]](https://github.com/electronicarts/character-motion-vaes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Character%20Controllers%20Using%20Motion%20VAEs.pdf)
@@ -2223,8 +2326,10 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
  [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://github.com/vchoutas/smplify-x) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Expressive%20Body%20Capture:%203D%20Hands%2C%20Face%2C%20and%20Body%20from%20a%20Single%20Image.pdf)
 - *Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A. A. Osman, Dimitrios Tzionas, Michael J. Black*
 - `2019-04-11, CVPR 2019`
-- ```Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.```
 - [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.
+```
 
 ##### [21-06-18] [paper139]
 - Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image
@@ -3719,6 +3824,18 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### Implicit Neural Representations:
 
+##### [21-09-15] [paper146]
+- NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
+ [[pdf]](https://arxiv.org/abs/2003.08934) [[code]](https://github.com/bmild/nerf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/NeRF:%20Representing%20Scenes%20as%20Neural%20Radiance%20Fields%20for%20View%20Synthesis.pdf)
+- *Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng*
+- `2020-03-19, ECCV 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Extremely well-written and interesting paper. I really enjoyed reading it, and I would recommend anyone interested in computer vision to read it as well.
+
+All parts of the proposed method are clearly explained and relatively easy to understand, including the volume rendering techniques which I was unfamiliar with.
+```
+
 ##### [21-08-27] [paper142]
 - DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation
  [[pdf]](https://arxiv.org/abs/1901.05103) [[code]](https://github.com/facebookresearch/DeepSDF) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DeepSDF:%20Learning%20Continuous%20Signed%20Distance%20Functions%20for%20Shape%20Representation.pdf)
@@ -4329,6 +4446,7 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 ****
 ### NeurIPS:
 
+- [NeurIPS 2021](#neurips-2021)
 - [NeurIPS 2020](#neurips-2020)
 - [NeurIPS 2019](#neurips-2019)
 - [NeurIPS 2018](#neurips-2018)
@@ -4336,6 +4454,20 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [NeurIPS 2016](#neurips-2016)
 - [NeurIPS 2015](#neurips-2015)
 - [NeurIPS 2011](#neurips-2011)
+
+#### NeurIPS 2021:
+
+##### [21-09-08] [paper145]
+- Revisiting the Calibration of Modern Neural Networks
+ [[pdf]](https://arxiv.org/abs/2106.07998) [[code]](https://github.com/google-research/robustness_metrics/tree/master/robustness_metrics/projects/revisiting_calibration) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Revisiting%20the%20Calibration%20of%20Modern%20Neural%20Networks.pdf)
+- *Matthias Minderer, Josip Djolonga, Rob Romijnders, Frances Hubis, Xiaohua Zhai, Neil Houlsby, Dustin Tran, Mario Lucic*
+- `2021-06-15, NeurIPS 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Well-written paper. Everything is quite clearly explained and easy to understand. Quite enjoyable to read overall. 
+
+Thorough experimental evaluation. Quite interesting findings.
+```
 
 #### NeurIPS 2020:
 
@@ -4607,6 +4739,22 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [ICML 2011](#icml-2011)
 
 #### ICML 2021:
+
+##### [21-09-21] [paper148]
+- Hierarchical VAEs Know What They Don't Know
+ [[pdf]](https://arxiv.org/abs/2102.08248) [[code]](https://github.com/JakobHavtorn/hvae-oodd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20VAEs%20Know%20What%20They%20Don't%20Know.pdf)
+- *Jakob D. Havtorn, Jes Frellsen, Søren Hauberg, Lars Maaløe*
+- `2021-02-16, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[VAEs]](#vaes)
+```
+Very well-written and quite interesting paper, I enjoyed reading it. Everything is quite well-explained, it's relatively easy to follow. The paper provides a good overview of the out-of-distribution detection problem and current methods.
+```
+
+##### [21-09-02] [paper144]
+- Differentiable Particle Filtering via Entropy-Regularized Optimal Transport
+ [[pdf]](https://arxiv.org/abs/2102.07850) [[code]](https://github.com/JTT94/filterflow) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Differentiable%20Particle%20Filtering%20via%20Entropy-Regularized%20Optimal%20Transport.pdf)
+- *Adrien Corenflos, James Thornton, George Deligiannidis, Arnaud Doucet*
+- `2021-02-15, ICML 2021`
 
 ##### [21-05-07] [paper130]
 - PixelTransformer: Sample Conditioned Signal Generation
@@ -5114,8 +5262,10 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
  [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://github.com/vchoutas/smplify-x) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Expressive%20Body%20Capture:%203D%20Hands%2C%20Face%2C%20and%20Body%20from%20a%20Single%20Image.pdf)
 - *Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A. A. Osman, Dimitrios Tzionas, Michael J. Black*
 - `2019-04-11, CVPR 2019`
-- ```Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.```
 - [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.
+```
 
 ##### [19-07-10] [paper59]
 - PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud [[pdf]](https://arxiv.org/abs/1812.04244) [[code]](https://github.com/sshaoshuai/PointRCNN) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PointRCNN:%203D%20Object%20Proposal%20Generation%20and%20Detection%20from%20Point%20Cloud.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/PointRCNN:%203D%20Object%20Proposal%20Generation%20and%20Detection%20from%20Point%20Cloud.md)
@@ -5255,6 +5405,18 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### ECCV 2020:
 
+##### [21-09-15] [paper146]
+- NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
+ [[pdf]](https://arxiv.org/abs/2003.08934) [[code]](https://github.com/bmild/nerf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/NeRF:%20Representing%20Scenes%20as%20Neural%20Radiance%20Fields%20for%20View%20Synthesis.pdf)
+- *Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng*
+- `2020-03-19, ECCV 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Extremely well-written and interesting paper. I really enjoyed reading it, and I would recommend anyone interested in computer vision to read it as well.
+
+All parts of the proposed method are clearly explained and relatively easy to understand, including the volume rendering techniques which I was unfamiliar with.
+```
+
 ##### [20-06-12] [paper101]
 - End-to-End Object Detection with Transformers [[pdf]](https://arxiv.org/abs/2005.12872) [[code]](https://github.com/facebookresearch/detr) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-End%20Object%20Detection%20with%20Transformers.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/End-to-End%20Object%20Detection%20with%20Transformers.md)
 - *Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko*
@@ -5358,6 +5520,20 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [ICCV 2017](#iccv-2017)
 
 #### ICCV 2021:
+
+##### [21-09-17] [paper147]
+- Human Pose Regression with Residual Log-likelihood Estimation
+ [[pdf]](https://arxiv.org/abs/2107.11291) [[code]](https://github.com/Jeff-sjtu/res-loglikelihood-regression) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Human%20Pose%20Regression%20with%20Residual%20Log-likelihood%20Estimation.pdf)
+- *Jiefeng Li, Siyuan Bian, Ailing Zeng, Can Wang, Bo Pang, Wentao Liu, Cewu Lu*
+- `2021-07-23, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Quite interesting paper, but also quite strange/confusing. I don't think the proposed method is explained particularly well, at least I found it quite difficult to properly understand what they actually are doing.
+
+In the end it seems like they are learning a global loss function that is very similar to doing probabilistic regression with a Gauss/Laplace model of p(y|x) (with learned mean and variance)? See Figure 4 in the Appendix.
+
+And while it's true that their performance is much better than for direct regression with an L2/L1 loss (see e.g. Table 1), they only compare with Gauss/Laplace probabilistic regression once (Table 7) and in that case the Laplace model is actually quite competitive?
+```
 
 ##### [21-06-16] [paper134]
 - Estimating Egocentric 3D Human Pose in Global Space
@@ -5850,6 +6026,48 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### 2021:
 
+##### [21-09-21] [paper148]
+- Hierarchical VAEs Know What They Don't Know
+ [[pdf]](https://arxiv.org/abs/2102.08248) [[code]](https://github.com/JakobHavtorn/hvae-oodd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20VAEs%20Know%20What%20They%20Don't%20Know.pdf)
+- *Jakob D. Havtorn, Jes Frellsen, Søren Hauberg, Lars Maaløe*
+- `2021-02-16, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[VAEs]](#vaes)
+```
+Very well-written and quite interesting paper, I enjoyed reading it. Everything is quite well-explained, it's relatively easy to follow. The paper provides a good overview of the out-of-distribution detection problem and current methods.
+```
+
+##### [21-09-17] [paper147]
+- Human Pose Regression with Residual Log-likelihood Estimation
+ [[pdf]](https://arxiv.org/abs/2107.11291) [[code]](https://github.com/Jeff-sjtu/res-loglikelihood-regression) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Human%20Pose%20Regression%20with%20Residual%20Log-likelihood%20Estimation.pdf)
+- *Jiefeng Li, Siyuan Bian, Ailing Zeng, Can Wang, Bo Pang, Wentao Liu, Cewu Lu*
+- `2021-07-23, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Quite interesting paper, but also quite strange/confusing. I don't think the proposed method is explained particularly well, at least I found it quite difficult to properly understand what they actually are doing.
+
+In the end it seems like they are learning a global loss function that is very similar to doing probabilistic regression with a Gauss/Laplace model of p(y|x) (with learned mean and variance)? See Figure 4 in the Appendix.
+
+And while it's true that their performance is much better than for direct regression with an L2/L1 loss (see e.g. Table 1), they only compare with Gauss/Laplace probabilistic regression once (Table 7) and in that case the Laplace model is actually quite competitive?
+```
+
+##### [21-09-08] [paper145]
+- Revisiting the Calibration of Modern Neural Networks
+ [[pdf]](https://arxiv.org/abs/2106.07998) [[code]](https://github.com/google-research/robustness_metrics/tree/master/robustness_metrics/projects/revisiting_calibration) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Revisiting%20the%20Calibration%20of%20Modern%20Neural%20Networks.pdf)
+- *Matthias Minderer, Josip Djolonga, Rob Romijnders, Frances Hubis, Xiaohua Zhai, Neil Houlsby, Dustin Tran, Mario Lucic*
+- `2021-06-15, NeurIPS 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Well-written paper. Everything is quite clearly explained and easy to understand. Quite enjoyable to read overall. 
+
+Thorough experimental evaluation. Quite interesting findings.
+```
+
+##### [21-09-02] [paper144]
+- Differentiable Particle Filtering via Entropy-Regularized Optimal Transport
+ [[pdf]](https://arxiv.org/abs/2102.07850) [[code]](https://github.com/JTT94/filterflow) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Differentiable%20Particle%20Filtering%20via%20Entropy-Regularized%20Optimal%20Transport.pdf)
+- *Adrien Corenflos, James Thornton, George Deligiannidis, Arnaud Doucet*
+- `2021-02-15, ICML 2021`
+
 ##### [21-09-02] [paper143]
 - Character Controllers Using Motion VAEs
  [[pdf]](https://arxiv.org/abs/2103.14274) [[code]](https://github.com/electronicarts/character-motion-vaes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Character%20Controllers%20Using%20Motion%20VAEs.pdf)
@@ -5920,6 +6138,18 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 #### 2020:
+
+##### [21-09-15] [paper146]
+- NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
+ [[pdf]](https://arxiv.org/abs/2003.08934) [[code]](https://github.com/bmild/nerf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/NeRF:%20Representing%20Scenes%20as%20Neural%20Radiance%20Fields%20for%20View%20Synthesis.pdf)
+- *Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng*
+- `2020-03-19, ECCV 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Extremely well-written and interesting paper. I really enjoyed reading it, and I would recommend anyone interested in computer vision to read it as well.
+
+All parts of the proposed method are clearly explained and relatively easy to understand, including the volume rendering techniques which I was unfamiliar with.
+```
 
 ##### [21-06-18] [paper138]
 - Beyond Static Features for Temporally Consistent 3D Human Pose and Shape from a Video
@@ -6138,8 +6368,10 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
  [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://github.com/vchoutas/smplify-x) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Expressive%20Body%20Capture:%203D%20Hands%2C%20Face%2C%20and%20Body%20from%20a%20Single%20Image.pdf)
 - *Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A. A. Osman, Dimitrios Tzionas, Michael J. Black*
 - `2019-04-11, CVPR 2019`
-- ```Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.```
 - [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.
+```
 
 ##### [21-06-17] [paper136]
 - Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop
