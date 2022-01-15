@@ -3913,6 +3913,16 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Implicit Neural Representations:
 
+##### [21-10-03] [paper154]
+- DI-Fusion: Online Implicit 3D Reconstruction with Deep Priors
+ [[pdf]](https://arxiv.org/abs/2012.05551) [[code]](https://github.com/huangjh-pub/di-fusion) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DI-Fusion:%20Online%20Implicit%203D%20Reconstruction%20with%20Deep%20Priors.pdf)
+- *Jiahui Huang, Shi-Sheng Huang, Haoxuan Song, Shi-Min Hu*
+- `2020-12-10, CVPR 2021`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Well-written and interesting paper, I enjoyed reading it. Neat application of implicit representations. The paper also gives a quite good overview of online 3D reconstruction in general.
+```
+
 ##### [21-10-01] [paper152]
 - Local Implicit Grid Representations for 3D Scenes
  [[pdf]](https://arxiv.org/abs/2003.08981) [[code]](https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/projects/local_implicit_grid) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Local%20Implicit%20Grid%20Representations%20for%203D%20Scenes.pdf)
@@ -5313,6 +5323,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 
 #### CVPR 2021:
 
+##### [21-10-03] [paper154]
+- DI-Fusion: Online Implicit 3D Reconstruction with Deep Priors
+ [[pdf]](https://arxiv.org/abs/2012.05551) [[code]](https://github.com/huangjh-pub/di-fusion) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DI-Fusion:%20Online%20Implicit%203D%20Reconstruction%20with%20Deep%20Priors.pdf)
+- *Jiahui Huang, Shi-Sheng Huang, Haoxuan Song, Shi-Min Hu*
+- `2020-12-10, CVPR 2021`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Well-written and interesting paper, I enjoyed reading it. Neat application of implicit representations. The paper also gives a quite good overview of online 3D reconstruction in general.
+```
+
 ##### [21-06-18] [paper138]
 - Beyond Static Features for Temporally Consistent 3D Human Pose and Shape from a Video
  [[pdf]](https://arxiv.org/abs/2011.08627) [[code]](https://github.com/hongsukchoi/TCMR_RELEASE) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Beyond%20Static%20Features%20for%20Temporally%20Consistent%203D%20Human%20Pose%20and%20Shape%20from%20a%20Video.pdf)
@@ -6287,6 +6307,16 @@ Thorough experimental evaluation. Quite interesting findings.
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 #### 2020:
+
+##### [21-10-03] [paper154]
+- DI-Fusion: Online Implicit 3D Reconstruction with Deep Priors
+ [[pdf]](https://arxiv.org/abs/2012.05551) [[code]](https://github.com/huangjh-pub/di-fusion) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DI-Fusion:%20Online%20Implicit%203D%20Reconstruction%20with%20Deep%20Priors.pdf)
+- *Jiahui Huang, Shi-Sheng Huang, Haoxuan Song, Shi-Min Hu*
+- `2020-12-10, CVPR 2021`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Well-written and interesting paper, I enjoyed reading it. Neat application of implicit representations. The paper also gives a quite good overview of online 3D reconstruction in general.
+```
 
 ##### [21-10-01] [paper152]
 - Local Implicit Grid Representations for 3D Scenes
