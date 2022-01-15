@@ -105,6 +105,16 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-10-03] [paper155]
+- imGHUM: Implicit Generative Models of 3D Human Shape and Articulated Pose
+ [[pdf]](https://arxiv.org/abs/2108.10842) [[code]](https://github.com/google-research/google-research/tree/master/imghum) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/imGHUM:%20Implicit%20Generative%20Models%20of%203D%20Human%20Shape%20and%20Articulated%20Pose.pdf)
+- *Thiemo Alldieck, Hongyi Xu, Cristian Sminchisescu*
+- `2021-08-24, ICCV 2021`
+- [[Implicit Neural Representations]](#implicit-neural-representations) [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Interesting and very well-written paper, I really enjoyed reading it. Interesting combination of implicit representations and 3D human modelling. The "inclusive human modelling" application is neat and important.
+```
+
 ##### [21-10-03] [paper154]
 - DI-Fusion: Online Implicit 3D Reconstruction with Deep Priors
  [[pdf]](https://arxiv.org/abs/2012.05551) [[code]](https://github.com/huangjh-pub/di-fusion) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DI-Fusion:%20Online%20Implicit%203D%20Reconstruction%20with%20Deep%20Priors.pdf)
