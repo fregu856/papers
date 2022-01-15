@@ -2342,6 +2342,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 ****
 ### 3D Human Pose Estimation:
 
+##### [21-10-02] [paper153]
+- Contextually Plausible and Diverse 3D Human Motion Prediction
+ [[pdf]](https://arxiv.org/abs/1912.08521) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Contextually%20Plausible%20and%20Diverse%203D%20Human%20Motion%20Prediction.pdf)
+- *Sadegh Aliakbarian, Fatemeh Sadat Saleh, Lars Petersson, Stephen Gould, Mathieu Salzmann*
+- `2019-12-18, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. The main idea, using a learned conditional prior p(z|c) instead of just p(z), makes sense and was shown beneficial also in "HuMoR: 3D Human Motion Model for Robust Pose Estimation". I'm however somewhat confused by their specific implementation in Section 4, doesn't seem like a standard cVAE implementation?
+```
+
 ##### [21-09-24] [paper150]
 - Encoder-decoder with Multi-level Attention for 3D Human Shape and Pose Estimation
  [[pdf]](https://arxiv.org/abs/2109.02303) [[code]](https://github.com/ziniuwan/maed) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Encoder-decoder%20with%20Multi-level%20Attention%20for%203D%20Human%20Shape%20and%20Pose%20Estimation.pdf)
@@ -5610,6 +5620,16 @@ All parts of the proposed method are clearly explained and relatively easy to un
 
 #### ICCV 2021:
 
+##### [21-10-02] [paper153]
+- Contextually Plausible and Diverse 3D Human Motion Prediction
+ [[pdf]](https://arxiv.org/abs/1912.08521) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Contextually%20Plausible%20and%20Diverse%203D%20Human%20Motion%20Prediction.pdf)
+- *Sadegh Aliakbarian, Fatemeh Sadat Saleh, Lars Petersson, Stephen Gould, Mathieu Salzmann*
+- `2019-12-18, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. The main idea, using a learned conditional prior p(z|c) instead of just p(z), makes sense and was shown beneficial also in "HuMoR: 3D Human Motion Model for Robust Pose Estimation". I'm however somewhat confused by their specific implementation in Section 4, doesn't seem like a standard cVAE implementation?
+```
+
 ##### [21-09-24] [paper150]
 - Encoder-decoder with Multi-level Attention for 3D Human Shape and Pose Estimation
  [[pdf]](https://arxiv.org/abs/2109.02303) [[code]](https://github.com/ziniuwan/maed) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Encoder-decoder%20with%20Multi-level%20Attention%20for%203D%20Human%20Shape%20and%20Pose%20Estimation.pdf)
@@ -6477,6 +6497,16 @@ All parts of the proposed method are clearly explained and relatively easy to un
 - [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
 
 #### 2019:
+
+##### [21-10-02] [paper153]
+- Contextually Plausible and Diverse 3D Human Motion Prediction
+ [[pdf]](https://arxiv.org/abs/1912.08521) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Contextually%20Plausible%20and%20Diverse%203D%20Human%20Motion%20Prediction.pdf)
+- *Sadegh Aliakbarian, Fatemeh Sadat Saleh, Lars Petersson, Stephen Gould, Mathieu Salzmann*
+- `2019-12-18, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. The main idea, using a learned conditional prior p(z|c) instead of just p(z), makes sense and was shown beneficial also in "HuMoR: 3D Human Motion Model for Robust Pose Estimation". I'm however somewhat confused by their specific implementation in Section 4, doesn't seem like a standard cVAE implementation?
+```
 
 ##### [21-08-27] [paper142]
 - DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation
