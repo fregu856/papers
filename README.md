@@ -105,6 +105,16 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-10-01] [paper152]
+- Local Implicit Grid Representations for 3D Scenes
+ [[pdf]](https://arxiv.org/abs/2003.08981) [[code]](https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/projects/local_implicit_grid) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Local%20Implicit%20Grid%20Representations%20for%203D%20Scenes.pdf)
+- *Chiyu Max Jiang, Avneesh Sud, Ameesh Makadia, Jingwei Huang, Matthias Nießner, Thomas Funkhouser*
+- `2020-03-19, CVPR 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Well-written and quite interesting paper. Interesting application, being able to reconstruct full 3D scenes from sparse point clouds. I didn't fully understand everything, as I don't have a particularly strong graphics background.
+```
+
 ##### [21-09-29] [paper151]
 - Information Dropout: Learning Optimal Representations Through Noisy Computation
  [[pdf]](https://arxiv.org/abs/1611.01353) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Information%20Dropout:%20Learning%20Optimal%20Representations%20Through%20Noisy%20Computation.pdf)
