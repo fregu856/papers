@@ -105,6 +105,16 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-10-03] [paper154]
+- DI-Fusion: Online Implicit 3D Reconstruction with Deep Priors
+ [[pdf]](https://arxiv.org/abs/2012.05551) [[code]](https://github.com/huangjh-pub/di-fusion) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DI-Fusion:%20Online%20Implicit%203D%20Reconstruction%20with%20Deep%20Priors.pdf)
+- *Jiahui Huang, Shi-Sheng Huang, Haoxuan Song, Shi-Min Hu
+- `2020-12-10, CVPR 2021`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Well-written and interesting paper, I enjoyed reading it. Neat application of implicit representations. The paper also gives a quite good overview of online 3D reconstruction in general.
+```
+
 ##### [21-10-02] [paper153]
 - Contextually Plausible and Diverse 3D Human Motion Prediction
  [[pdf]](https://arxiv.org/abs/1912.08521) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Contextually%20Plausible%20and%20Diverse%203D%20Human%20Motion%20Prediction.pdf)
