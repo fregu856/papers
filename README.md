@@ -105,6 +105,16 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-09-24] [paper150]
+- Encoder-decoder with Multi-level Attention for 3D Human Shape and Pose Estimation
+ [[pdf]](https://arxiv.org/abs/2109.02303) [[code]](https://github.com/ziniuwan/maed) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Encoder-decoder%20with%20Multi-level%20Attention%20for%203D%20Human%20Shape%20and%20Pose%20Estimation.pdf)
+- *Ziniu Wan, Zhengjia Li, Maoqing Tian, Jianbo Liu, Shuai Yi, Hongsheng Li*
+- `2021-09-06, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and fairly interesting paper. Quite a lot of details on the attention architecture, which I personally don't find overly interesting. The experimental results are quite impressive, but I would like to see a comparison in terms of computational cost at test-time. It sounds like their method is rather slow.
+```
+
 ##### [21-09-23] [paper149]
 - Physics-based Human Motion Estimation and Synthesis from Videos
  [[pdf]](https://arxiv.org/abs/2109.09913) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Physics-based%20Human%20Motion%20Estimation%20and%20Synthesis%20from%20Videos.pdf)
