@@ -105,6 +105,16 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 
 #### Papers Read in 2021:
 
+##### [21-10-02] [paper153]
+- Contextually Plausible and Diverse 3D Human Motion Prediction
+ [[pdf]](https://arxiv.org/abs/1912.08521) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Contextually%20Plausible%20and%20Diverse%203D%20Human%20Motion%20Prediction.pdf)
+- *Sadegh Aliakbarian, Fatemeh Sadat Saleh, Lars Petersson, Stephen Gould, Mathieu Salzmann*
+- `2019-12-18, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. The main idea, using a learned conditional prior p(z|c) instead of just p(z), makes sense and was shown beneficial also in "HuMoR: 3D Human Motion Model for Robust Pose Estimation". I'm however somewhat confused by their specific implementation in Section 4, doesn't seem like a standard cVAE implementation?
+```
+
 ##### [21-10-01] [paper152]
 - Local Implicit Grid Representations for 3D Scenes
  [[pdf]](https://arxiv.org/abs/2003.08981) [[code]](https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/projects/local_implicit_grid) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Local%20Implicit%20Grid%20Representations%20for%203D%20Scenes.pdf)
