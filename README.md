@@ -1,6 +1,6 @@
 # About
 
-I categorize, annotate and write a short comment on all research papers I read. 
+I categorize, annotate and write a short comment for all research papers I read. 
 
 ## Index
 - [All Papers](#all-papers)
