@@ -3883,6 +3883,16 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Implicit Neural Representations:
 
+##### [21-10-01] [paper152]
+- Local Implicit Grid Representations for 3D Scenes
+ [[pdf]](https://arxiv.org/abs/2003.08981) [[code]](https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/projects/local_implicit_grid) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Local%20Implicit%20Grid%20Representations%20for%203D%20Scenes.pdf)
+- *Chiyu Max Jiang, Avneesh Sud, Ameesh Makadia, Jingwei Huang, Matthias Nießner, Thomas Funkhouser*
+- `2020-03-19, CVPR 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Well-written and quite interesting paper. Interesting application, being able to reconstruct full 3D scenes from sparse point clouds. I didn't fully understand everything, as I don't have a particularly strong graphics background.
+```
+
 ##### [21-09-15] [paper146]
 - NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
  [[pdf]](https://arxiv.org/abs/2003.08934) [[code]](https://github.com/bmild/nerf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/NeRF:%20Representing%20Scenes%20as%20Neural%20Radiance%20Fields%20for%20View%20Synthesis.pdf)
@@ -5288,6 +5298,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 
 #### CVPR 2020:
 
+##### [21-10-01] [paper152]
+- Local Implicit Grid Representations for 3D Scenes
+ [[pdf]](https://arxiv.org/abs/2003.08981) [[code]](https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/projects/local_implicit_grid) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Local%20Implicit%20Grid%20Representations%20for%203D%20Scenes.pdf)
+- *Chiyu Max Jiang, Avneesh Sud, Ameesh Makadia, Jingwei Huang, Matthias Nießner, Thomas Funkhouser*
+- `2020-03-19, CVPR 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Well-written and quite interesting paper. Interesting application, being able to reconstruct full 3D scenes from sparse point clouds. I didn't fully understand everything, as I don't have a particularly strong graphics background.
+```
+
 ##### [20-06-18] [paper102]
 - Joint Training of Variational Auto-Encoder and Latent Energy-Based Model [[pdf]](https://arxiv.org/abs/2006.06059) [[code]](https://hthth0801.github.io/jointLearning/) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.md)
 - *Tian Han, Erik Nijkamp, Linqi Zhou, Bo Pang, Song-Chun Zhu, Ying Nian Wu*
@@ -6227,6 +6247,16 @@ Thorough experimental evaluation. Quite interesting findings.
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 #### 2020:
+
+##### [21-10-01] [paper152]
+- Local Implicit Grid Representations for 3D Scenes
+ [[pdf]](https://arxiv.org/abs/2003.08981) [[code]](https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/projects/local_implicit_grid) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Local%20Implicit%20Grid%20Representations%20for%203D%20Scenes.pdf)
+- *Chiyu Max Jiang, Avneesh Sud, Ameesh Makadia, Jingwei Huang, Matthias Nießner, Thomas Funkhouser*
+- `2020-03-19, CVPR 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Well-written and quite interesting paper. Interesting application, being able to reconstruct full 3D scenes from sparse point clouds. I didn't fully understand everything, as I don't have a particularly strong graphics background.
+```
 
 ##### [21-09-15] [paper146]
 - NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
