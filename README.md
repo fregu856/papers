@@ -1,6 +1,6 @@
 # About
 
-I categorize, annotate and write a short comment for all research papers I read. 
+I categorize, annotate and write comments for all research papers I read as a PhD student.
 
 ## Index
 - [All Papers](#all-papers)
