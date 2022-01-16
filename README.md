@@ -103,6 +103,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2021:
 
+##### [21-10-06] [paper157]
+- SMD-Nets: Stereo Mixture Density Networks
+ [[pdf]](https://arxiv.org/abs/2104.03866) [[code]](https://github.com/fabiotosi92/SMD-Nets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SMD-Nets:%20Stereo%20Mixture%20Density%20Networks.pdf)
+- *Fabio Tosi, Yiyi Liao, Carolin Schmitt, Andreas Geiger*
+- `2021-04-08, CVPR 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Well-written and interesting paper. Quite easy to read and follow, the method is clearly explained and makes intuitive sense.
+```
+
 ##### [21-10-04] [paper156]
 - We are More than Our Joints: Predicting how 3D Bodies Move
  [[pdf]](https://arxiv.org/abs/2012.00619) [[code]](https://github.com/yz-cnsdqz/MOJO-release) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/We%20are%20More%20than%20Our%20Joints:%20Predicting%20how%203D%20Bodies%20Move.pdf)
