@@ -81,6 +81,8 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 - - [ICCV 2021](#iccv-2021)
 - - [ICCV 2019](#iccv-2019)
 - - [ICCV 2017](#iccv-2017)
+- [BMVC](#bmvc)
+- - [BMVC 2020](#bmvc-2020)
 - [AISTATS](#aistats)
 - - [AISTATS 2019](#aistats-2019)
 - - [AISTATS 2010](#aistats-2010)
@@ -5897,6 +5899,80 @@ And while it's true that their performance is much better than for direct regres
 
 ****
 ****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### BMVC:
+
+- [BMVC 2020](#bmvc-2020)
+
+#### BMVC 2020:
+
+TODO!
+
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
