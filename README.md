@@ -2400,6 +2400,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 ****
 ### 3D Human Pose Estimation:
 
+##### [21-10-07] [paper158]
+- Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild
+ [[pdf]](https://arxiv.org/abs/2110.00990) [[code]](https://github.com/akashsengupta1997/HierarchicalProbabilistic3DHuman) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20Kinematic%20Probability%20Distributions%20for%203D%20Human%20Shape%20and%20Pose%20Estimation%20from%20Images%20in%20the%20Wild.pdf)
+- *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
+- `2021-10-03, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and very interesting paper, I enjoyed reading it. The hierarchical distribution prediction approach makes sense and consistently outperforms the independent baseline. Using matrix-Fisher distributions makes sense. The synthetic training framework and the input representation of edge-filters + 2D keypoint heatmaps are both interesting.
+```
+
 ##### [21-10-04] [paper156]
 - We are More than Our Joints: Predicting how 3D Bodies Move
  [[pdf]](https://arxiv.org/abs/2012.00619) [[code]](https://github.com/yz-cnsdqz/MOJO-release) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/We%20are%20More%20than%20Our%20Joints:%20Predicting%20how%203D%20Bodies%20Move.pdf)
@@ -5748,6 +5758,16 @@ All parts of the proposed method are clearly explained and relatively easy to un
 
 #### ICCV 2021:
 
+##### [21-10-07] [paper158]
+- Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild
+ [[pdf]](https://arxiv.org/abs/2110.00990) [[code]](https://github.com/akashsengupta1997/HierarchicalProbabilistic3DHuman) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20Kinematic%20Probability%20Distributions%20for%203D%20Human%20Shape%20and%20Pose%20Estimation%20from%20Images%20in%20the%20Wild.pdf)
+- *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
+- `2021-10-03, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and very interesting paper, I enjoyed reading it. The hierarchical distribution prediction approach makes sense and consistently outperforms the independent baseline. Using matrix-Fisher distributions makes sense. The synthetic training framework and the input representation of edge-filters + 2D keypoint heatmaps are both interesting.
+```
+
 ##### [21-10-03] [paper155]
 - imGHUM: Implicit Generative Models of 3D Human Shape and Articulated Pose
  [[pdf]](https://arxiv.org/abs/2108.10842) [[code]](https://github.com/google-research/google-research/tree/master/imghum) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/imGHUM:%20Implicit%20Generative%20Models%20of%203D%20Human%20Shape%20and%20Articulated%20Pose.pdf)
@@ -6292,6 +6312,16 @@ And while it's true that their performance is much better than for direct regres
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-10-07] [paper158]
+- Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild
+ [[pdf]](https://arxiv.org/abs/2110.00990) [[code]](https://github.com/akashsengupta1997/HierarchicalProbabilistic3DHuman) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20Kinematic%20Probability%20Distributions%20for%203D%20Human%20Shape%20and%20Pose%20Estimation%20from%20Images%20in%20the%20Wild.pdf)
+- *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
+- `2021-10-03, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and very interesting paper, I enjoyed reading it. The hierarchical distribution prediction approach makes sense and consistently outperforms the independent baseline. Using matrix-Fisher distributions makes sense. The synthetic training framework and the input representation of edge-filters + 2D keypoint heatmaps are both interesting.
+```
 
 ##### [21-10-06] [paper157]
 - SMD-Nets: Stereo Mixture Density Networks
