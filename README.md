@@ -103,6 +103,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2021:
 
+##### [21-10-07] [paper158]
+- Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild
+ [[pdf]](https://arxiv.org/abs/2110.00990) [[code]](https://github.com/akashsengupta1997/HierarchicalProbabilistic3DHuman) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20Kinematic%20Probability%20Distributions%20for%203D%20Human%20Shape%20and%20Pose%20Estimation%20from%20Images%20in%20the%20Wild.pdf)
+- *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
+- `2021-10-03, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and very interesting paper, I enjoyed reading it. The hierarchical distribution prediction approach makes sense and consistently outperforms the independent baseline. Using matrix-Fisher distributions makes sense. The synthetic training framework and the input representation of edge-filters + 2D keypoint heatmaps are both interesting.
+```
+
 ##### [21-10-06] [paper157]
 - SMD-Nets: Stereo Mixture Density Networks
  [[pdf]](https://arxiv.org/abs/2104.03866) [[code]](https://github.com/fabiotosi92/SMD-Nets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SMD-Nets:%20Stereo%20Mixture%20Density%20Networks.pdf)
