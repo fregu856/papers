@@ -103,6 +103,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2021:
 
+##### [21-10-07] [paper159]
+- Learning Motion Priors for 4D Human Body Capture in 3D Scenes
+ [[pdf]](https://arxiv.org/abs/2108.10399) [[code]](https://github.com/sanweiliti/LEMO) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Motion%20Priors%20for%204D%20Human%20Body%20Capture%20in%203D%20Scenes.pdf)
+- *Siwei Zhang, Yan Zhang, Federica Bogo, Marc Pollefeys, Siyu Tang*
+- `2021-08-23, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. I didn't fully understand everything though, and it feels like I probably don't know this specific setting/problem well enough to fully appreciate the paper. 
+```
+
 ##### [21-10-07] [paper158]
 - Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild
  [[pdf]](https://arxiv.org/abs/2110.00990) [[code]](https://github.com/akashsengupta1997/HierarchicalProbabilistic3DHuman) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20Kinematic%20Probability%20Distributions%20for%203D%20Human%20Shape%20and%20Pose%20Estimation%20from%20Images%20in%20the%20Wild.pdf)
