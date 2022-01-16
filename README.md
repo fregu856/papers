@@ -105,6 +105,15 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2021:
 
+##### [21-10-08] [paper161]
+- Probabilistic 3D Human Shape and Pose Estimation from Multiple Unconstrained Images in the Wild
+ [[pdf]](https://arxiv.org/abs/2103.10978) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%203D%20Human%20Shape%20and%20Pose%20Estimation%20from%20Multiple%20Unconstrained%20Images%20in%20the%20Wild.pdf)
+- *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
+- `2021-03-19, CVPR 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. I read it mainly as background for "Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild" which is written by exactly the same authors. In this paper, they predict a single Gaussian distribution for the pose (instead of hierarchical matrix-Fisher distributions). Also, they mainly focus on the body shape. They also use silhouettes + 2D keypoint heatmaps as input (instead of edge-filters + 2D keypoint heatmaps).
+```
 
 ##### [21-10-08] [paper160]
 - Synthetic Training for Accurate 3D Human Pose and Shape Estimation in the Wild
