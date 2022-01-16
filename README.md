@@ -2370,6 +2370,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 ****
 ### 3D Human Pose Estimation:
 
+##### [21-10-04] [paper156]
+- We are More than Our Joints: Predicting how 3D Bodies Move
+ [[pdf]](https://arxiv.org/abs/2012.00619) [[code]](https://github.com/yz-cnsdqz/MOJO-release) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/We%20are%20More%20than%20Our%20Joints:%20Predicting%20how%203D%20Bodies%20Move.pdf)
+- *Yan Zhang, Michael J. Black, Siyu Tang*
+- `2020-12-01, CVPR 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and fairly interesting paper. The marker-based representation, instead of using skeleton joints, makes sense. The recursive projection scheme also makes sense, but seems very slow (2.27 sec/frame)? I didn't quite get all the details for their DCT representation of the latent space.
+```
+
 ##### [21-10-03] [paper155]
 - imGHUM: Implicit Generative Models of 3D Human Shape and Articulated Pose
  [[pdf]](https://arxiv.org/abs/2108.10842) [[code]](https://github.com/google-research/google-research/tree/master/imghum) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/imGHUM:%20Implicit%20Generative%20Models%20of%203D%20Human%20Shape%20and%20Articulated%20Pose.pdf)
@@ -5361,6 +5371,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 
 #### CVPR 2021:
 
+##### [21-10-04] [paper156]
+- We are More than Our Joints: Predicting how 3D Bodies Move
+ [[pdf]](https://arxiv.org/abs/2012.00619) [[code]](https://github.com/yz-cnsdqz/MOJO-release) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/We%20are%20More%20than%20Our%20Joints:%20Predicting%20how%203D%20Bodies%20Move.pdf)
+- *Yan Zhang, Michael J. Black, Siyu Tang*
+- `2020-12-01, CVPR 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and fairly interesting paper. The marker-based representation, instead of using skeleton joints, makes sense. The recursive projection scheme also makes sense, but seems very slow (2.27 sec/frame)? I didn't quite get all the details for their DCT representation of the latent space.
+```
+
 ##### [21-10-03] [paper154]
 - DI-Fusion: Online Implicit 3D Reconstruction with Deep Priors
  [[pdf]](https://arxiv.org/abs/2012.05551) [[code]](https://github.com/huangjh-pub/di-fusion) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DI-Fusion:%20Online%20Implicit%203D%20Reconstruction%20with%20Deep%20Priors.pdf)
@@ -6365,6 +6385,16 @@ Thorough experimental evaluation. Quite interesting findings.
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 #### 2020:
+
+##### [21-10-04] [paper156]
+- We are More than Our Joints: Predicting how 3D Bodies Move
+ [[pdf]](https://arxiv.org/abs/2012.00619) [[code]](https://github.com/yz-cnsdqz/MOJO-release) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/We%20are%20More%20than%20Our%20Joints:%20Predicting%20how%203D%20Bodies%20Move.pdf)
+- *Yan Zhang, Michael J. Black, Siyu Tang*
+- `2020-12-01, CVPR 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and fairly interesting paper. The marker-based representation, instead of using skeleton joints, makes sense. The recursive projection scheme also makes sense, but seems very slow (2.27 sec/frame)? I didn't quite get all the details for their DCT representation of the latent space.
+```
 
 ##### [21-10-03] [paper154]
 - DI-Fusion: Online Implicit 3D Reconstruction with Deep Priors
