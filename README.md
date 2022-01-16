@@ -1141,6 +1141,16 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Uncertainty Estimation:
 
+##### [21-10-06] [paper157]
+- SMD-Nets: Stereo Mixture Density Networks
+ [[pdf]](https://arxiv.org/abs/2104.03866) [[code]](https://github.com/fabiotosi92/SMD-Nets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SMD-Nets:%20Stereo%20Mixture%20Density%20Networks.pdf)
+- *Fabio Tosi, Yiyi Liao, Carolin Schmitt, Andreas Geiger*
+- `2021-04-08, CVPR 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Well-written and interesting paper. Quite easy to read and follow, the method is clearly explained and makes intuitive sense.
+```
+
 ##### [21-09-21] [paper148]
 - Hierarchical VAEs Know What They Don't Know
  [[pdf]](https://arxiv.org/abs/2102.08248) [[code]](https://github.com/JakobHavtorn/hvae-oodd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20VAEs%20Know%20What%20They%20Don't%20Know.pdf)
@@ -5381,6 +5391,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 
 #### CVPR 2021:
 
+##### [21-10-06] [paper157]
+- SMD-Nets: Stereo Mixture Density Networks
+ [[pdf]](https://arxiv.org/abs/2104.03866) [[code]](https://github.com/fabiotosi92/SMD-Nets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SMD-Nets:%20Stereo%20Mixture%20Density%20Networks.pdf)
+- *Fabio Tosi, Yiyi Liao, Carolin Schmitt, Andreas Geiger*
+- `2021-04-08, CVPR 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Well-written and interesting paper. Quite easy to read and follow, the method is clearly explained and makes intuitive sense.
+```
+
 ##### [21-10-04] [paper156]
 - We are More than Our Joints: Predicting how 3D Bodies Move
  [[pdf]](https://arxiv.org/abs/2012.00619) [[code]](https://github.com/yz-cnsdqz/MOJO-release) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/We%20are%20More%20than%20Our%20Joints:%20Predicting%20how%203D%20Bodies%20Move.pdf)
@@ -6262,6 +6282,16 @@ And while it's true that their performance is much better than for direct regres
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-10-06] [paper157]
+- SMD-Nets: Stereo Mixture Density Networks
+ [[pdf]](https://arxiv.org/abs/2104.03866) [[code]](https://github.com/fabiotosi92/SMD-Nets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SMD-Nets:%20Stereo%20Mixture%20Density%20Networks.pdf)
+- *Fabio Tosi, Yiyi Liao, Carolin Schmitt, Andreas Geiger*
+- `2021-04-08, CVPR 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Well-written and interesting paper. Quite easy to read and follow, the method is clearly explained and makes intuitive sense.
+```
 
 ##### [21-10-03] [paper155]
 - imGHUM: Implicit Generative Models of 3D Human Shape and Articulated Pose
