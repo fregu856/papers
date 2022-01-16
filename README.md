@@ -103,6 +103,17 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2021:
 
+
+##### [21-10-08] [paper160]
+- Synthetic Training for Accurate 3D Human Pose and Shape Estimation in the Wild
+ [[pdf]](https://arxiv.org/abs/2009.10013) [[code]](https://github.com/akashsengupta1997/STRAPS-3DHumanShapePose) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Synthetic%20Training%20for%20Accurate%203D%20Human%20Pose%20and%20Shape%20Estimation%20in%20the%20Wild.pdf)
+- *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
+- `2020-09-21, BMVC 2020`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and farily interesting paper. I read it mainly as background for "Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild" which is written by exactly the same authors. In this paper, they just use direct regression. They also use silhouettes + 2D keypoint heatmaps as input (instead of edge-filters + 2D keypoint heatmaps).
+```
+
 ##### [21-10-07] [paper159]
 - Learning Motion Priors for 4D Human Body Capture in 3D Scenes
  [[pdf]](https://arxiv.org/abs/2108.10399) [[code]](https://github.com/sanweiliti/LEMO) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Motion%20Priors%20for%204D%20Human%20Body%20Capture%20in%203D%20Scenes.pdf)
