@@ -105,6 +105,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2021:
 
+##### [21-10-21] [paper164]
+- Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets
+ [[pdf]](https://mathai-iclr.github.io/papers/papers/MATHAI_29_paper.pdf) [[code]](https://github.com/openai/grok) [[annotated pdf]](TODO!)
+- *Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra*
+- `2021-05`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Somewhat interesting paper. The phenomena observed in Figure 1, that validation accuracy suddenly increases long after almost perfect fitting of the training data has been achieved is quite interesting. I didn't quite understand the datasets they use (binary operation tables).
+```
+
 ##### [21-10-14] [paper163]
 - Learning to Simulate Complex Physics with Graph Networks
  [[pdf]](https://arxiv.org/abs/2002.09405) [[code]](https://github.com/deepmind/deepmind-research/tree/master/learning_to_simulate) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Simulate%20Complex%20Physics%20with%20Graph%20Networks.pdf)
