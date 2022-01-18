@@ -5076,6 +5076,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 
 #### ICML 2020:
 
+
+##### [21-10-14] [paper163]
+- Learning to Simulate Complex Physics with Graph Networks
+ [[pdf]](https://arxiv.org/abs/2002.09405) [[code]](https://github.com/deepmind/deepmind-research/tree/master/learning_to_simulate) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Simulate%20Complex%20Physics%20with%20Graph%20Networks.pdf)
+- *Alvaro Sanchez-Gonzalez, Jonathan Godwin, Tobias Pfaff, Rex Ying, Jure Leskovec, Peter W. Battaglia*
+- `2020-02-21, ICML 2020`
+```
+Quite well-written and somewhat interesting paper. Cool application and a bunch of neat videos. This is not really my area, so I didn't spend too much time/energy trying to fully understand everything.
+```
+
 ##### [21-01-15] [paper115]
 - Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
  [[pdf]](https://arxiv.org/abs/2006.16236) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20are%20RNNs:%20Fast%20Autoregressive%20Transformers%20with%20Linear%20Attention.pdf)
@@ -6677,6 +6687,16 @@ Thorough experimental evaluation. Quite interesting findings.
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 #### 2020:
+
+
+##### [21-10-14] [paper163]
+- Learning to Simulate Complex Physics with Graph Networks
+ [[pdf]](https://arxiv.org/abs/2002.09405) [[code]](https://github.com/deepmind/deepmind-research/tree/master/learning_to_simulate) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Simulate%20Complex%20Physics%20with%20Graph%20Networks.pdf)
+- *Alvaro Sanchez-Gonzalez, Jonathan Godwin, Tobias Pfaff, Rex Ying, Jure Leskovec, Peter W. Battaglia*
+- `2020-02-21, ICML 2020`
+```
+Quite well-written and somewhat interesting paper. Cool application and a bunch of neat videos. This is not really my area, so I didn't spend too much time/energy trying to fully understand everything.
+```
 
 ##### [21-10-12] [paper162]
 - Neural Unsigned Distance Fields for Implicit Function Learning
