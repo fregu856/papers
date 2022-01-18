@@ -107,7 +107,7 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 ##### [21-10-21] [paper164]
 - Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets
- [[pdf]](https://mathai-iclr.github.io/papers/papers/MATHAI_29_paper.pdf) [[code]](https://github.com/openai/grok) [[annotated pdf]](TODO!)
+ [[pdf]](https://mathai-iclr.github.io/papers/papers/MATHAI_29_paper.pdf) [[code]](https://github.com/openai/grok) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Grokking:%20Generalization%20Beyond%20Overfitting%20On%20Small%20Algorithmic%20Datasets.pdf)
 - *Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra*
 - `2021-05`
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
