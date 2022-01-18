@@ -105,6 +105,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2021:
 
+##### [21-11-11] [paper166]
+- Transferring Inductive Biases through Knowledge Distillation
+ [[pdf]](https://arxiv.org/abs/2006.00555) [[code]](https://github.com/samiraabnar/Reflect) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transferring%20Inductive%20Biases%20through%20Knowledge%20Distillation.pdf)
+- *Samira Abnar, Mostafa Dehghani, Willem Zuidema*
+- `2020-05-31`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite well-written and somewhat interesting paper. I'm not very familiar with this area. I didn't spend too much time trying to properly evaluate the significance of the findings.
+```
+
 ##### [21-10-28] [paper165]
 - Deep Classifiers with Label Noise Modeling and Distance Awareness
  [[pdf]](https://arxiv.org/abs/2110.02609#) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Classifiers%20with%20Label%20Noise%20Modeling%20and%20Distance%20Awareness.pdf)
