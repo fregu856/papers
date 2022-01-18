@@ -1222,6 +1222,16 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Uncertainty Estimation:
 
+##### [21-10-28] [paper165]
+- Deep Classifiers with Label Noise Modeling and Distance Awareness
+ [[pdf]](https://arxiv.org/abs/2110.02609#) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Classifiers%20with%20Label%20Noise%20Modeling%20and%20Distance%20Awareness.pdf)
+- *Vincent Fortuin, Mark Collier, Florian Wenzel, James Allingham, Jeremiah Liu, Dustin Tran, Balaji Lakshminarayanan, Jesse Berent, Rodolphe Jenatton, Effrosyni Kokiopoulou*
+- `2021-10-06`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Quite interesting and well-written paper. I find the distance-awareness property more interesting than modelling of input/class-dependent label noise, so the proposed method (HetSNGP) is perhaps not overly interesting compared to the SNGP baseline.
+```
+
 ##### [21-10-06] [paper157]
 - SMD-Nets: Stereo Mixture Density Networks
  [[pdf]](https://arxiv.org/abs/2104.03866) [[code]](https://github.com/fabiotosi92/SMD-Nets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SMD-Nets:%20Stereo%20Mixture%20Density%20Networks.pdf)
@@ -6544,6 +6554,16 @@ Well-written and farily interesting paper. I read it mainly as background for "H
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-10-28] [paper165]
+- Deep Classifiers with Label Noise Modeling and Distance Awareness
+ [[pdf]](https://arxiv.org/abs/2110.02609#) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Classifiers%20with%20Label%20Noise%20Modeling%20and%20Distance%20Awareness.pdf)
+- *Vincent Fortuin, Mark Collier, Florian Wenzel, James Allingham, Jeremiah Liu, Dustin Tran, Balaji Lakshminarayanan, Jesse Berent, Rodolphe Jenatton, Effrosyni Kokiopoulou*
+- `2021-10-06`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Quite interesting and well-written paper. I find the distance-awareness property more interesting than modelling of input/class-dependent label noise, so the proposed method (HetSNGP) is perhaps not overly interesting compared to the SNGP baseline.
+```
 
 ##### [21-10-21] [paper164]
 - Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets
