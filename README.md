@@ -109,7 +109,7 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 - Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets
  [[pdf]](https://mathai-iclr.github.io/papers/papers/MATHAI_29_paper.pdf) [[code]](https://github.com/openai/grok) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Grokking:%20Generalization%20Beyond%20Overfitting%20On%20Small%20Algorithmic%20Datasets.pdf)
 - *Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra*
-- `2021-05`
+- `2021-05, ICLR Workshops 2021`
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 ```
 Somewhat interesting paper. The phenomena observed in Figure 1, that validation accuracy suddenly increases long after almost perfect fitting of the training data has been achieved is quite interesting. I didn't quite understand the datasets they use (binary operation tables).
@@ -1567,6 +1567,16 @@ Thorough experimental evaluation. Quite interesting findings.
 
 ****
 ### Theoretical Properties of Deep Learning:
+
+##### [21-10-21] [paper164]
+- Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets
+ [[pdf]](https://mathai-iclr.github.io/papers/papers/MATHAI_29_paper.pdf) [[code]](https://github.com/openai/grok) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Grokking:%20Generalization%20Beyond%20Overfitting%20On%20Small%20Algorithmic%20Datasets.pdf)
+- *Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra*
+- `2021-05, ICLR Workshops 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Somewhat interesting paper. The phenomena observed in Figure 1, that validation accuracy suddenly increases long after almost perfect fitting of the training data has been achieved is quite interesting. I didn't quite understand the datasets they use (binary operation tables).
+```
 
 ##### [21-03-19] [paper124]
 - Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability
@@ -6524,6 +6534,16 @@ Well-written and farily interesting paper. I read it mainly as background for "H
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-10-21] [paper164]
+- Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets
+ [[pdf]](https://mathai-iclr.github.io/papers/papers/MATHAI_29_paper.pdf) [[code]](https://github.com/openai/grok) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Grokking:%20Generalization%20Beyond%20Overfitting%20On%20Small%20Algorithmic%20Datasets.pdf)
+- *Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra*
+- `2021-05, ICLR Workshops 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Somewhat interesting paper. The phenomena observed in Figure 1, that validation accuracy suddenly increases long after almost perfect fitting of the training data has been achieved is quite interesting. I didn't quite understand the datasets they use (binary operation tables).
+```
 
 ##### [21-10-08] [paper161]
 - Probabilistic 3D Human Shape and Pose Estimation from Multiple Unconstrained Images in the Wild
