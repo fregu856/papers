@@ -4063,6 +4063,16 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Implicit Neural Representations:
 
+##### [21-10-12] [paper162]
+- Neural Unsigned Distance Fields for Implicit Function Learning
+ [[pdf]](https://arxiv.org/abs/2010.13938) [[code]](https://github.com/jchibane/ndf/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Unsigned%20Distance%20Fields%20for%20Implicit%20Function%20Learning.pdf)
+- *Julian Chibane, Aymen Mir, Gerard Pons-Moll*
+- `2020-10-26, NeurIPS 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Interesting and very well-written paper, I really enjoyed reading it! The paper also gives a good understanding of neural implicit representations in general.
+```
+
 ##### [21-10-03] [paper155]
 - imGHUM: Implicit Generative Models of 3D Human Shape and Articulated Pose
  [[pdf]](https://arxiv.org/abs/2108.10842) [[code]](https://github.com/google-research/google-research/tree/master/imghum) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/imGHUM:%20Implicit%20Generative%20Models%20of%203D%20Human%20Shape%20and%20Articulated%20Pose.pdf)
@@ -4739,6 +4749,16 @@ Thorough experimental evaluation. Quite interesting findings.
 ```
 
 #### NeurIPS 2020:
+
+##### [21-10-12] [paper162]
+- Neural Unsigned Distance Fields for Implicit Function Learning
+ [[pdf]](https://arxiv.org/abs/2010.13938) [[code]](https://github.com/jchibane/ndf/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Unsigned%20Distance%20Fields%20for%20Implicit%20Function%20Learning.pdf)
+- *Julian Chibane, Aymen Mir, Gerard Pons-Moll*
+- `2020-10-26, NeurIPS 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Interesting and very well-written paper, I really enjoyed reading it! The paper also gives a good understanding of neural implicit representations in general.
+```
 
 ##### [21-06-14] [paper132]
 - 3D Multi-bodies: Fitting Sets of Plausible 3D Human Models to Ambiguous Image Data
@@ -6648,6 +6668,16 @@ Thorough experimental evaluation. Quite interesting findings.
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 #### 2020:
+
+##### [21-10-12] [paper162]
+- Neural Unsigned Distance Fields for Implicit Function Learning
+ [[pdf]](https://arxiv.org/abs/2010.13938) [[code]](https://github.com/jchibane/ndf/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Unsigned%20Distance%20Fields%20for%20Implicit%20Function%20Learning.pdf)
+- *Julian Chibane, Aymen Mir, Gerard Pons-Moll*
+- `2020-10-26, NeurIPS 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Interesting and very well-written paper, I really enjoyed reading it! The paper also gives a good understanding of neural implicit representations in general.
+```
 
 ##### [21-10-08] [paper160]
 - Synthetic Training for Accurate 3D Human Pose and Shape Estimation in the Wild
