@@ -106,6 +106,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2021:
 
+##### [21-11-25] [paper168]
+- On the Importance of Gradients for Detecting Distributional Shifts in the Wild
+ [[pdf]](https://arxiv.org/abs/2110.00218) [[code]](https://github.com/deeplearning-wisc/gradnorm_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Importance%20of%20Gradients%20for%20Detecting%20Distributional%20Shifts%20in%20the%20Wild.pdf)
+- *Rui Huang, Andrew Geng, Yixuan Li*
+- `2021-10-01, NeurIPS 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. The experimental results do seem promising. However, I don't quite get why the proposed method intuitively makes sense, why is it better to only use the parameters of the final network layer?
+```
+
 ##### [21-11-18] [paper167]
 - Masked Autoencoders Are Scalable Vision Learners
  [[pdf]](https://arxiv.org/abs/2111.06377) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Masked%20Autoencoders%20Are%20Scalable%20Vision%20Learners.pdf)
