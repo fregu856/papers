@@ -105,6 +105,15 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2021:
 
+##### [21-11-18] [paper167]
+- Masked Autoencoders Are Scalable Vision Learners
+ [[pdf]](https://arxiv.org/abs/2111.06377) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Masked%20Autoencoders%20Are%20Scalable%20Vision%20Learners.pdf)
+- *Kaiming He, Xinlei Chen, Saining Xie, Yanghao Li, Piotr Dollár, Ross Girshick*
+- `2021-11-11`
+```
+Interesting and well-written paper. The proposed method is simple and makes a lot of intuitive sense, which is rather satisfying. After page 4, there's mostly just detailed ablations and results.
+```
+
 ##### [21-11-11] [paper166]
 - Transferring Inductive Biases through Knowledge Distillation
  [[pdf]](https://arxiv.org/abs/2006.00555) [[code]](https://github.com/samiraabnar/Reflect) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transferring%20Inductive%20Biases%20through%20Knowledge%20Distillation.pdf)
