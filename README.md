@@ -1624,6 +1624,16 @@ Thorough experimental evaluation. Quite interesting findings.
 ****
 ### Out-of-Distribution Detection:
 
+##### [21-11-25] [paper168]
+- On the Importance of Gradients for Detecting Distributional Shifts in the Wild
+ [[pdf]](https://arxiv.org/abs/2110.00218) [[code]](https://github.com/deeplearning-wisc/gradnorm_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Importance%20of%20Gradients%20for%20Detecting%20Distributional%20Shifts%20in%20the%20Wild.pdf)
+- *Rui Huang, Andrew Geng, Yixuan Li*
+- `2021-10-01, NeurIPS 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. The experimental results do seem promising. However, I don't quite get why the proposed method intuitively makes sense, why is it better to only use the parameters of the final network layer?
+```
+
 ##### [21-09-21] [paper148]
 - Hierarchical VAEs Know What They Don't Know
  [[pdf]](https://arxiv.org/abs/2102.08248) [[code]](https://github.com/JakobHavtorn/hvae-oodd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20VAEs%20Know%20What%20They%20Don't%20Know.pdf)
@@ -4938,6 +4948,16 @@ All parts of the proposed method are clearly explained and relatively easy to un
 
 #### NeurIPS 2021:
 
+##### [21-11-25] [paper168]
+- On the Importance of Gradients for Detecting Distributional Shifts in the Wild
+ [[pdf]](https://arxiv.org/abs/2110.00218) [[code]](https://github.com/deeplearning-wisc/gradnorm_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Importance%20of%20Gradients%20for%20Detecting%20Distributional%20Shifts%20in%20the%20Wild.pdf)
+- *Rui Huang, Andrew Geng, Yixuan Li*
+- `2021-10-01, NeurIPS 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. The experimental results do seem promising. However, I don't quite get why the proposed method intuitively makes sense, why is it better to only use the parameters of the final network layer?
+```
+
 ##### [21-09-08] [paper145]
 - Revisiting the Calibration of Modern Neural Networks
  [[pdf]](https://arxiv.org/abs/2106.07998) [[code]](https://github.com/google-research/robustness_metrics/tree/master/robustness_metrics/projects/revisiting_calibration) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Revisiting%20the%20Calibration%20of%20Modern%20Neural%20Networks.pdf)
@@ -6707,6 +6727,16 @@ Well-written and farily interesting paper. I read it mainly as background for "H
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-11-25] [paper168]
+- On the Importance of Gradients for Detecting Distributional Shifts in the Wild
+ [[pdf]](https://arxiv.org/abs/2110.00218) [[code]](https://github.com/deeplearning-wisc/gradnorm_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Importance%20of%20Gradients%20for%20Detecting%20Distributional%20Shifts%20in%20the%20Wild.pdf)
+- *Rui Huang, Andrew Geng, Yixuan Li*
+- `2021-10-01, NeurIPS 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. The experimental results do seem promising. However, I don't quite get why the proposed method intuitively makes sense, why is it better to only use the parameters of the final network layer?
+```
 
 ##### [21-11-18] [paper167]
 - Masked Autoencoders Are Scalable Vision Learners
