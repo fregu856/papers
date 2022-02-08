@@ -1751,6 +1751,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 ****
 ### Theoretical Properties of Deep Learning:
 
+##### [21-12-02] [paper169]
+- An Information-theoretic Approach to Distribution Shifts
+ [[pdf]](https://arxiv.org/abs/2106.03783) [[code]](https://github.com/mfederici/dsit) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Information-theoretic%20Approach%20to%20Distribution%20Shifts.pdf)
+- *Marco Federici, Ryota Tomioka, Patrick Forré*
+- `2021-06-07, NeurIPS 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite well-written paper overall that seemed interesting, but I found it very difficult to properly understand everything. Thus, I can't really tell how interesting/significant their analysis actually is.
+```
+
 ##### [21-11-11] [paper166]
 - Transferring Inductive Biases through Knowledge Distillation
  [[pdf]](https://arxiv.org/abs/2006.00555) [[code]](https://github.com/samiraabnar/Reflect) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transferring%20Inductive%20Biases%20through%20Knowledge%20Distillation.pdf)
@@ -4958,6 +4968,16 @@ All parts of the proposed method are clearly explained and relatively easy to un
 
 #### NeurIPS 2021:
 
+##### [21-12-02] [paper169]
+- An Information-theoretic Approach to Distribution Shifts
+ [[pdf]](https://arxiv.org/abs/2106.03783) [[code]](https://github.com/mfederici/dsit) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Information-theoretic%20Approach%20to%20Distribution%20Shifts.pdf)
+- *Marco Federici, Ryota Tomioka, Patrick Forré*
+- `2021-06-07, NeurIPS 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite well-written paper overall that seemed interesting, but I found it very difficult to properly understand everything. Thus, I can't really tell how interesting/significant their analysis actually is.
+```
+
 ##### [21-11-25] [paper168]
 - On the Importance of Gradients for Detecting Distributional Shifts in the Wild
  [[pdf]](https://arxiv.org/abs/2110.00218) [[code]](https://github.com/deeplearning-wisc/gradnorm_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Importance%20of%20Gradients%20for%20Detecting%20Distributional%20Shifts%20in%20the%20Wild.pdf)
@@ -6737,6 +6757,16 @@ Well-written and farily interesting paper. I read it mainly as background for "H
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-12-02] [paper169]
+- An Information-theoretic Approach to Distribution Shifts
+ [[pdf]](https://arxiv.org/abs/2106.03783) [[code]](https://github.com/mfederici/dsit) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Information-theoretic%20Approach%20to%20Distribution%20Shifts.pdf)
+- *Marco Federici, Ryota Tomioka, Patrick Forré*
+- `2021-06-07, NeurIPS 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite well-written paper overall that seemed interesting, but I found it very difficult to properly understand everything. Thus, I can't really tell how interesting/significant their analysis actually is.
+```
 
 ##### [21-11-25] [paper168]
 - On the Importance of Gradients for Detecting Distributional Shifts in the Wild
