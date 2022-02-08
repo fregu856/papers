@@ -1,8 +1,6 @@
 # About
 
-Summaries of papers I have read during my time as a PhD student.
-
-The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible at least in Okular on Ubuntu) for all papers. 
+I categorize, annotate and write comments for all research papers I read as a PhD student.
 
 ## Index
 - [All Papers](#all-papers)
@@ -83,6 +81,8 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - - [ICCV 2021](#iccv-2021)
 - - [ICCV 2019](#iccv-2019)
 - - [ICCV 2017](#iccv-2017)
+- [BMVC](#bmvc)
+- - [BMVC 2020](#bmvc-2020)
 - [AISTATS](#aistats)
 - - [AISTATS 2019](#aistats-2019)
 - - [AISTATS 2010](#aistats-2010)
@@ -104,6 +104,174 @@ The /commented_pdfs folder contains pdfs with comments, highlights etc. (visible
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2021:
+
+##### [21-11-11] [paper166]
+- Transferring Inductive Biases through Knowledge Distillation
+ [[pdf]](https://arxiv.org/abs/2006.00555) [[code]](https://github.com/samiraabnar/Reflect) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transferring%20Inductive%20Biases%20through%20Knowledge%20Distillation.pdf)
+- *Samira Abnar, Mostafa Dehghani, Willem Zuidema*
+- `2020-05-31`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite well-written and somewhat interesting paper. I'm not very familiar with this area. I didn't spend too much time trying to properly evaluate the significance of the findings.
+```
+
+##### [21-10-28] [paper165]
+- Deep Classifiers with Label Noise Modeling and Distance Awareness
+ [[pdf]](https://arxiv.org/abs/2110.02609#) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Classifiers%20with%20Label%20Noise%20Modeling%20and%20Distance%20Awareness.pdf)
+- *Vincent Fortuin, Mark Collier, Florian Wenzel, James Allingham, Jeremiah Liu, Dustin Tran, Balaji Lakshminarayanan, Jesse Berent, Rodolphe Jenatton, Effrosyni Kokiopoulou*
+- `2021-10-06`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Quite interesting and well-written paper. I find the distance-awareness property more interesting than modelling of input/class-dependent label noise, so the proposed method (HetSNGP) is perhaps not overly interesting compared to the SNGP baseline.
+```
+
+##### [21-10-21] [paper164]
+- Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets
+ [[pdf]](https://mathai-iclr.github.io/papers/papers/MATHAI_29_paper.pdf) [[code]](https://github.com/openai/grok) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Grokking:%20Generalization%20Beyond%20Overfitting%20On%20Small%20Algorithmic%20Datasets.pdf)
+- *Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra*
+- `2021-05, ICLR Workshops 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Somewhat interesting paper. The phenomena observed in Figure 1, that validation accuracy suddenly increases long after almost perfect fitting of the training data has been achieved is quite interesting. I didn't quite understand the datasets they use (binary operation tables).
+```
+
+##### [21-10-14] [paper163]
+- Learning to Simulate Complex Physics with Graph Networks
+ [[pdf]](https://arxiv.org/abs/2002.09405) [[code]](https://github.com/deepmind/deepmind-research/tree/master/learning_to_simulate) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Simulate%20Complex%20Physics%20with%20Graph%20Networks.pdf)
+- *Alvaro Sanchez-Gonzalez, Jonathan Godwin, Tobias Pfaff, Rex Ying, Jure Leskovec, Peter W. Battaglia*
+- `2020-02-21, ICML 2020`
+```
+Quite well-written and somewhat interesting paper. Cool application and a bunch of neat videos. This is not really my area, so I didn't spend too much time/energy trying to fully understand everything.
+```
+
+##### [21-10-12] [paper162]
+- Neural Unsigned Distance Fields for Implicit Function Learning
+ [[pdf]](https://arxiv.org/abs/2010.13938) [[code]](https://github.com/jchibane/ndf/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Unsigned%20Distance%20Fields%20for%20Implicit%20Function%20Learning.pdf)
+- *Julian Chibane, Aymen Mir, Gerard Pons-Moll*
+- `2020-10-26, NeurIPS 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Interesting and very well-written paper, I really enjoyed reading it! The paper also gives a good understanding of neural implicit representations in general.
+```
+
+##### [21-10-08] [paper161]
+- Probabilistic 3D Human Shape and Pose Estimation from Multiple Unconstrained Images in the Wild
+ [[pdf]](https://arxiv.org/abs/2103.10978) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%203D%20Human%20Shape%20and%20Pose%20Estimation%20from%20Multiple%20Unconstrained%20Images%20in%20the%20Wild.pdf)
+- *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
+- `2021-03-19, CVPR 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. I read it mainly as background for "Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild" which is written by exactly the same authors. In this paper, they predict a single Gaussian distribution for the pose (instead of hierarchical matrix-Fisher distributions). Also, they mainly focus on the body shape. They also use silhouettes + 2D keypoint heatmaps as input (instead of edge-filters + 2D keypoint heatmaps).
+```
+
+##### [21-10-08] [paper160]
+- Synthetic Training for Accurate 3D Human Pose and Shape Estimation in the Wild
+ [[pdf]](https://arxiv.org/abs/2009.10013) [[code]](https://github.com/akashsengupta1997/STRAPS-3DHumanShapePose) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Synthetic%20Training%20for%20Accurate%203D%20Human%20Pose%20and%20Shape%20Estimation%20in%20the%20Wild.pdf)
+- *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
+- `2020-09-21, BMVC 2020`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and farily interesting paper. I read it mainly as background for "Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild" which is written by exactly the same authors. In this paper, they just use direct regression. They also use silhouettes + 2D keypoint heatmaps as input (instead of edge-filters + 2D keypoint heatmaps).
+```
+
+##### [21-10-07] [paper159]
+- Learning Motion Priors for 4D Human Body Capture in 3D Scenes
+ [[pdf]](https://arxiv.org/abs/2108.10399) [[code]](https://github.com/sanweiliti/LEMO) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Motion%20Priors%20for%204D%20Human%20Body%20Capture%20in%203D%20Scenes.pdf)
+- *Siwei Zhang, Yan Zhang, Federica Bogo, Marc Pollefeys, Siyu Tang*
+- `2021-08-23, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. I didn't fully understand everything though, and it feels like I probably don't know this specific setting/problem well enough to fully appreciate the paper. 
+```
+
+##### [21-10-07] [paper158]
+- Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild
+ [[pdf]](https://arxiv.org/abs/2110.00990) [[code]](https://github.com/akashsengupta1997/HierarchicalProbabilistic3DHuman) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20Kinematic%20Probability%20Distributions%20for%203D%20Human%20Shape%20and%20Pose%20Estimation%20from%20Images%20in%20the%20Wild.pdf)
+- *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
+- `2021-10-03, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and very interesting paper, I enjoyed reading it. The hierarchical distribution prediction approach makes sense and consistently outperforms the independent baseline. Using matrix-Fisher distributions makes sense. The synthetic training framework and the input representation of edge-filters + 2D keypoint heatmaps are both interesting.
+```
+
+##### [21-10-06] [paper157]
+- SMD-Nets: Stereo Mixture Density Networks
+ [[pdf]](https://arxiv.org/abs/2104.03866) [[code]](https://github.com/fabiotosi92/SMD-Nets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SMD-Nets:%20Stereo%20Mixture%20Density%20Networks.pdf)
+- *Fabio Tosi, Yiyi Liao, Carolin Schmitt, Andreas Geiger*
+- `2021-04-08, CVPR 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Well-written and interesting paper. Quite easy to read and follow, the method is clearly explained and makes intuitive sense.
+```
+
+##### [21-10-04] [paper156]
+- We are More than Our Joints: Predicting how 3D Bodies Move
+ [[pdf]](https://arxiv.org/abs/2012.00619) [[code]](https://github.com/yz-cnsdqz/MOJO-release) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/We%20are%20More%20than%20Our%20Joints:%20Predicting%20how%203D%20Bodies%20Move.pdf)
+- *Yan Zhang, Michael J. Black, Siyu Tang*
+- `2020-12-01, CVPR 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and fairly interesting paper. The marker-based representation, instead of using skeleton joints, makes sense. The recursive projection scheme also makes sense, but seems very slow (2.27 sec/frame)? I didn't quite get all the details for their DCT representation of the latent space.
+```
+
+##### [21-10-03] [paper155]
+- imGHUM: Implicit Generative Models of 3D Human Shape and Articulated Pose
+ [[pdf]](https://arxiv.org/abs/2108.10842) [[code]](https://github.com/google-research/google-research/tree/master/imghum) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/imGHUM:%20Implicit%20Generative%20Models%20of%203D%20Human%20Shape%20and%20Articulated%20Pose.pdf)
+- *Thiemo Alldieck, Hongyi Xu, Cristian Sminchisescu*
+- `2021-08-24, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation) [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Interesting and very well-written paper, I really enjoyed reading it. Interesting combination of implicit representations and 3D human modelling. The "inclusive human modelling" application is neat and important.
+```
+
+##### [21-10-03] [paper154]
+- DI-Fusion: Online Implicit 3D Reconstruction with Deep Priors
+ [[pdf]](https://arxiv.org/abs/2012.05551) [[code]](https://github.com/huangjh-pub/di-fusion) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DI-Fusion:%20Online%20Implicit%203D%20Reconstruction%20with%20Deep%20Priors.pdf)
+- *Jiahui Huang, Shi-Sheng Huang, Haoxuan Song, Shi-Min Hu*
+- `2020-12-10, CVPR 2021`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Well-written and interesting paper, I enjoyed reading it. Neat application of implicit representations. The paper also gives a quite good overview of online 3D reconstruction in general.
+```
+
+##### [21-10-02] [paper153]
+- Contextually Plausible and Diverse 3D Human Motion Prediction
+ [[pdf]](https://arxiv.org/abs/1912.08521) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Contextually%20Plausible%20and%20Diverse%203D%20Human%20Motion%20Prediction.pdf)
+- *Sadegh Aliakbarian, Fatemeh Sadat Saleh, Lars Petersson, Stephen Gould, Mathieu Salzmann*
+- `2019-12-18, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. The main idea, using a learned conditional prior p(z|c) instead of just p(z), makes sense and was shown beneficial also in "HuMoR: 3D Human Motion Model for Robust Pose Estimation". I'm however somewhat confused by their specific implementation in Section 4, doesn't seem like a standard cVAE implementation?
+```
+
+##### [21-10-01] [paper152]
+- Local Implicit Grid Representations for 3D Scenes
+ [[pdf]](https://arxiv.org/abs/2003.08981) [[code]](https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/projects/local_implicit_grid) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Local%20Implicit%20Grid%20Representations%20for%203D%20Scenes.pdf)
+- *Chiyu Max Jiang, Avneesh Sud, Ameesh Makadia, Jingwei Huang, Matthias Nießner, Thomas Funkhouser*
+- `2020-03-19, CVPR 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Well-written and quite interesting paper. Interesting application, being able to reconstruct full 3D scenes from sparse point clouds. I didn't fully understand everything, as I don't have a particularly strong graphics background.
+```
+
+##### [21-09-29] [paper151]
+- Information Dropout: Learning Optimal Representations Through Noisy Computation
+ [[pdf]](https://arxiv.org/abs/1611.01353) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Information%20Dropout:%20Learning%20Optimal%20Representations%20Through%20Noisy%20Computation.pdf)
+- *Alessandro Achille, Stefano Soatto*
+- `2016-11-04`
+```
+Well-written and somewhat interesting paper overall. I'm not overly familiar with the topics of the paper, and didn't fully understand everything. Some results and insights seem quite interesting/neat, but I'm not sure exactly what the main takeaways should be, or how significant they actually are.
+```
+
+##### [21-09-24] [paper150]
+- Encoder-decoder with Multi-level Attention for 3D Human Shape and Pose Estimation
+ [[pdf]](https://arxiv.org/abs/2109.02303) [[code]](https://github.com/ziniuwan/maed) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Encoder-decoder%20with%20Multi-level%20Attention%20for%203D%20Human%20Shape%20and%20Pose%20Estimation.pdf)
+- *Ziniu Wan, Zhengjia Li, Maoqing Tian, Jianbo Liu, Shuai Yi, Hongsheng Li*
+- `2021-09-06, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and fairly interesting paper. Quite a lot of details on the attention architecture, which I personally don't find overly interesting. The experimental results are quite impressive, but I would like to see a comparison in terms of computational cost at test-time. It sounds like their method is rather slow.
+```
 
 ##### [21-09-23] [paper149]
 - Physics-based Human Motion Estimation and Synthesis from Videos
@@ -1064,6 +1232,26 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Uncertainty Estimation:
 
+##### [21-10-28] [paper165]
+- Deep Classifiers with Label Noise Modeling and Distance Awareness
+ [[pdf]](https://arxiv.org/abs/2110.02609#) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Classifiers%20with%20Label%20Noise%20Modeling%20and%20Distance%20Awareness.pdf)
+- *Vincent Fortuin, Mark Collier, Florian Wenzel, James Allingham, Jeremiah Liu, Dustin Tran, Balaji Lakshminarayanan, Jesse Berent, Rodolphe Jenatton, Effrosyni Kokiopoulou*
+- `2021-10-06`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Quite interesting and well-written paper. I find the distance-awareness property more interesting than modelling of input/class-dependent label noise, so the proposed method (HetSNGP) is perhaps not overly interesting compared to the SNGP baseline.
+```
+
+##### [21-10-06] [paper157]
+- SMD-Nets: Stereo Mixture Density Networks
+ [[pdf]](https://arxiv.org/abs/2104.03866) [[code]](https://github.com/fabiotosi92/SMD-Nets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SMD-Nets:%20Stereo%20Mixture%20Density%20Networks.pdf)
+- *Fabio Tosi, Yiyi Liao, Carolin Schmitt, Andreas Geiger*
+- `2021-04-08, CVPR 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Well-written and interesting paper. Quite easy to read and follow, the method is clearly explained and makes intuitive sense.
+```
+
 ##### [21-09-21] [paper148]
 - Hierarchical VAEs Know What They Don't Know
  [[pdf]](https://arxiv.org/abs/2102.08248) [[code]](https://github.com/JakobHavtorn/hvae-oodd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20VAEs%20Know%20What%20They%20Don't%20Know.pdf)
@@ -1409,6 +1597,26 @@ Thorough experimental evaluation. Quite interesting findings.
 
 ****
 ### Theoretical Properties of Deep Learning:
+
+##### [21-11-11] [paper166]
+- Transferring Inductive Biases through Knowledge Distillation
+ [[pdf]](https://arxiv.org/abs/2006.00555) [[code]](https://github.com/samiraabnar/Reflect) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transferring%20Inductive%20Biases%20through%20Knowledge%20Distillation.pdf)
+- *Samira Abnar, Mostafa Dehghani, Willem Zuidema*
+- `2020-05-31`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite well-written and somewhat interesting paper. I'm not very familiar with this area. I didn't spend too much time trying to properly evaluate the significance of the findings.
+```
+
+##### [21-10-21] [paper164]
+- Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets
+ [[pdf]](https://mathai-iclr.github.io/papers/papers/MATHAI_29_paper.pdf) [[code]](https://github.com/openai/grok) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Grokking:%20Generalization%20Beyond%20Overfitting%20On%20Small%20Algorithmic%20Datasets.pdf)
+- *Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra*
+- `2021-05, ICLR Workshops 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Somewhat interesting paper. The phenomena observed in Figure 1, that validation accuracy suddenly increases long after almost perfect fitting of the training data has been achieved is quite interesting. I didn't quite understand the datasets they use (binary operation tables).
+```
 
 ##### [21-03-19] [paper124]
 - Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability
@@ -2302,6 +2510,86 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 
 ****
 ### 3D Human Pose Estimation:
+
+##### [21-10-08] [paper161]
+- Probabilistic 3D Human Shape and Pose Estimation from Multiple Unconstrained Images in the Wild
+ [[pdf]](https://arxiv.org/abs/2103.10978) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%203D%20Human%20Shape%20and%20Pose%20Estimation%20from%20Multiple%20Unconstrained%20Images%20in%20the%20Wild.pdf)
+- *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
+- `2021-03-19, CVPR 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. I read it mainly as background for "Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild" which is written by exactly the same authors. In this paper, they predict a single Gaussian distribution for the pose (instead of hierarchical matrix-Fisher distributions). Also, they mainly focus on the body shape. They also use silhouettes + 2D keypoint heatmaps as input (instead of edge-filters + 2D keypoint heatmaps).
+```
+
+##### [21-10-08] [paper160]
+- Synthetic Training for Accurate 3D Human Pose and Shape Estimation in the Wild
+ [[pdf]](https://arxiv.org/abs/2009.10013) [[code]](https://github.com/akashsengupta1997/STRAPS-3DHumanShapePose) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Synthetic%20Training%20for%20Accurate%203D%20Human%20Pose%20and%20Shape%20Estimation%20in%20the%20Wild.pdf)
+- *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
+- `2020-09-21, BMVC 2020`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and farily interesting paper. I read it mainly as background for "Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild" which is written by exactly the same authors. In this paper, they just use direct regression. They also use silhouettes + 2D keypoint heatmaps as input (instead of edge-filters + 2D keypoint heatmaps).
+```
+
+##### [21-10-07] [paper159]
+- Learning Motion Priors for 4D Human Body Capture in 3D Scenes
+ [[pdf]](https://arxiv.org/abs/2108.10399) [[code]](https://github.com/sanweiliti/LEMO) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Motion%20Priors%20for%204D%20Human%20Body%20Capture%20in%203D%20Scenes.pdf)
+- *Siwei Zhang, Yan Zhang, Federica Bogo, Marc Pollefeys, Siyu Tang*
+- `2021-08-23, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. I didn't fully understand everything though, and it feels like I probably don't know this specific setting/problem well enough to fully appreciate the paper. 
+```
+
+##### [21-10-07] [paper158]
+- Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild
+ [[pdf]](https://arxiv.org/abs/2110.00990) [[code]](https://github.com/akashsengupta1997/HierarchicalProbabilistic3DHuman) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20Kinematic%20Probability%20Distributions%20for%203D%20Human%20Shape%20and%20Pose%20Estimation%20from%20Images%20in%20the%20Wild.pdf)
+- *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
+- `2021-10-03, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and very interesting paper, I enjoyed reading it. The hierarchical distribution prediction approach makes sense and consistently outperforms the independent baseline. Using matrix-Fisher distributions makes sense. The synthetic training framework and the input representation of edge-filters + 2D keypoint heatmaps are both interesting.
+```
+
+##### [21-10-04] [paper156]
+- We are More than Our Joints: Predicting how 3D Bodies Move
+ [[pdf]](https://arxiv.org/abs/2012.00619) [[code]](https://github.com/yz-cnsdqz/MOJO-release) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/We%20are%20More%20than%20Our%20Joints:%20Predicting%20how%203D%20Bodies%20Move.pdf)
+- *Yan Zhang, Michael J. Black, Siyu Tang*
+- `2020-12-01, CVPR 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and fairly interesting paper. The marker-based representation, instead of using skeleton joints, makes sense. The recursive projection scheme also makes sense, but seems very slow (2.27 sec/frame)? I didn't quite get all the details for their DCT representation of the latent space.
+```
+
+##### [21-10-03] [paper155]
+- imGHUM: Implicit Generative Models of 3D Human Shape and Articulated Pose
+ [[pdf]](https://arxiv.org/abs/2108.10842) [[code]](https://github.com/google-research/google-research/tree/master/imghum) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/imGHUM:%20Implicit%20Generative%20Models%20of%203D%20Human%20Shape%20and%20Articulated%20Pose.pdf)
+- *Thiemo Alldieck, Hongyi Xu, Cristian Sminchisescu*
+- `2021-08-24, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation) [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Interesting and very well-written paper, I really enjoyed reading it. Interesting combination of implicit representations and 3D human modelling. The "inclusive human modelling" application is neat and important.
+```
+
+##### [21-10-02] [paper153]
+- Contextually Plausible and Diverse 3D Human Motion Prediction
+ [[pdf]](https://arxiv.org/abs/1912.08521) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Contextually%20Plausible%20and%20Diverse%203D%20Human%20Motion%20Prediction.pdf)
+- *Sadegh Aliakbarian, Fatemeh Sadat Saleh, Lars Petersson, Stephen Gould, Mathieu Salzmann*
+- `2019-12-18, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. The main idea, using a learned conditional prior p(z|c) instead of just p(z), makes sense and was shown beneficial also in "HuMoR: 3D Human Motion Model for Robust Pose Estimation". I'm however somewhat confused by their specific implementation in Section 4, doesn't seem like a standard cVAE implementation?
+```
+
+##### [21-09-24] [paper150]
+- Encoder-decoder with Multi-level Attention for 3D Human Shape and Pose Estimation
+ [[pdf]](https://arxiv.org/abs/2109.02303) [[code]](https://github.com/ziniuwan/maed) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Encoder-decoder%20with%20Multi-level%20Attention%20for%203D%20Human%20Shape%20and%20Pose%20Estimation.pdf)
+- *Ziniu Wan, Zhengjia Li, Maoqing Tian, Jianbo Liu, Shuai Yi, Hongsheng Li*
+- `2021-09-06, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and fairly interesting paper. Quite a lot of details on the attention architecture, which I personally don't find overly interesting. The experimental results are quite impressive, but I would like to see a comparison in terms of computational cost at test-time. It sounds like their method is rather slow.
+```
 
 ##### [21-09-23] [paper149]
 - Physics-based Human Motion Estimation and Synthesis from Videos
@@ -3844,6 +4132,46 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Implicit Neural Representations:
 
+##### [21-10-12] [paper162]
+- Neural Unsigned Distance Fields for Implicit Function Learning
+ [[pdf]](https://arxiv.org/abs/2010.13938) [[code]](https://github.com/jchibane/ndf/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Unsigned%20Distance%20Fields%20for%20Implicit%20Function%20Learning.pdf)
+- *Julian Chibane, Aymen Mir, Gerard Pons-Moll*
+- `2020-10-26, NeurIPS 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Interesting and very well-written paper, I really enjoyed reading it! The paper also gives a good understanding of neural implicit representations in general.
+```
+
+##### [21-10-03] [paper155]
+- imGHUM: Implicit Generative Models of 3D Human Shape and Articulated Pose
+ [[pdf]](https://arxiv.org/abs/2108.10842) [[code]](https://github.com/google-research/google-research/tree/master/imghum) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/imGHUM:%20Implicit%20Generative%20Models%20of%203D%20Human%20Shape%20and%20Articulated%20Pose.pdf)
+- *Thiemo Alldieck, Hongyi Xu, Cristian Sminchisescu*
+- `2021-08-24, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation) [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Interesting and very well-written paper, I really enjoyed reading it. Interesting combination of implicit representations and 3D human modelling. The "inclusive human modelling" application is neat and important.
+```
+
+##### [21-10-03] [paper154]
+- DI-Fusion: Online Implicit 3D Reconstruction with Deep Priors
+ [[pdf]](https://arxiv.org/abs/2012.05551) [[code]](https://github.com/huangjh-pub/di-fusion) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DI-Fusion:%20Online%20Implicit%203D%20Reconstruction%20with%20Deep%20Priors.pdf)
+- *Jiahui Huang, Shi-Sheng Huang, Haoxuan Song, Shi-Min Hu*
+- `2020-12-10, CVPR 2021`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Well-written and interesting paper, I enjoyed reading it. Neat application of implicit representations. The paper also gives a quite good overview of online 3D reconstruction in general.
+```
+
+##### [21-10-01] [paper152]
+- Local Implicit Grid Representations for 3D Scenes
+ [[pdf]](https://arxiv.org/abs/2003.08981) [[code]](https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/projects/local_implicit_grid) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Local%20Implicit%20Grid%20Representations%20for%203D%20Scenes.pdf)
+- *Chiyu Max Jiang, Avneesh Sud, Ameesh Makadia, Jingwei Huang, Matthias Nießner, Thomas Funkhouser*
+- `2020-03-19, CVPR 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Well-written and quite interesting paper. Interesting application, being able to reconstruct full 3D scenes from sparse point clouds. I didn't fully understand everything, as I don't have a particularly strong graphics background.
+```
+
 ##### [21-09-15] [paper146]
 - NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
  [[pdf]](https://arxiv.org/abs/2003.08934) [[code]](https://github.com/bmild/nerf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/NeRF:%20Representing%20Scenes%20as%20Neural%20Radiance%20Fields%20for%20View%20Synthesis.pdf)
@@ -4491,6 +4819,16 @@ Thorough experimental evaluation. Quite interesting findings.
 
 #### NeurIPS 2020:
 
+##### [21-10-12] [paper162]
+- Neural Unsigned Distance Fields for Implicit Function Learning
+ [[pdf]](https://arxiv.org/abs/2010.13938) [[code]](https://github.com/jchibane/ndf/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Unsigned%20Distance%20Fields%20for%20Implicit%20Function%20Learning.pdf)
+- *Julian Chibane, Aymen Mir, Gerard Pons-Moll*
+- `2020-10-26, NeurIPS 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Interesting and very well-written paper, I really enjoyed reading it! The paper also gives a good understanding of neural implicit representations in general.
+```
+
 ##### [21-06-14] [paper132]
 - 3D Multi-bodies: Fitting Sets of Plausible 3D Human Models to Ambiguous Image Data
  [[pdf]](https://arxiv.org/abs/2011.00980) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/3D%20Multi-bodies:%20Fitting%20Sets%20of%20Plausible%203D%20Human%20Models%20to%20Ambiguous%20Image%20Data.pdf)
@@ -4797,6 +5135,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 - `2021-02-11, ICML 2021`
 
 #### ICML 2020:
+
+
+##### [21-10-14] [paper163]
+- Learning to Simulate Complex Physics with Graph Networks
+ [[pdf]](https://arxiv.org/abs/2002.09405) [[code]](https://github.com/deepmind/deepmind-research/tree/master/learning_to_simulate) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Simulate%20Complex%20Physics%20with%20Graph%20Networks.pdf)
+- *Alvaro Sanchez-Gonzalez, Jonathan Godwin, Tobias Pfaff, Rex Ying, Jure Leskovec, Peter W. Battaglia*
+- `2020-02-21, ICML 2020`
+```
+Quite well-written and somewhat interesting paper. Cool application and a bunch of neat videos. This is not really my area, so I didn't spend too much time/energy trying to fully understand everything.
+```
 
 ##### [21-01-15] [paper115]
 - Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
@@ -5234,6 +5582,46 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 
 #### CVPR 2021:
 
+##### [21-10-08] [paper161]
+- Probabilistic 3D Human Shape and Pose Estimation from Multiple Unconstrained Images in the Wild
+ [[pdf]](https://arxiv.org/abs/2103.10978) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%203D%20Human%20Shape%20and%20Pose%20Estimation%20from%20Multiple%20Unconstrained%20Images%20in%20the%20Wild.pdf)
+- *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
+- `2021-03-19, CVPR 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. I read it mainly as background for "Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild" which is written by exactly the same authors. In this paper, they predict a single Gaussian distribution for the pose (instead of hierarchical matrix-Fisher distributions). Also, they mainly focus on the body shape. They also use silhouettes + 2D keypoint heatmaps as input (instead of edge-filters + 2D keypoint heatmaps).
+```
+
+##### [21-10-06] [paper157]
+- SMD-Nets: Stereo Mixture Density Networks
+ [[pdf]](https://arxiv.org/abs/2104.03866) [[code]](https://github.com/fabiotosi92/SMD-Nets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SMD-Nets:%20Stereo%20Mixture%20Density%20Networks.pdf)
+- *Fabio Tosi, Yiyi Liao, Carolin Schmitt, Andreas Geiger*
+- `2021-04-08, CVPR 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Well-written and interesting paper. Quite easy to read and follow, the method is clearly explained and makes intuitive sense.
+```
+
+##### [21-10-04] [paper156]
+- We are More than Our Joints: Predicting how 3D Bodies Move
+ [[pdf]](https://arxiv.org/abs/2012.00619) [[code]](https://github.com/yz-cnsdqz/MOJO-release) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/We%20are%20More%20than%20Our%20Joints:%20Predicting%20how%203D%20Bodies%20Move.pdf)
+- *Yan Zhang, Michael J. Black, Siyu Tang*
+- `2020-12-01, CVPR 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and fairly interesting paper. The marker-based representation, instead of using skeleton joints, makes sense. The recursive projection scheme also makes sense, but seems very slow (2.27 sec/frame)? I didn't quite get all the details for their DCT representation of the latent space.
+```
+
+##### [21-10-03] [paper154]
+- DI-Fusion: Online Implicit 3D Reconstruction with Deep Priors
+ [[pdf]](https://arxiv.org/abs/2012.05551) [[code]](https://github.com/huangjh-pub/di-fusion) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DI-Fusion:%20Online%20Implicit%203D%20Reconstruction%20with%20Deep%20Priors.pdf)
+- *Jiahui Huang, Shi-Sheng Huang, Haoxuan Song, Shi-Min Hu*
+- `2020-12-10, CVPR 2021`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Well-written and interesting paper, I enjoyed reading it. Neat application of implicit representations. The paper also gives a quite good overview of online 3D reconstruction in general.
+```
+
 ##### [21-06-18] [paper138]
 - Beyond Static Features for Temporally Consistent 3D Human Pose and Shape from a Video
  [[pdf]](https://arxiv.org/abs/2011.08627) [[code]](https://github.com/hongsukchoi/TCMR_RELEASE) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Beyond%20Static%20Features%20for%20Temporally%20Consistent%203D%20Human%20Pose%20and%20Shape%20from%20a%20Video.pdf)
@@ -5248,6 +5636,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 - `2020-03-23, CVPR 2021`
 
 #### CVPR 2020:
+
+##### [21-10-01] [paper152]
+- Local Implicit Grid Representations for 3D Scenes
+ [[pdf]](https://arxiv.org/abs/2003.08981) [[code]](https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/projects/local_implicit_grid) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Local%20Implicit%20Grid%20Representations%20for%203D%20Scenes.pdf)
+- *Chiyu Max Jiang, Avneesh Sud, Ameesh Makadia, Jingwei Huang, Matthias Nießner, Thomas Funkhouser*
+- `2020-03-19, CVPR 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Well-written and quite interesting paper. Interesting application, being able to reconstruct full 3D scenes from sparse point clouds. I didn't fully understand everything, as I don't have a particularly strong graphics background.
+```
 
 ##### [20-06-18] [paper102]
 - Joint Training of Variational Auto-Encoder and Latent Energy-Based Model [[pdf]](https://arxiv.org/abs/2006.06059) [[code]](https://hthth0801.github.io/jointLearning/) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.md)
@@ -5541,6 +5939,56 @@ All parts of the proposed method are clearly explained and relatively easy to un
 
 #### ICCV 2021:
 
+##### [21-10-07] [paper159]
+- Learning Motion Priors for 4D Human Body Capture in 3D Scenes
+ [[pdf]](https://arxiv.org/abs/2108.10399) [[code]](https://github.com/sanweiliti/LEMO) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Motion%20Priors%20for%204D%20Human%20Body%20Capture%20in%203D%20Scenes.pdf)
+- *Siwei Zhang, Yan Zhang, Federica Bogo, Marc Pollefeys, Siyu Tang*
+- `2021-08-23, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. I didn't fully understand everything though, and it feels like I probably don't know this specific setting/problem well enough to fully appreciate the paper. 
+```
+
+##### [21-10-07] [paper158]
+- Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild
+ [[pdf]](https://arxiv.org/abs/2110.00990) [[code]](https://github.com/akashsengupta1997/HierarchicalProbabilistic3DHuman) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20Kinematic%20Probability%20Distributions%20for%203D%20Human%20Shape%20and%20Pose%20Estimation%20from%20Images%20in%20the%20Wild.pdf)
+- *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
+- `2021-10-03, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and very interesting paper, I enjoyed reading it. The hierarchical distribution prediction approach makes sense and consistently outperforms the independent baseline. Using matrix-Fisher distributions makes sense. The synthetic training framework and the input representation of edge-filters + 2D keypoint heatmaps are both interesting.
+```
+
+##### [21-10-03] [paper155]
+- imGHUM: Implicit Generative Models of 3D Human Shape and Articulated Pose
+ [[pdf]](https://arxiv.org/abs/2108.10842) [[code]](https://github.com/google-research/google-research/tree/master/imghum) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/imGHUM:%20Implicit%20Generative%20Models%20of%203D%20Human%20Shape%20and%20Articulated%20Pose.pdf)
+- *Thiemo Alldieck, Hongyi Xu, Cristian Sminchisescu*
+- `2021-08-24, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation) [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Interesting and very well-written paper, I really enjoyed reading it. Interesting combination of implicit representations and 3D human modelling. The "inclusive human modelling" application is neat and important.
+```
+
+##### [21-10-02] [paper153]
+- Contextually Plausible and Diverse 3D Human Motion Prediction
+ [[pdf]](https://arxiv.org/abs/1912.08521) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Contextually%20Plausible%20and%20Diverse%203D%20Human%20Motion%20Prediction.pdf)
+- *Sadegh Aliakbarian, Fatemeh Sadat Saleh, Lars Petersson, Stephen Gould, Mathieu Salzmann*
+- `2019-12-18, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. The main idea, using a learned conditional prior p(z|c) instead of just p(z), makes sense and was shown beneficial also in "HuMoR: 3D Human Motion Model for Robust Pose Estimation". I'm however somewhat confused by their specific implementation in Section 4, doesn't seem like a standard cVAE implementation?
+```
+
+##### [21-09-24] [paper150]
+- Encoder-decoder with Multi-level Attention for 3D Human Shape and Pose Estimation
+ [[pdf]](https://arxiv.org/abs/2109.02303) [[code]](https://github.com/ziniuwan/maed) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Encoder-decoder%20with%20Multi-level%20Attention%20for%203D%20Human%20Shape%20and%20Pose%20Estimation.pdf)
+- *Ziniu Wan, Zhengjia Li, Maoqing Tian, Jianbo Liu, Shuai Yi, Hongsheng Li*
+- `2021-09-06, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and fairly interesting paper. Quite a lot of details on the attention architecture, which I personally don't find overly interesting. The experimental results are quite impressive, but I would like to see a comparison in terms of computational cost at test-time. It sounds like their method is rather slow.
+```
+
 ##### [21-09-23] [paper149]
 - Physics-based Human Motion Estimation and Synthesis from Videos
  [[pdf]](https://arxiv.org/abs/2109.09913) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Physics-based%20Human%20Motion%20Estimation%20and%20Synthesis%20from%20Videos.pdf)
@@ -5604,6 +6052,77 @@ And while it's true that their performance is much better than for direct regres
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### BMVC:
+
+- [BMVC 2020](#bmvc-2020)
+
+#### BMVC 2020:
+
+##### [21-10-08] [paper160]
+- Synthetic Training for Accurate 3D Human Pose and Shape Estimation in the Wild
+ [[pdf]](https://arxiv.org/abs/2009.10013) [[code]](https://github.com/akashsengupta1997/STRAPS-3DHumanShapePose) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Synthetic%20Training%20for%20Accurate%203D%20Human%20Pose%20and%20Shape%20Estimation%20in%20the%20Wild.pdf)
+- *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
+- `2020-09-21, BMVC 2020`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and farily interesting paper. I read it mainly as background for "Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild" which is written by exactly the same authors. In this paper, they just use direct regression. They also use silhouettes + 2D keypoint heatmaps as input (instead of edge-filters + 2D keypoint heatmaps).
+```
+
+****
+****
 
 
 
@@ -6056,6 +6575,76 @@ And while it's true that their performance is much better than for direct regres
 
 #### 2021:
 
+##### [21-10-28] [paper165]
+- Deep Classifiers with Label Noise Modeling and Distance Awareness
+ [[pdf]](https://arxiv.org/abs/2110.02609#) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Classifiers%20with%20Label%20Noise%20Modeling%20and%20Distance%20Awareness.pdf)
+- *Vincent Fortuin, Mark Collier, Florian Wenzel, James Allingham, Jeremiah Liu, Dustin Tran, Balaji Lakshminarayanan, Jesse Berent, Rodolphe Jenatton, Effrosyni Kokiopoulou*
+- `2021-10-06`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Quite interesting and well-written paper. I find the distance-awareness property more interesting than modelling of input/class-dependent label noise, so the proposed method (HetSNGP) is perhaps not overly interesting compared to the SNGP baseline.
+```
+
+##### [21-10-21] [paper164]
+- Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets
+ [[pdf]](https://mathai-iclr.github.io/papers/papers/MATHAI_29_paper.pdf) [[code]](https://github.com/openai/grok) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Grokking:%20Generalization%20Beyond%20Overfitting%20On%20Small%20Algorithmic%20Datasets.pdf)
+- *Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra*
+- `2021-05, ICLR Workshops 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Somewhat interesting paper. The phenomena observed in Figure 1, that validation accuracy suddenly increases long after almost perfect fitting of the training data has been achieved is quite interesting. I didn't quite understand the datasets they use (binary operation tables).
+```
+
+##### [21-10-08] [paper161]
+- Probabilistic 3D Human Shape and Pose Estimation from Multiple Unconstrained Images in the Wild
+ [[pdf]](https://arxiv.org/abs/2103.10978) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%203D%20Human%20Shape%20and%20Pose%20Estimation%20from%20Multiple%20Unconstrained%20Images%20in%20the%20Wild.pdf)
+- *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
+- `2021-03-19, CVPR 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. I read it mainly as background for "Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild" which is written by exactly the same authors. In this paper, they predict a single Gaussian distribution for the pose (instead of hierarchical matrix-Fisher distributions). Also, they mainly focus on the body shape. They also use silhouettes + 2D keypoint heatmaps as input (instead of edge-filters + 2D keypoint heatmaps).
+```
+
+##### [21-10-07] [paper159]
+- Learning Motion Priors for 4D Human Body Capture in 3D Scenes
+ [[pdf]](https://arxiv.org/abs/2108.10399) [[code]](https://github.com/sanweiliti/LEMO) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Motion%20Priors%20for%204D%20Human%20Body%20Capture%20in%203D%20Scenes.pdf)
+- *Siwei Zhang, Yan Zhang, Federica Bogo, Marc Pollefeys, Siyu Tang*
+- `2021-08-23, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. I didn't fully understand everything though, and it feels like I probably don't know this specific setting/problem well enough to fully appreciate the paper. 
+```
+
+##### [21-10-07] [paper158]
+- Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild
+ [[pdf]](https://arxiv.org/abs/2110.00990) [[code]](https://github.com/akashsengupta1997/HierarchicalProbabilistic3DHuman) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20Kinematic%20Probability%20Distributions%20for%203D%20Human%20Shape%20and%20Pose%20Estimation%20from%20Images%20in%20the%20Wild.pdf)
+- *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
+- `2021-10-03, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and very interesting paper, I enjoyed reading it. The hierarchical distribution prediction approach makes sense and consistently outperforms the independent baseline. Using matrix-Fisher distributions makes sense. The synthetic training framework and the input representation of edge-filters + 2D keypoint heatmaps are both interesting.
+```
+
+##### [21-10-06] [paper157]
+- SMD-Nets: Stereo Mixture Density Networks
+ [[pdf]](https://arxiv.org/abs/2104.03866) [[code]](https://github.com/fabiotosi92/SMD-Nets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SMD-Nets:%20Stereo%20Mixture%20Density%20Networks.pdf)
+- *Fabio Tosi, Yiyi Liao, Carolin Schmitt, Andreas Geiger*
+- `2021-04-08, CVPR 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Well-written and interesting paper. Quite easy to read and follow, the method is clearly explained and makes intuitive sense.
+```
+
+##### [21-10-03] [paper155]
+- imGHUM: Implicit Generative Models of 3D Human Shape and Articulated Pose
+ [[pdf]](https://arxiv.org/abs/2108.10842) [[code]](https://github.com/google-research/google-research/tree/master/imghum) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/imGHUM:%20Implicit%20Generative%20Models%20of%203D%20Human%20Shape%20and%20Articulated%20Pose.pdf)
+- *Thiemo Alldieck, Hongyi Xu, Cristian Sminchisescu*
+- `2021-08-24, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation) [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Interesting and very well-written paper, I really enjoyed reading it. Interesting combination of implicit representations and 3D human modelling. The "inclusive human modelling" application is neat and important.
+```
+
 ##### [21-09-23] [paper149]
 - Physics-based Human Motion Estimation and Synthesis from Videos
  [[pdf]](https://arxiv.org/abs/2109.09913) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Physics-based%20Human%20Motion%20Estimation%20and%20Synthesis%20from%20Videos.pdf)
@@ -6178,6 +6767,75 @@ Thorough experimental evaluation. Quite interesting findings.
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 #### 2020:
+
+##### [21-11-11] [paper166]
+- Transferring Inductive Biases through Knowledge Distillation
+ [[pdf]](https://arxiv.org/abs/2006.00555) [[code]](https://github.com/samiraabnar/Reflect) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transferring%20Inductive%20Biases%20through%20Knowledge%20Distillation.pdf)
+- *Samira Abnar, Mostafa Dehghani, Willem Zuidema*
+- `2020-05-31`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite well-written and somewhat interesting paper. I'm not very familiar with this area. I didn't spend too much time trying to properly evaluate the significance of the findings.
+```
+
+##### [21-10-14] [paper163]
+- Learning to Simulate Complex Physics with Graph Networks
+ [[pdf]](https://arxiv.org/abs/2002.09405) [[code]](https://github.com/deepmind/deepmind-research/tree/master/learning_to_simulate) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Simulate%20Complex%20Physics%20with%20Graph%20Networks.pdf)
+- *Alvaro Sanchez-Gonzalez, Jonathan Godwin, Tobias Pfaff, Rex Ying, Jure Leskovec, Peter W. Battaglia*
+- `2020-02-21, ICML 2020`
+```
+Quite well-written and somewhat interesting paper. Cool application and a bunch of neat videos. This is not really my area, so I didn't spend too much time/energy trying to fully understand everything.
+```
+
+##### [21-10-12] [paper162]
+- Neural Unsigned Distance Fields for Implicit Function Learning
+ [[pdf]](https://arxiv.org/abs/2010.13938) [[code]](https://github.com/jchibane/ndf/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Unsigned%20Distance%20Fields%20for%20Implicit%20Function%20Learning.pdf)
+- *Julian Chibane, Aymen Mir, Gerard Pons-Moll*
+- `2020-10-26, NeurIPS 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Interesting and very well-written paper, I really enjoyed reading it! The paper also gives a good understanding of neural implicit representations in general.
+```
+
+##### [21-10-08] [paper160]
+- Synthetic Training for Accurate 3D Human Pose and Shape Estimation in the Wild
+ [[pdf]](https://arxiv.org/abs/2009.10013) [[code]](https://github.com/akashsengupta1997/STRAPS-3DHumanShapePose) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Synthetic%20Training%20for%20Accurate%203D%20Human%20Pose%20and%20Shape%20Estimation%20in%20the%20Wild.pdf)
+- *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
+- `2020-09-21, BMVC 2020`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and farily interesting paper. I read it mainly as background for "Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild" which is written by exactly the same authors. In this paper, they just use direct regression. They also use silhouettes + 2D keypoint heatmaps as input (instead of edge-filters + 2D keypoint heatmaps).
+```
+
+##### [21-10-04] [paper156]
+- We are More than Our Joints: Predicting how 3D Bodies Move
+ [[pdf]](https://arxiv.org/abs/2012.00619) [[code]](https://github.com/yz-cnsdqz/MOJO-release) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/We%20are%20More%20than%20Our%20Joints:%20Predicting%20how%203D%20Bodies%20Move.pdf)
+- *Yan Zhang, Michael J. Black, Siyu Tang*
+- `2020-12-01, CVPR 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and fairly interesting paper. The marker-based representation, instead of using skeleton joints, makes sense. The recursive projection scheme also makes sense, but seems very slow (2.27 sec/frame)? I didn't quite get all the details for their DCT representation of the latent space.
+```
+
+##### [21-10-03] [paper154]
+- DI-Fusion: Online Implicit 3D Reconstruction with Deep Priors
+ [[pdf]](https://arxiv.org/abs/2012.05551) [[code]](https://github.com/huangjh-pub/di-fusion) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DI-Fusion:%20Online%20Implicit%203D%20Reconstruction%20with%20Deep%20Priors.pdf)
+- *Jiahui Huang, Shi-Sheng Huang, Haoxuan Song, Shi-Min Hu*
+- `2020-12-10, CVPR 2021`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Well-written and interesting paper, I enjoyed reading it. Neat application of implicit representations. The paper also gives a quite good overview of online 3D reconstruction in general.
+```
+
+##### [21-10-01] [paper152]
+- Local Implicit Grid Representations for 3D Scenes
+ [[pdf]](https://arxiv.org/abs/2003.08981) [[code]](https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/projects/local_implicit_grid) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Local%20Implicit%20Grid%20Representations%20for%203D%20Scenes.pdf)
+- *Chiyu Max Jiang, Avneesh Sud, Ameesh Makadia, Jingwei Huang, Matthias Nießner, Thomas Funkhouser*
+- `2020-03-19, CVPR 2020`
+- [[Implicit Neural Representations]](#implicit-neural-representations)
+```
+Well-written and quite interesting paper. Interesting application, being able to reconstruct full 3D scenes from sparse point clouds. I didn't fully understand everything, as I don't have a particularly strong graphics background.
+```
 
 ##### [21-09-15] [paper146]
 - NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
@@ -6388,6 +7046,16 @@ All parts of the proposed method are clearly explained and relatively easy to un
 - [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
 
 #### 2019:
+
+##### [21-10-02] [paper153]
+- Contextually Plausible and Diverse 3D Human Motion Prediction
+ [[pdf]](https://arxiv.org/abs/1912.08521) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Contextually%20Plausible%20and%20Diverse%203D%20Human%20Motion%20Prediction.pdf)
+- *Sadegh Aliakbarian, Fatemeh Sadat Saleh, Lars Petersson, Stephen Gould, Mathieu Salzmann*
+- `2019-12-18, ICCV 2021`
+- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+```
+Well-written and quite interesting paper. The main idea, using a learned conditional prior p(z|c) instead of just p(z), makes sense and was shown beneficial also in "HuMoR: 3D Human Motion Model for Robust Pose Estimation". I'm however somewhat confused by their specific implementation in Section 4, doesn't seem like a standard cVAE implementation?
+```
 
 ##### [21-08-27] [paper142]
 - DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation
@@ -6853,6 +7521,15 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - `2017-10-05, NeurIPS2017`
 
 #### 2016:
+
+##### [21-09-29] [paper151]
+- Information Dropout: Learning Optimal Representations Through Noisy Computation
+ [[pdf]](https://arxiv.org/abs/1611.01353) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Information%20Dropout:%20Learning%20Optimal%20Representations%20Through%20Noisy%20Computation.pdf)
+- *Alessandro Achille, Stefano Soatto*
+- `2016-11-04`
+```
+Well-written and somewhat interesting paper overall. I'm not overly familiar with the topics of the paper, and didn't fully understand everything. Some results and insights seem quite interesting/neat, but I'm not sure exactly what the main takeaways should be, or how significant they actually are.
+```
 
 ##### [21-06-18] [paper139]
 - Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image
