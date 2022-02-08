@@ -1614,7 +1614,15 @@ Thorough experimental evaluation. Quite interesting findings.
 ****
 ### Out-of-Distribution Detection:
 
-TODO
+##### [21-09-21] [paper148]
+- Hierarchical VAEs Know What They Don't Know
+ [[pdf]](https://arxiv.org/abs/2102.08248) [[code]](https://github.com/JakobHavtorn/hvae-oodd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20VAEs%20Know%20What%20They%20Don't%20Know.pdf)
+- *Jakob D. Havtorn, Jes Frellsen, Søren Hauberg, Lars Maaløe*
+- `2021-02-16, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[VAEs]](#vaes)
+```
+Very well-written and quite interesting paper, I enjoyed reading it. Everything is quite well-explained, it's relatively easy to follow. The paper provides a good overview of the out-of-distribution detection problem and current methods.
+```
 ****
 ****
 
