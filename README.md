@@ -8,6 +8,7 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 - - [Ensembling](#ensembling)
 - - [Stochastic Gradient MCMC](#stochastic-gradient-mcmc)
 - - [Variational Inference](#variational-inference)
+- [Out-of-Distribution Detection](#out-of-distribution-detection)
 - [Theoretical Properties of Deep Learning](#theoretical-properties-of-deep-learning)
 - [VAEs](#vaes)
 - [Normalizing Flows](#normalizing-flows)
@@ -1554,6 +1555,111 @@ Thorough experimental evaluation. Quite interesting findings.
 
 ****
 ****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### Out-of-Distribution Detection:
+
+TODO
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
