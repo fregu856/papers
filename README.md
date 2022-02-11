@@ -1644,6 +1644,16 @@ Thorough experimental evaluation. Quite interesting findings.
 ****
 ### Out-of-Distribution Detection:
 
+##### [21-12-03] [paper170]
+- Reliable and Trustworthy Machine Learning for Health Using Dataset Shift Detection
+ [[pdf]](https://arxiv.org/abs/2110.14019) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Reliable%20and%20Trustworthy%20Machine%20Learning%20for%20Health%20Using%20Dataset%20Shift%20Detection.pdf)
+- *Chunjong Park, Anas Awadalla, Tadayoshi Kohno, Shwetak Patel*
+- `2021-10-26, NeurIPS 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and very well-written paper. Gives a good overview of the field and contains a lot of seemingly useful references. The evaluation is very comprehensive. The user study is quite neat.
+```
+
 ##### [21-11-25] [paper168]
 - On the Importance of Gradients for Detecting Distributional Shifts in the Wild
  [[pdf]](https://arxiv.org/abs/2110.00218) [[code]](https://github.com/deeplearning-wisc/gradnorm_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Importance%20of%20Gradients%20for%20Detecting%20Distributional%20Shifts%20in%20the%20Wild.pdf)
@@ -4978,6 +4988,16 @@ All parts of the proposed method are clearly explained and relatively easy to un
 
 #### NeurIPS 2021:
 
+##### [21-12-03] [paper170]
+- Reliable and Trustworthy Machine Learning for Health Using Dataset Shift Detection
+ [[pdf]](https://arxiv.org/abs/2110.14019) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Reliable%20and%20Trustworthy%20Machine%20Learning%20for%20Health%20Using%20Dataset%20Shift%20Detection.pdf)
+- *Chunjong Park, Anas Awadalla, Tadayoshi Kohno, Shwetak Patel*
+- `2021-10-26, NeurIPS 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and very well-written paper. Gives a good overview of the field and contains a lot of seemingly useful references. The evaluation is very comprehensive. The user study is quite neat.
+```
+
 ##### [21-12-02] [paper169]
 - An Information-theoretic Approach to Distribution Shifts
  [[pdf]](https://arxiv.org/abs/2106.03783) [[code]](https://github.com/mfederici/dsit) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Information-theoretic%20Approach%20to%20Distribution%20Shifts.pdf)
@@ -6767,6 +6787,16 @@ Well-written and farily interesting paper. I read it mainly as background for "H
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-12-03] [paper170]
+- Reliable and Trustworthy Machine Learning for Health Using Dataset Shift Detection
+ [[pdf]](https://arxiv.org/abs/2110.14019) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Reliable%20and%20Trustworthy%20Machine%20Learning%20for%20Health%20Using%20Dataset%20Shift%20Detection.pdf)
+- *Chunjong Park, Anas Awadalla, Tadayoshi Kohno, Shwetak Patel*
+- `2021-10-26, NeurIPS 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and very well-written paper. Gives a good overview of the field and contains a lot of seemingly useful references. The evaluation is very comprehensive. The user study is quite neat.
+```
 
 ##### [21-12-02] [paper169]
 - An Information-theoretic Approach to Distribution Shifts
