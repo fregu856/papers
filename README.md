@@ -109,6 +109,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-02-10] [paper175]
+- Natural Posterior Network: Deep Bayesian Predictive Uncertainty for Exponential Family Distributions
+ [[pdf]](https://openreview.net/forum?id=tV3N0DWMxCg) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Natural%20Posterior%20Network:%20Deep%20Bayesian%20Predictive%20Uncertainty%20for%20Exponential%20Family%20Distributions.pdf)
+- *Bertrand Charpentier, Oliver Borchert, Daniel Zügner, Simon Geisler, Stephan Günnemann*
+- `2021-09-29, ICLR 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and well-written paper. I didn't quite understand all the details, I'll have to read a couple of related/background papers to be able to properly appreciate and evaluate the proposed method. I definitely feel like I would like to read up on this family of methods. Extensive experimental evaluation, and the results seem promising overall.
+```
+
 ##### [22-02-09] [paper174]
 - Energy-based Out-of-distribution Detection
  [[pdf]](https://arxiv.org/abs/2010.03759) [[code]](https://github.com/wetliu/energy_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Energy-based%20Out-of-distribution%20Detection.pdf)
