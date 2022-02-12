@@ -109,6 +109,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-02-12] [paper177]
+- Deep Evidential Regression
+ [[pdf]](https://arxiv.org/abs/1910.02600) [[code]](https://github.com/aamini/evidential-deep-learning) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Evidential%20Regression.pdf)
+- *Alexander Amini, Wilko Schwarting, Ava Soleimany, Daniela Rus*
+- `2019-10-07, NeurIPS 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Well-written and interesting paper. This is a good paper to read before "Natural Posterior Network: Deep Bayesian Predictive Uncertainty for Exponential Family Distributions". Their proposed method seems to have similar / slightly worse performance than a small ensemble, so the only real advantage is that it's faster at time-time? This is of course very important in many applications, but not in all. The performance also seems quite sensitive to the choice of lambda in the combined loss function (Equation (10)), according to Figure S2 in the appendix?
+```
+
 ##### [22-02-11] [paper176]
 - On Out-of-distribution Detection with Energy-based Models
  [[pdf]](https://arxiv.org/abs/2107.08785) [[code]](https://github.com/selflein/EBM-OOD-Detection) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20Out-of-distribution%20Detection%20with%20Energy-based%20Models.pdf)
