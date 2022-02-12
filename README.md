@@ -109,6 +109,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-02-09] [paper174]
+- Energy-based Out-of-distribution Detection
+ [[pdf]](https://arxiv.org/abs/2010.03759) [[code]](https://github.com/wetliu/energy_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Energy-based%20Out-of-distribution%20Detection.pdf)
+- *Weitang Liu, Xiaoyun Wang, John D. Owens, Yixuan Li*
+- `2020-10-08, NeurIPS 2020`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and well-written paper. The proposed method is quite clearly explained and makes intuitive sense (at least if you're familiar with EBMs). Compared to using the softmax score, the performance does seem to improve consistently. Seems like fine-tuning on an "auxiliary outlier dataset" is required to get really good performance though, which you can't really assume to have access to in real-world problems, I suppose?
+```
+
 ##### [22-02-09] [paper173]
 - VOS: Learning What You Don't Know by Virtual Outlier Synthesis
  [[pdf]](https://arxiv.org/abs/2202.01197) [[code]](https://github.com/deeplearning-wisc/vos) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VOS:%20Learning%20What%20You%20Don't%20Know%20by%20Virtual%20Outlier%20Synthesis.pdf)
