@@ -8,11 +8,12 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 - - [Ensembling](#ensembling)
 - - [Stochastic Gradient MCMC](#stochastic-gradient-mcmc)
 - - [Variational Inference](#variational-inference)
+- [Out-of-Distribution Detection](#out-of-distribution-detection)
 - [Theoretical Properties of Deep Learning](#theoretical-properties-of-deep-learning)
 - [VAEs](#vaes)
 - [Normalizing Flows](#normalizing-flows)
 - [Autonomous Driving](#autonomous-driving)
-- [Medical Imaging](#medical-imaging)
+- [Medical ML](#medical-ml)
 - [Object Detection](#object-detection)
 - [3D Object Detection](#3d-object-detection)
 - [3D Multi-Object Tracking](#3d-multi-object-tracking)
@@ -29,6 +30,7 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 - [SysCon Deep Learning Reading Group](#syscon-deep-learning-reading-group)
 - [SysCon Monte Carlo Reading Group](#syscon-monte-carlo-reading-group)
 - [Papers by Year](#papers-by-year)
+- - [2022](#2022)
 - - [2021](#2021)
 - - [2020](#2020)
 - - [2019](#2019)
@@ -61,6 +63,7 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 - - [ICML 2014](#icml-2014)
 - - [ICML 2011](#icml-2011)
 - [ICLR](#iclr)
+- - [ICLR 2022](#iclr-2022)
 - - [ICLR 2021](#iclr-2021)
 - - [ICLR 2020](#iclr-2020)
 - - [ICLR 2019](#iclr-2019)
@@ -98,12 +101,84 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 ****
 ### All Papers:
 
+- [Papers Read in 2022](#papers-read-in-2022)
 - [Papers Read in 2021](#papers-read-in-2021)
 - [Papers Read in 2020](#papers-read-in-2020)
 - [Papers Read in 2019](#papers-read-in-2019)
 - [Papers Read in 2018](#papers-read-in-2018)
 
+#### Papers Read in 2022:
+
+##### [22-02-09] [paper173]
+- VOS: Learning What You Don't Know by Virtual Outlier Synthesis
+ [[pdf]](https://arxiv.org/abs/2202.01197) [[code]](https://github.com/deeplearning-wisc/vos) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VOS:%20Learning%20What%20You%20Don't%20Know%20by%20Virtual%20Outlier%20Synthesis.pdf)
+- *Xuefeng Du, Zhaoning Wang, Mu Cai, Yixuan Li*
+- `2022-02-02, ICLR 2022`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and quite well-written paper. I did find it somewhat difficult to understand certain parts though, they could perhaps be explained more clearly. The results seem quite impressive (they do consistently outperform all baselines), but I find it interesting that the "Gaussian noise" baseline in Table 2 performs that well? I should probably have read "Energy-based Out-of-distribution Detection" before reading this paper.
+```
+
 #### Papers Read in 2021:
+
+##### [21-12-16] [paper172]
+- Efficiently Modeling Long Sequences with Structured State Spaces
+ [[pdf]](https://arxiv.org/abs/2111.00396) [[code]](https://github.com/HazyResearch/state-spaces) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Efficiently%20Modeling%20Long%20Sequences%20with%20Structured%20State%20Spaces.pdf)
+- *Albert Gu, Karan Goel, Christopher Ré*
+- `2021-10-31, ICLR 2022`
+- [[Sequence Modeling]](#sequence-modeling)
+```
+Very interesting and quite well-written paper. Kind of neat/fun to see state-space models being used. The experimental results seem very impressive!? I didn't fully understand everything in Section 3. I had to read Section 3.4 a couple of times to understand how the parameterization actually works in practice (you have H state-space models, one for each feature dimension, so that you can map a sequence of feature vectors to another sequence of feature vectors) (and you can then also have multiple such layers of state-space models, mapping sequence --> sequence --> sequence --> ....).
+```
+
+##### [21-12-09] [paper171]
+- Periodic Activation Functions Induce Stationarity
+ [[pdf]](https://arxiv.org/abs/2110.13572) [[code]](https://github.com/AaltoML/PeriodicBNN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Periodic%20Activation%20Functions%20Induce%20Stationarity.pdf)
+- *Lassi Meronen, Martin Trapp, Arno Solin*
+- `2021-10-26, NeurIPS 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. Quite a heavy read, probably need to be rather familiar with GPs to properly understand/appreciate everything. Definitely check Appendix D, it gives a better understanding of how the proposed method is applied in practice. I'm not quite sure how strong/impressive the experimental results actually are. Also seems like the method could be a bit inconvenient to implement/use?
+```
+
+##### [21-12-03] [paper170]
+- Reliable and Trustworthy Machine Learning for Health Using Dataset Shift Detection
+ [[pdf]](https://arxiv.org/abs/2110.14019) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Reliable%20and%20Trustworthy%20Machine%20Learning%20for%20Health%20Using%20Dataset%20Shift%20Detection.pdf)
+- *Chunjong Park, Anas Awadalla, Tadayoshi Kohno, Shwetak Patel*
+- `2021-10-26, NeurIPS 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Interesting and very well-written paper. Gives a good overview of the field and contains a lot of seemingly useful references. The evaluation is very comprehensive. The user study is quite neat.
+```
+
+##### [21-12-02] [paper169]
+- An Information-theoretic Approach to Distribution Shifts
+ [[pdf]](https://arxiv.org/abs/2106.03783) [[code]](https://github.com/mfederici/dsit) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Information-theoretic%20Approach%20to%20Distribution%20Shifts.pdf)
+- *Marco Federici, Ryota Tomioka, Patrick Forré*
+- `2021-06-07, NeurIPS 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite well-written paper overall that seemed interesting, but I found it very difficult to properly understand everything. Thus, I can't really tell how interesting/significant their analysis actually is.
+```
+
+##### [21-11-25] [paper168]
+- On the Importance of Gradients for Detecting Distributional Shifts in the Wild
+ [[pdf]](https://arxiv.org/abs/2110.00218) [[code]](https://github.com/deeplearning-wisc/gradnorm_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Importance%20of%20Gradients%20for%20Detecting%20Distributional%20Shifts%20in%20the%20Wild.pdf)
+- *Rui Huang, Andrew Geng, Yixuan Li*
+- `2021-10-01, NeurIPS 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. The experimental results do seem promising. However, I don't quite get why the proposed method intuitively makes sense, why is it better to only use the parameters of the final network layer?
+```
+
+##### [21-11-18] [paper167]
+- Masked Autoencoders Are Scalable Vision Learners
+ [[pdf]](https://arxiv.org/abs/2111.06377) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Masked%20Autoencoders%20Are%20Scalable%20Vision%20Learners.pdf)
+- *Kaiming He, Xinlei Chen, Saining Xie, Yanghao Li, Piotr Dollár, Ross Girshick*
+- `2021-11-11`
+```
+Interesting and well-written paper. The proposed method is simple and makes a lot of intuitive sense, which is rather satisfying. After page 4, there's mostly just detailed ablations and results.
+```
 
 ##### [21-11-11] [paper166]
 - Transferring Inductive Biases through Knowledge Distillation
@@ -1232,6 +1307,16 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Uncertainty Estimation:
 
+##### [21-12-09] [paper171]
+- Periodic Activation Functions Induce Stationarity
+ [[pdf]](https://arxiv.org/abs/2110.13572) [[code]](https://github.com/AaltoML/PeriodicBNN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Periodic%20Activation%20Functions%20Induce%20Stationarity.pdf)
+- *Lassi Meronen, Martin Trapp, Arno Solin*
+- `2021-10-26, NeurIPS 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. Quite a heavy read, probably need to be rather familiar with GPs to properly understand/appreciate everything. Definitely check Appendix D, it gives a better understanding of how the proposed method is applied in practice. I'm not quite sure how strong/impressive the experimental results actually are. Also seems like the method could be a bit inconvenient to implement/use?
+```
+
 ##### [21-10-28] [paper165]
 - Deep Classifiers with Label Noise Modeling and Distance Awareness
  [[pdf]](https://arxiv.org/abs/2110.02609#) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Classifiers%20with%20Label%20Noise%20Modeling%20and%20Distance%20Awareness.pdf)
@@ -1595,8 +1680,171 @@ Thorough experimental evaluation. Quite interesting findings.
 
 
 
+
+
+
+
+
+
+****
+### Out-of-Distribution Detection:
+
+##### [22-02-09] [paper173]
+- VOS: Learning What You Don't Know by Virtual Outlier Synthesis
+ [[pdf]](https://arxiv.org/abs/2202.01197) [[code]](https://github.com/deeplearning-wisc/vos) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VOS:%20Learning%20What%20You%20Don't%20Know%20by%20Virtual%20Outlier%20Synthesis.pdf)
+- *Xuefeng Du, Zhaoning Wang, Mu Cai, Yixuan Li*
+- `2022-02-02, ICLR 2022`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and quite well-written paper. I did find it somewhat difficult to understand certain parts though, they could perhaps be explained more clearly. The results seem quite impressive (they do consistently outperform all baselines), but I find it interesting that the "Gaussian noise" baseline in Table 2 performs that well? I should probably have read "Energy-based Out-of-distribution Detection" before reading this paper.
+```
+
+##### [21-12-09] [paper171]
+- Periodic Activation Functions Induce Stationarity
+ [[pdf]](https://arxiv.org/abs/2110.13572) [[code]](https://github.com/AaltoML/PeriodicBNN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Periodic%20Activation%20Functions%20Induce%20Stationarity.pdf)
+- *Lassi Meronen, Martin Trapp, Arno Solin*
+- `2021-10-26, NeurIPS 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. Quite a heavy read, probably need to be rather familiar with GPs to properly understand/appreciate everything. Definitely check Appendix D, it gives a better understanding of how the proposed method is applied in practice. I'm not quite sure how strong/impressive the experimental results actually are. Also seems like the method could be a bit inconvenient to implement/use?
+```
+
+##### [21-12-03] [paper170]
+- Reliable and Trustworthy Machine Learning for Health Using Dataset Shift Detection
+ [[pdf]](https://arxiv.org/abs/2110.14019) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Reliable%20and%20Trustworthy%20Machine%20Learning%20for%20Health%20Using%20Dataset%20Shift%20Detection.pdf)
+- *Chunjong Park, Anas Awadalla, Tadayoshi Kohno, Shwetak Patel*
+- `2021-10-26, NeurIPS 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and very well-written paper. Gives a good overview of the field and contains a lot of seemingly useful references. The evaluation is very comprehensive. The user study is quite neat.
+```
+
+##### [21-11-25] [paper168]
+- On the Importance of Gradients for Detecting Distributional Shifts in the Wild
+ [[pdf]](https://arxiv.org/abs/2110.00218) [[code]](https://github.com/deeplearning-wisc/gradnorm_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Importance%20of%20Gradients%20for%20Detecting%20Distributional%20Shifts%20in%20the%20Wild.pdf)
+- *Rui Huang, Andrew Geng, Yixuan Li*
+- `2021-10-01, NeurIPS 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. The experimental results do seem promising. However, I don't quite get why the proposed method intuitively makes sense, why is it better to only use the parameters of the final network layer?
+```
+
+##### [21-09-21] [paper148]
+- Hierarchical VAEs Know What They Don't Know
+ [[pdf]](https://arxiv.org/abs/2102.08248) [[code]](https://github.com/JakobHavtorn/hvae-oodd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20VAEs%20Know%20What%20They%20Don't%20Know.pdf)
+- *Jakob D. Havtorn, Jes Frellsen, Søren Hauberg, Lars Maaløe*
+- `2021-02-16, ICML 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[VAEs]](#vaes)
+```
+Very well-written and quite interesting paper, I enjoyed reading it. Everything is quite well-explained, it's relatively easy to follow. The paper provides a good overview of the out-of-distribution detection problem and current methods.
+```
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ****
 ### Theoretical Properties of Deep Learning:
+
+##### [21-12-02] [paper169]
+- An Information-theoretic Approach to Distribution Shifts
+ [[pdf]](https://arxiv.org/abs/2106.03783) [[code]](https://github.com/mfederici/dsit) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Information-theoretic%20Approach%20to%20Distribution%20Shifts.pdf)
+- *Marco Federici, Ryota Tomioka, Patrick Forré*
+- `2021-06-07, NeurIPS 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite well-written paper overall that seemed interesting, but I found it very difficult to properly understand everything. Thus, I can't really tell how interesting/significant their analysis actually is.
+```
 
 ##### [21-11-11] [paper166]
 - Transferring Inductive Biases through Knowledge Distillation
@@ -2111,7 +2359,17 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 
 
 ****
-### Medical Imaging:
+### Medical ML:
+
+##### [21-12-03] [paper170]
+- Reliable and Trustworthy Machine Learning for Health Using Dataset Shift Detection
+ [[pdf]](https://arxiv.org/abs/2110.14019) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Reliable%20and%20Trustworthy%20Machine%20Learning%20for%20Health%20Using%20Dataset%20Shift%20Detection.pdf)
+- *Chunjong Park, Anas Awadalla, Tadayoshi Kohno, Shwetak Patel*
+- `2021-10-26, NeurIPS 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Interesting and very well-written paper. Gives a good overview of the field and contains a lot of seemingly useful references. The evaluation is very comprehensive. The user study is quite neat.
+```
 
 ##### [18-11-22] [paper22]
 -  A Probabilistic U-Net for Segmentation of Ambiguous Images [[pdf]](https://arxiv.org/abs/1806.05034) [[code]](https://github.com/SimonKohl/probabilistic_unet) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Probabilistic%20U-Net%20for%20Segmentation%20of%20Ambiguous%20Images.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/A%20Probabilistic%20U-Net%20for%20Segmentation%20of%20Ambiguous%20Images.md)
@@ -2886,6 +3144,16 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 
 ****
 ### Sequence Modeling:
+
+##### [21-12-16] [paper172]
+- Efficiently Modeling Long Sequences with Structured State Spaces
+ [[pdf]](https://arxiv.org/abs/2111.00396) [[code]](https://github.com/HazyResearch/state-spaces) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Efficiently%20Modeling%20Long%20Sequences%20with%20Structured%20State%20Spaces.pdf)
+- *Albert Gu, Karan Goel, Christopher Ré*
+- `2021-10-31, ICLR 2022`
+- [[Sequence Modeling]](#sequence-modeling)
+```
+Very interesting and quite well-written paper. Kind of neat/fun to see state-space models being used. The experimental results seem very impressive!? I didn't fully understand everything in Section 3. I had to read Section 3.4 a couple of times to understand how the parameterization actually works in practice (you have H state-space models, one for each feature dimension, so that you can map a sequence of feature vectors to another sequence of feature vectors) (and you can then also have multiple such layers of state-space models, mapping sequence --> sequence --> sequence --> ....).
+```
 
 ##### [20-01-17] [paper81]
 - Multiplicative Interactions and Where to Find Them [[pdf]](https://openreview.net/forum?id=rylnK6VtDH) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Multiplicative%20Interactions%20and%20Where%20to%20Find%20Them.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Multiplicative%20Interactions%20and%20Where%20to%20Find%20Them.md)
@@ -4805,6 +5073,46 @@ All parts of the proposed method are clearly explained and relatively easy to un
 
 #### NeurIPS 2021:
 
+##### [21-12-09] [paper171]
+- Periodic Activation Functions Induce Stationarity
+ [[pdf]](https://arxiv.org/abs/2110.13572) [[code]](https://github.com/AaltoML/PeriodicBNN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Periodic%20Activation%20Functions%20Induce%20Stationarity.pdf)
+- *Lassi Meronen, Martin Trapp, Arno Solin*
+- `2021-10-26, NeurIPS 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. Quite a heavy read, probably need to be rather familiar with GPs to properly understand/appreciate everything. Definitely check Appendix D, it gives a better understanding of how the proposed method is applied in practice. I'm not quite sure how strong/impressive the experimental results actually are. Also seems like the method could be a bit inconvenient to implement/use?
+```
+
+##### [21-12-03] [paper170]
+- Reliable and Trustworthy Machine Learning for Health Using Dataset Shift Detection
+ [[pdf]](https://arxiv.org/abs/2110.14019) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Reliable%20and%20Trustworthy%20Machine%20Learning%20for%20Health%20Using%20Dataset%20Shift%20Detection.pdf)
+- *Chunjong Park, Anas Awadalla, Tadayoshi Kohno, Shwetak Patel*
+- `2021-10-26, NeurIPS 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and very well-written paper. Gives a good overview of the field and contains a lot of seemingly useful references. The evaluation is very comprehensive. The user study is quite neat.
+```
+
+##### [21-12-02] [paper169]
+- An Information-theoretic Approach to Distribution Shifts
+ [[pdf]](https://arxiv.org/abs/2106.03783) [[code]](https://github.com/mfederici/dsit) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Information-theoretic%20Approach%20to%20Distribution%20Shifts.pdf)
+- *Marco Federici, Ryota Tomioka, Patrick Forré*
+- `2021-06-07, NeurIPS 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite well-written paper overall that seemed interesting, but I found it very difficult to properly understand everything. Thus, I can't really tell how interesting/significant their analysis actually is.
+```
+
+##### [21-11-25] [paper168]
+- On the Importance of Gradients for Detecting Distributional Shifts in the Wild
+ [[pdf]](https://arxiv.org/abs/2110.00218) [[code]](https://github.com/deeplearning-wisc/gradnorm_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Importance%20of%20Gradients%20for%20Detecting%20Distributional%20Shifts%20in%20the%20Wild.pdf)
+- *Rui Huang, Andrew Geng, Yixuan Li*
+- `2021-10-01, NeurIPS 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. The experimental results do seem promising. However, I don't quite get why the proposed method intuitively makes sense, why is it better to only use the parameters of the final network layer?
+```
+
 ##### [21-09-08] [paper145]
 - Revisiting the Calibration of Modern Neural Networks
  [[pdf]](https://arxiv.org/abs/2106.07998) [[code]](https://github.com/google-research/robustness_metrics/tree/master/robustness_metrics/projects/revisiting_calibration) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Revisiting%20the%20Calibration%20of%20Modern%20Neural%20Networks.pdf)
@@ -5336,12 +5644,35 @@ Quite well-written and somewhat interesting paper. Cool application and a bunch 
 ****
 ### ICLR:
 
+- [ICLR 2022](#iclr-2022)
 - [ICLR 2021](#iclr-2021)
 - [ICLR 2020](#iclr-2020)
 - [ICLR 2019](#iclr-2019)
 - [ICLR 2018](#iclr-2018)
 - [ICLR 2017](#iclr-2017)
 - [ICLR 2014](#iclr-2014)
+
+#### ICLR 2022:
+
+##### [22-02-09] [paper173]
+- VOS: Learning What You Don't Know by Virtual Outlier Synthesis
+ [[pdf]](https://arxiv.org/abs/2202.01197) [[code]](https://github.com/deeplearning-wisc/vos) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VOS:%20Learning%20What%20You%20Don't%20Know%20by%20Virtual%20Outlier%20Synthesis.pdf)
+- *Xuefeng Du, Zhaoning Wang, Mu Cai, Yixuan Li*
+- `2022-02-02, ICLR 2022`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and quite well-written paper. I did find it somewhat difficult to understand certain parts though, they could perhaps be explained more clearly. The results seem quite impressive (they do consistently outperform all baselines), but I find it interesting that the "Gaussian noise" baseline in Table 2 performs that well? I should probably have read "Energy-based Out-of-distribution Detection" before reading this paper.
+```
+
+##### [21-12-16] [paper172]
+- Efficiently Modeling Long Sequences with Structured State Spaces
+ [[pdf]](https://arxiv.org/abs/2111.00396) [[code]](https://github.com/HazyResearch/state-spaces) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Efficiently%20Modeling%20Long%20Sequences%20with%20Structured%20State%20Spaces.pdf)
+- *Albert Gu, Karan Goel, Christopher Ré*
+- `2021-10-31, ICLR 2022`
+- [[Sequence Modeling]](#sequence-modeling)
+```
+Very interesting and quite well-written paper. Kind of neat/fun to see state-space models being used. The experimental results seem very impressive!? I didn't fully understand everything in Section 3. I had to read Section 3.4 a couple of times to understand how the parameterization actually works in practice (you have H state-space models, one for each feature dimension, so that you can map a sequence of feature vectors to another sequence of feature vectors) (and you can then also have multiple such layers of state-space models, mapping sequence --> sequence --> sequence --> ....).
+```
 
 #### ICLR 2021:
 
@@ -6559,6 +6890,7 @@ Well-written and farily interesting paper. I read it mainly as background for "H
 ****
 ### Papers by Year:
 
+- [2022](#2022)
 - [2021](#2021)
 - [2020](#2020)
 - [2019](#2019)
@@ -6573,7 +6905,78 @@ Well-written and farily interesting paper. I read it mainly as background for "H
 - [2006](#2006)
 - [2004](#2004)
 
+#### 2022:
+
+##### [22-02-09] [paper173]
+- VOS: Learning What You Don't Know by Virtual Outlier Synthesis
+ [[pdf]](https://arxiv.org/abs/2202.01197) [[code]](https://github.com/deeplearning-wisc/vos) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VOS:%20Learning%20What%20You%20Don't%20Know%20by%20Virtual%20Outlier%20Synthesis.pdf)
+- *Xuefeng Du, Zhaoning Wang, Mu Cai, Yixuan Li*
+- `2022-02-02, ICLR 2022`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and quite well-written paper. I did find it somewhat difficult to understand certain parts though, they could perhaps be explained more clearly. The results seem quite impressive (they do consistently outperform all baselines), but I find it interesting that the "Gaussian noise" baseline in Table 2 performs that well? I should probably have read "Energy-based Out-of-distribution Detection" before reading this paper.
+```
+
 #### 2021:
+
+##### [21-12-16] [paper172]
+- Efficiently Modeling Long Sequences with Structured State Spaces
+ [[pdf]](https://arxiv.org/abs/2111.00396) [[code]](https://github.com/HazyResearch/state-spaces) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Efficiently%20Modeling%20Long%20Sequences%20with%20Structured%20State%20Spaces.pdf)
+- *Albert Gu, Karan Goel, Christopher Ré*
+- `2021-10-31, ICLR 2022`
+- [[Sequence Modeling]](#sequence-modeling)
+```
+Very interesting and quite well-written paper. Kind of neat/fun to see state-space models being used. The experimental results seem very impressive!? I didn't fully understand everything in Section 3. I had to read Section 3.4 a couple of times to understand how the parameterization actually works in practice (you have H state-space models, one for each feature dimension, so that you can map a sequence of feature vectors to another sequence of feature vectors) (and you can then also have multiple such layers of state-space models, mapping sequence --> sequence --> sequence --> ....).
+```
+
+##### [21-12-09] [paper171]
+- Periodic Activation Functions Induce Stationarity
+ [[pdf]](https://arxiv.org/abs/2110.13572) [[code]](https://github.com/AaltoML/PeriodicBNN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Periodic%20Activation%20Functions%20Induce%20Stationarity.pdf)
+- *Lassi Meronen, Martin Trapp, Arno Solin*
+- `2021-10-26, NeurIPS 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. Quite a heavy read, probably need to be rather familiar with GPs to properly understand/appreciate everything. Definitely check Appendix D, it gives a better understanding of how the proposed method is applied in practice. I'm not quite sure how strong/impressive the experimental results actually are. Also seems like the method could be a bit inconvenient to implement/use?
+```
+
+##### [21-12-03] [paper170]
+- Reliable and Trustworthy Machine Learning for Health Using Dataset Shift Detection
+ [[pdf]](https://arxiv.org/abs/2110.14019) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Reliable%20and%20Trustworthy%20Machine%20Learning%20for%20Health%20Using%20Dataset%20Shift%20Detection.pdf)
+- *Chunjong Park, Anas Awadalla, Tadayoshi Kohno, Shwetak Patel*
+- `2021-10-26, NeurIPS 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and very well-written paper. Gives a good overview of the field and contains a lot of seemingly useful references. The evaluation is very comprehensive. The user study is quite neat.
+```
+
+##### [21-12-02] [paper169]
+- An Information-theoretic Approach to Distribution Shifts
+ [[pdf]](https://arxiv.org/abs/2106.03783) [[code]](https://github.com/mfederici/dsit) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Information-theoretic%20Approach%20to%20Distribution%20Shifts.pdf)
+- *Marco Federici, Ryota Tomioka, Patrick Forré*
+- `2021-06-07, NeurIPS 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite well-written paper overall that seemed interesting, but I found it very difficult to properly understand everything. Thus, I can't really tell how interesting/significant their analysis actually is.
+```
+
+##### [21-11-25] [paper168]
+- On the Importance of Gradients for Detecting Distributional Shifts in the Wild
+ [[pdf]](https://arxiv.org/abs/2110.00218) [[code]](https://github.com/deeplearning-wisc/gradnorm_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Importance%20of%20Gradients%20for%20Detecting%20Distributional%20Shifts%20in%20the%20Wild.pdf)
+- *Rui Huang, Andrew Geng, Yixuan Li*
+- `2021-10-01, NeurIPS 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. The experimental results do seem promising. However, I don't quite get why the proposed method intuitively makes sense, why is it better to only use the parameters of the final network layer?
+```
+
+##### [21-11-18] [paper167]
+- Masked Autoencoders Are Scalable Vision Learners
+ [[pdf]](https://arxiv.org/abs/2111.06377) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Masked%20Autoencoders%20Are%20Scalable%20Vision%20Learners.pdf)
+- *Kaiming He, Xinlei Chen, Saining Xie, Yanghao Li, Piotr Dollár, Ross Girshick*
+- `2021-11-11`
+```
+Interesting and well-written paper. The proposed method is simple and makes a lot of intuitive sense, which is rather satisfying. After page 4, there's mostly just detailed ablations and results.
+```
 
 ##### [21-10-28] [paper165]
 - Deep Classifiers with Label Noise Modeling and Distance Awareness
