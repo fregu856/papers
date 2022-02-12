@@ -100,10 +100,23 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 ****
 ### All Papers:
 
+- [Papers Read in 2022](#papers-read-in-2022)
 - [Papers Read in 2021](#papers-read-in-2021)
 - [Papers Read in 2020](#papers-read-in-2020)
 - [Papers Read in 2019](#papers-read-in-2019)
 - [Papers Read in 2018](#papers-read-in-2018)
+
+#### Papers Read in 2022:
+
+##### [22-02-09] [paper173]
+- VOS: Learning What You Don't Know by Virtual Outlier Synthesis
+ [[pdf]](https://arxiv.org/abs/2202.01197) [[code]](https://github.com/deeplearning-wisc/vos) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VOS:%20Learning%20What%20You%20Don't%20Know%20by%20Virtual%20Outlier%20Synthesis.pdf)
+- *Xuefeng Du, Zhaoning Wang, Mu Cai, Yixuan Li*
+- `2022-02-02, ICLR 2022`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and quite well-written paper. I did find it somewhat difficult to understand certain parts though, they could perhaps be explained more clearly. The results seem quite impressive (they do consistently outperform all baselines), but I find it interesting that the "Gaussian noise" baseline in Table 2 performs that well? I should probably have read "Energy-based Out-of-distribution Detection" before reading this paper.
+```
 
 #### Papers Read in 2021:
 
