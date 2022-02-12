@@ -1699,6 +1699,16 @@ Thorough experimental evaluation. Quite interesting findings.
 ****
 ### Out-of-Distribution Detection:
 
+##### [22-02-09] [paper174]
+- Energy-based Out-of-distribution Detection
+ [[pdf]](https://arxiv.org/abs/2010.03759) [[code]](https://github.com/wetliu/energy_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Energy-based%20Out-of-distribution%20Detection.pdf)
+- *Weitang Liu, Xiaoyun Wang, John D. Owens, Yixuan Li*
+- `2020-10-08, NeurIPS 2020`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and well-written paper. The proposed method is quite clearly explained and makes intuitive sense (at least if you're familiar with EBMs). Compared to using the softmax score, the performance does seem to improve consistently. Seems like fine-tuning on an "auxiliary outlier dataset" is required to get really good performance though, which you can't really assume to have access to in real-world problems, I suppose?
+```
+
 ##### [22-02-09] [paper173]
 - VOS: Learning What You Don't Know by Virtual Outlier Synthesis
  [[pdf]](https://arxiv.org/abs/2202.01197) [[code]](https://github.com/deeplearning-wisc/vos) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VOS:%20Learning%20What%20You%20Don't%20Know%20by%20Virtual%20Outlier%20Synthesis.pdf)
@@ -5137,6 +5147,16 @@ Thorough experimental evaluation. Quite interesting findings.
 
 #### NeurIPS 2020:
 
+##### [22-02-09] [paper174]
+- Energy-based Out-of-distribution Detection
+ [[pdf]](https://arxiv.org/abs/2010.03759) [[code]](https://github.com/wetliu/energy_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Energy-based%20Out-of-distribution%20Detection.pdf)
+- *Weitang Liu, Xiaoyun Wang, John D. Owens, Yixuan Li*
+- `2020-10-08, NeurIPS 2020`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and well-written paper. The proposed method is quite clearly explained and makes intuitive sense (at least if you're familiar with EBMs). Compared to using the softmax score, the performance does seem to improve consistently. Seems like fine-tuning on an "auxiliary outlier dataset" is required to get really good performance though, which you can't really assume to have access to in real-world problems, I suppose?
+```
+
 ##### [21-10-12] [paper162]
 - Neural Unsigned Distance Fields for Implicit Function Learning
  [[pdf]](https://arxiv.org/abs/2010.13938) [[code]](https://github.com/jchibane/ndf/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Unsigned%20Distance%20Fields%20for%20Implicit%20Function%20Learning.pdf)
@@ -7180,6 +7200,16 @@ Thorough experimental evaluation. Quite interesting findings.
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 #### 2020:
+
+##### [22-02-09] [paper174]
+- Energy-based Out-of-distribution Detection
+ [[pdf]](https://arxiv.org/abs/2010.03759) [[code]](https://github.com/wetliu/energy_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Energy-based%20Out-of-distribution%20Detection.pdf)
+- *Weitang Liu, Xiaoyun Wang, John D. Owens, Yixuan Li*
+- `2020-10-08, NeurIPS 2020`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and well-written paper. The proposed method is quite clearly explained and makes intuitive sense (at least if you're familiar with EBMs). Compared to using the softmax score, the performance does seem to improve consistently. Seems like fine-tuning on an "auxiliary outlier dataset" is required to get really good performance though, which you can't really assume to have access to in real-world problems, I suppose?
+```
 
 ##### [21-11-11] [paper166]
 - Transferring Inductive Biases through Knowledge Distillation
