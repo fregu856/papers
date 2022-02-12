@@ -13,7 +13,7 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 - [VAEs](#vaes)
 - [Normalizing Flows](#normalizing-flows)
 - [Autonomous Driving](#autonomous-driving)
-- [Medical Imaging](#medical-imaging)
+- [Medical ML](#medical-ml)
 - [Object Detection](#object-detection)
 - [3D Object Detection](#3d-object-detection)
 - [3D Multi-Object Tracking](#3d-multi-object-tracking)
@@ -106,12 +106,22 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2021:
 
+##### [21-12-09] [paper171]
+- Periodic Activation Functions Induce Stationarity
+ [[pdf]](https://arxiv.org/abs/2110.13572) [[code]](https://github.com/AaltoML/PeriodicBNN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Periodic%20Activation%20Functions%20Induce%20Stationarity.pdf)
+- *Lassi Meronen, Martin Trapp, Arno Solin*
+- `2021-10-26, NeurIPS 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. Quite a heavy read, probably need to be rather familiar with GPs to properly understand/appreciate everything. Definitely check Appendix D, it gives a better understanding of how the proposed method is applied in practice. I'm not quite sure how strong/impressive the experimental results actually are. Also seems like the method could be a bit inconvenient to implement/use?
+```
+
 ##### [21-12-03] [paper170]
 - Reliable and Trustworthy Machine Learning for Health Using Dataset Shift Detection
  [[pdf]](https://arxiv.org/abs/2110.14019) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Reliable%20and%20Trustworthy%20Machine%20Learning%20for%20Health%20Using%20Dataset%20Shift%20Detection.pdf)
 - *Chunjong Park, Anas Awadalla, Tadayoshi Kohno, Shwetak Patel*
 - `2021-10-26, NeurIPS 2021`
-- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
 ```
 Interesting and very well-written paper. Gives a good overview of the field and contains a lot of seemingly useful references. The evaluation is very comprehensive. The user study is quite neat.
 ```
@@ -2294,7 +2304,17 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 
 
 ****
-### Medical Imaging:
+### Medical ML:
+
+##### [21-12-03] [paper170]
+- Reliable and Trustworthy Machine Learning for Health Using Dataset Shift Detection
+ [[pdf]](https://arxiv.org/abs/2110.14019) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Reliable%20and%20Trustworthy%20Machine%20Learning%20for%20Health%20Using%20Dataset%20Shift%20Detection.pdf)
+- *Chunjong Park, Anas Awadalla, Tadayoshi Kohno, Shwetak Patel*
+- `2021-10-26, NeurIPS 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Interesting and very well-written paper. Gives a good overview of the field and contains a lot of seemingly useful references. The evaluation is very comprehensive. The user study is quite neat.
+```
 
 ##### [18-11-22] [paper22]
 -  A Probabilistic U-Net for Segmentation of Ambiguous Images [[pdf]](https://arxiv.org/abs/1806.05034) [[code]](https://github.com/SimonKohl/probabilistic_unet) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Probabilistic%20U-Net%20for%20Segmentation%20of%20Ambiguous%20Images.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/A%20Probabilistic%20U-Net%20for%20Segmentation%20of%20Ambiguous%20Images.md)
