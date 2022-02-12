@@ -1729,6 +1729,16 @@ Thorough experimental evaluation. Quite interesting findings.
 ****
 ### Out-of-Distribution Detection:
 
+##### [22-02-11] [paper176]
+- On Out-of-distribution Detection with Energy-based Models
+ [[pdf]](https://arxiv.org/abs/2107.08785) [[code]](https://github.com/selflein/EBM-OOD-Detection) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20Out-of-distribution%20Detection%20with%20Energy-based%20Models.pdf)
+- *Sven Elflein, Bertrand Charpentier, Daniel Zügner, Stephan Günnemann*
+- `2021-07-03, ICML Workshops 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Energy-Based Models]](#energy-based-models)
+```
+Well-written and quite interesting paper. A short paper, just 4 pages. They don't study the method from the "Energy-based Out-of-distribution Detection" paper as I had expected, but it was still a quite interesting read. The results in Section 4.2 seem interesting, especially for experiment 3, but I'm not sure that I properly understand everything.
+```
+
 ##### [22-02-10] [paper175]
 - Natural Posterior Network: Deep Bayesian Predictive Uncertainty for Exponential Family Distributions
  [[pdf]](https://openreview.net/forum?id=tV3N0DWMxCg) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Natural%20Posterior%20Network:%20Deep%20Bayesian%20Predictive%20Uncertainty%20for%20Exponential%20Family%20Distributions.pdf)
@@ -3541,6 +3551,16 @@ Very interesting and quite well-written paper. Kind of neat/fun to see state-spa
 
 ****
 ### Energy-Based Models:
+
+##### [22-02-11] [paper176]
+- On Out-of-distribution Detection with Energy-based Models
+ [[pdf]](https://arxiv.org/abs/2107.08785) [[code]](https://github.com/selflein/EBM-OOD-Detection) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20Out-of-distribution%20Detection%20with%20Energy-based%20Models.pdf)
+- *Sven Elflein, Bertrand Charpentier, Daniel Zügner, Stephan Günnemann*
+- `2021-07-03, ICML Workshops 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Energy-Based Models]](#energy-based-models)
+```
+Well-written and quite interesting paper. A short paper, just 4 pages. They don't study the method from the "Energy-based Out-of-distribution Detection" paper as I had expected, but it was still a quite interesting read. The results in Section 4.2 seem interesting, especially for experiment 3, but I'm not sure that I properly understand everything.
+```
 
 ##### [22-02-09] [paper174]
 - Energy-based Out-of-distribution Detection
@@ -7008,6 +7028,16 @@ Interesting and quite well-written paper. I did find it somewhat difficult to un
 ```
 
 #### 2021:
+
+##### [22-02-11] [paper176]
+- On Out-of-distribution Detection with Energy-based Models
+ [[pdf]](https://arxiv.org/abs/2107.08785) [[code]](https://github.com/selflein/EBM-OOD-Detection) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20Out-of-distribution%20Detection%20with%20Energy-based%20Models.pdf)
+- *Sven Elflein, Bertrand Charpentier, Daniel Zügner, Stephan Günnemann*
+- `2021-07-03, ICML Workshops 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Energy-Based Models]](#energy-based-models)
+```
+Well-written and quite interesting paper. A short paper, just 4 pages. They don't study the method from the "Energy-based Out-of-distribution Detection" paper as I had expected, but it was still a quite interesting read. The results in Section 4.2 seem interesting, especially for experiment 3, but I'm not sure that I properly understand everything.
+```
 
 ##### [22-02-10] [paper175]
 - Natural Posterior Network: Deep Bayesian Predictive Uncertainty for Exponential Family Distributions
