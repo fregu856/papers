@@ -30,6 +30,7 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 - [SysCon Deep Learning Reading Group](#syscon-deep-learning-reading-group)
 - [SysCon Monte Carlo Reading Group](#syscon-monte-carlo-reading-group)
 - [Papers by Year](#papers-by-year)
+- - [2022](#2022)
 - - [2021](#2021)
 - - [2020](#2020)
 - - [2019](#2019)
@@ -1687,6 +1688,16 @@ Thorough experimental evaluation. Quite interesting findings.
 
 ****
 ### Out-of-Distribution Detection:
+
+##### [22-02-09] [paper173]
+- VOS: Learning What You Don't Know by Virtual Outlier Synthesis
+ [[pdf]](https://arxiv.org/abs/2202.01197) [[code]](https://github.com/deeplearning-wisc/vos) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VOS:%20Learning%20What%20You%20Don't%20Know%20by%20Virtual%20Outlier%20Synthesis.pdf)
+- *Xuefeng Du, Zhaoning Wang, Mu Cai, Yixuan Li*
+- `2022-02-02, ICLR 2022`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and quite well-written paper. I did find it somewhat difficult to understand certain parts though, they could perhaps be explained more clearly. The results seem quite impressive (they do consistently outperform all baselines), but I find it interesting that the "Gaussian noise" baseline in Table 2 performs that well? I should probably have read "Energy-based Out-of-distribution Detection" before reading this paper.
+```
 
 ##### [21-12-09] [paper171]
 - Periodic Activation Functions Induce Stationarity
@@ -5643,6 +5654,16 @@ Quite well-written and somewhat interesting paper. Cool application and a bunch 
 
 #### ICLR 2022:
 
+##### [22-02-09] [paper173]
+- VOS: Learning What You Don't Know by Virtual Outlier Synthesis
+ [[pdf]](https://arxiv.org/abs/2202.01197) [[code]](https://github.com/deeplearning-wisc/vos) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VOS:%20Learning%20What%20You%20Don't%20Know%20by%20Virtual%20Outlier%20Synthesis.pdf)
+- *Xuefeng Du, Zhaoning Wang, Mu Cai, Yixuan Li*
+- `2022-02-02, ICLR 2022`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and quite well-written paper. I did find it somewhat difficult to understand certain parts though, they could perhaps be explained more clearly. The results seem quite impressive (they do consistently outperform all baselines), but I find it interesting that the "Gaussian noise" baseline in Table 2 performs that well? I should probably have read "Energy-based Out-of-distribution Detection" before reading this paper.
+```
+
 ##### [21-12-16] [paper172]
 - Efficiently Modeling Long Sequences with Structured State Spaces
  [[pdf]](https://arxiv.org/abs/2111.00396) [[code]](https://github.com/HazyResearch/state-spaces) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Efficiently%20Modeling%20Long%20Sequences%20with%20Structured%20State%20Spaces.pdf)
@@ -6869,6 +6890,7 @@ Well-written and farily interesting paper. I read it mainly as background for "H
 ****
 ### Papers by Year:
 
+- [2022](#2022)
 - [2021](#2021)
 - [2020](#2020)
 - [2019](#2019)
@@ -6882,6 +6904,18 @@ Well-written and farily interesting paper. I read it mainly as background for "H
 - [2009](#2009)
 - [2006](#2006)
 - [2004](#2004)
+
+#### 2022:
+
+##### [22-02-09] [paper173]
+- VOS: Learning What You Don't Know by Virtual Outlier Synthesis
+ [[pdf]](https://arxiv.org/abs/2202.01197) [[code]](https://github.com/deeplearning-wisc/vos) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VOS:%20Learning%20What%20You%20Don't%20Know%20by%20Virtual%20Outlier%20Synthesis.pdf)
+- *Xuefeng Du, Zhaoning Wang, Mu Cai, Yixuan Li*
+- `2022-02-02, ICLR 2022`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and quite well-written paper. I did find it somewhat difficult to understand certain parts though, they could perhaps be explained more clearly. The results seem quite impressive (they do consistently outperform all baselines), but I find it interesting that the "Gaussian noise" baseline in Table 2 performs that well? I should probably have read "Energy-based Out-of-distribution Detection" before reading this paper.
+```
 
 #### 2021:
 
