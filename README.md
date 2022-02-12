@@ -109,6 +109,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-02-12] [paper178]
+- Benchmarking Uncertainty Quantification on Biosignal Classification Tasks under Dataset Shift
+ [[pdf]](https://arxiv.org/abs/2112.09196?context=cs) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Benchmarking%20Uncertainty%20Quantification%20on%20Biosignal%20Classification%20Tasks%20under%20Dataset%20Shift.pdf)
+- *Tong Xia, Jing Han, Cecilia Mascolo*
+- `2021-12-16, AAAI Workshops 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Well-written and interesting paper. They synthetically create dataset shifts (e.g. by adding Gaussian noise to the data) of increasing intensity and study whether or not the uncertainty increases as the accuracy degrades. They compare regular softmax, temperature scaling, MC-dropout, ensembling and a simple variational inference method. Their conclusion is basically that ensembling slightly outperforms the other methods, but that no method performs overly well. I think these type of studies are really useful.
+```
+
 ##### [22-02-12] [paper177]
 - Deep Evidential Regression
  [[pdf]](https://arxiv.org/abs/1910.02600) [[code]](https://github.com/aamini/evidential-deep-learning) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Evidential%20Regression.pdf)
