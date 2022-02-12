@@ -62,6 +62,7 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 - - [ICML 2014](#icml-2014)
 - - [ICML 2011](#icml-2011)
 - [ICLR](#iclr)
+- - [ICLR 2022](#iclr-2022)
 - - [ICLR 2021](#iclr-2021)
 - - [ICLR 2020](#iclr-2020)
 - - [ICLR 2019](#iclr-2019)
@@ -3120,6 +3121,16 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Sequence Modeling:
 
+##### [21-12-16] [paper172]
+- Efficiently Modeling Long Sequences with Structured State Spaces
+ [[pdf]](https://arxiv.org/abs/2111.00396) [[code]](https://github.com/HazyResearch/state-spaces) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Efficiently%20Modeling%20Long%20Sequences%20with%20Structured%20State%20Spaces.pdf)
+- *Albert Gu, Karan Goel, Christopher Ré*
+- `2021-10-31, ICLR 2022`
+- [[Sequence Modeling]](#sequence-modeling)
+```
+Very interesting and quite well-written paper. Kind of neat/fun to see state-space models being used. The experimental results seem very impressive!? I didn't fully understand everything in Section 3. I had to read Section 3.4 a couple of times to understand how the parameterization actually works in practice (you have H state-space models, one for each feature dimension, so that you can map a sequence of feature vectors to another sequence of feature vectors) (and you can then also have multiple such layers of state-space models, mapping sequence --> sequence --> sequence --> ....).
+```
+
 ##### [20-01-17] [paper81]
 - Multiplicative Interactions and Where to Find Them [[pdf]](https://openreview.net/forum?id=rylnK6VtDH) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Multiplicative%20Interactions%20and%20Where%20to%20Find%20Them.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Multiplicative%20Interactions%20and%20Where%20to%20Find%20Them.md)
 - *Siddhant M. Jayakumar, Jacob Menick, Wojciech M. Czarnecki, Jonathan Schwarz, Jack Rae, Simon Osindero, Yee Whye Teh, Tim Harley, Razvan Pascanu*
@@ -5609,12 +5620,25 @@ Quite well-written and somewhat interesting paper. Cool application and a bunch 
 ****
 ### ICLR:
 
+- [ICLR 2022](#iclr-2022)
 - [ICLR 2021](#iclr-2021)
 - [ICLR 2020](#iclr-2020)
 - [ICLR 2019](#iclr-2019)
 - [ICLR 2018](#iclr-2018)
 - [ICLR 2017](#iclr-2017)
 - [ICLR 2014](#iclr-2014)
+
+#### ICLR 2022:
+
+##### [21-12-16] [paper172]
+- Efficiently Modeling Long Sequences with Structured State Spaces
+ [[pdf]](https://arxiv.org/abs/2111.00396) [[code]](https://github.com/HazyResearch/state-spaces) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Efficiently%20Modeling%20Long%20Sequences%20with%20Structured%20State%20Spaces.pdf)
+- *Albert Gu, Karan Goel, Christopher Ré*
+- `2021-10-31, ICLR 2022`
+- [[Sequence Modeling]](#sequence-modeling)
+```
+Very interesting and quite well-written paper. Kind of neat/fun to see state-space models being used. The experimental results seem very impressive!? I didn't fully understand everything in Section 3. I had to read Section 3.4 a couple of times to understand how the parameterization actually works in practice (you have H state-space models, one for each feature dimension, so that you can map a sequence of feature vectors to another sequence of feature vectors) (and you can then also have multiple such layers of state-space models, mapping sequence --> sequence --> sequence --> ....).
+```
 
 #### ICLR 2021:
 
@@ -6847,6 +6871,16 @@ Well-written and farily interesting paper. I read it mainly as background for "H
 - [2004](#2004)
 
 #### 2021:
+
+##### [21-12-16] [paper172]
+- Efficiently Modeling Long Sequences with Structured State Spaces
+ [[pdf]](https://arxiv.org/abs/2111.00396) [[code]](https://github.com/HazyResearch/state-spaces) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Efficiently%20Modeling%20Long%20Sequences%20with%20Structured%20State%20Spaces.pdf)
+- *Albert Gu, Karan Goel, Christopher Ré*
+- `2021-10-31, ICLR 2022`
+- [[Sequence Modeling]](#sequence-modeling)
+```
+Very interesting and quite well-written paper. Kind of neat/fun to see state-space models being used. The experimental results seem very impressive!? I didn't fully understand everything in Section 3. I had to read Section 3.4 a couple of times to understand how the parameterization actually works in practice (you have H state-space models, one for each feature dimension, so that you can map a sequence of feature vectors to another sequence of feature vectors) (and you can then also have multiple such layers of state-space models, mapping sequence --> sequence --> sequence --> ....).
+```
 
 ##### [21-12-09] [paper171]
 - Periodic Activation Functions Induce Stationarity
