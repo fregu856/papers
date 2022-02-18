@@ -109,6 +109,56 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-02-12] [paper178]
+- Benchmarking Uncertainty Quantification on Biosignal Classification Tasks under Dataset Shift
+ [[pdf]](https://arxiv.org/abs/2112.09196?context=cs) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Benchmarking%20Uncertainty%20Quantification%20on%20Biosignal%20Classification%20Tasks%20under%20Dataset%20Shift.pdf)
+- *Tong Xia, Jing Han, Cecilia Mascolo*
+- `2021-12-16, AAAI Workshops 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Well-written and interesting paper. They synthetically create dataset shifts (e.g. by adding Gaussian noise to the data) of increasing intensity and study whether or not the uncertainty increases as the accuracy degrades. They compare regular softmax, temperature scaling, MC-dropout, ensembling and a simple variational inference method. Their conclusion is basically that ensembling slightly outperforms the other methods, but that no method performs overly well. I think these type of studies are really useful.
+```
+
+##### [22-02-12] [paper177]
+- Deep Evidential Regression
+ [[pdf]](https://arxiv.org/abs/1910.02600) [[code]](https://github.com/aamini/evidential-deep-learning) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Evidential%20Regression.pdf)
+- *Alexander Amini, Wilko Schwarting, Ava Soleimany, Daniela Rus*
+- `2019-10-07, NeurIPS 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Well-written and interesting paper. This is a good paper to read before "Natural Posterior Network: Deep Bayesian Predictive Uncertainty for Exponential Family Distributions". Their proposed method seems to have similar / slightly worse performance than a small ensemble, so the only real advantage is that it's faster at time-time? This is of course very important in many applications, but not in all. The performance also seems quite sensitive to the choice of lambda in the combined loss function (Equation (10)), according to Figure S2 in the appendix?
+```
+
+##### [22-02-11] [paper176]
+- On Out-of-distribution Detection with Energy-based Models
+ [[pdf]](https://arxiv.org/abs/2107.08785) [[code]](https://github.com/selflein/EBM-OOD-Detection) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20Out-of-distribution%20Detection%20with%20Energy-based%20Models.pdf)
+- *Sven Elflein, Bertrand Charpentier, Daniel Zügner, Stephan Günnemann*
+- `2021-07-03, ICML Workshops 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Energy-Based Models]](#energy-based-models)
+```
+Well-written and quite interesting paper. A short paper, just 4 pages. They don't study the method from the "Energy-based Out-of-distribution Detection" paper as I had expected, but it was still a quite interesting read. The results in Section 4.2 seem interesting, especially for experiment 3, but I'm not sure that I properly understand everything.
+```
+
+##### [22-02-10] [paper175]
+- Natural Posterior Network: Deep Bayesian Predictive Uncertainty for Exponential Family Distributions
+ [[pdf]](https://openreview.net/forum?id=tV3N0DWMxCg) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Natural%20Posterior%20Network:%20Deep%20Bayesian%20Predictive%20Uncertainty%20for%20Exponential%20Family%20Distributions.pdf)
+- *Bertrand Charpentier, Oliver Borchert, Daniel Zügner, Simon Geisler, Stephan Günnemann*
+- `2021-09-29, ICLR 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and well-written paper. I didn't quite understand all the details, I'll have to read a couple of related/background papers to be able to properly appreciate and evaluate the proposed method. I definitely feel like I would like to read up on this family of methods. Extensive experimental evaluation, and the results seem promising overall.
+```
+
+##### [22-02-09] [paper174]
+- Energy-based Out-of-distribution Detection
+ [[pdf]](https://arxiv.org/abs/2010.03759) [[code]](https://github.com/wetliu/energy_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Energy-based%20Out-of-distribution%20Detection.pdf)
+- *Weitang Liu, Xiaoyun Wang, John D. Owens, Yixuan Li*
+- `2020-10-08, NeurIPS 2020`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Energy-Based Models]](#energy-based-models)
+```
+Interesting and well-written paper. The proposed method is quite clearly explained and makes intuitive sense (at least if you're familiar with EBMs). Compared to using the softmax score, the performance does seem to improve consistently. Seems like fine-tuning on an "auxiliary outlier dataset" is required to get really good performance though, which you can't really assume to have access to in real-world problems, I suppose?
+```
+
 ##### [22-02-09] [paper173]
 - VOS: Learning What You Don't Know by Virtual Outlier Synthesis
  [[pdf]](https://arxiv.org/abs/2202.01197) [[code]](https://github.com/deeplearning-wisc/vos) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VOS:%20Learning%20What%20You%20Don't%20Know%20by%20Virtual%20Outlier%20Synthesis.pdf)
@@ -1307,6 +1357,36 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Uncertainty Estimation:
 
+##### [22-02-12] [paper178]
+- Benchmarking Uncertainty Quantification on Biosignal Classification Tasks under Dataset Shift
+ [[pdf]](https://arxiv.org/abs/2112.09196?context=cs) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Benchmarking%20Uncertainty%20Quantification%20on%20Biosignal%20Classification%20Tasks%20under%20Dataset%20Shift.pdf)
+- *Tong Xia, Jing Han, Cecilia Mascolo*
+- `2021-12-16, AAAI Workshops 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Well-written and interesting paper. They synthetically create dataset shifts (e.g. by adding Gaussian noise to the data) of increasing intensity and study whether or not the uncertainty increases as the accuracy degrades. They compare regular softmax, temperature scaling, MC-dropout, ensembling and a simple variational inference method. Their conclusion is basically that ensembling slightly outperforms the other methods, but that no method performs overly well. I think these type of studies are really useful.
+```
+
+##### [22-02-12] [paper177]
+- Deep Evidential Regression
+ [[pdf]](https://arxiv.org/abs/1910.02600) [[code]](https://github.com/aamini/evidential-deep-learning) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Evidential%20Regression.pdf)
+- *Alexander Amini, Wilko Schwarting, Ava Soleimany, Daniela Rus*
+- `2019-10-07, NeurIPS 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Well-written and interesting paper. This is a good paper to read before "Natural Posterior Network: Deep Bayesian Predictive Uncertainty for Exponential Family Distributions". Their proposed method seems to have similar / slightly worse performance than a small ensemble, so the only real advantage is that it's faster at time-time? This is of course very important in many applications, but not in all. The performance also seems quite sensitive to the choice of lambda in the combined loss function (Equation (10)), according to Figure S2 in the appendix?
+```
+
+##### [22-02-10] [paper175]
+- Natural Posterior Network: Deep Bayesian Predictive Uncertainty for Exponential Family Distributions
+ [[pdf]](https://openreview.net/forum?id=tV3N0DWMxCg) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Natural%20Posterior%20Network:%20Deep%20Bayesian%20Predictive%20Uncertainty%20for%20Exponential%20Family%20Distributions.pdf)
+- *Bertrand Charpentier, Oliver Borchert, Daniel Zügner, Simon Geisler, Stephan Günnemann*
+- `2021-09-29, ICLR 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and well-written paper. I didn't quite understand all the details, I'll have to read a couple of related/background papers to be able to properly appreciate and evaluate the proposed method. I definitely feel like I would like to read up on this family of methods. Extensive experimental evaluation, and the results seem promising overall.
+```
+
 ##### [21-12-09] [paper171]
 - Periodic Activation Functions Induce Stationarity
  [[pdf]](https://arxiv.org/abs/2110.13572) [[code]](https://github.com/AaltoML/PeriodicBNN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Periodic%20Activation%20Functions%20Induce%20Stationarity.pdf)
@@ -1688,6 +1768,56 @@ Thorough experimental evaluation. Quite interesting findings.
 
 ****
 ### Out-of-Distribution Detection:
+
+##### [22-02-12] [paper178]
+- Benchmarking Uncertainty Quantification on Biosignal Classification Tasks under Dataset Shift
+ [[pdf]](https://arxiv.org/abs/2112.09196?context=cs) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Benchmarking%20Uncertainty%20Quantification%20on%20Biosignal%20Classification%20Tasks%20under%20Dataset%20Shift.pdf)
+- *Tong Xia, Jing Han, Cecilia Mascolo*
+- `2021-12-16, AAAI Workshops 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Well-written and interesting paper. They synthetically create dataset shifts (e.g. by adding Gaussian noise to the data) of increasing intensity and study whether or not the uncertainty increases as the accuracy degrades. They compare regular softmax, temperature scaling, MC-dropout, ensembling and a simple variational inference method. Their conclusion is basically that ensembling slightly outperforms the other methods, but that no method performs overly well. I think these type of studies are really useful.
+```
+
+##### [22-02-12] [paper177]
+- Deep Evidential Regression
+ [[pdf]](https://arxiv.org/abs/1910.02600) [[code]](https://github.com/aamini/evidential-deep-learning) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Evidential%20Regression.pdf)
+- *Alexander Amini, Wilko Schwarting, Ava Soleimany, Daniela Rus*
+- `2019-10-07, NeurIPS 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Well-written and interesting paper. This is a good paper to read before "Natural Posterior Network: Deep Bayesian Predictive Uncertainty for Exponential Family Distributions". Their proposed method seems to have similar / slightly worse performance than a small ensemble, so the only real advantage is that it's faster at time-time? This is of course very important in many applications, but not in all. The performance also seems quite sensitive to the choice of lambda in the combined loss function (Equation (10)), according to Figure S2 in the appendix?
+```
+
+##### [22-02-11] [paper176]
+- On Out-of-distribution Detection with Energy-based Models
+ [[pdf]](https://arxiv.org/abs/2107.08785) [[code]](https://github.com/selflein/EBM-OOD-Detection) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20Out-of-distribution%20Detection%20with%20Energy-based%20Models.pdf)
+- *Sven Elflein, Bertrand Charpentier, Daniel Zügner, Stephan Günnemann*
+- `2021-07-03, ICML Workshops 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Energy-Based Models]](#energy-based-models)
+```
+Well-written and quite interesting paper. A short paper, just 4 pages. They don't study the method from the "Energy-based Out-of-distribution Detection" paper as I had expected, but it was still a quite interesting read. The results in Section 4.2 seem interesting, especially for experiment 3, but I'm not sure that I properly understand everything.
+```
+
+##### [22-02-10] [paper175]
+- Natural Posterior Network: Deep Bayesian Predictive Uncertainty for Exponential Family Distributions
+ [[pdf]](https://openreview.net/forum?id=tV3N0DWMxCg) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Natural%20Posterior%20Network:%20Deep%20Bayesian%20Predictive%20Uncertainty%20for%20Exponential%20Family%20Distributions.pdf)
+- *Bertrand Charpentier, Oliver Borchert, Daniel Zügner, Simon Geisler, Stephan Günnemann*
+- `2021-09-29, ICLR 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and well-written paper. I didn't quite understand all the details, I'll have to read a couple of related/background papers to be able to properly appreciate and evaluate the proposed method. I definitely feel like I would like to read up on this family of methods. Extensive experimental evaluation, and the results seem promising overall.
+```
+
+##### [22-02-09] [paper174]
+- Energy-based Out-of-distribution Detection
+ [[pdf]](https://arxiv.org/abs/2010.03759) [[code]](https://github.com/wetliu/energy_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Energy-based%20Out-of-distribution%20Detection.pdf)
+- *Weitang Liu, Xiaoyun Wang, John D. Owens, Yixuan Li*
+- `2020-10-08, NeurIPS 2020`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and well-written paper. The proposed method is quite clearly explained and makes intuitive sense (at least if you're familiar with EBMs). Compared to using the softmax score, the performance does seem to improve consistently. Seems like fine-tuning on an "auxiliary outlier dataset" is required to get really good performance though, which you can't really assume to have access to in real-world problems, I suppose?
+```
 
 ##### [22-02-09] [paper173]
 - VOS: Learning What You Don't Know by Virtual Outlier Synthesis
@@ -2360,6 +2490,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 
 ****
 ### Medical ML:
+
+##### [22-02-12] [paper178]
+- Benchmarking Uncertainty Quantification on Biosignal Classification Tasks under Dataset Shift
+ [[pdf]](https://arxiv.org/abs/2112.09196?context=cs) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Benchmarking%20Uncertainty%20Quantification%20on%20Biosignal%20Classification%20Tasks%20under%20Dataset%20Shift.pdf)
+- *Tong Xia, Jing Han, Cecilia Mascolo*
+- `2021-12-16, AAAI Workshops 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Well-written and interesting paper. They synthetically create dataset shifts (e.g. by adding Gaussian noise to the data) of increasing intensity and study whether or not the uncertainty increases as the accuracy degrades. They compare regular softmax, temperature scaling, MC-dropout, ensembling and a simple variational inference method. Their conclusion is basically that ensembling slightly outperforms the other methods, but that no method performs overly well. I think these type of studies are really useful.
+```
 
 ##### [21-12-03] [paper170]
 - Reliable and Trustworthy Machine Learning for Health Using Dataset Shift Detection
@@ -3481,6 +3621,26 @@ Very interesting and quite well-written paper. Kind of neat/fun to see state-spa
 
 ****
 ### Energy-Based Models:
+
+##### [22-02-11] [paper176]
+- On Out-of-distribution Detection with Energy-based Models
+ [[pdf]](https://arxiv.org/abs/2107.08785) [[code]](https://github.com/selflein/EBM-OOD-Detection) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20Out-of-distribution%20Detection%20with%20Energy-based%20Models.pdf)
+- *Sven Elflein, Bertrand Charpentier, Daniel Zügner, Stephan Günnemann*
+- `2021-07-03, ICML Workshops 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Energy-Based Models]](#energy-based-models)
+```
+Well-written and quite interesting paper. A short paper, just 4 pages. They don't study the method from the "Energy-based Out-of-distribution Detection" paper as I had expected, but it was still a quite interesting read. The results in Section 4.2 seem interesting, especially for experiment 3, but I'm not sure that I properly understand everything.
+```
+
+##### [22-02-09] [paper174]
+- Energy-based Out-of-distribution Detection
+ [[pdf]](https://arxiv.org/abs/2010.03759) [[code]](https://github.com/wetliu/energy_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Energy-based%20Out-of-distribution%20Detection.pdf)
+- *Weitang Liu, Xiaoyun Wang, John D. Owens, Yixuan Li*
+- `2020-10-08, NeurIPS 2020`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Energy-Based Models]](#energy-based-models)
+```
+Interesting and well-written paper. The proposed method is quite clearly explained and makes intuitive sense (at least if you're familiar with EBMs). Compared to using the softmax score, the performance does seem to improve consistently. Seems like fine-tuning on an "auxiliary outlier dataset" is required to get really good performance though, which you can't really assume to have access to in real-world problems, I suppose?
+```
 
 ##### [21-03-26] [paper125]
 - Your GAN is Secretly an Energy-based Model and You Should use Discriminator Driven Latent Sampling
@@ -5127,6 +5287,26 @@ Thorough experimental evaluation. Quite interesting findings.
 
 #### NeurIPS 2020:
 
+##### [22-02-12] [paper177]
+- Deep Evidential Regression
+ [[pdf]](https://arxiv.org/abs/1910.02600) [[code]](https://github.com/aamini/evidential-deep-learning) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Evidential%20Regression.pdf)
+- *Alexander Amini, Wilko Schwarting, Ava Soleimany, Daniela Rus*
+- `2019-10-07, NeurIPS 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Well-written and interesting paper. This is a good paper to read before "Natural Posterior Network: Deep Bayesian Predictive Uncertainty for Exponential Family Distributions". Their proposed method seems to have similar / slightly worse performance than a small ensemble, so the only real advantage is that it's faster at time-time? This is of course very important in many applications, but not in all. The performance also seems quite sensitive to the choice of lambda in the combined loss function (Equation (10)), according to Figure S2 in the appendix?
+```
+
+##### [22-02-09] [paper174]
+- Energy-based Out-of-distribution Detection
+ [[pdf]](https://arxiv.org/abs/2010.03759) [[code]](https://github.com/wetliu/energy_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Energy-based%20Out-of-distribution%20Detection.pdf)
+- *Weitang Liu, Xiaoyun Wang, John D. Owens, Yixuan Li*
+- `2020-10-08, NeurIPS 2020`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and well-written paper. The proposed method is quite clearly explained and makes intuitive sense (at least if you're familiar with EBMs). Compared to using the softmax score, the performance does seem to improve consistently. Seems like fine-tuning on an "auxiliary outlier dataset" is required to get really good performance though, which you can't really assume to have access to in real-world problems, I suppose?
+```
+
 ##### [21-10-12] [paper162]
 - Neural Unsigned Distance Fields for Implicit Function Learning
  [[pdf]](https://arxiv.org/abs/2010.13938) [[code]](https://github.com/jchibane/ndf/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Unsigned%20Distance%20Fields%20for%20Implicit%20Function%20Learning.pdf)
@@ -5653,6 +5833,16 @@ Quite well-written and somewhat interesting paper. Cool application and a bunch 
 - [ICLR 2014](#iclr-2014)
 
 #### ICLR 2022:
+
+##### [22-02-10] [paper175]
+- Natural Posterior Network: Deep Bayesian Predictive Uncertainty for Exponential Family Distributions
+ [[pdf]](https://openreview.net/forum?id=tV3N0DWMxCg) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Natural%20Posterior%20Network:%20Deep%20Bayesian%20Predictive%20Uncertainty%20for%20Exponential%20Family%20Distributions.pdf)
+- *Bertrand Charpentier, Oliver Borchert, Daniel Zügner, Simon Geisler, Stephan Günnemann*
+- `2021-09-29, ICLR 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and well-written paper. I didn't quite understand all the details, I'll have to read a couple of related/background papers to be able to properly appreciate and evaluate the proposed method. I definitely feel like I would like to read up on this family of methods. Extensive experimental evaluation, and the results seem promising overall.
+```
 
 ##### [22-02-09] [paper173]
 - VOS: Learning What You Don't Know by Virtual Outlier Synthesis
@@ -6919,6 +7109,36 @@ Interesting and quite well-written paper. I did find it somewhat difficult to un
 
 #### 2021:
 
+##### [22-02-12] [paper178]
+- Benchmarking Uncertainty Quantification on Biosignal Classification Tasks under Dataset Shift
+ [[pdf]](https://arxiv.org/abs/2112.09196?context=cs) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Benchmarking%20Uncertainty%20Quantification%20on%20Biosignal%20Classification%20Tasks%20under%20Dataset%20Shift.pdf)
+- *Tong Xia, Jing Han, Cecilia Mascolo*
+- `2021-12-16, AAAI Workshops 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Well-written and interesting paper. They synthetically create dataset shifts (e.g. by adding Gaussian noise to the data) of increasing intensity and study whether or not the uncertainty increases as the accuracy degrades. They compare regular softmax, temperature scaling, MC-dropout, ensembling and a simple variational inference method. Their conclusion is basically that ensembling slightly outperforms the other methods, but that no method performs overly well. I think these type of studies are really useful.
+```
+
+##### [22-02-11] [paper176]
+- On Out-of-distribution Detection with Energy-based Models
+ [[pdf]](https://arxiv.org/abs/2107.08785) [[code]](https://github.com/selflein/EBM-OOD-Detection) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20Out-of-distribution%20Detection%20with%20Energy-based%20Models.pdf)
+- *Sven Elflein, Bertrand Charpentier, Daniel Zügner, Stephan Günnemann*
+- `2021-07-03, ICML Workshops 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Energy-Based Models]](#energy-based-models)
+```
+Well-written and quite interesting paper. A short paper, just 4 pages. They don't study the method from the "Energy-based Out-of-distribution Detection" paper as I had expected, but it was still a quite interesting read. The results in Section 4.2 seem interesting, especially for experiment 3, but I'm not sure that I properly understand everything.
+```
+
+##### [22-02-10] [paper175]
+- Natural Posterior Network: Deep Bayesian Predictive Uncertainty for Exponential Family Distributions
+ [[pdf]](https://openreview.net/forum?id=tV3N0DWMxCg) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Natural%20Posterior%20Network:%20Deep%20Bayesian%20Predictive%20Uncertainty%20for%20Exponential%20Family%20Distributions.pdf)
+- *Bertrand Charpentier, Oliver Borchert, Daniel Zügner, Simon Geisler, Stephan Günnemann*
+- `2021-09-29, ICLR 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and well-written paper. I didn't quite understand all the details, I'll have to read a couple of related/background papers to be able to properly appreciate and evaluate the proposed method. I definitely feel like I would like to read up on this family of methods. Extensive experimental evaluation, and the results seem promising overall.
+```
+
 ##### [21-12-16] [paper172]
 - Efficiently Modeling Long Sequences with Structured State Spaces
  [[pdf]](https://arxiv.org/abs/2111.00396) [[code]](https://github.com/HazyResearch/state-spaces) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Efficiently%20Modeling%20Long%20Sequences%20with%20Structured%20State%20Spaces.pdf)
@@ -7170,6 +7390,16 @@ Thorough experimental evaluation. Quite interesting findings.
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 #### 2020:
+
+##### [22-02-09] [paper174]
+- Energy-based Out-of-distribution Detection
+ [[pdf]](https://arxiv.org/abs/2010.03759) [[code]](https://github.com/wetliu/energy_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Energy-based%20Out-of-distribution%20Detection.pdf)
+- *Weitang Liu, Xiaoyun Wang, John D. Owens, Yixuan Li*
+- `2020-10-08, NeurIPS 2020`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and well-written paper. The proposed method is quite clearly explained and makes intuitive sense (at least if you're familiar with EBMs). Compared to using the softmax score, the performance does seem to improve consistently. Seems like fine-tuning on an "auxiliary outlier dataset" is required to get really good performance though, which you can't really assume to have access to in real-world problems, I suppose?
+```
 
 ##### [21-11-11] [paper166]
 - Transferring Inductive Biases through Knowledge Distillation
@@ -7449,6 +7679,16 @@ All parts of the proposed method are clearly explained and relatively easy to un
 - [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
 
 #### 2019:
+
+##### [22-02-12] [paper177]
+- Deep Evidential Regression
+ [[pdf]](https://arxiv.org/abs/1910.02600) [[code]](https://github.com/aamini/evidential-deep-learning) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Evidential%20Regression.pdf)
+- *Alexander Amini, Wilko Schwarting, Ava Soleimany, Daniela Rus*
+- `2019-10-07, NeurIPS 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Well-written and interesting paper. This is a good paper to read before "Natural Posterior Network: Deep Bayesian Predictive Uncertainty for Exponential Family Distributions". Their proposed method seems to have similar / slightly worse performance than a small ensemble, so the only real advantage is that it's faster at time-time? This is of course very important in many applications, but not in all. The performance also seems quite sensitive to the choice of lambda in the combined loss function (Equation (10)), according to Figure S2 in the appendix?
+```
 
 ##### [21-10-02] [paper153]
 - Contextually Plausible and Diverse 3D Human Motion Prediction
