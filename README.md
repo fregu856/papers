@@ -87,6 +87,7 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 - [BMVC](#bmvc)
 - - [BMVC 2020](#bmvc-2020)
 - [AISTATS](#aistats)
+- - [AISTATS 2022](#aistats-2022)
 - - [AISTATS 2019](#aistats-2019)
 - - [AISTATS 2010](#aistats-2010)
 - [AAAI](#aaai)
@@ -108,6 +109,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2022:
+
+##### [22-02-16] [paper184]
+- Being a Bit Frequentist Improves Bayesian Neural Networks
+ [[pdf]](https://arxiv.org/abs/2106.10065) [[code]](https://github.com/wiseodd/bayesian_ood_training) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Being%20a%20Bit%20Frequentist%20Improves%20Bayesian%20Neural%20Networks.pdf)
+- *Agustinus Kristiadi, Matthias Hein, Philipp Hennig*
+- `2021-06-18, AISTATS 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and well-written paper. The proposed method makes intuitive sense, trying to incorporate the "OOD training" method (i.e., to use some kind of OOD data during training, similar to e.g. the "Deep Anomaly Detection with Outlier Exposure" paper) into the Bayesian deep learning approach. The experimental results do seem quite promising.
+```
 
 ##### [22-02-15] [paper183]
 - Mixtures of Laplace Approximations for Improved Post-Hoc Uncertainty in Deep Learning
@@ -6984,8 +6995,13 @@ Well-written and farily interesting paper. I read it mainly as background for "H
 ****
 ### AISTATS:
 
+- [AISTATS 2022](#aistats-2022)
 - [AISTATS 2019](#aistats-2019)
 - [AISTATS 2010](#aistats-2010)
+
+#### AISTATS 2022:
+
+TODO!
 
 #### AISTATS 2019:
 
