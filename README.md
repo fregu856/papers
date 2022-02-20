@@ -1516,6 +1516,16 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Uncertainty Estimation:
 
+##### [22-02-19] [paper186]
+- Noise Contrastive Priors for Functional Uncertainty
+ [[pdf]](https://arxiv.org/abs/1807.09289) [[code]](https://github.com/brain-research/ncp) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise%20Contrastive%20Priors%20for%20Functional%20Uncertainty.pdf)
+- *Danijar Hafner, Dustin Tran, Timothy Lillicrap, Alex Irpan, James Davidson*
+- `2018-07-24, UAI 2019`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. Only experiments on a toy 1D regression problem, and flight delay prediction in which the input is 8D. The approach of just adding noise to the input x to get OOD samples would probably not work very well e.g. for image-based problems?
+```
+
 ##### [22-02-16] [paper184]
 - Being a Bit Frequentist Improves Bayesian Neural Networks
  [[pdf]](https://arxiv.org/abs/2106.10065) [[code]](https://github.com/wiseodd/bayesian_ood_training) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Being%20a%20Bit%20Frequentist%20Improves%20Bayesian%20Neural%20Networks.pdf)
@@ -1987,6 +1997,16 @@ Thorough experimental evaluation. Quite interesting findings.
 
 ****
 ### Out-of-Distribution Detection:
+
+##### [22-02-19] [paper186]
+- Noise Contrastive Priors for Functional Uncertainty
+ [[pdf]](https://arxiv.org/abs/1807.09289) [[code]](https://github.com/brain-research/ncp) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise%20Contrastive%20Priors%20for%20Functional%20Uncertainty.pdf)
+- *Danijar Hafner, Dustin Tran, Timothy Lillicrap, Alex Irpan, James Davidson*
+- `2018-07-24, UAI 2019`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. Only experiments on a toy 1D regression problem, and flight delay prediction in which the input is 8D. The approach of just adding noise to the input x to get OOD samples would probably not work very well e.g. for image-based problems?
+```
 
 ##### [22-02-18] [paper185]
 - Does Your Dermatology Classifier Know What It Doesn't Know? Detecting the Long-Tail of Unseen Conditions
@@ -8288,6 +8308,16 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - `2019-02-11`
 
 #### 2018:
+
+##### [22-02-19] [paper186]
+- Noise Contrastive Priors for Functional Uncertainty
+ [[pdf]](https://arxiv.org/abs/1807.09289) [[code]](https://github.com/brain-research/ncp) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise%20Contrastive%20Priors%20for%20Functional%20Uncertainty.pdf)
+- *Danijar Hafner, Dustin Tran, Timothy Lillicrap, Alex Irpan, James Davidson*
+- `2018-07-24, UAI 2019`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. Only experiments on a toy 1D regression problem, and flight delay prediction in which the input is 8D. The approach of just adding noise to the input x to get OOD samples would probably not work very well e.g. for image-based problems?
+```
 
 ##### [21-02-26] [paper121]
 - Neural Relational Inference for Interacting Systems
