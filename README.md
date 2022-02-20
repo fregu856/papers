@@ -1496,6 +1496,16 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Uncertainty Estimation:
 
+##### [22-02-16] [paper184]
+- Being a Bit Frequentist Improves Bayesian Neural Networks
+ [[pdf]](https://arxiv.org/abs/2106.10065) [[code]](https://github.com/wiseodd/bayesian_ood_training) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Being%20a%20Bit%20Frequentist%20Improves%20Bayesian%20Neural%20Networks.pdf)
+- *Agustinus Kristiadi, Matthias Hein, Philipp Hennig*
+- `2021-06-18, AISTATS 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and well-written paper. The proposed method makes intuitive sense, trying to incorporate the "OOD training" method (i.e., to use some kind of OOD data during training, similar to e.g. the "Deep Anomaly Detection with Outlier Exposure" paper) into the Bayesian deep learning approach. The experimental results do seem quite promising.
+```
+
 ##### [22-02-15] [paper183]
 - Mixtures of Laplace Approximations for Improved Post-Hoc Uncertainty in Deep Learning
  [[pdf]](https://arxiv.org/abs/2111.03577) [[code]](https://github.com/AlexImmer/Laplace) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Mixtures%20of%20Laplace%20Approximations%20for%20Improved%20Post-Hoc%20Uncertainty%20in%20Deep%20Learning.pdf)
@@ -1957,6 +1967,16 @@ Thorough experimental evaluation. Quite interesting findings.
 
 ****
 ### Out-of-Distribution Detection:
+
+##### [22-02-16] [paper184]
+- Being a Bit Frequentist Improves Bayesian Neural Networks
+ [[pdf]](https://arxiv.org/abs/2106.10065) [[code]](https://github.com/wiseodd/bayesian_ood_training) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Being%20a%20Bit%20Frequentist%20Improves%20Bayesian%20Neural%20Networks.pdf)
+- *Agustinus Kristiadi, Matthias Hein, Philipp Hennig*
+- `2021-06-18, AISTATS 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and well-written paper. The proposed method makes intuitive sense, trying to incorporate the "OOD training" method (i.e., to use some kind of OOD data during training, similar to e.g. the "Deep Anomaly Detection with Outlier Exposure" paper) into the Bayesian deep learning approach. The experimental results do seem quite promising.
+```
 
 ##### [22-02-15] [paper183]
 - Mixtures of Laplace Approximations for Improved Post-Hoc Uncertainty in Deep Learning
@@ -7001,7 +7021,15 @@ Well-written and farily interesting paper. I read it mainly as background for "H
 
 #### AISTATS 2022:
 
-TODO!
+##### [22-02-16] [paper184]
+- Being a Bit Frequentist Improves Bayesian Neural Networks
+ [[pdf]](https://arxiv.org/abs/2106.10065) [[code]](https://github.com/wiseodd/bayesian_ood_training) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Being%20a%20Bit%20Frequentist%20Improves%20Bayesian%20Neural%20Networks.pdf)
+- *Agustinus Kristiadi, Matthias Hein, Philipp Hennig*
+- `2021-06-18, AISTATS 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and well-written paper. The proposed method makes intuitive sense, trying to incorporate the "OOD training" method (i.e., to use some kind of OOD data during training, similar to e.g. the "Deep Anomaly Detection with Outlier Exposure" paper) into the Bayesian deep learning approach. The experimental results do seem quite promising.
+```
 
 #### AISTATS 2019:
 
@@ -7372,6 +7400,16 @@ Interesting and quite well-written paper. I did find it somewhat difficult to un
 ```
 
 #### 2021:
+
+##### [22-02-16] [paper184]
+- Being a Bit Frequentist Improves Bayesian Neural Networks
+ [[pdf]](https://arxiv.org/abs/2106.10065) [[code]](https://github.com/wiseodd/bayesian_ood_training) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Being%20a%20Bit%20Frequentist%20Improves%20Bayesian%20Neural%20Networks.pdf)
+- *Agustinus Kristiadi, Matthias Hein, Philipp Hennig*
+- `2021-06-18, AISTATS 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Interesting and well-written paper. The proposed method makes intuitive sense, trying to incorporate the "OOD training" method (i.e., to use some kind of OOD data during training, similar to e.g. the "Deep Anomaly Detection with Outlier Exposure" paper) into the Bayesian deep learning approach. The experimental results do seem quite promising.
+```
 
 ##### [22-02-15] [paper183]
 - Mixtures of Laplace Approximations for Improved Post-Hoc Uncertainty in Deep Learning
