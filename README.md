@@ -109,6 +109,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-02-15] [paper180]
+- Sample Efficient Deep Reinforcement Learning via Uncertainty Estimation
+ [[pdf]](https://arxiv.org/abs/2106.14806) [[code]](https://github.com/AlexImmer/Laplace) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Laplace%20Redux%20--%20Effortless%20Bayesian%20Deep%20Learning.pdf)
+- *Erik Daxberger, Agustinus Kristiadi, Alexander Immer, Runa Eschenhagen, Matthias Bauer, Philipp Hennig*
+- `2021-06-28, NeurIPS 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Interesting and very well-written paper, I enjoyed reading it. I still think that ensembling probably is quite difficult to beat purely in terms of uncertainty estimation quality, but this definitely seems like a useful tool in many situations. It's not clear to me if the analytical expression for regression in "4. Approximate Predictive Distribution" is applicable also if the variance is input-dependent?
+```
+
 ##### [22-02-14] [paper179]
 - Laplace Redux -- Effortless Bayesian Deep Learning
  [[pdf]](https://arxiv.org/abs/2106.14806) [[code]](https://github.com/AlexImmer/Laplace) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Laplace%20Redux%20--%20Effortless%20Bayesian%20Deep%20Learning.pdf)
