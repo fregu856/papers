@@ -1384,8 +1384,54 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ****
 ### Uncertainty Estimation:
+
+##### [22-02-15] [paper181]
+- On the Pitfalls of Heteroscedastic Uncertainty Estimation with Probabilistic Neural Networks
+ [[pdf]](https://openreview.net/forum?id=aPOpXlnV1T) [[code]](https://sites.google.com/view/pitfalls-uncertainty?authuser=0) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Pitfalls%20of%20Heteroscedastic%20Uncertainty%20Estimation%20with%20Probabilistic%20Neural%20Networks.pdf)
+- *Maximilian Seitzer, Arash Tavakoli, Dimitrije Antic, Georg Martius*
+- `2021-09-29, ICLR 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Quite interesting and very well-written paper, I enjoyed reading it. Their analysis of fitting Gaussian regression models via the NLL is quite interesting, I didn't really expect to learn something new about this. I've seen Gaussian models outperform standard regression (L2 loss) w.r.t. accuracy in some applications/datasets, and it being the other way around in others. In the first case, I've then attributed the success of the Gaussian model to the "learned loss attenuation". The analysis in this paper could perhaps explain why you get this performance boost only in certain applications. Their beta-NLL loss could probably be quite useful, seems like a convenient tool to have.
+```
 
 ##### [22-02-15] [paper180]
 - Sample Efficient Deep Reinforcement Learning via Uncertainty Estimation
@@ -5904,6 +5950,16 @@ Quite well-written and somewhat interesting paper. Cool application and a bunch 
 
 #### ICLR 2022:
 
+##### [22-02-15] [paper181]
+- On the Pitfalls of Heteroscedastic Uncertainty Estimation with Probabilistic Neural Networks
+ [[pdf]](https://openreview.net/forum?id=aPOpXlnV1T) [[code]](https://sites.google.com/view/pitfalls-uncertainty?authuser=0) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Pitfalls%20of%20Heteroscedastic%20Uncertainty%20Estimation%20with%20Probabilistic%20Neural%20Networks.pdf)
+- *Maximilian Seitzer, Arash Tavakoli, Dimitrije Antic, Georg Martius*
+- `2021-09-29, ICLR 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Quite interesting and very well-written paper, I enjoyed reading it. Their analysis of fitting Gaussian regression models via the NLL is quite interesting, I didn't really expect to learn something new about this. I've seen Gaussian models outperform standard regression (L2 loss) w.r.t. accuracy in some applications/datasets, and it being the other way around in others. In the first case, I've then attributed the success of the Gaussian model to the "learned loss attenuation". The analysis in this paper could perhaps explain why you get this performance boost only in certain applications. Their beta-NLL loss could probably be quite useful, seems like a convenient tool to have.
+```
+
 ##### [22-02-15] [paper180]
 - Sample Efficient Deep Reinforcement Learning via Uncertainty Estimation
  [[pdf]](https://openreview.net/forum?id=vrW3tvDfOJQ) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Sample%20Efficient%20Deep%20Reinforcement%20Learning%20via%20Uncertainty%20Estimation.pdf)
@@ -7188,6 +7244,16 @@ Interesting and quite well-written paper. I did find it somewhat difficult to un
 ```
 
 #### 2021:
+
+##### [22-02-15] [paper181]
+- On the Pitfalls of Heteroscedastic Uncertainty Estimation with Probabilistic Neural Networks
+ [[pdf]](https://openreview.net/forum?id=aPOpXlnV1T) [[code]](https://sites.google.com/view/pitfalls-uncertainty?authuser=0) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Pitfalls%20of%20Heteroscedastic%20Uncertainty%20Estimation%20with%20Probabilistic%20Neural%20Networks.pdf)
+- *Maximilian Seitzer, Arash Tavakoli, Dimitrije Antic, Georg Martius*
+- `2021-09-29, ICLR 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Quite interesting and very well-written paper, I enjoyed reading it. Their analysis of fitting Gaussian regression models via the NLL is quite interesting, I didn't really expect to learn something new about this. I've seen Gaussian models outperform standard regression (L2 loss) w.r.t. accuracy in some applications/datasets, and it being the other way around in others. In the first case, I've then attributed the success of the Gaussian model to the "learned loss attenuation". The analysis in this paper could perhaps explain why you get this performance boost only in certain applications. Their beta-NLL loss could probably be quite useful, seems like a convenient tool to have.
+```
 
 ##### [22-02-15] [paper180]
 - Sample Efficient Deep Reinforcement Learning via Uncertainty Estimation
