@@ -110,6 +110,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-02-19] [paper186]
+- Noise Contrastive Priors for Functional Uncertainty
+ [[pdf]](https://arxiv.org/abs/1807.09289) [[code]](https://github.com/brain-research/ncp) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise%20Contrastive%20Priors%20for%20Functional%20Uncertainty.pdf)
+- *Danijar Hafner, Dustin Tran, Timothy Lillicrap, Alex Irpan, James Davidson*
+- `2018-07-24, UAI 2019`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. Only experiments on a toy 1D regression problem, and flight delay prediction in which the input is 8D. The approach of just adding noise to the input x to get OOD samples would probably not work very well e.g. for image-based problems?
+```
+
 ##### [22-02-18] [paper185]
 - Does Your Dermatology Classifier Know What It Doesn't Know? Detecting the Long-Tail of Unseen Conditions
  [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S1361841521003194?via%3Dihub) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Does%20your%20dermatology%20classifier%20know%20what%20it%20doesn't%20know%3F%20Detecting%20the%20long-tail%20of%20unseen%20conditions.pdf)
