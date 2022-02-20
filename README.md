@@ -2008,6 +2008,16 @@ Thorough experimental evaluation. Quite interesting findings.
 ****
 ### Out-of-Distribution Detection:
 
+##### [22-02-19] [paper187]
+- A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks
+ [[pdf]](https://arxiv.org/abs/1807.03888) [[code]](https://github.com/pokaxpoka/deep_Mahalanobis_detector) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Simple%20Unified%20Framework%20for%20Detecting%20Out-of-Distribution%20Samples%20and%20Adversarial%20Attacks.pdf)
+- *Kimin Lee, Kibok Lee, Honglak Lee, Jinwoo Shin*
+- `2018-07-10, NeurIPS 2018`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Well-written and interesting paper. The proposed method is simple and really neat: fit class-conditional Gaussians in the feature space of a pre-trained classifier (basically just LDA on the feature vectors), and then use the Mahalanobis distance to these Gaussians as the confidence score for input x. They then also do this for the features at multiple levels of the network and combine these confidence scores into one. I don't quite get why the "input pre-processing" in Section 2.2 (adding noise to test samples) works, in Table 1 it significantly improves the performance.
+```
+
 ##### [22-02-19] [paper186]
 - Noise Contrastive Priors for Functional Uncertainty
  [[pdf]](https://arxiv.org/abs/1807.09289) [[code]](https://github.com/brain-research/ncp) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise%20Contrastive%20Priors%20for%20Functional%20Uncertainty.pdf)
@@ -5721,6 +5731,16 @@ Interesting and very well-written paper, I really enjoyed reading it! The paper 
 
 #### NeurIPS 2018:
 
+##### [22-02-19] [paper187]
+- A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks
+ [[pdf]](https://arxiv.org/abs/1807.03888) [[code]](https://github.com/pokaxpoka/deep_Mahalanobis_detector) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Simple%20Unified%20Framework%20for%20Detecting%20Out-of-Distribution%20Samples%20and%20Adversarial%20Attacks.pdf)
+- *Kimin Lee, Kibok Lee, Honglak Lee, Jinwoo Shin*
+- `2018-07-10, NeurIPS 2018`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Well-written and interesting paper. The proposed method is simple and really neat: fit class-conditional Gaussians in the feature space of a pre-trained classifier (basically just LDA on the feature vectors), and then use the Mahalanobis distance to these Gaussians as the confidence score for input x. They then also do this for the features at multiple levels of the network and combine these confidence scores into one. I don't quite get why the "input pre-processing" in Section 2.2 (adding noise to test samples) works, in Table 1 it significantly improves the performance.
+```
+
 ##### [19-03-04] [paper49]
 - Coupled Variational Bayes via Optimization Embedding [[pdf]](https://papers.nips.cc/paper/8177-coupled-variational-bayes-via-optimization-embedding.pdf) [[poster]](http://wyliu.com/papers/LiuNIPS18_CVB_poster.pdf) [[code]](https://github.com/Hanjun-Dai/cvb) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Coupled%20Variational%20Bayes%20via%20Optimization%20Embedding.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Coupled%20Variational%20Bayes%20via%20Optimization%20Embedding.md)
 - *Bo Dai, Hanjun Dai, Niao He, Weiyang Liu, Zhen Liu, Jianshu Chen, Lin Xiao, Le Song*
@@ -8318,6 +8338,16 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - `2019-02-11`
 
 #### 2018:
+
+##### [22-02-19] [paper187]
+- A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks
+ [[pdf]](https://arxiv.org/abs/1807.03888) [[code]](https://github.com/pokaxpoka/deep_Mahalanobis_detector) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Simple%20Unified%20Framework%20for%20Detecting%20Out-of-Distribution%20Samples%20and%20Adversarial%20Attacks.pdf)
+- *Kimin Lee, Kibok Lee, Honglak Lee, Jinwoo Shin*
+- `2018-07-10, NeurIPS 2018`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Well-written and interesting paper. The proposed method is simple and really neat: fit class-conditional Gaussians in the feature space of a pre-trained classifier (basically just LDA on the feature vectors), and then use the Mahalanobis distance to these Gaussians as the confidence score for input x. They then also do this for the features at multiple levels of the network and combine these confidence scores into one. I don't quite get why the "input pre-processing" in Section 2.2 (adding noise to test samples) works, in Table 1 it significantly improves the performance.
+```
 
 ##### [22-02-19] [paper186]
 - Noise Contrastive Priors for Functional Uncertainty
