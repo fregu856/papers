@@ -1377,6 +1377,16 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Uncertainty Estimation:
 
+##### [22-02-15] [paper180]
+- Sample Efficient Deep Reinforcement Learning via Uncertainty Estimation
+ [[pdf]](https://openreview.net/forum?id=vrW3tvDfOJQ) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Sample%20Efficient%20Deep%20Reinforcement%20Learning%20via%20Uncertainty%20Estimation.pdf)
+- *Vincent Mai, Kaustubh Mani, Liam Paull*
+- `2021-09-29, ICLR 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Reinforcement Learning]](#reinforcement-learning)
+```
+Well-written and somewhat interesting paper. I'm not overly familiar with reinforcement learning, which makes it a bit difficult for me to properly evaluate the paper's contributions, but to me it seems like fairly straightforward method modifications? To use ensembles of Gaussian models (instead of ensembles of models trained using the L2 loss) makes sense. The BIV method I didn't quite get, it seems rather ad hoc? I also don't quite get exactly how it's used in equation (10), is the ensemble of Gaussian models trained _jointly_ using this loss? I don't really know if this could be useful outside of RL.
+```
+
 ##### [22-02-14] [paper179]
 - Laplace Redux -- Effortless Bayesian Deep Learning
  [[pdf]](https://arxiv.org/abs/2106.14806) [[code]](https://github.com/AlexImmer/Laplace) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Laplace%20Redux%20--%20Effortless%20Bayesian%20Deep%20Learning.pdf)
@@ -3447,6 +3457,16 @@ Very interesting and quite well-written paper. Kind of neat/fun to see state-spa
 
 ****
 ### Reinforcement Learning:
+
+##### [22-02-15] [paper180]
+- Sample Efficient Deep Reinforcement Learning via Uncertainty Estimation
+ [[pdf]](https://openreview.net/forum?id=vrW3tvDfOJQ) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Sample%20Efficient%20Deep%20Reinforcement%20Learning%20via%20Uncertainty%20Estimation.pdf)
+- *Vincent Mai, Kaustubh Mani, Liam Paull*
+- `2021-09-29, ICLR 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Reinforcement Learning]](#reinforcement-learning)
+```
+Well-written and somewhat interesting paper. I'm not overly familiar with reinforcement learning, which makes it a bit difficult for me to properly evaluate the paper's contributions, but to me it seems like fairly straightforward method modifications? To use ensembles of Gaussian models (instead of ensembles of models trained using the L2 loss) makes sense. The BIV method I didn't quite get, it seems rather ad hoc? I also don't quite get exactly how it's used in equation (10), is the ensemble of Gaussian models trained _jointly_ using this loss? I don't really know if this could be useful outside of RL.
+```
 
 ##### [21-04-09] [paper127]
 - Q-Learning in enormous action spaces via amortized approximate maximization
@@ -5874,6 +5894,16 @@ Quite well-written and somewhat interesting paper. Cool application and a bunch 
 
 #### ICLR 2022:
 
+##### [22-02-15] [paper180]
+- Sample Efficient Deep Reinforcement Learning via Uncertainty Estimation
+ [[pdf]](https://openreview.net/forum?id=vrW3tvDfOJQ) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Sample%20Efficient%20Deep%20Reinforcement%20Learning%20via%20Uncertainty%20Estimation.pdf)
+- *Vincent Mai, Kaustubh Mani, Liam Paull*
+- `2021-09-29, ICLR 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Reinforcement Learning]](#reinforcement-learning)
+```
+Well-written and somewhat interesting paper. I'm not overly familiar with reinforcement learning, which makes it a bit difficult for me to properly evaluate the paper's contributions, but to me it seems like fairly straightforward method modifications? To use ensembles of Gaussian models (instead of ensembles of models trained using the L2 loss) makes sense. The BIV method I didn't quite get, it seems rather ad hoc? I also don't quite get exactly how it's used in equation (10), is the ensemble of Gaussian models trained _jointly_ using this loss? I don't really know if this could be useful outside of RL.
+```
+
 ##### [22-02-10] [paper175]
 - Natural Posterior Network: Deep Bayesian Predictive Uncertainty for Exponential Family Distributions
  [[pdf]](https://openreview.net/forum?id=tV3N0DWMxCg) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Natural%20Posterior%20Network:%20Deep%20Bayesian%20Predictive%20Uncertainty%20for%20Exponential%20Family%20Distributions.pdf)
@@ -7148,6 +7178,16 @@ Interesting and quite well-written paper. I did find it somewhat difficult to un
 ```
 
 #### 2021:
+
+##### [22-02-15] [paper180]
+- Sample Efficient Deep Reinforcement Learning via Uncertainty Estimation
+ [[pdf]](https://openreview.net/forum?id=vrW3tvDfOJQ) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Sample%20Efficient%20Deep%20Reinforcement%20Learning%20via%20Uncertainty%20Estimation.pdf)
+- *Vincent Mai, Kaustubh Mani, Liam Paull*
+- `2021-09-29, ICLR 2022`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Reinforcement Learning]](#reinforcement-learning)
+```
+Well-written and somewhat interesting paper. I'm not overly familiar with reinforcement learning, which makes it a bit difficult for me to properly evaluate the paper's contributions, but to me it seems like fairly straightforward method modifications? To use ensembles of Gaussian models (instead of ensembles of models trained using the L2 loss) makes sense. The BIV method I didn't quite get, it seems rather ad hoc? I also don't quite get exactly how it's used in equation (10), is the ensemble of Gaussian models trained _jointly_ using this loss? I don't really know if this could be useful outside of RL.
+```
 
 ##### [22-02-14] [paper179]
 - Laplace Redux -- Effortless Bayesian Deep Learning
