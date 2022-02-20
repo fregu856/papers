@@ -2018,6 +2018,16 @@ Thorough experimental evaluation. Quite interesting findings.
 ****
 ### Out-of-Distribution Detection:
 
+##### [22-02-19] [paper188]
+- Contrastive Training for Improved Out-of-Distribution Detection
+ [[pdf]](https://arxiv.org/abs/2007.05566) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Contrastive%20Training%20for%20Improved%20Out-of-Distribution%20Detection.pdf)
+- *Jim Winkens, Rudy Bunel, Abhijit Guha Roy, Robert Stanforth, Vivek Natarajan, Joseph R. Ledsam, Patricia MacWilliams, Pushmeet Kohli, Alan Karthikesalingam, Simon Kohl, Taylan Cemgil, S. M. Ali Eslami, Olaf Ronneberger*
+- `2020-07-10`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and very well-written paper. They take the method from the Mahalanobis paper ("A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks") (however, they fit Gaussians only to the features at the second-to-last network layer, and they don't use the input pre-processing either) and consistently improve OOD detection performance by incorporating contrastive training. Specifically, they first train the network using just the SimCLR loss for a large number of epochs, and then also add the standard classification loss. I didn't quite get why the label smoothing is necessary, but according to Table 2 it's responsible for a large portion of the performance gain.
+```
+
 ##### [22-02-19] [paper187]
 - A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks
  [[pdf]](https://arxiv.org/abs/1807.03888) [[code]](https://github.com/pokaxpoka/deep_Mahalanobis_detector) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Simple%20Unified%20Framework%20for%20Detecting%20Out-of-Distribution%20Samples%20and%20Adversarial%20Attacks.pdf)
@@ -7852,6 +7862,16 @@ Thorough experimental evaluation. Quite interesting findings.
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 #### 2020:
+
+##### [22-02-19] [paper188]
+- Contrastive Training for Improved Out-of-Distribution Detection
+ [[pdf]](https://arxiv.org/abs/2007.05566) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Contrastive%20Training%20for%20Improved%20Out-of-Distribution%20Detection.pdf)
+- *Jim Winkens, Rudy Bunel, Abhijit Guha Roy, Robert Stanforth, Vivek Natarajan, Joseph R. Ledsam, Patricia MacWilliams, Pushmeet Kohli, Alan Karthikesalingam, Simon Kohl, Taylan Cemgil, S. M. Ali Eslami, Olaf Ronneberger*
+- `2020-07-10`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and very well-written paper. They take the method from the Mahalanobis paper ("A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks") (however, they fit Gaussians only to the features at the second-to-last network layer, and they don't use the input pre-processing either) and consistently improve OOD detection performance by incorporating contrastive training. Specifically, they first train the network using just the SimCLR loss for a large number of epochs, and then also add the standard classification loss. I didn't quite get why the label smoothing is necessary, but according to Table 2 it's responsible for a large portion of the performance gain.
+```
 
 ##### [22-02-09] [paper174]
 - Energy-based Out-of-distribution Detection
