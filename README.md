@@ -1456,8 +1456,44 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ****
 ### Uncertainty Estimation:
+
+##### [22-02-15] [paper183]
+- Mixtures of Laplace Approximations for Improved Post-Hoc Uncertainty in Deep Learning
+ [[pdf]](https://arxiv.org/abs/2111.03577) [[code]](https://github.com/AlexImmer/Laplace) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Mixtures%20of%20Laplace%20Approximations%20for%20Improved%20Post-Hoc%20Uncertainty%20in%20Deep%20Learning.pdf)
+- *Runa Eschenhagen, Erik Daxberger, Philipp Hennig, Agustinus Kristiadi*
+- `2021-11-95, NeurIPS Workshops 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Well-written and interesting paper. Short paper of just 3 pages, but with an extensive appendix which I definitely recommend going through. The method, training an ensemble and then applying the Laplace approximation to each network, is very simple and intuitively makes a lot of sense. I didn't realize that this would have basically the same test-time speed as ensembling (since they utilize that probit approximation), that's very neat. It also seems to consistently outperform ensembling a bit across almost all tasks and metrics.
+```
 
 ##### [22-02-15] [paper182]
 - Pessimistic Bootstrapping for Uncertainty-Driven Offline Reinforcement Learning
@@ -1910,6 +1946,16 @@ Thorough experimental evaluation. Quite interesting findings.
 
 ****
 ### Out-of-Distribution Detection:
+
+##### [22-02-15] [paper183]
+- Mixtures of Laplace Approximations for Improved Post-Hoc Uncertainty in Deep Learning
+ [[pdf]](https://arxiv.org/abs/2111.03577) [[code]](https://github.com/AlexImmer/Laplace) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Mixtures%20of%20Laplace%20Approximations%20for%20Improved%20Post-Hoc%20Uncertainty%20in%20Deep%20Learning.pdf)
+- *Runa Eschenhagen, Erik Daxberger, Philipp Hennig, Agustinus Kristiadi*
+- `2021-11-95, NeurIPS Workshops 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Well-written and interesting paper. Short paper of just 3 pages, but with an extensive appendix which I definitely recommend going through. The method, training an ensemble and then applying the Laplace approximation to each network, is very simple and intuitively makes a lot of sense. I didn't realize that this would have basically the same test-time speed as ensembling (since they utilize that probit approximation), that's very neat. It also seems to consistently outperform ensembling a bit across almost all tasks and metrics.
+```
 
 ##### [22-02-12] [paper178]
 - Benchmarking Uncertainty Quantification on Biosignal Classification Tasks under Dataset Shift
@@ -7310,6 +7356,16 @@ Interesting and quite well-written paper. I did find it somewhat difficult to un
 ```
 
 #### 2021:
+
+##### [22-02-15] [paper183]
+- Mixtures of Laplace Approximations for Improved Post-Hoc Uncertainty in Deep Learning
+ [[pdf]](https://arxiv.org/abs/2111.03577) [[code]](https://github.com/AlexImmer/Laplace) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Mixtures%20of%20Laplace%20Approximations%20for%20Improved%20Post-Hoc%20Uncertainty%20in%20Deep%20Learning.pdf)
+- *Runa Eschenhagen, Erik Daxberger, Philipp Hennig, Agustinus Kristiadi*
+- `2021-11-95, NeurIPS Workshops 2021`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Well-written and interesting paper. Short paper of just 3 pages, but with an extensive appendix which I definitely recommend going through. The method, training an ensemble and then applying the Laplace approximation to each network, is very simple and intuitively makes a lot of sense. I didn't realize that this would have basically the same test-time speed as ensembling (since they utilize that probit approximation), that's very neat. It also seems to consistently outperform ensembling a bit across almost all tasks and metrics.
+```
 
 ##### [22-02-15] [paper182]
 - Pessimistic Bootstrapping for Uncertainty-Driven Offline Reinforcement Learning
