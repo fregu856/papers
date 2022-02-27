@@ -110,6 +110,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-02-21] [paper190]
+- Can You Trust Predictive Uncertainty Under Real Dataset Shifts in Digital Pathology?
+ [[pdf]](https://backend.orbit.dtu.dk/ws/portalfiles/portal/218217360/MICCAI2020.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Can%20you%20trust%20predictive%20uncertainty%20under%20real%20dataset%20shifts%20in%20digital%20pathology%3F.pdf)
+- *Jeppe Thagaard, Søren Hauberg, Bert van der Vegt, Thomas Ebstrup, Johan D. Hansen, Anders B. Dahl*
+- `2020-09, MICCAI 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Quite interesting and well-written paper. They compare MC-dropout, ensemlbing and mixup (and with a standard softmax classifer as the baseline). Nothing groundbreaking, but the studied application (classification of pathology slides for cancer) is very interesting. The FPR95 metrics for OOD detection in Table 4 are terrible for ensembling, but the classification accuracy (89.7) is also pretty much the same as for D_test_int in Tabe 3 (90.1)? So, it doesn't really matter that the model isn't capable of distinguishing this "OOD" data from in-distribution? 
+```
+
 ##### [22-02-21] [paper189]
 - Robust Uncertainty Estimates with Out-of-Distribution Pseudo-Inputs Training
  [[pdf]](https://arxiv.org/abs/2201.05890) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Robust%20uncertainty%20estimates%20with%20out-of-distribution%20pseudo-inputs%20training.pdf)
