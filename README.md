@@ -92,6 +92,8 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 - - [AISTATS 2010](#aistats-2010)
 - [AAAI](#aaai)
 - - [AAAI 2020](#aaai-2020)
+- [MICCAI](#miccai)
+- - [MICCAI 2020](#miccai-2020)
 - [CDC](#cdc)
 - - [CDC 2018](#cdc-2018)
 - [JMLR](#jmlr)
@@ -7265,6 +7267,65 @@ Interesting and well-written paper. The proposed method makes intuitive sense, t
 - *Erik Nijkamp, Mitch Hill, Tian Han, Song-Chun Zhu, Ying Nian Wu*
 - `2019-04-29, AAAI 2020`
 - [[Energy-Based Models]](#energy-based-models)
+
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### MICCAI:
+
+- [MICCAI 2020](#miccai-2020)
+
+#### MICCAI 2020:
+
+TODO!
 
 ****
 ****
