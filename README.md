@@ -110,6 +110,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-02-21] [paper189]
+- Robust Uncertainty Estimates with Out-of-Distribution Pseudo-Inputs Training
+ [[pdf]](https://arxiv.org/abs/2201.05890) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Robust%20uncertainty%20estimates%20with%20out-of-distribution%20pseudo-inputs%20training.pdf)
+- *Pierre Segonne, Yevgen Zainchkovskyy, Søren Hauberg*
+- `2022-01-15`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Somewhat interesting paper. I didn't quite understand everything, so it could be more interesting than I think. The fact that their pseudo-input generation process "relies on the availability of a differentiable density estimate of the data" seems like a big limitation? For regression, they only applied their method to very low-dimensional input data (1D toy regression and UCI benchmarks), but would this work for image-based tasks?
+```
+
 ##### [22-02-19] [paper188]
 - Contrastive Training for Improved Out-of-Distribution Detection
  [[pdf]](https://arxiv.org/abs/2007.05566) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Contrastive%20Training%20for%20Improved%20Out-of-Distribution%20Detection.pdf)
