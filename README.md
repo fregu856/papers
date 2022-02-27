@@ -1546,6 +1546,16 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Uncertainty Estimation:
 
+##### [22-02-21] [paper189]
+- Robust Uncertainty Estimates with Out-of-Distribution Pseudo-Inputs Training
+ [[pdf]](https://arxiv.org/abs/2201.05890) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Robust%20uncertainty%20estimates%20with%20out-of-distribution%20pseudo-inputs%20training.pdf)
+- *Pierre Segonne, Yevgen Zainchkovskyy, Søren Hauberg*
+- `2022-01-15`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Somewhat interesting paper. I didn't quite understand everything, so it could be more interesting than I think. The fact that their pseudo-input generation process "relies on the availability of a differentiable density estimate of the data" seems like a big limitation? For regression, they only applied their method to very low-dimensional input data (1D toy regression and UCI benchmarks), but would this work for image-based tasks?
+```
+
 ##### [22-02-19] [paper186]
 - Noise Contrastive Priors for Functional Uncertainty
  [[pdf]](https://arxiv.org/abs/1807.09289) [[code]](https://github.com/brain-research/ncp) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise%20Contrastive%20Priors%20for%20Functional%20Uncertainty.pdf)
@@ -7508,6 +7518,16 @@ Interesting and well-written paper. The proposed method makes intuitive sense, t
 - [2004](#2004)
 
 #### 2022:
+
+##### [22-02-21] [paper189]
+- Robust Uncertainty Estimates with Out-of-Distribution Pseudo-Inputs Training
+ [[pdf]](https://arxiv.org/abs/2201.05890) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Robust%20uncertainty%20estimates%20with%20out-of-distribution%20pseudo-inputs%20training.pdf)
+- *Pierre Segonne, Yevgen Zainchkovskyy, Søren Hauberg*
+- `2022-01-15`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Somewhat interesting paper. I didn't quite understand everything, so it could be more interesting than I think. The fact that their pseudo-input generation process "relies on the availability of a differentiable density estimate of the data" seems like a big limitation? For regression, they only applied their method to very low-dimensional input data (1D toy regression and UCI benchmarks), but would this work for image-based tasks?
+```
 
 ##### [22-02-09] [paper173]
 - VOS: Learning What You Don't Know by Virtual Outlier Synthesis
