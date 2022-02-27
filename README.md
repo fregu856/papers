@@ -1568,6 +1568,16 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Uncertainty Estimation:
 
+##### [22-02-24] [paper191]
+- UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomography
+ [[pdf]](https://arxiv.org/abs/2202.10847) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/UncertaINR:%20Uncertainty%20Quantification%20of%20End-to-End%20Implicit%20Neural%20Representations%20for%20Computed%20Tomography.pdf)
+- *Francisca Vasconcelos, Bobby He, Nalini Singh, Yee Whye Teh*
+- `2022-02-22`
+- [[Implicit Neural Representations]](#implicit-neural-representations) [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
+```
+Interesting and well-written paper. I wasn't very familiar with CT image reconstruction, but they do a good job explaining everything. Interesting that MC-dropout seems important for getting well-calibrated predictions.
+```
+
 ##### [22-02-21] [paper190]
 - Can You Trust Predictive Uncertainty Under Real Dataset Shifts in Digital Pathology?
  [[pdf]](https://backend.orbit.dtu.dk/ws/portalfiles/portal/218217360/MICCAI2020.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Can%20you%20trust%20predictive%20uncertainty%20under%20real%20dataset%20shifts%20in%20digital%20pathology%3F.pdf)
@@ -2861,6 +2871,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 
 ****
 ### Medical ML:
+
+##### [22-02-24] [paper191]
+- UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomography
+ [[pdf]](https://arxiv.org/abs/2202.10847) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/UncertaINR:%20Uncertainty%20Quantification%20of%20End-to-End%20Implicit%20Neural%20Representations%20for%20Computed%20Tomography.pdf)
+- *Francisca Vasconcelos, Bobby He, Nalini Singh, Yee Whye Teh*
+- `2022-02-22`
+- [[Implicit Neural Representations]](#implicit-neural-representations) [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
+```
+Interesting and well-written paper. I wasn't very familiar with CT image reconstruction, but they do a good job explaining everything. Interesting that MC-dropout seems important for getting well-calibrated predictions.
+```
 
 ##### [22-02-21] [paper190]
 - Can You Trust Predictive Uncertainty Under Real Dataset Shifts in Digital Pathology?
@@ -4970,6 +4990,16 @@ Interesting and well-written paper. The proposed method is quite clearly explain
 
 ****
 ### Implicit Neural Representations:
+
+##### [22-02-24] [paper191]
+- UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomography
+ [[pdf]](https://arxiv.org/abs/2202.10847) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/UncertaINR:%20Uncertainty%20Quantification%20of%20End-to-End%20Implicit%20Neural%20Representations%20for%20Computed%20Tomography.pdf)
+- *Francisca Vasconcelos, Bobby He, Nalini Singh, Yee Whye Teh*
+- `2022-02-22`
+- [[Implicit Neural Representations]](#implicit-neural-representations) [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
+```
+Interesting and well-written paper. I wasn't very familiar with CT image reconstruction, but they do a good job explaining everything. Interesting that MC-dropout seems important for getting well-calibrated predictions.
+```
 
 ##### [21-10-12] [paper162]
 - Neural Unsigned Distance Fields for Implicit Function Learning
@@ -7655,6 +7685,16 @@ Quite interesting and well-written paper. They compare MC-dropout, ensemlbing an
 - [2004](#2004)
 
 #### 2022:
+
+##### [22-02-24] [paper191]
+- UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomography
+ [[pdf]](https://arxiv.org/abs/2202.10847) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/UncertaINR:%20Uncertainty%20Quantification%20of%20End-to-End%20Implicit%20Neural%20Representations%20for%20Computed%20Tomography.pdf)
+- *Francisca Vasconcelos, Bobby He, Nalini Singh, Yee Whye Teh*
+- `2022-02-22`
+- [[Implicit Neural Representations]](#implicit-neural-representations) [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
+```
+Interesting and well-written paper. I wasn't very familiar with CT image reconstruction, but they do a good job explaining everything. Interesting that MC-dropout seems important for getting well-calibrated predictions.
+```
 
 ##### [22-02-21] [paper189]
 - Robust Uncertainty Estimates with Out-of-Distribution Pseudo-Inputs Training
