@@ -91,6 +91,7 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 - - [AISTATS 2019](#aistats-2019)
 - - [AISTATS 2010](#aistats-2010)
 - [AAAI](#aaai)
+- - [AAAI 2022](#aaai-2022)
 - - [AAAI 2020](#aaai-2020)
 - [MICCAI](#miccai)
 - - [MICCAI 2020](#miccai-2020)
@@ -7418,7 +7419,12 @@ Interesting and well-written paper. The proposed method makes intuitive sense, t
 ****
 ### AAAI:
 
+- [AAAI 2022](#aaai-2022)
 - [AAAI 2020](#aaai-2020)
+
+#### AAAI 2022:
+
+TODO!
 
 #### AAAI 2020:
 
