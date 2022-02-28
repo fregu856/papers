@@ -91,7 +91,10 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 - - [AISTATS 2019](#aistats-2019)
 - - [AISTATS 2010](#aistats-2010)
 - [AAAI](#aaai)
+- - [AAAI 2022](#aaai-2022)
 - - [AAAI 2020](#aaai-2020)
+- [MICCAI](#miccai)
+- - [MICCAI 2020](#miccai-2020)
 - [CDC](#cdc)
 - - [CDC 2018](#cdc-2018)
 - [JMLR](#jmlr)
@@ -109,6 +112,76 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2022:
+
+##### [22-02-26] [paper195]
+- Out of Distribution Data Detection Using Dropout Bayesian Neural Networks
+ [[pdf]](https://arxiv.org/abs/2202.08985) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Out%20of%20Distribution%20Data%20Detection%20Using%20Dropout%20Bayesian%20Neural%20Networks.pdf)
+- *Andre T. Nguyen, Fred Lu, Gary Lopez Munoz, Edward Raff, Charles Nicholas, James Holt*
+- `2022-02-18, AAAI 2022`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. It seemed quite niche at first, but I think their analysis could potentially be useful.
+```
+
+##### [22-02-26] [paper194]
+- Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks
+ [[pdf]](https://arxiv.org/abs/1706.02690) [[code]](https://github.com/facebookresearch/odin) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Enhancing%20The%20Reliability%20of%20Out-of-distribution%20Image%20Detection%20in%20Neural%20Networks.pdf)
+- *Shiyu Liang, Yixuan Li, R. Srikant*
+- `2017-06-08, ICLR 2018`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. Two simple modifications of the "maximum softmax score" baseline, and the performance is consistently improved. The input perturbation method is quite interesting. Intuitively, it's not entirely clear to me why it actually works.
+```
+
+##### [22-02-25] [paper193]
+- Confidence-based Out-of-Distribution Detection: A Comparative Study and Analysis
+ [[pdf]](https://arxiv.org/abs/2107.02568) [[code]](https://github.com/christophbrgr/ood_detection_framework) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Confidence-based%20Out-of-Distribution%20Detection:%20A%20Comparative%20Study%20and%20Analysis.pdf)
+- *Christoph Berger, Magdalini Paschali, Ben Glocker, Konstantinos Kamnitsas*
+- `2021-07-06, MICCAI Workshops 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Interesting and well-written paper. Interesting that Mahalanobis works very well on the CIFAR10 vs SVHN but not on the medical imaging dataset. I don't quite get how/why the ODIN method works, I'll probably have to read that paper.
+```
+
+##### [22-02-25] [paper192]
+- Deep Learning Through the Lens of Example Difficulty
+ [[pdf]](https://openreview.net/forum?id=WWRBHhH158K) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning%20Through%20the%20Lens%20of%20Example%20Difficulty.pdf)
+- *Robert John Nicholas Baldock, Hartmut Maennel, Behnam Neyshabur*
+- `2021-05-21, NeurIPS 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite interesting and well-written paper. The definition of "prediction depth" in Section 2.1 makes sense, and it definitely seems reasonable that this could correlate with example difficulty / prediction confidence in some way. Section 3 and 4, and all the figures, contain a lot of info it seems, I'd probably need to read the paper again to properly understand/appreciate everything.
+```
+
+##### [22-02-24] [paper191]
+- UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomography
+ [[pdf]](https://arxiv.org/abs/2202.10847) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/UncertaINR:%20Uncertainty%20Quantification%20of%20End-to-End%20Implicit%20Neural%20Representations%20for%20Computed%20Tomography.pdf)
+- *Francisca Vasconcelos, Bobby He, Nalini Singh, Yee Whye Teh*
+- `2022-02-22`
+- [[Implicit Neural Representations]](#implicit-neural-representations) [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
+```
+Interesting and well-written paper. I wasn't very familiar with CT image reconstruction, but they do a good job explaining everything. Interesting that MC-dropout seems important for getting well-calibrated predictions.
+```
+
+##### [22-02-21] [paper190]
+- Can You Trust Predictive Uncertainty Under Real Dataset Shifts in Digital Pathology?
+ [[pdf]](https://backend.orbit.dtu.dk/ws/portalfiles/portal/218217360/MICCAI2020.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Can%20you%20trust%20predictive%20uncertainty%20under%20real%20dataset%20shifts%20in%20digital%20pathology%3F.pdf)
+- *Jeppe Thagaard, Søren Hauberg, Bert van der Vegt, Thomas Ebstrup, Johan D. Hansen, Anders B. Dahl*
+- `2020-09, MICCAI 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Quite interesting and well-written paper. They compare MC-dropout, ensemlbing and mixup (and with a standard softmax classifer as the baseline). Nothing groundbreaking, but the studied application (classification of pathology slides for cancer) is very interesting. The FPR95 metrics for OOD detection in Table 4 are terrible for ensembling, but the classification accuracy (89.7) is also pretty much the same as for D_test_int in Tabe 3 (90.1)? So, it doesn't really matter that the model isn't capable of distinguishing this "OOD" data from in-distribution? 
+```
+
+##### [22-02-21] [paper189]
+- Robust Uncertainty Estimates with Out-of-Distribution Pseudo-Inputs Training
+ [[pdf]](https://arxiv.org/abs/2201.05890) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Robust%20uncertainty%20estimates%20with%20out-of-distribution%20pseudo-inputs%20training.pdf)
+- *Pierre Segonne, Yevgen Zainchkovskyy, Søren Hauberg*
+- `2022-01-15`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Somewhat interesting paper. I didn't quite understand everything, so it could be more interesting than I think. The fact that their pseudo-input generation process "relies on the availability of a differentiable density estimate of the data" seems like a big limitation? For regression, they only applied their method to very low-dimensional input data (1D toy regression and UCI benchmarks), but would this work for image-based tasks?
+```
 
 ##### [22-02-19] [paper188]
 - Contrastive Training for Improved Out-of-Distribution Detection
@@ -1536,6 +1609,36 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Uncertainty Estimation:
 
+##### [22-02-24] [paper191]
+- UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomography
+ [[pdf]](https://arxiv.org/abs/2202.10847) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/UncertaINR:%20Uncertainty%20Quantification%20of%20End-to-End%20Implicit%20Neural%20Representations%20for%20Computed%20Tomography.pdf)
+- *Francisca Vasconcelos, Bobby He, Nalini Singh, Yee Whye Teh*
+- `2022-02-22`
+- [[Implicit Neural Representations]](#implicit-neural-representations) [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
+```
+Interesting and well-written paper. I wasn't very familiar with CT image reconstruction, but they do a good job explaining everything. Interesting that MC-dropout seems important for getting well-calibrated predictions.
+```
+
+##### [22-02-21] [paper190]
+- Can You Trust Predictive Uncertainty Under Real Dataset Shifts in Digital Pathology?
+ [[pdf]](https://backend.orbit.dtu.dk/ws/portalfiles/portal/218217360/MICCAI2020.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Can%20you%20trust%20predictive%20uncertainty%20under%20real%20dataset%20shifts%20in%20digital%20pathology%3F.pdf)
+- *Jeppe Thagaard, Søren Hauberg, Bert van der Vegt, Thomas Ebstrup, Johan D. Hansen, Anders B. Dahl*
+- `2020-09, MICCAI 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Quite interesting and well-written paper. They compare MC-dropout, ensemlbing and mixup (and with a standard softmax classifer as the baseline). Nothing groundbreaking, but the studied application (classification of pathology slides for cancer) is very interesting. The FPR95 metrics for OOD detection in Table 4 are terrible for ensembling, but the classification accuracy (89.7) is also pretty much the same as for D_test_int in Tabe 3 (90.1)? So, it doesn't really matter that the model isn't capable of distinguishing this "OOD" data from in-distribution? 
+```
+
+##### [22-02-21] [paper189]
+- Robust Uncertainty Estimates with Out-of-Distribution Pseudo-Inputs Training
+ [[pdf]](https://arxiv.org/abs/2201.05890) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Robust%20uncertainty%20estimates%20with%20out-of-distribution%20pseudo-inputs%20training.pdf)
+- *Pierre Segonne, Yevgen Zainchkovskyy, Søren Hauberg*
+- `2022-01-15`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Somewhat interesting paper. I didn't quite understand everything, so it could be more interesting than I think. The fact that their pseudo-input generation process "relies on the availability of a differentiable density estimate of the data" seems like a big limitation? For regression, they only applied their method to very low-dimensional input data (1D toy regression and UCI benchmarks), but would this work for image-based tasks?
+```
+
 ##### [22-02-19] [paper186]
 - Noise Contrastive Priors for Functional Uncertainty
  [[pdf]](https://arxiv.org/abs/1807.09289) [[code]](https://github.com/brain-research/ncp) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise%20Contrastive%20Priors%20for%20Functional%20Uncertainty.pdf)
@@ -2018,6 +2121,46 @@ Thorough experimental evaluation. Quite interesting findings.
 ****
 ### Out-of-Distribution Detection:
 
+##### [22-02-26] [paper195]
+- Out of Distribution Data Detection Using Dropout Bayesian Neural Networks
+ [[pdf]](https://arxiv.org/abs/2202.08985) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Out%20of%20Distribution%20Data%20Detection%20Using%20Dropout%20Bayesian%20Neural%20Networks.pdf)
+- *Andre T. Nguyen, Fred Lu, Gary Lopez Munoz, Edward Raff, Charles Nicholas, James Holt*
+- `2022-02-18, AAAI 2022`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. It seemed quite niche at first, but I think their analysis could potentially be useful.
+```
+
+##### [22-02-26] [paper194]
+- Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks
+ [[pdf]](https://arxiv.org/abs/1706.02690) [[code]](https://github.com/facebookresearch/odin) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Enhancing%20The%20Reliability%20of%20Out-of-distribution%20Image%20Detection%20in%20Neural%20Networks.pdf)
+- *Shiyu Liang, Yixuan Li, R. Srikant*
+- `2017-06-08, ICLR 2018`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. Two simple modifications of the "maximum softmax score" baseline, and the performance is consistently improved. The input perturbation method is quite interesting. Intuitively, it's not entirely clear to me why it actually works.
+```
+
+##### [22-02-25] [paper193]
+- Confidence-based Out-of-Distribution Detection: A Comparative Study and Analysis
+ [[pdf]](https://arxiv.org/abs/2107.02568) [[code]](https://github.com/christophbrgr/ood_detection_framework) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Confidence-based%20Out-of-Distribution%20Detection:%20A%20Comparative%20Study%20and%20Analysis.pdf)
+- *Christoph Berger, Magdalini Paschali, Ben Glocker, Konstantinos Kamnitsas*
+- `2021-07-06, MICCAI Workshops 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Interesting and well-written paper. Interesting that Mahalanobis works very well on the CIFAR10 vs SVHN but not on the medical imaging dataset. I don't quite get how/why the ODIN method works, I'll probably have to read that paper.
+```
+
+##### [22-02-21] [paper190]
+- Can You Trust Predictive Uncertainty Under Real Dataset Shifts in Digital Pathology?
+ [[pdf]](https://backend.orbit.dtu.dk/ws/portalfiles/portal/218217360/MICCAI2020.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Can%20you%20trust%20predictive%20uncertainty%20under%20real%20dataset%20shifts%20in%20digital%20pathology%3F.pdf)
+- *Jeppe Thagaard, Søren Hauberg, Bert van der Vegt, Thomas Ebstrup, Johan D. Hansen, Anders B. Dahl*
+- `2020-09, MICCAI 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Quite interesting and well-written paper. They compare MC-dropout, ensemlbing and mixup (and with a standard softmax classifer as the baseline). Nothing groundbreaking, but the studied application (classification of pathology slides for cancer) is very interesting. The FPR95 metrics for OOD detection in Table 4 are terrible for ensembling, but the classification accuracy (89.7) is also pretty much the same as for D_test_int in Tabe 3 (90.1)? So, it doesn't really matter that the model isn't capable of distinguishing this "OOD" data from in-distribution? 
+```
+
 ##### [22-02-19] [paper188]
 - Contrastive Training for Improved Out-of-Distribution Detection
  [[pdf]](https://arxiv.org/abs/2007.05566) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Contrastive%20Training%20for%20Improved%20Out-of-Distribution%20Detection.pdf)
@@ -2274,6 +2417,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 
 ****
 ### Theoretical Properties of Deep Learning:
+
+##### [22-02-25] [paper192]
+- Deep Learning Through the Lens of Example Difficulty
+ [[pdf]](https://openreview.net/forum?id=WWRBHhH158K) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning%20Through%20the%20Lens%20of%20Example%20Difficulty.pdf)
+- *Robert John Nicholas Baldock, Hartmut Maennel, Behnam Neyshabur*
+- `2021-05-21, NeurIPS 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite interesting and well-written paper. The definition of "prediction depth" in Section 2.1 makes sense, and it definitely seems reasonable that this could correlate with example difficulty / prediction confidence in some way. Section 3 and 4, and all the figures, contain a lot of info it seems, I'd probably need to read the paper again to properly understand/appreciate everything.
+```
 
 ##### [21-12-02] [paper169]
 - An Information-theoretic Approach to Distribution Shifts
@@ -2799,6 +2952,36 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 
 ****
 ### Medical ML:
+
+##### [22-02-25] [paper193]
+- Confidence-based Out-of-Distribution Detection: A Comparative Study and Analysis
+ [[pdf]](https://arxiv.org/abs/2107.02568) [[code]](https://github.com/christophbrgr/ood_detection_framework) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Confidence-based%20Out-of-Distribution%20Detection:%20A%20Comparative%20Study%20and%20Analysis.pdf)
+- *Christoph Berger, Magdalini Paschali, Ben Glocker, Konstantinos Kamnitsas*
+- `2021-07-06, MICCAI Workshops 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Interesting and well-written paper. Interesting that Mahalanobis works very well on the CIFAR10 vs SVHN but not on the medical imaging dataset. I don't quite get how/why the ODIN method works, I'll probably have to read that paper.
+```
+
+##### [22-02-24] [paper191]
+- UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomography
+ [[pdf]](https://arxiv.org/abs/2202.10847) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/UncertaINR:%20Uncertainty%20Quantification%20of%20End-to-End%20Implicit%20Neural%20Representations%20for%20Computed%20Tomography.pdf)
+- *Francisca Vasconcelos, Bobby He, Nalini Singh, Yee Whye Teh*
+- `2022-02-22`
+- [[Implicit Neural Representations]](#implicit-neural-representations) [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
+```
+Interesting and well-written paper. I wasn't very familiar with CT image reconstruction, but they do a good job explaining everything. Interesting that MC-dropout seems important for getting well-calibrated predictions.
+```
+
+##### [22-02-21] [paper190]
+- Can You Trust Predictive Uncertainty Under Real Dataset Shifts in Digital Pathology?
+ [[pdf]](https://backend.orbit.dtu.dk/ws/portalfiles/portal/218217360/MICCAI2020.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Can%20you%20trust%20predictive%20uncertainty%20under%20real%20dataset%20shifts%20in%20digital%20pathology%3F.pdf)
+- *Jeppe Thagaard, Søren Hauberg, Bert van der Vegt, Thomas Ebstrup, Johan D. Hansen, Anders B. Dahl*
+- `2020-09, MICCAI 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Quite interesting and well-written paper. They compare MC-dropout, ensemlbing and mixup (and with a standard softmax classifer as the baseline). Nothing groundbreaking, but the studied application (classification of pathology slides for cancer) is very interesting. The FPR95 metrics for OOD detection in Table 4 are terrible for ensembling, but the classification accuracy (89.7) is also pretty much the same as for D_test_int in Tabe 3 (90.1)? So, it doesn't really matter that the model isn't capable of distinguishing this "OOD" data from in-distribution? 
+```
 
 ##### [22-02-18] [paper185]
 - Does Your Dermatology Classifier Know What It Doesn't Know? Detecting the Long-Tail of Unseen Conditions
@@ -4899,6 +5082,16 @@ Interesting and well-written paper. The proposed method is quite clearly explain
 ****
 ### Implicit Neural Representations:
 
+##### [22-02-24] [paper191]
+- UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomography
+ [[pdf]](https://arxiv.org/abs/2202.10847) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/UncertaINR:%20Uncertainty%20Quantification%20of%20End-to-End%20Implicit%20Neural%20Representations%20for%20Computed%20Tomography.pdf)
+- *Francisca Vasconcelos, Bobby He, Nalini Singh, Yee Whye Teh*
+- `2022-02-22`
+- [[Implicit Neural Representations]](#implicit-neural-representations) [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
+```
+Interesting and well-written paper. I wasn't very familiar with CT image reconstruction, but they do a good job explaining everything. Interesting that MC-dropout seems important for getting well-calibrated predictions.
+```
+
 ##### [21-10-12] [paper162]
 - Neural Unsigned Distance Fields for Implicit Function Learning
  [[pdf]](https://arxiv.org/abs/2010.13938) [[code]](https://github.com/jchibane/ndf/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Unsigned%20Distance%20Fields%20for%20Implicit%20Function%20Learning.pdf)
@@ -5571,6 +5764,16 @@ All parts of the proposed method are clearly explained and relatively easy to un
 - [NeurIPS 2011](#neurips-2011)
 
 #### NeurIPS 2021:
+
+##### [22-02-25] [paper192]
+- Deep Learning Through the Lens of Example Difficulty
+ [[pdf]](https://openreview.net/forum?id=WWRBHhH158K) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning%20Through%20the%20Lens%20of%20Example%20Difficulty.pdf)
+- *Robert John Nicholas Baldock, Hartmut Maennel, Behnam Neyshabur*
+- `2021-05-21, NeurIPS 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite interesting and well-written paper. The definition of "prediction depth" in Section 2.1 makes sense, and it definitely seems reasonable that this could correlate with example difficulty / prediction confidence in some way. Section 3 and 4, and all the figures, contain a lot of info it seems, I'd probably need to read the paper again to properly understand/appreciate everything.
+```
 
 ##### [22-02-14] [paper179]
 - Laplace Redux -- Effortless Bayesian Deep Learning
@@ -6388,6 +6591,16 @@ Very interesting and quite well-written paper. Kind of neat/fun to see state-spa
 - `2018-10-11, ICLR2019`
 
 #### ICLR 2018:
+
+##### [22-02-26] [paper194]
+- Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks
+ [[pdf]](https://arxiv.org/abs/1706.02690) [[code]](https://github.com/facebookresearch/odin) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Enhancing%20The%20Reliability%20of%20Out-of-distribution%20Image%20Detection%20in%20Neural%20Networks.pdf)
+- *Shiyu Liang, Yixuan Li, R. Srikant*
+- `2017-06-08, ICLR 2018`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. Two simple modifications of the "maximum softmax score" baseline, and the performance is consistently improved. The input perturbation method is quite interesting. Intuitively, it's not entirely clear to me why it actually works.
+```
 
 ##### [18-09-20] [paper1]
 - Gaussian Process Behaviour in Wide Deep Neural Networks [[pdf]](https://arxiv.org/abs/1804.11271) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gaussian%20Process%20Behaviour%20in%20Wide%20Deep%20Neural%20Networks.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Gaussian%20Process%20Behaviour%20in%20Wide%20Deep%20Neural%20Networks.md)
@@ -7226,7 +7439,20 @@ Interesting and well-written paper. The proposed method makes intuitive sense, t
 ****
 ### AAAI:
 
+- [AAAI 2022](#aaai-2022)
 - [AAAI 2020](#aaai-2020)
+
+#### AAAI 2022:
+
+##### [22-02-26] [paper195]
+- Out of Distribution Data Detection Using Dropout Bayesian Neural Networks
+ [[pdf]](https://arxiv.org/abs/2202.08985) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Out%20of%20Distribution%20Data%20Detection%20Using%20Dropout%20Bayesian%20Neural%20Networks.pdf)
+- *Andre T. Nguyen, Fred Lu, Gary Lopez Munoz, Edward Raff, Charles Nicholas, James Holt*
+- `2022-02-18, AAAI 2022`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. It seemed quite niche at first, but I think their analysis could potentially be useful.
+```
 
 #### AAAI 2020:
 
@@ -7238,6 +7464,91 @@ Interesting and well-written paper. The proposed method makes intuitive sense, t
 
 ****
 ****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+### MICCAI:
+
+- [MICCAI 2020](#miccai-2020)
+
+#### MICCAI 2020:
+
+##### [22-02-21] [paper190]
+- Can You Trust Predictive Uncertainty Under Real Dataset Shifts in Digital Pathology?
+ [[pdf]](https://backend.orbit.dtu.dk/ws/portalfiles/portal/218217360/MICCAI2020.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Can%20you%20trust%20predictive%20uncertainty%20under%20real%20dataset%20shifts%20in%20digital%20pathology%3F.pdf)
+- *Jeppe Thagaard, Søren Hauberg, Bert van der Vegt, Thomas Ebstrup, Johan D. Hansen, Anders B. Dahl*
+- `2020-09, MICCAI 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Quite interesting and well-written paper. They compare MC-dropout, ensemlbing and mixup (and with a standard softmax classifer as the baseline). Nothing groundbreaking, but the studied application (classification of pathology slides for cancer) is very interesting. The FPR95 metrics for OOD detection in Table 4 are terrible for ensembling, but the classification accuracy (89.7) is also pretty much the same as for D_test_int in Tabe 3 (90.1)? So, it doesn't really matter that the model isn't capable of distinguishing this "OOD" data from in-distribution? 
+```
+
+****
+****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7499,6 +7810,36 @@ Interesting and well-written paper. The proposed method makes intuitive sense, t
 
 #### 2022:
 
+##### [22-02-26] [paper195]
+- Out of Distribution Data Detection Using Dropout Bayesian Neural Networks
+ [[pdf]](https://arxiv.org/abs/2202.08985) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Out%20of%20Distribution%20Data%20Detection%20Using%20Dropout%20Bayesian%20Neural%20Networks.pdf)
+- *Andre T. Nguyen, Fred Lu, Gary Lopez Munoz, Edward Raff, Charles Nicholas, James Holt*
+- `2022-02-18, AAAI 2022`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. It seemed quite niche at first, but I think their analysis could potentially be useful.
+```
+
+##### [22-02-24] [paper191]
+- UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomography
+ [[pdf]](https://arxiv.org/abs/2202.10847) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/UncertaINR:%20Uncertainty%20Quantification%20of%20End-to-End%20Implicit%20Neural%20Representations%20for%20Computed%20Tomography.pdf)
+- *Francisca Vasconcelos, Bobby He, Nalini Singh, Yee Whye Teh*
+- `2022-02-22`
+- [[Implicit Neural Representations]](#implicit-neural-representations) [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
+```
+Interesting and well-written paper. I wasn't very familiar with CT image reconstruction, but they do a good job explaining everything. Interesting that MC-dropout seems important for getting well-calibrated predictions.
+```
+
+##### [22-02-21] [paper189]
+- Robust Uncertainty Estimates with Out-of-Distribution Pseudo-Inputs Training
+ [[pdf]](https://arxiv.org/abs/2201.05890) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Robust%20uncertainty%20estimates%20with%20out-of-distribution%20pseudo-inputs%20training.pdf)
+- *Pierre Segonne, Yevgen Zainchkovskyy, Søren Hauberg*
+- `2022-01-15`
+- [[Uncertainty Estimation]](#uncertainty-estimation)
+```
+Somewhat interesting paper. I didn't quite understand everything, so it could be more interesting than I think. The fact that their pseudo-input generation process "relies on the availability of a differentiable density estimate of the data" seems like a big limitation? For regression, they only applied their method to very low-dimensional input data (1D toy regression and UCI benchmarks), but would this work for image-based tasks?
+```
+
 ##### [22-02-09] [paper173]
 - VOS: Learning What You Don't Know by Virtual Outlier Synthesis
  [[pdf]](https://arxiv.org/abs/2202.01197) [[code]](https://github.com/deeplearning-wisc/vos) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VOS:%20Learning%20What%20You%20Don't%20Know%20by%20Virtual%20Outlier%20Synthesis.pdf)
@@ -7510,6 +7851,26 @@ Interesting and quite well-written paper. I did find it somewhat difficult to un
 ```
 
 #### 2021:
+
+##### [22-02-25] [paper193]
+- Confidence-based Out-of-Distribution Detection: A Comparative Study and Analysis
+ [[pdf]](https://arxiv.org/abs/2107.02568) [[code]](https://github.com/christophbrgr/ood_detection_framework) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Confidence-based%20Out-of-Distribution%20Detection:%20A%20Comparative%20Study%20and%20Analysis.pdf)
+- *Christoph Berger, Magdalini Paschali, Ben Glocker, Konstantinos Kamnitsas*
+- `2021-07-06, MICCAI Workshops 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Interesting and well-written paper. Interesting that Mahalanobis works very well on the CIFAR10 vs SVHN but not on the medical imaging dataset. I don't quite get how/why the ODIN method works, I'll probably have to read that paper.
+```
+
+##### [22-02-25] [paper192]
+- Deep Learning Through the Lens of Example Difficulty
+ [[pdf]](https://openreview.net/forum?id=WWRBHhH158K) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning%20Through%20the%20Lens%20of%20Example%20Difficulty.pdf)
+- *Robert John Nicholas Baldock, Hartmut Maennel, Behnam Neyshabur*
+- `2021-05-21, NeurIPS 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite interesting and well-written paper. The definition of "prediction depth" in Section 2.1 makes sense, and it definitely seems reasonable that this could correlate with example difficulty / prediction confidence in some way. Section 3 and 4, and all the figures, contain a lot of info it seems, I'd probably need to read the paper again to properly understand/appreciate everything.
+```
 
 ##### [22-02-18] [paper185]
 - Does Your Dermatology Classifier Know What It Doesn't Know? Detecting the Long-Tail of Unseen Conditions
@@ -7862,6 +8223,16 @@ Thorough experimental evaluation. Quite interesting findings.
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 
 #### 2020:
+
+##### [22-02-21] [paper190]
+- Can You Trust Predictive Uncertainty Under Real Dataset Shifts in Digital Pathology?
+ [[pdf]](https://backend.orbit.dtu.dk/ws/portalfiles/portal/218217360/MICCAI2020.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Can%20you%20trust%20predictive%20uncertainty%20under%20real%20dataset%20shifts%20in%20digital%20pathology%3F.pdf)
+- *Jeppe Thagaard, Søren Hauberg, Bert van der Vegt, Thomas Ebstrup, Johan D. Hansen, Anders B. Dahl*
+- `2020-09, MICCAI 2020`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Quite interesting and well-written paper. They compare MC-dropout, ensemlbing and mixup (and with a standard softmax classifer as the baseline). Nothing groundbreaking, but the studied application (classification of pathology slides for cancer) is very interesting. The FPR95 metrics for OOD detection in Table 4 are terrible for ensembling, but the classification accuracy (89.7) is also pretty much the same as for D_test_int in Tabe 3 (90.1)? So, it doesn't really matter that the model isn't capable of distinguishing this "OOD" data from in-distribution? 
+```
 
 ##### [22-02-19] [paper188]
 - Contrastive Training for Improved Out-of-Distribution Detection
@@ -8592,6 +8963,16 @@ Quite interesting and well-written paper. Only experiments on a toy 1D regressio
 - `2018-08-16, ICLR2018`
 
 #### 2017:
+
+##### [22-02-26] [paper194]
+- Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks
+ [[pdf]](https://arxiv.org/abs/1706.02690) [[code]](https://github.com/facebookresearch/odin) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Enhancing%20The%20Reliability%20of%20Out-of-distribution%20Image%20Detection%20in%20Neural%20Networks.pdf)
+- *Shiyu Liang, Yixuan Li, R. Srikant*
+- `2017-06-08, ICLR 2018`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. Two simple modifications of the "maximum softmax score" baseline, and the performance is consistently improved. The input perturbation method is quite interesting. Intuitively, it's not entirely clear to me why it actually works.
+```
 
 ##### [21-06-16] [paper135]
 - A simple yet effective baseline for 3d human pose estimation
