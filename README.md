@@ -2100,6 +2100,16 @@ Thorough experimental evaluation. Quite interesting findings.
 ****
 ### Out-of-Distribution Detection:
 
+##### [22-02-25] [paper193]
+- Confidence-based Out-of-Distribution Detection: A Comparative Study and Analysis
+ [[pdf]](https://arxiv.org/abs/2107.02568) [[code]](https://github.com/christophbrgr/ood_detection_framework) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Confidence-based%20Out-of-Distribution%20Detection:%20A%20Comparative%20Study%20and%20Analysis.pdf)
+- *Christoph Berger, Magdalini Paschali, Ben Glocker, Konstantinos Kamnitsas*
+- `2021-07-06, MICCAI Workshops 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Interesting and well-written paper. Interesting that Mahalanobis works very well on the CIFAR10 vs SVHN but not on the medical imaging dataset. I don't quite get how/why the ODIN method works, I'll probably have to read that paper.
+```
+
 ##### [22-02-21] [paper190]
 - Can You Trust Predictive Uncertainty Under Real Dataset Shifts in Digital Pathology?
  [[pdf]](https://backend.orbit.dtu.dk/ws/portalfiles/portal/218217360/MICCAI2020.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Can%20you%20trust%20predictive%20uncertainty%20under%20real%20dataset%20shifts%20in%20digital%20pathology%3F.pdf)
@@ -2901,6 +2911,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 
 ****
 ### Medical ML:
+
+##### [22-02-25] [paper193]
+- Confidence-based Out-of-Distribution Detection: A Comparative Study and Analysis
+ [[pdf]](https://arxiv.org/abs/2107.02568) [[code]](https://github.com/christophbrgr/ood_detection_framework) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Confidence-based%20Out-of-Distribution%20Detection:%20A%20Comparative%20Study%20and%20Analysis.pdf)
+- *Christoph Berger, Magdalini Paschali, Ben Glocker, Konstantinos Kamnitsas*
+- `2021-07-06, MICCAI Workshops 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Interesting and well-written paper. Interesting that Mahalanobis works very well on the CIFAR10 vs SVHN but not on the medical imaging dataset. I don't quite get how/why the ODIN method works, I'll probably have to read that paper.
+```
 
 ##### [22-02-24] [paper191]
 - UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomography
@@ -7757,6 +7777,16 @@ Interesting and quite well-written paper. I did find it somewhat difficult to un
 ```
 
 #### 2021:
+
+##### [22-02-25] [paper193]
+- Confidence-based Out-of-Distribution Detection: A Comparative Study and Analysis
+ [[pdf]](https://arxiv.org/abs/2107.02568) [[code]](https://github.com/christophbrgr/ood_detection_framework) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Confidence-based%20Out-of-Distribution%20Detection:%20A%20Comparative%20Study%20and%20Analysis.pdf)
+- *Christoph Berger, Magdalini Paschali, Ben Glocker, Konstantinos Kamnitsas*
+- `2021-07-06, MICCAI Workshops 2021`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+```
+Interesting and well-written paper. Interesting that Mahalanobis works very well on the CIFAR10 vs SVHN but not on the medical imaging dataset. I don't quite get how/why the ODIN method works, I'll probably have to read that paper.
+```
 
 ##### [22-02-25] [paper192]
 - Deep Learning Through the Lens of Example Difficulty
