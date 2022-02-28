@@ -112,6 +112,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-02-25] [paper192]
+- Deep Learning Through the Lens of Example Difficulty
+ [[pdf]](https://openreview.net/forum?id=WWRBHhH158K) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning%20Through%20the%20Lens%20of%20Example%20Difficulty.pdf)
+- *Robert John Nicholas Baldock, Hartmut Maennel, Behnam Neyshabur*
+- `2021-05-21, NeurIPS 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite interesting and well-written paper. The definition of "prediction depth" in Section 2.1 makes sense, and it definitely seems reasonable that this could correlate with example difficulty / prediction confidence in some way. Section 3 and 4, and all the figures, contain a lot of info it seems, I'd probably need to read the paper again to properly understand/appreciate everything.
+```
+
 ##### [22-02-24] [paper191]
 - UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomography
  [[pdf]](https://arxiv.org/abs/2202.10847) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/UncertaINR:%20Uncertainty%20Quantification%20of%20End-to-End%20Implicit%20Neural%20Representations%20for%20Computed%20Tomography.pdf)
