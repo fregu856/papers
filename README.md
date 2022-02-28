@@ -2110,6 +2110,16 @@ Thorough experimental evaluation. Quite interesting findings.
 ****
 ### Out-of-Distribution Detection:
 
+##### [22-02-26] [paper194]
+- Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks
+ [[pdf]](https://arxiv.org/abs/1706.02690) [[code]](https://github.com/facebookresearch/odin) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Enhancing%20The%20Reliability%20of%20Out-of-distribution%20Image%20Detection%20in%20Neural%20Networks.pdf)
+- *Shiyu Liang, Yixuan Li, R. Srikant*
+- `2017-06-08, ICLR 2018`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. Two simple modifications of the "maximum softmax score" baseline, and the performance is consistently improved. The input perturbation method is quite interesting. Intuitively, it's not entirely clear to me why it actually works.
+```
+
 ##### [22-02-25] [paper193]
 - Confidence-based Out-of-Distribution Detection: A Comparative Study and Analysis
  [[pdf]](https://arxiv.org/abs/2107.02568) [[code]](https://github.com/christophbrgr/ood_detection_framework) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Confidence-based%20Out-of-Distribution%20Detection:%20A%20Comparative%20Study%20and%20Analysis.pdf)
@@ -6561,6 +6571,16 @@ Very interesting and quite well-written paper. Kind of neat/fun to see state-spa
 
 #### ICLR 2018:
 
+##### [22-02-26] [paper194]
+- Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks
+ [[pdf]](https://arxiv.org/abs/1706.02690) [[code]](https://github.com/facebookresearch/odin) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Enhancing%20The%20Reliability%20of%20Out-of-distribution%20Image%20Detection%20in%20Neural%20Networks.pdf)
+- *Shiyu Liang, Yixuan Li, R. Srikant*
+- `2017-06-08, ICLR 2018`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. Two simple modifications of the "maximum softmax score" baseline, and the performance is consistently improved. The input perturbation method is quite interesting. Intuitively, it's not entirely clear to me why it actually works.
+```
+
 ##### [18-09-20] [paper1]
 - Gaussian Process Behaviour in Wide Deep Neural Networks [[pdf]](https://arxiv.org/abs/1804.11271) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gaussian%20Process%20Behaviour%20in%20Wide%20Deep%20Neural%20Networks.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Gaussian%20Process%20Behaviour%20in%20Wide%20Deep%20Neural%20Networks.md)
 - *Alexander G. de G. Matthews, Mark Rowland, Jiri Hron, Richard E. Turner, Zoubin Ghahramani*
@@ -8899,6 +8919,16 @@ Quite interesting and well-written paper. Only experiments on a toy 1D regressio
 - `2018-08-16, ICLR2018`
 
 #### 2017:
+
+##### [22-02-26] [paper194]
+- Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks
+ [[pdf]](https://arxiv.org/abs/1706.02690) [[code]](https://github.com/facebookresearch/odin) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Enhancing%20The%20Reliability%20of%20Out-of-distribution%20Image%20Detection%20in%20Neural%20Networks.pdf)
+- *Shiyu Liang, Yixuan Li, R. Srikant*
+- `2017-06-08, ICLR 2018`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. Two simple modifications of the "maximum softmax score" baseline, and the performance is consistently improved. The input perturbation method is quite interesting. Intuitively, it's not entirely clear to me why it actually works.
+```
 
 ##### [21-06-16] [paper135]
 - A simple yet effective baseline for 3d human pose estimation
