@@ -2121,6 +2121,16 @@ Thorough experimental evaluation. Quite interesting findings.
 ****
 ### Out-of-Distribution Detection:
 
+##### [22-02-26] [paper195]
+- Out of Distribution Data Detection Using Dropout Bayesian Neural Networks
+ [[pdf]](https://arxiv.org/abs/2202.08985) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Out%20of%20Distribution%20Data%20Detection%20Using%20Dropout%20Bayesian%20Neural%20Networks.pdf)
+- *Andre T. Nguyen, Fred Lu, Gary Lopez Munoz, Edward Raff, Charles Nicholas, James Holt*
+- `2022-02-18, AAAI 2022`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. It seemed quite niche at first, but I think their analysis could potentially be useful.
+```
+
 ##### [22-02-26] [paper194]
 - Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks
  [[pdf]](https://arxiv.org/abs/1706.02690) [[code]](https://github.com/facebookresearch/odin) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Enhancing%20The%20Reliability%20of%20Out-of-distribution%20Image%20Detection%20in%20Neural%20Networks.pdf)
@@ -7434,7 +7444,15 @@ Interesting and well-written paper. The proposed method makes intuitive sense, t
 
 #### AAAI 2022:
 
-TODO!
+##### [22-02-26] [paper195]
+- Out of Distribution Data Detection Using Dropout Bayesian Neural Networks
+ [[pdf]](https://arxiv.org/abs/2202.08985) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Out%20of%20Distribution%20Data%20Detection%20Using%20Dropout%20Bayesian%20Neural%20Networks.pdf)
+- *Andre T. Nguyen, Fred Lu, Gary Lopez Munoz, Edward Raff, Charles Nicholas, James Holt*
+- `2022-02-18, AAAI 2022`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. It seemed quite niche at first, but I think their analysis could potentially be useful.
+```
 
 #### AAAI 2020:
 
@@ -7791,6 +7809,16 @@ Quite interesting and well-written paper. They compare MC-dropout, ensemlbing an
 - [2004](#2004)
 
 #### 2022:
+
+##### [22-02-26] [paper195]
+- Out of Distribution Data Detection Using Dropout Bayesian Neural Networks
+ [[pdf]](https://arxiv.org/abs/2202.08985) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Out%20of%20Distribution%20Data%20Detection%20Using%20Dropout%20Bayesian%20Neural%20Networks.pdf)
+- *Andre T. Nguyen, Fred Lu, Gary Lopez Munoz, Edward Raff, Charles Nicholas, James Holt*
+- `2022-02-18, AAAI 2022`
+- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+```
+Quite interesting and well-written paper. It seemed quite niche at first, but I think their analysis could potentially be useful.
+```
 
 ##### [22-02-24] [paper191]
 - UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomography
