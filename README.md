@@ -2357,6 +2357,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 ****
 ### Theoretical Properties of Deep Learning:
 
+##### [22-02-25] [paper192]
+- Deep Learning Through the Lens of Example Difficulty
+ [[pdf]](https://openreview.net/forum?id=WWRBHhH158K) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning%20Through%20the%20Lens%20of%20Example%20Difficulty.pdf)
+- *Robert John Nicholas Baldock, Hartmut Maennel, Behnam Neyshabur*
+- `2021-05-21, NeurIPS 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite interesting and well-written paper. The definition of "prediction depth" in Section 2.1 makes sense, and it definitely seems reasonable that this could correlate with example difficulty / prediction confidence in some way. Section 3 and 4, and all the figures, contain a lot of info it seems, I'd probably need to read the paper again to properly understand/appreciate everything.
+```
+
 ##### [21-12-02] [paper169]
 - An Information-theoretic Approach to Distribution Shifts
  [[pdf]](https://arxiv.org/abs/2106.03783) [[code]](https://github.com/mfederici/dsit) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Information-theoretic%20Approach%20to%20Distribution%20Shifts.pdf)
@@ -5684,6 +5694,16 @@ All parts of the proposed method are clearly explained and relatively easy to un
 
 #### NeurIPS 2021:
 
+##### [22-02-25] [paper192]
+- Deep Learning Through the Lens of Example Difficulty
+ [[pdf]](https://openreview.net/forum?id=WWRBHhH158K) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning%20Through%20the%20Lens%20of%20Example%20Difficulty.pdf)
+- *Robert John Nicholas Baldock, Hartmut Maennel, Behnam Neyshabur*
+- `2021-05-21, NeurIPS 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite interesting and well-written paper. The definition of "prediction depth" in Section 2.1 makes sense, and it definitely seems reasonable that this could correlate with example difficulty / prediction confidence in some way. Section 3 and 4, and all the figures, contain a lot of info it seems, I'd probably need to read the paper again to properly understand/appreciate everything.
+```
+
 ##### [22-02-14] [paper179]
 - Laplace Redux -- Effortless Bayesian Deep Learning
  [[pdf]](https://arxiv.org/abs/2106.14806) [[code]](https://github.com/AlexImmer/Laplace) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Laplace%20Redux%20--%20Effortless%20Bayesian%20Deep%20Learning.pdf)
@@ -7727,6 +7747,16 @@ Interesting and quite well-written paper. I did find it somewhat difficult to un
 ```
 
 #### 2021:
+
+##### [22-02-25] [paper192]
+- Deep Learning Through the Lens of Example Difficulty
+ [[pdf]](https://openreview.net/forum?id=WWRBHhH158K) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning%20Through%20the%20Lens%20of%20Example%20Difficulty.pdf)
+- *Robert John Nicholas Baldock, Hartmut Maennel, Behnam Neyshabur*
+- `2021-05-21, NeurIPS 2021`
+- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+```
+Quite interesting and well-written paper. The definition of "prediction depth" in Section 2.1 makes sense, and it definitely seems reasonable that this could correlate with example difficulty / prediction confidence in some way. Section 3 and 4, and all the figures, contain a lot of info it seems, I'd probably need to read the paper again to properly understand/appreciate everything.
+```
 
 ##### [22-02-18] [paper185]
 - Does Your Dermatology Classifier Know What It Doesn't Know? Detecting the Long-Tail of Unseen Conditions
