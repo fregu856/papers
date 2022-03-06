@@ -5031,6 +5031,16 @@ Interesting and well-written paper. The proposed method is quite clearly explain
 ****
 ### Transformers:
 
+##### [22-03-03] [paper197]
+- Transformers Can Do Bayesian Inference
+ [[pdf]](https://arxiv.org/abs/2112.10510) [[code]](https://github.com/automl/TransformersCanDoBayesianInference) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20Can%20Do%20Bayesian%20Inference.pdf)
+- *Samuel Müller, Noah Hollmann, Sebastian Pineda Arango, Josif Grabocka, Frank Hutter*
+- `2021-12-20, ICLR 2022`
+- [[Transformers]](#transformers)
+```
+Quite interesting and well-written paper. I did however find it difficult to properly understand everything, it feels like a lot of details are omitted (I wouldn't really know how to actually implement this in practice). It's difficult for me to judge how impressive the results are or how practically useful this approach actually might be, what limitations are there? Overall though, it does indeed seem quite interesting.
+```
+
 ##### [21-05-07] [paper130]
 - PixelTransformer: Sample Conditioned Signal Generation
  [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
@@ -5299,8 +5309,6 @@ All parts of the proposed method are clearly explained and relatively easy to un
 - [Reading Group Papers in 2020](#reading-group-papers-in-2020)
 - [Reading Group Papers in 2019](#reading-group-papers-in-2019)
 - [Reading Group Papers in 2018](#reading-group-papers-in-2018)
-
-(Current paper selection order: Calle --> Carmen --> Daniel --> David --> Fredrik --> John --> Calle --> ...)
 
 #### Reading Group Papers in 2020:
 
@@ -6435,6 +6443,16 @@ Quite well-written and somewhat interesting paper. Cool application and a bunch 
 - [ICLR 2014](#iclr-2014)
 
 #### ICLR 2022:
+
+##### [22-03-03] [paper197]
+- Transformers Can Do Bayesian Inference
+ [[pdf]](https://arxiv.org/abs/2112.10510) [[code]](https://github.com/automl/TransformersCanDoBayesianInference) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20Can%20Do%20Bayesian%20Inference.pdf)
+- *Samuel Müller, Noah Hollmann, Sebastian Pineda Arango, Josif Grabocka, Frank Hutter*
+- `2021-12-20, ICLR 2022`
+- [[Transformers]](#transformers)
+```
+Quite interesting and well-written paper. I did however find it difficult to properly understand everything, it feels like a lot of details are omitted (I wouldn't really know how to actually implement this in practice). It's difficult for me to judge how impressive the results are or how practically useful this approach actually might be, what limitations are there? Overall though, it does indeed seem quite interesting.
+```
 
 ##### [22-02-15] [paper182]
 - Pessimistic Bootstrapping for Uncertainty-Driven Offline Reinforcement Learning
@@ -7901,6 +7919,16 @@ Interesting and quite well-written paper. I did find it somewhat difficult to un
 ```
 
 #### 2021:
+
+##### [22-03-03] [paper197]
+- Transformers Can Do Bayesian Inference
+ [[pdf]](https://arxiv.org/abs/2112.10510) [[code]](https://github.com/automl/TransformersCanDoBayesianInference) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20Can%20Do%20Bayesian%20Inference.pdf)
+- *Samuel Müller, Noah Hollmann, Sebastian Pineda Arango, Josif Grabocka, Frank Hutter*
+- `2021-12-20, ICLR 2022`
+- [[Transformers]](#transformers)
+```
+Quite interesting and well-written paper. I did however find it difficult to properly understand everything, it feels like a lot of details are omitted (I wouldn't really know how to actually implement this in practice). It's difficult for me to judge how impressive the results are or how practically useful this approach actually might be, what limitations are there? Overall though, it does indeed seem quite interesting.
+```
 
 ##### [22-02-25] [paper193]
 - Confidence-based Out-of-Distribution Detection: A Comparative Study and Analysis
