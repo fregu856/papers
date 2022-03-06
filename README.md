@@ -1619,6 +1619,16 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Uncertainty Estimation:
 
+##### [22-03-02] [paper196]
+- A Deep Bayesian Neural Network for Cardiac Arrhythmia Classification with Rejection from ECG Recordings
+ [[pdf]](https://arxiv.org/abs/2203.00512) [[code]](https://github.com/hsd1503/ecg_uncertainty) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Deep%20Bayesian%20Neural%20Network%20for%20Cardiac%20Arrhythmia%20Classification%20with%20Rejection%20from%20ECG%20Recordings.pdf)
+- *Wenrui Zhang, Xinxin Di, Guodong Wei, Shijia Geng, Zhaoji Fu, Shenda Hong*
+- `2022-02-26`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
+```
+Somewhat interesting paper. They use a softmax model with MC-dropout to compute uncertainty estimates. The evaluation is not very extensive, they mostly just check that the classification accuracy improves as they reject more and more samples based on a uncertainty threshold.
+```
+
 ##### [22-02-24] [paper191]
 - UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomography
  [[pdf]](https://arxiv.org/abs/2202.10847) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/UncertaINR:%20Uncertainty%20Quantification%20of%20End-to-End%20Implicit%20Neural%20Representations%20for%20Computed%20Tomography.pdf)
@@ -2962,6 +2972,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 
 ****
 ### Medical ML:
+
+##### [22-03-02] [paper196]
+- A Deep Bayesian Neural Network for Cardiac Arrhythmia Classification with Rejection from ECG Recordings
+ [[pdf]](https://arxiv.org/abs/2203.00512) [[code]](https://github.com/hsd1503/ecg_uncertainty) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Deep%20Bayesian%20Neural%20Network%20for%20Cardiac%20Arrhythmia%20Classification%20with%20Rejection%20from%20ECG%20Recordings.pdf)
+- *Wenrui Zhang, Xinxin Di, Guodong Wei, Shijia Geng, Zhaoji Fu, Shenda Hong*
+- `2022-02-26`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
+```
+Somewhat interesting paper. They use a softmax model with MC-dropout to compute uncertainty estimates. The evaluation is not very extensive, they mostly just check that the classification accuracy improves as they reject more and more samples based on a uncertainty threshold.
+```
 
 ##### [22-02-25] [paper193]
 - Confidence-based Out-of-Distribution Detection: A Comparative Study and Analysis
@@ -7819,6 +7839,16 @@ Quite interesting and well-written paper. They compare MC-dropout, ensemlbing an
 - [2004](#2004)
 
 #### 2022:
+
+##### [22-03-02] [paper196]
+- A Deep Bayesian Neural Network for Cardiac Arrhythmia Classification with Rejection from ECG Recordings
+ [[pdf]](https://arxiv.org/abs/2203.00512) [[code]](https://github.com/hsd1503/ecg_uncertainty) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Deep%20Bayesian%20Neural%20Network%20for%20Cardiac%20Arrhythmia%20Classification%20with%20Rejection%20from%20ECG%20Recordings.pdf)
+- *Wenrui Zhang, Xinxin Di, Guodong Wei, Shijia Geng, Zhaoji Fu, Shenda Hong*
+- `2022-02-26`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
+```
+Somewhat interesting paper. They use a softmax model with MC-dropout to compute uncertainty estimates. The evaluation is not very extensive, they mostly just check that the classification accuracy improves as they reject more and more samples based on a uncertainty threshold.
+```
 
 ##### [22-02-26] [paper195]
 - Out of Distribution Data Detection Using Dropout Bayesian Neural Networks
