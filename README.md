@@ -113,6 +113,26 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-03-03] [paper197]
+- Transformers Can Do Bayesian Inference
+ [[pdf]](https://arxiv.org/abs/2112.10510) [[code]](https://github.com/automl/TransformersCanDoBayesianInference) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20Can%20Do%20Bayesian%20Inference.pdf)
+- *Samuel Müller, Noah Hollmann, Sebastian Pineda Arango, Josif Grabocka, Frank Hutter*
+- `2021-12-20, ICLR 2022`
+- [[Transformers]](#transformers)
+```
+Quite interesting and well-written paper. I did however find it difficult to properly understand everything, it feels like a lot of details are omitted (I wouldn't really know how to actually implement this in practice). It's difficult for me to judge how impressive the results are or how practically useful this approach actually might be, what limitations are there? Overall though, it does indeed seem quite interesting.
+```
+
+##### [22-03-02] [paper196]
+- A Deep Bayesian Neural Network for Cardiac Arrhythmia Classification with Rejection from ECG Recordings
+ [[pdf]](https://arxiv.org/abs/2203.00512) [[code]](https://github.com/hsd1503/ecg_uncertainty) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Deep%20Bayesian%20Neural%20Network%20for%20Cardiac%20Arrhythmia%20Classification%20with%20Rejection%20from%20ECG%20Recordings.pdf)
+- *Wenrui Zhang, Xinxin Di, Guodong Wei, Shijia Geng, Zhaoji Fu, Shenda Hong*
+- `2022-02-26`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
+```
+Somewhat interesting paper. They use a softmax model with MC-dropout to compute uncertainty estimates. The evaluation is not very extensive, they mostly just check that the classification accuracy improves as they reject more and more samples based on a uncertainty threshold.
+```
+
 ##### [22-02-26] [paper195]
 - Out of Distribution Data Detection Using Dropout Bayesian Neural Networks
  [[pdf]](https://arxiv.org/abs/2202.08985) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Out%20of%20Distribution%20Data%20Detection%20Using%20Dropout%20Bayesian%20Neural%20Networks.pdf)
@@ -1609,6 +1629,16 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ****
 ### Uncertainty Estimation:
 
+##### [22-03-02] [paper196]
+- A Deep Bayesian Neural Network for Cardiac Arrhythmia Classification with Rejection from ECG Recordings
+ [[pdf]](https://arxiv.org/abs/2203.00512) [[code]](https://github.com/hsd1503/ecg_uncertainty) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Deep%20Bayesian%20Neural%20Network%20for%20Cardiac%20Arrhythmia%20Classification%20with%20Rejection%20from%20ECG%20Recordings.pdf)
+- *Wenrui Zhang, Xinxin Di, Guodong Wei, Shijia Geng, Zhaoji Fu, Shenda Hong*
+- `2022-02-26`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
+```
+Somewhat interesting paper. They use a softmax model with MC-dropout to compute uncertainty estimates. The evaluation is not very extensive, they mostly just check that the classification accuracy improves as they reject more and more samples based on a uncertainty threshold.
+```
+
 ##### [22-02-24] [paper191]
 - UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomography
  [[pdf]](https://arxiv.org/abs/2202.10847) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/UncertaINR:%20Uncertainty%20Quantification%20of%20End-to-End%20Implicit%20Neural%20Representations%20for%20Computed%20Tomography.pdf)
@@ -2952,6 +2982,16 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
 
 ****
 ### Medical ML:
+
+##### [22-03-02] [paper196]
+- A Deep Bayesian Neural Network for Cardiac Arrhythmia Classification with Rejection from ECG Recordings
+ [[pdf]](https://arxiv.org/abs/2203.00512) [[code]](https://github.com/hsd1503/ecg_uncertainty) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Deep%20Bayesian%20Neural%20Network%20for%20Cardiac%20Arrhythmia%20Classification%20with%20Rejection%20from%20ECG%20Recordings.pdf)
+- *Wenrui Zhang, Xinxin Di, Guodong Wei, Shijia Geng, Zhaoji Fu, Shenda Hong*
+- `2022-02-26`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
+```
+Somewhat interesting paper. They use a softmax model with MC-dropout to compute uncertainty estimates. The evaluation is not very extensive, they mostly just check that the classification accuracy improves as they reject more and more samples based on a uncertainty threshold.
+```
 
 ##### [22-02-25] [paper193]
 - Confidence-based Out-of-Distribution Detection: A Comparative Study and Analysis
@@ -4991,6 +5031,16 @@ Interesting and well-written paper. The proposed method is quite clearly explain
 ****
 ### Transformers:
 
+##### [22-03-03] [paper197]
+- Transformers Can Do Bayesian Inference
+ [[pdf]](https://arxiv.org/abs/2112.10510) [[code]](https://github.com/automl/TransformersCanDoBayesianInference) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20Can%20Do%20Bayesian%20Inference.pdf)
+- *Samuel Müller, Noah Hollmann, Sebastian Pineda Arango, Josif Grabocka, Frank Hutter*
+- `2021-12-20, ICLR 2022`
+- [[Transformers]](#transformers)
+```
+Quite interesting and well-written paper. I did however find it difficult to properly understand everything, it feels like a lot of details are omitted (I wouldn't really know how to actually implement this in practice). It's difficult for me to judge how impressive the results are or how practically useful this approach actually might be, what limitations are there? Overall though, it does indeed seem quite interesting.
+```
+
 ##### [21-05-07] [paper130]
 - PixelTransformer: Sample Conditioned Signal Generation
  [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
@@ -5259,8 +5309,6 @@ All parts of the proposed method are clearly explained and relatively easy to un
 - [Reading Group Papers in 2020](#reading-group-papers-in-2020)
 - [Reading Group Papers in 2019](#reading-group-papers-in-2019)
 - [Reading Group Papers in 2018](#reading-group-papers-in-2018)
-
-(Current paper selection order: Calle --> Carmen --> Daniel --> David --> Fredrik --> John --> Calle --> ...)
 
 #### Reading Group Papers in 2020:
 
@@ -6395,6 +6443,16 @@ Quite well-written and somewhat interesting paper. Cool application and a bunch 
 - [ICLR 2014](#iclr-2014)
 
 #### ICLR 2022:
+
+##### [22-03-03] [paper197]
+- Transformers Can Do Bayesian Inference
+ [[pdf]](https://arxiv.org/abs/2112.10510) [[code]](https://github.com/automl/TransformersCanDoBayesianInference) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20Can%20Do%20Bayesian%20Inference.pdf)
+- *Samuel Müller, Noah Hollmann, Sebastian Pineda Arango, Josif Grabocka, Frank Hutter*
+- `2021-12-20, ICLR 2022`
+- [[Transformers]](#transformers)
+```
+Quite interesting and well-written paper. I did however find it difficult to properly understand everything, it feels like a lot of details are omitted (I wouldn't really know how to actually implement this in practice). It's difficult for me to judge how impressive the results are or how practically useful this approach actually might be, what limitations are there? Overall though, it does indeed seem quite interesting.
+```
 
 ##### [22-02-15] [paper182]
 - Pessimistic Bootstrapping for Uncertainty-Driven Offline Reinforcement Learning
@@ -7810,6 +7868,16 @@ Quite interesting and well-written paper. They compare MC-dropout, ensemlbing an
 
 #### 2022:
 
+##### [22-03-02] [paper196]
+- A Deep Bayesian Neural Network for Cardiac Arrhythmia Classification with Rejection from ECG Recordings
+ [[pdf]](https://arxiv.org/abs/2203.00512) [[code]](https://github.com/hsd1503/ecg_uncertainty) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Deep%20Bayesian%20Neural%20Network%20for%20Cardiac%20Arrhythmia%20Classification%20with%20Rejection%20from%20ECG%20Recordings.pdf)
+- *Wenrui Zhang, Xinxin Di, Guodong Wei, Shijia Geng, Zhaoji Fu, Shenda Hong*
+- `2022-02-26`
+- [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
+```
+Somewhat interesting paper. They use a softmax model with MC-dropout to compute uncertainty estimates. The evaluation is not very extensive, they mostly just check that the classification accuracy improves as they reject more and more samples based on a uncertainty threshold.
+```
+
 ##### [22-02-26] [paper195]
 - Out of Distribution Data Detection Using Dropout Bayesian Neural Networks
  [[pdf]](https://arxiv.org/abs/2202.08985) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Out%20of%20Distribution%20Data%20Detection%20Using%20Dropout%20Bayesian%20Neural%20Networks.pdf)
@@ -7851,6 +7919,16 @@ Interesting and quite well-written paper. I did find it somewhat difficult to un
 ```
 
 #### 2021:
+
+##### [22-03-03] [paper197]
+- Transformers Can Do Bayesian Inference
+ [[pdf]](https://arxiv.org/abs/2112.10510) [[code]](https://github.com/automl/TransformersCanDoBayesianInference) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20Can%20Do%20Bayesian%20Inference.pdf)
+- *Samuel Müller, Noah Hollmann, Sebastian Pineda Arango, Josif Grabocka, Frank Hutter*
+- `2021-12-20, ICLR 2022`
+- [[Transformers]](#transformers)
+```
+Quite interesting and well-written paper. I did however find it difficult to properly understand everything, it feels like a lot of details are omitted (I wouldn't really know how to actually implement this in practice). It's difficult for me to judge how impressive the results are or how practically useful this approach actually might be, what limitations are there? Overall though, it does indeed seem quite interesting.
+```
 
 ##### [22-02-25] [paper193]
 - Confidence-based Out-of-Distribution Detection: A Comparative Study and Analysis
