@@ -17,6 +17,15 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-03-30] [paper203]
+- Risk-Controlled Selective Prediction for Regression Deep Neural Network Models
+ [[pdf]](http://vigir.missouri.edu/~gdesouza/Research/Conference_CDs/IEEE_WCCI_2020/IJCNN/Papers/N-20828.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Risk-Controlled%20Selective%20Prediction%20for%20Regression%20Deep%20Neural%20Network%20Models.pdf)
+- `IJCNN 2020`
+- [Uncertainty Estimation]
+```
+Interesting and well-written paper. They take the method from "Selective Classification for Deep Neural Networks" and extend it to regression. I don't really understand the details of the lemmas/theorems, but otherwise everything is clearly explained.
+```
+
 ##### [22-03-08] [paper202]
 - Second Opinion Needed: Communicating Uncertainty in Medical Artificial Intelligence
  [[pdf]](https://www.nature.com/articles/s41746-020-00367-3.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Second%20Opinion%20Needed:%20Communicating%20Uncertainty%20in%20Medical%20Artificial%20Intelligence.pdf)
