@@ -19,7 +19,7 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 ##### [22-03-03] [paper198]
 - On the Practicality of Deterministic Epistemic Uncertainty
- [[pdf]](https://openreview.net/forum?id=W3-hiLnUYl) [[annotated pdf]]()
+ [[pdf]](https://openreview.net/forum?id=W3-hiLnUYl) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Practicality%20of%20Deterministic%20Epistemic%20Uncertainty.pdf)
 - `2021-09`
 - [Uncertainty Estimation]
 ```
