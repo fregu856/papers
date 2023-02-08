@@ -4,12 +4,7 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Categories:
 
-- [Uncertainty Estimation]
-- [Ensembling]
-- [Stochastic Gradient MCMC]
-- [Variational Inference]
-- [Out-of-Distribution Detection]
-- [Theoretical Properties of Deep Learning]
+- [Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning]
 - [VAEs]
 - [Normalizing Flows]
 - [Autonomous Driving]
