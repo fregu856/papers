@@ -17,6 +17,15 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-03-10] [paper205]
+- The Deep Bootstrap Framework: Good Online Learners are Good Offline Generalizers
+ [[pdf]](https://arxiv.org/abs/2010.08127) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Deep%20Bootstrap%20Framework:%20Good%20Online%20Learners%20are%20Good%20Offline%20Generalizers.pdf)
+- `2020-10, ICLR 2021`
+- [Theoretical Properties of Deep Learning]
+```
+Well-written and quite interesting paper. I didn't take the time to try and really understand all the details, but a quite enjoyable read. The proposed framework seems to make some intuitive sense and lead to some fairly interesting observations/insights, but it's difficult for me to judge how significant it actually is.
+```
+
 ##### [22-03-08] [paper204]
 - Selective Regression Under Fairness Criteria
  [[pdf]](https://arxiv.org/abs/2110.15403) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Selective%20Regression%20Under%20Fairness%20Criteria.pdf)
