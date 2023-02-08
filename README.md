@@ -17,7 +17,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
-##### [22-03-30] [paper203]
+##### [22-03-08] [paper204]
+- Selective Regression Under Fairness Criteria
+ [[pdf]](https://arxiv.org/abs/2110.15403) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Selective%20Regression%20Under%20Fairness%20Criteria.pdf)
+- `2021-10`
+- [Uncertainty Estimation]
+```
+Well-written and somewhat interesting paper. Gives a pretty good introduction to the fair regression problem, Section 2 is very well-written. Quite interesting that it can be the case that while overall performance improves with decreased coverage, the performance for a minority sub-group is degraded. I didn't quite follow everything in Section 5, the methods seem a bit niche. I'm not overly impressed by the experiments either.
+```
+
+##### [22-03-08] [paper203]
 - Risk-Controlled Selective Prediction for Regression Deep Neural Network Models
  [[pdf]](http://vigir.missouri.edu/~gdesouza/Research/Conference_CDs/IEEE_WCCI_2020/IJCNN/Papers/N-20828.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Risk-Controlled%20Selective%20Prediction%20for%20Regression%20Deep%20Neural%20Network%20Models.pdf)
 - `IJCNN 2020`
