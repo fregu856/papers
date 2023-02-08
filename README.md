@@ -46,7 +46,7 @@ I categorize, annotate and write comments for all research papers I read as a Ph
  [[pdf]](https://arxiv.org/abs/2112.10510) [[code]](https://github.com/automl/TransformersCanDoBayesianInference) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20Can%20Do%20Bayesian%20Inference.pdf)
 - *Samuel Müller, Noah Hollmann, Sebastian Pineda Arango, Josif Grabocka, Frank Hutter*
 - `2021-12-20, ICLR 2022`
-- [[Transformers]]()
+- [Transformers]
 ```
 Quite interesting and well-written paper. I did however find it difficult to properly understand everything, it feels like a lot of details are omitted (I wouldn't really know how to actually implement this in practice). It's difficult for me to judge how impressive the results are or how practically useful this approach actually might be, what limitations are there? Overall though, it does indeed seem quite interesting.
 ```
