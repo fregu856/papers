@@ -17,6 +17,15 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-03-31] [paper201]
+- Selective Classification for Deep Neural Networks
+ [[pdf]](https://dl.acm.org/doi/pdf/10.5555/3295222.3295241) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Selective%20Classification%20for%20Deep%20Neural%20Networks.pdf)
+- `NeurIPS 2017`
+- [Uncertainty Estimation]
+```
+Interesting and well-written paper, I enjoyed reading it. I don't really understand the lemma/theorem in Section 3, but everything is still clearly explained.
+```
+
 ##### [22-03-05] [paper200]
 - SelectiveNet: A Deep Neural Network with an Integrated Reject Option
  [[pdf]](https://arxiv.org/abs/1901.09192) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SelectiveNet:%20A%20Deep%20Neural%20Network%20with%20an%20Integrated%20Reject%20Option.pdf)
