@@ -17,7 +17,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
-##### [22-03-31] [paper201]
+##### [22-03-08] [paper202]
+- Second Opinion Needed: Communicating Uncertainty in Medical Artificial Intelligence
+ [[pdf]](https://www.nature.com/articles/s41746-020-00367-3.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Second%20Opinion%20Needed:%20Communicating%20Uncertainty%20in%20Medical%20Artificial%20Intelligence.pdf)
+- `NPJ Digital Medicine, 2021`
+- [Uncertainty Estimation], [Medical ML]
+```
+Well-written and quite interesting paper. A relatively short paper of just 4 pages. They give an overview of different uncertainty estimation techniques, and provide some intuitive examples and motivation for why uncertainty estimation is important/useful within medical applications. I quite enjoyed reading the paper.
+```
+
+##### [22-03-07] [paper201]
 - Selective Classification for Deep Neural Networks
  [[pdf]](https://dl.acm.org/doi/pdf/10.5555/3295222.3295241) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Selective%20Classification%20for%20Deep%20Neural%20Networks.pdf)
 - `NeurIPS 2017`
