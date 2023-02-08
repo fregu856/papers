@@ -17,6 +17,15 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-03-05] [paper200]
+- SelectiveNet: A Deep Neural Network with an Integrated Reject Option
+ [[pdf]](https://arxiv.org/abs/1901.09192) [[annotated pdf]]()
+- `2019-01, ICML 2019`
+- [Uncertainty Estimation]
+```
+Well-written and quite interesting paper. The proposed method is quite interesting and makes some intuitive sense, but I would assume that the calibration technique in Section 5 has similar issues as temperature scaling (i.e., the calibration might still break under various data shifts)?
+```
+
 ##### [22-03-04] [paper199]
 - NUQ: Nonparametric Uncertainty Quantification for Deterministic Neural Networks
  [[pdf]](https://arxiv.org/abs/2202.03101) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/NUQ:%20Nonparametric%20Uncertainty%20Quantification%20for%20Deterministic%20Neural%20Networks.pdf)
