@@ -4,29 +4,29 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Categories:
 
-- [Uncertainty Estimation](#uncertainty-estimation)
-- [Ensembling](#ensembling)
-- [Stochastic Gradient MCMC](#stochastic-gradient-mcmc)
-- [Variational Inference](#variational-inference)
-- [Out-of-Distribution Detection](#out-of-distribution-detection)
-- [Theoretical Properties of Deep Learning](#theoretical-properties-of-deep-learning)
-- [VAEs](#vaes)
-- [Normalizing Flows](#normalizing-flows)
-- [Autonomous Driving](#autonomous-driving)
-- [Medical ML](#medical-ml)
-- [Object Detection](#object-detection)
-- [3D Object Detection](#3d-object-detection)
-- [3D Multi-Object Tracking](#3d-multi-object-tracking)
-- [3D Human Pose Estimation](#3d-human-pose-estimation)
-- [Visual Tracking](#visual-tracking)
-- [Sequence Modeling](#sequence-modeling)
-- [Reinforcement Learning](#reinforcement-learning)
-- [System Identification](#system-identification)
-- [Energy-Based Models](#energy-based-models)
-- [Neural Processes](#neural-processes)
-- [Neural ODEs](#neural-odes)
-- [Transformers](#transformers)
-- [Implicit Neural Representations](#implicit-neural-representations)
+- [Uncertainty Estimation]
+- [Ensembling]
+- [Stochastic Gradient MCMC]
+- [Variational Inference]
+- [Out-of-Distribution Detection]
+- [Theoretical Properties of Deep Learning]
+- [VAEs]
+- [Normalizing Flows]
+- [Autonomous Driving]
+- [Medical ML]
+- [Object Detection]
+- [3D Object Detection]
+- [3D Multi-Object Tracking]
+- [3D Human Pose Estimation]
+- [Visual Tracking]
+- [Sequence Modeling]
+- [Reinforcement Learning]
+- [System Identification]
+- [Energy-Based Models]
+- [Neural Processes]
+- [Neural ODEs]
+- [Transformers]
+- [Implicit Neural Representations]
 
 ****
 ****
