@@ -19,7 +19,7 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 ##### [22-03-05] [paper200]
 - SelectiveNet: A Deep Neural Network with an Integrated Reject Option
- [[pdf]](https://arxiv.org/abs/1901.09192) [[annotated pdf]]()
+ [[pdf]](https://arxiv.org/abs/1901.09192) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SelectiveNet:%20A%20Deep%20Neural%20Network%20with%20an%20Integrated%20Reject%20Option.pdf)
 - `2019-01, ICML 2019`
 - [Uncertainty Estimation]
 ```
@@ -30,7 +30,7 @@ Well-written and quite interesting paper. The proposed method is quite interesti
 - NUQ: Nonparametric Uncertainty Quantification for Deterministic Neural Networks
  [[pdf]](https://arxiv.org/abs/2202.03101) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/NUQ:%20Nonparametric%20Uncertainty%20Quantification%20for%20Deterministic%20Neural%20Networks.pdf)
 - `2022-02, NeurIPS 2022`
-- [Uncertainty Estimation] [Out-of-Distribution Detection]
+- [Uncertainty Estimation], [Out-of-Distribution Detection]
 ```
 Interesting paper. I found it difficult to understand Section 2, I wouldn't really be able to implement their proposed NUQ method. Only image classification, but their experimental evaluation is still quite extensive. And, they obtain strong performance.
 ```
