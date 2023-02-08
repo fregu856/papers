@@ -17,6 +17,15 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-03-03] [paper198]
+- On the Practicality of Deterministic Epistemic Uncertainty
+ [[pdf]](https://openreview.net/forum?id=W3-hiLnUYl) [[annotated pdf]]()
+- `2021-09`
+- [Uncertainty Estimation]
+```
+Interesting and well-written paper. Their evaluation with the corrupted datasets makes sense I think. The results are interesting,  the fact that ensembling/MC-dropout consistently outperforms the other methods. Another reminder of how strong of a baseline ensembling is when it comes to uncertainty estimation? Also, I think that their proposed rAULC is more or less equivalent to AUSE (area under the sparsification error curve)?
+```
+
 ##### [22-03-03] [paper197]
 - Transformers Can Do Bayesian Inference
  [[pdf]](https://arxiv.org/abs/2112.10510) [[code]](https://github.com/automl/TransformersCanDoBayesianInference) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20Can%20Do%20Bayesian%20Inference.pdf)
