@@ -17,6 +17,23 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-03-24] [paper209]
+- Random Synaptic Feedback Weights Support Error Backpropagation for Deep Learning
+ [[pdf]](https://www.nature.com/articles/ncomms13276) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Random%20Synaptic%20Feedback%20Weights%20Support%20Error%20Backpropagation%20for%20Deep%20Learning.pdf)
+- `Nature Communications, 2016`
+- [Theoretical Properties of Deep Learning]
+```
+Definitely not my area of expertise, but still a quite interesting paper to read. The authors are interested in the question of how error propagation-based learning algorithms potentially might be utilized in the human brain. Backpropagation is one such algorithm and is highly effective, but it "involves a precise, symmetric backward connectivity pattern" (to compute the gradient update of the current layer weight matrix, the error is multiplied with the weight matrix W of the following layer), which apparently is thought to be impossible in the brain. The authors show that backpropagation can be simplified but still offer effective learning, their feedback alignment method instead make use of "fixed, random connectivity patterns" (replace the weight matrix W with a random matrix B). Their study thus "reveals much lower architectural constraints on what is required for error propagation across layers of neurons".
+```
+
+##### [22-03-17] [paper208]
+- Comparing Elementary Cellular Automata Classifications with a Convolutional Neural Network
+ [[pdf]](https://www.scitepress.org/Papers/2021/101600/101600.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Comparing%20Elementary%20Cellular%20Automata%20Classifications%20with%20a%20Convolutional%20Neural%20Network.pdf)
+- `ICAART 2021`
+```
+I'm not familiar with "Cellular automata" at all, but still a somewhat interesting paper to read. I mostly understand what they're doing (previous papers have proposed different categorizations/groupings/classifications of ECAs, and in this paper they train CNNs to predict the classes assigned by these different ECA categorizations, to compare them), but I don't really know why it's interesting/useful.
+```
+
 ##### [22-03-10] [paper207]
 - Structure and Distribution Metric for Quantifying the Quality of Uncertainty: Assessing Gaussian Processes, Deep Neural Nets, and Deep Neural Operators for Regression
  [[pdf]](https://arxiv.org/abs/2203.04515) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Structure%20and%20Distribution%20Metric%20for%20Quantifying%20the%20Quality%20of%20Uncertainty:%20Assessing%20Gaussian%20Processes%2C%20Deep%20Neural%20Nets%2C%20and%20Deep%20Neural%20Operators%20for%20Regression.pdf)
