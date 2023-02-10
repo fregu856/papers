@@ -1,6 +1,6 @@
 # About
 
-I categorize, annotate and write comments for all research papers I read as a PhD student.
+I categorize, annotate and write comments for all research papers I read as a PhD student (210+ papers since 2018).
 
 #### Categories:
 
@@ -17,7 +17,16 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
-##### [22-03-25] [paper210]
+##### [22-03-29] [paper211]
+- A Benchmark with Decomposed Distribution Shifts for 360 Monocular Depth Estimation
+ [[pdf]](https://openreview.net/pdf?id=6ksR7XSRuGB) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Benchmark%20with%20Decomposed%20Distribution%20Shifts%20for%20360%20Monocular%20Depth%20Estimation.pdf)
+- `NeurIPS Workshops 2021`
+- [Distribution Shifts]
+```
+Somewhat interesting paper. A short paper of just 4-5 pages. The provided dataset could be useful for comparing methods in terms of distribution shift robustness.
+```
+
+##### [22-03-28] [paper210]
 - WILDS: A Benchmark of in-the-Wild Distribution Shifts
  [[pdf]](http://proceedings.mlr.press/v139/koh21a/koh21a.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/WILDS:%20A%20Benchmark%20of%20in-the-Wild%20Distribution%20Shifts.pdf)
 - `ICML 2021`
