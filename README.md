@@ -17,6 +17,41 @@ I categorize, annotate and write comments for all research papers I read (210+ p
 
 #### Papers Read in 2022:
 
+##### [22-04-02] [paper215]
+- A Fine-Grained Analysis on Distribution Shift
+ [[pdf]](https://arxiv.org/abs/2110.11328) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Fine-Grained%20Analysis%20on%20Distribution%20Shift.pdf)
+- `ICLR 2022`
+- [Distribution Shifts]
+```
+Somewhat interesting paper. They consider 6 different datasets, only classification tasks. The takeaways and practical tips in Section 4 seem potentially useful, but I also find them somewhat vague.
+```
+
+##### [22-04-01] [paper214]
+- Transformer-Based Out-of-Distribution Detection for Clinically Safe Segmentation
+ [[pdf]](https://openreview.net/forum?id=En7660i-CLJ) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformer-Based%20Out-of-Distribution%20Detection%20for%20Clinically%20Safe%20Segmentation.pdf)
+- `MIDL 2022`
+- [Medical ML], [Out-of-Distribution Detection], [Transformers]
+```
+Well-written and interesting paper. I was not familiar with the VQ-GAN/VAE model, so I was confused by Section 2.3 at first, but now I think that I understand most of it. Their VQ-GAN + transformer approach seems quite complex indeed, but also seems to perform well. However, they didn't really compare with any other OOD detection method. I find it somewhat difficult to tell how useful this actually could be in practice.
+```
+
+##### [22-03-31] [paper214]
+- Delving into Deep Imbalanced Regression
+ [[pdf]](https://arxiv.org/abs/2102.09554) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Delving%20into%20Deep%20Imbalanced%20Regression.pdf)
+- `ICML 2021`
+```
+Well-written and somewhat interesting paper. The "health condition score" estimation problem seems potentially interesting. They only consider problems with 1D regression targets. Their two proposed methods are clearly explained. I could probably encounter this imbalanced issue at some point, and then I'll keep this paper in mind.
+```
+
+##### [22-03-31] [paper213]
+- Hidden in Plain Sight: Subgroup Shifts Escape OOD Detection
+ [[pdf]](https://openreview.net/forum?id=aZgiUNye2Cz) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hidden%20in%20Plain%20Sight:%20Subgroup%20Shifts%20Escape%20OOD%20Detection.pdf)
+- `MIDL 2022`
+- [Medical ML], [Out-of-Distribution Detection], [Distribution Shifts]
+```
+Quite well-written, but somewhat confusing paper. The experiment in Table 1 seems odd to me, why would we expect or even want digit-5 images to be classified as OOD when the training data actually includes a bunch of digit-5 images (the bottom row)? And for what they write in the final paragraph of Section 3 (that the accuracy is a bit lower for the hospital 3 subgroup), this wouldn't actually be a problem in practice if the model then also is more uncertain for these examples? I.e., studying model calibration across the different subgroups would be what's actually interesting? Or am I not understanding this whole subgroup shift properly? I feel quite confused.
+```
+
 ##### [22-03-30] [paper212]
 - Self-Distribution Distillation: Efficient Uncertainty Estimation
  [[pdf]](https://arxiv.org/abs/2203.08295) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Self-Distribution%20Distillation:%20Efficient%20Uncertainty%20Estimation.pdf)
