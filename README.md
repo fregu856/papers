@@ -17,6 +17,15 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-03-10] [paper207]
+- Structure and Distribution Metric for Quantifying the Quality of Uncertainty: Assessing Gaussian Processes, Deep Neural Nets, and Deep Neural Operators for Regression
+ [[pdf]](https://arxiv.org/abs/2203.04515) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Structure%20and%20Distribution%20Metric%20for%20Quantifying%20the%20Quality%20of%20Uncertainty:%20Assessing%20Gaussian%20Processes%2C%20Deep%20Neural%20Nets%2C%20and%20Deep%20Neural%20Operators%20for%20Regression.pdf)
+- `2022-03`
+- [Uncertainty Estimation]
+```
+Somewhat interesting paper, I didn't spend too much time on it. Just simply using the correlation between squared error and predicted variance makes some sense, I guess? I don't quite get what their NDIP metric in Section 2.2 will actually measure though? Also, I don't understand their studied application at all.
+```
+
 ##### [22-03-10] [paper206]
 - How to Measure Deep Uncertainty Estimation Performance and Which Models are Naturally Better at Providing It
  [[pdf]](https://openreview.net/forum?id=LK8bvVSw6rn) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20to%20Measure%20Deep%20Uncertainty%20Estimation%20Performance%20and%20Which%20Models%20are%20Naturally%20Better%20at%20Providing%20It.pdf)
