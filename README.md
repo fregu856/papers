@@ -17,7 +17,52 @@ I categorize, annotate and write comments for all research papers I read (210+ p
 
 #### Papers Read in 2022:
 
-##### [22-04-02] [paper215]
+##### [22-04-08] [paper221]
+- Efficient and Differentiable Conformal Prediction with General Function Classes
+ [[pdf]](https://openreview.net/forum?id=Ht85_jyihxp) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Efficient%20and%20Differentiable%20Conformal%20Prediction%20with%20General%20Function%20Classes.pdf)
+- `ICLR 2022`
+- [Uncertainty Estimation]
+```
+Quite interesting and well-written paper. Mainly consider regression problems (tabular datasets + next-state prediction in RL, low-dimensional inputs). I should have read at least one more basic paper on conformal prediction and/or quantile regression first, I didn't quite understand all the details.
+```
+
+##### [22-04-06] [paper220]
+- Consistent Estimators for Learning to Defer to an Expert
+ [[pdf]](http://proceedings.mlr.press/v119/mozannar20b/mozannar20b.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Consistent%20Estimators%20for%20Learning%20to%20Defer%20to%20an%20Expert.pdf)
+- `ICML 2020`
+- [Uncertainty Estimation], [Medical ML]
+```
+Somewhat interesting paper. Image and text classification. The general problem setting (that a model can either predict or defer to an expert) is interesting and the paper is well-written overall, but in the end I can't really state any specific takeaways. I didn't understand section 4 or 5 properly. I don't think I can judge the significance of their results/contributions. 
+```
+
+##### [22-04-06] [paper219]
+- Uncalibrated Models Can Improve Human-AI Collaboration
+ [[pdf]](https://arxiv.org/abs/2202.05983) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncalibrated%20Models%20Can%20Improve%20Human-AI%20Collaboration.pdf)
+- `2022-02`
+- [Medical ML]
+```
+Quite interesting paper. Sort of thought-provoking, an interesting perspective. I was not exactly convinced in the end though. It seems weird to me that they don't even use an ML model to provide the advice, but instead use the average response of another group of human participants. Because this means that, like they write in Section 6, the average advice accuracy is higher than the average human accuracy. So, if the advice is better than the human participants, we just want to push the human predictions towards the advice? And therefore it's beneficial to increase the confidence of the advice (and thus make it uncalibrated), because this will make more humans actually change their prediction and align it more with the advice? I might miss something here, but this sort of seems a bit trivial?
+```
+
+##### [22-04-05] [paper218]
+- Exploring Covariate and Concept Shift for Detection and Calibration of Out-of-Distribution Data
+ [[pdf]](https://arxiv.org/abs/2110.15231) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Exploring%20Covariate%20and%20Concept%20Shift%20for%20Detection%20and%20Calibration%20of%20Out-of-Distribution%20Data.pdf)
+- `2021-11`
+- [Out-of-Distribution Detection]
+```
+Quite interesting and well-written paper. Only image classification (CIFAR10/100). I didn't quite spend enough time to properly understand everything in Section 4, or to really judge how impressive their experimental results actually are. Seems potentially useful.
+```
+
+##### [22-04-02] [paper217]
+- On the Out-of-distribution Generalization of Probabilistic Image Modelling
+ [[pdf]](https://arxiv.org/abs/2109.02639) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Out-of-distribution%20Generalization%20of%20Probabilistic%20Image%20Modelling.pdf)
+- `NeurIPS 2021`
+- [Out-of-Distribution Detection]
+```
+Well-written and interesting paper, I enjoyed reading it. Everything is clearly explained and the proposed OOD detection score in Section 3.1 makes intuitive sense. The results in Table 4 seem quite impressive. I was mostly interested in the OOD detection aspect, so I didn't read Section 4 too carefully.
+```
+
+##### [22-04-02] [paper216]
 - A Fine-Grained Analysis on Distribution Shift
  [[pdf]](https://arxiv.org/abs/2110.11328) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Fine-Grained%20Analysis%20on%20Distribution%20Shift.pdf)
 - `ICLR 2022`
@@ -26,7 +71,7 @@ I categorize, annotate and write comments for all research papers I read (210+ p
 Somewhat interesting paper. They consider 6 different datasets, only classification tasks. The takeaways and practical tips in Section 4 seem potentially useful, but I also find them somewhat vague.
 ```
 
-##### [22-04-01] [paper214]
+##### [22-04-01] [paper215]
 - Transformer-Based Out-of-Distribution Detection for Clinically Safe Segmentation
  [[pdf]](https://openreview.net/forum?id=En7660i-CLJ) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformer-Based%20Out-of-Distribution%20Detection%20for%20Clinically%20Safe%20Segmentation.pdf)
 - `MIDL 2022`
