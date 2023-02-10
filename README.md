@@ -17,6 +17,15 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Papers Read in 2022:
 
+##### [22-03-10] [paper206]
+- How to Measure Deep Uncertainty Estimation Performance and Which Models are Naturally Better at Providing It
+ [[pdf]](https://openreview.net/forum?id=LK8bvVSw6rn) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20to%20Measure%20Deep%20Uncertainty%20Estimation%20Performance%20and%20Which%20Models%20are%20Naturally%20Better%20at%20Providing%20It.pdf)
+- `2021-10`
+- [Uncertainty Estimation], [Out-of-Distribution Detection]
+```
+Quite interesting and well-written paper. They only study image classification. The E-AURC metric which is described in Appendix C should be equivalent to AUSE, I think? Quite interesting that knowledge distillation seems to rather consistently have a positive effect on the uncertainty estimation metrics, and that ViT models seem to perform very well compared to a lot of other architectures. Otherwise, I find it somewhat difficult to draw any concrete conclusions.
+```
+
 ##### [22-03-10] [paper205]
 - The Deep Bootstrap Framework: Good Online Learners are Good Offline Generalizers
  [[pdf]](https://arxiv.org/abs/2010.08127) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Deep%20Bootstrap%20Framework:%20Good%20Online%20Learners%20are%20Good%20Offline%20Generalizers.pdf)
