@@ -17,6 +17,15 @@ I categorize, annotate and write comments for all research papers I read (210+ p
 
 #### Papers Read in 2022:
 
+##### [22-03-30] [paper212]
+- Self-Distribution Distillation: Efficient Uncertainty Estimation
+ [[pdf]](https://arxiv.org/abs/2203.08295) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Self-Distribution%20Distillation:%20Efficient%20Uncertainty%20Estimation.pdf)
+- `2022-03`
+- [Uncertainty Estimation], [Out-of-Distribution Detection]
+```
+Quite well-written and somewhat interesting paper. Only consider image classification. Their method in Figure 1 is in a way more interesting than I first realized, it's not entirely clear to me why this would improve performance compared to just training a model with the standard cross-entropy loss, their method induces some type of beneficial regularization? I didn't quite get the method described in Section 4.1.
+```
+
 ##### [22-03-29] [paper211]
 - A Benchmark with Decomposed Distribution Shifts for 360 Monocular Depth Estimation
  [[pdf]](https://openreview.net/pdf?id=6ksR7XSRuGB) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Benchmark%20with%20Decomposed%20Distribution%20Shifts%20for%20360%20Monocular%20Depth%20Estimation.pdf)
