@@ -4,7 +4,7 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Autonomous Driving], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [System Identification], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations]
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Autonomous Driving], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [System Identification], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts]
 
 
 ### Papers:
@@ -16,6 +16,15 @@ I categorize, annotate and write comments for all research papers I read as a Ph
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2022:
+
+##### [22-03-25] [paper210]
+- WILDS: A Benchmark of in-the-Wild Distribution Shifts
+ [[pdf]](http://proceedings.mlr.press/v139/koh21a/koh21a.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/WILDS:%20A%20Benchmark%20of%20in-the-Wild%20Distribution%20Shifts.pdf)
+- `ICML 2021`
+- [Distribution Shifts]
+```
+Well-written and quite interesting paper. Neat benchmark with a diverse set of quite interesting datasets.
+```
 
 ##### [22-03-24] [paper209]
 - Random Synaptic Feedback Weights Support Error Backpropagation for Deep Learning
