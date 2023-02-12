@@ -17,6 +17,92 @@ I categorize, annotate and write comments for all research papers I read (220+ p
 
 #### Papers Read in 2022:
 
+##### [22-09-01] [paper231]
+- On the Information Bottleneck Theory of Deep Learning
+ [[pdf]](https://openreview.net/forum?id=ry_WPG-A-&noteId=ry_WPG-A-) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Information%20Bottleneck%20Theory%20of%20Deep%20Learning.pdf)
+- `ICLR 2018`
+- [Theoretical Properties of Deep Learning]
+```
+Well-written and quite interesting paper. I was not particularly familiar with the previous information bottleneck papers, but everything was still fairly easy to follow. The discussion/argument on openreview is strange (`This “paper” attacks our work through the following flawed and misleading statements`), i honestly don't know who is correct.
+```
+
+##### [22-06-28] [paper230]
+- Aleatoric and Epistemic Uncertainty with Random Forests
+ [[pdf]](https://arxiv.org/abs/2001.00893) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Aleatoric%20and%20Epistemic%20Uncertainty%20with%20Random%20Forests.pdf)
+- `2020-01`
+- [Uncertainty Estimation]
+```
+Quite well-written and somewhat interesting paper. 
+```
+
+##### [22-06-23] [paper229]
+- Linear Time Sinkhorn Divergences using Positive Features
+ [[pdf]](https://proceedings.neurips.cc/paper/2020/hash/9bde76f262285bb1eaeb7b40c758b53e-Abstract.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Linear%20Time%20Sinkhorn%20Divergences%20using%20Positive%20Features.pdf)
+- `NeurIPS 2020`
+```
+Fairly well-written and somewhat interesting paper. Definitely not my area of expertise, I struggled to understand some parts of the paper, and it's difficult for me to judge how important/significant/useful the presented method actually is.
+```
+
+##### [22-06-17] [paper228]
+- Greedy Bayesian Posterior Approximation with Deep Ensembles
+ [[pdf]](https://openreview.net/forum?id=P1DuPJzVTN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Greedy%20Bayesian%20Posterior%20Approximation%20with%20Deep%20Ensembles.pdf)
+- `TMLR, 2022`
+- [Uncertainty Estimation]
+```
+Quite well-written and fairly interesting paper. I was mainly just interested in reading one of the first ever TMLR accepted papers. Their final method in Algorithm 2 makes some intuitive sense, but I did not fully understand the theoretical arguments in Section 3.
+```
+
+##### [22-06-10] [paper227]
+- Weakly-Supervised Disentanglement Without Compromises
+ [[pdf]](https://arxiv.org/abs/2002.02886) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Weakly-Supervised%20Disentanglement%20Without%20Compromises.pdf)
+- `ICML 2020`
+```
+Quite well-written and somewhat interesting paper. Definitely not my area of expertise (learning disentangled representations of e.g. images) and I didn't have a lot of time to read the paper, I struggled to understand big parts of the paper.
+```
+
+##### [22-06-02] [paper226]
+- Shaking the Foundations: Delusions in Sequence Models for Interaction and Control
+ [[pdf]](https://arxiv.org/abs/2110.10819) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Shaking%20the%20foundations:%20delusions%20in%20sequence%20models%20for%20interaction%20and%20control.pdf)
+- `2021-10`
+```
+Quite well-written and somewhat interesting paper. Definitely not my area of expertise (causality). I didn't understand everything properly, and it's very difficult for me to judge how interesting this paper actually is.
+```
+
+##### [22-05-23] [paper225]
+- When are Bayesian Model Probabilities Overconfident?
+ [[pdf]](https://arxiv.org/abs/2003.04026) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/When%20are%20Bayesian%20model%20probabilities%20overconfident%3F.pdf)
+- `2020-03`
+```
+Quite well-written and somewhat interesting paper. A bit different compared to the papers I usually read, this is written by people doing statistics. I did definitely not understand everything properly. Quite difficult for me to say what my main practical takeaway from the paper is.
+```
+
+##### [22-05-20] [paper224]
+- Open-Set Recognition: a Good Closed-Set Classifier is All You Need?
+ [[pdf]](https://arxiv.org/abs/2110.06207) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Open-Set%20Recognition:%20a%20Good%20Closed-Set%20Classifier%20is%20All%20You%20Need%3F.pdf)
+- `ICLR 2022`
+- [Out-of-Distribution Detection]
+```
+Well-written and quite interesting paper. Like the authors discuss, this open-set recognition problem is of course highly related to out-of-distribution detection. Their proposed benchmark (fine-grained classification datasets) is quite neat, definitely a lot mote challenging than many OOD detection datasets (this could be seen as "very near ODD" I suppose).
+```
+
+##### [22-04-08] [paper223]
+- Improving Conditional Coverage via Orthogonal Quantile Regression
+ [[pdf]](https://proceedings.neurips.cc/paper/2021/file/1006ff12c465532f8c574aeaa4461b16-Paper.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Improving%20Conditional%20Coverage%20via%20Orthogonal%20Quantile%20Regression.pdf)
+- `NeurIPS 2021`
+- [Uncertainty Estimation]
+```
+Well-written and somewhat interesting paper. They propose an improved quantile regression method named orthogonal QR. The method entails adding a regularization term to the quantile regression loss, encouraging the prediction interval length to be independent of the coverage identifier (intuitively, I don't quite get why this is desired). They evaluate on 9 tabular regression datasets, the same used in e.g. "Conformalized Quantile Regression". The model is just a small 3-layer neural network. Compared to standard quantile regression, their method improves something called "conditional coverage" of the prediction intervals (they want to "achieve coverage closer to the desired level evenly across all sup-populations").
+```
+
+##### [22-04-08] [paper222]
+- Conformalized Quantile Regression
+ [[pdf]](https://proceedings.neurips.cc/paper/2019/file/5103c3584b063c431bd1268e9b5e76fb-Paper.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conformalized%20Quantile%20Regression.pdf)
+- `NeurIPS 2019`
+- [Uncertainty Estimation]
+```
+Interesting and well-written paper. I should have read this paper before reading "Efficient and Differentiable Conformal Prediction with General Function Classes". They give a pretty good introduction to both quantile regression and conformal prediction, and then propose a method that combines these two approaches. Their method is quite simple, they use conformal prediction on validation data (the "calibration set") to calibrate the prediction intervals learned by a quantile regression method? This is sort of like temperature scaling, but for prediction intervals learned by quantile regression?
+```
+
 ##### [22-04-08] [paper221]
 - Efficient and Differentiable Conformal Prediction with General Function Classes
  [[pdf]](https://openreview.net/forum?id=Ht85_jyihxp) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Efficient%20and%20Differentiable%20Conformal%20Prediction%20with%20General%20Function%20Classes.pdf)
