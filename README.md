@@ -4,7 +4,7 @@ I categorize, annotate and write comments for all research papers I read (240+ p
 
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Autonomous Driving], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [System Identification], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts]
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Autonomous Driving], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [System Identification], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics]
 
 
 ### Papers:
@@ -16,6 +16,15 @@ I categorize, annotate and write comments for all research papers I read (240+ p
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2022:
+
+##### [22-11-25] [paper242]
+- The future of AI in our hands? To what extent are we as individuals morally responsible for guiding the development of AI in a desirable direction?
+ [[pdf]](https://link.springer.com/article/10.1007/s43681-021-00125-5) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20future%20of%20AI%20in%20our%20hands%3F%20To%20what%20extent%20are%20we%20as%20individuals%20morally%20responsible%20for%20guiding%20the%20development%20of%20AI%20in%20a%20desirable%20direction%3F.pdf)
+- `AI and Ethics, 2022`
+- [ML & Ethics]
+```
+Well-written and somewhat interesting paper. Not overly technical or difficult to read. Discusses different perspectives on who should be responsible for ensuring that the future development of "AI" actually benefits society.
+```
 
 ##### [22-11-24] [paper241]
 - Collocation Based Training of Neural Ordinary Differential Equations
