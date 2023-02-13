@@ -1,6 +1,6 @@
 # About
 
-I categorize, annotate and write comments for all research papers I read (230+ papers since 2018).
+I categorize, annotate and write comments for all research papers I read (240+ papers since 2018).
 
 #### Categories:
 
@@ -16,6 +16,49 @@ I categorize, annotate and write comments for all research papers I read (230+ p
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2022:
+
+##### [22-11-24] [paper241]
+- Collocation Based Training of Neural Ordinary Differential Equations
+ [[pdf]](https://www.researchgate.net/publication/353112789_Collocation_based_training_of_neural_ordinary_differential_equations) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Collocation%20based%20training%20of%20neural%20ordinary%20differential%20equations.pdf)
+- `Statistical Applications in Genetics and Molecular Biology, 2021`
+- [Neural ODEs]
+```
+Quite well-written and fairly interesting paper. Not sure how much new insight it actually provided for me, but still interesting to read papers from people working in more applied fields.
+```
+
+##### [22-11-17] [paper240]
+- Prioritized Training on Points that are learnable, Worth Learning, and Not Yet Learnt
+ [[pdf]](https://proceedings.mlr.press/v162/mindermann22a/mindermann22a.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Prioritized%20Training%20on%20Points%20that%20are%20learnable%2C%20Worth%20Learning%2C%20and%20Not%20Yet%20Learnt.pdf)
+- `ICML 2022`
+```
+Well-written and quite interesting paper. The proposed method is explained well and makes intuitive sense overall, and seems to perform well in the intended setting.
+```
+
+##### [22-11-09] [paper239]
+- Learning Deep Representations by Mutual Information Estimation and Maximization
+ [[pdf]](https://openreview.net/forum?id=Bklr3j0cKX) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20deep%20representations%20by%20mutual%20information%20estimation%20and%20maximization.pdf)
+- `ICLR 2019`
+```
+Quite interesting paper, but I struggled to properly understand everything. I might not have the necessary background knowledge. I find it difficult to formulate what my main takeaway from the paper would be, their proposed method seems quite similar to previous work? And also difficult to judge how significant/impressive their experimental results are?
+```
+
+##### [22-11-03] [paper238]
+- Fine-Tuning can Distort Pretrained Features and Underperform Out-of-Distribution
+ [[pdf]](https://openreview.net/forum?id=UYneFzXSJWh) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Fine-Tuning%20can%20Distort%20Pretrained%20Features%20and%20Underperform%20Out-of-Distribution.pdf)
+- `ICLR 2022`
+- [Theoretical Properties of Deep Learning]
+```
+Quite interesting and very well-written paper, I found it very easy to read and understand (to read it also took a lot less time than usual). Pretty much all the results/arguments make intuitive sense, and the proposed method (of first doing linear probing and then full fine-tuning) seems to perform well. I am not quite able to judge how significant/interesting/important these results are, but the paper was definitely an enjoyable read at least.
+```
+
+##### [22-10-26] [paper237]
+- Multi-scale Feature Learning Dynamics: Insights for Double Descent
+ [[pdf]](https://proceedings.mlr.press/v162/pezeshki22a.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Multi-scale%20Feature%20Learning%20Dynamics:%20Insights%20for%20Double%20Descent.pdf)
+- `ICML 2022`
+- [Theoretical Properties of Deep Learning]
+```
+Quite well-written paper. Definitely not my area of expertise, and I did not have enough time to really try and understand everything properly either. So, it is very difficult for me to judge how significant/important/interesting the analysis and experimental results actually are.
+```
 
 ##### [22-10-20] [paper236]
 - Pseudo-Spherical Contrastive Divergence
