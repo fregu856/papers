@@ -17,6 +17,22 @@ I categorize, annotate and write comments for all research papers I read (230+ p
 
 #### Papers Read in 2022:
 
+##### [22-09-22] [paper233]
+- Adversarial Examples Are Not Bugs, They Are Features
+ [[pdf]](https://papers.nips.cc/paper/2019/hash/e2c420d928d4bf8ce0ff2ec19b371514-Abstract.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Adversarial%20Examples%20Are%20Not%20Bugs%2C%20They%20Are%20Features.pdf)
+- `NeurIPS 2019`
+```
+Well-written and interesting paper, I quite enjoyed reading it. I found this quite a lot more interesting than previous papers I have read on adversarial examples. 
+```
+
+##### [22-09-15] [paper232]
+- Learning to Learn by Gradient Descent by Gradient Descent
+ [[pdf]](https://proceedings.neurips.cc/paper/2016/file/fb87582825f9d28a8d42c5e5e5e8b23d-Paper.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20learn%20by%20gradient%20descent%20by%20gradient%20descent.pdf)
+- `NeurIPS 2016`
+```
+Quite interesting and well-written paper. Not my area of expertise, but still a relatively enjoyable read. "After each epoch (some fixed number of learning steps) we freeze the optimizer parameters..." is quite unclear though, it seems like they never specify for how many number of steps the optimizer is trained?
+```
+
 ##### [22-09-01] [paper231]
 - On the Information Bottleneck Theory of Deep Learning
  [[pdf]](https://openreview.net/forum?id=ry_WPG-A-&noteId=ry_WPG-A-) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Information%20Bottleneck%20Theory%20of%20Deep%20Learning.pdf)
