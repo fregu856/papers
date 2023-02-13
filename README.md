@@ -9,13 +9,68 @@ I categorize, annotate and write comments for all research papers I read (250+ p
 
 ### Papers:
 
+- [Papers Read in 2023](#papers-read-in-2023)
 - [Papers Read in 2022](#papers-read-in-2022)
 - [Papers Read in 2021](#papers-read-in-2021)
 - [Papers Read in 2020](#papers-read-in-2020)
 - [Papers Read in 2019](#papers-read-in-2019)
 - [Papers Read in 2018](#papers-read-in-2018)
 
+#### Papers Read in 2023:
+
+##### [23-02-09] [paper259]
+- The Forward-Forward Algorithm: Some Preliminary Investigations
+ [[pdf]](https://arxiv.org/abs/2212.13345) [[annotated pdf]]()
+- `2022-12`
+```
+
+```
+
+##### [23-02-01] [paper258]
+- Everything is Connected: Graph Neural Networks
+ [[pdf]](https://arxiv.org/abs/2301.08210) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Everything%20is%20Connected:%20Graph%20Neural%20Networks.pdf)
+- `2023-01`
+```
+Quite interesting and well-written paper. A short survey, took just ~40 min to read. Not overly interesting, but a quite enjoyable read. Section 4, with the connection to transformers, is quite interesting.
+```
+
+##### [23-01-27] [paper257]
+- Gradient Descent Happens in a Tiny Subspace
+ [[pdf]](https://arxiv.org/abs/1812.04754) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gradient%20Descent%20Happens%20in%20a%20Tiny%20Subspace.pdf)
+- `2018-12`
+- [Theoretical Properties of Deep Learning]
+```
+Quite interesting paper. Structured in a somewhat unusual way. Some kind of interesting observations. Difficult for me to judge how significant / practically impactful these observations actually are though.
+```
+
+##### [23-01-19] [paper256]
+- Out-Of-Distribution Detection Is Not All You Need
+ [[pdf]](https://arxiv.org/abs/2211.16158) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Out-Of-Distribution%20Detection%20Is%20Not%20All%20You%20Need.pdf)
+- `AAAI 2023`
+- [Out-of-Distribution Detection]
+```
+Quite interesting and well-written paper. How they describe limitations of OOD detection makes sense to me, I have always found the way OOD detection methods are evaluated a bit strange/arbitrary. However, I am not sure that the solution proposed in this paper actually is the solution.
+```
+
+##### [23-01-10] [paper255]
+- Diffusion Models: A Comprehensive Survey of Methods and Applications
+ [[pdf]](https://arxiv.org/abs/2209.00796) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Diffusion%20Models:%20A%20Comprehensive%20Survey%20of%20Methods%20and%20Applications.pdf)
+- `2022-09`
+- [Diffusion Models]
+```
+Quite interesting and well-written paper. ~28 pages, so a longer paper than usual. Section 1 and 2 (the first 9 pages) are interesting, they describe and show connections between the "denoising diffusion probabilistic models", "score-based generative models" and "stochastic differential equations" approaches. The remainder of the paper is quite but not overly interesting, I read it in less detail.
+```
+
 #### Papers Read in 2022:
+
+##### [22-12-14] [paper254]
+- Continuous Time Analysis of Momentum Methods
+ [[pdf]](https://arxiv.org/abs/1906.04285) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Continuous%20Time%20Analysis%20of%20Momentum%20Methods.pdf)
+- `JMLR, 2020`
+- [Theoretical Properties of Deep Learning]
+```
+Quite well-written and somewhat interesting paper. Longer (~20 pages) and more theoretical paper than what I usually read, and I definitely didn't understand all the details, but still a fairly enjoyable read. More enjoyable than I expected at least.
+```
 
 ##### [22-12-14] [paper253]
 - Toward a Theory of Justice for Artificial Intelligence
