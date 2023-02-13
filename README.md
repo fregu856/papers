@@ -17,6 +17,15 @@ I categorize, annotate and write comments for all research papers I read (240+ p
 
 #### Papers Read in 2022:
 
+##### [22-11-25] [paper243]
+- Expert Responsibility in AI Development
+ [[pdf]](https://link.springer.com/article/10.1007/s00146-022-01498-9) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Expert%20responsibility%20in%20AI%20development.pdf)
+- `AI & Society, 2022`
+- [ML & Ethics]
+```
+Well-written and interesting paper, quite straightforward to follow and understand everything. Section 6 & 7 are interesting, with the discussion about unintended consequences of recommender algorithms (how they contribute to an impaired democratic debate).
+```
+
 ##### [22-11-25] [paper242]
 - The future of AI in our hands? To what extent are we as individuals morally responsible for guiding the development of AI in a desirable direction?
  [[pdf]](https://link.springer.com/article/10.1007/s43681-021-00125-5) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20future%20of%20AI%20in%20our%20hands%3F%20To%20what%20extent%20are%20we%20as%20individuals%20morally%20responsible%20for%20guiding%20the%20development%20of%20AI%20in%20a%20desirable%20direction%3F.pdf)
