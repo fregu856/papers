@@ -17,6 +17,32 @@ I categorize, annotate and write comments for all research papers I read (230+ p
 
 #### Papers Read in 2022:
 
+##### [22-10-20] [paper236]
+- Pseudo-Spherical Contrastive Divergence
+ [[pdf]](https://arxiv.org/abs/2111.00780) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Pseudo-Spherical%20Contrastive%20Divergence.pdf)
+- `NeurIPS 2021`
+- [Energy-Based Models]
+```
+Well-written and quite interesting paper. Not overly impressed by the experimental results, the "robustness to data contamination" problem seems a bit odd overall to me. The proposed training method is quite neat though (that it's not just a heuristic but follows from the scoring rule approach), and the flexibility offered by the hyperparameter gamma can probably be useful in practice sometimes.
+```
+
+##### [22-10-08] [paper235]
+- RankFeat: Rank-1 Feature Removal for Out-of-distribution Detection
+ [[pdf]](https://arxiv.org/abs/2209.08590) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/RankFeat:%20Rank-1%20Feature%20Removal%20for%20Out-of-distribution%20Detection.pdf)
+- `NeurIPS 2022`
+- [Out-of-Distribution Detection]
+```
+Quite interesting and well-written paper. The proposed method is quite neat / conceptually simple, and seems to perform very well relative to other post-hoc OOD detection scores. I don't expect the proposed score to perform well in all settings though, but it definitely seems like a useful tool.
+```
+
+##### [22-10-06] [paper234]
+- Mechanistic Models Versus Machine Learning, a Fight Worth Fighting for the Biological Community?
+ [[pdf]](https://royalsocietypublishing.org/doi/epdf/10.1098/rsbl.2017.0660) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Mechanistic%20models%20versus%20machine%20learning%2C%20a%20fight%20worth%20fighting%20for%20the%20biological%20community%3F.pdf)
+- `Biology Letters, 2018`
+```
+An opinion peace, not really a technical paper. Just 3-4 pages long. Well-written and quite interesting paper though, I quite enjoyed reading it. What the authors write at the end "Fundamental biology should not choose between small-scale mechanistic understanding and large-scale prediction. It should embrace the complementary strengths of mechanistic modelling and machine learning approaches to provide, for example, the missing link between patient outcome prediction and the mechanistic understanding of disease progression" makes a lot of sense to, this is my main takeaway. I also find the statement "The training of a new generation of researchers versatile in all these fields will be vital in making this breakthrough" quite interesting, this is probably true for really making progress in medical machine learning applications as well?
+```
+
 ##### [22-09-22] [paper233]
 - Adversarial Examples Are Not Bugs, They Are Features
  [[pdf]](https://papers.nips.cc/paper/2019/hash/e2c420d928d4bf8ce0ff2ec19b371514-Abstract.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Adversarial%20Examples%20Are%20Not%20Bugs%2C%20They%20Are%20Features.pdf)
