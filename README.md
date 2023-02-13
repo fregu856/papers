@@ -17,6 +17,24 @@ I categorize, annotate and write comments for all research papers I read (250+ p
 
 #### Papers Read in 2022:
 
+##### [22-12-14] [paper253]
+- Toward a Theory of Justice for Artificial Intelligence
+ [[pdf]](https://direct.mit.edu/daed/article-pdf/151/2/218/2009164/daed_a_01911.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Toward%20a%20Theory%20of%20Justice%20for%20Artificial%20Intelligence.pdf)
+- `Daedalus, 2022`
+- [ML & Ethics]
+```
+Well-written and quite interesting paper. Describes the distributive justice principles of John Rawls' book "A theory of justice" and explores/discusses what these might imply for how "AI systems" should be regulated/deployed/etc. Doesn't really provide any overly concrete takeaways, at least not for me, but still a quite enjoyable read.
+```
+
+##### [22-12-08] [paper252]
+- Talking About Large Language Models
+ [[pdf]](https://arxiv.org/abs/2212.03551) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Talking%20About%20Large%20Language%20Models.pdf)
+- `2022-12`
+- [ML & Ethics]
+```
+Well-written and interesting paper. Sections 1-6 and Section 11 are very interesting. A breath of fresh air to read this in the midst of the ChatGPT hype. It contains a lot of good quotes, for example:"To ensure that we can make informed decisions about the trustworthiness and safety of the AI systems we deploy, it is advisable to keep to the fore the way those systems actually work, and thereby to avoid imputing to them capacities they lack, while making the best use of the remarkable capabilities they genuinely possess".
+```
+
 ##### [22-12-06] [paper251]
 - Artificial Intelligence, Humanistic Ethics
  [[pdf]](https://direct.mit.edu/daed/article-pdf/151/2/232/2009174/daed_a_01912.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Artificial%20Intelligence%2C%20Humanistic%20Ethics.pdf)
