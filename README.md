@@ -17,7 +17,51 @@ I categorize, annotate and write comments for all research papers I read (240+ p
 
 #### Papers Read in 2022:
 
-##### [22-12-02] [paper246]
+##### [22-12-06] [paper251]
+- Artificial Intelligence, Humanistic Ethics
+ [[pdf]](https://direct.mit.edu/daed/article-pdf/151/2/232/2009174/daed_a_01912.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Artificial%20Intelligence%2C%20Humanistic%20Ethics.pdf)
+- `Daedalus, 2022`
+- [ML & Ethics]
+```
+Well-written and interesting paper. Provides some interesting comments/critique on utilitarianism and how engineers/scientists like myself might be inclined to find that approach attractive: "The optimizing mindset prevalent among computer scientists and economists, among other powerful actors, has led to an approach focused on maximizing the fulfilment of human preferences..... But this preference-based utilitarianism is open to serious objections. This essay sketches an alternative, “humanistic” ethics for AI that is sensitive to aspects of human engagement with the ethical often missed by the dominant approach." - - - - "So ethics is reduced to an exercise in prediction and optimization: which act or policy is likely to lead to the optimal fulfilment of human preferences?" - - - - "This incommensurability calls into question the availability of some optimizing function that determines the single option that is, all things considered, most beneficial or morally right, the quest for which has animated a lot of utilitarian thinking in ethics."
+```
+
+##### [22-12-06] [paper250]
+- Physics-Informed Neural Networks for Cardiac Activation Mapping
+ [[pdf]](https://www.frontiersin.org/articles/10.3389/fphy.2020.00042/full) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Physics-Informed%20Neural%20Networks%20for%20Cardiac%20Activation%20Mapping.pdf)
+- `Frontiers in Physics, 2020`
+```
+Quite well-written and somewhat interesting paper.
+```
+
+##### [22-12-05] [paper249]
+- AI Ethics and its Pitfalls: Not Living up to its own Standards?
+ [[pdf]](https://link.springer.com/article/10.1007/s43681-022-00173-5) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/AI%20ethics%20and%20its%20pitfalls:%20not%20living%20up%20to%20its%20own%20standards%3F.pdf)
+- `AI and Ethics, 2022`
+- [ML & Ethics]
+```
+Well-written and somewhat interesting paper. Good reminder that also the practice of ML ethics could have unintended negative consequences. Section 2.6 is quite interesting.
+```
+
+##### [22-12-02] [paper248]
+- Blind Spots in AI Ethics
+ [[pdf]](https://link.springer.com/article/10.1007/s43681-021-00122-8) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Blind%20spots%20in%20AI%20ethics.pdf)
+- `AI and Ethics, 2022`
+- [ML & Ethics]
+```
+Well-written and very interesting paper. I enjoyed reading it, and it made me think - which is a good thing! Contains quite a few quotes which I really liked, for example: "However, it is wrong to assume that the goal is ethical AI. Rather, the primary aim from which detailed norms can be derived should be a peaceful, sustainable, and just society. Hence, AI ethics must dare to ask the question where in an ethical society one should use AI and its inherent principle of predictive modeling and classification at all".
+```
+
+##### [22-12-01] [paper247]
+- The Ethics of AI Ethics: An Evaluation of Guidelines
+ [[pdf]](https://link.springer.com/article/10.1007/s11023-020-09517-8) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Ethics%20of%20AI%20Ethics:%20An%20Evaluation%20of%20Guidelines.pdf)
+- `Minds and Machines, 2020`
+- [ML & Ethics]
+```
+Well-written and interesting paper. I liked that it discussed some actual ethical theories in Section 4.2. Sections 3.2, 3.3. and 4.1 were also interesting.
+```
+
+##### [22-12-01] [paper246]
 - The Uselessness of AI Ethics
  [[pdf]](https://link.springer.com/article/10.1007/s43681-022-00209-w) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20uselessness%20of%20AI%20ethics.pdf)
 - `AI and Ethics, 2022`
