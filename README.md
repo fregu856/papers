@@ -4,7 +4,7 @@ I categorize, annotate and write comments for all research papers I read (240+ p
 
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Autonomous Driving], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [System Identification], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics]
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Autonomous Driving], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [System Identification], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models]
 
 
 ### Papers:
@@ -16,6 +16,33 @@ I categorize, annotate and write comments for all research papers I read (240+ p
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2022:
+
+##### [22-12-02] [paper246]
+- The Uselessness of AI Ethics
+ [[pdf]](https://link.springer.com/article/10.1007/s43681-022-00209-w) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20uselessness%20of%20AI%20ethics.pdf)
+- `AI and Ethics, 2022`
+- [ML & Ethics]
+```
+Well-written and very interesting paper. I enjoyed reading it, and it made me think - which is a good thing!
+```
+
+##### [22-12-01] [paper245]
+- Denoising Diffusion Implicit Models
+ [[pdf]](https://arxiv.org/abs/2010.02502) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Denoising%20Diffusion%20Implicit%20Models.pdf)
+- `ICLR 2021`
+- [Diffusion Models]
+```
+Quite well-written and interesting paper. I did struggle to properly understand everything in Section 3 & 4, felt like I didn't quite have the necessary background knowledge. Helped a lot to go through the paper again at our reading group.
+```
+
+##### [22-11-26] [paper244]
+- You Cannot Have AI Ethics Without Ethics
+ [[pdf]](https://link.springer.com/article/10.1007/s43681-020-00013-4)
+- `AI and Ethics, 2021`
+- [ML & Ethics]
+```
+Well-written and quite interesting paper. Just 5 pages long, quick to read. Sort of like an opinion piece. I enjoyed reading it. Main takeaway: "Instead of trying to reinvent ethics, or adopt ethical guidelines in isolation, it is incumbent upon us to recognize the need for broadly ethical organizations. These will be the only entrants in a position to build truly ethical AI. You cannot simply have AI ethics. It requires real ethical due diligence at the organizational level—perhaps, in some cases, even industry-wide refection".
+```
 
 ##### [22-11-25] [paper243]
 - Expert Responsibility in AI Development
