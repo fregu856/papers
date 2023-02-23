@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (260+ p
 
 #### Papers Read in 2023:
 
+##### [23-02-23] [paper263]
+- Unsupervised Out-of-Distribution Detection with Diffusion Inpainting
+ [[pdf]](https://arxiv.org/abs/2302.10326) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Unsupervised%20Out-of-Distribution%20Detection%20with%20Diffusion%20Inpainting.pdf)
+- `2023-02`
+- [Out-of-Distribution Detection], [Diffusion Models]
+```
+Well-written and interesting paper, I enjoyed reading it. The proposed method is conceptually very simple and makes a lot of intuitive sense. As often is the case with OOD detection papers, I find it difficult to judge how strong/impressive the experimental results actually are (the method is evaluated only on quite simple/small image classification datasets), but it seems quite promising at least.
+```
+
 ##### [23-02-23] [paper262]
 - Adaptive Conformal Inference Under Distribution Shift
  [[pdf]](https://proceedings.neurips.cc/paper/2021/hash/0d441de75945e5acbc865406fc9a2559-Abstract.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Adaptive%20Conformal%20Inference%20Under%20Distribution%20Shift.pdf)
