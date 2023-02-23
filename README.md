@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (250+ p
 
 #### Papers Read in 2023:
 
+##### [23-02-16] [paper260]
+- Neural Networks Trained with SGD Learn Distributions of Increasing Complexity
+ [[pdf]](https://arxiv.org/abs/2211.11567) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Networks%20Trained%20with%20SGD%20Learn%20Distributions%20of%20Increasing%20Complexity.pdf)
+- `2022-11`
+- [Theoretical Properties of Deep Learning]
+```
+Interesting paper. I would have needed a bit more time to read it though, felt like I didn't quite have enough time to properly understand everything and evaluate the significance of the findings. Might have to go back to this paper again.
+```
+
 ##### [23-02-09] [paper259]
 - The Forward-Forward Algorithm: Some Preliminary Investigations
  [[pdf]](https://arxiv.org/abs/2212.13345) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Forward-Forward%20Algorithm:%20Some%20Preliminary%20Investigations.pdf)
