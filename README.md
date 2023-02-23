@@ -20,10 +20,10 @@ I categorize, annotate and write comments for all research papers I read (250+ p
 
 ##### [23-02-09] [paper259]
 - The Forward-Forward Algorithm: Some Preliminary Investigations
- [[pdf]](https://arxiv.org/abs/2212.13345) [[annotated pdf]]()
+ [[pdf]](https://arxiv.org/abs/2212.13345) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Forward-Forward%20Algorithm:%20Some%20Preliminary%20Investigations.pdf)
 - `2022-12`
 ```
-
+Somewhat interesting, but quite odd paper. I was quite confused by multiple parts of it. This is probably partly because of my background, but I do also think that the paper could be more clearly structured.
 ```
 
 ##### [23-02-01] [paper258]
