@@ -1,6 +1,6 @@
 # About
 
-I categorize, annotate and write comments for all research papers I read (250+ papers since 2018).
+I categorize, annotate and write comments for all research papers I read (260+ papers since 2018).
 
 #### Categories:
 
@@ -17,6 +17,24 @@ I categorize, annotate and write comments for all research papers I read (250+ p
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2023:
+
+##### [23-02-23] [paper262]
+- Adaptive Conformal Inference Under Distribution Shift
+ [[pdf]](https://proceedings.neurips.cc/paper/2021/hash/0d441de75945e5acbc865406fc9a2559-Abstract.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Adaptive%20Conformal%20Inference%20Under%20Distribution%20Shift.pdf)
+- `NeurIPS 2021`
+- [Uncertainty Estimation], [Distribution Shifts]
+```
+Interesting and well-written paper. The proposed method in Section 2 is quite intuitive and clearly explained. The examples in Figure 1 and 3 are quite neat. "The methods we develop are specific to cases where Y_t is revealed at each time point. However, there are many settings in which we receive the response in a delayed fashion or in large batches." - this is true, but there are also many settings in which the method would not really be applicable. In cases which it is though, I definitely think it could make sense to use this instead of standard conformal prediction.
+```
+
+##### [23-02-23] [paper261]
+- Spectral Temporal Graph Neural Network for Multivariate Time-series Forecasting
+ [[pdf]](https://arxiv.org/abs/2103.07719) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Spectral%20Temporal%20Graph%20Neural%20Network%20for%20Multivariate%20Time-series%20Forecasting.pdf)
+- `NeurIPS 2020`
+- [Sequence Modeling]
+```
+Quite interesting and well-written paper, not a topic that I personally find overly interesting though.
+```
 
 ##### [23-02-16] [paper260]
 - Neural Networks Trained with SGD Learn Distributions of Increasing Complexity
