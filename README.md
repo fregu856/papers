@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (260+ p
 
 #### Papers Read in 2023:
 
+##### [23-02-24] [paper264]
+- Conformal Prediction Under Covariate Shift
+ [[pdf]](https://proceedings.neurips.cc/paper/2019/hash/8fb21ee7a2207526da55a679f0332de2-Abstract.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conformal%20Prediction%20Under%20Covariate%20Shift.pdf)
+- `NeurIPS 2019`
+- [Uncertainty Estimation], [Distribution Shifts]
+```
+Quite interesting paper. It contains more theoretical results than I'm used to, and some things are sort of explained in an unnecessarily complicated way. The proposed method in Section 2 makes some intuitive sense, but I also find it a bit odd. It requires access to unlabeled test inputs, and then you'd have to train a classifier to distinguish train inputs from test inputs? Is this actually a viable approach in practice? Would it work well e.g. for image data? Not clear to me. In the paper, the method is applied to a single very simple example.
+```
+
 ##### [23-02-23] [paper263]
 - Unsupervised Out-of-Distribution Detection with Diffusion Inpainting
  [[pdf]](https://arxiv.org/abs/2302.10326) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Unsupervised%20Out-of-Distribution%20Detection%20with%20Diffusion%20Inpainting.pdf)
