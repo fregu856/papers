@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (260+ p
 
 #### Papers Read in 2023:
 
+##### [23-02-27] [paper265]
+- Robust Validation: Confident Predictions Even When Distributions Shift
+ [[pdf]](https://arxiv.org/abs/2008.04267) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Robust%20Validation:%20Confident%20Predictions%20Even%20When%20Distributions%20Shift.pdf)
+- `2020-08`
+- [Uncertainty Estimation], [Distribution Shifts]
+```
+Quite interesting and well-written paper. Longer (~19 pages) and more theoretical than what I usually read. I did not understand all details in Section 2 and 3. Also find it difficult to know how Algorithm 2 and 3 actually are implemented, would like see some code. Not entirely sure how useful their methods actually would be in practice, but I quite enjoyed reading the paper at least.
+```
+
 ##### [23-02-24] [paper264]
 - Conformal Prediction Under Covariate Shift
  [[pdf]](https://proceedings.neurips.cc/paper/2019/hash/8fb21ee7a2207526da55a679f0332de2-Abstract.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conformal%20Prediction%20Under%20Covariate%20Shift.pdf)
