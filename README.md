@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (260+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-01] [paper266]
+- Conformal Prediction Beyond Exchangeability
+ [[pdf]](https://arxiv.org/abs/2202.13415) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conformal%20Prediction%20Beyond%20Exchangeability.pdf)
+- `2022-02`
+- [Uncertainty Estimation], [Distribution Shifts]
+```
+Well-written and quite interesting paper, I quite enjoyed reading it. Much longer than usual (32 pages), but didn't really take longer than usual to read (I skipped/skimmed some of the theoretical parts). Their proposed method makes intuitive sense I think, but seems like it's applicable only to problems in which some kind of prior knowledge can be used to compute weights? From the end of Section 4.3: _"On the other hand, if the test point comes from a new distribution that bears no resemblance to the training data, neither our upper bound nor any other method would be able to guarantee valid coverage without further assumptions. An important open question is whether it may be possible to determine, in an adaptive way, whether coverage will likely hold for a particular data set, or whether that data set exhibits high deviations from exchangeability such that the coverage gap may be large"_.
+```
+
 ##### [23-02-27] [paper265]
 - Robust Validation: Confident Predictions Even When Distributions Shift
  [[pdf]](https://arxiv.org/abs/2008.04267) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Robust%20Validation:%20Confident%20Predictions%20Even%20When%20Distributions%20Shift.pdf)
