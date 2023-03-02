@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (260+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-02] [paper267]
+- Denoising Diffusion Models for Out-of-Distribution Detection
+ [[pdf]](https://arxiv.org/abs/2211.07740) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Denoising%20Diffusion%20Models%20for%20Out-of-Distribution%20Detection.pdf)
+- `2022-11`
+- [Out-of-Distribution Detection], [Diffusion Models]
+```
+Well-written and interesting paper, I enjoyed reading it. Very similar to "Unsupervised Out-of-Distribution Detection with Diffusion Inpainting" (reconstruction-based OOD detection using diffusion models), but using a slightly different approach. The related work is described in a really nice way, and they compare with very relevant baselines it seems. Promising performance in the experiments.
+```
+
 ##### [23-03-01] [paper266]
 - Conformal Prediction Beyond Exchangeability
  [[pdf]](https://arxiv.org/abs/2202.13415) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conformal%20Prediction%20Beyond%20Exchangeability.pdf)
