@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (260+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-03] [paper269]
+- The Tilted Variational Autoencoder: Improving Out-of-Distribution Detection
+ [[pdf]](https://openreview.net/forum?id=YlGsTZODyjz) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Tilted%20Variational%20Autoencoder:%20Improving%20Out-of-Distribution%20Detection.pdf)
+- `ICLR 2023`
+- [Out-of-Distribution Detection], [VAEs]
+```
+Quite well-written and somewhat interesting paper. I still don't fully understand the "Will-it-move test", not even after having read Appendix D. It seems a bit strange to me, and it requires access to OOD data. So, then you get the same type of problems as all "outlier exposure"-style methods (what if you don't have access to OOD data? And will the OOD detector actually generalize well to other OOD data than what it was tuned on)? Section 4.2.1 pretty interesting though.
+```
+
 ##### [23-03-02] [paper268]
 - Improving Reconstruction Autoencoder Out-of-distribution Detection with Mahalanobis Distance
  [[pdf]](https://arxiv.org/abs/1812.02765) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Improving%20Reconstruction%20Autoencoder%20Out-of-distribution%20Detection%20with%20Mahalanobis%20Distance.pdf)
