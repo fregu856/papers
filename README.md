@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (260+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-02] [paper268]
+- Improving Reconstruction Autoencoder Out-of-distribution Detection with Mahalanobis Distance
+ [[pdf]](https://arxiv.org/abs/1812.02765) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Improving%20Reconstruction%20Autoencoder%20Out-of-distribution%20Detection%20with%20Mahalanobis%20Distance.pdf)
+- `2018-12`
+- [Out-of-Distribution Detection]
+```
+Quite well-written and somewhat interesting paper. Short (~4 pages) and a very quick read. A simple idea that makes intuitive sense. Very basic experiments (only MNIST).
+```
+
 ##### [23-03-02] [paper267]
 - Denoising Diffusion Models for Out-of-Distribution Detection
  [[pdf]](https://arxiv.org/abs/2211.07740) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Denoising%20Diffusion%20Models%20for%20Out-of-Distribution%20Detection.pdf)
