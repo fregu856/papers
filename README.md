@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (270+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-07] [paper272]
+- Predicting Out-of-Distribution Error with the Projection Norm
+ [[pdf]](https://proceedings.mlr.press/v162/yu22i.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predicting%20Out-of-Distribution%20Error%20with%20the%20Projection%20Norm.pdf)
+- `ICML 2022`
+- [Distribution Shifts]
+```
+Well-written and quite interesting paper. The method is conceptually simple and makes some intuitive sense. I'm just not quite sure how/when this approach actually would be used in practice? They say in Section 6 that "Our method can potentially be extended to perform OOD detection", but I don't really see how that would be possible (since the method seems to require at least ~200 test samples)?
+```
+
 ##### [23-03-07] [paper271]
 - Variational- and Metric-based Deep Latent Space for Out-of-Distribution Detection
  [[pdf]](https://openreview.net/forum?id=ScLeuUUi9gq) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Variational-%20and%20Metric-based%20Deep%20Latent%20Space%20for%20Out-of-Distribution%20Detection.pdf)
