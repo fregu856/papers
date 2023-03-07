@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (260+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-07] [paper271]
+- Variational- and Metric-based Deep Latent Space for Out-of-Distribution Detection
+ [[pdf]](https://openreview.net/forum?id=ScLeuUUi9gq) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Variational-%20and%20Metric-based%20Deep%20Latent%20Space%20for%20Out-of-Distribution%20Detection.pdf)
+- `UAI 2022`
+- [Out-of-Distribution Detection]
+```
+Quite well-written and somewhat interesting paper. Seems a bit ad hoc and quite incremental overall.
+```
+
 ##### [23-03-07] [paper270]
 - Igeood: An Information Geometry Approach to Out-of-Distribution Detection
  [[pdf]](https://arxiv.org/abs/2203.07798) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Igeood:%20An%20Information%20Geometry%20Approach%20to%20Out-of-Distribution%20Detection.pdf)
