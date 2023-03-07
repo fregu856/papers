@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (260+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-07] [paper270]
+- Igeood: An Information Geometry Approach to Out-of-Distribution Detection
+ [[pdf]](https://arxiv.org/abs/2203.07798) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Igeood:%20An%20Information%20Geometry%20Approach%20to%20Out-of-Distribution%20Detection.pdf)
+- `ICLR 2022`
+- [Out-of-Distribution Detection]
+```
+Quite well-written and somewhat interesting paper. The proposed method seems a bit ad hoc to me. Not overly impressive experimental results. Seems a bit incremental overall.
+```
+
 ##### [23-03-03] [paper269]
 - The Tilted Variational Autoencoder: Improving Out-of-Distribution Detection
  [[pdf]](https://openreview.net/forum?id=YlGsTZODyjz) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Tilted%20Variational%20Autoencoder:%20Improving%20Out-of-Distribution%20Detection.pdf)
