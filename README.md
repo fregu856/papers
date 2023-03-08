@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (270+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-07] [paper273]
+- Certifying Out-of-Domain Generalization for Blackbox Functions
+ [[pdf]](https://arxiv.org/abs/2202.01679) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Certifying%20Out-of-Domain%20Generalization%20for%20Blackbox%20Functions.pdf)
+- `ICML 2022`
+- [Distribution Shifts]
+```
+Well-written and quite interesting paper, I'm just not even close to having the background necessary to be able to properly understand/appreciate/evaluate these results. Could this be used in practice? If so, how useful would it actually be? I have basically no clue.
+```
+
 ##### [23-03-07] [paper272]
 - Predicting Out-of-Distribution Error with the Projection Norm
  [[pdf]](https://proceedings.mlr.press/v162/yu22i.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predicting%20Out-of-Distribution%20Error%20with%20the%20Projection%20Norm.pdf)
