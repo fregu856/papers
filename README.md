@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (270+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-08] [paper274]
+- High-Resolution Image Synthesis with Latent Diffusion Models
+ [[pdf]](https://arxiv.org/abs/2112.10752) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/High-Resolution%20Image%20Synthesis%20with%20Latent%20Diffusion%20Models.pdf)
+- `CVPR 2022`
+- [Diffusion Models]
+```
+Quite interesting and well-written paper. The method is described well in Section 3. Section 4.1 is quite interesting. The rest of the results I did not go through in much detail.
+```
+
 ##### [23-03-07] [paper273]
 - Certifying Out-of-Domain Generalization for Blackbox Functions
  [[pdf]](https://arxiv.org/abs/2202.01679) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Certifying%20Out-of-Domain%20Generalization%20for%20Blackbox%20Functions.pdf)
