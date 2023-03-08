@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (270+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-08] [paper275]
+- A Call to Reflect on Evaluation Practices for Failure Detection in Image Classification
+ [[pdf]](https://openreview.net/forum?id=YnkGMIh0gvX) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Call%20to%20Reflect%20on%20Evaluation%20Practices%20for%20Failure%20Detection%20in%20Image%20Classification.pdf)
+- `ICLR 2023`
+- [Out-of-Distribution Detection]
+```
+Interesting and well-written paper, I'm glad that I found it and decided to read it in detail. The appendix contains a lot of information (and I did not have time to go through everything). Overall, I really like what the authors set out do with this paper. But in the end, I'm not entirely convinced. The AURC metric still has some issues, I think.
+```
+
 ##### [23-03-08] [paper274]
 - High-Resolution Image Synthesis with Latent Diffusion Models
  [[pdf]](https://arxiv.org/abs/2112.10752) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/High-Resolution%20Image%20Synthesis%20with%20Latent%20Diffusion%20Models.pdf)
