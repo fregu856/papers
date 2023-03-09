@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (270+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-09] [paper276]
+- How Powerful are Graph Neural Networks?
+ [[pdf]](https://arxiv.org/abs/1810.00826) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20Powerful%20are%20Graph%20Neural%20Networks%3F.pdf)
+- `ICLR 2019`
+- [Graph Neural Networks]
+```
+Very well-written paper. There are topics which I generally find a lot more interesting, but I still definitely enjoyed reading this paper.
+```
+
 ##### [23-03-08] [paper275]
 - A Call to Reflect on Evaluation Practices for Failure Detection in Image Classification
  [[pdf]](https://openreview.net/forum?id=YnkGMIh0gvX) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Call%20to%20Reflect%20on%20Evaluation%20Practices%20for%20Failure%20Detection%20in%20Image%20Classification.pdf)
