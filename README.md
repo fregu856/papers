@@ -4,7 +4,7 @@ I categorize, annotate and write comments for all research papers I read (270+ p
 
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Autonomous Driving], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [System Identification], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models]
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Autonomous Driving], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [System Identification], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models], [Graph Neural Networks].
 
 
 ### Papers:
@@ -17,6 +17,15 @@ I categorize, annotate and write comments for all research papers I read (270+ p
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2023:
+
+##### [23-03-08] [paper275]
+- A Call to Reflect on Evaluation Practices for Failure Detection in Image Classification
+ [[pdf]](https://openreview.net/forum?id=YnkGMIh0gvX) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Call%20to%20Reflect%20on%20Evaluation%20Practices%20for%20Failure%20Detection%20in%20Image%20Classification.pdf)
+- `ICLR 2023`
+- [Out-of-Distribution Detection]
+```
+Interesting and well-written paper, I'm glad that I found it and decided to read it in detail. The appendix contains a lot of information (and I did not have time to go through everything). Overall, I really like what the authors set out do with this paper. But in the end, I'm not entirely convinced. The AURC metric still has some issues, I think.
+```
 
 ##### [23-03-08] [paper274]
 - High-Resolution Image Synthesis with Latent Diffusion Models
@@ -139,7 +148,7 @@ Interesting and well-written paper. The proposed method in Section 2 is quite in
 - Spectral Temporal Graph Neural Network for Multivariate Time-series Forecasting
  [[pdf]](https://arxiv.org/abs/2103.07719) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Spectral%20Temporal%20Graph%20Neural%20Network%20for%20Multivariate%20Time-series%20Forecasting.pdf)
 - `NeurIPS 2020`
-- [Sequence Modeling]
+- [Sequence Modeling], [Graph Neural Networks]
 ```
 Quite interesting and well-written paper, not a topic that I personally find overly interesting though.
 ```
@@ -165,6 +174,7 @@ Somewhat interesting, but quite odd paper. I was quite confused by multiple part
 - Everything is Connected: Graph Neural Networks
  [[pdf]](https://arxiv.org/abs/2301.08210) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Everything%20is%20Connected:%20Graph%20Neural%20Networks.pdf)
 - `2023-01`
+- [Graph Neural Networks]
 ```
 Quite interesting and well-written paper. A short survey, took just ~40 min to read. Not overly interesting, but a quite enjoyable read. Section 4, with the connection to transformers, is quite interesting.
 ```
@@ -1045,6 +1055,7 @@ Somewhat interesting paper. The phenomena observed in Figure 1, that validation 
  [[pdf]](https://arxiv.org/abs/2002.09405) [[code]](https://github.com/deepmind/deepmind-research/tree/master/learning_to_simulate) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Simulate%20Complex%20Physics%20with%20Graph%20Networks.pdf)
 - *Alvaro Sanchez-Gonzalez, Jonathan Godwin, Tobias Pfaff, Rex Ying, Jure Leskovec, Peter W. Battaglia*
 - `2020-02-21, ICML 2020`
+- [Graph Neural Networks]
 ```
 Quite well-written and somewhat interesting paper. Cool application and a bunch of neat videos. This is not really my area, so I didn't spend too much time/energy trying to fully understand everything.
 ```
@@ -1355,6 +1366,7 @@ Very well-written and quite interesting paper. Gives a good understanding of the
  [[pdf]](https://arxiv.org/abs/2010.03409) [[code]](https://github.com/deepmind/deepmind-research/tree/master/meshgraphnets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Mesh-Based%20Simulation%20with%20Graph%20Networks.pdf)
 - *Tobias Pfaff, Meire Fortunato, Alvaro Sanchez-Gonzalez, Peter W. Battaglia*
 - `2020-10-07, ICLR 2021`
+- [Graph Neural Networks]
 
 ##### [21-04-09] [paper127]
 - Q-Learning in enormous action spaces via amortized approximate maximization
