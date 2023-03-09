@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (270+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-09] [paper277]
+- Calibrated Selective Classification
+ [[pdf]](https://openreview.net/forum?id=zFhNBs8GaV) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Calibrated%20Selective%20Classification.pdf)
+- `TMLR, 2022`
+- [Uncertainty Estimation], [Selective Prediction]
+```
+Well-written and quite interesting paper. The overall aim of "we extend selective classification to focus on improving model calibration over non-rejected instances" makes a lot of sense to me. The full proposed method (Section 4.2 - 4.5) seems a bit complicated though, but the experiments and results are definitely quite interesting. 
+```
+
 ##### [23-03-09] [paper276]
 - How Powerful are Graph Neural Networks?
  [[pdf]](https://arxiv.org/abs/1810.00826) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20Powerful%20are%20Graph%20Neural%20Networks%3F.pdf)
