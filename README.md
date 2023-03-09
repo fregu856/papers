@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (270+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-09] [paper278]
+- Learning to Reject Meets OOD Detection: Are all Abstentions Created Equal?
+ [[pdf]](https://arxiv.org/abs/2301.12386) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Reject%20Meets%20OOD%20Detection:%20Are%20all%20Abstentions%20Created%20Equal%3F.pdf)
+- `2023-01`
+- [Out-of-Distribution Detection], [Selective Prediction]
+```
+Quite well-written and fairly interesting paper. I struggled to properly follow some parts. I'm not entirely convinced by their proposed approach.
+```
+
 ##### [23-03-09] [paper277]
 - Calibrated Selective Classification
  [[pdf]](https://openreview.net/forum?id=zFhNBs8GaV) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Calibrated%20Selective%20Classification.pdf)
