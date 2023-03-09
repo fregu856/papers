@@ -4,7 +4,7 @@ I categorize, annotate and write comments for all research papers I read (270+ p
 
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Autonomous Driving], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [System Identification], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models], [Graph Neural Networks].
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Autonomous Driving], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [System Identification], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models], [Graph Neural Networks], [Selective Prediction].
 
 
 ### Papers:
@@ -17,6 +17,15 @@ I categorize, annotate and write comments for all research papers I read (270+ p
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2023:
+
+##### [23-03-09] [paper276]
+- How Powerful are Graph Neural Networks?
+ [[pdf]](https://arxiv.org/abs/1810.00826) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20Powerful%20are%20Graph%20Neural%20Networks%3F.pdf)
+- `ICLR 2019`
+- [Graph Neural Networks]
+```
+Very well-written paper. There are topics which I generally find a lot more interesting, but I still definitely enjoyed reading this paper.
+```
 
 ##### [23-03-08] [paper275]
 - A Call to Reflect on Evaluation Practices for Failure Detection in Image Classification
@@ -650,7 +659,7 @@ Well-written and quite interesting paper. I didn't take the time to try and real
 - Selective Regression Under Fairness Criteria
  [[pdf]](https://arxiv.org/abs/2110.15403) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Selective%20Regression%20Under%20Fairness%20Criteria.pdf)
 - `2021-10`
-- [Uncertainty Estimation]
+- [Uncertainty Estimation], [Selective Prediction]
 ```
 Well-written and somewhat interesting paper. Gives a pretty good introduction to the fair regression problem, Section 2 is very well-written. Quite interesting that it can be the case that while overall performance improves with decreased coverage, the performance for a minority sub-group is degraded. I didn't quite follow everything in Section 5, the methods seem a bit niche. I'm not overly impressed by the experiments either.
 ```
@@ -659,7 +668,7 @@ Well-written and somewhat interesting paper. Gives a pretty good introduction to
 - Risk-Controlled Selective Prediction for Regression Deep Neural Network Models
  [[pdf]](http://vigir.missouri.edu/~gdesouza/Research/Conference_CDs/IEEE_WCCI_2020/IJCNN/Papers/N-20828.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Risk-Controlled%20Selective%20Prediction%20for%20Regression%20Deep%20Neural%20Network%20Models.pdf)
 - `IJCNN 2020`
-- [Uncertainty Estimation]
+- [Uncertainty Estimation], [Selective Prediction]
 ```
 Interesting and well-written paper. They take the method from "Selective Classification for Deep Neural Networks" and extend it to regression. I don't really understand the details of the lemmas/theorems, but otherwise everything is clearly explained.
 ```
@@ -677,7 +686,7 @@ Well-written and quite interesting paper. A relatively short paper of just 4 pag
 - Selective Classification for Deep Neural Networks
  [[pdf]](https://dl.acm.org/doi/pdf/10.5555/3295222.3295241) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Selective%20Classification%20for%20Deep%20Neural%20Networks.pdf)
 - `NeurIPS 2017`
-- [Uncertainty Estimation]
+- [Uncertainty Estimation], [Selective Prediction]
 ```
 Interesting and well-written paper, I enjoyed reading it. I don't really understand the lemma/theorem in Section 3, but everything is still clearly explained.
 ```
@@ -686,7 +695,7 @@ Interesting and well-written paper, I enjoyed reading it. I don't really underst
 - SelectiveNet: A Deep Neural Network with an Integrated Reject Option
  [[pdf]](https://arxiv.org/abs/1901.09192) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SelectiveNet:%20A%20Deep%20Neural%20Network%20with%20an%20Integrated%20Reject%20Option.pdf)
 - `2019-01, ICML 2019`
-- [Uncertainty Estimation]
+- [Uncertainty Estimation], [Selective Prediction]
 ```
 Well-written and quite interesting paper. The proposed method is quite interesting and makes some intuitive sense, but I would assume that the calibration technique in Section 5 has similar issues as temperature scaling (i.e., the calibration might still break under various data shifts)?
 ```
