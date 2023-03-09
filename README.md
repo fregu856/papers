@@ -148,7 +148,7 @@ Interesting and well-written paper. The proposed method in Section 2 is quite in
 - Spectral Temporal Graph Neural Network for Multivariate Time-series Forecasting
  [[pdf]](https://arxiv.org/abs/2103.07719) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Spectral%20Temporal%20Graph%20Neural%20Network%20for%20Multivariate%20Time-series%20Forecasting.pdf)
 - `NeurIPS 2020`
-- [Sequence Modeling]
+- [Sequence Modeling], [Graph Neural Networks]
 ```
 Quite interesting and well-written paper, not a topic that I personally find overly interesting though.
 ```
@@ -174,6 +174,7 @@ Somewhat interesting, but quite odd paper. I was quite confused by multiple part
 - Everything is Connected: Graph Neural Networks
  [[pdf]](https://arxiv.org/abs/2301.08210) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Everything%20is%20Connected:%20Graph%20Neural%20Networks.pdf)
 - `2023-01`
+- [Graph Neural Networks]
 ```
 Quite interesting and well-written paper. A short survey, took just ~40 min to read. Not overly interesting, but a quite enjoyable read. Section 4, with the connection to transformers, is quite interesting.
 ```
@@ -1054,6 +1055,7 @@ Somewhat interesting paper. The phenomena observed in Figure 1, that validation 
  [[pdf]](https://arxiv.org/abs/2002.09405) [[code]](https://github.com/deepmind/deepmind-research/tree/master/learning_to_simulate) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Simulate%20Complex%20Physics%20with%20Graph%20Networks.pdf)
 - *Alvaro Sanchez-Gonzalez, Jonathan Godwin, Tobias Pfaff, Rex Ying, Jure Leskovec, Peter W. Battaglia*
 - `2020-02-21, ICML 2020`
+- [Graph Neural Networks]
 ```
 Quite well-written and somewhat interesting paper. Cool application and a bunch of neat videos. This is not really my area, so I didn't spend too much time/energy trying to fully understand everything.
 ```
@@ -1364,6 +1366,7 @@ Very well-written and quite interesting paper. Gives a good understanding of the
  [[pdf]](https://arxiv.org/abs/2010.03409) [[code]](https://github.com/deepmind/deepmind-research/tree/master/meshgraphnets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Mesh-Based%20Simulation%20with%20Graph%20Networks.pdf)
 - *Tobias Pfaff, Meire Fortunato, Alvaro Sanchez-Gonzalez, Peter W. Battaglia*
 - `2020-10-07, ICLR 2021`
+- [Graph Neural Networks]
 
 ##### [21-04-09] [paper127]
 - Q-Learning in enormous action spaces via amortized approximate maximization
