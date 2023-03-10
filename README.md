@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (270+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-10] [paper280]
+- Rethinking Out-of-distribution (OOD) Detection: Masked Image Modeling is All You Need
+ [[pdf]](https://arxiv.org/abs/2302.02615) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Rethinking%20Out-of-distribution%20(OOD)%20Detection:%20Masked%20Image%20Modeling%20is%20All%20You%20Need.pdf)
+- `2023-02`
+- [Out-of-Distribution Detection]
+```
+Quite interesting, but not overly well-written paper. I don't like the "... is all you need" title, and they focus too much on selling how their method beats SOTA (Figure 1 does definitely not illustrate the performance difference in a fair way).
+```
+
 ##### [23-03-10] [paper279]
 - Out-of-Distribution Detection and Selective Generation for Conditional Language Models
  [[pdf]](https://openreview.net/forum?id=kJUS5nD0vPB) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Out-of-Distribution%20Detection%20and%20Selective%20Generation%20for%20Conditional%20Language%20Models.pdf)
