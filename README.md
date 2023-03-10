@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (270+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-10] [paper279]
+- Out-of-Distribution Detection and Selective Generation for Conditional Language Models
+ [[pdf]](https://openreview.net/forum?id=kJUS5nD0vPB) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Out-of-Distribution%20Detection%20and%20Selective%20Generation%20for%20Conditional%20Language%20Models.pdf)
+- `ICLR 2023`
+- [Out-of-Distribution Detection], [Selective Prediction]
+```
+Well-written and quite interesting paper. Doing "selective generation" generally makes sense. Their method seems like a quite intuitive extension of "A simple fix to Mahalanobis distance for improving near-OOD detection" (relative Mahalanobis distance) to the setting of language models. Also seems to perform quite well, but not super impressive performance compared to the baselines perhaps.
+```
+
 ##### [23-03-09] [paper278]
 - Learning to Reject Meets OOD Detection: Are all Abstentions Created Equal?
  [[pdf]](https://arxiv.org/abs/2301.12386) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Reject%20Meets%20OOD%20Detection:%20Are%20all%20Abstentions%20Created%20Equal%3F.pdf)
