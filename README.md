@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (280+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-11] [paper282]
+- Out-of-Distribution Detection with Deep Nearest Neighbors
+ [[pdf]](https://arxiv.org/abs/2204.06507) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Out-of-Distribution%20Detection%20with%20Deep%20Nearest%20Neighbors.pdf)
+- `ICML 2022`
+- [Out-of-Distribution Detection]
+```
+Interesting and very well-written paper, I enjoyed reading it. They propose a simple extension of "SSD: A Unified Framework for Self-Supervised Outlier Detection": to use kNN distance to the train feature vectors instead of Mahalanobis distance. Very simple and intuitive, and consistently improves the results.
+```
+
 ##### [23-03-11] [paper281]
 - SSD: A Unified Framework for Self-Supervised Outlier Detection
  [[pdf]](https://arxiv.org/abs/2103.12051) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SSD:%20A%20Unified%20Framework%20for%20Self-Supervised%20Outlier%20Detection.pdf)
