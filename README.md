@@ -24,7 +24,7 @@ I categorize, annotate and write comments for all research papers I read (280+ p
 - `ICLR 2023 `
 - [Out-of-Distribution Detection]
 ```
-Very well-written and quite interesting paper. Very similar to "Out-of-Distribution Detection with Deep Nearest Neighbors", just use their proposed loss in equation (7) instead of SupCon, right? Somewhat incremental I suppose, but it's also quite neat that such a simple modification consistently improved the OOD detection performance. The analysis in Section 4.3 is also quite interesting.
+Very well-written and quite interesting paper. Very similar to "Out-of-Distribution Detection with Deep Nearest Neighbors", just use their proposed loss in equation (7) instead of SupCon, right? Somewhat incremental I suppose, but it's also quite neat that such a simple modification consistently improves the OOD detection performance. The analysis in Section 4.3 is also quite interesting.
 ```
 
 ##### [23-03-11] [paper282]
