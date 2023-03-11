@@ -1,6 +1,6 @@
 # About
 
-I categorize, annotate and write comments for all research papers I read (270+ papers since 2018).
+I categorize, annotate and write comments for all research papers I read (280+ papers since 2018).
 
 #### Categories:
 
