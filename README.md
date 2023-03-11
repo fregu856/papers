@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (270+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-11] [paper281]
+- SSD: A Unified Framework for Self-Supervised Outlier Detection
+ [[pdf]](https://arxiv.org/abs/2103.12051) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SSD:%20A%20Unified%20Framework%20for%20Self-Supervised%20Outlier%20Detection.pdf)
+- `ICLR 2021`
+- [Out-of-Distribution Detection]
+```
+Well-written and interesting paper. The method is simple and makes intuitive sense, yet seems to perform quite well.
+```
+
 ##### [23-03-10] [paper280]
 - Rethinking Out-of-distribution (OOD) Detection: Masked Image Modeling is All You Need
  [[pdf]](https://arxiv.org/abs/2302.02615) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Rethinking%20Out-of-distribution%20(OOD)%20Detection:%20Masked%20Image%20Modeling%20is%20All%20You%20Need.pdf)
