@@ -21,7 +21,7 @@ I categorize, annotate and write comments for all research papers I read (280+ p
 ##### [23-03-11] [paper283]
 - How to Exploit Hyperspherical Embeddings for Out-of-Distribution Detection?
  [[pdf]](https://openreview.net/forum?id=aEFaE0W5pAd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20to%20Exploit%20Hyperspherical%20Embeddings%20for%20Out-of-Distribution%20Detection%3F.pdf)
-- `ICLR 2023 `
+- `ICLR 2023`
 - [Out-of-Distribution Detection]
 ```
 Very well-written and quite interesting paper. Very similar to "Out-of-Distribution Detection with Deep Nearest Neighbors", just use their proposed loss in equation (7) instead of SupCon, right? Somewhat incremental I suppose, but it's also quite neat that such a simple modification consistently improves the OOD detection performance. The analysis in Section 4.3 is also quite interesting.
