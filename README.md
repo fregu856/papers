@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (280+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-23] [paper285]
+- Resurrecting Recurrent Neural Networks for Long Sequences
+ [[pdf]](https://arxiv.org/abs/2303.06349) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Resurrecting%20Recurrent%20Neural%20Networks%20for%20Long%20Sequences.pdf)
+- `2023-03`
+- [Sequence Modeling]
+```
+Quite well-written and quite interesting paper. I did not really have the background knowledge necessary to properly evaluate/understand/appreciate everything. The paper is quite dense, contains a lot of detailed information. Still quite interesting though, seems to provide a number of relatively interesting insights.
+```
+
 ##### [23-03-16] [paper284]
 - Why AI is Harder Than We Think
  [[pdf]](https://arxiv.org/abs/2104.12871) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Why%20AI%20is%20Harder%20Than%20We%20Think.pdf)
