@@ -18,6 +18,14 @@ I categorize, annotate and write comments for all research papers I read (280+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-16] [paper284]
+- Why AI is Harder Than We Think
+ [[pdf]](https://arxiv.org/abs/2104.12871) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Why%20AI%20is%20Harder%20Than%20We%20Think.pdf)
+- `2021-04`
+```
+Interesting and well-written paper. A bit different than the papers I usually read, but in a good way. I enjoyed reading it and it made me think.
+```
+
 ##### [23-03-11] [paper283]
 - How to Exploit Hyperspherical Embeddings for Out-of-Distribution Detection?
  [[pdf]](https://openreview.net/forum?id=aEFaE0W5pAd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20to%20Exploit%20Hyperspherical%20Embeddings%20for%20Out-of-Distribution%20Detection%3F.pdf)
