@@ -20,7 +20,7 @@ I categorize, annotate and write comments for all research papers I read (280+ p
 
 ##### [23-03-30] [paper286]
 - PID-GAN: A GAN Framework based on a Physics-informed Discriminator for Uncertainty Quantification with Physics
- [[pdf]]() [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PID-GAN:%20A%20GAN%20Framework%20based%20on%20a%20Physics-informed%20Discriminator%20for%20Uncertainty%20Quantification%20with%20Physics.pdf)
+ [[pdf]](https://arxiv.org/abs/2106.02993) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PID-GAN:%20A%20GAN%20Framework%20based%20on%20a%20Physics-informed%20Discriminator%20for%20Uncertainty%20Quantification%20with%20Physics.pdf)
 - `KDD 2021`
 - [Uncertainty Estimation]
 ```
