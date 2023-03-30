@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (280+ p
 
 #### Papers Read in 2023:
 
+##### [23-03-30] [paper286]
+- PID-GAN: A GAN Framework based on a Physics-informed Discriminator for Uncertainty Quantification with Physics
+ [[pdf]]() [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PID-GAN:%20A%20GAN%20Framework%20based%20on%20a%20Physics-informed%20Discriminator%20for%20Uncertainty%20Quantification%20with%20Physics.pdf)
+- `KDD 2021`
+- [Uncertainty Estimation]
+```
+Quite well-written and somewhat interesting paper. Compared to the "PIG-GAN" baseline, their method seems to be an improvement. However, I'm not overly convinced about the general method, it sort of seems unnecessarily complicated to me. 
+```
+
 ##### [23-03-23] [paper285]
 - Resurrecting Recurrent Neural Networks for Long Sequences
  [[pdf]](https://arxiv.org/abs/2303.06349) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Resurrecting%20Recurrent%20Neural%20Networks%20for%20Long%20Sequences.pdf)
