@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (280+ p
 
 #### Papers Read in 2023:
 
+##### [23-04-15] [paper290]
+- A Roadmap to Fair and Trustworthy Prediction Model Validation in Healthcare
+ [[pdf]](https://arxiv.org/abs/2304.03779) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Roadmap%20to%20Fair%20and%20Trustworthy%20Prediction%20Model%20Validation%20in%20Healthcare.pdf)
+- `2023-04`
+- [Medical ML]
+```
+A different type of paper compared to what I normally read (the tittle sounded interesting and I was just curious to read something a bit different). A quick read, fairly interesting. Not sure if I agree with the authors though (it might of course also just be that I don't have a sufficient background understanding). "...some works consider evaluation using external data to be stringent and highly encouraged due to the difference in population characteristics in evaluation and development settings. We propose an alternative roadmap for fair and trustworthy external validation using local data from the target population...", here I would tend to agree with the first approach, not their proposed alternative.
+```
+
 ##### [23-04-15] [paper289]
 - Deep Anti-Regularized Ensembles Provide Reliable Out-of-Distribution Uncertainty Quantification
  [[pdf]](https://arxiv.org/abs/2304.04042) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Anti-Regularized%20Ensembles%20Provide%20Reliable%20Out-of-Distribution%20Uncertainty%20Quantification.pdf)
