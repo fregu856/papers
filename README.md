@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (280+ p
 
 #### Papers Read in 2023:
 
+##### [23-04-15] [paper288]
+- SIO: Synthetic In-Distribution Data Benefits Out-of-Distribution Detection
+ [[pdf]](https://arxiv.org/abs/2303.14531) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SIO:%20Synthetic%20In-Distribution%20Data%20Benefits%20Out-of-Distribution%20Detection.pdf)
+- `2023-03`
+- [Out-of-Distribution Detection]
+```
+Well-written and fairly interesting paper. Extremely simple idea and it seems to quite consistently improve the detection performance of various methods a bit. Another potentially useful tool. 
+```
+
 ##### [23-04-05] [paper287]
 - Evaluating the Fairness of Deep Learning Uncertainty Estimates in Medical Image Analysis
  [[pdf]](https://arxiv.org/abs/2303.03242) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20the%20Fairness%20of%20Deep%20Learning%20Uncertainty%20Estimates%20in%20Medical%20Image%20Analysis.pdf)
