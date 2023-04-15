@@ -24,7 +24,7 @@ I categorize, annotate and write comments for all research papers I read (280+ p
 - `2023-04`
 - [Medical ML]
 ```
-A different type of paper compared to what I normally read (the tittle sounded interesting and I was just curious to read something a bit different). A quick read, fairly interesting. Not sure if I agree with the authors though (it might of course also just be that I don't have a sufficient background understanding). "...some works consider evaluation using external data to be stringent and highly encouraged due to the difference in population characteristics in evaluation and development settings. We propose an alternative roadmap for fair and trustworthy external validation using local data from the target population...", here I would tend to agree with the first approach, not their proposed alternative.
+A different type of paper compared to what I normally read (the title sounded interesting and I was just curious to read something a bit different). A quick read, fairly interesting. Not sure if I agree with the authors though (it might of course also just be that I don't have a sufficient background understanding). "...some works consider evaluation using external data to be stringent and highly encouraged due to the difference in population characteristics in evaluation and development settings. We propose an alternative roadmap for fair and trustworthy external validation using local data from the target population...", here I would tend to agree with the first approach, not their proposed alternative.
 ```
 
 ##### [23-04-15] [paper289]
