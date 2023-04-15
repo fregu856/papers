@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (280+ p
 
 #### Papers Read in 2023:
 
+##### [23-04-15] [paper289]
+- Deep Anti-Regularized Ensembles Provide Reliable Out-of-Distribution Uncertainty Quantification
+ [[pdf]](https://arxiv.org/abs/2304.04042) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Anti-Regularized%20Ensembles%20Provide%20Reliable%20Out-of-Distribution%20Uncertainty%20Quantification.pdf)
+- `2023-04`
+- [Uncertainty Estimation]
+```
+Well-written and fairly interesting paper. The idea is quite interesting and neat. I like the evaluation approach used in the regression experiments, with distribution shifts. Their results in Table 1 are a bit better than the baselines, but the absolute performance is still not very good. Not particularly impressed by the classification OOD detection experiments.
+```
+
 ##### [23-04-15] [paper288]
 - SIO: Synthetic In-Distribution Data Benefits Out-of-Distribution Detection
  [[pdf]](https://arxiv.org/abs/2303.14531) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SIO:%20Synthetic%20In-Distribution%20Data%20Benefits%20Out-of-Distribution%20Detection.pdf)
