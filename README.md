@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (280+ p
 
 #### Papers Read in 2023:
 
+##### [23-04-05] [paper287]
+- Evaluating the Fairness of Deep Learning Uncertainty Estimates in Medical Image Analysis
+ [[pdf]](https://arxiv.org/abs/2303.03242) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20the%20Fairness%20of%20Deep%20Learning%20Uncertainty%20Estimates%20in%20Medical%20Image%20Analysis.pdf)
+- `MIDL 2023`
+- [Uncertainty Estimation], [Medical ML]
+```
+Well-written and somewhat interesting paper. The studied problem is interesting and important, but I'm not sure about the evaluation approach. "when the uncertainty threshold is reduced, thereby increasing the number of filtered uncertain predictions, the differences in the performances on the remaining confident predictions across the subgroups should be reduced", I'm not sure this is the best metric one could use. I think there are other aspects which also would be important to measure (e.g. calibration). Also, I find it difficult to interpret the results or compare methods in Figure 2 - 4.
+```
+
 ##### [23-03-30] [paper286]
 - PID-GAN: A GAN Framework based on a Physics-informed Discriminator for Uncertainty Quantification with Physics
  [[pdf]](https://arxiv.org/abs/2106.02993) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PID-GAN:%20A%20GAN%20Framework%20based%20on%20a%20Physics-informed%20Discriminator%20for%20Uncertainty%20Quantification%20with%20Physics.pdf)
