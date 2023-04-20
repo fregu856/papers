@@ -1,6 +1,6 @@
 # About
 
-I categorize, annotate and write comments for all research papers I read (280+ papers since 2018).
+I categorize, annotate and write comments for all research papers I read (290+ papers since 2018).
 
 #### Categories:
 
@@ -17,6 +17,14 @@ I categorize, annotate and write comments for all research papers I read (280+ p
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2023:
+
+##### [23-04-20] [paper291]
+- A Deep Conjugate Direction Method for Iteratively Solving Linear Systems
+ [[pdf]](https://arxiv.org/abs/2205.10763) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Deep%20Conjugate%20Direction%20Method%20for%20Iteratively%20Solving%20Linear%20Systems.pdf)
+- `2022-05`
+```
+Quite well-written and somewhat interesting paper. I really struggled to understand everything properly, I definitely don't have the required background knowledge. I don't quite understand what data they train the network on, do they train separate networks for each example? Not clear to me how generally applicable this method actually is.
+```
 
 ##### [23-04-15] [paper290]
 - A Roadmap to Fair and Trustworthy Prediction Model Validation in Healthcare
