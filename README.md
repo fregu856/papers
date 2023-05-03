@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (290+ p
 
 #### Papers Read in 2023:
 
+##### [23-04-27] [paper292]
+- Assaying Out-Of-Distribution Generalization in Transfer Learning
+ [[pdf]](https://arxiv.org/abs/2207.09239) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Assaying%20Out-Of-Distribution%20Generalization%20in%20Transfer%20Learning.pdf)
+- `NeurIPS 2022`
+- [Distribution Shifts]
+```
+Well-written and quite interesting paper. Just image classification, but a very extensive evaluation. Contains a lot of information, and definitely presents some quite interesting takeaways. Almost a bit too much information perhaps. I really liked the formatting, with the "Takeaway boxes" at the end of each subsection.
+```
+
 ##### [23-04-20] [paper291]
 - A Deep Conjugate Direction Method for Iteratively Solving Linear Systems
  [[pdf]](https://arxiv.org/abs/2205.10763) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Deep%20Conjugate%20Direction%20Method%20for%20Iteratively%20Solving%20Linear%20Systems.pdf)
