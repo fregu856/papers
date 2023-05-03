@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (290+ p
 
 #### Papers Read in 2023:
 
+##### [23-05-03] [paper293]
+- I2SB: Image-to-Image Schrödinger Bridge
+ [[pdf]](https://arxiv.org/abs/2302.05872) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/I2SB:%20Image-to-Image%20Schr%C3%B6dinger%20Bridge.pdf)
+- `ICML 2023`
+- [Diffusion Models]
+```
+Well-written and interesting paper. The overall approach becomes very similar to our paper "Image Restoration with Mean-Reverting Stochastic Differential Equations" (concurrent work) it seems, and I find it quite difficult to see what the main qualitative differences actually would be in practice. Would be interesting to compare the restoration performance. I didn't fully understand everything in Section 3.
+```
+
 ##### [23-04-27] [paper292]
 - Assaying Out-Of-Distribution Generalization in Transfer Learning
  [[pdf]](https://arxiv.org/abs/2207.09239) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Assaying%20Out-Of-Distribution%20Generalization%20in%20Transfer%20Learning.pdf)
