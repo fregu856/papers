@@ -193,7 +193,7 @@ Interesting and well-written paper, I'm glad that I found it and decided to read
 - `CVPR 2022`
 - [Diffusion Models]
 ```
-Quite interesting and well-written paper. The method is described well in Section 3. Section 4.1 is quite interesting. The rest of the results I did not go through in much detail.
+Quite interesting and well-written paper. The method is described well in Section 3. Section 4.1 is quite interesting. The rest of the results I did not go through in much detail. Update 23-05-11: Read the paper again for our reading group, pretty much exactly the same impression this second time. The overall idea is simple and neat.
 ```
 
 ##### [23-03-07] [paper273]
