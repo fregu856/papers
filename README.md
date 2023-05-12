@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (290+ p
 
 #### Papers Read in 2023:
 
+##### [23-05-12] [paper294]
+- Collaborative Strategies for Deploying Artificial Intelligence to Complement Physician Diagnoses of Acute Respiratory Distress Syndrome
+ [[pdf]](https://www.nature.com/articles/s41746-023-00797-9) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Collaborative%20Strategies%20for%20Deploying%20Artificial%20Intelligence%20to%20Complement%20Physician%20Diagnoses%20of%20Acute%20Respiratory%20Distress%20Syndrome.pdf)
+- `npj Digital Medicine, 2023`
+- [Medical ML]
+```
+Well written and quite interesting paper. A bit different (in a good way) compared to the pure ML papers I usually read. "It could communicate alerts to the respiratory therapist or nurses without significant physician oversight, only deferring to the physician in situations where the AI model has high uncertainty. This may be particularly helpful in low-resource settings, such as Intensive Care Units (ICU) without 24-hour access to critical care trained physicians", this would require that the model actually is well calibrated though (that you really can trust the model's uncertainty), and I'm not convinced that can be expected in many practical applications.
+```
+
 ##### [23-05-03] [paper293]
 - I2SB: Image-to-Image Schrödinger Bridge
  [[pdf]](https://arxiv.org/abs/2302.05872) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/I2SB:%20Image-to-Image%20Schr%C3%B6dinger%20Bridge.pdf)
