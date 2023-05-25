@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (290+ p
 
 #### Papers Read in 2023:
 
+##### [23-05-25] [paper295]
+- Consistency Models
+ [[pdf]](https://arxiv.org/abs/2303.01469) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Consistency%20Models.pdf)
+- `ICML 2023`
+- [Diffusion Models]
+```
+Well written and interesting paper. Reading it raised a few questions though. It is not quite clear to me why the moving average technique is needed during training ("the EMA update and 'stopgrad' operator in Eq. (8) can greatly stabilize the training process", why is the training unstable without it?). Algo 1 also seems somewhat heuristic? And in Figure 4 it seems like while doing 2 steps instead of 1 step improves the sample quality significantly, doing 4 steps gives basically no additional performance gain? I was expecting to see the CD sample quality to converge towards that of the original diffusion model as the number of steps increases, but here a quite significant gap seems to remain?
+```
+
 ##### [23-05-12] [paper294]
 - Collaborative Strategies for Deploying Artificial Intelligence to Complement Physician Diagnoses of Acute Respiratory Distress Syndrome
  [[pdf]](https://www.nature.com/articles/s41746-023-00797-9) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Collaborative%20Strategies%20for%20Deploying%20Artificial%20Intelligence%20to%20Complement%20Physician%20Diagnoses%20of%20Acute%20Respiratory%20Distress%20Syndrome.pdf)
