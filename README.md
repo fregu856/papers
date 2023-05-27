@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (290+ p
 
 #### Papers Read in 2023:
 
+##### [23-05-27] [paper296]
+- Inversion by Direct Iteration: An Alternative to Denoising Diffusion for Image Restoration
+ [[pdf]](https://arxiv.org/abs/2303.11435) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Inversion%20by%20Direct%20Iteration%3A%20An%20Alternative%20to%20Denoising%20Diffusion%20for%20Image%20Restoration.pdf)
+- `2023-03`
+- [Diffusion Models]
+```
+Interesting paper. Quite a few small typos, but overall well written. The approach becomes very similar to our paper "Image Restoration with Mean-Reverting Stochastic Differential Equations". The basic idea, training a normal regression model but letting it predict iteratively, makes intuitive sense. Figure 3 is interesting, with the trade-off between perceptual and distortion metrics, that the number of steps controls this trade-off. Figure 5 is also interesting, that adding noise (epsilon > 0) is crucial for improved perceptual metrics here. However, I don't quite understand why adding noise is beneficial for super-resolution and JPEG restoration, but not for motion/defocus deblurring? Is there some fundamental difference between those tasks?
+```
+
 ##### [23-05-25] [paper295]
 - Consistency Models
  [[pdf]](https://arxiv.org/abs/2303.01469) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Consistency%20Models.pdf)
