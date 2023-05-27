@@ -24,7 +24,7 @@ I categorize, annotate and write comments for all research papers I read (290+ p
 - `NeurIPS 2022`
 - [Diffusion Models], [Uncertainty Estimation]
 ```
-Quite well written and somewhat interesting paper. I focused mainly on the regression part, I found the classification part a bit confusing. For regression they just illustrate their method on 1D toy examples, without any baseline comparisons, and then evaluate on the UCI regression benchmark. Also, they don't compare with other simple models which can handle multi-model p(y|x) distributions, e.g. GMMs, normalizing flows or EBMs.
+Quite well written and somewhat interesting paper. I focused mainly on the regression part, I found the classification part a bit confusing. For regression they just illustrate their method on 1D toy examples, without any baseline comparisons, and then evaluate on the UCI regression benchmark. Also, they don't compare with other simple models which can handle multi-modal p(y|x) distributions, e.g. GMMs, normalizing flows or EBMs.
 ```
 
 ##### [23-05-27] [paper296]
