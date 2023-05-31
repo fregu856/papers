@@ -24,7 +24,7 @@ I categorize, annotate and write comments for all research papers I read (290+ p
 - `ICLR 2023`
 - [Sequence Modeling]
 ```
-Well written and quite interesting paper (although not my main area of interest). DId not follow all details in Section 3 and 4.
+Well written and quite interesting paper (although not my main area of interest). Did not follow all details in Section 3 and 4.
 ```
 
 ##### [23-05-27] [paper297]
