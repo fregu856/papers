@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (290+ p
 
 #### Papers Read in 2023:
 
+##### [23-05-27] [paper297]
+- CARD: Classification and Regression Diffusion Models
+ [[pdf]](https://arxiv.org/abs/2206.07275) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/CARD%3A%20Classification%20and%20Regression%20Diffusion%20Models.pdf)
+- `NeurIPS 2022`
+- [Diffusion Models], [Uncertainty Estimation]
+```
+Quite well written and somewhat interesting paper. I focused mainly on the regression part, I found the classification part a bit confusing. For regression they just illustrate their method on 1D toy examples, without any baseline comparisons, and then evaluate on the UCI regression benchmark. Also, they don't compare with other simple models which can handle multi-modal p(y|x) distributions, e.g. GMMs, normalizing flows or EBMs.
+```
+
 ##### [23-05-27] [paper296]
 - Inversion by Direct Iteration: An Alternative to Denoising Diffusion for Image Restoration
  [[pdf]](https://arxiv.org/abs/2303.11435) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Inversion%20by%20Direct%20Iteration%3A%20An%20Alternative%20to%20Denoising%20Diffusion%20for%20Image%20Restoration.pdf)
