@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (290+ p
 
 #### Papers Read in 2023:
 
+##### [23-06-02] [paper299]
+- Mechanism of Feature Learning in Deep Fully Connected Networks and Kernel Machines that Recursively Learn Features
+ [[pdf]](https://arxiv.org/abs/2212.13881) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Mechanism%20of%20Feature%20Learning%20in%20Deep%20Fully%20Connected%20Networks%20and%20Kernel%20Machines%20that%20Recursively%20Learn%20Features.pdf)
+- `2022-12`
+- [Theoretical Properties of Deep Learning]
+```
+Well written and quite interesting paper. Not my main area expertise, and I would have needed to read it again to properly understand everything. Certain things seem potentially interesting, especially Section 2.1 and 2.2, but I struggle a bit to formulate one main takeaway.
+```
+
 ##### [23-05-31] [paper298]
 - Simplified State Space Layers for Sequence Modeling
  [[pdf]](https://arxiv.org/abs/2208.04933) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Simplified%20State%20Space%20Layers%20for%20Sequence%20Modeling.pdf)
