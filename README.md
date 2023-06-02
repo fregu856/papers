@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (290+ p
 
 #### Papers Read in 2023:
 
+##### [23-05-31] [paper298]
+- Simplified State Space Layers for Sequence Modeling
+ [[pdf]](https://arxiv.org/abs/2208.04933) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Simplified%20State%20Space%20Layers%20for%20Sequence%20Modeling.pdf)
+- `ICLR 2023`
+- [Sequence Modeling]
+```
+Well written and quite interesting paper (although not my main area of interest). Did not follow all details in Section 3 and 4.
+```
+
 ##### [23-05-27] [paper297]
 - CARD: Classification and Regression Diffusion Models
  [[pdf]](https://arxiv.org/abs/2206.07275) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/CARD%3A%20Classification%20and%20Regression%20Diffusion%20Models.pdf)
