@@ -1,6 +1,6 @@
 # About
 
-I categorize, annotate and write comments for all research papers I read (290+ papers since 2018).
+I categorize, annotate and write comments for all research papers I read (300+ papers since 2018).
 
 #### Categories:
 
@@ -17,6 +17,15 @@ I categorize, annotate and write comments for all research papers I read (290+ p
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2023:
+
+##### [23-06-03] [paper301]
+- Building One-class Detector for Anything: Open-vocabulary Zero-shot OOD Detection Using Text-image Models
+ [[pdf]](https://arxiv.org/abs/2305.17207) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Building%20One-class%20Detector%20for%20Anything%3A%20Open-vocabulary%20Zero-shot%20OOD%20Detection%20Using%20Text-image%20Models.pdf)
+- `2023-05`
+- [Out-of-Distribution Detection]
+```
+Well written and interesting paper. Section 2.1 provides a good background, and their proposed OOD scores in Section 2.2 make intuitive sense. The datasets and evaluation setup in Section 3 are described well. The experimental results definitely seem promising.
+```
 
 ##### [23-06-02] [paper300]
 - Benchmarking Common Uncertainty Estimation Methods with Histopathological Images under Domain Shift and Label Noise
