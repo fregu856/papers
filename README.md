@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (290+ p
 
 #### Papers Read in 2023:
 
+##### [23-06-02] [paper300]
+- Benchmarking Common Uncertainty Estimation Methods with Histopathological Images under Domain Shift and Label Noise
+ [[pdf]](https://arxiv.org/abs/2301.01054) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Benchmarking%20Common%20Uncertainty%20Estimation%20Methods%20with%20Histopathological%20Images%20under%20Domain%20Shift%20and%20Label%20Noise.pdf)
+- `2023-01`
+- [Uncertainty Estimation], [Medical ML]
+```
+Well written and fairly interesting paper. The setup with ID/OOD data (different clinics and scanners), as described in Section 3.1, is really neat. Solid evaluation. I was not overly surprised by the results/findings. Figure 3 is neat.
+```
+
 ##### [23-06-02] [paper299]
 - Mechanism of Feature Learning in Deep Fully Connected Networks and Kernel Machines that Recursively Learn Features
  [[pdf]](https://arxiv.org/abs/2212.13881) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Mechanism%20of%20Feature%20Learning%20in%20Deep%20Fully%20Connected%20Networks%20and%20Kernel%20Machines%20that%20Recursively%20Learn%20Features.pdf)
