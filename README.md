@@ -1897,66 +1897,96 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning) [[Sequence Modeling]](#sequence-modeling)
 
 ##### [20-01-16] [paper80]
-- Estimation of Non-Normalized Statistical Models by Score Matching [[pdf]](http://www.jmlr.org/papers/v6/hyvarinen05a.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Estimation%20of%20Non-Normalized%20Statistical%20Models%20by%20Score%20Matching.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Estimation%20of%20Non-Normalized%20Statistical%20Models%20by%20Score%20Matching.md)
+- Estimation of Non-Normalized Statistical Models by Score Matching [[pdf]](http://www.jmlr.org/papers/v6/hyvarinen05a.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Estimation%20of%20Non-Normalized%20Statistical%20Models%20by%20Score%20Matching.pdf)
 - *Aapo Hyvärinen*
 - `JMLR, 2005`
 - [[Energy-Based Models]](#energy-based-models)
+```
+Interesting and very well-written paper. The original paper for score matching. Somewhat dated of course, but still interesting and very well-written. It provides a really neat introduction to score matching! I did not read section 3 super carefully, as the examples seemed quite dated.
+```
 
 ##### [20-01-15] [paper79]
-- Generative Modeling by Estimating Gradients of the Data Distribution [[pdf]](https://arxiv.org/abs/1907.05600) [[code]](https://github.com/ermongroup/ncsn) [[poster]](https://yang-song.github.io/papers/NeurIPS2019/ncsn-poster.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generative%20Modeling%20by%20Estimating%20Gradients%20of%20the%20Data%20Distribution.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Generative%20Modeling%20by%20Estimating%20Gradients%20of%20the%20Data%20Distribution.md)
+- Generative Modeling by Estimating Gradients of the Data Distribution [[pdf]](https://arxiv.org/abs/1907.05600) [[code]](https://github.com/ermongroup/ncsn) [[poster]](https://yang-song.github.io/papers/NeurIPS2019/ncsn-poster.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generative%20Modeling%20by%20Estimating%20Gradients%20of%20the%20Data%20Distribution.pdf)
 - *Yang Song, Stefano Ermon*
 - `2019-07-12, NeurIPS 2019`
 - [[Energy-Based Models]](#energy-based-models)
+```
+Well-written and quite interesting paper. The examples in section 3 are neat and quite pedagogical. I would probably need to read a couple of papers covering the basics of score matching, and then come back and read this paper again to fully appreciate it. Like they write, their training method could be used to train an EBM (by replacing their score network with the gradient of the energy in the EBM). This would then be just like "denoising score matching", but combining multiple noise levels in a combined objective? I suppose that their annealed Langevin approach could also be used to sample from an EBM. This does however seem very computationally expensive, as they run T=100 steps of Langevin dynamics for each of the L=10 noise levels?
+```
 
 ##### [20-01-14] [paper78]
-- Noise-contrastive estimation: A new estimation principle for unnormalized statistical models [[pdf]](http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.md)
+- Noise-contrastive estimation: A new estimation principle for unnormalized statistical models [[pdf]](http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.pdf)
 - *Michael Gutmann, Aapo Hyvärinen*
 - `2009, AISTATS 2010`
 - [[Energy-Based Models]](#energy-based-models)
+```
+Well-written and interesting paper. The original paper for Noise Contrastive Estimation (NCE). Somewhat dated of course, but still interesting and well-written. Provides a quite neat introduction to NCE. They use a VERY simple problem to compare the performance of NCE to MLE with importance sampling, contrastive divergence (CD) and score-matching (and MLE, which gives the reference performance. MLE requires an analytical expression for the normalizing constant). CD has the best performance, but NCE is apparently more computationally efficient. I do not think such a simple problem say too much though. They then also apply NCE on a (by today's standards) very simple unsupervised image modeling problem. It seems to perform as expected.
+```
 
 ##### [20-01-10] [paper77]
-- Z-Forcing: Training Stochastic Recurrent Networks [[pdf]](https://arxiv.org/abs/1711.05411) [[code]](https://github.com/sordonia/zforcing) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.md)
+- Z-Forcing: Training Stochastic Recurrent Networks [[pdf]](https://arxiv.org/abs/1711.05411) [[code]](https://github.com/sordonia/zforcing) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.pdf)
 - *Anirudh Goyal, Alessandro Sordoni, Marc-Alexandre Côté, Nan Rosemary Ke, Yoshua Bengio*
 - `2017-11-15, NeurIPS 2017`
 - [[VAEs]](#vaes) [[Sequence Modeling]](#sequence-modeling)
+```
+Quite interesting and well-written paper. Seems like Marco Fraccaro's thesis covers most of this paper, overall the proposed architecture is still quite similar to VRNN/SRNN both in design and performance. The auxiliary cost seems to improve performance quite consistently, but nothing revolutionary. It is not quite clear to me if the proposed architecture is more or less difficult / computationally expensive to train than SRNN.
+```
 
 ##### [20-01-08] [paper76]
-- Practical Deep Learning with Bayesian Principles [[pdf]](https://arxiv.org/abs/1906.02506) [[code]](https://github.com/team-approx-bayes/dl-with-bayes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Practical%20Deep%20Learning%20with%20Bayesian%20Principles.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Practical%20Deep%20Learning%20with%20Bayesian%20Principles.md)
+- Practical Deep Learning with Bayesian Principles [[pdf]](https://arxiv.org/abs/1906.02506) [[code]](https://github.com/team-approx-bayes/dl-with-bayes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Practical%20Deep%20Learning%20with%20Bayesian%20Principles.pdf)
 - *Kazuki Osawa, Siddharth Swaroop, Anirudh Jain, Runa Eschenhagen, Richard E. Turner, Rio Yokota, Mohammad Emtiyaz Khan*
 - `2019-06-06, NeurIPS 2019`
 - [[Uncertainty Estimation]](#uncertainty-estimation) [[Variational Inference]](#variational-inference)
+```
+Interesting and quite well-written paper. To me, this mainly seems like a more practically useful alternative to Bayes by Backprop, scaling up variational inference to e.g. ResNet on ImageNet. The variational posterior approximation q is still just a diagonal Gaussian. I still do not fully understand natural-gradient variational inference. Only image classification is considered. It seems to perform ish as well as Adam in terms of accuracy (although it is 2-5 times slower to train), while quite consistently performing better in terms of calibration (ECE). The authors also compare with MC-dropout in terms of quality of the predictive probabilities, but these results are IMO not very conclusive.
+```
 
 ##### [20-01-06] [paper75]
-- Maximum Entropy Generators for Energy-Based Models [[pdf]](https://arxiv.org/abs/1901.08508) [[code]](https://github.com/ritheshkumar95/energy_based_generative_models) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Maximum%20Entropy%20Generators%20for%20Energy-Based%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Maximum%20Entropy%20Generators%20for%20Energy-Based%20Models.md)
+- Maximum Entropy Generators for Energy-Based Models [[pdf]](https://arxiv.org/abs/1901.08508) [[code]](https://github.com/ritheshkumar95/energy_based_generative_models) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Maximum%20Entropy%20Generators%20for%20Energy-Based%20Models.pdf)
 - *Rithesh Kumar, Sherjil Ozair, Anirudh Goyal, Aaron Courville, Yoshua Bengio*
 - `2019-01-24`
 - [[Energy-Based Models]](#energy-based-models)
+```
+Quite well-written and interesting paper. The general idea, learning an energy-based model p_theta by drawing samples from an approximating distribution (that minimizes the KL divergence w.r.t p_theta) instead of generating approximate samples from p_theta using MCMC, is interesting and intuitively makes quite a lot of sense IMO. Since the paper was written prior to the recent work on MCMC-based learning (Learning Non-Convergent Non-Persistent Short-Run MCMC Toward Energy-Based Model, Implicit Generation and Generalization in Energy-Based Models, On the Anatomy of MCMC-Based Maximum Likelihood Learning of Energy-Based Models), it is however difficult to know how well this method actually would stack up in practice.
+```
 
 #### Papers Read in 2019:
 
 ##### [19-12-22] [paper74]
-- Your Classifier is Secretly an Energy Based Model and You Should Treat it Like One [[pdf]](https://arxiv.org/abs/1912.03263) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20Classifier%20is%20Secretly%20an%20Energy%20Based%20Model%20and%20You%20Should%20Treat%20it%20Like%20One.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Your%20Classifier%20is%20Secretly%20an%20Energy%20Based%20Model%20and%20You%20Should%20Treat%20it%20Like%20One.md)
+- Your Classifier is Secretly an Energy Based Model and You Should Treat it Like One [[pdf]](https://arxiv.org/abs/1912.03263) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20Classifier%20is%20Secretly%20an%20Energy%20Based%20Model%20and%20You%20Should%20Treat%20it%20Like%20One.pdf)
 - *Will Grathwohl, Kuan-Chieh Wang, Jörn-Henrik Jacobsen, David Duvenaud, Mohammad Norouzi, Kevin Swersky*
 - `2019-12-06, ICLR 2020`
 - [[Energy-Based Models]](#energy-based-models)
+```
+Interesting and very well-written paper. I recommend actually going through the appendix as well, as it contains some interesting details. The idea to create an energy-based model for p(x) by marginalizing out y is really neat and makes a lot of sense in this classification setting (in which this corresponds to just summing the logits for all K classes). This EBM for p(x) is then trained using the MCMC-based ML learning method employed in other recent work. Simultaneously, a model for p(y|x) is also trained using the standard approach (softmax / cross entropy), thus training p(x, y) = p(y | x)*p(x). I am however not overly impressed/convinced by their experimental results. All experiments are conducted on relatively small and "toy-ish" datasets (CIFAR10, CIFAR100, SVHN etc), but they still seemed to have experienced A LOT of problems with training instability. Would be interesting to see results e.g. for semantic segmentation on Cityscapes (a more "real-world" task and dataset). Moreover, like the authors also point out themselves, training p(x) using SGLD-based sampling with L steps (they mainly use L=20 steps, but sometimes also have to restart training with L=40 to mitigate instability issues) basically makes training L times slower. I am just not sure if the empirically observed improvements are strong/significant enough to justify this computational overhead.
+```
 
 ##### [19-12-20] [paper73]
-- Noise Contrastive Estimation and Negative Sampling for Conditional Models: Consistency and Statistical Efficiency [[pdf]](https://arxiv.org/abs/1809.01812) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise%20Contrastive%20Estimation%20and%20Negative%20Sampling%20for%20Conditional%20Models:%20Consistency%20and%20Statistical%20Efficiency.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Noise%20Contrastive%20Estimation%20and%20Negative%20Sampling%20for%20Conditional%20Models:%20Consistency%20and%20Statistical%20Efficiency.md)
+- Noise Contrastive Estimation and Negative Sampling for Conditional Models: Consistency and Statistical Efficiency [[pdf]](https://arxiv.org/abs/1809.01812) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise%20Contrastive%20Estimation%20and%20Negative%20Sampling%20for%20Conditional%20Models:%20Consistency%20and%20Statistical%20Efficiency.pdf)
 - *Zhuang Ma, Michael Collins*
 - `2018-09-06, EMNLP 2018`
 - [[Energy-Based Models]](#energy-based-models)
+```
+Interesting and quite well-written paper. Quite theoretical paper with a bunch of proofs. Interesting to see NCE applied specifically to supervised problems (modelling p(y | x)).
+```
 
 ##### [19-12-20] [paper72]
-- Flow Contrastive Estimation of Energy-Based Models [[pdf]](https://arxiv.org/abs/1912.00589) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Flow%20Contrastive%20Estimation%20of%20Energy-Based%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Flow%20Contrastive%20Estimation%20of%20Energy-Based%20Models.md)
+- Flow Contrastive Estimation of Energy-Based Models [[pdf]](https://arxiv.org/abs/1912.00589) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Flow%20Contrastive%20Estimation%20of%20Energy-Based%20Models.pdf)
 - *Ruiqi Gao, Erik Nijkamp, Diederik P. Kingma, Zhen Xu, Andrew M. Dai, Ying Nian Wu*
 - `2019-12-02, CVPR 2020`
 - [[Energy-Based Models]](#energy-based-models) [[Normalizing Flows]](#normalizing-flows)
+```
+Well-written and interesting paper. Provides a quite interesting comparison of EBMs and flow-based models in the introduction ("By choosing a flow model, one is making the assumption that the true data distribution is one that is in principle simple to sample from, and is computationally efficient to normalize."). Provides a pretty good introduction to Noise Contrastive Estimation (NCE). The proposed method is interesting and intuitively makes sense. The experimental results are not overly strong/decisive IMO, but that seems to be true for most papers in this area.
+```
 
 ##### [19-12-19] [paper71]
-- On the Anatomy of MCMC-Based Maximum Likelihood Learning of Energy-Based Models [[pdf]](https://arxiv.org/abs/1903.12370) [[code]](https://github.com/point0bar1/ebm-anatomy)  [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Anatomy%20of%20MCMC-Based%20Maximum%20Likelihood%20Learning%20of%20Energy-Based%20Models.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/On%20the%20Anatomy%20of%20MCMC-Based%20Maximum%20Likelihood%20Learning%20of%20Energy-Based%20Models.md)
+- On the Anatomy of MCMC-Based Maximum Likelihood Learning of Energy-Based Models [[pdf]](https://arxiv.org/abs/1903.12370) [[code]](https://github.com/point0bar1/ebm-anatomy)  [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Anatomy%20of%20MCMC-Based%20Maximum%20Likelihood%20Learning%20of%20Energy-Based%20Models.pdf)
 - *Erik Nijkamp, Mitch Hill, Tian Han, Song-Chun Zhu, Ying Nian Wu*
 - `2019-04-29, AAAI 2020`
 - [[Energy-Based Models]](#energy-based-models)
+```
+Well-written and very interesting paper, a recommended read! Provides a good review and categorization of previous papers, how they differ from each other etc. Provides a solid theoretical understanding of MCMC-based ML learning of EBMs, with quite a few really interesting (and seemingly useful) insights.
+```
 
 ##### [19-12-15] [paper70]
 - Implicit Generation and Generalization in Energy-Based Models [[pdf]](https://arxiv.org/abs/1903.08689) [[code]](https://github.com/openai/ebm_code_release) [[blog]](https://openai.com/blog/energy-based-models/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Implicit%20Generation%20and%20Generalization%20in%20Energy-Based%20Models.pdf)
