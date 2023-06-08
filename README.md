@@ -2112,51 +2112,87 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - `2015-06-07, NeurIPS 2015`
 
 ##### [19-02-07] [paper40]
-- Noisy Natural Gradient as Variational Inference [[pdf]](https://arxiv.org/abs/1712.02390) [[video]](https://youtu.be/bWItvHYqKl8) [[code]](https://github.com/pomonam/NoisyNaturalGradient) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noisy%20Natural%20Gradient%20as%20Variational%20Inference.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Noisy%20Natural%20Gradient%20as%20Variational%20Inference.md)
+- Noisy Natural Gradient as Variational Inference [[pdf]](https://arxiv.org/abs/1712.02390) [[video]](https://youtu.be/bWItvHYqKl8) [[code]](https://github.com/pomonam/NoisyNaturalGradient) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noisy%20Natural%20Gradient%20as%20Variational%20Inference.pdf)
 - *Guodong Zhang, Shengyang Sun, David Duvenaud, Roger Grosse*
 - `2017-12-06, ICML 2018`
 ```
-
+Well-written and somewhat interesting paper. Quite a heavy read for me as I am not particularly familiar with natural gradient optimization methods or K-FAC. I get that not being restricted to just fully-factorized Gaussian variational posteriors is something that could improve performance, but is it actually practical for properly large networks? They mention previous work on extending variational methods to non-fully-factorized posteriors, but I found them quite difficult to compare. It is not clear to me whether or not the presented method actually is a clear improvement (either in terms of performance or practicality).
 ```
 
 ##### [19-02-06] [paper39]
-- Probabilistic Backpropagation for Scalable Learning of Bayesian Neural Networks [[pdf]](https://arxiv.org/abs/1502.05336) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%20Backpropagation%20for%20Scalable%20Learning%20of%20Bayesian%20Neural%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Probabilistic%20Backpropagation%20for%20Scalable%20Learning%20of%20Bayesian%20Neural%20Networks.md)
+- Probabilistic Backpropagation for Scalable Learning of Bayesian Neural Networks [[pdf]](https://arxiv.org/abs/1502.05336) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%20Backpropagation%20for%20Scalable%20Learning%20of%20Bayesian%20Neural%20Networks.pdf)
 - *José Miguel Hernández-Lobato, Ryan P. Adams*
 - `2015-07-15, ICML 2015`
 ```
-
+Quite well-written and interesting paper. I did however find it somewhat difficult to fully understand the presented method. I find it difficult to compare this method (PBP, which is an Assumed Density Filtering (ADF) method) with Variational Inference (VI) using a diagonal Gaussian as q. The authors seem to argue that their method is superior because it only employs one stochastic approximation (sub-sampling the data), whereas VI employs two (in VI one also approximates an expectation using Monte Carlo samples). In that case I guess that PBP should be very similar to Deterministic Variational Inference for Robust Bayesian Neural Networks? I guess it would be quite difficult to extend this method to CNNs?
 ```
 
 ##### [19-02-05] [paper38]
-- Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models [[pdf]](https://arxiv.org/abs/1805.12114) [[poster]](https://kchua.github.io/misc/poster.pdf) [[video]](https://youtu.be/3d8ixUMSiL8) [[code]](https://github.com/kchua/handful-of-trials) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Reinforcement%20Learning%20in%20a%20Handful%20of%20Trials%20using%20Probabilistic%20Dynamics%20Models.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Deep%20Reinforcement%20Learning%20in%20a%20Handful%20of%20Trials%20using%20Probabilistic%20Dynamics%20Models.md)
+- Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models [[pdf]](https://arxiv.org/abs/1805.12114) [[poster]](https://kchua.github.io/misc/poster.pdf) [[video]](https://youtu.be/3d8ixUMSiL8) [[code]](https://github.com/kchua/handful-of-trials) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Reinforcement%20Learning%20in%20a%20Handful%20of%20Trials%20using%20Probabilistic%20Dynamics%20Models.pdf)
 - *Kurtland Chua, Roberto Calandra, Rowan McAllister, Sergey Levine*
 - `2018-05-30, NeurIPS 2018`
 ```
+General comments on paper quality:
+Well-written and very interesting paper. It applies relatively common methods for uncertainty estimation (ensemble of probabilistic NNs) to an interesting problem in RL and shows promising results.
 
+
+Paper overview:
+The authors present a model-based RL algorithm called Probabilistic Ensembles with Trajectory Sampling (PETS), that (at least roughly) matches the asymptotic performance of SOTA model-free algorithms on four control tasks, while requiring significantly fewer samples (model-based algorithms generally have much better sample efficiency, but worse asymptotic performance than the best model-free algorithms).
+
+They use an ensemble of probabilistic NNs (Probabilistic Ensemble, PE) to learn a probabilistic dynamics model, p_theta(s_t+1 | s_t, a_t), where s_t is the state and a_t is the taken action at time t.
+
+A probabilistic NN outputs the parameters of a probability distribution, in this case by outputting the mean, mu(s_t, a_t), and diagonal covariance matrix, SIGMA(s_t, a_t), of a Gaussian, enabling estimation of aleatoric (data) uncertainty. To also estimate epistemic (model) uncertainty, they train an ensemble of B probabilistic NNs.
+
+The B ensemble models are trained on separate (but overlapping) datasets: for each ensemble model, a dataset is created by drawing N examples with replacement from the original dataset D (which also contains N examples).
+
+The B ensemble models are then used in the trajectory sampling step, where P state particles s_t_p are propagated forward in time by iteratively sampling s_t+1_p ~ p_theta_b(s_t+1_p | s_t_p, a_t)). I.e., each ensemble model outputs a distribution, and they sample particles from these B distributions. This results in P trajectory samples, s_t:t+T_p (which we hope approximate the true distribution over trajectories s_t:t+T). The authors used P=20, B=5 in all their experiments.
+
+Based on these P state trajectory samples, MPC is finally used to compute the next action a_t.
+
+
+Comments:
+Interesting method. Should be possible to benchmark various uncertainty estimation techniques using their setup, just like they compare probabilistic/deterministic ensembles and probabilistic networks. I found it quite interesting that a single probabilistic network (at least somewhat) outperformed a deterministic ensemble (perhaps this would change with a larger ensemble size though?).
+
+Do you actually need to perform the bootstrap procedure when training the ensemble, or would you get the same performance by simply training all B models on the same dataset D?
+
+I struggle somewhat to understand their method for lower/upper bounding the outputted variance during testing (appendix A.1). Do you actually need this? Also, I do not quite get the lines of code. Are max_logvar and min_logvar variables?
 ```
 
 ##### [19-01-28] [paper37]
-- Practical Variational Inference for Neural Networks [[pdf]](https://www.cs.toronto.edu/~graves/nips_2011.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Practical%20Variational%20Inference%20for%20Neural%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Practical%20Variational%20Inference%20for%20Neural%20Networks.md)
+- Practical Variational Inference for Neural Networks [[pdf]](https://www.cs.toronto.edu/~graves/nips_2011.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Practical%20Variational%20Inference%20for%20Neural%20Networks.pdf)
 - *Alex Graves*
 - `NeurIPS 2011`
 ```
-
+Reasonably well-written and somewhat interesting paper. The paper seems quite dated compared to "Weight Uncertainty in Neural Networks". I also found it significantly more difficult to read and understand than "Weight Uncertainty in Neural Networks". One can probably just skip reading this paper, for an introduction to variational methods applied to neural networks it is better to read "Weight Uncertainty in Neural Networks" instead.
 ```
 
 ##### [19-01-27] [paper36]
-- Weight Uncertainty in Neural Networks [[pdf]](https://arxiv.org/abs/1505.05424) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Weight%20Uncertainty%20in%20Neural%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Weight%20Uncertainty%20in%20Neural%20Networks.md)
+- Weight Uncertainty in Neural Networks [[pdf]](https://arxiv.org/abs/1505.05424) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Weight%20Uncertainty%20in%20Neural%20Networks.pdf)
 - *Charles Blundell, Julien Cornebise, Koray Kavukcuoglu, Daan Wierstra*
 - `2015-05-20, ICML 2015`
 ```
+General comments on paper quality:
+Well-written and interesting paper. I am not particularly familiar with variational methods, but still found the paper quite easy to read and understand.
 
+
+Comments:
+Seems like a good starting point for learning about variational methods applied to neural networks. The theory is presented in a clear way. The presented method also seems fairly straightforward to implement.
+
+They mainly reference "Keeping Neural Networks Simple by Minimizing the Description Length of the Weights" and "Practical Variational Inference for Neural Networks" as relevant previous work.
+
+In equation (2), one would have to run the model on the data for multiple weight samples? Seems quite computationally expensive?
+
+Using a diagonal Gaussian for the variational posterior, I wonder how much of an approximation that actually is? Is the true posterior e.g. very likely to be multi-modal?
+
+The MNIST models are only evaluated in terms of accuracy. The regression experiment is quite neat (good to see that the uncertainty increases away from the training data), but they provide very little details. I find it difficult to draw any real conclusions from the Bandits experiment.
 ```
 
 ##### [19-01-26] [paper35]
-- Learning Weight Uncertainty with Stochastic Gradient MCMC for Shape Classification [[pdf]](http://people.duke.edu/~cl319/doc/papers/dbnn_shape_cvpr.pdf)  [[poster]](https://zhegan27.github.io/Papers/dbnn_shape_poster.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Weight%20Uncertainty%20with%20Stochastic%20Gradient%20MCMC%20for%20Shape%20Classification.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Learning%20Weight%20Uncertainty%20with%20Stochastic%20Gradient%20MCMC%20for%20Shape%20Classification.md)
+- Learning Weight Uncertainty with Stochastic Gradient MCMC for Shape Classification [[pdf]](http://people.duke.edu/~cl319/doc/papers/dbnn_shape_cvpr.pdf)  [[poster]](https://zhegan27.github.io/Papers/dbnn_shape_poster.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Weight%20Uncertainty%20with%20Stochastic%20Gradient%20MCMC%20for%20Shape%20Classification.pdf)
 - *Chunyuan Li, Andrew Stevens, Changyou Chen, Yunchen Pu, Zhe Gan, Lawrence Carin*
 - `CVPR 2016`
 ```
-
+Quite interesting and well-written paper. Quite an easy read compared to many other SG-MCMC papers. I find it weird that they only evaluate their models in terms of accuracy. It is of course a good thing that SG-MCMC methods seem to compare favorably with optimization approaches, but I would have been more interested in an evaluation of some kind of uncertainty estimate (e.g. the sample variance). The studied applications are not overly interesting, the paper seems somewhat dated in that regard.
 ```
 
 ##### [19-01-25] [paper34]
@@ -2164,15 +2200,38 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - *Wenbo Gong, Yingzhen Li, José Miguel Hernández-Lobato*
 - `2018-10-28, ICLR 2019`
 ```
-
+Fairly interesting.
 ```
 
 ##### [19-01-25] [paper33]
--  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.md)
+-  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.pdf)
 - *Yi-An Ma, Tianqi Chen, Emily B. Fox*
 - `2015-06-15, NeurIPS 2015`
 ```
+General comments on paper quality:
+Well-written and very interesting paper. After reading the papers on SGLD and SGHMC, this paper ties the theory together and provides a general framework for SG-MCMC.
 
+
+Paper overview:
+The authors present a general framework and recipe for constructing MCMC and SG-MCMC samplers based on continuous Markov processes. The framework entails specifying a stochastic differential equation (SDE) by two matrices, D(z) (positive semi-definite) and Q(z) (skew-symmetric). Here, z = (theta, r), where theta are the model parameters and r are auxiliary variables (r corresponds to the momentum variables in Hamiltonian MC).
+
+Importantly, the presented framework is complete, meaning that all continuous Markov processes with the target distribution as its stationary distribution (i.e., all continuous Markov processes which provide samples from the target distribution) correspond to a specific choice of the matrices D(z), Q(z). Every choice of D(z), Q(z) also specifies a continuous Markov process with the target distribution as its stationary distribution.
+
+The authors show how previous SG-MCMC methods (including SGLD, SGRLD and SGHMC) can be casted to their framework, i.e., what their corresponding D(z), Q(z) are.
+
+They also introduce a new SG-MCMC method, named SGRHMC, by wisely choosing D(z), Q(z).
+
+Finally, they conduct two simple experiments which seem to suggest (at least somewhat) improved performance of SGRHMC compared to previous methods (SGLD, SGRLD, SGHMC).
+
+
+Comments:
+How does one construct \hat{B_t}, the estimate of V(theta_t) (the noise of the stochastic gradient)?
+
+If one (by computational reasons) only can afford evaluating, say, 10 samples to estimate various expectations, what 10 samples should one pick? The final 10 samples, or will those be heavily correlated? Pick the final sample (at time t = T) and then also the samples at time t=T-k*100 (k = 1, 2, ..., 9)? (when should one start collecting samples and with what frequency should they then be collected?)
+
+If one were to train an ensemble of models using SG-MCMC and pick the final sample of each model, how would these samples be distributed?
+
+If the posterior distribution is a simple bowl, like in the right part of figure 2, what will the path of samples actually look like compared to the steps taken by SGD? In figure 2, I guess that gSHRHMC will eventually converge to roughly the bottom of the bowl? So if one were to only collect samples from this later stage of traversing, the samples would actually NOT be (at least approximately) distributed according to the posterior?
 ```
 
 ##### [19-01-24] [paper32]
@@ -2180,15 +2239,32 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - *Changyou Chen*
 - `2016-08-10`
 ```
-
+Quite interesting.
 ```
 
 ##### [19-01-24] [paper31]
-- An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling [[pdf]](https://arxiv.org/abs/1803.01271) [[code]](https://github.com/locuslab/TCN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Empirical%20Evaluation%20of%20Generic%20Convolutional%20and%20Recurrent%20Networks%20for%20Sequence%20Modeling.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/An%20Empirical%20Evaluation%20of%20Generic%20Convolutional%20and%20Recurrent%20Networks%20for%20Sequence%20Modeling.md)
+- An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling [[pdf]](https://arxiv.org/abs/1803.01271) [[code]](https://github.com/locuslab/TCN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Empirical%20Evaluation%20of%20Generic%20Convolutional%20and%20Recurrent%20Networks%20for%20Sequence%20Modeling.pdf)
 - *Shaojie Bai, J. Zico Kolter, Vladlen Koltun*
 - `2018-04-19`
 ```
+General comments on paper quality:
+Well-written and interesting paper.
 
+
+Paper overview:
+"We conduct a systematic evaluation of generic convolutional and recurrent architectures for sequence modeling. The models are evaluated across a broad range of standard tasks that are commonly used to benchmark recurrent networks. Our results indicate that a simple convolutional architecture outperforms canonical recurrent networks such as LSTMs across a diverse range of tasks and datasets, while demonstrating longer effective memory. We conclude that the common association between sequence modeling and recurrent networks should be reconsidered, and convolutional networks should be regarded as a natural starting point for sequence modeling tasks."
+
+The authors introduce a quite straightforward CNN designed for sequence modeling, named Temporal Convolutional Network (TCN). They only consider the setting where the output at time t, y_t, is predicted using only the previously observed inputs, x_0, ..., x_t. TCN thus employs causal convolution (zero pad with kernel_size-1 at the start of the input sequence).
+
+To achieve a long effective history size (i.e., that the prediction for y_t should be able to utilize inputs observed much earlier in the input sequence), they use residual blocks (to be able to train deep networks, the effective history scales linearly with increased depth) and dilated convolutions.
+
+They compare TCN with basic LSTM, GRU and vanilla-RNN models on a variety of sequence modeling tasks (which include polyphonic music modeling, word- and character-level language modeling as well as synthetic "stress test" tasks), and find that TCN generally outperforms the other models. The authors do however note that TCN is outperformed by more specialized RNN architectures on a couple of the tasks.
+
+They specifically study the effective history/memory size of the models using the Copy Memory task (Input sequences are digits of length 10 + T + 10, the first 10 are random digits in {1, ..., 8}, the last 11 are 9:s and all the rest are 0:s. The goal is to generate an output of the same length that is 0 everywhere, except the last 10 digits which should be a copy of the first 10 digits in the input sequence), and find that TCN significantly outperforms the LSTM and GRU models (which is a quite interesting result, IMO).
+
+
+Comments:
+Interesting paper that challenges the viewpoint of RNN models being the default starting point for sequence modeling tasks. The presented TCN architecture is quite straightforward, and I do think it makes sense that CNNs might be a very competitive alternative for sequence modeling.
 ```
 
 ##### [19-01-23] [paper30]
