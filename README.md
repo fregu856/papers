@@ -2265,44 +2265,227 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - `2017-11-17, CVPR2018`
 
 ##### [18-10-04] [paper10]
-- PIXOR: Real-time 3D Object Detection from Point Clouds [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_PIXOR_Real-Time_3D_CVPR_2018_paper.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PIXOR:%20Real-time%203D%20Object%20Detection%20from%20Point%20Clouds_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/PIXOR:%20Real-time%203D%20Object%20Detection%20from%20Point%20Clouds.md)
+- PIXOR: Real-time 3D Object Detection from Point Clouds [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_PIXOR_Real-Time_3D_CVPR_2018_paper.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PIXOR:%20Real-time%203D%20Object%20Detection%20from%20Point%20Clouds_.pdf)
 - *Bin Yang, Wenjie Luo, Raquel Urtasun*
-- `CVPR2018`
+- `CVPR 2018`
+```
+General comments on paper quality:
+Fairly well-written paper, although there are a couple of typos (weird grammar). Quite interesting proposed 3D localization model.
+
+
+Paper overview:
+The authors present a single-stage, LiDAR-only model for 3D localization of vehicles (bird's eye view).
+
+The most interesting/novel contribution is probably the utilized LiDAR input representation:
+
+They discretize 3D space into a 3D voxel grid of resolution 0.1 m, each grid cell is then either assigned a value of 1 (if the grid cell contains any LiDAR points) or 0 (if the grid cell does NOT contain any LiDAR points), which results in a 3D occupancy map (e.g. a 800x700x35 tensor of 0s and 1s).
+This 3D tensor is then fed as input to a conventional (2D) CNN, i.e., the height dimension plays the role of the rgb channels in an image(!).
+The approach is thus very similar to models which first project the LiDAR point cloud onto a bird's eye view, in that we only need to use 2D convolutions (which is significantly more efficient than using 3D convolutions), but with the difference being that we in this approach don't need to extract any hand-crafted features in order to obtain a bird's eye view feature map. Thus, at least in theory, this approach should be comparable to bird's eye view based models in terms of efficiency, while being capable of learning a more rich bird's eye view feature representation.
+The model outputs a 200x175x7 tensor, i.e., 7 values (one objectness/confidence score + cos(theta) and sin(theta) + regression targets for x, y, w, and l) for each grid cell (when the feature map is spatially down-sampled in the CNN, this corresponds to an increasingly sparser grid). The authors say that their approach doesn't use any pre-defined object anchors, but actually I would say that it uses a single anchor per grid cell (centered at the cell, with width and length set to the mean of the training set, and the yaw angle set to zero).
+
+They use the focal loss to handle the large class imbalance between objects and background.
+
+In inference, only anchors whose confidence score exceeds a certain threshold are decoded (i.e., rotated, translated and resized according to the regressed values), and non-maximum-suppression (NMS) is then used to get the final detections.
+
+They evaluate their method on KITTI and compare to other entries on the bird's eye view leaderboard. They obtain very similar performance to the LiDAR-only version of MV3D and somewhat significantly worse than VoxelNet, i.e., not OVERLY impressive performance but still pretty good. The method is also significantly faster in inference than both MV3D and VoxelNet.
+
+
+Comments:
+Pretty interesting paper. The approach of creating a 3D occupancy map using discretization and then processing this with 2D convolutions seems rather clever indeed. One would think this should be quite efficient while also being able to learn a pretty rich feature map.
+
+I don't think the model should be particularly difficult to extend to full 3D object detection either, you would just need to also regress values for z (relative to some default ground plane z value, i.e., we assume that all anchor 3dbboxes sit on the ground plane) and h (relative to the mean h in the training set). I think this is basically what is done in VoxelNet?
+
+There are however some design choices which I find somewhat peculiar, e.g. the way they assign anchors (the authors just talk about "pixels") to being either positive (object) or negative (background).
+```
 
 ##### [18-10-04] [paper9]
-- On gradient regularizers for MMD GANs [[pdf]](https://arxiv.org/abs/1805.11565) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20gradient%20regularizers%20for%20MMD%20GANs_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/On%20gradient%20regularizers%20for%20MMD%20GANs.md)
+- On gradient regularizers for MMD GANs [[pdf]](https://arxiv.org/abs/1805.11565) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20gradient%20regularizers%20for%20MMD%20GANs_.pdf)
 - *Michael Arbel, Dougal J. Sutherland, Mikołaj Bińkowski, Arthur Gretton*
-- `2018-05-29, NeurIPS2018`
+- `2018-05-29, NeurIPS 2018`
+```
+General comments on paper quality:
+Well-written but rather heavy paper to read, I did definitely not have the background required neither to fully understand nor to properly appreciate the proposed methods. I would probably need to do some more background reading and then come back and read this paper again.
+
+
+Paper overview:
+The authors propose the method Gradient-Constrained MMD and its approximation Scaled MMD, MMD GAN architectures which are trained using a novel loss function that regularizes the gradients of the critic (gradient-based regularization).
+
+The authors experimentally evaluate their proposed architectures on the task of unsupervised image generation, on three different datasets (CIFAR-10 (32x32 images), CelebA (160x160 images) and ImageNet (64x64 images)) and using three different metrics (Inception score (IS), FID and KID). They find that their proposed losses lead to stable training and that they outperform (or at least obtain highly comparable performance to) state-of-the-art methods (e.g. Wasserstein GAN).
+```
 
 ##### [18-09-30] [paper8]
-- Neural Processes [[pdf]](https://arxiv.org/abs/1807.01622) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Processes_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Processes.md)
+- Neural Processes [[pdf]](https://arxiv.org/abs/1807.01622) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Processes_.pdf)
 - *Marta Garnelo, Jonathan Schwarz, Dan Rosenbaum, Fabio Viola, Danilo J. Rezende, S.M. Ali Eslami, Yee Whye Teh*
-- `2018-07-04, ICML2018 Workshop`
+- `2018-07-04, ICML 2018 Workshop`
+```
+General comments on paper quality:
+Quite well-written overall, although I did find a couple of typos (and perhaps you should expect more for a paper with 7 authors?). Also, I don't think the proposed method is quite as clearly explained as in the Conditional Neural Processes paper.
+
+
+Paper overview:
+The authors introduce Neural Processes (NPs), a family of models that aim to combine the benefits of Gaussian Processes (GPs) and neural networks (NNs). NPs are an extension of Conditional Neural Processes (CNPs) by the same main authors ([summary]).
+
+A blog post that provides a good overview of and some intuition for NPs is found here.
+
+NPs are very similar to CNPs, with the main difference being the introduction of a global latent variable z:
+
+Again, each observation (x_i, y_i) (a labeled example) is fed through the encoder NN h to extract an embedding r_i. The embeddings r_i are aggregated (averaged) to a single embedding r. This r is then used to parameterize the distribution of the global latent variable z: z ~ N(mu(r), sigma(r)).
+z is then sampled and fed together with each target x*_i (unlabeled example) as input to the decoder NN g, which produces a corresponding prediction y*_i.
+The introduced global latent variable z is supposed to capture the global uncertainty, which allows one to sample at a global level (one function at a time) rather than just at a local output level (one y_i value for each x_i at the time). I.e., NPs are able (whereas CNPs are unable) to produce different function samples for the same conditioned observations. In e.g. the application of image completion on MNIST, this will make the model produce different digits when sampled multiple times and the model only has seen a small number of observations (as compared to CNPs which in the same setting would just output (roughly) the mean of all MNIST images).
+
+The authors experimentally evaluate the NP approach on several different problems (1D function regression, image completion, Bayesian optimization of 1D functions using Thompson sampling, contextual bandits), they do however not really compare the NP results with those of CNPs.
+
+
+Comments:
+It's not immediately obvious to me what use NPs could have in the context of e.g. 3DOD, and not what practical advantage using NPs would have over using CNPs either.
+
+I suppose the approach might be interesting if you were to train a 3DOD model on multiple datasets with the goal to maximize performance on a specific dataset (e.g., you have collected / have access to a bunch of data corresponding to different LiDAR sensor setups, and now you want to train a model for your final production car sensor setup). In this case I guess this approach might be preferable over just simply training a conventional DNN on all of the data?
+```
 
 ##### [18-09-27] [paper7]
-- Conditional Neural Processes [[pdf]](https://arxiv.org/abs/1807.01613) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conditional%20Neural%20Processes_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Conditional%20Neural%20Processes.md)
+- Conditional Neural Processes [[pdf]](https://arxiv.org/abs/1807.01613) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conditional%20Neural%20Processes_.pdf)
 - *Marta Garnelo, Dan Rosenbaum, Chris J. Maddison, Tiago Ramalho, David Saxton, Murray Shanahan, Yee Whye Teh, Danilo J. Rezende, S. M. Ali Eslami*
-- `2018-07-04, ICML2018`
+- `2018-07-04, ICML 2018`
+```
+General comments on paper quality:
+Quite well-written. Interesting proposed method.
+
+
+Paper overview:
+The authors present a family of neural models called Conditional Neural Processes (CNPs), which aim to combine the benefits of Gaussian Processes (which exploit prior knowledge to quickly infer the shape of a new function at test time, but computationally scale poorly with increased dimension and dataset size) and deep neural networks (which excel at function approximation, but need to be trained from scratch for each new function).
+
+A CNP feeds each observation (x_i, y_i) (a labeled example) through a neural network h to extract an embedding r_i. The embeddings r_i are aggregated to a single embedding r using a symmetric aggregator function (e.g. taking the mean). The embedding r is then fed together with each target x*_i (unlabeled example) as input to the neural network g, which produces a corresponding prediction y*_i. The predictions are thus made conditioned on the observations (x_i, y_i).
+
+For example, given observations of an unknown function's value y_i at locations x_i, we would like to predict the function's value at new locations x*_i, conditioned on the observations.
+
+To train a CNP, we have access to a training set of n observations (x_i, y_i). We then produce predictions y^_i for each x_i, conditioned on a randomly chosen subset of the observations, and minimize the negative (conditional) log likelihood. I.e., create r by embedding N randomly chosen observations (x_i, y_i) with the neural network h, then feed r as input to g and compute predictions y^_i for each x_i, and compare these with the true values y_i.
+
+The authors experimentally evaluate the CNP approach on three different problems:
+
+1D regression:
+At every training step, they sample a curve (function) from a fixed Gaussian Process (GP), select a subset of n points (x_i, y_i) from it as observations, and a subset of m points (x'_j, y'_j) as targets.
+The embedding r is created from the observations, used in g to output a prediction (y^_j, sigma^_j) (mean and variance) for each target x'_j, and compared with the true values y`_j.
+In inference, they again sample a curve from the GP and are given a subset of points from it as observations. From this they create the embedding r, and are then able to output predictions (mean and variance) at arbitrary points x. Hopefully, these predictions (both in terms of mean and variance) will be close to what is outputted by a GP (with the true hyperparameters) fitted to the same observations. This is also, more or less, what they observe in their experiments.
+Image completion:
+Given a few pixels as observations, predict the pixel values at all pixel locations. CNP is found to outperform both a kNN and GP baseline, at least when the number of given observations is relatively small.
+One-shot classification:
+While CNP does NOT set a new SOTA, it is found to have comparable performance to significantly more complex models.
+The authors conclude by arguing that a trained CNP is more general than conventional deep learning models, in that it encapsulates the high-level statistics of a family of functions. As such it constitutes a high-level abstraction that can be reused for multiple tasks.
+
+Left as future work is the task of scaling up the proof-of-concept CNP architectures used in the paper, and exploring how CNPs can help tackling problems such as transfer learning and data efficiency.
+
+
+Comments:
+Pretty interesting approach, although it's not immediately obvious to me what use it could have in the context of 3DOD and/or uncertainty estimation (outputting both a mean and a variance is of course interesting, but you don't need to explicitly condition the model on some observations). I guess transfer learning to fine-tune performance on a specific subset of your data is the most obvious possible application.
+```
 
 ##### [18-09-27] [paper6]
-- Neural Autoregressive Flows [[pdf]](https://arxiv.org/abs/1804.00779) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Autoregressive%20Flows_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Autoregressive%20Flows.md)
+- Neural Autoregressive Flows [[pdf]](https://arxiv.org/abs/1804.00779) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Autoregressive%20Flows_.pdf)
 - *Chin-Wei Huang, David Krueger, Alexandre Lacoste, Aaron Courville*
-- `2018-04-03, ICML2018`
+- `2018-04-03, ICML 2018`
+```
+General comments on paper quality:
+Well-written and interesting paper. As I was quite unfamiliar with the material, it did however require an extra read-through.
+
+
+Paper overview:
+The authors introduce Neural Autoregressive Flow (NAF), a flexible method for tractably approximating rich families of distributions. Empirically, they show that NAF is able to model multi-modal distributions and outperform related methods (e.g. inverse autoregressive flow (IAF)) when applied to density estimation and variational inference.
+
+A Normalizing Flow (NF), is an invertible function f: X --> Y expressing the transformation between two random variables (i.e., is used to translate between the distributions p_{Y}(y) and p_{X}(x)). NFs are most commonly trained to, from an input distribution p_{X}(x), produce an output distributions p_{Y}(y) that matches a target distribution p_{target}(y) (as measured by the KL divergence). E.g. in variational inference, the NF is typically used to transform a simple input distribution (e.g. standard normal) over x into a complex approximate posterior p_{Y}(y).
+
+Research on constructing NFs, such as this work, focuses on finding ways to parameterize the NF which meet certain requirements while being maximally flexible in terms of the transformations which they can represent.
+
+One specific (particularly successful) class of NFs are affine autoregressive flows (AAFs) (e.g. IAFs). In AFFs, the components of x and y (x_{i}, y_{i}) are given an (arbitrarily chosen) order, and y_{t} is computed as a function of x_{1:t}:
+
+y_{t} = f(x_{1:t}) = tau(c(x_{1:t-1}), x_{t}), where:
+c is an autoregressive conditioner.
+tau is an invertible transformer.
+In previous work, tau is taken to be a simple affine function, e.g. in IAFs:
+
+tau(mu, sigma, x_{t}) = sigma*x_{t} + (1-sigma)*mu, where mu and sigma are outputted by the conditioner c.
+In this paper, the authors replace the affine transformer tau with a neural network (yielding a more rich family of distributions with only a minor increase in computation and memory requirements), which results in the NAF method:
+
+tau(c(x_{1:t-1}), x_{t}) = NN(x_{t}; phi = c(x_{1:t-1})), where:
+NN is a (small, 1-2 hidden layers with 8/16 units) neural network that takes the scalar x_{t} as input and produces y_{t} as output, and its weights and biases phi are outputted by c(x_{1:t-1}).
+To ensure that tau is strictly monotonic an thus invertible, it is sufficient to use strictly positive weights and strictly monotonic activation functions in the neural network.
+The authors prove that NAFs are universal density approximators, i.e., can be used to approximate any probability distribution (over real vectors) arbitrarily well. I.e., NAFs can be used to transform any random variable into any desired random variable.
+
+The authors empirically evaluate NAFs applied to variational inference and density estimation, and outperform IAF and MAF baselines. For example, they find that NAFs can approximate a multi-modal mixture of Gaussian distribution quite well, while AAFs only produces a uni-modal distribution.
+
+
+Comments:
+I probably need to do some more reading on the background material to fully understand and appreciate the results of this paper, but it definitely seems quite interesting. Could probably be useful in some application.
+```
 
 ##### [18-09-25] [paper5]
-- Deep Confidence: A Computationally Efficient Framework for Calculating Reliable Errors for Deep Neural Networks [[pdf]](https://arxiv.org/abs/1809.09060) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Confidence:%20A%20Computationally%20Efficient%20Framework%20for%20Calculating%20Reliable%20Errors%20for%20Deep%20Neural%20Networks.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Deep%20Confidence:%20A%20Computationally%20Efficient%20Framework%20for%20Calculating%20Reliable%20Errors%20for%20Deep%20Neural%20Networks.md)
+- Deep Confidence: A Computationally Efficient Framework for Calculating Reliable Errors for Deep Neural Networks [[pdf]](https://arxiv.org/abs/1809.09060) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Confidence:%20A%20Computationally%20Efficient%20Framework%20for%20Calculating%20Reliable%20Errors%20for%20Deep%20Neural%20Networks.pdf)
 - *Isidro Cortes-Ciriano, Andreas Bender*
 - `2018-09-24`
+```
+General comments on paper quality:
+Unfamiliar paper formatting (written by authors from a different field), but actually a well-written and interesting paper. The methods are quite clearly explained.
+
+
+Paper overview:
+The authors present a framework for computing "valid and efficient" confidence intervals for individual predictions made by a deep learning network, applied to the task of drug discovery (modeling bioactivity data).
+
+To create confidence intervals, they use an ensemble of 100 networks (either obtained by independently training 100 networks, or by using Snapshot Ensembling: saving network snapshots during the training of a single network (essentially)) together with a method called conformal prediction.
+
+More specifically, predictions are produced by the 100 networks for each example in the validation set, and for each example the sample mean y_hat and sample std sigma_hat are computed. From y_hat and sigma_hat, for each example, a non-comformity value alpha is computed (alpha = |y - y_hat|/exp(sigma_hat)). These non-conformity values are then sorted in increasing order, and the percentile corresponding to the chosen confidence level (e.g. 80%, alpha_80) is selected (I suppose what you actually do here is that you find the smallest alpha value which is larger than 80% of all alpha values?).
+
+On the test set, for each example, again a prediction is produced by the 100 networks and y_hat, sigma_hat are computed. A confidence interval is then given by: y_hat +/- exp(sigma_hat)*alpha_80.
+
+The key result in the paper is that the authors find that these confidence intervals are indeed valid. I.e., when they compute the percentage of examples in the test set whose true values lie within the predicted confidence interval, this fraction was equal to or greater than the selected confidence level.
+
+They also compare the constructed confidence intervals with the ones obtained by a random forest model, and find that they have comparable efficiency (confidence intervals have a small average size -> higher efficiency).
+
+
+Comments:
+Since the paper comes from an unfamiliar field (and I'm not at all familiar with the used datasets etc.), I'm being somewhat careful about what conclusions I draw from the presented results, but it definitely seems interesting and as it potentially could be of practical use.
+
+The specific method used, i.e. an ensemble of 100 models, isn't really applicable in my case since it would make inference too slow, but the approach for constructing and validating confidence intervals might actually be useful.
+
+For example, what would happen if you replace y_hat, sigma_hat with the predicted mean and std by a single model (aleatoric uncertainty)? Would the induced confidence intervals still be valid, at least for some confidence level?
+
+And if so, I suppose it doesn't really matter that the network in a sense is still just a black box, since you now actually are able to quantify its uncertainty on this data, and you at least have some kind of metric to compare different models with (obviously, you still don't know how much the output actually can be trusted when the network is applied to completely different data, but the fact that the confidence intervals are valid on this specific dataset is still worth something).
+```
 
 ##### [18-09-25] [paper4]
-- Leveraging Heteroscedastic Aleatoric Uncertainties for Robust Real-Time LiDAR 3D Object Detection [[pdf]](https://arxiv.org/abs/1809.05590) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Leveraging%20Heteroscedastic%20Aleatoric%20Uncertainties%20for%20Robust%20Real-Time%20LiDAR%203D%20Object%20Detection_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Leveraging%20Heteroscedastic%20Aleatoric%20Uncertainties%20for%20Robust%20Real-Time%20LiDAR%203D%20Object%20Detection.md)
+- Leveraging Heteroscedastic Aleatoric Uncertainties for Robust Real-Time LiDAR 3D Object Detection [[pdf]](https://arxiv.org/abs/1809.05590) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Leveraging%20Heteroscedastic%20Aleatoric%20Uncertainties%20for%20Robust%20Real-Time%20LiDAR%203D%20Object%20Detection_.pdf)
 - *Di Feng, Lars Rosenbaum, Fabian Timm, Klaus Dietmayer*
 - `2018-09-14`
+```
+General comments on paper quality:
+Fairly well-written paper. I did find a couple of typos though, and some concepts could definitely have been more carefully and clearly explained.
+
+
+Paper overview:
+The authors present a two-stage, LiDAR-only model for 3D object detection (trained only on the Car class on KITTI), which also models aleatoric (heteroscedastic) uncertainty by assuming a Gaussian distribution over the model output, similarly to how Kendall and Gal models aleatoric uncertainty. The 3DOD model takes as input LiDAR point clouds which have been projected to a 2D bird's eye view.
+
+The network outputs uncertainties in both the RPN and in the refinement head, for the anchor position regression, 3D location regression and orientation regression. They do NOT model uncertainty in the classification task, but instead rely on the conventional softmax scores.
+
+The deterministic version of the 3DOD model has fairly competitive AP3D performance on KITTI test (not as good as VoxelNet, but not bad for being a LiDAR-only method). What's actually interesting is however that modeling aleatoric uncertainty improves upon this performance with roughly 7% (Moderate class), while only increasing the inference time from 70 ms to 72 ms (TITAN X GPU).
+
+The authors conduct some experiments to try and understand their estimated aleatoric uncertainties:
+
+They find that the network generally outputs larger orientation uncertainty when the predicted orientation angle is far from the four most common angles {0, 90, 180, 270}.
+They find that the outputted uncertainty generally increases as the softmax score decreases.
+They find that the outputted uncertainty generally increases as detection distance increases.
+The learned aleatoric uncertainty estimates thus seem to make intuitive sense in many cases.
+
+
+Comments:
+Just like in Kendall and Gal and Gast and Roth, modelling aleatoric uncertainty improves performance while adding negligible computational complexity. That this can be a practically useful tool is thus starting to become quite clear.
+
+However, I still think we need to analyze the estimated uncertainties more carefully. Can they be used to form valid confidence intervals?
+
+Also, it feels like this work is HEAVILY inspired by Kendall and Gal but it's not really explicitly mentioned anywhere in the paper. I personally think they could have given more credit.
+```
 
 ##### [18-09-24] [paper3]
-- Lightweight Probabilistic Deep Networks [[pdf]](https://arxiv.org/abs/1805.11327) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Lightweight%20Probabilistic%20Deep%20Networks_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Lightweight%20Probabilistic%20Deep%20Networks.md)
+- Lightweight Probabilistic Deep Networks [[pdf]](https://arxiv.org/abs/1805.11327) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Lightweight%20Probabilistic%20Deep%20Networks_.pdf)
 - *Jochen Gast, Stefan Roth*
-- `2018-05-29, CVPR2018`
+- `2018-05-29, CVPR 2018`
 ```
 General comments on paper quality:
 Quite interesting and well written paper, I did however find a couple of the derivations (Deep uncertainty propagation using ADF & Classification with Dirichlet outputs) somewhat difficult to follow.
@@ -2333,7 +2516,7 @@ Also, my question from the Kendall and Gal summary still remains. Even if we ass
 ##### [18-09-24] [paper2]
 - What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? [[pdf]](https://arxiv.org/abs/1703.04977) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/What%20Uncertainties%20Do%20We%20Need%20in%20Bayesian%20Deep%20Learning%20for%20Computer%20Vision%3F_.pdf)
 - *Alex Kendall, Yarin Gal*
-- `2017-10-05, NeurIPS2017`
+- `2017-10-05, NeurIPS 2017`
 ```
 General comments on paper quality:
 Well written and interesting paper. Seems like a fairly complete introduction to Bayesian deep learning. Clearly defines aleatoric and epistemic uncertainty, and provides good intuition for what they capture and how they differ. A recommended read.
@@ -2380,7 +2563,7 @@ However, it's still not quite clear to me how much you can actually trust these 
 ##### [18-09-20] [paper1]
 - Gaussian Process Behaviour in Wide Deep Neural Networks [[pdf]](https://arxiv.org/abs/1804.11271) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gaussian%20Process%20Behaviour%20in%20Wide%20Deep%20Neural%20Networks.pdf)
 - *Alexander G. de G. Matthews, Mark Rowland, Jiri Hron, Richard E. Turner, Zoubin Ghahramani*
-- `2018-08-16, ICLR2018`
+- `2018-08-16, ICLR 2018`
 ```
 General comments on paper quality:
 Well written and mathematically rigorous paper that I'd recommend anyone interested in theoretical properties of deep learning to read. An interesting and pleasent read.
