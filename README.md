@@ -2062,7 +2062,7 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - `2016-12-19, ICLR2017`
 
 ##### [19-03-11] [paper50]
-- Auto-Encoding Variational Bayes [[pdf]](https://arxiv.org/abs/1312.6114) [[pdf with comments (TODO!)]]() [[comments (TOOD!)]](https://github.com/fregu856/papers/blob/master/summaries/Auto-Encoding%20Variational%20Bayes.md)
+- Auto-Encoding Variational Bayes [[pdf]](https://arxiv.org/abs/1312.6114)
 - *Diederik P Kingma, Max Welling*
 - `2014-05-01, ICLR2014`
 
@@ -2142,7 +2142,7 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - `CVPR2016`
 
 ##### [19-01-25] [paper34]
-- Meta-Learning For Stochastic Gradient MCMC [[pdf]](https://openreview.net/forum?id=HkeoOo09YX) [[code]](https://github.com/WenboGong/MetaSGMCMC) [[slides]](http://yingzhenli.net/home/pdf/uai_udl_meta_sampler.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Meta-Learning%20For%20Stochastic%20Gradient%20MCMC.pdf) [[summary (TODO!)]]()
+- Meta-Learning For Stochastic Gradient MCMC [[pdf]](https://openreview.net/forum?id=HkeoOo09YX) [[code]](https://github.com/WenboGong/MetaSGMCMC) [[slides]](http://yingzhenli.net/home/pdf/uai_udl_meta_sampler.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Meta-Learning%20For%20Stochastic%20Gradient%20MCMC.pdf)
 - *Wenbo Gong, Yingzhen Li, José Miguel Hernández-Lobato*
 - `2018-10-28, ICLR2019`
 
@@ -2162,12 +2162,12 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - `2018-04-19`
 
 ##### [19-01-23] [paper30]
-- Stochastic Gradient Hamiltonian Monte Carlo [[pdf]](https://arxiv.org/abs/1402.4102) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stochastic%20Gradient%20Hamiltonian%20Monte%20Carlo.pdf) [[summary (TODO!)]]()
+- Stochastic Gradient Hamiltonian Monte Carlo [[pdf]](https://arxiv.org/abs/1402.4102) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stochastic%20Gradient%20Hamiltonian%20Monte%20Carlo.pdf)
 - *Tianqi Chen, Emily B. Fox, Carlos Guestrin*
 - `2014-05-12, ICML2014`
 
 ##### [19-01-23] [paper29]
-- Bayesian Learning via Stochastic Gradient Langevin Dynamics [[pdf]](https://www.ics.uci.edu/~welling/publications/papers/stoclangevin_v6.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Learning%20via%20Stochastic%20Gradient%20Langevin%20Dynamics.pdf) [[summary (TODO!)]]()
+- Bayesian Learning via Stochastic Gradient Langevin Dynamics [[pdf]](https://www.ics.uci.edu/~welling/publications/papers/stoclangevin_v6.pdf) [[pdf with comments]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Learning%20via%20Stochastic%20Gradient%20Langevin%20Dynamics.pdf)
 - *Max Welling, Yee Whye Teh*
 - `ICML2011`
 
