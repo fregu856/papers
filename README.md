@@ -2215,54 +2215,307 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - `2018-05-29, ICLR 2019`
 
 ##### [18-11-16] [paper20]
-- Uncertainty Estimates and Multi-Hypotheses Networks for Optical Flow [[pdf]](https://arxiv.org/abs/1802.07095) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimates%20and%20Multi-Hypotheses%20Networks%20for%20Optical%20Flow_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20Estimates%20and%20Multi-Hypotheses%20Networks%20for%20Optical%20Flow.md)
+- Uncertainty Estimates and Multi-Hypotheses Networks for Optical Flow [[pdf]](https://arxiv.org/abs/1802.07095) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimates%20and%20Multi-Hypotheses%20Networks%20for%20Optical%20Flow_.pdf)
 - *Eddy Ilg, Özgün Çiçek, Silvio Galesso, Aaron Klein, Osama Makansi, Frank Hutter, Thomas Brox*
 - `2018-08-06, ECCV 2018`
+```
+General comments on paper quality:
+Well written and very interesting paper. A recommended read.
+
+
+Paper overview:
+The authors study uncertainty estimation in the domain of optical flow estimation, which is a pixel-wise regression problem.
+
+They compare multiple previously suggested uncertainty estimation methods:
+
+Empirical ensembles (each model only outputs a single point estimate), using both MC-dropout, bootstrap ensembles and snapshot ensembles.
+Predictive models (the model outputs the parameters (e.g. mean and variance) of an assumed output distribution, trained using the corresponding negative log likelihood).
+Predictive ensembles (ensemble of predictive models), using both MC-dropout, bootstrap ensembles and snapshot ensembles.
+(A bootstrap ensemble is created by independently training M models on different (partially overlapping) subsets of the training data, whereas a snapshot ensemble is essentially created by saving checkpoints during the training process of a single model).
+For an empirical ensemble, the empirical mean and variance are taken as the mean and variance estimates (mu = (1/M)sum(mu_i), sigma^2 = (1/M)sum( (mu_i - mu)^2) )).
+
+A predictive model directly outputs estimates of the mean and variance (the authors assume a Laplacian output distribution, which corresponds to an L1 loss).
+
+For a predictive ensemble, the outputted mean and variance estimates are combined into the final estimates (mu = (1/M)sum(mu_i), sigma^2 = (1/M)sum( (mu_i - mu)^2) ) + (1/M)sum(sigma^2_i) )
+
+Since all of the above methods require multiple forward passes to be computed during inference (obviously affecting the inference speed), the authors also propose a multi-headed predictive model architecture that yields multiple hypotheses (each hypothesis corresponds to an estimated mean and variance). They here use a loss that only penalizes the best hypothesis (the one which is closest to the ground truth), which encourages the model to yield a diverse set of hypotheses in case of doubt. A second network is then trained to optimally merge the hypotheses into a final mean and variance estimate. It is however not clear to me how this merging network actually is trained (did I miss something in the paper?).
+
+They train their models on the FlyingChairs and FlyingThings3D datasets, and mostly evaluate on the Sintel dataset.
+
+For all ensembles, they use M=8 networks (and M=8 hypotheses in the multi-headed model) (they find that more networks generally results in better performance, but are practically limited in terms of computation and memory).
+
+To assess the quality of the obtained uncertainty estimates, they use sparsification plots as the main evaluation metric. In such a plot, you plot the average error as a function of the fraction of removed pixels, where the pixels are removed in order, starting with the pixels corresponding to the largest estimated uncertainty. This average error should thus monotonically decrease (as we remove more and more pixels) if the estimated uncertainty actually is a good representation of the true uncertainty/error. The obtained curve is compared to the "Oracle" sparsification curve, obtained by removing pixels according to the true error.
+
+In their results, they find e.g. that:
+
+Predictive ensembles have better performance than empirical ensembles. Even a single predictive model they claim to yield better uncertainty estimates than any empirical ensemble.
+Predictive ensembles only yield slightly better performance than a single predictive model.
+MC-dropout consistently performs worse than both bootstrap and snapshot ensembles (note that they also use just M=8 forward passes in MC-dropout).
+The multi-headed predictive model yields the best performance among all models.
+
+
+Comments:
+Very interesting paper with a thorough comparison of various uncertainty estimation techniques.
+
+I am however not completely convinced by the evaluation. I get how the sparsification plots measure the quality of the relative uncertainties (i.e., whether or not the model has learned what pixels are the most/least uncertain), but what about the absolute magnitude? Could it be that a model consistently under/over-estimates the uncertainties? If we were to create prediction intervals based on the estimated uncertainties, would they then have valid coverage?
+
+The multi-headed network is definitely an interesting idea, I did not expect it to yield the best performance.
+```
 
 ##### [18-11-15] [paper19]
-- Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV) [[pdf]](https://arxiv.org/abs/1711.11279) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Interpretability%20Beyond%20Feature%20Attribution:%20Quantitative%20Testing%20with%20Concept%20Activation%20Vectors%20(TCAV)_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Interpretability%20Beyond%20Feature%20Attribution:%20Quantitative%20Testing%20with%20Concept%20Activation%20Vectors%20(TCAV).md)
+- Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV) [[pdf]](https://arxiv.org/abs/1711.11279) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Interpretability%20Beyond%20Feature%20Attribution:%20Quantitative%20Testing%20with%20Concept%20Activation%20Vectors%20(TCAV)_.pdf)
 - *Been Kim, Martin Wattenberg, Justin Gilmer, Carrie Cai, James Wexler, Fernanda Viegas, Rory Sayres*
 - `2018-06-07, ICML 2018`
+```
+General comments on paper quality:
+Quite well-written and fairly interesting paper, the authors do a pretty good job of giving an intuitive explanation of the proposed methods.
+
+
+Paper overview:
+The authors introduce a new method for interpreting the results of trained neural network classification models, in terms of user-defined high-level concepts.
+
+They introduce Concept Activation Vectors (CAVs), which are vectors in the direction of the activations of a concept's set of example images, and the technique called Testing with CAVs (TCAV), that uses directional derivatives to quantify how important a user-defined concept is to a given classification result (e.g., how important the concept "striped" is to the classification of a given image as "Zebra").
+
+To obtain a CAV for a given concept (e.g. "striped"), they collect a set of example images representing that concept (e.g. a set of images of various striped shirts and so on), train a linear classifier to distinguish between the activations produced by these concept example images and random images, and choose as a CAV the vector which is orthogonal to the classification boundary of this linear classifier (i.e., the CAV points in the direction of the activations of the concept example images).
+
+By combining CAVs with directional derivatives, one can measure the sensitivity of a model's predictions to changes in the input towards the direction of a given concept. TCAV uses this to compute a model's conceptual sensitivity across entire classes of inputs, by computing the fraction of images for a given class which were positively influenced by a given concept (the directional derivatives were positive).
+
+They qualitatively evaluate their method by e.g. sorting images of a given class based on how similar they are to various concepts (e.g. finding the images of "necktie" which are most similar to the concept "model woman"), and comparing the TCAV scores of different concepts for a given classification (e.g. finding that "red" is more important than "blue" for the classification of "fire engine").
+
+
+Comments:
+Quite interesting method which I suppose could be useful for some use-cases. I do however find it quite difficult to say how well the proposed method actually works, i.e., it is quite difficult to know whether the successful examples in the paper are just cherry-picked, or if the method consistently makes sense.
+```
 
 ##### [18-11-12] [paper18]
-- Large-Scale Visual Active Learning with Deep Probabilistic Ensembles [[pdf]](https://arxiv.org/abs/1811.03575) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large-Scale%20Visual%20Active%20Learning%20with%20Deep%20Probabilistic%20Ensembles_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Large-Scale%20Visual%20Active%20Learning%20with%20Deep%20Probabilistic%20Ensembles.md)
+- Large-Scale Visual Active Learning with Deep Probabilistic Ensembles [[pdf]](https://arxiv.org/abs/1811.03575) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large-Scale%20Visual%20Active%20Learning%20with%20Deep%20Probabilistic%20Ensembles_.pdf)
 - *Kashyap Chitta, Jose M. Alvarez, Adam Lesnikowski*
 - `2018-11-08`
+```
+General comments on paper quality:
+Quite well-written and very interesting paper. Reasonably easy to read.
+
+
+Paper overview:
+The authors introduce Deep Probabilistic Ensembles (DPEs), a technique that utilizes a regularized ensemble to perform approximate variational inference in Bayesian Neural Networks (BNNs). They experimentally evaluate their method on the task of active learning for classification (CIFAR-10, CIFAR-100, ImageNet) and semantic segmentation (BDD100k), and somewhat outperform similar methods.
+
+In variational inference, one restricts the problem to a family of distributions over the network weights w, q(w) ~ D. One then tries to optimize for the member of this family D that is closest to the true posterior distribution in terms of KL divergence. This optimization problem is equivalent to the maximization of the Evidence Lower Bound (ELBO), which contains expectations over all possible q(w) ~ D.
+
+In this paper, the authors approximate these expectations by using an ensemble of E networks, which results in a loss function containing the standard cross-entropy term together with a regularization term OMEGA over the joint set of all parameters in the ensemble. Thus, the proposed method is an approximation of variational inference.
+
+They chose Gaussians for both the prior p(w) and q(w), assume mutual independence between the network weights and can then compute the regularization term OMEGA by independently computing it for each network weight w_i (each network in the ensemble has a value for this weight w_i) using equation 9, and then summing this up over all network weights. I.e., for each weight w_i, you compute mu_q, sigma_q as the sample mean and variance across the E ensemble networks and then use equation 9. Equation 9 will penalize variances much larger than that of the prior (so that the ensemble members do not diverge completely from each other), penalize variances smaller than that of the prior (promoting diversity) and keep the mean close to that of the prior.
+
+Note that the E ensemble networks have to be trained jointly, meaning that the memory requirement scales linearly with E.
+
+They experienced some difficulties when trying to train an ensemble of just E=2, 3 networks, as the regularization term caused instability and divergence of the loss. This problem was mitigated by setting E >= 4, and they ended up using E=8 for all of their experiments (beyond E=8 they observed diminishing returns).
+
+In the experiments, they e.g. compare DPEs to using an ensemble trained using standard L2 regularization on all four datasets. DPEs were found to consistently outperform the standard ensemble, but the performance gain is not very big.
+
+
+Comments:
+Definitely an interesting method. Nice to see more than just an intuitive argument for why ensembling seems to provide reasonable uncertainty estimates, even though the derivation contains multiple approximations (variational inference approximation, approximation of the expectations).
+
+I'm not sure how significant the performance gain compared to standard ensembling actually is though, I would like to see more comparisons also outside of the active learning domain. Would also be interesting to compare with Bayesian ensembling.
+```
 
 ##### [18-11-08] [paper17]
-- The Lottery Ticket Hypothesis: Finding Small, Trainable Neural Networks [[pdf]](https://arxiv.org/abs/1803.03635) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Lottery%20Ticket%20Hypothesis:%20Finding%20Small%2C%20Trainable%20Neural%20Networks_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/The%20Lottery%20Ticket%20Hypothesis:%20Finding%20Small%2C%20Trainable%20Neural%20Networks.md)
+- The Lottery Ticket Hypothesis: Finding Small, Trainable Neural Networks [[pdf]](https://arxiv.org/abs/1803.03635) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Lottery%20Ticket%20Hypothesis:%20Finding%20Small%2C%20Trainable%20Neural%20Networks_.pdf)
 - *Jonathan Frankle, Michael Carbin*
 - `2018-03-09, ICLR 2019`
+```
+General comments on paper quality:
+Well-written and very interesting paper. Not particularly heavy to read.
+
+
+Paper overview:
+Aiming to help and explain why it empirically seems easier to train large networks than small ones, the authors articulate the lottery ticket hypothesis: any large network that trains successfully contains a smaller subnetwork that, when initialized with the same initial parameter values again (i.e., the parameter values they had before the original training began), can be trained in isolation to match (or surpass) the accuracy of the original network, while converging in at most the same number of iterations. The authors call these subnetworks winning tickets.
+
+When randomly re-initializing the parameters or randomly modifying the connections of winning tickets, they are no longer capable of matching the performance of the original network. Neither structure nor initialization alone is thus responsible for a winning ticket's success.
+
+The authors find that a standard pruning technique (which essentially entails removing weights in increasing order of their magnitude (remove small-magnitude weights first)) can be used to automatically uncover such winning tickets.
+
+They also extend their hypothesis into the conjecture (which they do not empirically test) that large networks are easier to train because, when randomly initialized, they contain more combinations of subnetworks and thus more potential winning tickets.
+
+They find that winning tickets usually contain just 20% (or less) of the original network parameters. They find winning tickets for both fully-connected, convolutional and residual networks (MNIST, CIFAR10, CIFAR10).
+
+
+Comments:
+I actually found this paper a lot more interesting than I initially expected just from reading the title. Easy-to-grasp concept which still might help to improve our understanding of neural networks.
+```
 
 ##### [18-10-26] [paper16]
-- Towards Safe Autonomous Driving: Capture Uncertainty in the Deep Neural Network For Lidar 3D Vehicle Detection [[pdf]](https://arxiv.org/abs/1804.05132) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Towards%20Safe%20Autonomous%20Driving:%20Capture%20Uncertainty%20in%20the%20Deep%20Neural%20Network%20For%20Lidar%203D%20Vehicle%20Detection_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Towards%20Safe%20Autonomous%20Driving:%20Capture%20Uncertainty%20in%20the%20Deep%20Neural%20Network%20For%20Lidar%203D%20Vehicle%20Detection.md)
+- Towards Safe Autonomous Driving: Capture Uncertainty in the Deep Neural Network For Lidar 3D Vehicle Detection [[pdf]](https://arxiv.org/abs/1804.05132) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Towards%20Safe%20Autonomous%20Driving:%20Capture%20Uncertainty%20in%20the%20Deep%20Neural%20Network%20For%20Lidar%203D%20Vehicle%20Detection_.pdf)
 - *Di Feng, Lars Rosenbaum, Klaus Dietmayer*
 - `2018-09-08, ITSC 2018`
+```
+General comments on paper quality:
+Fairly well-written paper. Interesting method.
+
+
+Paper overview:
+The authors present a two-stage, LiDAR-only (2D bird's eye view as input) model for 3D object detection (trained only on the Car class on KITTI) which attempts to model both epistemic uncertainty (model uncertainty) and aleatoric uncertainty (input-dependent data noise).
+
+The aleatoric uncertainty is modeled for the regression task in the conventional way, i.e, by assuming a Gaussian distribution over the model output (the model outputs estimates for both the mean and variance) and minimizing the associated negative log-likelihood (actually, they seem to use an L1 or smoothL1 norm instead of L2). Aleatoric uncertainty is only modeled in the output layer, not in the RPN.
+
+To estimate the epistemic uncertainty, they use MC-dropout in the three fully-connected layers in the refinement head (not in the RPN). They use N=40 forward passes. For classification, the softmax scores are averaged and the computed entropy and mutual information is used as epistemic uncertainty estimates. For regression, the sample variances are used.
+
+Before the RPN, they use a ResNet-18(?) to extract a feature map. The model input has a spatial size of 1000x600 pixels. They use a discretization resolution of 0.1 m.
+
+They train on 9918 training examples and evaluate on 2010 testing examples, both from the KITTI raw dataset. They evaluate their model by computing the F1 score for different IoU thresholds (0.1 to 0.8). I thus find it difficult to compare their 3DOD performance with models on the KITTI leaderboard.
+
+They find that modeling the aleatoric uncertainty consistently improves 3DOD performance (compared to a fully deterministic baseline version), whereas modeling epistemic uncertainty actually degrades performance somewhat.
+
+When the authors compute the average epistemic uncertainty for each predicted 3Dbbox, they find that predictions with large IoU values (good predictions, predictions which are close to a ground truth 3Dbbox) generally has smaller associated uncertainty than predictions with small IoU values (poor predictions).
+
+For the aleatoric uncertainty, they did NOT see this relationship. Instead, they found that the uncertainty generally increased as the distance to the predicted 3Dbbox increased (which makes intuitive sense, distant objects may have just a few associated LiDAR points).
+
+
+Comments:
+First paper to apply the uncertainty estimation methods of Kendall and Gal to the task of 3DOD, which the authors definitely deserve credit for. Aleatoric uncertainty estimation adds negligible compute and improves performance, whereas the N=40 forward passes needed probably makes the epistemic uncertainty estimation method difficult to deploy in real-time applications.
+```
 
 ##### [18-10-25] [paper15]
-- Bayesian Convolutional Neural Networks with Many Channels are Gaussian Processes [[pdf]](https://arxiv.org/abs/1810.05148) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Convolutional%20Neural%20Networks%20with%20Many%20Channels%20are%20Gaussian%20Processes_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Bayesian%20Convolutional%20Neural%20Networks%20with%20Many%20Channels%20are%20Gaussian%20Processes.md)
+- Bayesian Convolutional Neural Networks with Many Channels are Gaussian Processes [[pdf]](https://arxiv.org/abs/1810.05148) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Convolutional%20Neural%20Networks%20with%20Many%20Channels%20are%20Gaussian%20Processes_.pdf)
 - *Roman Novak, Lechao Xiao, Jaehoon Lee, Yasaman Bahri, Daniel A. Abolafia, Jeffrey Pennington, Jascha Sohl-Dickstein*
 - `2018-10-11, ICLR 2019`
+```
+General comments on paper quality:
+Fairly well-written but rather heavy paper to read, I probably don't have the necessary background to fully appreciate its contributions.
+
+
+Paper overview:
+There is a known correspondence between fully Bayesian (with Gaussian prior), infinitely wide, fully connected, deep feedforward neural networks and Gaussian processes. The authors here derive an analogous correspondence between fully Bayesian (with Gaussian prior), deep CNNs with infinitely many channels and Gaussian Processes.
+
+They also propose a method to find this corresponding GP (which has a 0 mean function), by estimating its kernel (which might be computationally impractical to compute analytically, or might have an unknown analytic form) using a Monte Carlo method. They show that this estimated kernel converges to the analytic kernel in probability as the number of channels.
+
+
+Comments:
+I always find these kind of papers interesting as they try to improve our understanding of the theoretical properties of neural networks. However, it's still not particularly clear to me what this GP correspondence in the infinite limit of fully Bayesian networks actually tells us about finite, non-Bayesian networks.
+```
 
 ##### [18-10-19] [paper14]
-- Uncertainty in Neural Networks: Bayesian Ensembling [[pdf]](https://arxiv.org/abs/1810.05546) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20in%20Neural%20Networks:%20Bayesian%20Ensembling_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Uncertainty%20in%20Neural%20Networks:%20Bayesian%20Ensembling.md)
+- Uncertainty in Neural Networks: Bayesian Ensembling [[pdf]](https://arxiv.org/abs/1810.05546) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20in%20Neural%20Networks:%20Bayesian%20Ensembling_.pdf)
 - *Tim Pearce, Mohamed Zaki, Alexandra Brintrup, Andy Neel*
 - `2018-10-12`
+```
+General comments on paper quality:
+Well-written and interesting paper. Compares different ensembling techniques and techniques for approximate Bayesian inference in neural networks.
+
+
+Paper overview:
+The authors present randomized anchored MAP sampling, anchored ensembles for short, a somewhat modified ensembling process aimed at estimating predictive uncertainty (epistemic/model uncertainty + aleatoric uncertainty) in neural networks.
+
+They independently train M networks (they set M to just 5-10) on the entire training dataset, just like e.g. Lakshminarayanan et al.. The key difference is that they regularize the network parameters about values drawn from a prior distribution (instead of about 0 as in standard L2 regularization). In practice, each network in the ensemble is regularized, or "anchored", about its initialization parameter values (which are drawn from some prior Gaussian).
+
+This procedure is motivated/inspired by the Bayesian inference method called randomized MAP sampling, which (roughly speaking) exploits the fact that adding a regularization term to the standard MLE loss function results in a MAP parameter estimate. Injecting noise into this loss (to the regularization term) and sampling repeatedly (i.e., ensembling) produces a distribution of MAP estimates which roughly corresponds to the true parameter posterior distribution.
+
+What this injected noise should look like is however difficult to find in complex cases like NNs. What the authors do is that they study the special case of single-layer, wide NNs and claim that ensembling here will approximate the true posterior if the parameters theta of each network are L2-regularized about theta_0 ~ N(mu_prior, sigma_prior).
+
+The authors do NOT let the network output an estimate of the aleatoric uncertainty like Lakshminarayanan et al. do, instead they assume a constant aleatoric uncertainty estimate sigma_epsilon^2. They then use their ensemble to compute the predictive mean y_hat = (1/M)*sum(y_hat_i) and variance sigma_y^2 = (1/(M-1))*sum((y_hat_i - y_hat)^2) + sigma_epsilon^2.
+
+They evaluate their method on various regression tasks (no classification whatsoever) using single-layer NNs. For 1D regression they visually compare to the analytical GP ("gold standard" but not scalable), Hamiltonian MC ("gold standard" but not scalable), a Variational Inference method (scalable) and MC dropout (scalable). They find that their method here outperforms the other scalable methods.
+
+They also compared their results on a regression benchmark with the method by Lakshminarayanan et al. ("normal" ensemble of the same size) which is the current state-of-the-art (i.e., it outperforms e.g. MC dropout). They find that their method outperforms the other in datasets with low aleatoric noise/uncertainty, whereas Lakshminarayanan et al. is better on datasets with high aleatoric noise. The authors say this is because Lakshminarayanan et al. explicitly tries to model the aleatoric noise (network outputs both mean and variance).
+
+
+Comments:
+Interesting method which is actually very similar to the very simple method by Lakshminarayanan et al.. The only real difference is that you add this regularization about the random initial parameter values, which shouldn't be too difficult to implement in e.g. PyTorch?
+
+The fact that you just seem to need 5-10 networks in the ensemble (Lakshminarayanan et al. also used 5-10 networks) also makes the method somewhat practically useful even in real-time applications.
+
+Would be very interesting to add this regularization to the Lakshminarayanan et al. method, apply to 3DOD and compare to Lakshminarayanan et al., MC dropout etc.
+
+Perhaps the Bayesian motivation used in this paper doesn't really hold for large CNNs (and even so, how do you know that a Gaussian is the "correct" prior for Bayesian inference in this case?), but it still makes some intuitive sense that adding this random regularization could increase the ensemble diversity and thus improve the uncertainty estimate.
+```
 
 ##### [18-10-18] [paper13]
-- Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles [[pdf]](https://arxiv.org/abs/1612.01474) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Simple%20and%20Scalable%20Predictive%20Uncertainty%20Estimation%20using%20Deep%20Ensembles_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Simple%20and%20Scalable%20Predictive%20Uncertainty%20Estimation%20using%20Deep%20Ensembles.md)
+- Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles [[pdf]](https://arxiv.org/abs/1612.01474) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Simple%20and%20Scalable%20Predictive%20Uncertainty%20Estimation%20using%20Deep%20Ensembles_.pdf)
 - *Balaji Lakshminarayanan, Alexander Pritzel, Charles Blundell*
 - `2017-11-17, NeurIPS 2017`
+```
+General comments on paper quality:
+Well-written and interesting paper. The proposed method is simple and also very clearly explained.
+
+
+Paper overview:
+The authors present a simple, non-Bayesian method for estimating predictive uncertainty (epistemic/model uncertainty + aleatoric uncertainty) in neural networks, based on the concept of ensembling.
+
+For regression, they train an ensemble of M networks which output both a mean and a variance (y given x is assumed to be Gaussian) by minimizing the corresponding negative log-likelihood (similar to how Kendall and Gal model aleatoric uncertainty).
+
+For classification, they train an ensemble of M networks with the standard softmax output layer.
+
+Each of the M networks in an ensemble is independently trained on the entire training dataset, using random initialization of the network weights and random shuffling of the training data. Typically, they set M=5.
+
+For classification, the predicted probabilities are averaged over the M networks during inference.
+
+For regression, the final mean is computed as the average of the means outputted by the individual networks (mu_final = (1/M)*sum(mu_i)), whereas the final variance sigma_final^2 = (1/M)*sum(mu_i^2 - mu_final^2) + (1/M)*sum(sigma_i^2).
+
+The authors experimentally evaluate their method on various regression (1D toy problem as well as real-world datasets) and classification tasks (MNIST, SVHN and ImageNet). They find that their method generally outperforms (or a least matches the performance of) related methods, specifically MC-dropout.
+
+They also find that when training a classification model on a certain dataset and then evaluating the model on a separate dataset containing unseen classes, their model generally outputs larger uncertainty (larger entropy) than the corresponding MC-dropout model (which is a good thing, we don't want our model to produce over-confident predictions, we want the model to "know what it doesn't know").
+
+
+Comments:
+Conceptually very simple, yet interesting method. The key drawback of using ensembling, especially in real-time applications, is of course that is requires running M networks to obtain a single prediction. However, if a relatively small ensemble size as e.g. M=5 is enough to obtain high-quality uncertainty estimates, it shouldn't really be impossible to still achieve real-time inference speed (50 Hz single-model is needed to obtain 10 Hz in that case). I do actually find this method quite interesting.
+```
 
 ##### [18-10-18] [paper12]
-- Reliable Uncertainty Estimates in Deep Neural Networks using Noise Contrastive Priors [[pdf]](https://arxiv.org/abs/1807.09289) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Reliable%20Uncertainty%20Estimates%20in%20Deep%20Neural%20Networks%20using%20Noise%20Contrastive%20Priors_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Reliable%20Uncertainty%20Estimates%20in%20Deep%20Neural%20Networks%20using%20Noise%20Contrastive%20Priors.md)
+- Reliable Uncertainty Estimates in Deep Neural Networks using Noise Contrastive Priors [[pdf]](https://arxiv.org/abs/1807.09289) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Reliable%20Uncertainty%20Estimates%20in%20Deep%20Neural%20Networks%20using%20Noise%20Contrastive%20Priors_.pdf)
 - *Danijar Hafner, Dustin Tran, Alex Irpan, Timothy Lillicrap, James Davidson*
 - `2018-07-24, ICML 2018 Workshop`
+```
+General comments on paper quality:
+Well-written paper, the proposed method is fairly clearly explained.
+
+
+Paper overview:
+The authors present a method called Noise Contrastive Priors (NCPs). The key idea is to train a model to output high epistemic/model uncertainty for data points which lie outside of the training distribution (out-of-distribution data, OOD data). To do this, NCPs add noise to some of the inputs during training and, for these noisy inputs, try to minimize the KL divergence to a wide prior distribution.
+
+NCPs do NOT try to add noise only to the subset of the training data which actually lie close to the boundary of the training data distribution, but instead add noise to any input data. Empirically, the authors saw no significant difference in performance between these two approaches.
+
+The authors apply NCPs both to a small Bayesian Neural Network and to an OOD classifier model, and experimentally evaluate their models on regression tasks.
+
+In the OOD classifier model, the network is trained to classify noise-upped inputs as OOD and non-modified inputs as "in distribution". During testing, whenever the model classifies an input as OOD, the model outputs the parameters of a fixed wide Gaussian N(0, sigma_y) instead of the mean and variance outputted by the neural network.
+
+
+Comments:
+Somewhat interesting method, although I must say it seems quite ad hoc. Not sure if just adding random noise to the LiDAR point clouds would be enough to simulate OOD data in the case of LiDAR-only 3DOD. Could be worth trying though I suppose.
+```
 
 ##### [18-10-05] [paper11]
-- VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection [[pdf]](https://arxiv.org/abs/1711.06396) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VoxelNet:%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection_.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/VoxelNet:%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection.md)
+- VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection [[pdf]](https://arxiv.org/abs/1711.06396) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VoxelNet:%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection_.pdf)
 - *Yin Zhou, Oncel Tuzel*
 - `2017-11-17, CVPR 2018`
+```
+General comments on paper quality:
+Well-written and interesting paper, the proposed architecture is clearly described.
+
+
+Paper overview:
+The authors present a single-stage, LiDAR-only model for 3D object detection (3DOD) of a single object class (e.g. vehicles), and evaluate the model on the KITTI dataset.
+
+They discretize 3D space into a 3D voxel grid of resolution 0.2x0.2x0.4 m, and the LiDAR points are grouped according to which voxel they reside in. If a voxel contains more than T (T = 35 for vehicles, T = 45 for pedestrians/cyclists) LiDAR points, T points are randomly sampled to represent that voxel. For each non-empty voxel, the corresponding LiDAR points are then fed through "Voxel Feature Encoding layers" (basically a PointNet) to extract a learned feature vector of dimension C (C = 128). The result of this process is thus a (sparse) CxD'xH'xW' (128x10x400x352 for vehicles) feature map representing the original LiDAR point cloud.
+
+This 3D feature map is processed by 3D convolutions and flattened in order to obtain a 128xH'xW' 2D feature map, which is fed as input to a conventional (2D convolutions) region proposal network (RPN).
+
+The RPN outputs a Kx(H'/2)x(W'/2) confidence/objectness score map, and a (7K)x(H'/2)x(W'/2) regression map, which contains the 7 regression outputs (x, y, z, h, w, l, theta) for each of the K anchors at each grid cell position.
+
+The authors use K=2 anchors per grid cell, with theta = 0 deg or 90 deg, both with (w, h, l) set to the mean size from the training data and z set to -1. The grid is thus defined in a 2D bird's eye view, but still corresponds to anchor 3D bounding boxes on the plane z=-1 (which intuitively should work well in the application of autonomous driving where most cars lie on the same ground plane).
+
+Anchors are assigned to either being positive, negative or don't-care based on their bird's eye view IoU with the ground truth bounding boxes. The confidence/classification loss is computed for both positive and negative anchors, while the regression loss is computed only for positive anchors.
+
+The authors train three separate networks for detection of vehicles, pedestrians and cyclists, respectively.
+
+They compare their networks' performance with other models on both the KITTI 3D and KITTI bird's eye view leaderboards, and find that VoxelNet outperforms all LiDAR-only methods across the board. Compared to PIXOR (which only submitted results for bird's eye view), VoxelNet has better performance but is significantly slower in inference. The VoxelNet inference time is dominated by the 3D convolutions.
+
+
+Comments:
+Interesting 3DOD model! Using (what is basically) a PointNet to extract feature vectors from groups of LiDAR points and thus obtain a learned 3D feature map is really rather clever, all though using 3D convolutions has a clear negative effect on inference time.
+
+The remaining parts of the architecture seems well-designed (more so than e.g. PIXOR), and thus VoxelNet seems like a reasonable candidate to extend in future work on LiDAR-only 3DOD. Could you e.g. extend the architecture to perform multi-class detection (shouldn't be too difficult right, just add more anchors and output classification scores instead of a single confidence score?)?
+
+I also think that their data augmentation scheme seems to make a lot of sense, could definitely be useful.
+```
 
 ##### [18-10-04] [paper10]
 - PIXOR: Real-time 3D Object Detection from Point Clouds [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_PIXOR_Real-Time_3D_CVPR_2018_paper.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PIXOR:%20Real-time%203D%20Object%20Detection%20from%20Point%20Clouds_.pdf)
