@@ -2016,7 +2016,7 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - *Shaoshuai Shi, Zhe Wang, Xiaogang Wang, Hongsheng Li*
 - `2019-07-08`
 ```
-
+Interesting and quite well-written paper. Same main authors as for the PointRCNN paper. The idea to use the intra-object point locations provided by the ground truth 3D bboxes as extra supervision makes a lot of sense, clever! In this paper, the bin-based losses from PointRCNN are NOT used.
 ```
 
 ##### [19-07-10] [paper59]
@@ -2024,15 +2024,15 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - *Shaoshuai Shi, Xiaogang Wang, Hongsheng Li*
 - `2018-12-11, CVPR 2019`
 ```
-
+Interesting and quite well-written paper. I think I like this approach to 3DOD. Directly processing the point cloud and generating proposals by classifying each point as foreground/background makes sense, is quite simple and seems to perform well. Their bin-based regression losses seem somewhat strange to me though.
 ```
 
 ##### [19-07-03] [paper58]
-- Objects as Points [[pdf]](https://arxiv.org/abs/1904.07850) [[code]](https://github.com/xingyizhou/CenterNet) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Objects%20as%20Points.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Objects%20as%20Points.md)
+- Objects as Points [[pdf]](https://arxiv.org/abs/1904.07850) [[code]](https://github.com/xingyizhou/CenterNet) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Objects%20as%20Points.pdf)
 - *Xingyi Zhou, Dequan Wang, Philipp Krähenbühl*
 - `2019-04-16`
 ```
-
+Quite well-written and interesting paper. Multiple objects (of the same class) having the same (low-resolution) center point is apparently not very common in MS-COCO, but is that true also in real life in automotive applications? And in these cases, would only detecting one of these objects be a major issue? I do not really know, I find it somewhat difficult to even visualize cases where multiple objects would share center points. It is an interesting point that this method essentially corresponds to anchor-based one-stage detectors, but with just one shape-agnostic anchor. Perhaps having multiple anchors per location is not super important then?
 ```
 
 ##### [19-06-12] [paper57]
@@ -2040,55 +2040,55 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - *Martin Danelljan, Goutam Bhat, Fahad Shahbaz Khan, Michael Felsberg*
 - `2018-11-19, CVPR 2019`
 ```
-
+Well-written and interesting paper. They employ the idea of IoU-Net in order to perform target estimation and thus improve tracking accuracy. Interesting that this idea seems to work well also in this case. The paper also gives a quite comprehensive introduction to visual object tracking in general, making the proposed method relatively easy to understand also for someone new to the field.
 ```
 
 ##### [19-06-12] [paper56]
-- Acquisition of Localization Confidence for Accurate Object Detection [[pdf]](https://arxiv.org/abs/1807.11590) [[code]](https://github.com/vacancy/PreciseRoIPooling) [[oral presentation]](https://youtu.be/SNCsXOFr_Ug) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Acquisition%20of%20Localization%20Confidence%20for%20Accurate%20Object%20Detection.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Acquisition%20of%20Localization%20Confidence%20for%20Accurate%20Object%20Detection.md)
+- Acquisition of Localization Confidence for Accurate Object Detection [[pdf]](https://arxiv.org/abs/1807.11590) [[code]](https://github.com/vacancy/PreciseRoIPooling) [[oral presentation]](https://youtu.be/SNCsXOFr_Ug) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Acquisition%20of%20Localization%20Confidence%20for%20Accurate%20Object%20Detection.pdf)
 - *Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, Yuning Jiang*
 - `2018-07-30, ECCV 2018`
 ```
-
+Interesting idea that intuitively makes a lot of sense, neat to see that it actually seems to work quite well. While the predicted IoU is a measure of "localization confidence", it is not an ideal measure of localization uncertainty. Having an estimated variance each for (x, y, w, h) would provide more information.
 ```
 
 ##### [19-06-05] [paper55]
-- LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving [[pdf]](https://arxiv.org/abs/1903.08701) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/LaserNet:%20An%20Efficient%20Probabilistic%203D%20Object%20Detector%20for%20Autonomous%20Driving.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/LaserNet:%20An%20Efficient%20Probabilistic%203D%20Object%20Detector%20for%20Autonomous%20Driving.md)
+- LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving [[pdf]](https://arxiv.org/abs/1903.08701) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/LaserNet:%20An%20Efficient%20Probabilistic%203D%20Object%20Detector%20for%20Autonomous%20Driving.pdf)
 - *Gregory P. Meyer, Ankit Laddha, Eric Kee, Carlos Vallespi-Gonzalez, Carl K. Wellington*
 - `2019-03-20, CVPR 2019`
 ```
-
+Quite well-written and interesting paper. It was however quite difficult to fully grasp their proposed method. I struggled to understand some steps of their method, it is e.g. not completely clear to me why both mean shift clustering and adaptive NMS has to be performed. I find the used probabilistic model somewhat strange. They say that "our proposed method is the first to capture the uncertainty of a detection by modeling the distribution of bounding box corners", but actually they just predict a single variance value per bounding box (at least when K=1, which is the case for pedestrians and bikes)? Overall, the method seems rather complicated. It is probably not the streamlined and intuitive 3DOD architecture I have been looking for.
 ```
 
 ##### [19-05-29] [paper54]
-- Attention Is All You Need [[pdf]](https://arxiv.org/abs/1706.03762) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Attention%20Is%20All%20You%20Need.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Attention%20Is%20All%20You%20Need.md)
+- Attention Is All You Need [[pdf]](https://arxiv.org/abs/1706.03762) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Attention%20Is%20All%20You%20Need.pdf)
 - *Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin*
 - `2017-06-12, NeurIPS 2017`
 ```
-
+Quite well-written paper. The proposed architecture was explained in a quite clear way, even for someone who is not super familiar with the field. Not too related to my particular research, but still a quite interesting paper. I also think that the proposed architecture, the Transformer, has been extensively used in subsequent state-of-the-art models (I remember seeing it mentioned in a few different papers)? This paper is thus probably a good background read for those interested in language modeling, translation etc.
 ```
 
 ##### [19-04-05] [paper53]
-- Stochastic Gradient Descent as Approximate Bayesian Inference [[pdf]](https://arxiv.org/abs/1704.04289) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stochastic%20Gradient%20Descent%20as%20Approximate%20Bayesian%20Inference.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Stochastic%20Gradient%20Descent%20as%20Approximate%20Bayesian%20Inference.md)
+- Stochastic Gradient Descent as Approximate Bayesian Inference [[pdf]](https://arxiv.org/abs/1704.04289) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stochastic%20Gradient%20Descent%20as%20Approximate%20Bayesian%20Inference.pdf)
 - *Stephan Mandt, Matthew D. Hoffman, David M. Blei*
 - `JMLR, 2017`
 ```
-
+Very well-written and quite interesting paper. Good background material on SGD, SG-MCMC and so on. It is however a relatively long paper (26 pages). It makes intuitive sense that running SGD with a constant learning rate will result in a sequence of iterates which first move toward a local minimum and then "bounces around" its vicinity. And, that this "bouncing around" thus should correspond to samples from some kind of stationary distribution, which depends on the learning rate, batch size and other hyper parameters. Trying to find the hyper parameters which minimize the KL divergence between this stationary distribution and the true posterior then seems like a neat idea. I am however not quite sure how reasonable the made assumptions are in more complex real-world problems. I am thus not quite sure how useful the specific proposed methods/formulas actually are.
 ```
 
 ##### [19-03-29] [paper52]
-- Generating High Fidelity Images with Subscale Pixel Networks and Multidimensional Upscaling [[pdf]](https://openreview.net/forum?id=HylzTiC5Km) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/GENERATING%20HIGH%20FIDELITY%20IMAGES%20WITH%20SUBSCALE%20PIXEL%20NETWORKS%20AND%20MULTIDIMENSIONAL%20UPSCALING.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Generating%20High%20Fidelity%20Images%20with%20Subscale%20Pixel%20Networks%20and%20Multidimensional%20Upscaling.md)
+- Generating High Fidelity Images with Subscale Pixel Networks and Multidimensional Upscaling [[pdf]](https://openreview.net/forum?id=HylzTiC5Km) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/GENERATING%20HIGH%20FIDELITY%20IMAGES%20WITH%20SUBSCALE%20PIXEL%20NETWORKS%20AND%20MULTIDIMENSIONAL%20UPSCALING.pdf)
 - *Jacob Menick, Nal Kalchbrenner*
 - `2018-12-04, ICLR 2019`
 ```
-
+Quite interesting paper. I do however think that the proposed method could be more clearly explained, the paper actually left me somewhat confused (I am however not particularly familiar with this specific sub-field). For e.g. the images in Figure 5, it is not clear to me how these are actually generated? Do you take a random image from ImageNet, choose a random slice of this image and then generate the image by size- and depth-upscaling? For training, I guess that they (for each image in the dataset) choose a random image slice, condition on the previous true image slices (according to their ordering), predict/generate the next image slice and compare this with the ground truth to compute an unbiased estimator of the NLL loss. But what do they do during evaluation? I.e., how are the NLL scores in Table 1-3 computed? The experimental results do not seem overly impressive/convincing to me.
 ```
 
 ##### [19-03-15] [paper51]
-- A recurrent neural network without chaos [[pdf]](https://arxiv.org/abs/1612.06212) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20recurrent%20neural%20network%20without%20chaos.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/A%20recurrent%20neural%20network%20without%20chaos.md)
+- A recurrent neural network without chaos [[pdf]](https://arxiv.org/abs/1612.06212) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20recurrent%20neural%20network%20without%20chaos.pdf)
 - *Thomas Laurent, James von Brecht*
 - `2016-12-19, ICLR 2017`
 ```
-
+Quite well-written and somewhat interesting paper. I note that their LSTM implementation consistently outperformed their proposed CFN, albeit with a small margin. Would be interesting to know if this architecture has been studied further since the release of this paper, can it match LSTM performance also on more complicated tasks?
 ```
 
 ##### [19-03-11] [paper50]
