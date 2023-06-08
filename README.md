@@ -2012,7 +2012,7 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - `2018-10-15, ICLR 2019`
 
 ##### [19-07-11] [paper60]
-- Part-A^2 Net: 3D Part-Aware and Aggregation Neural Network for Object Detection from Point Cloud [[pdf]](https://arxiv.org/abs/1907.03670) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Part-A%5E2%20Net:%203D%20Part-Aware%20and%20Aggregation%20Neural%20Network%20for%20Object%20Detection%20from%20Point%20Cloud.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Part-A%5E2%20Net:%203D%20Part-Aware%20and%20Aggregation%20Neural%20Network%20for%20Object%20Detection%20from%20Point%20Cloud.md)
+- Part-A^2 Net: 3D Part-Aware and Aggregation Neural Network for Object Detection from Point Cloud [[pdf]](https://arxiv.org/abs/1907.03670) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Part-A%5E2%20Net:%203D%20Part-Aware%20and%20Aggregation%20Neural%20Network%20for%20Object%20Detection%20from%20Point%20Cloud.pdf)
 - *Shaoshuai Shi, Zhe Wang, Xiaogang Wang, Hongsheng Li*
 - `2019-07-08`
 ```
@@ -2020,7 +2020,7 @@ Interesting and quite well-written paper. Same main authors as for the PointRCNN
 ```
 
 ##### [19-07-10] [paper59]
-- PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud [[pdf]](https://arxiv.org/abs/1812.04244) [[code]](https://github.com/sshaoshuai/PointRCNN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PointRCNN:%203D%20Object%20Proposal%20Generation%20and%20Detection%20from%20Point%20Cloud.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/PointRCNN:%203D%20Object%20Proposal%20Generation%20and%20Detection%20from%20Point%20Cloud.md)
+- PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud [[pdf]](https://arxiv.org/abs/1812.04244) [[code]](https://github.com/sshaoshuai/PointRCNN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PointRCNN:%203D%20Object%20Proposal%20Generation%20and%20Detection%20from%20Point%20Cloud.pdf)
 - *Shaoshuai Shi, Xiaogang Wang, Hongsheng Li*
 - `2018-12-11, CVPR 2019`
 ```
@@ -2036,7 +2036,7 @@ Quite well-written and interesting paper. Multiple objects (of the same class) h
 ```
 
 ##### [19-06-12] [paper57]
-- ATOM: Accurate Tracking by Overlap Maximization [[pdf]](https://arxiv.org/abs/1811.07628) [[code]](https://github.com/visionml/pytracking) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/ATOM:%20Accurate%20Tracking%20by%20Overlap%20Maximization.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/ATOM:%20Accurate%20Tracking%20by%20Overlap%20Maximization.md)
+- ATOM: Accurate Tracking by Overlap Maximization [[pdf]](https://arxiv.org/abs/1811.07628) [[code]](https://github.com/visionml/pytracking) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/ATOM:%20Accurate%20Tracking%20by%20Overlap%20Maximization.pdf)
 - *Martin Danelljan, Goutam Bhat, Fahad Shahbaz Khan, Michael Felsberg*
 - `2018-11-19, CVPR 2019`
 ```
