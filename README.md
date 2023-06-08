@@ -2115,104 +2115,328 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - Noisy Natural Gradient as Variational Inference [[pdf]](https://arxiv.org/abs/1712.02390) [[video]](https://youtu.be/bWItvHYqKl8) [[code]](https://github.com/pomonam/NoisyNaturalGradient) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noisy%20Natural%20Gradient%20as%20Variational%20Inference.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Noisy%20Natural%20Gradient%20as%20Variational%20Inference.md)
 - *Guodong Zhang, Shengyang Sun, David Duvenaud, Roger Grosse*
 - `2017-12-06, ICML 2018`
+```
+
+```
 
 ##### [19-02-06] [paper39]
 - Probabilistic Backpropagation for Scalable Learning of Bayesian Neural Networks [[pdf]](https://arxiv.org/abs/1502.05336) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%20Backpropagation%20for%20Scalable%20Learning%20of%20Bayesian%20Neural%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Probabilistic%20Backpropagation%20for%20Scalable%20Learning%20of%20Bayesian%20Neural%20Networks.md)
 - *José Miguel Hernández-Lobato, Ryan P. Adams*
 - `2015-07-15, ICML 2015`
+```
+
+```
 
 ##### [19-02-05] [paper38]
 - Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models [[pdf]](https://arxiv.org/abs/1805.12114) [[poster]](https://kchua.github.io/misc/poster.pdf) [[video]](https://youtu.be/3d8ixUMSiL8) [[code]](https://github.com/kchua/handful-of-trials) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Reinforcement%20Learning%20in%20a%20Handful%20of%20Trials%20using%20Probabilistic%20Dynamics%20Models.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Deep%20Reinforcement%20Learning%20in%20a%20Handful%20of%20Trials%20using%20Probabilistic%20Dynamics%20Models.md)
 - *Kurtland Chua, Roberto Calandra, Rowan McAllister, Sergey Levine*
 - `2018-05-30, NeurIPS 2018`
+```
+
+```
 
 ##### [19-01-28] [paper37]
 - Practical Variational Inference for Neural Networks [[pdf]](https://www.cs.toronto.edu/~graves/nips_2011.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Practical%20Variational%20Inference%20for%20Neural%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Practical%20Variational%20Inference%20for%20Neural%20Networks.md)
 - *Alex Graves*
 - `NeurIPS 2011`
+```
+
+```
 
 ##### [19-01-27] [paper36]
 - Weight Uncertainty in Neural Networks [[pdf]](https://arxiv.org/abs/1505.05424) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Weight%20Uncertainty%20in%20Neural%20Networks.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Weight%20Uncertainty%20in%20Neural%20Networks.md)
 - *Charles Blundell, Julien Cornebise, Koray Kavukcuoglu, Daan Wierstra*
 - `2015-05-20, ICML 2015`
+```
+
+```
 
 ##### [19-01-26] [paper35]
 - Learning Weight Uncertainty with Stochastic Gradient MCMC for Shape Classification [[pdf]](http://people.duke.edu/~cl319/doc/papers/dbnn_shape_cvpr.pdf)  [[poster]](https://zhegan27.github.io/Papers/dbnn_shape_poster.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Weight%20Uncertainty%20with%20Stochastic%20Gradient%20MCMC%20for%20Shape%20Classification.pdf) [[comments]](https://github.com/fregu856/papers/blob/master/summaries/Learning%20Weight%20Uncertainty%20with%20Stochastic%20Gradient%20MCMC%20for%20Shape%20Classification.md)
 - *Chunyuan Li, Andrew Stevens, Changyou Chen, Yunchen Pu, Zhe Gan, Lawrence Carin*
 - `CVPR 2016`
+```
+
+```
 
 ##### [19-01-25] [paper34]
 - Meta-Learning For Stochastic Gradient MCMC [[pdf]](https://openreview.net/forum?id=HkeoOo09YX) [[code]](https://github.com/WenboGong/MetaSGMCMC) [[slides]](http://yingzhenli.net/home/pdf/uai_udl_meta_sampler.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Meta-Learning%20For%20Stochastic%20Gradient%20MCMC.pdf)
 - *Wenbo Gong, Yingzhen Li, José Miguel Hernández-Lobato*
 - `2018-10-28, ICLR 2019`
+```
+
+```
 
 ##### [19-01-25] [paper33]
 -  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.md)
 - *Yi-An Ma, Tianqi Chen, Emily B. Fox*
 - `2015-06-15, NeurIPS 2015`
+```
+
+```
 
 ##### [19-01-24] [paper32]
 - Tutorial: Introduction to Stochastic Gradient Markov Chain Monte Carlo Methods [[pdf]](https://cse.buffalo.edu/~changyou/PDF/sgmcmc_intro_without_video.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Tutorial:%20Introduction%20to%20Stochastic%20Gradient%20Markov%20Chain%20Monte%20Carlo%20Methods.pdf)
 - *Changyou Chen*
 - `2016-08-10`
+```
+
+```
 
 ##### [19-01-24] [paper31]
 - An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling [[pdf]](https://arxiv.org/abs/1803.01271) [[code]](https://github.com/locuslab/TCN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Empirical%20Evaluation%20of%20Generic%20Convolutional%20and%20Recurrent%20Networks%20for%20Sequence%20Modeling.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/An%20Empirical%20Evaluation%20of%20Generic%20Convolutional%20and%20Recurrent%20Networks%20for%20Sequence%20Modeling.md)
 - *Shaojie Bai, J. Zico Kolter, Vladlen Koltun*
 - `2018-04-19`
+```
+
+```
 
 ##### [19-01-23] [paper30]
 - Stochastic Gradient Hamiltonian Monte Carlo [[pdf]](https://arxiv.org/abs/1402.4102) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stochastic%20Gradient%20Hamiltonian%20Monte%20Carlo.pdf)
 - *Tianqi Chen, Emily B. Fox, Carlos Guestrin*
 - `2014-05-12, ICML 2014`
+```
+Interesting paper.
+```
 
 ##### [19-01-23] [paper29]
 - Bayesian Learning via Stochastic Gradient Langevin Dynamics [[pdf]](https://www.ics.uci.edu/~welling/publications/papers/stoclangevin_v6.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Learning%20via%20Stochastic%20Gradient%20Langevin%20Dynamics.pdf)
 - *Max Welling, Yee Whye Teh*
 - `ICML 2011`
+```
+Interesting paper.
+```
 
 ##### [19-01-17] [paper28]
-- How Does Batch Normalization Help Optimization? [[pdf]](https://arxiv.org/abs/1805.11604) [[poster]](http://people.csail.mit.edu/tsipras/batchnorm_poster.pdf) [[video]](https://youtu.be/ZOabsYbmBRM) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20Does%20Batch%20Normalization%20Help%20Optimization%3F.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/How%20Does%20Batch%20Normalization%20Help%20Optimization%3F.md)
+- How Does Batch Normalization Help Optimization? [[pdf]](https://arxiv.org/abs/1805.11604) [[poster]](http://people.csail.mit.edu/tsipras/batchnorm_poster.pdf) [[video]](https://youtu.be/ZOabsYbmBRM) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20Does%20Batch%20Normalization%20Help%20Optimization%3F.pdf)
 - *Shibani Santurkar, Dimitris Tsipras, Andrew Ilyas, Aleksander Madry*
 - `2018-10-27, NeurIPS 2018`
+```
+General comments on paper quality:
+Quite well-written and interesting paper. A recommended read if you have ever been given the explanation that batch normalization works because it reduces the internal covariate shift.
+
+
+Paper overview:
+The abstract summarizes the paper very well:
+
+"Batch Normalization (BatchNorm) is a widely adopted technique that enables faster and more stable training of deep neural networks (DNNs). Despite its pervasiveness, the exact reasons for BatchNorm's effectiveness are still poorly understood. The popular belief is that this effectiveness stems from controlling the change of the layers' input distributions during training to reduce the so-called "internal covariate shift". In this work, we demonstrate that such distributional stability of layer inputs has little to do with the success of BatchNorm. Instead, we uncover a more fundamental impact of BatchNorm on the training process: it makes the optimization landscape significantly smoother. This smoothness induces a more predictive and stable behavior of the gradients, allowing for faster training."
+"In this work, we have investigated the roots of BatchNorm’s effectiveness as a technique for training deep neural networks. We find that the widely believed connection between the performance of BatchNorm and the internal covariate shift is tenuous, at best. In particular, we demonstrate that existence of internal covariate shift, at least when viewed from the - generally adopted – distributional stability perspective, is not a good predictor of training performance. Also, we show that, from an optimization viewpoint, BatchNorm might not be even reducing that shift."
+
+"Instead, we identify a key effect that BatchNorm has on the training process: it reparametrizes the underlying optimization problem to make it more stable (in the sense of loss Lipschitzness) and smooth (in the sense of “effective” β-smoothness of the loss). This implies that the gradients used in training are more predictive and well-behaved, which enables faster and more effective optimization."
+
+"We also show that this smoothing effect is not unique to BatchNorm. In fact, several other natural normalization strategies have similar impact and result in a comparable performance gain."
+
+
+Comments:
+It has never been clear to me how/why batch normalization works, I even had to remove all BatchNorm layers in an architecture once to get the model to train properly. Thus, I definitely appreciate this type of investigation.
+
+It is somewhat unclear to me how general the presented theoretical results actually are.
+```
 
 ##### [19-01-09] [paper27]
-- Relaxed Softmax: Efficient Confidence Auto-Calibration for Safe Pedestrian Detection [[pdf]](https://openreview.net/forum?id=S1lG7aTnqQ) [[poster]](http://www.robots.ox.ac.uk/~vgg/publications/2018/Neumann18c/poster.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Relaxed%20Softmax:%20Efficient%20Confidence%20Auto-Calibration%20for%20Safe%20Pedestrian%20Detection.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Relaxed%20Softmax:%20Efficient%20Confidence%20Auto-Calibration%20for%20Safe%20Pedestrian%20Detection.md)
+- Relaxed Softmax: Efficient Confidence Auto-Calibration for Safe Pedestrian Detection [[pdf]](https://openreview.net/forum?id=S1lG7aTnqQ) [[poster]](http://www.robots.ox.ac.uk/~vgg/publications/2018/Neumann18c/poster.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Relaxed%20Softmax:%20Efficient%20Confidence%20Auto-Calibration%20for%20Safe%20Pedestrian%20Detection.pdf)
 - *Lukas Neumann, Andrew Zisserman, Andrea Vedaldi*
 - `2018-11-29, NeurIPS 2018 Workshop`
+```
+General comments on paper quality:
+Reasonably well-written paper. I'm not entirely convinced of the usefulness of the proposed method.
+
+
+Paper overview:
+The authors study pedestrian object detectors and evaluate the quality of their confidence score estimates using reliability diagrams (and related metrics, e.g. Expected Calibration Error). They find that a SOTA detector produces significantly over-confident predictions, i.e., that the obtained accuracy for predictions in any given confidence score interval is lower than the associated confidence score.
+
+To mitigate this problem, they propose a simple modification of the standard softmax layer, called relaxed softmax. Instead of having the network output logits z in R^{K} and computing the probability vector softmax(z) (also in R^{K}), the network instead outputs (z, alpha), where alpha > 0, and the probability vector is computed as softmax(alpha*z). Relaxed softmax is inspired by temperature scaling.
+
+For quantitative evaluation, they use Expected Calibration Error, Average Calibration Error (like ECE, but each bin is assigned an equal weight) and Maximum Calibration Error. They compare softmax, softmax + temperature scaling, softmax + linear scaling (similar to temperature scaling), relaxed softmax and relaxed softmax + linear scaling. They utilize two datasets: Caltech and NightOwls (models are trained on the train sets, linear scaling and temperature scaling are tuned on the val sets, and all metrics are computed on the test sets).
+
+On Caltech, relaxed softmax + linear scaling gives the best calibration metrics, ahead of softmax + temperature scaling. On NightOwl, relaxed softmax is the winner, just ahead of relaxed softmax + linear scaling. The relaxed softmax methods also achieve somewhat worse miss rate metrics (13.26% versus 10.17% on Caltech, I'm not sure how significant of a decrease that actually is).
+
+
+Comments:
+Quite interesting paper, but I am not fully convinced. For example, I find it odd that relaxed softmax beats softmax + temperature scaling on NightOwl but not on Caltech.
+
+It might be that I am missing something, but I also struggle to understand some of their explanations and arguments, e.g. in the final paragraph of section 3.2. I am not quite sure if the network-outputted scale alpha actually does what they say it does.
+```
 
 #### Papers Read in 2018:
 
 ##### [18-12-12] [paper26]
-- Neural Ordinary Differential Equations [[pdf]](https://arxiv.org/abs/1806.07366) [[code]](https://github.com/rtqichen/torchdiffeq) [[slides]](https://www.cs.toronto.edu/~duvenaud/talks/ode-talk-google.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Ordinary%20Differential%20Equations.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Neural%20Ordinary%20Differential%20Equations.md)
+- Neural Ordinary Differential Equations [[pdf]](https://arxiv.org/abs/1806.07366) [[code]](https://github.com/rtqichen/torchdiffeq) [[slides]](https://www.cs.toronto.edu/~duvenaud/talks/ode-talk-google.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Ordinary%20Differential%20Equations.pdf)
 - *Ricky T. Q. Chen, Yulia Rubanova, Jesse Bettencourt, David Duvenaud*
 - `2018-10-22, NeurIPS 2018`
 - [[Neural ODEs]](#neural-odes)
+```
+General comments on paper quality:
+Reasonably well-written but very interesting paper. The examples could have been more thoroughly explained, it feels like the authors probably struggled to stay within the page limit.
+
+
+Paper overview:
+The authors introduce a new family of deep neural networks by using black-box ODE solvers as a model component.
+
+Instead of specifying a discrete sequence of hidden layers by: h_{t+1} = h_t + f(h_t, theta_t), where f is some neural network architecture, they interpret these iterative updates as an Euler discretization/approximation of the corresponding continuous dynamics and directly specify this ODE: dh(t)/dt = f(h(t), theta). To compute gradients, they use the adjoint method, which essentially entails solving a second, augmented ODE backwards in time.
+
+For example, if you remove the final ReLU layer, do not perform any down-sampling and have the same number of input- and output channels, a residual block in ResNet specifies a transformation precisely of the kind h_{t+1} = h_t + f(h_t, theta_t). Instead of stacking a number of these residual blocks, one could thus directly parameterize the corresponding ODE, dh(t)/dt = f(h(t), theta), and use an ODE solver to obtain h(T) as your output.
+
+When empirically evaluating this approach on MNIST, they find that the model using one ODEBlock instead of 6 ResBlocks achieves almost identical test accuracy, while using fewer parameters (parameters for just one block instead of six).
+
+The authors also apply their approach to density estimation and time-series modeling, but I chose to focus mainly on the ResNet example.
+
+
+Comments:
+Very interesting idea. Would be interesting to attempt to implement e.g. a ResNet101 using this approach. I guess one could try and keep the down-sampling layers, but otherwise replace layer1 - layer4 with one ODEBlock each?
+
+It is however not at all clear to me how well this approach would scale to large-scale problems. Would it become too slow? Or would you lose accuracy/performance? Or would the training perhaps even become unstable? Definitely an interesting idea, but much more empirical evaluation is needed.
+```
 
 ##### [18-12-06] [paper25]
-- Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.md)
+- Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.pdf)
 - *Jishnu Mukhoti, Yarin Gal*
 - `2018-11-30`
+```
+General comments on paper quality:
+Quite well-written and interesting paper. Not particularly heavy to read.
+
+
+Paper overview:
+The authors present three metrics designed to evaluate and compare different Bayesian DL methods for the task of semantic segmentation (i.e., models which also output pixel-wise uncertainty estimates).
+
+They train DeepLabv3+ using both MC-dropout (apply dropout also during inference, run multiple forward passes to obtain M samples, compute the sample mean and variance) and Concrete dropout ("a modification of the MC-dropout method where the network tunes the dropout rates as part of the optimization process"), and then compare these two methods on Cityscapes using their suggested metrics. They thus hope to provide quantitative benchmarks which can be used for future comparisons.
+
+Their three presented metrics are (higher values are better):
+
+p(accurate | certain) = n_a_c/(n_a_c + n_i_c).
+p(uncertain | inaccurate) = n_i_u/(n_i_c + n_i_u).
+PAvPU = (n_a_c + n_i_u)/(n_a_c + n_a_u + n_i_c + n_i_u)
+Where:
+n_a_c: number of accurate and certain patches.
+n_a_u: number of accurate and uncertain patches.
+n_i_c: number of inaccurate and certain patches.
+n_i_u: number of inaccurate and uncertain patches.
+They compute these metrics on patches of size 4x4 pixels (I didn't quite get their reasoning for why this makes more sense than studying this pixel-wise), where a patch is defined as accurate if more than 50% of the pixels in the patch are correctly classified. Similarly, a patch is defined as uncertain if its average pixel-wise uncertainty is above a given threshold. They set this uncertainty threshold to the average uncertainty value on Cityscapes val (which I found somewhat strange, since they then also do all of their evaluations on Cityscapes val).
+
+They found that MC-dropout outperformed concrete dropout with respect to all three metrics.
+
+
+Comments:
+The intended contribution is great, we definitely need to define metrics which can be used to benchmark different uncertainty estimating models. I am not 100% happy with the presentation of their suggested metrics though:
+What would be the ideal values for these metrics?
+Can the metrics be ranked in terms of importance?
+What is the "best" value for the uncertainty threshold, and how should it be chosen?
+```
 
 ##### [18-12-05] [paper24]
-- On Calibration of Modern Neural Networks [[pdf]](https://arxiv.org/abs/1706.04599) [[code]](https://github.com/gpleiss/temperature_scaling) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20Calibration%20of%20Modern%20Neural%20Networks.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/On%20Calibration%20of%20Modern%20Neural%20Networks.md)
+- On Calibration of Modern Neural Networks [[pdf]](https://arxiv.org/abs/1706.04599) [[code]](https://github.com/gpleiss/temperature_scaling) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20Calibration%20of%20Modern%20Neural%20Networks.pdf)
 - *Chuan Guo, Geoff Pleiss, Yu Sun, Kilian Q. Weinberger*
 - `2017-08-03, ICML 2017`
+```
+General comments on paper quality:
+Well-written and quite interesting paper. Not a particularly heavy read.
+
+
+Paper overview:
+The authors study the concept of confidence calibration in classification models. A model is said to be calibrated (or well-calibrated) if the confidence score corresponding to its prediction actually is representative of the true correctness likelihood, i.e., if the model outputs a confidence score of 0.75 for 1000 examples, roughly 750 of those should be correctly classified by the model.
+
+They empirically find that modern neural networks (e.g. ResNets) usually are poorly calibrated, outputting overconfident predictions (whereas old networks, e.g. LeNet, usually were well-calibrated). They e.g. find that while increasing network depth or width often improves the classification accuracy, it also has a negative effect on model calibration.
+
+The authors then describe a few post-processing methods designed to improve model calibration, all of which require a validation set (you fix the network weights, learn to modify the outputted confidence score based on the validation set and then hope for the model to stay well-calibrated also on the test set). They also introduce a very simple calibration method, named temperature scaling, in which you learn (optimize on the validation set) a single scalar T, which is used to scale the logits z outputted by the model (new_conf_score = max_k{softmax(z/T)_k}).
+
+They compare these calibration methods on six different image classification datasets (e.g. ImageNet and CIFAR100) and 4 document classification datasets, using different CNNs (e.g. ResNet and DenseNet). Surprising to the authors, they find the simple temperature scaling method to achieve the best overall performance (most well-calibrated confidence scores), often having a significant positive effect on calibration.
+
+
+Comments:
+Quite interesting paper, and the effectiveness of temperature scaling is actually quite impressive. Since the authors assume that the train, val and test sets are drawn from the same data distribution, it would however be interesting to evaluate the calibration also on out-of-distribution data. If we train a model on MNIST train, use temperature scaling on MNIST val (and thus obtain quite well-calibrated confidence scores on MNIST test), would it then also be more well-calibrated on e.g. notMNIST?
+```
 
 ##### [18-11-29] [paper23]
--  Evidential Deep Learning to Quantify Classification Uncertainty [[pdf]](https://arxiv.org/abs/1806.01768) [[poster]](https://muratsensoy.github.io/NIPS18_EDL_poster.pdf) [[code example]](https://muratsensoy.github.io/uncertainty.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evidential%20Deep%20Learning%20to%20Quantify%20Classification%20Uncertainty.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/Evidential%20Deep%20Learning%20to%20Quantify%20Classification%20Uncertainty.md)
+-  Evidential Deep Learning to Quantify Classification Uncertainty [[pdf]](https://arxiv.org/abs/1806.01768) [[poster]](https://muratsensoy.github.io/NIPS18_EDL_poster.pdf) [[code example]](https://muratsensoy.github.io/uncertainty.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evidential%20Deep%20Learning%20to%20Quantify%20Classification%20Uncertainty.pdf)
 - *Murat Sensoy, Lance Kaplan, Melih Kandemir*
 - `2018-10-31, NeurIPS 2018`
+```
+General comments on paper quality:
+Well-written and very interesting paper. I had to read it a couple of times to really start understanding everything though.
+
+
+Paper overview:
+The authors present a classification model in which they replace the standard softmax output layer with an output layer that outputs parameters of a Dirichlet distribution (resource1, resource2). I.e., they assume a Dirichlet output distribution, similar to Gast and Roth. The authors interpret the behavior of this predictor from an evidential reasoning / subjective logic perspective (two terms which I am unfamiliar with): "By placing a Dirichlet distribution on the class probabilities, we treat predictions of a neural net as subjective opinions and learn the function that collects the evidence leading to these opinions by a deterministic neural net from data".
+
+Instead of outputting just a point estimate of the class probabilities (the softmax scores), the network thus outputs the parameters of a distribution over the class probabilities (similar to how a network can output the parameters of a Gaussian instead of just a point estimate in the regression case).
+
+The only difference in network architecture is that they replace the softmax layer with a ReLU layer (to get non-negative values) to obtain e_1, ..., e_K (K is the number of classes). The parameters alpha_1, ..., alpha_K of the Dirichlet distribution is then set to alpha_i = e_i + 1 (which means alpha_i >= 1, i.e., they are restricting the set of Dirichlet distributions their model can predict? They are setting a maximum value for the variance?). Given this, the Dirichlet mean, alpha/S (S = sum(alpha_i)), is taken as the class probabilities estimate.
+
+The authors present three different possible loss functions (which are all different from the one used by Gast and Roth?), which all involve averaging over the predicted Dirichlet pdf, and choose one based on their empirical findings. They claim that this chosen loss corresponds to learned loss attenuation (but I struggle somewhat to actually see why that is so). They then also add a KL divergence term to this loss, penalizing divergence from a uniform distribution (which strikes me as somewhat ad hoc?).
+
+They train their model on MNIST (digits) and then evaluate on notMNIST (letters), expecting a large proportion of predictions to have maximum entropy (maximum uncertainty). They also do a similar experiment using CIFAR10, training on images of the first 5 classes and then evaluating on images of the remaining 5 classes.
+
+They compare their model with e.g. MC-dropout and Deep Ensembles, and find that their model achieves similar test set performance (on MNIST / the first 5 classes of CIFAR10), while producing significantly better uncertainty estimates (their model outputs maximum entropy predictions more frequently when being fed images of unseen classes).
+
+They also do an experiment with adversarial inputs, finding that their model has a similar drop in prediction accuracy, while being less confident in its predictions (which is a good thing, you don't want the model to become overconfident, i.e., misclassify inputs but still being confident in its predictions).
+
+
+Comments:
+Really interesting paper. It also made me go back and read Gast and Roth much more carefully.
+
+Just like I think it makes a lot of sense to assume a Gaussian/Laplacian output distribution in the regression case, it does intuitively seem reasonable to assume a Dirichlet output distribution in classification. As indicated by the fact that the authors and Gast and Roth choose different loss functions (and also estimate the Dirichlet parameters in different ways), it is however not at all as clear to me what actually should the best / most natural way of doing this.
+```
 
 ##### [18-11-22] [paper22]
--  A Probabilistic U-Net for Segmentation of Ambiguous Images [[pdf]](https://arxiv.org/abs/1806.05034) [[code]](https://github.com/SimonKohl/probabilistic_unet) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Probabilistic%20U-Net%20for%20Segmentation%20of%20Ambiguous%20Images.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/A%20Probabilistic%20U-Net%20for%20Segmentation%20of%20Ambiguous%20Images.md)
+-  A Probabilistic U-Net for Segmentation of Ambiguous Images [[pdf]](https://arxiv.org/abs/1806.05034) [[code]](https://github.com/SimonKohl/probabilistic_unet) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Probabilistic%20U-Net%20for%20Segmentation%20of%20Ambiguous%20Images.pdf)
 - *Simon A. A. Kohl, Bernardino Romera-Paredes, Clemens Meyer, Jeffrey De Fauw, Joseph R. Ledsam, Klaus H. Maier-Hein, S. M. Ali Eslami, Danilo Jimenez Rezende, Olaf Ronneberger*
 - `2018-10-29, NeurIPS 2018`
+```
+General comments on paper quality:
+Well-written and interesting paper.
+
+
+Paper overview:
+The authors present a model for semantic image segmentation designed to produce a set of diverse but plausible/consistent segmentations. The model is intended for domains in which it is difficult to assign a unique ground truth segmentation mask to any given input image (there is some ambiguity), as in e.g. some medical imaging applications where it is standard practice to have a group of graders label each image (and the graders might produce quite different looking segmentations).
+
+The model is a combination of a standard U-Net and a Conditional Variational Auto-Encoder (CVAE). The CVAE encodes the input image into a low-dimensional latent space (they use N=6), and a random sample from this space is injected into the final block of the U-Net to produce a corresponding segmentation mask.
+
+A prior-net (essentially the U-Net encoder) takes the image as input and outputs mu_prior, sigma_prior (both in R^N) for a Gaussian (SIGMA = diag(sigma)) in the latent space. To sample z from the latent space, they simply sample from this Gaussian. The sample z in R^N is broadcasted to an N-channel feature map and concatenated with the last feature map of the U-Net. This new feature map is then processed by three 1x1 convolutions to map it to the number of classes (the feature map has the same spatial size as the input image). To output M segmentation masks, one thus only has to sample z_1, ..., z_M and follow the above procedure (prior-net and the U-Net only have to be evaluated once).
+
+During training, each image - label pair (X, Y) is taken as input to a posterior-net (essentially the U-Net encoder) which outputs mu_post, sigma_post for a Gaussian in the latent space. A sample z is drawn from this Gaussian, the corresponding segmentation mask is produced (same procedure as above) and then compared with the label Y using the standard cross-entropy loss. To this loss we also add a KL loss term which penalizes differences between the posterior-net and prior-net Gaussians (the prior net only takes the image X as input).
+
+They evaluate their method on two different datasets:
+
+LIDC-IDRI, a medical dataset for lung abnormalities segmentation in which each lung CT scan has been independently labeled by four experts (each image has four corresponding ground truth labels, i.e., there is inherent ambiguity).
+A modified version of Cityscapes. They here manually inject ambiguity into the dataset by e.g. changing the class "sidewalk" to "sidewalk2" (a class created by the authors) with some probability. They do this for 5 original classes, and thus end up with 2^5=32 possible modes with probabilities ranging from 10.9% to 0.5% (a given input image could thus correspond to any of these 32 modes, they have manually created some ambiguity).
+Since they are not interested in comparing a deterministic prediction with a unique ground truth, but rather in comparing distributions of segmentations, they use a non-standard performance metric across their experiments.
+
+They compare their method to number of baselines (a U-Net with MC-dropout, an ensemble of U-Nets, a U-Net with multiple heads) (same number of forward passes / ensemble networks / heads as the number of samples from the latent space), and basically find that their method outperforms all of them with respect to their performance metric.
+
+
+Comments:
+Interesting paper.
+
+The method is mainly intended for the medical imaging domain, where I definitely can see why you might want a model that outputs a set of plausible segmentations which then can be further analyzed by medical professionals. For autonomous driving however, I guess what you ultimately want is just the most likely prediction and, crucially, the corresponding uncertainty of this prediction. Can we extract this from the proposed method?
+
+If we take the mean of the prior-net Gaussian as our sample, I guess we would produce the most likely segmentation? And I guess sigma of this Gaussian is then a measure of the corresponding uncertainty? How about uncertainty estimates for the pixel-wise predictions, could you extract those as well somehow? Just treat the M maps of predicted class scores like you would when using MC-dropout or ensembles (e.g. take the sample variance as a measure of the epistemic uncertainty), or could you get this directly from the Gaussian?
+
+Also, would this method not at all work if you only have one ground truth label per image?
+```
 
 ##### [18-11-22] [paper21]
-- When Recurrent Models Don't Need To Be Recurrent (a.k.a. Stable Recurrent Models) [[pdf]](https://arxiv.org/abs/1805.10369) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/When%20Recurrent%20Models%20Don%E2%80%99t%20Need%20To%20Be%20Recurrent.pdf) [[summary]](https://github.com/fregu856/papers/blob/master/summaries/When%20Recurrent%20Models%20Don't%20Need%20To%20Be%20Recurrent.md)
+- When Recurrent Models Don't Need To Be Recurrent (a.k.a. Stable Recurrent Models) [[pdf]](https://arxiv.org/abs/1805.10369) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/When%20Recurrent%20Models%20Don%E2%80%99t%20Need%20To%20Be%20Recurrent.pdf)
 - *John Miller, Moritz Hardt*
 - `2018-05-29, ICLR 2019`
+```
+General comments on paper quality:
+Reasonably well-written and somewhat interesting paper. I do not think it is intended for publication in any conference/journal.
+
+
+Paper overview:
+The authors present a number of theorems, proving that stable Recurrent Neural Networks (RNNs) can be well-approximated by standard feed-forward networks. Moreover, if gradient descent succeeds in training a stable RNN, it will also succeed in training the corresponding feed-forward model. I.e., stable recurrent models do not actually need to be recurrent (which can be very convenient, since feed-forward models usually are easier and less computationally expensive to train).
+
+For a vanilla RNN, h_t = rho(Wh_{t-1} + Ux_t), stability corresponds to requiring ||W|| < 1/L_rho (L_rho is the Lipschitz constant of rho).
+
+You construct the corresponding feed-forward model approximation by moving over the input sequence with a sliding window of length k, producing an output every time the window advances by one step (auto-regressive model).
+
+They show that stable recurrent models effectively do not have a long-term memory, and relate this to the concept of vanishing gradients (if the gradients of a recurrent model quickly vanish, then it could be well-approximated by a feed-forward model, even though the model was not explicitly constrained to be stable?).
+
+
+Comments:
+I find it difficult to judge how significant the presented results actually are, I think you need to be more familiar with the latest research within RNNs to properly appreciate the paper.
+```
 
 ##### [18-11-16] [paper20]
 - Uncertainty Estimates and Multi-Hypotheses Networks for Optical Flow [[pdf]](https://arxiv.org/abs/1802.07095) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimates%20and%20Multi-Hypotheses%20Networks%20for%20Optical%20Flow_.pdf)
