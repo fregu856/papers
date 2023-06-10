@@ -1443,7 +1443,7 @@ Well-written and quite interesting paper. The general idea, refining frame-by-fr
 - Hierarchical VAEs Know What They Don't Know
  [[pdf]](https://arxiv.org/abs/2102.08248) [[code]](https://github.com/JakobHavtorn/hvae-oodd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20VAEs%20Know%20What%20They%20Don't%20Know.pdf)
 - *Jakob D. Havtorn, Jes Frellsen, Søren Hauberg, Lars Maaløe*
-- `2021-02-16, ICML 2021`
+- `ICML 2021`
 - [Uncertainty Estimation], [VAEs]
 ```
 Very well-written and quite interesting paper, I enjoyed reading it. Everything is quite well-explained, it's relatively easy to follow. The paper provides a good overview of the out-of-distribution detection problem and current methods.
@@ -2119,7 +2119,7 @@ Very well-written, VERY useful. VERY good general introduction to latent variabl
 ##### [19-11-22] [paper65]
 - Learning Latent Dynamics for Planning from Pixels [[pdf]](https://arxiv.org/abs/1811.04551) [[code]](https://github.com/google-research/planet) [[blog]](https://ai.googleblog.com/2019/02/introducing-planet-deep-planning.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Latent%20Dynamics%20for%20Planning%20from%20Pixels.pdf)
 - *Danijar Hafner, Timothy Lillicrap, Ian Fischer, Ruben Villegas, David Ha, Honglak Lee, James Davidson*
-- ` ICML 2019`
+- `ICML 2019`
 - [Reinforcement Learning]
 ```
 Well-written and interesting paper! Very good introduction to the entire field of model-based RL I feel like. Seems quite odd to me that they spend an entire page on "Latent overshooting", but then don't actually use it for their RSSM model? It's not entirely clear to me how this approach differs from "Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models" (PETS), apart from the fact that PETS actually has access to the state (so, they don't need to apply VAE stuff to construct a latent state representation). The provided code seems like it could be very useful. Is it easy to use? The model seems to train on just 1 GPU in just 1 day anyway, which is good.
