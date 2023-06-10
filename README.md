@@ -181,7 +181,7 @@ Quite well-written and quite interesting paper. I did not really have the backgr
 ##### [23-03-16] [paper284]
 - Why AI is Harder Than We Think
  [[pdf]](https://arxiv.org/abs/2104.12871) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Why%20AI%20is%20Harder%20Than%20We%20Think.pdf)
-- `2021-04`
+- `GECCO 2021`
 ```
 Interesting and well-written paper. A bit different than the papers I usually read, but in a good way. I enjoyed reading it and it made me think.
 ```
@@ -216,7 +216,7 @@ Well-written and interesting paper. The method is simple and makes intuitive sen
 ##### [23-03-10] [paper280]
 - Rethinking Out-of-distribution (OOD) Detection: Masked Image Modeling is All You Need
  [[pdf]](https://arxiv.org/abs/2302.02615) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Rethinking%20Out-of-distribution%20(OOD)%20Detection:%20Masked%20Image%20Modeling%20is%20All%20You%20Need.pdf)
-- `2023-02`
+- `CVPR 2023`
 - [Out-of-Distribution Detection]
 ```
 Quite interesting, but not overly well-written paper. I don't like the "... is all you need" title, and they focus too much on selling how their method beats SOTA (Figure 1 does definitely not illustrate the performance difference in a fair way).
@@ -333,7 +333,7 @@ Quite well-written and somewhat interesting paper. Short (~4 pages) and a very q
 ##### [23-03-02] [paper267]
 - Denoising Diffusion Models for Out-of-Distribution Detection
  [[pdf]](https://arxiv.org/abs/2211.07740) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Denoising%20Diffusion%20Models%20for%20Out-of-Distribution%20Detection.pdf)
-- `2022-11`
+- `CVPR Workshops 2023`
 - [Out-of-Distribution Detection], [Diffusion Models]
 ```
 Well-written and interesting paper, I enjoyed reading it. Very similar to "Unsupervised Out-of-Distribution Detection with Diffusion Inpainting" (reconstruction-based OOD detection using diffusion models), but using a slightly different approach. The related work is described in a really nice way, and they compare with very relevant baselines it seems. Promising performance in the experiments.
@@ -396,7 +396,7 @@ Quite interesting and well-written paper, not a topic that I personally find ove
 ##### [23-02-16] [paper260]
 - Neural Networks Trained with SGD Learn Distributions of Increasing Complexity
  [[pdf]](https://arxiv.org/abs/2211.11567) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Networks%20Trained%20with%20SGD%20Learn%20Distributions%20of%20Increasing%20Complexity.pdf)
-- `2022-11`
+- `ICML 2023`
 - [Theoretical Properties of Deep Learning]
 ```
 Interesting paper. I would have needed a bit more time to read it though, felt like I didn't quite have enough time to properly understand everything and evaluate the significance of the findings. Might have to go back to this paper again.
@@ -413,7 +413,7 @@ Somewhat interesting, but quite odd paper. I was quite confused by multiple part
 ##### [23-02-01] [paper258]
 - Everything is Connected: Graph Neural Networks
  [[pdf]](https://arxiv.org/abs/2301.08210) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Everything%20is%20Connected:%20Graph%20Neural%20Networks.pdf)
-- `2023-01`
+- `Current Opinion in Structural Biology, 2023`
 - [Graph Neural Networks]
 ```
 Quite interesting and well-written paper. A short survey, took just ~40 min to read. Not overly interesting, but a quite enjoyable read. Section 4, with the connection to transformers, is quite interesting.
@@ -661,7 +661,7 @@ Well-written and quite interesting paper. I was not particularly familiar with t
 ##### [22-06-28] [paper230]
 - Aleatoric and Epistemic Uncertainty with Random Forests
  [[pdf]](https://arxiv.org/abs/2001.00893) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Aleatoric%20and%20Epistemic%20Uncertainty%20with%20Random%20Forests.pdf)
-- `2020-01`
+- `2020-01, IDA 2020`
 - [Uncertainty Estimation]
 ```
 Quite well-written and somewhat interesting paper. 
@@ -756,7 +756,7 @@ Somewhat interesting paper. Image and text classification. The general problem s
 ##### [22-04-06] [paper219]
 - Uncalibrated Models Can Improve Human-AI Collaboration
  [[pdf]](https://arxiv.org/abs/2202.05983) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncalibrated%20Models%20Can%20Improve%20Human-AI%20Collaboration.pdf)
-- `2022-02`
+- `2022-02, NeurIPS 2022`
 - [Medical ML]
 ```
 Quite interesting paper. Sort of thought-provoking, an interesting perspective. I was not exactly convinced in the end though. It seems weird to me that they don't even use an ML model to provide the advice, but instead use the average response of another group of human participants. Because this means that, like they write in Section 6, the average advice accuracy is higher than the average human accuracy. So, if the advice is better than the human participants, we just want to push the human predictions towards the advice? And therefore it's beneficial to increase the confidence of the advice (and thus make it uncalibrated), because this will make more humans actually change their prediction and align it more with the advice? I might miss something here, but this sort of seems a bit trivial?
@@ -818,7 +818,7 @@ Quite well-written, but somewhat confusing paper. The experiment in Table 1 seem
 ##### [22-03-30] [paper212]
 - Self-Distribution Distillation: Efficient Uncertainty Estimation
  [[pdf]](https://arxiv.org/abs/2203.08295) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Self-Distribution%20Distillation:%20Efficient%20Uncertainty%20Estimation.pdf)
-- `2022-03`
+- `2022-03, UAI 2022`
 - [Uncertainty Estimation], [Out-of-Distribution Detection]
 ```
 Quite well-written and somewhat interesting paper. Only consider image classification. Their method in Figure 1 is in a way more interesting than I first realized, it's not entirely clear to me why this would improve performance compared to just training a model with the standard cross-entropy loss, their method induces some type of beneficial regularization? I didn't quite get the method described in Section 4.1.
@@ -889,7 +889,7 @@ Well-written and quite interesting paper. I didn't take the time to try and real
 ##### [22-03-08] [paper204]
 - Selective Regression Under Fairness Criteria
  [[pdf]](https://arxiv.org/abs/2110.15403) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Selective%20Regression%20Under%20Fairness%20Criteria.pdf)
-- `2021-10`
+- `2021-10, ICML 2022`
 - [Uncertainty Estimation], [Selective Prediction]
 ```
 Well-written and somewhat interesting paper. Gives a pretty good introduction to the fair regression problem, Section 2 is very well-written. Quite interesting that it can be the case that while overall performance improves with decreased coverage, the performance for a minority sub-group is degraded. I didn't quite follow everything in Section 5, the methods seem a bit niche. I'm not overly impressed by the experiments either.
