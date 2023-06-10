@@ -1785,7 +1785,7 @@ Quite well-written and somewhat interesting paper. Interesting paper in the sens
 ##### [20-09-04] [paper103]
 - Denoising Diffusion Probabilistic Models [[pdf]](https://arxiv.org/abs/2006.11239) [[code]](https://github.com/hojonathanho/diffusion) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Denoising%20Diffusion%20Probabilistic%20Models.pdf)
 - *Jonathan Ho, Ajay Jain, Pieter Abbeel*
-- `20-06-19`
+- `2020-06-19, NeurIPS 2020`
 - [[Energy-Based Models]](#energy-based-models)
 ```
 Quite well-written and interesting paper. I do find the connection between "diffusion probabilistic models" and denoising score matching relatively interesting. Since I was not familiar with diffusion probabilistic models, the paper was however a quite heavy read, and the established connection didn't really improve my intuition (reading Generative Modeling by Estimating Gradients of the Data Distribution gave a better understanding of score matching, I think).
@@ -1838,7 +1838,7 @@ Somewhat well-written and interesting paper. Somewhat odd paper, I did not prope
 ##### [20-04-17] [paper97]
 - How Good is the Bayes Posterior in Deep Neural Networks Really? [[pdf]](https://arxiv.org/abs/2002.02405) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20Good%20is%20the%20Bayes%20Posterior%20in%20Deep%20Neural%20Networks%20Really%3F.pdf)
 - *Florian Wenzel, Kevin Roth, Bastiaan S. Veeling, Jakub Świątkowski, Linh Tran, Stephan Mandt, Jasper Snoek, Tim Salimans, Rodolphe Jenatton, Sebastian Nowozin*
-- `2020-02-06`
+- `2020-02-06, ICML 2020`
 - [[Uncertainty Estimation]](#uncertainty-estimation) [[Stochastic Gradient MCMC]](#stochastic-gradient-mcmc)
 ```
 Somewhat well-written and interesting paper. Quite odd paper. They refer to the appendix a whole lot, this work is not really suited for an 8 page paper IMO. They present a bunch of hypotheses, but I do not quite know what to do with the results in the end. The paper is rather inconclusive. I found it somewhat odd that they only evaluate the methods in terms of predictive performance, that is usually not the reason why people turn to Bayesian deep learning models.
@@ -1856,7 +1856,7 @@ Well-written and quite interesting paper. Does a good job describing different n
 ##### [20-04-03] [paper95]
 - Normalizing Flows: An Introduction and Review of Current Methods [[pdf]](https://arxiv.org/abs/1908.09257) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Normalizing%20Flows:%20An%20Introduction%20and%20Review%20of%20Current%20Methods.pdf)
 - *Ivan Kobyzev, Simon Prince, Marcus A. Brubaker*
-- `2019-08-25`
+- `2019-08-25, TPAMI, 2021`
 - [[Normalizing Flows]](#normalizing-flows)
 ```
 Quite well-written and somewhat interesting paper. The paper is probably too short for it to actually fulfill the goal of "provide context and explanation to enable a reader to become familiar with the basics". It seems to me like one would have to have a pretty good understanding of normalizing flows, and various common variants, already beforehand to actually benefit much from this paper.
@@ -1882,7 +1882,7 @@ Interesting and somewhat well-written paper. I found it quite difficult to actua
 ##### [20-03-09] [paper92]
 - Batch Normalization Biases Deep Residual Networks Towards Shallow Paths [[pdf]](https://arxiv.org/abs/2002.10444) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Batch%20Normalization%20Biases%20Deep%20Residual%20Networks%20Towards%20Shallow%20Path.pdf)
 - *Soham De, Samuel L. Smith*
-- `2020-02-24`
+- `2020-02-24, NeurIPS 2020`
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning) 
 ```
 Quite well-written and somewhat interesting paper. The fact that SkipInit enabled training of very deep networks without batchNorm is quite interesting. I don't think I fully understood absolutely everything.
@@ -1891,7 +1891,7 @@ Quite well-written and somewhat interesting paper. The fact that SkipInit enable
 ##### [20-02-28] [paper91]
 - Bayesian Deep Learning and a Probabilistic Perspective of Generalization [[pdf]](https://arxiv.org/abs/2002.08791) [[code]](https://github.com/izmailovpavel/understandingbdl) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Deep%20Learning%20and%20a%20Probabilistic%20Perspective%20of%20Generalization.pdf)
 - *Andrew Gordon Wilson, Pavel Izmailov*
-- `2020-02-20`
+- `2020-02-20, NeurIPS 2020`
 - [[Uncertainty Estimation]](#uncertainty-estimation) [[Ensembling]](#ensembling) 
 ```
 Quite interesting and somewhat well-written paper. While I did find the paper quite interesting, I also found it somewhat confusing overall. The authors touch upon many different concepts, and the connection between them is not always very clear. It it not quite clear what the main selling point of the paper is. Comparing ensembling with MultiSWAG does not really seem fair to me, as MultiSWAG would be 20x slower at test-time. The fact that MultiSWA (note: MultiSWA, not MultiSWAG) seems to outperform ensembling quite consistently in their experiment is however quite interesting, it is not obvious to me why that should be the case.
@@ -1909,7 +1909,7 @@ Quite interesting and well-written paper. Took me a pretty long time to read thi
 ##### [20-02-18] [paper89]
 - Probabilistic 3D Multi-Object Tracking for Autonomous Driving [[pdf]](https://arxiv.org/abs/2001.05673) [[code]](https://github.com/eddyhkchiu/mahalanobis_3d_multi_object_tracking) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%203D%20Multi-Object%20Tracking%20for%20Autonomous%20Driving.pdf)
 - *Hsu-kuang Chiu, Antonio Prioletti, Jie Li, Jeannette Bohg*
-- `2020-01-16`
+- `2020-01-16, ICRA 2021`
 - [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
 ```
 Interesting and well-written paper. They provide more details for the Kalman filter, which I appreciate. The design choices that differs compared to AB3DMOT all make sense I think (e.g., Mahalanobis distance instead of 3D-IoU as the affinity measure in the data association), but the gain in performance in Table 1 does not seem overly significant, at least not compared to the huge gain seen when switching to the MEGVII 3D detector in AB3DMOT.
@@ -1918,7 +1918,7 @@ Interesting and well-written paper. They provide more details for the Kalman fil
 ##### [20-02-15] [paper88]
 - A Baseline for 3D Multi-Object Tracking [[pdf]](https://arxiv.org/abs/1907.03961) [[code]](https://github.com/xinshuoweng/AB3DMOT) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Baseline%20for%203D%20Multi-Object%20Tracking.pdf)
 - *Xinshuo Weng, Kris Kitani*
-- `2019-07-09`
+- `2019-07-09, IROS 2020`
 - [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
 ```
 Well-written and interesting paper. Provides a neat introduction to 3D multi-object tracking in general, especially since the proposed method is intentionally straightforward and simple. It seems like a very good starting point. It is not clear to me exactly how the update step i in the Kalman filter is implemented? How did they set the covariance matrices? (I guess you could find this in the provided code though)
@@ -1972,7 +1972,7 @@ Somewhat interesting and well-written paper. Very theoretical paper compared to 
 ##### [20-01-20] [paper82]
 - A Connection Between Score Matching and Denoising Autoencoders [[pdf]](https://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport_1358.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Connection%20Between%20Score%20Matching%20and%20Denoising%20Autoencoders.pdf)
 - *Pascal Vincent*
-- `2010-12`
+- `2010-12, Neural Computation, 2011`
 - [[Energy-Based Models]](#energy-based-models)
 ```
 Quite well-written and interesting paper. The original paper for "denoising score matching", which it does a good job explaining. It also provides some improved understanding of score matching in general, and provides some quite interesting references for further reading.
@@ -2164,7 +2164,7 @@ Well-written and quite interesting paper. Interesting model, quite neat indeed h
 ##### [19-07-11] [paper60]
 - Part-A^2 Net: 3D Part-Aware and Aggregation Neural Network for Object Detection from Point Cloud [[pdf]](https://arxiv.org/abs/1907.03670) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Part-A%5E2%20Net:%203D%20Part-Aware%20and%20Aggregation%20Neural%20Network%20for%20Object%20Detection%20from%20Point%20Cloud.pdf)
 - *Shaoshuai Shi, Zhe Wang, Xiaogang Wang, Hongsheng Li*
-- `2019-07-08`
+- `2019-07-08, TPAMI, 2020`
 ```
 Interesting and quite well-written paper. Same main authors as for the PointRCNN paper. The idea to use the intra-object point locations provided by the ground truth 3D bboxes as extra supervision makes a lot of sense, clever! In this paper, the bin-based losses from PointRCNN are NOT used.
 ```
