@@ -1154,7 +1154,7 @@ Well-written and interesting paper. They synthetically create dataset shifts (e.
  [[pdf]](https://arxiv.org/abs/1910.02600) [[code]](https://github.com/aamini/evidential-deep-learning) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Evidential%20Regression.pdf)
 - *Alexander Amini, Wilko Schwarting, Ava Soleimany, Daniela Rus*
 - `2019-10-07, NeurIPS 2020`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+- [Uncertainty Estimation], [Out-of-Distribution Detection]
 ```
 Well-written and interesting paper. This is a good paper to read before "Natural Posterior Network: Deep Bayesian Predictive Uncertainty for Exponential Family Distributions". Their proposed method seems to have similar / slightly worse performance than a small ensemble, so the only real advantage is that it's faster at time-time? This is of course very important in many applications, but not in all. The performance also seems quite sensitive to the choice of lambda in the combined loss function (Equation (10)), according to Figure S2 in the appendix?
 ```
@@ -1164,7 +1164,7 @@ Well-written and interesting paper. This is a good paper to read before "Natural
  [[pdf]](https://arxiv.org/abs/2107.08785) [[code]](https://github.com/selflein/EBM-OOD-Detection) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20Out-of-distribution%20Detection%20with%20Energy-based%20Models.pdf)
 - *Sven Elflein, Bertrand Charpentier, Daniel Zügner, Stephan Günnemann*
 - `2021-07-03, ICML Workshops 2021`
-- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Energy-Based Models]](#energy-based-models)
+- [Out-of-Distribution Detection], [Energy-Based Models]
 ```
 Well-written and quite interesting paper. A short paper, just 4 pages. They don't study the method from the "Energy-based Out-of-distribution Detection" paper as I had expected, but it was still a quite interesting read. The results in Section 4.2 seem interesting, especially for experiment 3, but I'm not sure that I properly understand everything.
 ```
@@ -1174,7 +1174,7 @@ Well-written and quite interesting paper. A short paper, just 4 pages. They don'
  [[pdf]](https://openreview.net/forum?id=tV3N0DWMxCg) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Natural%20Posterior%20Network:%20Deep%20Bayesian%20Predictive%20Uncertainty%20for%20Exponential%20Family%20Distributions.pdf)
 - *Bertrand Charpentier, Oliver Borchert, Daniel Zügner, Simon Geisler, Stephan Günnemann*
 - `2021-09-29, ICLR 2022`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+- [Uncertainty Estimation], [Out-of-Distribution Detection]
 ```
 Interesting and well-written paper. I didn't quite understand all the details, I'll have to read a couple of related/background papers to be able to properly appreciate and evaluate the proposed method. I definitely feel like I would like to read up on this family of methods. Extensive experimental evaluation, and the results seem promising overall.
 ```
@@ -1184,7 +1184,7 @@ Interesting and well-written paper. I didn't quite understand all the details, I
  [[pdf]](https://arxiv.org/abs/2010.03759) [[code]](https://github.com/wetliu/energy_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Energy-based%20Out-of-distribution%20Detection.pdf)
 - *Weitang Liu, Xiaoyun Wang, John D. Owens, Yixuan Li*
 - `2020-10-08, NeurIPS 2020`
-- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Energy-Based Models]](#energy-based-models)
+- [Out-of-Distribution Detection], [Energy-Based Models]
 ```
 Interesting and well-written paper. The proposed method is quite clearly explained and makes intuitive sense (at least if you're familiar with EBMs). Compared to using the softmax score, the performance does seem to improve consistently. Seems like fine-tuning on an "auxiliary outlier dataset" is required to get really good performance though, which you can't really assume to have access to in real-world problems, I suppose?
 ```
@@ -1194,7 +1194,7 @@ Interesting and well-written paper. The proposed method is quite clearly explain
  [[pdf]](https://arxiv.org/abs/2202.01197) [[code]](https://github.com/deeplearning-wisc/vos) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VOS:%20Learning%20What%20You%20Don't%20Know%20by%20Virtual%20Outlier%20Synthesis.pdf)
 - *Xuefeng Du, Zhaoning Wang, Mu Cai, Yixuan Li*
 - `2022-02-02, ICLR 2022`
-- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+- [Out-of-Distribution Detection]
 ```
 Interesting and quite well-written paper. I did find it somewhat difficult to understand certain parts though, they could perhaps be explained more clearly. The results seem quite impressive (they do consistently outperform all baselines), but I find it interesting that the "Gaussian noise" baseline in Table 2 performs that well? I should probably have read "Energy-based Out-of-distribution Detection" before reading this paper.
 ```
@@ -1206,7 +1206,7 @@ Interesting and quite well-written paper. I did find it somewhat difficult to un
  [[pdf]](https://arxiv.org/abs/2111.00396) [[code]](https://github.com/HazyResearch/state-spaces) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Efficiently%20Modeling%20Long%20Sequences%20with%20Structured%20State%20Spaces.pdf)
 - *Albert Gu, Karan Goel, Christopher Ré*
 - `2021-10-31, ICLR 2022`
-- [[Sequence Modeling]](#sequence-modeling)
+- [Sequence Modeling]
 ```
 Very interesting and quite well-written paper. Kind of neat/fun to see state-space models being used. The experimental results seem very impressive!? I didn't fully understand everything in Section 3. I had to read Section 3.4 a couple of times to understand how the parameterization actually works in practice (you have H state-space models, one for each feature dimension, so that you can map a sequence of feature vectors to another sequence of feature vectors) (and you can then also have multiple such layers of state-space models, mapping sequence --> sequence --> sequence --> ....).
 ```
@@ -1216,7 +1216,7 @@ Very interesting and quite well-written paper. Kind of neat/fun to see state-spa
  [[pdf]](https://arxiv.org/abs/2110.13572) [[code]](https://github.com/AaltoML/PeriodicBNN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Periodic%20Activation%20Functions%20Induce%20Stationarity.pdf)
 - *Lassi Meronen, Martin Trapp, Arno Solin*
 - `2021-10-26, NeurIPS 2021`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+- [Uncertainty Estimation], [Out-of-Distribution Detection]
 ```
 Quite interesting and well-written paper. Quite a heavy read, probably need to be rather familiar with GPs to properly understand/appreciate everything. Definitely check Appendix D, it gives a better understanding of how the proposed method is applied in practice. I'm not quite sure how strong/impressive the experimental results actually are. Also seems like the method could be a bit inconvenient to implement/use?
 ```
@@ -1226,7 +1226,7 @@ Quite interesting and well-written paper. Quite a heavy read, probably need to b
  [[pdf]](https://arxiv.org/abs/2110.14019) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Reliable%20and%20Trustworthy%20Machine%20Learning%20for%20Health%20Using%20Dataset%20Shift%20Detection.pdf)
 - *Chunjong Park, Anas Awadalla, Tadayoshi Kohno, Shwetak Patel*
 - `2021-10-26, NeurIPS 2021`
-- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+- [Out-of-Distribution Detection], [Medical ML]
 ```
 Interesting and very well-written paper. Gives a good overview of the field and contains a lot of seemingly useful references. The evaluation is very comprehensive. The user study is quite neat.
 ```
@@ -1236,7 +1236,7 @@ Interesting and very well-written paper. Gives a good overview of the field and 
  [[pdf]](https://arxiv.org/abs/2106.03783) [[code]](https://github.com/mfederici/dsit) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Information-theoretic%20Approach%20to%20Distribution%20Shifts.pdf)
 - *Marco Federici, Ryota Tomioka, Patrick Forré*
 - `2021-06-07, NeurIPS 2021`
-- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+- [Theoretical Properties of Deep Learning]
 ```
 Quite well-written paper overall that seemed interesting, but I found it very difficult to properly understand everything. Thus, I can't really tell how interesting/significant their analysis actually is.
 ```
@@ -1246,7 +1246,7 @@ Quite well-written paper overall that seemed interesting, but I found it very di
  [[pdf]](https://arxiv.org/abs/2110.00218) [[code]](https://github.com/deeplearning-wisc/gradnorm_ood) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Importance%20of%20Gradients%20for%20Detecting%20Distributional%20Shifts%20in%20the%20Wild.pdf)
 - *Rui Huang, Andrew Geng, Yixuan Li*
 - `2021-10-01, NeurIPS 2021`
-- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+- [Out-of-Distribution Detection]
 ```
 Quite interesting and well-written paper. The experimental results do seem promising. However, I don't quite get why the proposed method intuitively makes sense, why is it better to only use the parameters of the final network layer?
 ```
@@ -1265,7 +1265,7 @@ Interesting and well-written paper. The proposed method is simple and makes a lo
  [[pdf]](https://arxiv.org/abs/2006.00555) [[code]](https://github.com/samiraabnar/Reflect) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transferring%20Inductive%20Biases%20through%20Knowledge%20Distillation.pdf)
 - *Samira Abnar, Mostafa Dehghani, Willem Zuidema*
 - `2020-05-31`
-- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+- [Theoretical Properties of Deep Learning]
 ```
 Quite well-written and somewhat interesting paper. I'm not very familiar with this area. I didn't spend too much time trying to properly evaluate the significance of the findings.
 ```
@@ -1275,7 +1275,7 @@ Quite well-written and somewhat interesting paper. I'm not very familiar with th
  [[pdf]](https://arxiv.org/abs/2110.02609#) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Classifiers%20with%20Label%20Noise%20Modeling%20and%20Distance%20Awareness.pdf)
 - *Vincent Fortuin, Mark Collier, Florian Wenzel, James Allingham, Jeremiah Liu, Dustin Tran, Balaji Lakshminarayanan, Jesse Berent, Rodolphe Jenatton, Effrosyni Kokiopoulou*
 - `2021-10-06, TMLR, 2022`
-- [[Uncertainty Estimation]](#uncertainty-estimation)
+- [Uncertainty Estimation]
 ```
 Quite interesting and well-written paper. I find the distance-awareness property more interesting than modelling of input/class-dependent label noise, so the proposed method (HetSNGP) is perhaps not overly interesting compared to the SNGP baseline.
 ```
@@ -1285,7 +1285,7 @@ Quite interesting and well-written paper. I find the distance-awareness property
  [[pdf]](https://mathai-iclr.github.io/papers/papers/MATHAI_29_paper.pdf) [[code]](https://github.com/openai/grok) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Grokking:%20Generalization%20Beyond%20Overfitting%20On%20Small%20Algorithmic%20Datasets.pdf)
 - *Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra*
 - `2021-05, ICLR Workshops 2021`
-- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+- [Theoretical Properties of Deep Learning]
 ```
 Somewhat interesting paper. The phenomena observed in Figure 1, that validation accuracy suddenly increases long after almost perfect fitting of the training data has been achieved is quite interesting. I didn't quite understand the datasets they use (binary operation tables).
 ```
@@ -1305,7 +1305,7 @@ Quite well-written and somewhat interesting paper. Cool application and a bunch 
  [[pdf]](https://arxiv.org/abs/2010.13938) [[code]](https://github.com/jchibane/ndf/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Unsigned%20Distance%20Fields%20for%20Implicit%20Function%20Learning.pdf)
 - *Julian Chibane, Aymen Mir, Gerard Pons-Moll*
 - `2020-10-26, NeurIPS 2020`
-- [[Implicit Neural Representations]](#implicit-neural-representations)
+- [Implicit Neural Representations]
 ```
 Interesting and very well-written paper, I really enjoyed reading it! The paper also gives a good understanding of neural implicit representations in general.
 ```
@@ -1315,7 +1315,7 @@ Interesting and very well-written paper, I really enjoyed reading it! The paper 
  [[pdf]](https://arxiv.org/abs/2103.10978) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%203D%20Human%20Shape%20and%20Pose%20Estimation%20from%20Multiple%20Unconstrained%20Images%20in%20the%20Wild.pdf)
 - *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
 - `2021-03-19, CVPR 2021`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 ```
 Well-written and quite interesting paper. I read it mainly as background for "Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild" which is written by exactly the same authors. In this paper, they predict a single Gaussian distribution for the pose (instead of hierarchical matrix-Fisher distributions). Also, they mainly focus on the body shape. They also use silhouettes + 2D keypoint heatmaps as input (instead of edge-filters + 2D keypoint heatmaps).
 ```
@@ -1325,7 +1325,7 @@ Well-written and quite interesting paper. I read it mainly as background for "Hi
  [[pdf]](https://arxiv.org/abs/2009.10013) [[code]](https://github.com/akashsengupta1997/STRAPS-3DHumanShapePose) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Synthetic%20Training%20for%20Accurate%203D%20Human%20Pose%20and%20Shape%20Estimation%20in%20the%20Wild.pdf)
 - *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
 - `2020-09-21, BMVC 2020`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 ```
 Well-written and farily interesting paper. I read it mainly as background for "Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild" which is written by exactly the same authors. In this paper, they just use direct regression. They also use silhouettes + 2D keypoint heatmaps as input (instead of edge-filters + 2D keypoint heatmaps).
 ```
@@ -1335,7 +1335,7 @@ Well-written and farily interesting paper. I read it mainly as background for "H
  [[pdf]](https://arxiv.org/abs/2108.10399) [[code]](https://github.com/sanweiliti/LEMO) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Motion%20Priors%20for%204D%20Human%20Body%20Capture%20in%203D%20Scenes.pdf)
 - *Siwei Zhang, Yan Zhang, Federica Bogo, Marc Pollefeys, Siyu Tang*
 - `2021-08-23, ICCV 2021`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 ```
 Well-written and quite interesting paper. I didn't fully understand everything though, and it feels like I probably don't know this specific setting/problem well enough to fully appreciate the paper. 
 ```
@@ -1345,7 +1345,7 @@ Well-written and quite interesting paper. I didn't fully understand everything t
  [[pdf]](https://arxiv.org/abs/2110.00990) [[code]](https://github.com/akashsengupta1997/HierarchicalProbabilistic3DHuman) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20Kinematic%20Probability%20Distributions%20for%203D%20Human%20Shape%20and%20Pose%20Estimation%20from%20Images%20in%20the%20Wild.pdf)
 - *Akash Sengupta, Ignas Budvytis, Roberto Cipolla*
 - `2021-10-03, ICCV 2021`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 ```
 Well-written and very interesting paper, I enjoyed reading it. The hierarchical distribution prediction approach makes sense and consistently outperforms the independent baseline. Using matrix-Fisher distributions makes sense. The synthetic training framework and the input representation of edge-filters + 2D keypoint heatmaps are both interesting.
 ```
@@ -1355,7 +1355,7 @@ Well-written and very interesting paper, I enjoyed reading it. The hierarchical 
  [[pdf]](https://arxiv.org/abs/2104.03866) [[code]](https://github.com/fabiotosi92/SMD-Nets) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SMD-Nets:%20Stereo%20Mixture%20Density%20Networks.pdf)
 - *Fabio Tosi, Yiyi Liao, Carolin Schmitt, Andreas Geiger*
 - `2021-04-08, CVPR 2021`
-- [[Uncertainty Estimation]](#uncertainty-estimation)
+- [Uncertainty Estimation]
 ```
 Well-written and interesting paper. Quite easy to read and follow, the method is clearly explained and makes intuitive sense.
 ```
@@ -1365,7 +1365,7 @@ Well-written and interesting paper. Quite easy to read and follow, the method is
  [[pdf]](https://arxiv.org/abs/2012.00619) [[code]](https://github.com/yz-cnsdqz/MOJO-release) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/We%20are%20More%20than%20Our%20Joints:%20Predicting%20how%203D%20Bodies%20Move.pdf)
 - *Yan Zhang, Michael J. Black, Siyu Tang*
 - `2020-12-01, CVPR 2021`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 ```
 Well-written and fairly interesting paper. The marker-based representation, instead of using skeleton joints, makes sense. The recursive projection scheme also makes sense, but seems very slow (2.27 sec/frame)? I didn't quite get all the details for their DCT representation of the latent space.
 ```
@@ -1375,7 +1375,7 @@ Well-written and fairly interesting paper. The marker-based representation, inst
  [[pdf]](https://arxiv.org/abs/2108.10842) [[code]](https://github.com/google-research/google-research/tree/master/imghum) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/imGHUM:%20Implicit%20Generative%20Models%20of%203D%20Human%20Shape%20and%20Articulated%20Pose.pdf)
 - *Thiemo Alldieck, Hongyi Xu, Cristian Sminchisescu*
 - `2021-08-24, ICCV 2021`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation) [[Implicit Neural Representations]](#implicit-neural-representations)
+- [3D Human Pose Estimation], [Implicit Neural Representations]
 ```
 Interesting and very well-written paper, I really enjoyed reading it. Interesting combination of implicit representations and 3D human modelling. The "inclusive human modelling" application is neat and important.
 ```
@@ -1385,7 +1385,7 @@ Interesting and very well-written paper, I really enjoyed reading it. Interestin
  [[pdf]](https://arxiv.org/abs/2012.05551) [[code]](https://github.com/huangjh-pub/di-fusion) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DI-Fusion:%20Online%20Implicit%203D%20Reconstruction%20with%20Deep%20Priors.pdf)
 - *Jiahui Huang, Shi-Sheng Huang, Haoxuan Song, Shi-Min Hu*
 - `2020-12-10, CVPR 2021`
-- [[Implicit Neural Representations]](#implicit-neural-representations)
+- [Implicit Neural Representations]
 ```
 Well-written and interesting paper, I enjoyed reading it. Neat application of implicit representations. The paper also gives a quite good overview of online 3D reconstruction in general.
 ```
@@ -1395,7 +1395,7 @@ Well-written and interesting paper, I enjoyed reading it. Neat application of im
  [[pdf]](https://arxiv.org/abs/1912.08521) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Contextually%20Plausible%20and%20Diverse%203D%20Human%20Motion%20Prediction.pdf)
 - *Sadegh Aliakbarian, Fatemeh Sadat Saleh, Lars Petersson, Stephen Gould, Mathieu Salzmann*
 - `2019-12-18, ICCV 2021`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 ```
 Well-written and quite interesting paper. The main idea, using a learned conditional prior p(z|c) instead of just p(z), makes sense and was shown beneficial also in "HuMoR: 3D Human Motion Model for Robust Pose Estimation". I'm however somewhat confused by their specific implementation in Section 4, doesn't seem like a standard cVAE implementation?
 ```
@@ -1405,7 +1405,7 @@ Well-written and quite interesting paper. The main idea, using a learned conditi
  [[pdf]](https://arxiv.org/abs/2003.08981) [[code]](https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/projects/local_implicit_grid) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Local%20Implicit%20Grid%20Representations%20for%203D%20Scenes.pdf)
 - *Chiyu Max Jiang, Avneesh Sud, Ameesh Makadia, Jingwei Huang, Matthias Nießner, Thomas Funkhouser*
 - `2020-03-19, CVPR 2020`
-- [[Implicit Neural Representations]](#implicit-neural-representations)
+- [Implicit Neural Representations]
 ```
 Well-written and quite interesting paper. Interesting application, being able to reconstruct full 3D scenes from sparse point clouds. I didn't fully understand everything, as I don't have a particularly strong graphics background.
 ```
@@ -1424,7 +1424,7 @@ Well-written and somewhat interesting paper overall. I'm not overly familiar wit
  [[pdf]](https://arxiv.org/abs/2109.02303) [[code]](https://github.com/ziniuwan/maed) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Encoder-decoder%20with%20Multi-level%20Attention%20for%203D%20Human%20Shape%20and%20Pose%20Estimation.pdf)
 - *Ziniu Wan, Zhengjia Li, Maoqing Tian, Jianbo Liu, Shuai Yi, Hongsheng Li*
 - `2021-09-06, ICCV 2021`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 ```
 Well-written and fairly interesting paper. Quite a lot of details on the attention architecture, which I personally don't find overly interesting. The experimental results are quite impressive, but I would like to see a comparison in terms of computational cost at test-time. It sounds like their method is rather slow.
 ```
