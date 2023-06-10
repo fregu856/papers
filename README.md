@@ -943,7 +943,7 @@ Interesting paper. I found it difficult to understand Section 2, I wouldn't real
 ##### [22-03-03] [paper198]
 - On the Practicality of Deterministic Epistemic Uncertainty
  [[pdf]](https://openreview.net/forum?id=W3-hiLnUYl) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Practicality%20of%20Deterministic%20Epistemic%20Uncertainty.pdf)
-- `2021-09`
+- `2021-09, ICML 2022`
 - [Uncertainty Estimation]
 ```
 Interesting and well-written paper. Their evaluation with the corrupted datasets makes sense I think. The results are interesting,  the fact that ensembling/MC-dropout consistently outperforms the other methods. Another reminder of how strong of a baseline ensembling is when it comes to uncertainty estimation? Also, I think that their proposed rAULC is more or less equivalent to AUSE (area under the sparsification error curve)?
@@ -1013,7 +1013,7 @@ Quite interesting and well-written paper. The definition of "prediction depth" i
 - UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomography
  [[pdf]](https://arxiv.org/abs/2202.10847) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/UncertaINR:%20Uncertainty%20Quantification%20of%20End-to-End%20Implicit%20Neural%20Representations%20for%20Computed%20Tomography.pdf)
 - *Francisca Vasconcelos, Bobby He, Nalini Singh, Yee Whye Teh*
-- `2022-02-22`
+- `2022-02-22, TMLR, 2023`
 - [[Implicit Neural Representations]](#implicit-neural-representations) [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
 ```
 Interesting and well-written paper. I wasn't very familiar with CT image reconstruction, but they do a good job explaining everything. Interesting that MC-dropout seems important for getting well-calibrated predictions.
@@ -1073,7 +1073,7 @@ Quite interesting and well-written paper. Only experiments on a toy 1D regressio
 - Does Your Dermatology Classifier Know What It Doesn't Know? Detecting the Long-Tail of Unseen Conditions
  [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S1361841521003194?via%3Dihub) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Does%20your%20dermatology%20classifier%20know%20what%20it%20doesn't%20know%3F%20Detecting%20the%20long-tail%20of%20unseen%20conditions.pdf)
 - *Abhijit Guha Roy, Jie Ren, Shekoofeh Azizi, Aaron Loh, Vivek Natarajan, Basil Mustafa, Nick Pawlowski, Jan Freyberg, Yuan Liu, Zach Beaver, Nam Vo, Peggy Bui, Samantha Winter, Patricia MacWilliams, Greg S. Corrado, Umesh Telang, Yun Liu, Taylan Cemgil, Alan Karthikesalingam, Balaji Lakshminarayanan, Jim Winkens*
-- `2021-04-08, Medical Image Analysis (January 2022)`
+- `2021-04-08, Medical Image Analysis, 2022`
 - [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
 ```
 Well-written and interesting paper. Quite long, so it took a bit longer than usual to read it. Section 1 and 2 gives a great overview of OOD detection in general, and how it can be used specifically in this dermatology setting. I can definitely recommend reading Section 2 (Related work). They assume access to some outlier data during training, so their approach is similar to the "Outlier exposure" method (specifically in this dermatology setting, they say that this is a fair assumption). Their method is an improvement of the "reject bucket" (add an extra class which you assign to all outlier training data points), in their proposed method they also use fine-grained classification of the outlier skin conditions. Then they also use an ensemble of 5 models, and also a more diverse ensemble (in which they combine models trained with different representation learning techniques). This diverse ensemble obtains the best performance.
@@ -1255,7 +1255,7 @@ Quite interesting and well-written paper. The experimental results do seem promi
 - Masked Autoencoders Are Scalable Vision Learners
  [[pdf]](https://arxiv.org/abs/2111.06377) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Masked%20Autoencoders%20Are%20Scalable%20Vision%20Learners.pdf)
 - *Kaiming He, Xinlei Chen, Saining Xie, Yanghao Li, Piotr Dollár, Ross Girshick*
-- `2021-11-11`
+- `2021-11-11, CVPR 2022`
 ```
 Interesting and well-written paper. The proposed method is simple and makes a lot of intuitive sense, which is rather satisfying. After page 4, there's mostly just detailed ablations and results.
 ```
@@ -1274,7 +1274,7 @@ Quite well-written and somewhat interesting paper. I'm not very familiar with th
 - Deep Classifiers with Label Noise Modeling and Distance Awareness
  [[pdf]](https://arxiv.org/abs/2110.02609#) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Classifiers%20with%20Label%20Noise%20Modeling%20and%20Distance%20Awareness.pdf)
 - *Vincent Fortuin, Mark Collier, Florian Wenzel, James Allingham, Jeremiah Liu, Dustin Tran, Balaji Lakshminarayanan, Jesse Berent, Rodolphe Jenatton, Effrosyni Kokiopoulou*
-- `2021-10-06`
+- `2021-10-06, TMLR, 2022`
 - [[Uncertainty Estimation]](#uncertainty-estimation)
 ```
 Quite interesting and well-written paper. I find the distance-awareness property more interesting than modelling of input/class-dependent label noise, so the proposed method (HetSNGP) is perhaps not overly interesting compared to the SNGP baseline.
@@ -1542,7 +1542,7 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - Exemplar Fine-Tuning for 3D Human Model Fitting Towards In-the-Wild 3D Human Pose Estimation
  [[pdf]](https://arxiv.org/abs/2004.03686) [[code]](https://github.com/facebookresearch/eft) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Exemplar%20Fine-Tuning%20for%203D%20Human%20Model%20Fitting%20Towards%20In-the-Wild%203D%20Human%20Pose%20Estimation.pdf)
 - *Hanbyul Joo, Natalia Neverova, Andrea Vedaldi*
-- `2020-04-07`
+- `2020-04-07, 3DV 2021`
 - [[3D Human Pose Estimation]](#3d-human-pose-estimation)
 
 ##### [21-06-17] [paper136]
@@ -1646,7 +1646,7 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 - Infinitely Deep Bayesian Neural Networks with Stochastic Differential Equations
  [[pdf]](https://arxiv.org/abs/2102.06559) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Infinitely%20Deep%20Bayesian%20Neural%20Networks%20with%20Stochastic%20Differential%20Equations.pdf)
 - *Winnie Xu, Ricky T.Q. Chen, Xuechen Li, David Duvenaud*
-- `2021-02-12`
+- `2021-02-12,AISTATS 2022`
 - [[Neural ODEs]](#neural-odes) [[Uncertainty Estimation]](#uncertainty-estimation)
 
 ##### [21-02-26] [paper121]
@@ -1742,7 +1742,7 @@ Very well-written and quite interesting paper. Gives a good understanding of the
 ##### [20-10-16] [paper108]
 - Implicit Gradient Regularization [[pdf]](https://arxiv.org/abs/2009.11162) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Implicit%20Gradient%20Regularization.pdf)
 - *David G.T. Barrett, Benoit Dherin*
-- `2020-09-23`
+- `2020-09-23,  ICLR 2021`
 - [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
 ```
 Well-written and somewhat interesting paper. Quite interesting concept, makes some intuitive sense. Not sure if the experimental results were super convincing though.
@@ -1777,7 +1777,7 @@ Well-written and quite interesting paper. Interesting and neat idea, it definite
 ##### [20-09-11] [paper104]
 - Gated Linear Networks [[pdf]](https://arxiv.org/abs/1910.01526) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gated%20Linear%20Networks.pdf)
 - *Joel Veness, Tor Lattimore, David Budden, Avishkar Bhoopchand, Christopher Mattern, Agnieszka Grabska-Barwinska, Eren Sezener, Jianan Wang, Peter Toth, Simon Schmitt, Marcus Hutter*
-- `2020-06-11`
+- `2020-06-11, AAAI 2021`
 ```
 Quite well-written and somewhat interesting paper. Interesting paper in the sense that it was quite different compared to basically all other papers I've read. The proposed method seemed odd in the beginning, but eventually I think I understood it reasonably well. Still not quite sure how useful GLNs actually would be in practice though. It seems promising for online/continual learning applications, but only toy examples were considered in the paper? I don't think I understand the method well enough to properly assess its potential impact.
 ```
