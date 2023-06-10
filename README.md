@@ -2284,7 +2284,7 @@ Well-written and interesting paper. It is however a quite theoretical paper, and
 ##### [19-02-22] [paper45]
 - Fine-Grained Analysis of Optimization and Generalization for Overparameterized Two-Layer Neural Networks [[pdf]](https://arxiv.org/abs/1901.08584) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Fine-Grained%20Analysis%20of%20Optimization%20and%20Generalization%20for%20Overparameterized%20Two-Layer%20Neural%20Networks.pdf)
 - *Sanjeev Arora, Simon S. Du, Wei Hu, Zhiyuan Li, Ruosong Wang*
-- `2019-01-24`
+- `2019-01-24, ICML 2019`
 ```
 Somewhat interesting paper that is quite theoretical. I found it to be a rather heavy read, and I did not fully understand absolutely everything. I did not quite get why they fix the weights a_i of the second layer? They use gradient descent (GD) instead of SGD, could you obtain similar results also for SGD? I think that I probably did not understand the paper well enough to really be able to judge how significant/interesting the presented results actually are. How restrictive are their assumptions? In what way / to what extent could these results be of practical use in real-world applications? The reference section seems like a pretty neat resource for previous work on characterization of NN loss landscapes etc.
 ```
@@ -2300,7 +2300,7 @@ Interesting and quite well-written paper. I think that the paper is a good intro
 ##### [19-02-14] [paper43]
 -  A Simple Baseline for Bayesian Uncertainty in Deep Learning [[pdf]](https://arxiv.org/abs/1902.02476) [[code]](https://github.com/wjmaddox/swa_gaussian) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Simple%20Baseline%20for%20Bayesian%20Uncertainty%20in%20Deep%20Learning.pdf)
 - *Wesley Maddox, Timur Garipov, Pavel Izmailov, Dmitry Vetrov, Andrew Gordon Wilson*
-- `2019-02-07`
+- `2019-02-07, NeurIPS 2019`
 ```
 Quite well-written and interesting paper. I am not quite sure how I feel about the proposed method though. It seems somewhat odd to me to first fit a Gaussian approximation to samples from the SGD trajectory and then draw new samples from this Gaussian to use for Bayesian model averaging. Why not just directly use some of those SGD samples for model averaging instead? Am I missing something here? Also, in SG-MCMC we have to (essentially) add Gaussian noise to the SGD update and decay the learning rate to obtain samples from the true posterior in the infinite limit. I am thus somewhat confused by the theoretical analysis in this paper. I would have liked to see a comparison with basic ensembling. In section C.5 they write that SWAG usually performs somewhat worse than deep ensembles, but that this is OK since SWAG is much faster to train. "Thus SWAG will be particularly valuable when training time is limited, but inference time may not be.", when is this actually true? It makes intuitive sense that this method will generate parameter samples with some variance (instead of just a single point estimate) and thus also provide some kind of estimate of the model uncertainty. However, it is not really theoretically grounded in any significant way, at least not more than e.g. ensembling. The most interesting experiment for which they provide reliability diagrams is IMO CIFAR-10 --> STL-10. I note that even the best model still is quite significantly over-confident in this case. I really liked their version of reliability diagrams. Makes it easy to compare multiple methods in a single plot.
 ```
@@ -2308,7 +2308,7 @@ Quite well-written and interesting paper. I am not quite sure how I feel about t
 ##### [19-02-13] [paper42]
 -  Cyclical Stochastic Gradient MCMC for Bayesian Deep Learning [[pdf]](https://arxiv.org/abs/1902.03932) [[code]](https://github.com/ruqizhang/csgmcmc) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Cyclical%20Stochastic%20Gradient%20MCMC%20for%20Bayesian%20Deep%20Learning.pdf)
 - *Ruqi Zhang, Chunyuan Li, Jianyi Zhang, Changyou Chen, Andrew Gordon Wilson*
-- `2019-02-11`
+- `2019-02-11, ICLR 2020`
 ```
 Well-written and VERY interesting paper (I did find a few typos though). Very interesting method. I have however done some experiments using their code, and I find that samples from the same cycle produce very similar predictions. Thus I am somewhat skeptical that the method actually is significantly better than snapshot-ensembling, or just regular ensembling for that matter. The results in table 3 do seem to suggest that there is something to gain from collecting more than just one sample per cycle though, right? I need to do more experiments and investigate this further. Must admit that I struggled to understand much of section 4, I am thus not really sure how impressive their theoretical results actually are.
 ```
@@ -2906,7 +2906,7 @@ I always find these kind of papers interesting as they try to improve our unders
 ##### [18-10-19] [paper14]
 - Uncertainty in Neural Networks: Bayesian Ensembling [[pdf]](https://arxiv.org/abs/1810.05546) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20in%20Neural%20Networks:%20Bayesian%20Ensembling_.pdf)
 - *Tim Pearce, Mohamed Zaki, Alexandra Brintrup, Andy Neel*
-- `2018-10-12`
+- `2018-10-12, AISTATS 2020`
 ```
 General comments on paper quality:
 Well-written and interesting paper. Compares different ensembling techniques and techniques for approximate Bayesian inference in neural networks.
@@ -3183,7 +3183,7 @@ I probably need to do some more reading on the background material to fully unde
 ##### [18-09-25] [paper5]
 - Deep Confidence: A Computationally Efficient Framework for Calculating Reliable Errors for Deep Neural Networks [[pdf]](https://arxiv.org/abs/1809.09060) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Confidence:%20A%20Computationally%20Efficient%20Framework%20for%20Calculating%20Reliable%20Errors%20for%20Deep%20Neural%20Networks.pdf)
 - *Isidro Cortes-Ciriano, Andreas Bender*
-- `2018-09-24`
+- `2018-09-24, Journal of Chemical Information and Modeling, 2019`
 ```
 General comments on paper quality:
 Unfamiliar paper formatting (written by authors from a different field), but actually a well-written and interesting paper. The methods are quite clearly explained.
@@ -3216,7 +3216,7 @@ And if so, I suppose it doesn't really matter that the network in a sense is sti
 ##### [18-09-25] [paper4]
 - Leveraging Heteroscedastic Aleatoric Uncertainties for Robust Real-Time LiDAR 3D Object Detection [[pdf]](https://arxiv.org/abs/1809.05590) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Leveraging%20Heteroscedastic%20Aleatoric%20Uncertainties%20for%20Robust%20Real-Time%20LiDAR%203D%20Object%20Detection_.pdf)
 - *Di Feng, Lars Rosenbaum, Fabian Timm, Klaus Dietmayer*
-- `2018-09-14`
+- `2018-09-14, IEEE Intelligent Vehicles Symposium 2019`
 ```
 General comments on paper quality:
 Fairly well-written paper. I did find a couple of typos though, and some concepts could definitely have been more carefully and clearly explained.
