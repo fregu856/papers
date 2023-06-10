@@ -2401,6 +2401,7 @@ The MNIST models are only evaluated in terms of accuracy. The regression experim
 - Learning Weight Uncertainty with Stochastic Gradient MCMC for Shape Classification [[pdf]](http://people.duke.edu/~cl319/doc/papers/dbnn_shape_cvpr.pdf)  [[poster]](https://zhegan27.github.io/Papers/dbnn_shape_poster.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Weight%20Uncertainty%20with%20Stochastic%20Gradient%20MCMC%20for%20Shape%20Classification.pdf)
 - *Chunyuan Li, Andrew Stevens, Changyou Chen, Yunchen Pu, Zhe Gan, Lawrence Carin*
 - `CVPR 2016`
+- [Uncertainty Estimation], [Stochastic Gradient MCMC]
 ```
 Quite interesting and well-written paper. Quite an easy read compared to many other SG-MCMC papers. I find it weird that they only evaluate their models in terms of accuracy. It is of course a good thing that SG-MCMC methods seem to compare favorably with optimization approaches, but I would have been more interested in an evaluation of some kind of uncertainty estimate (e.g. the sample variance). The studied applications are not overly interesting, the paper seems somewhat dated in that regard.
 ```
@@ -2409,6 +2410,7 @@ Quite interesting and well-written paper. Quite an easy read compared to many ot
 - Meta-Learning For Stochastic Gradient MCMC [[pdf]](https://openreview.net/forum?id=HkeoOo09YX) [[code]](https://github.com/WenboGong/MetaSGMCMC) [[slides]](http://yingzhenli.net/home/pdf/uai_udl_meta_sampler.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Meta-Learning%20For%20Stochastic%20Gradient%20MCMC.pdf)
 - *Wenbo Gong, Yingzhen Li, José Miguel Hernández-Lobato*
 - `2018-10-28, ICLR 2019`
+- [Uncertainty Estimation], [Stochastic Gradient MCMC]
 ```
 Fairly interesting paper.
 ```
@@ -2417,6 +2419,7 @@ Fairly interesting paper.
 -  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.pdf)
 - *Yi-An Ma, Tianqi Chen, Emily B. Fox*
 - `2015-06-15, NeurIPS 2015`
+- [Uncertainty Estimation], [Stochastic Gradient MCMC]
 ```
 General comments on paper quality:
 Well-written and very interesting paper. After reading the papers on SGLD and SGHMC, this paper ties the theory together and provides a general framework for SG-MCMC.
@@ -2448,6 +2451,7 @@ If the posterior distribution is a simple bowl, like in the right part of figure
 - Tutorial: Introduction to Stochastic Gradient Markov Chain Monte Carlo Methods [[pdf]](https://cse.buffalo.edu/~changyou/PDF/sgmcmc_intro_without_video.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Tutorial:%20Introduction%20to%20Stochastic%20Gradient%20Markov%20Chain%20Monte%20Carlo%20Methods.pdf)
 - *Changyou Chen*
 - `2016-08-10`
+- [Uncertainty Estimation], [Stochastic Gradient MCMC]
 ```
 Quite interesting.
 ```
@@ -2456,6 +2460,7 @@ Quite interesting.
 - An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling [[pdf]](https://arxiv.org/abs/1803.01271) [[code]](https://github.com/locuslab/TCN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Empirical%20Evaluation%20of%20Generic%20Convolutional%20and%20Recurrent%20Networks%20for%20Sequence%20Modeling.pdf)
 - *Shaojie Bai, J. Zico Kolter, Vladlen Koltun*
 - `2018-04-19`
+- [Sequence Modeling]
 ```
 General comments on paper quality:
 Well-written and interesting paper.
@@ -2481,6 +2486,7 @@ Interesting paper that challenges the viewpoint of RNN models being the default 
 - Stochastic Gradient Hamiltonian Monte Carlo [[pdf]](https://arxiv.org/abs/1402.4102) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stochastic%20Gradient%20Hamiltonian%20Monte%20Carlo.pdf)
 - *Tianqi Chen, Emily B. Fox, Carlos Guestrin*
 - `2014-05-12, ICML 2014`
+- [Uncertainty Estimation], [Stochastic Gradient MCMC]
 ```
 Interesting paper.
 ```
@@ -2489,6 +2495,7 @@ Interesting paper.
 - Bayesian Learning via Stochastic Gradient Langevin Dynamics [[pdf]](https://www.ics.uci.edu/~welling/publications/papers/stoclangevin_v6.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Learning%20via%20Stochastic%20Gradient%20Langevin%20Dynamics.pdf)
 - *Max Welling, Yee Whye Teh*
 - `ICML 2011`
+- [Uncertainty Estimation], [Stochastic Gradient MCMC]
 ```
 Interesting paper.
 ```
@@ -2497,6 +2504,7 @@ Interesting paper.
 - How Does Batch Normalization Help Optimization? [[pdf]](https://arxiv.org/abs/1805.11604) [[poster]](http://people.csail.mit.edu/tsipras/batchnorm_poster.pdf) [[video]](https://youtu.be/ZOabsYbmBRM) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20Does%20Batch%20Normalization%20Help%20Optimization%3F.pdf)
 - *Shibani Santurkar, Dimitris Tsipras, Andrew Ilyas, Aleksander Madry*
 - `2018-10-27, NeurIPS 2018`
+- [Theoretical Properties of Deep Learning]
 ```
 General comments on paper quality:
 Quite well-written and interesting paper. A recommended read if you have ever been given the explanation that batch normalization works because it reduces the internal covariate shift.
@@ -2523,6 +2531,7 @@ It is somewhat unclear to me how general the presented theoretical results actua
 - Relaxed Softmax: Efficient Confidence Auto-Calibration for Safe Pedestrian Detection [[pdf]](https://openreview.net/forum?id=S1lG7aTnqQ) [[poster]](http://www.robots.ox.ac.uk/~vgg/publications/2018/Neumann18c/poster.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Relaxed%20Softmax:%20Efficient%20Confidence%20Auto-Calibration%20for%20Safe%20Pedestrian%20Detection.pdf)
 - *Lukas Neumann, Andrew Zisserman, Andrea Vedaldi*
 - `2018-11-29, NeurIPS 2018 Workshop`
+- [Uncertainty Estimation]
 ```
 General comments on paper quality:
 Reasonably well-written paper. I'm not entirely convinced of the usefulness of the proposed method.
@@ -2578,6 +2587,7 @@ It is however not at all clear to me how well this approach would scale to large
 - Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.pdf)
 - *Jishnu Mukhoti, Yarin Gal*
 - `2018-11-30`
+- [Uncertainty Estimation]
 ```
 General comments on paper quality:
 Quite well-written and interesting paper. Not particularly heavy to read.
@@ -2614,6 +2624,7 @@ What is the "best" value for the uncertainty threshold, and how should it be cho
 - On Calibration of Modern Neural Networks [[pdf]](https://arxiv.org/abs/1706.04599) [[code]](https://github.com/gpleiss/temperature_scaling) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20Calibration%20of%20Modern%20Neural%20Networks.pdf)
 - *Chuan Guo, Geoff Pleiss, Yu Sun, Kilian Q. Weinberger*
 - `2017-08-03, ICML 2017`
+- [Uncertainty Estimation]
 ```
 General comments on paper quality:
 Well-written and quite interesting paper. Not a particularly heavy read.
@@ -2637,6 +2648,7 @@ Quite interesting paper, and the effectiveness of temperature scaling is actuall
 -  Evidential Deep Learning to Quantify Classification Uncertainty [[pdf]](https://arxiv.org/abs/1806.01768) [[poster]](https://muratsensoy.github.io/NIPS18_EDL_poster.pdf) [[code example]](https://muratsensoy.github.io/uncertainty.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evidential%20Deep%20Learning%20to%20Quantify%20Classification%20Uncertainty.pdf)
 - *Murat Sensoy, Lance Kaplan, Melih Kandemir*
 - `2018-10-31, NeurIPS 2018`
+- [Uncertainty Estimation]
 ```
 General comments on paper quality:
 Well-written and very interesting paper. I had to read it a couple of times to really start understanding everything though.
@@ -2668,6 +2680,7 @@ Just like I think it makes a lot of sense to assume a Gaussian/Laplacian output 
 -  A Probabilistic U-Net for Segmentation of Ambiguous Images [[pdf]](https://arxiv.org/abs/1806.05034) [[code]](https://github.com/SimonKohl/probabilistic_unet) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Probabilistic%20U-Net%20for%20Segmentation%20of%20Ambiguous%20Images.pdf)
 - *Simon A. A. Kohl, Bernardino Romera-Paredes, Clemens Meyer, Jeffrey De Fauw, Joseph R. Ledsam, Klaus H. Maier-Hein, S. M. Ali Eslami, Danilo Jimenez Rezende, Olaf Ronneberger*
 - `2018-10-29, NeurIPS 2018`
+- [Uncertainty Estimation]
 ```
 General comments on paper quality:
 Well-written and interesting paper.
@@ -2705,6 +2718,7 @@ Also, would this method not at all work if you only have one ground truth label 
 - When Recurrent Models Don't Need To Be Recurrent (a.k.a. Stable Recurrent Models) [[pdf]](https://arxiv.org/abs/1805.10369) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/When%20Recurrent%20Models%20Don%E2%80%99t%20Need%20To%20Be%20Recurrent.pdf)
 - *John Miller, Moritz Hardt*
 - `2018-05-29, ICLR 2019`
+- [Sequence Modeling]
 ```
 General comments on paper quality:
 Reasonably well-written and somewhat interesting paper. I do not think it is intended for publication in any conference/journal.
@@ -2728,6 +2742,7 @@ I find it difficult to judge how significant the presented results actually are,
 - Uncertainty Estimates and Multi-Hypotheses Networks for Optical Flow [[pdf]](https://arxiv.org/abs/1802.07095) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimates%20and%20Multi-Hypotheses%20Networks%20for%20Optical%20Flow_.pdf)
 - *Eddy Ilg, Özgün Çiçek, Silvio Galesso, Aaron Klein, Osama Makansi, Frank Hutter, Thomas Brox*
 - `2018-08-06, ECCV 2018`
+- [Uncertainty Estimation], [Ensembling]
 ```
 General comments on paper quality:
 Well written and very interesting paper. A recommended read.
@@ -2801,6 +2816,7 @@ Quite interesting method which I suppose could be useful for some use-cases. I d
 - Large-Scale Visual Active Learning with Deep Probabilistic Ensembles [[pdf]](https://arxiv.org/abs/1811.03575) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large-Scale%20Visual%20Active%20Learning%20with%20Deep%20Probabilistic%20Ensembles_.pdf)
 - *Kashyap Chitta, Jose M. Alvarez, Adam Lesnikowski*
 - `2018-11-08`
+- [Uncertainty Estimation], [Ensembling]
 ```
 General comments on paper quality:
 Quite well-written and very interesting paper. Reasonably easy to read.
@@ -2832,6 +2848,7 @@ I'm not sure how significant the performance gain compared to standard ensemblin
 - The Lottery Ticket Hypothesis: Finding Small, Trainable Neural Networks [[pdf]](https://arxiv.org/abs/1803.03635) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Lottery%20Ticket%20Hypothesis:%20Finding%20Small%2C%20Trainable%20Neural%20Networks_.pdf)
 - *Jonathan Frankle, Michael Carbin*
 - `2018-03-09, ICLR 2019`
+- [Theoretical Properties of Deep Learning]
 ```
 General comments on paper quality:
 Well-written and very interesting paper. Not particularly heavy to read.
@@ -2857,6 +2874,7 @@ I actually found this paper a lot more interesting than I initially expected jus
 - Towards Safe Autonomous Driving: Capture Uncertainty in the Deep Neural Network For Lidar 3D Vehicle Detection [[pdf]](https://arxiv.org/abs/1804.05132) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Towards%20Safe%20Autonomous%20Driving:%20Capture%20Uncertainty%20in%20the%20Deep%20Neural%20Network%20For%20Lidar%203D%20Vehicle%20Detection_.pdf)
 - *Di Feng, Lars Rosenbaum, Klaus Dietmayer*
 - `2018-09-08, ITSC 2018`
+- [Uncertainty Estimation], [3D Object Detection]
 ```
 General comments on paper quality:
 Fairly well-written paper. Interesting method.
