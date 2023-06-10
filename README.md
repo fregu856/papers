@@ -1840,7 +1840,7 @@ Somewhat well-written and interesting paper. Somewhat odd paper, I did not prope
 - How Good is the Bayes Posterior in Deep Neural Networks Really? [[pdf]](https://arxiv.org/abs/2002.02405) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20Good%20is%20the%20Bayes%20Posterior%20in%20Deep%20Neural%20Networks%20Really%3F.pdf)
 - *Florian Wenzel, Kevin Roth, Bastiaan S. Veeling, Jakub Świątkowski, Linh Tran, Stephan Mandt, Jasper Snoek, Tim Salimans, Rodolphe Jenatton, Sebastian Nowozin*
 - `2020-02-06, ICML 2020`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Stochastic Gradient MCMC]](#stochastic-gradient-mcmc)
+- [Uncertainty Estimation], [Stochastic Gradient MCMC]
 ```
 Somewhat well-written and interesting paper. Quite odd paper. They refer to the appendix a whole lot, this work is not really suited for an 8 page paper IMO. They present a bunch of hypotheses, but I do not quite know what to do with the results in the end. The paper is rather inconclusive. I found it somewhat odd that they only evaluate the methods in terms of predictive performance, that is usually not the reason why people turn to Bayesian deep learning models.
 ```
@@ -1849,7 +1849,7 @@ Somewhat well-written and interesting paper. Quite odd paper. They refer to the 
 - Beyond temperature scaling: Obtaining well-calibrated multiclass probabilities with Dirichlet calibration [[pdf]](https://arxiv.org/abs/1910.12656) [[code]](https://github.com/dirichletcal/experiments_neurips) [[poster]](https://dirichletcal.github.io/documents/neurips2019/poster.pdf) [[slides]](https://dirichletcal.github.io/documents/neurips2019/slides.pdf) [[video]](https://dirichletcal.github.io/documents/neurips2019/video/Meelis_Ettekanne.mp4) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Beyond%20temperature%20scaling:%20Obtaining%20well-calibrated%20multiclass%20probabilities%20with%20Dirichlet%20calibration.pdf)
 - *Meelis Kull, Miquel Perello-Nieto, Markus Kängsepp, Telmo Silva Filho, Hao Song, Peter Flach*
 - `2019-10-28, NeurIPS 2019`
-- [[Uncertainty Estimation]](#uncertainty-estimation)
+- [Uncertainty Estimation]
 ```
 Well-written and quite interesting paper. Does a good job describing different notions of calibration (Definition 1 - 3). Classwise-ECE intuitively makes sense as a reasonable metric. I did not quite follow the paragraph on interpretability (or figure 2). The experiments seem extensive and rigorously conducted. So, matrix scaling (with ODIR regularization) outperforms Dirichlet calibration?
 ```
@@ -1858,7 +1858,7 @@ Well-written and quite interesting paper. Does a good job describing different n
 - Normalizing Flows: An Introduction and Review of Current Methods [[pdf]](https://arxiv.org/abs/1908.09257) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Normalizing%20Flows:%20An%20Introduction%20and%20Review%20of%20Current%20Methods.pdf)
 - *Ivan Kobyzev, Simon Prince, Marcus A. Brubaker*
 - `2019-08-25, TPAMI, 2021`
-- [[Normalizing Flows]](#normalizing-flows)
+- [Normalizing Flows]
 ```
 Quite well-written and somewhat interesting paper. The paper is probably too short for it to actually fulfill the goal of "provide context and explanation to enable a reader to become familiar with the basics". It seems to me like one would have to have a pretty good understanding of normalizing flows, and various common variants, already beforehand to actually benefit much from this paper.
 ```
@@ -1867,7 +1867,7 @@ Quite well-written and somewhat interesting paper. The paper is probably too sho
 - Pitfalls of In-Domain Uncertainty Estimation and Ensembling in Deep Learning [[pdf]](https://arxiv.org/abs/2002.06470) [[code]](https://github.com/bayesgroup/pytorch-ensembles) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Pitfalls%20of%20In-Domain%20Uncertainty%20Estimation%20and%20Ensembling%20in%20Deep%20Learning.pdf)
 - *Arsenii Ashukha, Alexander Lyzhov, Dmitry Molchanov, Dmitry Vetrov*
 - `2020-02-15, ICLR 2020`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Ensembling]](#ensembling) [[Stochastic Gradient MCMC]](#stochastic-gradient-mcmc)
+- [Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC]
 ```
 Quite well-written and interesting paper. The number of compared methods is quite impressive. The paper provides further evidence for what intuitively makes A LOT of sense: "Deep ensembles dominate other methods given a fixed test-time budget. The results indicate, in particular, that exploration of different modes in the loss landscape is crucial for good predictive performance". While deep ensembles might require a larger amount of total training time, they are extremely simple to train and separate ensemble members can be trained completely in parallel. Overall then, deep ensembles is a baseline that's extremely hard to beat IMO. Not convinced that "calibrated log-likelihood" is an ideal metric that addresses the described flaws of commonly used metrics. For example, "...especially calibrated log-likelihood is highly correlated with accuracy" does not seem ideal. Also, how would you generalize it to regression?
 ```
@@ -1875,7 +1875,7 @@ Quite well-written and interesting paper. The number of compared methods is quit
 ##### [20-03-26] [paper93]
 - Conservative Uncertainty Estimation By Fitting Prior Networks [[pdf]](https://openreview.net/forum?id=BJlahxHYDS) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conservative%20Uncertainty%20Estimation%20By%20Fitting%20Prior%20Networks.pdf)
 - `2019-10-25, ICLR 2020`
-- [[Uncertainty Estimation]](#uncertainty-estimation) 
+- [Uncertainty Estimation]
 ```
 Interesting and somewhat well-written paper. I found it quite difficult to actually understand the method at first, I think the authors could have done a better job describing it. I guess that "f" should be replaced with "f_i" in equation (2)? "...the obtained uncertainties are larger than ones arrived at by Bayesian inference.", I did not quite get this though. The estimated uncertainty is conservative w.r.t. the posterior process associated with the prior process (the prior process defined by randomly initializing neural networks), but only if this prior process can be assumed to be Gaussian? So, do we actually have any guarantees? I am not sure if the proposed method actually is any less "hand-wavy" than e.g. ensembling. The experimental results seem quite promising, but I do not agree that this is "an extensive empirical comparison" (only experiments on CIFAR-10).
 ```
@@ -1884,7 +1884,7 @@ Interesting and somewhat well-written paper. I found it quite difficult to actua
 - Batch Normalization Biases Deep Residual Networks Towards Shallow Paths [[pdf]](https://arxiv.org/abs/2002.10444) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Batch%20Normalization%20Biases%20Deep%20Residual%20Networks%20Towards%20Shallow%20Path.pdf)
 - *Soham De, Samuel L. Smith*
 - `2020-02-24, NeurIPS 2020`
-- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning) 
+- [Theoretical Properties of Deep Learning]
 ```
 Quite well-written and somewhat interesting paper. The fact that SkipInit enabled training of very deep networks without batchNorm is quite interesting. I don't think I fully understood absolutely everything.
 ```
@@ -1893,7 +1893,7 @@ Quite well-written and somewhat interesting paper. The fact that SkipInit enable
 - Bayesian Deep Learning and a Probabilistic Perspective of Generalization [[pdf]](https://arxiv.org/abs/2002.08791) [[code]](https://github.com/izmailovpavel/understandingbdl) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Deep%20Learning%20and%20a%20Probabilistic%20Perspective%20of%20Generalization.pdf)
 - *Andrew Gordon Wilson, Pavel Izmailov*
 - `2020-02-20, NeurIPS 2020`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Ensembling]](#ensembling) 
+- [Uncertainty Estimation], [Ensembling]
 ```
 Quite interesting and somewhat well-written paper. While I did find the paper quite interesting, I also found it somewhat confusing overall. The authors touch upon many different concepts, and the connection between them is not always very clear. It it not quite clear what the main selling point of the paper is. Comparing ensembling with MultiSWAG does not really seem fair to me, as MultiSWAG would be 20x slower at test-time. The fact that MultiSWA (note: MultiSWA, not MultiSWAG) seems to outperform ensembling quite consistently in their experiment is however quite interesting, it is not obvious to me why that should be the case.
 ```
@@ -1902,7 +1902,7 @@ Quite interesting and somewhat well-written paper. While I did find the paper qu
 - Convolutional Conditional Neural Processes [[pdf]](https://arxiv.org/abs/1910.13556) [[code]](https://github.com/cambridge-mlg/convcnp) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Convolutional%20Conditional%20Neural%20Processes.pdf)
 - *Jonathan Gordon, Wessel P. Bruinsma, Andrew Y. K. Foong, James Requeima, Yann Dubois, Richard E. Turner*
 - `2019-10-29, ICLR 2020`
-- [[Neural Processes]](#neural-processes)
+- [Neural Processes]
 ```
 Quite interesting and well-written paper. Took me a pretty long time to read this paper, it is a quite heavy/dense read. I still do not quite get when this type of model could/should be used in practice, all experiments in the paper seem at least somewhat synthetic to me.
 ```
@@ -1911,7 +1911,7 @@ Quite interesting and well-written paper. Took me a pretty long time to read thi
 - Probabilistic 3D Multi-Object Tracking for Autonomous Driving [[pdf]](https://arxiv.org/abs/2001.05673) [[code]](https://github.com/eddyhkchiu/mahalanobis_3d_multi_object_tracking) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%203D%20Multi-Object%20Tracking%20for%20Autonomous%20Driving.pdf)
 - *Hsu-kuang Chiu, Antonio Prioletti, Jie Li, Jeannette Bohg*
 - `2020-01-16, ICRA 2021`
-- [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
+- [3D Multi-Object Tracking]
 ```
 Interesting and well-written paper. They provide more details for the Kalman filter, which I appreciate. The design choices that differs compared to AB3DMOT all make sense I think (e.g., Mahalanobis distance instead of 3D-IoU as the affinity measure in the data association), but the gain in performance in Table 1 does not seem overly significant, at least not compared to the huge gain seen when switching to the MEGVII 3D detector in AB3DMOT.
 ```
@@ -1920,7 +1920,7 @@ Interesting and well-written paper. They provide more details for the Kalman fil
 - A Baseline for 3D Multi-Object Tracking [[pdf]](https://arxiv.org/abs/1907.03961) [[code]](https://github.com/xinshuoweng/AB3DMOT) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Baseline%20for%203D%20Multi-Object%20Tracking.pdf)
 - *Xinshuo Weng, Kris Kitani*
 - `2019-07-09, IROS 2020`
-- [[3D Multi-Object Tracking]](#3d-multi-object-tracking)
+- [3D Multi-Object Tracking]
 ```
 Well-written and interesting paper. Provides a neat introduction to 3D multi-object tracking in general, especially since the proposed method is intentionally straightforward and simple. It seems like a very good starting point. It is not clear to me exactly how the update step i in the Kalman filter is implemented? How did they set the covariance matrices? (I guess you could find this in the provided code though)
 ```
@@ -1929,7 +1929,7 @@ Well-written and interesting paper. Provides a neat introduction to 3D multi-obj
 - A Contrastive Divergence for Combining Variational Inference and MCMC [[pdf]](https://arxiv.org/abs/1905.04062) [[code]](https://github.com/franrruiz/vcd_divergence) [[slides]](https://franrruiz.github.io/contents/group_talks/EMS-Jul2019.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Contrastive%20Divergence%20for%20Combining%20Variational%20Inference%20and%20MCMC.pdf)
 - *Francisco J. R. Ruiz, Michalis K. Titsias*
 - `2019-05-10, ICML 2019`
-- [[VAEs]](#vaes)
+- [VAEs]
 ```
 Interesting and very well-written paper. I feel like I never quite know how significant improvements such as those in Table 2 actually are. What would you get if you instead used a more complex variational family (e.g. flow-based) and fitted that via standard KL, would the proposed method outperform also this baseline? And how would those compare in terms of computational cost?
 ```
@@ -1938,7 +1938,7 @@ Interesting and very well-written paper. I feel like I never quite know how sign
 - Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[pdf]](https://arxiv.org/abs/1710.07283) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Decomposition%20of%20Uncertainty%20in%20Bayesian%20Deep%20Learning%20for%20Efficient%20and%20Risk-sensitive%20Learning.pdf)
 - *Stefan Depeweg, José Miguel Hernández-Lobato, Finale Doshi-Velez, Steffen Udluft*
 - `2017-10-19, ICML 2018`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Reinforcement Learning]](#reinforcement-learning)
+- [Uncertainty Estimation], [Reinforcement Learning]
 ```
 Well-written and quite interesting paper. Obviously similar to "Uncertainty Decomposition in Bayesian Neural Networks with Latent Variables", but contains more details, further experiments, and does a better job explaining some of the core concepts.
 ```
@@ -1947,7 +1947,7 @@ Well-written and quite interesting paper. Obviously similar to "Uncertainty Deco
 - Uncertainty Decomposition in Bayesian Neural Networks with Latent Variables [[pdf]](https://arxiv.org/abs/1706.08495) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Decomposition%20in%20Bayesian%20Neural%20Networks%20with%20Latent%20Variables.pdf)
 - *Stefan Depeweg, José Miguel Hernández-Lobato, Finale Doshi-Velez, Steffen Udluft*
 - `2017-06-26`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Reinforcement Learning]](#reinforcement-learning)
+- [Uncertainty Estimation], [Reinforcement Learning]
 ```
 Quite well-written and interesting paper. The toy problems illustrated in figure 2 and figure 3 are quite neat. I did however find it quite odd that they did not actually perform any active learning experiments here? Figure 4b is quite confusing with the "insert" for beta=0. I think it would have been better to show this entire figure somehow.
 ```
@@ -1956,7 +1956,7 @@ Quite well-written and interesting paper. The toy problems illustrated in figure
 - Modelling heterogeneous distributions with an Uncountable Mixture of Asymmetric Laplacians [[pdf]](https://arxiv.org/abs/1910.12288) [[code]](https://github.com/BBVA/UMAL) [[video]](https://vimeo.com/369179175) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Modelling%20heterogeneous%20distributions%20with%20an%20Uncountable%20Mixture%20of%20Asymmetric%20Laplacians.pdf)
 - *Axel Brando, Jose A. Rodríguez-Serrano, Jordi Vitrià, Alberto Rubio*
 - `2019-10-27, NeurIPS 2019`
-- [[Uncertainty Estimation]](#uncertainty-estimation)
+- [Uncertainty Estimation]
 ```
 Quite well-written and interesting paper. The connection to quantile regression is quite neat, but in the end, their loss in equation 6 just corresponds to a latent variable model (with a uniform distribution for the latent variable tau) trained using straightforward Monte Carlo sampling. I am definitely not impressed with the experiments. They only consider very simple problems, y is always 1D, and they only compare with self-implemented baselines. The results are IMO not overly conclusive either, the single Laplacian model is e.g. better calibrated than their proposed method in Figure 3.
 ```
@@ -1965,7 +1965,7 @@ Quite well-written and interesting paper. The connection to quantile regression 
 - A Primal-Dual link between GANs and Autoencoders [[pdf]](http://papers.nips.cc/paper/8333-a-primal-dual-link-between-gans-and-autoencoders) [[poster]](https://drive.google.com/file/d/1ifPldBOeuSa2Iwh3ESVGmRJQKzs9XgPv/view) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Primal-Dual%20link%20between%20GANs%20and%20Autoencoders.pdf)
 - *Hisham Husain, Richard Nock, Robert C. Williamson*
 - `2019-04-26, NeurIPS 2019`
-- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+- [Theoretical Properties of Deep Learning]
 ```
 Somewhat interesting and well-written paper. Very theoretical paper compared to what I usually read. I must admit that I did not really understand that much.
 ```
@@ -1974,7 +1974,7 @@ Somewhat interesting and well-written paper. Very theoretical paper compared to 
 - A Connection Between Score Matching and Denoising Autoencoders [[pdf]](https://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport_1358.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Connection%20Between%20Score%20Matching%20and%20Denoising%20Autoencoders.pdf)
 - *Pascal Vincent*
 - `2010-12, Neural Computation, 2011`
-- [[Energy-Based Models]](#energy-based-models)
+- [Energy-Based Models]
 ```
 Quite well-written and interesting paper. The original paper for "denoising score matching", which it does a good job explaining. It also provides some improved understanding of score matching in general, and provides some quite interesting references for further reading.
 ```
@@ -1983,7 +1983,7 @@ Quite well-written and interesting paper. The original paper for "denoising scor
 - Multiplicative Interactions and Where to Find Them [[pdf]](https://openreview.net/forum?id=rylnK6VtDH) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Multiplicative%20Interactions%20and%20Where%20to%20Find%20Them.pdf)
 - *Siddhant M. Jayakumar, Jacob Menick, Wojciech M. Czarnecki, Jonathan Schwarz, Jack Rae, Simon Osindero, Yee Whye Teh, Tim Harley, Razvan Pascanu*
 - `2019-09-25, ICLR 2020`
-- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning) [[Sequence Modeling]](#sequence-modeling)
+- [Theoretical Properties of Deep Learning], [Sequence Modeling]
 ```
 Well-written and somewhat interesting paper. I had some trouble properly understanding everything. I am however not overly impressed by the choice of experiments. The experiment in figure 2 seems somewhat biased in their favor? I think it would be a more fair comparison if the number of layers in the MLP was allowed to be increased (since this would increase its expressivity)?
 ```
@@ -1992,7 +1992,7 @@ Well-written and somewhat interesting paper. I had some trouble properly underst
 - Estimation of Non-Normalized Statistical Models by Score Matching [[pdf]](http://www.jmlr.org/papers/v6/hyvarinen05a.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Estimation%20of%20Non-Normalized%20Statistical%20Models%20by%20Score%20Matching.pdf)
 - *Aapo Hyvärinen*
 - `JMLR, 2005`
-- [[Energy-Based Models]](#energy-based-models)
+- [Energy-Based Models]
 ```
 Interesting and very well-written paper. The original paper for score matching. Somewhat dated of course, but still interesting and very well-written. It provides a really neat introduction to score matching! I did not read section 3 super carefully, as the examples seemed quite dated.
 ```
@@ -2001,7 +2001,7 @@ Interesting and very well-written paper. The original paper for score matching. 
 - Generative Modeling by Estimating Gradients of the Data Distribution [[pdf]](https://arxiv.org/abs/1907.05600) [[code]](https://github.com/ermongroup/ncsn) [[poster]](https://yang-song.github.io/papers/NeurIPS2019/ncsn-poster.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generative%20Modeling%20by%20Estimating%20Gradients%20of%20the%20Data%20Distribution.pdf)
 - *Yang Song, Stefano Ermon*
 - `2019-07-12, NeurIPS 2019`
-- [[Energy-Based Models]](#energy-based-models)
+- [Energy-Based Models]
 ```
 Well-written and quite interesting paper. The examples in section 3 are neat and quite pedagogical. I would probably need to read a couple of papers covering the basics of score matching, and then come back and read this paper again to fully appreciate it. Like they write, their training method could be used to train an EBM (by replacing their score network with the gradient of the energy in the EBM). This would then be just like "denoising score matching", but combining multiple noise levels in a combined objective? I suppose that their annealed Langevin approach could also be used to sample from an EBM. This does however seem very computationally expensive, as they run T=100 steps of Langevin dynamics for each of the L=10 noise levels?
 ```
@@ -2009,8 +2009,8 @@ Well-written and quite interesting paper. The examples in section 3 are neat and
 ##### [20-01-14] [paper78]
 - Noise-contrastive estimation: A new estimation principle for unnormalized statistical models [[pdf]](http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.pdf)
 - *Michael Gutmann, Aapo Hyvärinen*
-- `2009, AISTATS 2010`
-- [[Energy-Based Models]](#energy-based-models)
+- `AISTATS 2010`
+- [Energy-Based Models]
 ```
 Well-written and interesting paper. The original paper for Noise Contrastive Estimation (NCE). Somewhat dated of course, but still interesting and well-written. Provides a quite neat introduction to NCE. They use a VERY simple problem to compare the performance of NCE to MLE with importance sampling, contrastive divergence (CD) and score-matching (and MLE, which gives the reference performance. MLE requires an analytical expression for the normalizing constant). CD has the best performance, but NCE is apparently more computationally efficient. I do not think such a simple problem say too much though. They then also apply NCE on a (by today's standards) very simple unsupervised image modeling problem. It seems to perform as expected.
 ```
@@ -2019,7 +2019,7 @@ Well-written and interesting paper. The original paper for Noise Contrastive Est
 - Z-Forcing: Training Stochastic Recurrent Networks [[pdf]](https://arxiv.org/abs/1711.05411) [[code]](https://github.com/sordonia/zforcing) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Z-Forcing:%20Training%20Stochastic%20Recurrent%20Networks.pdf)
 - *Anirudh Goyal, Alessandro Sordoni, Marc-Alexandre Côté, Nan Rosemary Ke, Yoshua Bengio*
 - `2017-11-15, NeurIPS 2017`
-- [[VAEs]](#vaes) [[Sequence Modeling]](#sequence-modeling)
+- [VAEs], [Sequence Modeling]
 ```
 Quite interesting and well-written paper. Seems like Marco Fraccaro's thesis covers most of this paper, overall the proposed architecture is still quite similar to VRNN/SRNN both in design and performance. The auxiliary cost seems to improve performance quite consistently, but nothing revolutionary. It is not quite clear to me if the proposed architecture is more or less difficult / computationally expensive to train than SRNN.
 ```
@@ -2028,7 +2028,7 @@ Quite interesting and well-written paper. Seems like Marco Fraccaro's thesis cov
 - Practical Deep Learning with Bayesian Principles [[pdf]](https://arxiv.org/abs/1906.02506) [[code]](https://github.com/team-approx-bayes/dl-with-bayes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Practical%20Deep%20Learning%20with%20Bayesian%20Principles.pdf)
 - *Kazuki Osawa, Siddharth Swaroop, Anirudh Jain, Runa Eschenhagen, Richard E. Turner, Rio Yokota, Mohammad Emtiyaz Khan*
 - `2019-06-06, NeurIPS 2019`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Variational Inference]](#variational-inference)
+- [Uncertainty Estimation], [Variational Inference]
 ```
 Interesting and quite well-written paper. To me, this mainly seems like a more practically useful alternative to Bayes by Backprop, scaling up variational inference to e.g. ResNet on ImageNet. The variational posterior approximation q is still just a diagonal Gaussian. I still do not fully understand natural-gradient variational inference. Only image classification is considered. It seems to perform ish as well as Adam in terms of accuracy (although it is 2-5 times slower to train), while quite consistently performing better in terms of calibration (ECE). The authors also compare with MC-dropout in terms of quality of the predictive probabilities, but these results are IMO not very conclusive.
 ```
@@ -2037,7 +2037,7 @@ Interesting and quite well-written paper. To me, this mainly seems like a more p
 - Maximum Entropy Generators for Energy-Based Models [[pdf]](https://arxiv.org/abs/1901.08508) [[code]](https://github.com/ritheshkumar95/energy_based_generative_models) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Maximum%20Entropy%20Generators%20for%20Energy-Based%20Models.pdf)
 - *Rithesh Kumar, Sherjil Ozair, Anirudh Goyal, Aaron Courville, Yoshua Bengio*
 - `2019-01-24`
-- [[Energy-Based Models]](#energy-based-models)
+- [Energy-Based Models]
 ```
 Quite well-written and interesting paper. The general idea, learning an energy-based model p_theta by drawing samples from an approximating distribution (that minimizes the KL divergence w.r.t p_theta) instead of generating approximate samples from p_theta using MCMC, is interesting and intuitively makes quite a lot of sense IMO. Since the paper was written prior to the recent work on MCMC-based learning (Learning Non-Convergent Non-Persistent Short-Run MCMC Toward Energy-Based Model, Implicit Generation and Generalization in Energy-Based Models, On the Anatomy of MCMC-Based Maximum Likelihood Learning of Energy-Based Models), it is however difficult to know how well this method actually would stack up in practice.
 ```
@@ -2048,7 +2048,7 @@ Quite well-written and interesting paper. The general idea, learning an energy-b
 - Your Classifier is Secretly an Energy Based Model and You Should Treat it Like One [[pdf]](https://arxiv.org/abs/1912.03263) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20Classifier%20is%20Secretly%20an%20Energy%20Based%20Model%20and%20You%20Should%20Treat%20it%20Like%20One.pdf)
 - *Will Grathwohl, Kuan-Chieh Wang, Jörn-Henrik Jacobsen, David Duvenaud, Mohammad Norouzi, Kevin Swersky*
 - `2019-12-06, ICLR 2020`
-- [[Energy-Based Models]](#energy-based-models)
+- [Energy-Based Models]
 ```
 Interesting and very well-written paper. I recommend actually going through the appendix as well, as it contains some interesting details. The idea to create an energy-based model for p(x) by marginalizing out y is really neat and makes a lot of sense in this classification setting (in which this corresponds to just summing the logits for all K classes). This EBM for p(x) is then trained using the MCMC-based ML learning method employed in other recent work. Simultaneously, a model for p(y|x) is also trained using the standard approach (softmax / cross entropy), thus training p(x, y) = p(y | x)*p(x). I am however not overly impressed/convinced by their experimental results. All experiments are conducted on relatively small and "toy-ish" datasets (CIFAR10, CIFAR100, SVHN etc), but they still seemed to have experienced A LOT of problems with training instability. Would be interesting to see results e.g. for semantic segmentation on Cityscapes (a more "real-world" task and dataset). Moreover, like the authors also point out themselves, training p(x) using SGLD-based sampling with L steps (they mainly use L=20 steps, but sometimes also have to restart training with L=40 to mitigate instability issues) basically makes training L times slower. I am just not sure if the empirically observed improvements are strong/significant enough to justify this computational overhead.
 ```
@@ -2057,7 +2057,7 @@ Interesting and very well-written paper. I recommend actually going through the 
 - Noise Contrastive Estimation and Negative Sampling for Conditional Models: Consistency and Statistical Efficiency [[pdf]](https://arxiv.org/abs/1809.01812) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise%20Contrastive%20Estimation%20and%20Negative%20Sampling%20for%20Conditional%20Models:%20Consistency%20and%20Statistical%20Efficiency.pdf)
 - *Zhuang Ma, Michael Collins*
 - `2018-09-06, EMNLP 2018`
-- [[Energy-Based Models]](#energy-based-models)
+- [Energy-Based Models]
 ```
 Interesting and quite well-written paper. Quite theoretical paper with a bunch of proofs. Interesting to see NCE applied specifically to supervised problems (modelling p(y | x)).
 ```
@@ -2066,7 +2066,7 @@ Interesting and quite well-written paper. Quite theoretical paper with a bunch o
 - Flow Contrastive Estimation of Energy-Based Models [[pdf]](https://arxiv.org/abs/1912.00589) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Flow%20Contrastive%20Estimation%20of%20Energy-Based%20Models.pdf)
 - *Ruiqi Gao, Erik Nijkamp, Diederik P. Kingma, Zhen Xu, Andrew M. Dai, Ying Nian Wu*
 - `2019-12-02, CVPR 2020`
-- [[Energy-Based Models]](#energy-based-models) [[Normalizing Flows]](#normalizing-flows)
+- [Energy-Based Models], [Normalizing Flows]
 ```
 Well-written and interesting paper. Provides a quite interesting comparison of EBMs and flow-based models in the introduction ("By choosing a flow model, one is making the assumption that the true data distribution is one that is in principle simple to sample from, and is computationally efficient to normalize."). Provides a pretty good introduction to Noise Contrastive Estimation (NCE). The proposed method is interesting and intuitively makes sense. The experimental results are not overly strong/decisive IMO, but that seems to be true for most papers in this area.
 ```
@@ -2075,7 +2075,7 @@ Well-written and interesting paper. Provides a quite interesting comparison of E
 - On the Anatomy of MCMC-Based Maximum Likelihood Learning of Energy-Based Models [[pdf]](https://arxiv.org/abs/1903.12370) [[code]](https://github.com/point0bar1/ebm-anatomy)  [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Anatomy%20of%20MCMC-Based%20Maximum%20Likelihood%20Learning%20of%20Energy-Based%20Models.pdf)
 - *Erik Nijkamp, Mitch Hill, Tian Han, Song-Chun Zhu, Ying Nian Wu*
 - `2019-04-29, AAAI 2020`
-- [[Energy-Based Models]](#energy-based-models)
+- [Energy-Based Models]
 ```
 Well-written and very interesting paper, a recommended read! Provides a good review and categorization of previous papers, how they differ from each other etc. Provides a solid theoretical understanding of MCMC-based ML learning of EBMs, with quite a few really interesting (and seemingly useful) insights.
 ```
@@ -2084,7 +2084,7 @@ Well-written and very interesting paper, a recommended read! Provides a good rev
 - Implicit Generation and Generalization in Energy-Based Models [[pdf]](https://arxiv.org/abs/1903.08689) [[code]](https://github.com/openai/ebm_code_release) [[blog]](https://openai.com/blog/energy-based-models/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Implicit%20Generation%20and%20Generalization%20in%20Energy-Based%20Models.pdf)
 - *Yilun Du, Igor Mordatch*
 - `2019-04-20, NeurIPS 2019`
-- [[Energy-Based Models]](#energy-based-models)
+- [Energy-Based Models]
 ```
 Interesting, but not overly well-written paper. Very similar to "Learning Non-Convergent Non-Persistent Short-Run MCMC Toward Energy-Based Model", but not as clearly written IMO. I personally find the experiments section somewhat unclear, but I'm also not too familiar with how generative image models usually are evaluated. It sounds like the training was quite unstable without the regularization described in section 3.3?
 ```
@@ -2093,7 +2093,7 @@ Interesting, but not overly well-written paper. Very similar to "Learning Non-Co
 - Learning Non-Convergent Non-Persistent Short-Run MCMC Toward Energy-Based Model [[pdf]](https://arxiv.org/abs/1904.09770) [[poster]](https://neurips.cc/Conferences/2019/Schedule?showEvent=13661) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Non-Convergent%20Non-Persistent%20Short-Run%20MCMC%20Toward%20Energy-Based%20Model.pdf)
 - *Erik Nijkamp, Mitch Hill, Song-Chun Zhu, Ying Nian Wu*
 - `2019-04-22, NeurIPS 2019`
-- [[Energy-Based Models]](#energy-based-models)
+- [Energy-Based Models]
 ```
 Well-written and interesting paper. Seeing the non-convergent, short-run MCMC as a learned generator/flow model is a really neat and interesting idea. I find figure 9 in the appendix interesting. It is somewhat difficult for me to judge how impressive the experimental results are, I do not really know how strong the baselines are or how significant the improvements are. I found section 4 difficult to follow.
 ```
@@ -2102,7 +2102,7 @@ Well-written and interesting paper. Seeing the non-convergent, short-run MCMC as
 - A Tutorial on Energy-Based Learning [[pdf]](http://yann.lecun.com/exdb/publis/orig/lecun-06.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Tutorial%20on%20Energy-Based%20Learning.pdf)
 - *Yann LeCun, Sumit Chopra, Raia Hadsell, Marc Aurelio Ranzato, Fu Jie Huang*
 - `2006-08-19`
-- [[Energy-Based Models]](#energy-based-models)
+- [Energy-Based Models]
 ```
 Somewhat dated, but well-written and still quite interesting paper. A good introduction to enegy-based models (EBMs).
 ```
