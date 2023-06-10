@@ -1831,6 +1831,7 @@ Quite interesting and well-written paper. Neat and quite simple idea. I am howev
 - Stable Neural Flows [[pdf]](https://arxiv.org/abs/2003.08063) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stable%20Neural%20Flows%20.pdf)
 - *Stefano Massaroli, Michael Poli, Michelangelo Bin, Jinkyoo Park, Atsushi Yamashita, Hajime Asama*
 - `2020-03-18`
+- [Neural ODEs]
 ```
 Somewhat well-written and interesting paper. Somewhat odd paper, I did not properly understand everything. It is not clear to me how the energy functional used here is connected to energy-based models.
 ```
