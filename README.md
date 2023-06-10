@@ -2589,7 +2589,7 @@ It might be that I am missing something, but I also struggle to understand some 
 - Neural Ordinary Differential Equations [[pdf]](https://arxiv.org/abs/1806.07366) [[code]](https://github.com/rtqichen/torchdiffeq) [[slides]](https://www.cs.toronto.edu/~duvenaud/talks/ode-talk-google.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Ordinary%20Differential%20Equations.pdf)
 - *Ricky T. Q. Chen, Yulia Rubanova, Jesse Bettencourt, David Duvenaud*
 - `2018-10-22, NeurIPS 2018`
-- [[Neural ODEs]](#neural-odes)
+- [Neural ODEs]
 ```
 General comments on paper quality:
 Reasonably well-written but very interesting paper. The examples could have been more thoroughly explained, it feels like the authors probably struggled to stay within the page limit.
