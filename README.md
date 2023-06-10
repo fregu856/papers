@@ -964,7 +964,7 @@ Quite interesting and well-written paper. I did however find it difficult to pro
  [[pdf]](https://arxiv.org/abs/2203.00512) [[code]](https://github.com/hsd1503/ecg_uncertainty) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Deep%20Bayesian%20Neural%20Network%20for%20Cardiac%20Arrhythmia%20Classification%20with%20Rejection%20from%20ECG%20Recordings.pdf)
 - *Wenrui Zhang, Xinxin Di, Guodong Wei, Shijia Geng, Zhaoji Fu, Shenda Hong*
 - `2022-02-26`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
+- [Uncertainty Estimation], [Medical ML]
 ```
 Somewhat interesting paper. They use a softmax model with MC-dropout to compute uncertainty estimates. The evaluation is not very extensive, they mostly just check that the classification accuracy improves as they reject more and more samples based on a uncertainty threshold.
 ```
@@ -974,7 +974,7 @@ Somewhat interesting paper. They use a softmax model with MC-dropout to compute 
  [[pdf]](https://arxiv.org/abs/2202.08985) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Out%20of%20Distribution%20Data%20Detection%20Using%20Dropout%20Bayesian%20Neural%20Networks.pdf)
 - *Andre T. Nguyen, Fred Lu, Gary Lopez Munoz, Edward Raff, Charles Nicholas, James Holt*
 - `2022-02-18, AAAI 2022`
-- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+- [Out-of-Distribution Detection]
 ```
 Quite interesting and well-written paper. It seemed quite niche at first, but I think their analysis could potentially be useful.
 ```
@@ -984,7 +984,7 @@ Quite interesting and well-written paper. It seemed quite niche at first, but I 
  [[pdf]](https://arxiv.org/abs/1706.02690) [[code]](https://github.com/facebookresearch/odin) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Enhancing%20The%20Reliability%20of%20Out-of-distribution%20Image%20Detection%20in%20Neural%20Networks.pdf)
 - *Shiyu Liang, Yixuan Li, R. Srikant*
 - `2017-06-08, ICLR 2018`
-- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+- [Out-of-Distribution Detection]
 ```
 Quite interesting and well-written paper. Two simple modifications of the "maximum softmax score" baseline, and the performance is consistently improved. The input perturbation method is quite interesting. Intuitively, it's not entirely clear to me why it actually works.
 ```
@@ -994,7 +994,7 @@ Quite interesting and well-written paper. Two simple modifications of the "maxim
  [[pdf]](https://arxiv.org/abs/2107.02568) [[code]](https://github.com/christophbrgr/ood_detection_framework) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Confidence-based%20Out-of-Distribution%20Detection:%20A%20Comparative%20Study%20and%20Analysis.pdf)
 - *Christoph Berger, Magdalini Paschali, Ben Glocker, Konstantinos Kamnitsas*
 - `2021-07-06, MICCAI Workshops 2021`
-- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+- [Out-of-Distribution Detection], [Medical ML]
 ```
 Interesting and well-written paper. Interesting that Mahalanobis works very well on the CIFAR10 vs SVHN but not on the medical imaging dataset. I don't quite get how/why the ODIN method works, I'll probably have to read that paper.
 ```
@@ -1004,7 +1004,7 @@ Interesting and well-written paper. Interesting that Mahalanobis works very well
  [[pdf]](https://openreview.net/forum?id=WWRBHhH158K) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning%20Through%20the%20Lens%20of%20Example%20Difficulty.pdf)
 - *Robert John Nicholas Baldock, Hartmut Maennel, Behnam Neyshabur*
 - `2021-05-21, NeurIPS 2021`
-- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+- [Theoretical Properties of Deep Learning]
 ```
 Quite interesting and well-written paper. The definition of "prediction depth" in Section 2.1 makes sense, and it definitely seems reasonable that this could correlate with example difficulty / prediction confidence in some way. Section 3 and 4, and all the figures, contain a lot of info it seems, I'd probably need to read the paper again to properly understand/appreciate everything.
 ```
@@ -1014,7 +1014,7 @@ Quite interesting and well-written paper. The definition of "prediction depth" i
  [[pdf]](https://arxiv.org/abs/2202.10847) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/UncertaINR:%20Uncertainty%20Quantification%20of%20End-to-End%20Implicit%20Neural%20Representations%20for%20Computed%20Tomography.pdf)
 - *Francisca Vasconcelos, Bobby He, Nalini Singh, Yee Whye Teh*
 - `2022-02-22, TMLR, 2023`
-- [[Implicit Neural Representations]](#implicit-neural-representations) [[Uncertainty Estimation]](#uncertainty-estimation) [[Medical ML]](#medical-ml)
+- [Implicit Neural Representations], [Uncertainty Estimation], [Medical ML]
 ```
 Interesting and well-written paper. I wasn't very familiar with CT image reconstruction, but they do a good job explaining everything. Interesting that MC-dropout seems important for getting well-calibrated predictions.
 ```
@@ -1024,7 +1024,7 @@ Interesting and well-written paper. I wasn't very familiar with CT image reconst
  [[pdf]](https://backend.orbit.dtu.dk/ws/portalfiles/portal/218217360/MICCAI2020.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Can%20you%20trust%20predictive%20uncertainty%20under%20real%20dataset%20shifts%20in%20digital%20pathology%3F.pdf)
 - *Jeppe Thagaard, Søren Hauberg, Bert van der Vegt, Thomas Ebstrup, Johan D. Hansen, Anders B. Dahl*
 - `2020-09, MICCAI 2020`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+- [Uncertainty Estimation], [Out-of-Distribution Detection], [Medical ML]
 ```
 Quite interesting and well-written paper. They compare MC-dropout, ensemlbing and mixup (and with a standard softmax classifer as the baseline). Nothing groundbreaking, but the studied application (classification of pathology slides for cancer) is very interesting. The FPR95 metrics for OOD detection in Table 4 are terrible for ensembling, but the classification accuracy (89.7) is also pretty much the same as for D_test_int in Tabe 3 (90.1)? So, it doesn't really matter that the model isn't capable of distinguishing this "OOD" data from in-distribution? 
 ```
@@ -1034,7 +1034,7 @@ Quite interesting and well-written paper. They compare MC-dropout, ensemlbing an
  [[pdf]](https://arxiv.org/abs/2201.05890) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Robust%20uncertainty%20estimates%20with%20out-of-distribution%20pseudo-inputs%20training.pdf)
 - *Pierre Segonne, Yevgen Zainchkovskyy, Søren Hauberg*
 - `2022-01-15`
-- [[Uncertainty Estimation]](#uncertainty-estimation)
+- [Uncertainty Estimation]
 ```
 Somewhat interesting paper. I didn't quite understand everything, so it could be more interesting than I think. The fact that their pseudo-input generation process "relies on the availability of a differentiable density estimate of the data" seems like a big limitation? For regression, they only applied their method to very low-dimensional input data (1D toy regression and UCI benchmarks), but would this work for image-based tasks?
 ```
@@ -1044,7 +1044,7 @@ Somewhat interesting paper. I didn't quite understand everything, so it could be
  [[pdf]](https://arxiv.org/abs/2007.05566) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Contrastive%20Training%20for%20Improved%20Out-of-Distribution%20Detection.pdf)
 - *Jim Winkens, Rudy Bunel, Abhijit Guha Roy, Robert Stanforth, Vivek Natarajan, Joseph R. Ledsam, Patricia MacWilliams, Pushmeet Kohli, Alan Karthikesalingam, Simon Kohl, Taylan Cemgil, S. M. Ali Eslami, Olaf Ronneberger*
 - `2020-07-10`
-- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+- [Out-of-Distribution Detection]
 ```
 Quite interesting and very well-written paper. They take the method from the Mahalanobis paper ("A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks") (however, they fit Gaussians only to the features at the second-to-last network layer, and they don't use the input pre-processing either) and consistently improve OOD detection performance by incorporating contrastive training. Specifically, they first train the network using just the SimCLR loss for a large number of epochs, and then also add the standard classification loss. I didn't quite get why the label smoothing is necessary, but according to Table 2 it's responsible for a large portion of the performance gain.
 ```
@@ -1054,7 +1054,7 @@ Quite interesting and very well-written paper. They take the method from the Mah
  [[pdf]](https://arxiv.org/abs/1807.03888) [[code]](https://github.com/pokaxpoka/deep_Mahalanobis_detector) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Simple%20Unified%20Framework%20for%20Detecting%20Out-of-Distribution%20Samples%20and%20Adversarial%20Attacks.pdf)
 - *Kimin Lee, Kibok Lee, Honglak Lee, Jinwoo Shin*
 - `2018-07-10, NeurIPS 2018`
-- [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+- [Out-of-Distribution Detection]
 ```
 Well-written and interesting paper. The proposed method is simple and really neat: fit class-conditional Gaussians in the feature space of a pre-trained classifier (basically just LDA on the feature vectors), and then use the Mahalanobis distance to these Gaussians as the confidence score for input x. They then also do this for the features at multiple levels of the network and combine these confidence scores into one. I don't quite get why the "input pre-processing" in Section 2.2 (adding noise to test samples) works, in Table 1 it significantly improves the performance.
 ```
@@ -1064,7 +1064,7 @@ Well-written and interesting paper. The proposed method is simple and really nea
  [[pdf]](https://arxiv.org/abs/1807.09289) [[code]](https://github.com/brain-research/ncp) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise%20Contrastive%20Priors%20for%20Functional%20Uncertainty.pdf)
 - *Danijar Hafner, Dustin Tran, Timothy Lillicrap, Alex Irpan, James Davidson*
 - `2018-07-24, UAI 2019`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+- [Uncertainty Estimation], [Out-of-Distribution Detection]
 ```
 Quite interesting and well-written paper. Only experiments on a toy 1D regression problem, and flight delay prediction in which the input is 8D. The approach of just adding noise to the input x to get OOD samples would probably not work very well e.g. for image-based problems?
 ```
@@ -1074,7 +1074,7 @@ Quite interesting and well-written paper. Only experiments on a toy 1D regressio
  [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S1361841521003194?via%3Dihub) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Does%20your%20dermatology%20classifier%20know%20what%20it%20doesn't%20know%3F%20Detecting%20the%20long-tail%20of%20unseen%20conditions.pdf)
 - *Abhijit Guha Roy, Jie Ren, Shekoofeh Azizi, Aaron Loh, Vivek Natarajan, Basil Mustafa, Nick Pawlowski, Jan Freyberg, Yuan Liu, Zach Beaver, Nam Vo, Peggy Bui, Samantha Winter, Patricia MacWilliams, Greg S. Corrado, Umesh Telang, Yun Liu, Taylan Cemgil, Alan Karthikesalingam, Balaji Lakshminarayanan, Jim Winkens*
 - `2021-04-08, Medical Image Analysis, 2022`
-- [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+- [Out-of-Distribution Detection], [Medical ML]
 ```
 Well-written and interesting paper. Quite long, so it took a bit longer than usual to read it. Section 1 and 2 gives a great overview of OOD detection in general, and how it can be used specifically in this dermatology setting. I can definitely recommend reading Section 2 (Related work). They assume access to some outlier data during training, so their approach is similar to the "Outlier exposure" method (specifically in this dermatology setting, they say that this is a fair assumption). Their method is an improvement of the "reject bucket" (add an extra class which you assign to all outlier training data points), in their proposed method they also use fine-grained classification of the outlier skin conditions. Then they also use an ensemble of 5 models, and also a more diverse ensemble (in which they combine models trained with different representation learning techniques). This diverse ensemble obtains the best performance.
 ```
@@ -1084,7 +1084,7 @@ Well-written and interesting paper. Quite long, so it took a bit longer than usu
  [[pdf]](https://arxiv.org/abs/2106.10065) [[code]](https://github.com/wiseodd/bayesian_ood_training) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Being%20a%20Bit%20Frequentist%20Improves%20Bayesian%20Neural%20Networks.pdf)
 - *Agustinus Kristiadi, Matthias Hein, Philipp Hennig*
 - `2021-06-18, AISTATS 2022`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+- [Uncertainty Estimation], [Out-of-Distribution Detection]
 ```
 Interesting and well-written paper. The proposed method makes intuitive sense, trying to incorporate the "OOD training" method (i.e., to use some kind of OOD data during training, similar to e.g. the "Deep Anomaly Detection with Outlier Exposure" paper) into the Bayesian deep learning approach. The experimental results do seem quite promising.
 ```
@@ -1094,7 +1094,7 @@ Interesting and well-written paper. The proposed method makes intuitive sense, t
  [[pdf]](https://arxiv.org/abs/2111.03577) [[code]](https://github.com/AlexImmer/Laplace) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Mixtures%20of%20Laplace%20Approximations%20for%20Improved%20Post-Hoc%20Uncertainty%20in%20Deep%20Learning.pdf)
 - *Runa Eschenhagen, Erik Daxberger, Philipp Hennig, Agustinus Kristiadi*
 - `2021-11-95, NeurIPS Workshops 2021`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection)
+- [Uncertainty Estimation], [Out-of-Distribution Detection]
 ```
 Well-written and interesting paper. Short paper of just 3 pages, but with an extensive appendix which I definitely recommend going through. The method, training an ensemble and then applying the Laplace approximation to each network, is very simple and intuitively makes a lot of sense. I didn't realize that this would have basically the same test-time speed as ensembling (since they utilize that probit approximation), that's very neat. It also seems to consistently outperform ensembling a bit across almost all tasks and metrics.
 ```
@@ -1104,7 +1104,7 @@ Well-written and interesting paper. Short paper of just 3 pages, but with an ext
  [[pdf]](https://openreview.net/forum?id=Y4cs1Z3HnqL) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Pessimistic%20Bootstrapping%20for%20Uncertainty-Driven%20Offline%20Reinforcement%20Learning.pdf)
 - *Chenjia Bai, Lingxiao Wang, Zhuoran Yang, Zhi-Hong Deng, Animesh Garg, Peng Liu, Zhaoran Wang*
 - `2021-09-29, ICLR 2022`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Reinforcement Learning]](#reinforcement-learning)
+- [Uncertainty Estimation], [Reinforcement Learning]
 ```
 Well-written and somewhat interesting paper. I'm not overly familiar with RL, which makes it a bit difficult for me to properly evaluate the paper's contributions. They use standard ensembles for uncertainty estimation combined with an OOD sampling regularization. I thought that the OOD sampling could be interesting, but it seems very specific to RL. I'm sure this paper is quite interesting for people doing RL, but I don't think it's overly useful for me.
 ```
@@ -1114,7 +1114,7 @@ Well-written and somewhat interesting paper. I'm not overly familiar with RL, wh
  [[pdf]](https://openreview.net/forum?id=aPOpXlnV1T) [[code]](https://sites.google.com/view/pitfalls-uncertainty?authuser=0) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Pitfalls%20of%20Heteroscedastic%20Uncertainty%20Estimation%20with%20Probabilistic%20Neural%20Networks.pdf)
 - *Maximilian Seitzer, Arash Tavakoli, Dimitrije Antic, Georg Martius*
 - `2021-09-29, ICLR 2022`
-- [[Uncertainty Estimation]](#uncertainty-estimation)
+- [Uncertainty Estimation]
 ```
 Quite interesting and very well-written paper, I enjoyed reading it. Their analysis of fitting Gaussian regression models via the NLL is quite interesting, I didn't really expect to learn something new about this. I've seen Gaussian models outperform standard regression (L2 loss) w.r.t. accuracy in some applications/datasets, and it being the other way around in others. In the first case, I've then attributed the success of the Gaussian model to the "learned loss attenuation". The analysis in this paper could perhaps explain why you get this performance boost only in certain applications. Their beta-NLL loss could probably be quite useful, seems like a convenient tool to have.
 ```
@@ -1124,7 +1124,7 @@ Quite interesting and very well-written paper, I enjoyed reading it. Their analy
  [[pdf]](https://openreview.net/forum?id=vrW3tvDfOJQ) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Sample%20Efficient%20Deep%20Reinforcement%20Learning%20via%20Uncertainty%20Estimation.pdf)
 - *Vincent Mai, Kaustubh Mani, Liam Paull*
 - `2021-09-29, ICLR 2022`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Reinforcement Learning]](#reinforcement-learning)
+- [Uncertainty Estimation], [Reinforcement Learning]
 ```
 Well-written and somewhat interesting paper. I'm not overly familiar with reinforcement learning, which makes it a bit difficult for me to properly evaluate the paper's contributions, but to me it seems like fairly straightforward method modifications? To use ensembles of Gaussian models (instead of ensembles of models trained using the L2 loss) makes sense. The BIV method I didn't quite get, it seems rather ad hoc? I also don't quite get exactly how it's used in equation (10), is the ensemble of Gaussian models trained _jointly_ using this loss? I don't really know if this could be useful outside of RL.
 ```
@@ -1134,7 +1134,7 @@ Well-written and somewhat interesting paper. I'm not overly familiar with reinfo
  [[pdf]](https://arxiv.org/abs/2106.14806) [[code]](https://github.com/AlexImmer/Laplace) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Laplace%20Redux%20--%20Effortless%20Bayesian%20Deep%20Learning.pdf)
 - *Erik Daxberger, Agustinus Kristiadi, Alexander Immer, Runa Eschenhagen, Matthias Bauer, Philipp Hennig*
 - `2021-06-28, NeurIPS 2021`
-- [[Uncertainty Estimation]](#uncertainty-estimation)
+- [Uncertainty Estimation]
 ```
 Interesting and very well-written paper, I enjoyed reading it. I still think that ensembling probably is quite difficult to beat purely in terms of uncertainty estimation quality, but this definitely seems like a useful tool in many situations. It's not clear to me if the analytical expression for regression in "4. Approximate Predictive Distribution" is applicable also if the variance is input-dependent?
 ```
@@ -1144,7 +1144,7 @@ Interesting and very well-written paper, I enjoyed reading it. I still think tha
  [[pdf]](https://arxiv.org/abs/2112.09196?context=cs) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Benchmarking%20Uncertainty%20Quantification%20on%20Biosignal%20Classification%20Tasks%20under%20Dataset%20Shift.pdf)
 - *Tong Xia, Jing Han, Cecilia Mascolo*
 - `2021-12-16, AAAI Workshops 2022`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Out-of-Distribution Detection]](#out-of-distribution-detection) [[Medical ML]](#medical-ml)
+- [Uncertainty Estimation], [Out-of-Distribution Detection], [Medical ML]
 ```
 Well-written and interesting paper. They synthetically create dataset shifts (e.g. by adding Gaussian noise to the data) of increasing intensity and study whether or not the uncertainty increases as the accuracy degrades. They compare regular softmax, temperature scaling, MC-dropout, ensembling and a simple variational inference method. Their conclusion is basically that ensembling slightly outperforms the other methods, but that no method performs overly well. I think these type of studies are really useful.
 ```
