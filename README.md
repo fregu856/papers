@@ -2109,6 +2109,7 @@ Somewhat dated, but well-written and still quite interesting paper. A good intro
 ##### [19-11-29] [paper67]
 - Dream to Control: Learning Behaviors by Latent Imagination [[pdf]](https://openreview.net/forum?id=S1lOTC4tDS) [[webpage]](https://dreamrl.github.io/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Dream%20to%20Control%20Learning%20Behaviors%20by%20Latent%20Imagination.pdf)
 - `ICLR 2020`
+- [Reinforcement Learning]
 ```
 Interesting and very well-written paper. A recommended read, even if you just want to gain an improved understanding of state-of-the-art RL in general and the PlaNet paper ("Learning Latent Dynamics for Planning from Pixels") in particular. Very similar to PlaNet, the difference is that they here learn an actor-critic model on-top of the learned dynamics, instead of doing planning using MPC. The improvement over PlaNet, in terms of experimental results, seems significant. Since they didn't actually use the latent overshooting in the PlaNet paper, I assume they don't use it here either?
 ```
@@ -2117,6 +2118,7 @@ Interesting and very well-written paper. A recommended read, even if you just wa
 - Deep Latent Variable Models for Sequential Data [[pdf]](https://backend.orbit.dtu.dk/ws/portalfiles/portal/160548008/phd475_Fraccaro_M.pdf)  [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Latent%20Variable%20Models%20for%20Sequential%20Data.pdf)
 - *Marco Fraccaro*
 - `2018-04-13, PhD Thesis`
+- [Sequence Modeling], [VAEs]
 ```
 Very well-written, VERY useful. VERY good general introduction to latent variable models, amortized variational inference, VAEs etc. VERY good introduction to various deep latent variable models for sequential data: deep state-space models, VAE-RNNs, VRNNs, SRNNs etc.
 ```
@@ -2125,6 +2127,7 @@ Very well-written, VERY useful. VERY good general introduction to latent variabl
 - Learning Latent Dynamics for Planning from Pixels [[pdf]](https://arxiv.org/abs/1811.04551) [[code]](https://github.com/google-research/planet) [[blog]](https://ai.googleblog.com/2019/02/introducing-planet-deep-planning.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Latent%20Dynamics%20for%20Planning%20from%20Pixels.pdf)
 - *Danijar Hafner, Timothy Lillicrap, Ian Fischer, Ruben Villegas, David Ha, Honglak Lee, James Davidson*
 - `2018-11-12, ICML 2019`
+- [Reinforcement Learning]
 ```
 Well-written and interesting paper! Very good introduction to the entire field of model-based RL I feel like. Seems quite odd to me that they spend an entire page on "Latent overshooting", but then don't actually use it for their RSSM model? It's not entirely clear to me how this approach differs from "Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models" (PETS), apart from the fact that PETS actually has access to the state (so, they don't need to apply VAE stuff to construct a latent state representation). The provided code seems like it could be very useful. Is it easy to use? The model seems to train on just 1 GPU in just 1 day anyway, which is good.
 ```
@@ -2133,6 +2136,7 @@ Well-written and interesting paper! Very good introduction to the entire field o
 - Learning nonlinear state-space models using deep autoencoders [[pdf]](http://cse.lab.imtlucca.it/~bemporad/publications/papers/cdc18-autoencoders.pdf)  [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20nonlinear%20state-space%20models%20using%20deep%20autoencoders.pdf)
 - *Daniele Masti, Alberto Bemporad*
 - `2018, CDC 2018`
+- [Sequence Modeling]
 ```
 Well-written and interesting paper. Really interesting approach actually, although somewhat confusing at first read since the method seems to involve quite a few different components. I would like to try to implement this myself and apply it to some simple synthetic example, I think that would significantly improve my understanding of the method and help me better judge its potential.
 ```
@@ -2141,6 +2145,7 @@ Well-written and interesting paper. Really interesting approach actually, althou
 - Improving Variational Inference with Inverse Autoregressive Flow [[pdf]](https://arxiv.org/abs/1606.04934) [[code]](https://github.com/openai/iaf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Improving%20Variational%20Inference%20with%20Inverse%20Autoregressive%20Flow.pdf)
 - *Diederik P. Kingma, Tim Salimans, Rafal Jozefowicz, Xi Chen, Ilya Sutskever, Max Welling*
 - `2016-06-15, NeurIPS 2016`
+- [Normalizing Flows]
 ```
 Interesting and very well-written paper. Does a very good job introducing the general problem setup, normalizing flows, autoregressive models etc. Definitely a good introductory paper, it straightened out a few things I found confusing in Variational Inference with Normalizing Flows. The experimental results are however not very strong nor particularly extensive, IMO.
 ```
@@ -2149,6 +2154,7 @@ Interesting and very well-written paper. Does a very good job introducing the ge
 - Variational Inference with Normalizing Flows [[pdf]](https://arxiv.org/abs/1505.05770) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Variational%20Inference%20with%20Normalizing%20Flows.pdf)
 - *Danilo Jimenez Rezende, Shakir Mohamed*
 - `2015-05-21, ICML 2015`
+- [Normalizing Flows]
 ```
 Well-written and quite interesting paper. I was initially somewhat confused by this paper, as I was expecting it to deal with variational inference for approximate Bayesian inference. Seems like a good starting point for flow-based methods, I will continue reading-up on more recent/advanced techniques.
 ```
@@ -2157,6 +2163,7 @@ Well-written and quite interesting paper. I was initially somewhat confused by t
 - Trellis Networks for Sequence Modeling [[pdf]](https://arxiv.org/abs/1810.06682) [[code]](https://github.com/locuslab/trellisnet) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Trellis%20Networks%20for%20Sequence%20Modeling.pdf)
 - *Shaojie Bai, J. Zico Kolter, Vladlen Koltun*
 - `2018-10-15, ICLR 2019`
+- [Sequence Modeling]
 ```
 Well-written and quite interesting paper. Interesting model, quite neat indeed how it can be seen as a bridge between RNNs and TCNs. The fact that they share weights across all network layers intuitively seems quite odd to me, but I guess it stems from the construction based on M-truncated RNNs? It is not obvious to me why they chose to use a gated activation function based on the LSTM cell, would using a "normal" activation function (e.g. ReLu) result in a significant drop in performance?
 ```
@@ -2165,6 +2172,7 @@ Well-written and quite interesting paper. Interesting model, quite neat indeed h
 - Part-A^2 Net: 3D Part-Aware and Aggregation Neural Network for Object Detection from Point Cloud [[pdf]](https://arxiv.org/abs/1907.03670) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Part-A%5E2%20Net:%203D%20Part-Aware%20and%20Aggregation%20Neural%20Network%20for%20Object%20Detection%20from%20Point%20Cloud.pdf)
 - *Shaoshuai Shi, Zhe Wang, Xiaogang Wang, Hongsheng Li*
 - `2019-07-08, TPAMI, 2020`
+- [3D Object Detection]
 ```
 Interesting and quite well-written paper. Same main authors as for the PointRCNN paper. The idea to use the intra-object point locations provided by the ground truth 3D bboxes as extra supervision makes a lot of sense, clever! In this paper, the bin-based losses from PointRCNN are NOT used.
 ```
@@ -2173,6 +2181,7 @@ Interesting and quite well-written paper. Same main authors as for the PointRCNN
 - PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud [[pdf]](https://arxiv.org/abs/1812.04244) [[code]](https://github.com/sshaoshuai/PointRCNN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PointRCNN:%203D%20Object%20Proposal%20Generation%20and%20Detection%20from%20Point%20Cloud.pdf)
 - *Shaoshuai Shi, Xiaogang Wang, Hongsheng Li*
 - `2018-12-11, CVPR 2019`
+- [3D Object Detection]
 ```
 Interesting and quite well-written paper. I think I like this approach to 3DOD. Directly processing the point cloud and generating proposals by classifying each point as foreground/background makes sense, is quite simple and seems to perform well. Their bin-based regression losses seem somewhat strange to me though.
 ```
@@ -2181,6 +2190,7 @@ Interesting and quite well-written paper. I think I like this approach to 3DOD. 
 - Objects as Points [[pdf]](https://arxiv.org/abs/1904.07850) [[code]](https://github.com/xingyizhou/CenterNet) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Objects%20as%20Points.pdf)
 - *Xingyi Zhou, Dequan Wang, Philipp Krähenbühl*
 - `2019-04-16`
+- [Object Detection]
 ```
 Quite well-written and interesting paper. Multiple objects (of the same class) having the same (low-resolution) center point is apparently not very common in MS-COCO, but is that true also in real life in automotive applications? And in these cases, would only detecting one of these objects be a major issue? I do not really know, I find it somewhat difficult to even visualize cases where multiple objects would share center points. It is an interesting point that this method essentially corresponds to anchor-based one-stage detectors, but with just one shape-agnostic anchor. Perhaps having multiple anchors per location is not super important then?
 ```
@@ -2189,6 +2199,7 @@ Quite well-written and interesting paper. Multiple objects (of the same class) h
 - ATOM: Accurate Tracking by Overlap Maximization [[pdf]](https://arxiv.org/abs/1811.07628) [[code]](https://github.com/visionml/pytracking) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/ATOM:%20Accurate%20Tracking%20by%20Overlap%20Maximization.pdf)
 - *Martin Danelljan, Goutam Bhat, Fahad Shahbaz Khan, Michael Felsberg*
 - `2018-11-19, CVPR 2019`
+- [Visual Tracking]
 ```
 Well-written and interesting paper. They employ the idea of IoU-Net in order to perform target estimation and thus improve tracking accuracy. Interesting that this idea seems to work well also in this case. The paper also gives a quite comprehensive introduction to visual object tracking in general, making the proposed method relatively easy to understand also for someone new to the field.
 ```
@@ -2197,6 +2208,7 @@ Well-written and interesting paper. They employ the idea of IoU-Net in order to 
 - Acquisition of Localization Confidence for Accurate Object Detection [[pdf]](https://arxiv.org/abs/1807.11590) [[code]](https://github.com/vacancy/PreciseRoIPooling) [[oral presentation]](https://youtu.be/SNCsXOFr_Ug) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Acquisition%20of%20Localization%20Confidence%20for%20Accurate%20Object%20Detection.pdf)
 - *Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, Yuning Jiang*
 - `2018-07-30, ECCV 2018`
+- [Object Detection]
 ```
 Interesting idea that intuitively makes a lot of sense, neat to see that it actually seems to work quite well. While the predicted IoU is a measure of "localization confidence", it is not an ideal measure of localization uncertainty. Having an estimated variance each for (x, y, w, h) would provide more information.
 ```
@@ -2205,6 +2217,7 @@ Interesting idea that intuitively makes a lot of sense, neat to see that it actu
 - LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving [[pdf]](https://arxiv.org/abs/1903.08701) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/LaserNet:%20An%20Efficient%20Probabilistic%203D%20Object%20Detector%20for%20Autonomous%20Driving.pdf)
 - *Gregory P. Meyer, Ankit Laddha, Eric Kee, Carlos Vallespi-Gonzalez, Carl K. Wellington*
 - `2019-03-20, CVPR 2019`
+- [Uncertainty Estimation], [3D Object Detection]
 ```
 Quite well-written and interesting paper. It was however quite difficult to fully grasp their proposed method. I struggled to understand some steps of their method, it is e.g. not completely clear to me why both mean shift clustering and adaptive NMS has to be performed. I find the used probabilistic model somewhat strange. They say that "our proposed method is the first to capture the uncertainty of a detection by modeling the distribution of bounding box corners", but actually they just predict a single variance value per bounding box (at least when K=1, which is the case for pedestrians and bikes)? Overall, the method seems rather complicated. It is probably not the streamlined and intuitive 3DOD architecture I have been looking for.
 ```
