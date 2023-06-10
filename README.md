@@ -3086,7 +3086,7 @@ Quite well-written overall, although I did find a couple of typos (and perhaps y
 
 
 Paper overview:
-The authors introduce Neural Processes (NPs), a family of models that aim to combine the benefits of Gaussian Processes (GPs) and neural networks (NNs). NPs are an extension of Conditional Neural Processes (CNPs) by the same main authors ([summary]).
+The authors introduce Neural Processes (NPs), a family of models that aim to combine the benefits of Gaussian Processes (GPs) and neural networks (NNs). NPs are an extension of Conditional Neural Processes (CNPs) by the same main authors.
 
 A blog post that provides a good overview of and some intuition for NPs is found here.
 
