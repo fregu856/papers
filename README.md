@@ -2226,7 +2226,7 @@ Quite well-written and interesting paper. It was however quite difficult to full
 ##### [19-05-29] [paper54]
 - Attention Is All You Need [[pdf]](https://arxiv.org/abs/1706.03762) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Attention%20Is%20All%20You%20Need.pdf)
 - *Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin*
-- `2017-06-12, NeurIPS 2017`
+- `NeurIPS 2017`
 - [Transformers]
 ```
 Quite well-written paper. The proposed architecture was explained in a quite clear way, even for someone who is not super familiar with the field. Not too related to my particular research, but still a quite interesting paper. I also think that the proposed architecture, the Transformer, has been extensively used in subsequent state-of-the-art models (I remember seeing it mentioned in a few different papers)? This paper is thus probably a good background read for those interested in language modeling, translation etc.
@@ -2244,7 +2244,7 @@ Very well-written and quite interesting paper. Good background material on SGD, 
 ##### [19-03-29] [paper52]
 - Generating High Fidelity Images with Subscale Pixel Networks and Multidimensional Upscaling [[pdf]](https://openreview.net/forum?id=HylzTiC5Km) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/GENERATING%20HIGH%20FIDELITY%20IMAGES%20WITH%20SUBSCALE%20PIXEL%20NETWORKS%20AND%20MULTIDIMENSIONAL%20UPSCALING.pdf)
 - *Jacob Menick, Nal Kalchbrenner*
-- `2018-12-04, ICLR 2019`
+- `ICLR 2019`
 ```
 Quite interesting paper. I do however think that the proposed method could be more clearly explained, the paper actually left me somewhat confused (I am however not particularly familiar with this specific sub-field). For e.g. the images in Figure 5, it is not clear to me how these are actually generated? Do you take a random image from ImageNet, choose a random slice of this image and then generate the image by size- and depth-upscaling? For training, I guess that they (for each image in the dataset) choose a random image slice, condition on the previous true image slices (according to their ordering), predict/generate the next image slice and compare this with the ground truth to compute an unbiased estimator of the NLL loss. But what do they do during evaluation? I.e., how are the NLL scores in Table 1-3 computed? The experimental results do not seem overly impressive/convincing to me.
 ```
@@ -2252,7 +2252,7 @@ Quite interesting paper. I do however think that the proposed method could be mo
 ##### [19-03-15] [paper51]
 - A recurrent neural network without chaos [[pdf]](https://arxiv.org/abs/1612.06212) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20recurrent%20neural%20network%20without%20chaos.pdf)
 - *Thomas Laurent, James von Brecht*
-- `2016-12-19, ICLR 2017`
+- `ICLR 2017`
 - [Sequence Modeling]
 ```
 Quite well-written and somewhat interesting paper. I note that their LSTM implementation consistently outperformed their proposed CFN, albeit with a small margin. Would be interesting to know if this architecture has been studied further since the release of this paper, can it match LSTM performance also on more complicated tasks?
@@ -2261,7 +2261,7 @@ Quite well-written and somewhat interesting paper. I note that their LSTM implem
 ##### [19-03-11] [paper50]
 - Auto-Encoding Variational Bayes [[pdf]](https://arxiv.org/abs/1312.6114)
 - *Diederik P Kingma, Max Welling*
-- `2014-05-01, ICLR 2014`
+- `ICLR 2014`
 - [VAEs]
 ```
 Quite interesting paper.
@@ -2279,7 +2279,7 @@ Somewhat well-written and interesting paper. It was however a quite heavy read. 
 ##### [19-03-01] [paper48]
 - Language Models are Unsupervised Multitask Learners [[pdf]](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) [[blog post]](https://blog.openai.com/better-language-models/) [[code]](https://github.com/openai/gpt-2) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Language%20Models%20are%20Unsupervised%20Multitask%20Learners.pdf)
 - *Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever*
-- `2019-02-14`
+- `2019-02`
 - [NLP]
 ```
 Interesting and quite well-written paper. There are not that many technical details, one would probably have to read previous work for that. One probably needs to be somewhat familiar with NLP. Very impressive work from an infrastructure perspective. Just as context to their model with 1.5 billion parameters: a ResNet101 has 45 million parameters, which takes up 180 Mb when saved to disk. DeepLabV3 for semantic segmentation has roughly 75 million parameters. This has become a pretty hyped paper, and I agree that the work is impressive, but it still seems to me like their model is performing roughly as one would expect. It performs really well on general language modeling tasks, which is exactly what it was trained for (although it was not fine-tuned on the specific benchmark datasets), but performs rather poorly on translation and question-answering. The fact that the model has been able to learn some basic translation in this fully unsupervised setting is still quite impressive and interesting though.
@@ -2288,7 +2288,7 @@ Interesting and quite well-written paper. There are not that many technical deta
 ##### [19-02-27] [paper47]
 - Predictive Uncertainty Estimation via Prior Networks [[pdf]](https://arxiv.org/abs/1802.10501) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predictive%20Uncertainty%20Estimation%20via%20Prior%20Networks.pdf)
 - *Andrey Malinin, Mark Gales*
-- `2018-02-28, NeurIPS 2018`
+- `NeurIPS 2018`
 - [Uncertainty Estimation]
 ```
 Interesting and very well-written paper. It would be interesting to combine this approach with approximate Bayesian modeling (e.g. ensembling). They state in the very last sentence of the paper that their approach needs to be extended also to regression. How would you actually do that? It is not immediately obvious to me. Seems like a quite interesting problem. I would have liked to see a comparison with ensembling as well and not just MC-Dropout (ensembling usually performs better in my experience). Obtaining out-of-distribution samples to train on is probably not at all trivial actually. Yes, this could in theory be any unlabeled data, but how do you know what region of the input image space is covered by your training data? Also, I guess the model could still become over-confident if fed inputs which are far from both the in-distribution and out-of-distribution samples the model has seen during training? So, you really ought to estimate epistemic uncertainty using Bayesian modeling as well?
@@ -2297,7 +2297,7 @@ Interesting and very well-written paper. It would be interesting to combine this
 ##### [19-02-25] [paper46]
 - Evaluating model calibration in classification [[pdf]](https://arxiv.org/abs/1902.06977) [[code]](https://github.com/uu-sml/calibration) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20model%20calibration%20in%20classification.pdf)
 - *Juozas Vaicenavicius, David Widmann, Carl Andersson, Fredrik Lindsten, Jacob Roll, Thomas B. Schön*
-- `2019-02-19, AISTATS 2019`
+- `AISTATS 2019`
 - [Uncertainty Estimation]
 ```
 Well-written and interesting paper. It is however a quite theoretical paper, and I personally found it difficult to follow certain sections. It also uses notation that I am not fully familiar with. This work seems important, and I will try to keep it in mind in the future. It is however still not quite clear to me what one should do in practice to evaluate and compare calibration of large models on large-scale datasets in a more rigorous way. I will probably need to read the paper again.
@@ -2306,7 +2306,7 @@ Well-written and interesting paper. It is however a quite theoretical paper, and
 ##### [19-02-22] [paper45]
 - Fine-Grained Analysis of Optimization and Generalization for Overparameterized Two-Layer Neural Networks [[pdf]](https://arxiv.org/abs/1901.08584) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Fine-Grained%20Analysis%20of%20Optimization%20and%20Generalization%20for%20Overparameterized%20Two-Layer%20Neural%20Networks.pdf)
 - *Sanjeev Arora, Simon S. Du, Wei Hu, Zhiyuan Li, Ruosong Wang*
-- `2019-01-24, ICML 2019`
+- `ICML 2019`
 - [Theoretical Properties of Deep Learning]
 ```
 Somewhat interesting paper that is quite theoretical. I found it to be a rather heavy read, and I did not fully understand absolutely everything. I did not quite get why they fix the weights a_i of the second layer? They use gradient descent (GD) instead of SGD, could you obtain similar results also for SGD? I think that I probably did not understand the paper well enough to really be able to judge how significant/interesting the presented results actually are. How restrictive are their assumptions? In what way / to what extent could these results be of practical use in real-world applications? The reference section seems like a pretty neat resource for previous work on characterization of NN loss landscapes etc.
@@ -2315,7 +2315,7 @@ Somewhat interesting paper that is quite theoretical. I found it to be a rather 
 ##### [19-02-17] [paper44]
 - Visualizing the Loss Landscape of Neural Nets [[pdf]](https://arxiv.org/abs/1712.09913) [[code]](https://github.com/tomgoldstein/loss-landscape) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Visualizing%20the%20Loss%20Landscape%20of%20Neural%20Nets.pdf)
 - *Hao Li, Zheng Xu, Gavin Taylor, Christoph Studer, Tom Goldstein*
-- `2017-12-28, NeurIPS 2018`
+- `NeurIPS 2018`
 ```
 Interesting and quite well-written paper. I think that the paper is a good introduction to methods for NN loss function visualization and previous work aiming to understand the corresponding optimization problem. They cite a number of papers which seem interesting, I will probably try and read a couple of those in the future. It would be interesting to apply their visualization method to some of my own problems, I will probably look more carefully at their code at some point. It is however not immediately obvious to me how to apply their "filter normalization" to e.g. an MLP network.
 ```
@@ -2323,7 +2323,7 @@ Interesting and quite well-written paper. I think that the paper is a good intro
 ##### [19-02-14] [paper43]
 -  A Simple Baseline for Bayesian Uncertainty in Deep Learning [[pdf]](https://arxiv.org/abs/1902.02476) [[code]](https://github.com/wjmaddox/swa_gaussian) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Simple%20Baseline%20for%20Bayesian%20Uncertainty%20in%20Deep%20Learning.pdf)
 - *Wesley Maddox, Timur Garipov, Pavel Izmailov, Dmitry Vetrov, Andrew Gordon Wilson*
-- `2019-02-07, NeurIPS 2019`
+- `NeurIPS 2019`
 - [Uncertainty Estimation]
 ```
 Quite well-written and interesting paper. I am not quite sure how I feel about the proposed method though. It seems somewhat odd to me to first fit a Gaussian approximation to samples from the SGD trajectory and then draw new samples from this Gaussian to use for Bayesian model averaging. Why not just directly use some of those SGD samples for model averaging instead? Am I missing something here? Also, in SG-MCMC we have to (essentially) add Gaussian noise to the SGD update and decay the learning rate to obtain samples from the true posterior in the infinite limit. I am thus somewhat confused by the theoretical analysis in this paper. I would have liked to see a comparison with basic ensembling. In section C.5 they write that SWAG usually performs somewhat worse than deep ensembles, but that this is OK since SWAG is much faster to train. "Thus SWAG will be particularly valuable when training time is limited, but inference time may not be.", when is this actually true? It makes intuitive sense that this method will generate parameter samples with some variance (instead of just a single point estimate) and thus also provide some kind of estimate of the model uncertainty. However, it is not really theoretically grounded in any significant way, at least not more than e.g. ensembling. The most interesting experiment for which they provide reliability diagrams is IMO CIFAR-10 --> STL-10. I note that even the best model still is quite significantly over-confident in this case. I really liked their version of reliability diagrams. Makes it easy to compare multiple methods in a single plot.
@@ -2332,7 +2332,7 @@ Quite well-written and interesting paper. I am not quite sure how I feel about t
 ##### [19-02-13] [paper42]
 -  Cyclical Stochastic Gradient MCMC for Bayesian Deep Learning [[pdf]](https://arxiv.org/abs/1902.03932) [[code]](https://github.com/ruqizhang/csgmcmc) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Cyclical%20Stochastic%20Gradient%20MCMC%20for%20Bayesian%20Deep%20Learning.pdf)
 - *Ruqi Zhang, Chunyuan Li, Jianyi Zhang, Changyou Chen, Andrew Gordon Wilson*
-- `2019-02-11, ICLR 2020`
+- `ICLR 2020`
 - [Uncertainty Estimation], [Stochastic Gradient MCMC]
 ```
 Well-written and VERY interesting paper (I did find a few typos though). Very interesting method. I have however done some experiments using their code, and I find that samples from the same cycle produce very similar predictions. Thus I am somewhat skeptical that the method actually is significantly better than snapshot-ensembling, or just regular ensembling for that matter. The results in table 3 do seem to suggest that there is something to gain from collecting more than just one sample per cycle though, right? I need to do more experiments and investigate this further. Must admit that I struggled to understand much of section 4, I am thus not really sure how impressive their theoretical results actually are.
@@ -2341,7 +2341,7 @@ Well-written and VERY interesting paper (I did find a few typos though). Very in
 ##### [19-02-12] [paper41]
 -  Bayesian Dark Knowledge [[pdf]](https://arxiv.org/abs/1506.04416) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Dark%20Knowledge.pdf)
 - *Anoop Korattikara, Vivek Rathod, Kevin Murphy, Max Welling*
-- `2015-06-07, NeurIPS 2015`
+- `NeurIPS 2015`
 - [Uncertainty Estimation]
 ```
 Well-written and quite interesting paper. The presented idea is something that has crossed my mind a couple of times, and it is indeed an attractive concept, but I have always ended up sort of rejecting the idea, since it sort of seems like it should not work. Take figure 2 for the toy 1d regression problem. It seems pretty obvious to me that one should be able to distill the SGLD predictive posterior into a Gaussian with input-dependent variance, but what about x values that lie outside of the shown interval? Will the model not become over-confident in that region anyway? To me it seems like this method basically only can be used to somewhat extend the region in which the model is appropriately confident. As we move away from the training data, I still think that the model will start to become over-confident at some point? However, perhaps this is still actually useful? Since the "ground truth labels" are generated by just running our SGLD model on any input, I guess we might be able to extend this region of appropriate confidence quite significantly?
@@ -2350,7 +2350,7 @@ Well-written and quite interesting paper. The presented idea is something that h
 ##### [19-02-07] [paper40]
 - Noisy Natural Gradient as Variational Inference [[pdf]](https://arxiv.org/abs/1712.02390) [[video]](https://youtu.be/bWItvHYqKl8) [[code]](https://github.com/pomonam/NoisyNaturalGradient) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noisy%20Natural%20Gradient%20as%20Variational%20Inference.pdf)
 - *Guodong Zhang, Shengyang Sun, David Duvenaud, Roger Grosse*
-- `2017-12-06, ICML 2018`
+- `ICML 2018`
 - [Uncertainty Estimation], [Variational Inference]
 ```
 Well-written and somewhat interesting paper. Quite a heavy read for me as I am not particularly familiar with natural gradient optimization methods or K-FAC. I get that not being restricted to just fully-factorized Gaussian variational posteriors is something that could improve performance, but is it actually practical for properly large networks? They mention previous work on extending variational methods to non-fully-factorized posteriors, but I found them quite difficult to compare. It is not clear to me whether or not the presented method actually is a clear improvement (either in terms of performance or practicality).
@@ -2359,7 +2359,7 @@ Well-written and somewhat interesting paper. Quite a heavy read for me as I am n
 ##### [19-02-06] [paper39]
 - Probabilistic Backpropagation for Scalable Learning of Bayesian Neural Networks [[pdf]](https://arxiv.org/abs/1502.05336) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%20Backpropagation%20for%20Scalable%20Learning%20of%20Bayesian%20Neural%20Networks.pdf)
 - *José Miguel Hernández-Lobato, Ryan P. Adams*
-- `2015-07-15, ICML 2015`
+- `ICML 2015`
 - [Uncertainty Estimation]
 ```
 Quite well-written and interesting paper. I did however find it somewhat difficult to fully understand the presented method. I find it difficult to compare this method (PBP, which is an Assumed Density Filtering (ADF) method) with Variational Inference (VI) using a diagonal Gaussian as q. The authors seem to argue that their method is superior because it only employs one stochastic approximation (sub-sampling the data), whereas VI employs two (in VI one also approximates an expectation using Monte Carlo samples). In that case I guess that PBP should be very similar to Deterministic Variational Inference for Robust Bayesian Neural Networks? I guess it would be quite difficult to extend this method to CNNs?
@@ -2368,7 +2368,7 @@ Quite well-written and interesting paper. I did however find it somewhat difficu
 ##### [19-02-05] [paper38]
 - Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models [[pdf]](https://arxiv.org/abs/1805.12114) [[poster]](https://kchua.github.io/misc/poster.pdf) [[video]](https://youtu.be/3d8ixUMSiL8) [[code]](https://github.com/kchua/handful-of-trials) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Reinforcement%20Learning%20in%20a%20Handful%20of%20Trials%20using%20Probabilistic%20Dynamics%20Models.pdf)
 - *Kurtland Chua, Roberto Calandra, Rowan McAllister, Sergey Levine*
-- `2018-05-30, NeurIPS 2018`
+- `NeurIPS 2018`
 - [Uncertainty Estimation], [Ensembling], [Reinforcement Learning]
 ```
 General comments on paper quality:
@@ -2409,7 +2409,7 @@ Reasonably well-written and somewhat interesting paper. The paper seems quite da
 ##### [19-01-27] [paper36]
 - Weight Uncertainty in Neural Networks [[pdf]](https://arxiv.org/abs/1505.05424) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Weight%20Uncertainty%20in%20Neural%20Networks.pdf)
 - *Charles Blundell, Julien Cornebise, Koray Kavukcuoglu, Daan Wierstra*
-- `2015-05-20, ICML 2015`
+- `ICML 2015`
 - [Uncertainty Estimation], [Variational Inference]
 ```
 General comments on paper quality:
@@ -2440,7 +2440,7 @@ Quite interesting and well-written paper. Quite an easy read compared to many ot
 ##### [19-01-25] [paper34]
 - Meta-Learning For Stochastic Gradient MCMC [[pdf]](https://openreview.net/forum?id=HkeoOo09YX) [[code]](https://github.com/WenboGong/MetaSGMCMC) [[slides]](http://yingzhenli.net/home/pdf/uai_udl_meta_sampler.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Meta-Learning%20For%20Stochastic%20Gradient%20MCMC.pdf)
 - *Wenbo Gong, Yingzhen Li, José Miguel Hernández-Lobato*
-- `2018-10-28, ICLR 2019`
+- `ICLR 2019`
 - [Uncertainty Estimation], [Stochastic Gradient MCMC]
 ```
 Fairly interesting paper.
@@ -2449,7 +2449,7 @@ Fairly interesting paper.
 ##### [19-01-25] [paper33]
 -  A Complete Recipe for Stochastic Gradient MCMC [[pdf]](https://arxiv.org/abs/1506.04696) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Complete%20Recipe%20for%20Stochastic%20Gradient%20MCMC.pdf)
 - *Yi-An Ma, Tianqi Chen, Emily B. Fox*
-- `2015-06-15, NeurIPS 2015`
+- `NeurIPS 2015`
 - [Uncertainty Estimation], [Stochastic Gradient MCMC]
 ```
 General comments on paper quality:
@@ -2481,7 +2481,7 @@ If the posterior distribution is a simple bowl, like in the right part of figure
 ##### [19-01-24] [paper32]
 - Tutorial: Introduction to Stochastic Gradient Markov Chain Monte Carlo Methods [[pdf]](https://cse.buffalo.edu/~changyou/PDF/sgmcmc_intro_without_video.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Tutorial:%20Introduction%20to%20Stochastic%20Gradient%20Markov%20Chain%20Monte%20Carlo%20Methods.pdf)
 - *Changyou Chen*
-- `2016-08-10`
+- `2016-08`
 - [Uncertainty Estimation], [Stochastic Gradient MCMC]
 ```
 Quite interesting.
@@ -2490,7 +2490,7 @@ Quite interesting.
 ##### [19-01-24] [paper31]
 - An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling [[pdf]](https://arxiv.org/abs/1803.01271) [[code]](https://github.com/locuslab/TCN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Empirical%20Evaluation%20of%20Generic%20Convolutional%20and%20Recurrent%20Networks%20for%20Sequence%20Modeling.pdf)
 - *Shaojie Bai, J. Zico Kolter, Vladlen Koltun*
-- `2018-04-19`
+- `2018-04`
 - [Sequence Modeling]
 ```
 General comments on paper quality:
@@ -2516,7 +2516,7 @@ Interesting paper that challenges the viewpoint of RNN models being the default 
 ##### [19-01-23] [paper30]
 - Stochastic Gradient Hamiltonian Monte Carlo [[pdf]](https://arxiv.org/abs/1402.4102) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stochastic%20Gradient%20Hamiltonian%20Monte%20Carlo.pdf)
 - *Tianqi Chen, Emily B. Fox, Carlos Guestrin*
-- `2014-05-12, ICML 2014`
+- `ICML 2014`
 - [Uncertainty Estimation], [Stochastic Gradient MCMC]
 ```
 Interesting paper.
@@ -2534,7 +2534,7 @@ Interesting paper.
 ##### [19-01-17] [paper28]
 - How Does Batch Normalization Help Optimization? [[pdf]](https://arxiv.org/abs/1805.11604) [[poster]](http://people.csail.mit.edu/tsipras/batchnorm_poster.pdf) [[video]](https://youtu.be/ZOabsYbmBRM) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/How%20Does%20Batch%20Normalization%20Help%20Optimization%3F.pdf)
 - *Shibani Santurkar, Dimitris Tsipras, Andrew Ilyas, Aleksander Madry*
-- `2018-10-27, NeurIPS 2018`
+- `NeurIPS 2018`
 - [Theoretical Properties of Deep Learning]
 ```
 General comments on paper quality:
@@ -2561,7 +2561,7 @@ It is somewhat unclear to me how general the presented theoretical results actua
 ##### [19-01-09] [paper27]
 - Relaxed Softmax: Efficient Confidence Auto-Calibration for Safe Pedestrian Detection [[pdf]](https://openreview.net/forum?id=S1lG7aTnqQ) [[poster]](http://www.robots.ox.ac.uk/~vgg/publications/2018/Neumann18c/poster.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Relaxed%20Softmax:%20Efficient%20Confidence%20Auto-Calibration%20for%20Safe%20Pedestrian%20Detection.pdf)
 - *Lukas Neumann, Andrew Zisserman, Andrea Vedaldi*
-- `2018-11-29, NeurIPS 2018 Workshop`
+- `NeurIPS Workshops 2018`
 - [Uncertainty Estimation]
 ```
 General comments on paper quality:
@@ -2589,7 +2589,7 @@ It might be that I am missing something, but I also struggle to understand some 
 ##### [18-12-12] [paper26]
 - Neural Ordinary Differential Equations [[pdf]](https://arxiv.org/abs/1806.07366) [[code]](https://github.com/rtqichen/torchdiffeq) [[slides]](https://www.cs.toronto.edu/~duvenaud/talks/ode-talk-google.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Ordinary%20Differential%20Equations.pdf)
 - *Ricky T. Q. Chen, Yulia Rubanova, Jesse Bettencourt, David Duvenaud*
-- `2018-10-22, NeurIPS 2018`
+- `NeurIPS 2018`
 - [Neural ODEs]
 ```
 General comments on paper quality:
@@ -2617,7 +2617,7 @@ It is however not at all clear to me how well this approach would scale to large
 ##### [18-12-06] [paper25]
 - Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[pdf]](https://arxiv.org/abs/1811.12709) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20Bayesian%20Deep%20Learning%20Methods%20for%20Semantic%20Segmentation.pdf)
 - *Jishnu Mukhoti, Yarin Gal*
-- `2018-11-30`
+- `2018-11`
 - [Uncertainty Estimation]
 ```
 General comments on paper quality:
@@ -2654,7 +2654,7 @@ What is the "best" value for the uncertainty threshold, and how should it be cho
 ##### [18-12-05] [paper24]
 - On Calibration of Modern Neural Networks [[pdf]](https://arxiv.org/abs/1706.04599) [[code]](https://github.com/gpleiss/temperature_scaling) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20Calibration%20of%20Modern%20Neural%20Networks.pdf)
 - *Chuan Guo, Geoff Pleiss, Yu Sun, Kilian Q. Weinberger*
-- `2017-08-03, ICML 2017`
+- `ICML 2017`
 - [Uncertainty Estimation]
 ```
 General comments on paper quality:
@@ -2678,7 +2678,7 @@ Quite interesting paper, and the effectiveness of temperature scaling is actuall
 ##### [18-11-29] [paper23]
 -  Evidential Deep Learning to Quantify Classification Uncertainty [[pdf]](https://arxiv.org/abs/1806.01768) [[poster]](https://muratsensoy.github.io/NIPS18_EDL_poster.pdf) [[code example]](https://muratsensoy.github.io/uncertainty.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evidential%20Deep%20Learning%20to%20Quantify%20Classification%20Uncertainty.pdf)
 - *Murat Sensoy, Lance Kaplan, Melih Kandemir*
-- `2018-10-31, NeurIPS 2018`
+- `NeurIPS 2018`
 - [Uncertainty Estimation]
 ```
 General comments on paper quality:
@@ -2710,7 +2710,7 @@ Just like I think it makes a lot of sense to assume a Gaussian/Laplacian output 
 ##### [18-11-22] [paper22]
 -  A Probabilistic U-Net for Segmentation of Ambiguous Images [[pdf]](https://arxiv.org/abs/1806.05034) [[code]](https://github.com/SimonKohl/probabilistic_unet) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Probabilistic%20U-Net%20for%20Segmentation%20of%20Ambiguous%20Images.pdf)
 - *Simon A. A. Kohl, Bernardino Romera-Paredes, Clemens Meyer, Jeffrey De Fauw, Joseph R. Ledsam, Klaus H. Maier-Hein, S. M. Ali Eslami, Danilo Jimenez Rezende, Olaf Ronneberger*
-- `2018-10-29, NeurIPS 2018`
+- `NeurIPS 2018`
 - [Uncertainty Estimation]
 ```
 General comments on paper quality:
@@ -2748,7 +2748,7 @@ Also, would this method not at all work if you only have one ground truth label 
 ##### [18-11-22] [paper21]
 - When Recurrent Models Don't Need To Be Recurrent (a.k.a. Stable Recurrent Models) [[pdf]](https://arxiv.org/abs/1805.10369) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/When%20Recurrent%20Models%20Don%E2%80%99t%20Need%20To%20Be%20Recurrent.pdf)
 - *John Miller, Moritz Hardt*
-- `2018-05-29, ICLR 2019`
+- `ICLR 2019`
 - [Sequence Modeling]
 ```
 General comments on paper quality:
@@ -2772,7 +2772,7 @@ I find it difficult to judge how significant the presented results actually are,
 ##### [18-11-16] [paper20]
 - Uncertainty Estimates and Multi-Hypotheses Networks for Optical Flow [[pdf]](https://arxiv.org/abs/1802.07095) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimates%20and%20Multi-Hypotheses%20Networks%20for%20Optical%20Flow_.pdf)
 - *Eddy Ilg, Özgün Çiçek, Silvio Galesso, Aaron Klein, Osama Makansi, Frank Hutter, Thomas Brox*
-- `2018-08-06, ECCV 2018`
+- `ECCV 2018`
 - [Uncertainty Estimation], [Ensembling]
 ```
 General comments on paper quality:
@@ -2821,7 +2821,7 @@ The multi-headed network is definitely an interesting idea, I did not expect it 
 ##### [18-11-15] [paper19]
 - Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV) [[pdf]](https://arxiv.org/abs/1711.11279) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Interpretability%20Beyond%20Feature%20Attribution:%20Quantitative%20Testing%20with%20Concept%20Activation%20Vectors%20(TCAV)_.pdf)
 - *Been Kim, Martin Wattenberg, Justin Gilmer, Carrie Cai, James Wexler, Fernanda Viegas, Rory Sayres*
-- `2018-06-07, ICML 2018`
+- `ICML 2018`
 ```
 General comments on paper quality:
 Quite well-written and fairly interesting paper, the authors do a pretty good job of giving an intuitive explanation of the proposed methods.
@@ -2846,7 +2846,7 @@ Quite interesting method which I suppose could be useful for some use-cases. I d
 ##### [18-11-12] [paper18]
 - Large-Scale Visual Active Learning with Deep Probabilistic Ensembles [[pdf]](https://arxiv.org/abs/1811.03575) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large-Scale%20Visual%20Active%20Learning%20with%20Deep%20Probabilistic%20Ensembles_.pdf)
 - *Kashyap Chitta, Jose M. Alvarez, Adam Lesnikowski*
-- `2018-11-08`
+- `2018-11`
 - [Uncertainty Estimation], [Ensembling]
 ```
 General comments on paper quality:
@@ -2878,7 +2878,7 @@ I'm not sure how significant the performance gain compared to standard ensemblin
 ##### [18-11-08] [paper17]
 - The Lottery Ticket Hypothesis: Finding Small, Trainable Neural Networks [[pdf]](https://arxiv.org/abs/1803.03635) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Lottery%20Ticket%20Hypothesis:%20Finding%20Small%2C%20Trainable%20Neural%20Networks_.pdf)
 - *Jonathan Frankle, Michael Carbin*
-- `2018-03-09, ICLR 2019`
+- `ICLR 2019`
 - [Theoretical Properties of Deep Learning]
 ```
 General comments on paper quality:
@@ -2904,7 +2904,7 @@ I actually found this paper a lot more interesting than I initially expected jus
 ##### [18-10-26] [paper16]
 - Towards Safe Autonomous Driving: Capture Uncertainty in the Deep Neural Network For Lidar 3D Vehicle Detection [[pdf]](https://arxiv.org/abs/1804.05132) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Towards%20Safe%20Autonomous%20Driving:%20Capture%20Uncertainty%20in%20the%20Deep%20Neural%20Network%20For%20Lidar%203D%20Vehicle%20Detection_.pdf)
 - *Di Feng, Lars Rosenbaum, Klaus Dietmayer*
-- `2018-09-08, ITSC 2018`
+- `ITSC 2018`
 - [Uncertainty Estimation], [3D Object Detection]
 ```
 General comments on paper quality:
@@ -2936,7 +2936,7 @@ First paper to apply the uncertainty estimation methods of Kendall and Gal to th
 ##### [18-10-25] [paper15]
 - Bayesian Convolutional Neural Networks with Many Channels are Gaussian Processes [[pdf]](https://arxiv.org/abs/1810.05148) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Convolutional%20Neural%20Networks%20with%20Many%20Channels%20are%20Gaussian%20Processes_.pdf)
 - *Roman Novak, Lechao Xiao, Jaehoon Lee, Yasaman Bahri, Daniel A. Abolafia, Jeffrey Pennington, Jascha Sohl-Dickstein*
-- `2018-10-11, ICLR 2019`
+- `ICLR 2019`
 - [Theoretical Properties of Deep Learning]
 ```
 General comments on paper quality:
@@ -2956,7 +2956,7 @@ I always find these kind of papers interesting as they try to improve our unders
 ##### [18-10-19] [paper14]
 - Uncertainty in Neural Networks: Bayesian Ensembling [[pdf]](https://arxiv.org/abs/1810.05546) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20in%20Neural%20Networks:%20Bayesian%20Ensembling_.pdf)
 - *Tim Pearce, Mohamed Zaki, Alexandra Brintrup, Andy Neel*
-- `2018-10-12, AISTATS 2020`
+- `AISTATS 2020`
 - [Uncertainty Estimation], [Ensembling]
 ```
 General comments on paper quality:
@@ -2992,7 +2992,7 @@ Perhaps the Bayesian motivation used in this paper doesn't really hold for large
 ##### [18-10-18] [paper13]
 - Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles [[pdf]](https://arxiv.org/abs/1612.01474) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Simple%20and%20Scalable%20Predictive%20Uncertainty%20Estimation%20using%20Deep%20Ensembles_.pdf)
 - *Balaji Lakshminarayanan, Alexander Pritzel, Charles Blundell*
-- `2017-11-17, NeurIPS 2017`
+- `NeurIPS 2017`
 - [Uncertainty Estimation], [Ensembling]
 ```
 General comments on paper quality:
@@ -3024,7 +3024,7 @@ Conceptually very simple, yet interesting method. The key drawback of using ense
 ##### [18-10-18] [paper12]
 - Reliable Uncertainty Estimates in Deep Neural Networks using Noise Contrastive Priors [[pdf]](https://arxiv.org/abs/1807.09289) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Reliable%20Uncertainty%20Estimates%20in%20Deep%20Neural%20Networks%20using%20Noise%20Contrastive%20Priors_.pdf)
 - *Danijar Hafner, Dustin Tran, Alex Irpan, Timothy Lillicrap, James Davidson*
-- `2018-07-24, ICML 2018 Workshop`
+- `ICML Workshops 2018`
 - [Uncertainty Estimation]
 ```
 General comments on paper quality:
@@ -3048,7 +3048,7 @@ Somewhat interesting method, although I must say it seems quite ad hoc. Not sure
 ##### [18-10-05] [paper11]
 - VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection [[pdf]](https://arxiv.org/abs/1711.06396) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VoxelNet:%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection_.pdf)
 - *Yin Zhou, Oncel Tuzel*
-- `2017-11-17, CVPR 2018`
+- `CVPR 2018`
 - [3D Object Detection]
 ```
 General comments on paper quality:
@@ -3119,7 +3119,7 @@ There are however some design choices which I find somewhat peculiar, e.g. the w
 ##### [18-10-04] [paper9]
 - On gradient regularizers for MMD GANs [[pdf]](https://arxiv.org/abs/1805.11565) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20gradient%20regularizers%20for%20MMD%20GANs_.pdf)
 - *Michael Arbel, Dougal J. Sutherland, Mikołaj Bińkowski, Arthur Gretton*
-- `2018-05-29, NeurIPS 2018`
+- `NeurIPS 2018`
 ```
 General comments on paper quality:
 Well-written but rather heavy paper to read, I did definitely not have the background required neither to fully understand nor to properly appreciate the proposed methods. I would probably need to do some more background reading and then come back and read this paper again.
@@ -3134,7 +3134,7 @@ The authors experimentally evaluate their proposed architectures on the task of 
 ##### [18-09-30] [paper8]
 - Neural Processes [[pdf]](https://arxiv.org/abs/1807.01622) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Processes_.pdf)
 - *Marta Garnelo, Jonathan Schwarz, Dan Rosenbaum, Fabio Viola, Danilo J. Rezende, S.M. Ali Eslami, Yee Whye Teh*
-- `2018-07-04, ICML 2018 Workshop`
+- `ICML Workshops 2018`
 - [Neural Processes]
 ```
 General comments on paper quality:
@@ -3164,7 +3164,7 @@ I suppose the approach might be interesting if you were to train a 3DOD model on
 ##### [18-09-27] [paper7]
 - Conditional Neural Processes [[pdf]](https://arxiv.org/abs/1807.01613) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conditional%20Neural%20Processes_.pdf)
 - *Marta Garnelo, Dan Rosenbaum, Chris J. Maddison, Tiago Ramalho, David Saxton, Murray Shanahan, Yee Whye Teh, Danilo J. Rezende, S. M. Ali Eslami*
-- `2018-07-04, ICML 2018`
+- `ICML 2018`
 - [Neural Processes]
 ```
 General comments on paper quality:
@@ -3202,7 +3202,7 @@ Pretty interesting approach, although it's not immediately obvious to me what us
 ##### [18-09-27] [paper6]
 - Neural Autoregressive Flows [[pdf]](https://arxiv.org/abs/1804.00779) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Autoregressive%20Flows_.pdf)
 - *Chin-Wei Huang, David Krueger, Alexandre Lacoste, Aaron Courville*
-- `2018-04-03, ICML 2018`
+- `ICML 2018`
 - [Normalizing Flows]
 ```
 General comments on paper quality:
@@ -3241,7 +3241,7 @@ I probably need to do some more reading on the background material to fully unde
 ##### [18-09-25] [paper5]
 - Deep Confidence: A Computationally Efficient Framework for Calculating Reliable Errors for Deep Neural Networks [[pdf]](https://arxiv.org/abs/1809.09060) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Confidence:%20A%20Computationally%20Efficient%20Framework%20for%20Calculating%20Reliable%20Errors%20for%20Deep%20Neural%20Networks.pdf)
 - *Isidro Cortes-Ciriano, Andreas Bender*
-- `2018-09-24, Journal of Chemical Information and Modeling, 2019`
+- `Journal of Chemical Information and Modeling, 2019`
 - [Uncertainty Estimation]
 ```
 General comments on paper quality:
@@ -3275,7 +3275,7 @@ And if so, I suppose it doesn't really matter that the network in a sense is sti
 ##### [18-09-25] [paper4]
 - Leveraging Heteroscedastic Aleatoric Uncertainties for Robust Real-Time LiDAR 3D Object Detection [[pdf]](https://arxiv.org/abs/1809.05590) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Leveraging%20Heteroscedastic%20Aleatoric%20Uncertainties%20for%20Robust%20Real-Time%20LiDAR%203D%20Object%20Detection_.pdf)
 - *Di Feng, Lars Rosenbaum, Fabian Timm, Klaus Dietmayer*
-- `2018-09-14, IEEE Intelligent Vehicles Symposium 2019`
+- `IEEE Intelligent Vehicles Symposium 2019`
 - [Uncertainty Estimation]
 ```
 General comments on paper quality:
@@ -3308,7 +3308,7 @@ Also, it feels like this work is HEAVILY inspired by Kendall and Gal but it's no
 ##### [18-09-24] [paper3]
 - Lightweight Probabilistic Deep Networks [[pdf]](https://arxiv.org/abs/1805.11327) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Lightweight%20Probabilistic%20Deep%20Networks_.pdf)
 - *Jochen Gast, Stefan Roth*
-- `2018-05-29, CVPR 2018`
+- `CVPR 2018`
 - [Uncertainty Estimation]
 ```
 General comments on paper quality:
@@ -3340,7 +3340,7 @@ Also, my question from the Kendall and Gal summary still remains. Even if we ass
 ##### [18-09-24] [paper2]
 - What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? [[pdf]](https://arxiv.org/abs/1703.04977) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/What%20Uncertainties%20Do%20We%20Need%20in%20Bayesian%20Deep%20Learning%20for%20Computer%20Vision%3F_.pdf)
 - *Alex Kendall, Yarin Gal*
-- `2017-10-05, NeurIPS 2017`
+- `NeurIPS 2017`
 - [Uncertainty Estimation]
 ```
 General comments on paper quality:
@@ -3388,7 +3388,7 @@ However, it's still not quite clear to me how much you can actually trust these 
 ##### [18-09-20] [paper1]
 - Gaussian Process Behaviour in Wide Deep Neural Networks [[pdf]](https://arxiv.org/abs/1804.11271) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gaussian%20Process%20Behaviour%20in%20Wide%20Deep%20Neural%20Networks.pdf)
 - *Alexander G. de G. Matthews, Mark Rowland, Jiri Hron, Richard E. Turner, Zoubin Ghahramani*
-- `2018-08-16, ICLR 2018`
+- `ICLR 2018`
 - [Theoretical Properties of Deep Learning]
 ```
 General comments on paper quality:
