@@ -1434,7 +1434,7 @@ Well-written and fairly interesting paper. Quite a lot of details on the attenti
  [[pdf]](https://arxiv.org/abs/2109.09913) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Physics-based%20Human%20Motion%20Estimation%20and%20Synthesis%20from%20Videos.pdf)
 - *Kevin Xie, Tingwu Wang, Umar Iqbal, Yunrong Guo, Sanja Fidler, Florian Shkurti*
 - `2021-09-21, ICCV 2021`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 ```
 Well-written and quite interesting paper. The general idea, refining frame-by-frame pose estimates via physical constraints, intuitively makes a lot of sense. I did however find it quite difficult to understand all the details in Section 3.
 ```
@@ -1444,7 +1444,7 @@ Well-written and quite interesting paper. The general idea, refining frame-by-fr
  [[pdf]](https://arxiv.org/abs/2102.08248) [[code]](https://github.com/JakobHavtorn/hvae-oodd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20VAEs%20Know%20What%20They%20Don't%20Know.pdf)
 - *Jakob D. Havtorn, Jes Frellsen, Søren Hauberg, Lars Maaløe*
 - `2021-02-16, ICML 2021`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[VAEs]](#vaes)
+- [Uncertainty Estimation], [VAEs]
 ```
 Very well-written and quite interesting paper, I enjoyed reading it. Everything is quite well-explained, it's relatively easy to follow. The paper provides a good overview of the out-of-distribution detection problem and current methods.
 ```
@@ -1454,7 +1454,7 @@ Very well-written and quite interesting paper, I enjoyed reading it. Everything 
  [[pdf]](https://arxiv.org/abs/2107.11291) [[code]](https://github.com/Jeff-sjtu/res-loglikelihood-regression) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Human%20Pose%20Regression%20with%20Residual%20Log-likelihood%20Estimation.pdf)
 - *Jiefeng Li, Siyuan Bian, Ailing Zeng, Can Wang, Bo Pang, Wentao Liu, Cewu Lu*
 - `2021-07-23, ICCV 2021`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 ```
 Quite interesting paper, but also quite strange/confusing. I don't think the proposed method is explained particularly well, at least I found it quite difficult to properly understand what they actually are doing.
 
@@ -1468,7 +1468,7 @@ And while it's true that their performance is much better than for direct regres
  [[pdf]](https://arxiv.org/abs/2003.08934) [[code]](https://github.com/bmild/nerf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/NeRF:%20Representing%20Scenes%20as%20Neural%20Radiance%20Fields%20for%20View%20Synthesis.pdf)
 - *Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng*
 - `2020-03-19, ECCV 2020`
-- [[Implicit Neural Representations]](#implicit-neural-representations)
+- [Implicit Neural Representations]
 ```
 Extremely well-written and interesting paper. I really enjoyed reading it, and I would recommend anyone interested in computer vision to read it as well.
 
@@ -1480,7 +1480,7 @@ All parts of the proposed method are clearly explained and relatively easy to un
  [[pdf]](https://arxiv.org/abs/2106.07998) [[code]](https://github.com/google-research/robustness_metrics/tree/master/robustness_metrics/projects/revisiting_calibration) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Revisiting%20the%20Calibration%20of%20Modern%20Neural%20Networks.pdf)
 - *Matthias Minderer, Josip Djolonga, Rob Romijnders, Frances Hubis, Xiaohua Zhai, Neil Houlsby, Dustin Tran, Mario Lucic*
 - `2021-06-15, NeurIPS 2021`
-- [[Uncertainty Estimation]](#uncertainty-estimation)
+- [Uncertainty Estimation]
 ```
 Well-written paper. Everything is quite clearly explained and easy to understand. Quite enjoyable to read overall. 
 
@@ -1498,28 +1498,28 @@ Thorough experimental evaluation. Quite interesting findings.
  [[pdf]](https://arxiv.org/abs/2103.14274) [[code]](https://github.com/electronicarts/character-motion-vaes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Character%20Controllers%20Using%20Motion%20VAEs.pdf)
 - *Hung Yu Ling, Fabio Zinno, George Cheng, Michiel van de Panne*
 - `2021-03-26, SIGGRAPH 2020`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 
 ##### [21-08-27] [paper142]
 - DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation
  [[pdf]](https://arxiv.org/abs/1901.05103) [[code]](https://github.com/facebookresearch/DeepSDF) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DeepSDF:%20Learning%20Continuous%20Signed%20Distance%20Functions%20for%20Shape%20Representation.pdf)
 - *Jeong Joon Park, Peter Florence, Julian Straub, Richard Newcombe, Steven Lovegrove*
 - `2019-01-16, CVPR 2019`
-- [[Implicit Neural Representations]](#implicit-neural-representations)
+- [Implicit Neural Representations]
 
 ##### [21-06-19] [paper141]
 - Generating Multiple Hypotheses for 3D Human Pose Estimation with Mixture Density Network
  [[pdf]](https://arxiv.org/abs/1904.05547) [[code]](https://github.com/chaneyddtt/Generating-Multiple-Hypotheses-for-3D-Human-Pose-Estimation-with-Mixture-Density-Network) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generating%20Multiple%20Hypotheses%20for%203D%20Human%20Pose%20Estimation%20with%20Mixture%20Density%20Network.pdf)
 - *Chen Li, Gim Hee Lee*
 - `2019-04-11, CVPR 2019`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 
 ##### [21-06-19] [paper140]
 - Expressive Body Capture: 3D Hands, Face, and Body from a Single Image
  [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://github.com/vchoutas/smplify-x) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Expressive%20Body%20Capture:%203D%20Hands%2C%20Face%2C%20and%20Body%20from%20a%20Single%20Image.pdf)
 - *Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A. A. Osman, Dimitrios Tzionas, Michael J. Black*
 - `2019-04-11, CVPR 2019`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 ```
 Very well-written and quite interesting paper. Gives a good understanding of the SMPL model and the SMPLify method.
 ```
@@ -1529,77 +1529,77 @@ Very well-written and quite interesting paper. Gives a good understanding of the
  [[pdf]](https://arxiv.org/abs/1607.08128) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Keep%20it%20SMPL:%20Automatic%20Estimation%20of%203D%20Human%20Pose%20and%20Shape%20from%20a%20Single%20Image.pdf)
 - *Federica Bogo, Angjoo Kanazawa, Christoph Lassner, Peter Gehler, Javier Romero, Michael J. Black*
 - `2016-07-27, ECCV 2016`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 
 ##### [21-06-18] [paper138]
 - Beyond Static Features for Temporally Consistent 3D Human Pose and Shape from a Video
  [[pdf]](https://arxiv.org/abs/2011.08627) [[code]](https://github.com/hongsukchoi/TCMR_RELEASE) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Beyond%20Static%20Features%20for%20Temporally%20Consistent%203D%20Human%20Pose%20and%20Shape%20from%20a%20Video.pdf)
 - *Hongsuk Choi, Gyeongsik Moon, Ju Yong Chang, Kyoung Mu Lee*
 - `2020-11-17, CVPR 2021`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 
 ##### [21-06-17] [paper137]
 - Exemplar Fine-Tuning for 3D Human Model Fitting Towards In-the-Wild 3D Human Pose Estimation
  [[pdf]](https://arxiv.org/abs/2004.03686) [[code]](https://github.com/facebookresearch/eft) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Exemplar%20Fine-Tuning%20for%203D%20Human%20Model%20Fitting%20Towards%20In-the-Wild%203D%20Human%20Pose%20Estimation.pdf)
 - *Hanbyul Joo, Natalia Neverova, Andrea Vedaldi*
 - `2020-04-07, 3DV 2021`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 
 ##### [21-06-17] [paper136]
 - Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop
  [[pdf]](https://arxiv.org/abs/1909.12828) [[code]](https://github.com/nkolot/SPIN) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Reconstruct%203D%20Human%20Pose%20and%20Shape%20via%20Model-fitting%20in%20the%20Loop.pdf)
 - *Nikos Kolotouros, Georgios Pavlakos, Michael J. Black, Kostas Daniilidis*
 - `2019-09-27, ICCV 2019`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 
 ##### [21-06-16] [paper135]
 - A simple yet effective baseline for 3d human pose estimation
  [[pdf]](https://arxiv.org/abs/1705.03098) [[code]](https://github.com/una-dinosauria/3d-pose-baseline) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20simple%20yet%20effective%20baseline%20for%203d%20human%20pose%20estimation.pdf)
 - *Julieta Martinez, Rayat Hossain, Javier Romero, James J. Little*
 - `2017-05-08, ICCV 2017`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 
 ##### [21-06-16] [paper134]
 - Estimating Egocentric 3D Human Pose in Global Space
  [[pdf]](https://arxiv.org/abs/2104.13454) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Estimating%20Egocentric%203D%20Human%20Pose%20in%20Global%20Space.pdf)
 - *Jian Wang, Lingjie Liu, Weipeng Xu, Kripasindhu Sarkar, Christian Theobalt*
 - `2021-04-27, ICCV 2021`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 
 ##### [21-06-15] [paper133]
 - End-to-end Recovery of Human Shape and Pose
  [[pdf]](https://arxiv.org/abs/1712.06584) [[code]](https://github.com/akanazawa/hmr) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-end%20Recovery%20of%20Human%20Shape%20and%20Pose.pdf)
 - *Angjoo Kanazawa, Michael J. Black, David W. Jacobs, Jitendra Malik*
 - `2017-12-18, CVPR 2018`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 
 ##### [21-06-14] [paper132]
 - 3D Multi-bodies: Fitting Sets of Plausible 3D Human Models to Ambiguous Image Data
  [[pdf]](https://arxiv.org/abs/2011.00980) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/3D%20Multi-bodies:%20Fitting%20Sets%20of%20Plausible%203D%20Human%20Models%20to%20Ambiguous%20Image%20Data.pdf)
 - *Benjamin Biggs, Sébastien Ehrhadt, Hanbyul Joo, Benjamin Graham, Andrea Vedaldi, David Novotny*
 - `2020-11-02, NeurIPS 2020`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 
 ##### [21-06-04] [paper131]
 - HuMoR: 3D Human Motion Model for Robust Pose Estimation
  [[pdf]](https://arxiv.org/abs/2105.04668) [[code]](https://geometry.stanford.edu/projects/humor/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/HuMoR:%203D%20Human%20Motion%20Model%20for%20Robust%20Pose%20Estimation.pdf)
 - *Davis Rempe, Tolga Birdal, Aaron Hertzmann, Jimei Yang, Srinath Sridhar, Leonidas J. Guibas*
 - `2021-05-10, ICCV 2021`
-- [[3D Human Pose Estimation]](#3d-human-pose-estimation)
+- [3D Human Pose Estimation]
 
 ##### [21-05-07] [paper130]
 - PixelTransformer: Sample Conditioned Signal Generation
  [[pdf]](https://arxiv.org/abs/2103.15813) [[code]](https://github.com/shubhtuls/PixelTransformer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PixelTransformer:%20Sample%20Conditioned%20Signal%20Generation.pdf)
 - *Shubham Tulsiani, Abhinav Gupta*
 - `2021-03-29, ICML 2021`
-- [[Neural Processes]](#neural-processes) [[Transformers]](#transformers)
+- [Neural Processes], [Transformers]
 
 ##### [21-04-29] [paper129]
 - Stiff Neural Ordinary Differential Equations
  [[pdf]](https://arxiv.org/abs/2103.15341) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stiff%20Neural%20Ordinary%20Differential%20Equations.pdf)
 - *Suyong Kim, Weiqi Ji, Sili Deng, Yingbo Ma, Christopher Rackauckas*
 - `2021-03-29`
-- [[Neural ODEs]](#neural-odes)
+- [Neural ODEs]
 
 ##### [21-04-16] [paper128]
 - Learning Mesh-Based Simulation with Graph Networks
@@ -1613,28 +1613,28 @@ Very well-written and quite interesting paper. Gives a good understanding of the
  [[pdf]](https://arxiv.org/abs/2001.08116) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Q-Learning%20in%20enormous%20action%20spaces%20via%20amortized%20approximate%20maximization.pdf)
 - *Tom Van de Wiele, David Warde-Farley, Andriy Mnih, Volodymyr Mnih*
 - `2020-01-22`
-- [[Reinforcement Learning]](#reinforcement-learning)
+- [Reinforcement Learning]
 
 ##### [21-04-01] [paper126]
 - Loss Surface Simplexes for Mode Connecting Volumes and Fast Ensembling
  [[pdf]](https://arxiv.org/abs/2102.13042) [[code]](https://github.com/g-benton/loss-surface-simplexes) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Loss%20Surface%20Simplexes%20for%20Mode%20Connecting%20Volumes%20and%20Fast%20Ensembling.pdf)
 - *Gregory W. Benton, Wesley J. Maddox, Sanae Lotfi, Andrew Gordon Wilson*
 - `2021-02-25, ICML 2021`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Ensembling]](#ensembling)
+- [Uncertainty Estimation], [Ensembling]
 
 ##### [21-03-26] [paper125]
 - Your GAN is Secretly an Energy-based Model and You Should use Discriminator Driven Latent Sampling
  [[pdf]](https://arxiv.org/abs/2003.06060) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Your%20GAN%20is%20Secretly%20an%20Energy-based%20Model%20and%20You%20Should%20Use%20Discriminator%20Driven%20Latent%20Sampling.pdf)
 - *Tong Che, Ruixiang Zhang, Jascha Sohl-Dickstein, Hugo Larochelle, Liam Paull, Yuan Cao, Yoshua Bengio*
 - `2020-03-12, NeurIPS 2020`
-- [[Energy-Based Models]](#energy-based-models)
+- [Energy-Based Models]
 
 ##### [21-03-19] [paper124]
 - Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability
  [[pdf]](https://arxiv.org/abs/2103.00065) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gradient%20Descent%20on%20Neural%20Networks%20Typically%20Occurs%20at%20the%20Edge%20of%20Stability.pdf)
 - *Jeremy M. Cohen, Simran Kaur, Yuanzhi Li, J. Zico Kolter, Ameet Talwalkar*
 - `2021-02-26, ICLR 2021`
-- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+- [Theoretical Properties of Deep Learning]
 
 ##### [21-03-12] [paper123]
 - Unsupervised Learning of Visual Features by Contrasting Cluster Assignments
@@ -1647,7 +1647,7 @@ Very well-written and quite interesting paper. Gives a good understanding of the
  [[pdf]](https://arxiv.org/abs/2102.06559) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Infinitely%20Deep%20Bayesian%20Neural%20Networks%20with%20Stochastic%20Differential%20Equations.pdf)
 - *Winnie Xu, Ricky T.Q. Chen, Xuechen Li, David Duvenaud*
 - `2021-02-12,AISTATS 2022`
-- [[Neural ODEs]](#neural-odes) [[Uncertainty Estimation]](#uncertainty-estimation)
+- [Neural ODEs], [Uncertainty Estimation]
 
 ##### [21-02-26] [paper121]
 - Neural Relational Inference for Interacting Systems
@@ -1666,7 +1666,7 @@ Very well-written and quite interesting paper. Gives a good understanding of the
  [[pdf]](https://arxiv.org/abs/2101.12176) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Origin%20of%20Implicit%20Regularization%20in%20Stochastic%20Gradient%20Descent.pdf)
 - *Samuel L. Smith, Benoit Dherin, David G. T. Barrett, Soham De*
 - `2021-01-28, ICLR 2021`
-- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+- [Theoretical Properties of Deep Learning]
 
 ##### [21-02-05] [paper118]
 - Meta Pseudo Labels
@@ -1679,21 +1679,21 @@ Very well-written and quite interesting paper. Gives a good understanding of the
  [[pdf]](https://arxiv.org/abs/2010.04230) [[code]](https://github.com/wgrathwohl/VERA) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/No%20MCMC%20for%20me:%20Amortized%20sampling%20for%20fast%20and%20stable%20training%20of%20energy-based%20models.pdf)
 - *Will Grathwohl, Jacob Kelly, Milad Hashemi, Mohammad Norouzi, Kevin Swersky, David Duvenaud*
 - `2020-10-08, ICLR 2021`
-- [[Energy-Based Models]](#energy-based-models)
+- [Energy-Based Models]
 
 ##### [21-01-22] [paper116]
 - Getting a CLUE: A Method for Explaining Uncertainty Estimates
  [[pdf]](https://arxiv.org/abs/2006.06848) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Getting%20a%20CLUE:%20A%20Method%20for%20Explaining%20Uncertainty%20Estimates.pdf)
 - *Javier Antorán, Umang Bhatt, Tameem Adel, Adrian Weller, José Miguel Hernández-Lobato*
 - `2020-06-11, ICLR 2021`
-- [[Uncertainty Estimation]](#uncertainty-estimation)
+- [Uncertainty Estimation]
 
 ##### [21-01-15] [paper115]
 - Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
  [[pdf]](https://arxiv.org/abs/2006.16236) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformers%20are%20RNNs:%20Fast%20Autoregressive%20Transformers%20with%20Linear%20Attention.pdf)
 - *Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, François Fleuret*
 - `2020-06-29, ICML 2020`
-- [[Transformers]](#transformers)
+- [Transformers]
 
 #### Papers Read in 2020:
 
@@ -1702,48 +1702,48 @@ Very well-written and quite interesting paper. Gives a good understanding of the
  [[pdf]](https://arxiv.org/abs/2011.13456) [[code]](https://github.com/yang-song/score_sde) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations.pdf)
 - *Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole*
 - `2020-11-26, ICLR 2021`
-- [[Neural ODEs]](#neural-odes)
+- [Neural ODEs]
 
 ##### [20-12-14] [paper113]
 - Dissecting Neural ODEs
  [[pdf]](https://arxiv.org/abs/2002.08071) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Dissecting%20Neural%20ODEs.pdf)
 - *Stefano Massaroli, Michael Poli, Jinkyoo Park, Atsushi Yamashita, Hajime Asama*
 - `2020-02-19, NeurIPS 2020`
-- [[Neural ODEs]](#neural-odes)
+- [Neural ODEs]
 
 ##### [20-11-27] [paper112]
 - Rethinking Attention with Performers
  [[pdf]](https://arxiv.org/abs/2009.14794) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Rethinking%20Attention%20with%20Performers.pdf)
 - *Krzysztof Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song, Andreea Gane, Tamas Sarlos, Peter Hawkins, Jared Davis, Afroz Mohiuddin, Lukasz Kaiser, David Belanger, Lucy Colwell, Adrian Weller*
 - `2020-10-30, ICLR 2021`
-- [[Transformers]](#transformers)
+- [Transformers]
 
 ##### [20-11-23] [paper111]
 - Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images
  [[pdf]](https://arxiv.org/abs/2011.10650) [[code]](https://github.com/openai/vdvae) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Very%20Deep%20VAEs%20Generalize%20Autoregressive%20Models%20and%20Can%20Outperform%20Them%20on%20Images.pdf)
 - *Rewon Child*
 - `2020-11-20, ICLR 2021`
-- [[VAEs]](#vaes)
+- [VAEs]
 
 ##### [20-11-13] [paper110]
 - VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models
  [[pdf]](https://arxiv.org/abs/2010.00654) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VAEBM:%20A%20Symbiosis%20between%20Variational%20Autoencoders%20and%20Energy-based%20Models.pdf)
 - *Zhisheng Xiao, Karsten Kreis, Jan Kautz, Arash Vahdat*
 - `2020-10-01, ICLR 2021`
-- [[Energy-Based Models]](#energy-based-models) [[VAEs]](#vaes)
+- [Energy-Based Models], [VAEs]
 
 ##### [20-11-06] [paper109]
 - Approximate Inference Turns Deep Networks into Gaussian Processes
  [[pdf]](https://arxiv.org/abs/1906.01930) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Approximate%20Inference%20Turns%20Deep%20Networks%20into%20Gaussian%20Processes.pdf)
 - *Mohammad Emtiyaz Khan, Alexander Immer, Ehsan Abedi, Maciej Korzepa*
 - `2019-06-05, NeurIPS 2019`
-- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+- [Theoretical Properties of Deep Learning]
 
 ##### [20-10-16] [paper108]
 - Implicit Gradient Regularization [[pdf]](https://arxiv.org/abs/2009.11162) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Implicit%20Gradient%20Regularization.pdf)
 - *David G.T. Barrett, Benoit Dherin*
 - `2020-09-23,  ICLR 2021`
-- [[Theoretical Properties of Deep Learning]](#theoretical-properties-of-deep-learning)
+- [Theoretical Properties of Deep Learning]
 ```
 Well-written and somewhat interesting paper. Quite interesting concept, makes some intuitive sense. Not sure if the experimental results were super convincing though.
 ```
@@ -1760,7 +1760,7 @@ Quite well-written and somewhat interesting paper. Section 6 (Future and on-goin
 - Simple and Principled Uncertainty Estimation with Deterministic Deep Learning via Distance Awareness [[pdf]](https://arxiv.org/abs/2006.10108) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Simple%20and%20Principled%20Uncertainty%20Estimation%20with%20Deterministic%20Deep%20Learning%20via%20Distance%20Awareness.pdf)
 - *Jeremiah Zhe Liu, Zi Lin, Shreyas Padhy, Dustin Tran, Tania Bedrax-Weiss, Balaji Lakshminarayanan*
 - `2020-06-17, NeurIPS 2020`
-- [[Uncertainty Estimation]](#uncertainty-estimation)
+- [Uncertainty Estimation]
 ```
 Interesting paper. Quite a heavy read (section 2 and 3). I didn't really spend enough time reading the paper to fully understand everything. The "distance awareness" concept intuitively makes a lot of sense, the example in Figure 1 is impressive, and the results on CIFAR10/100 are also encouraging. I did find section 3.1 quite confusing, Appendix A was definitely useful.
 ```
@@ -1769,7 +1769,7 @@ Interesting paper. Quite a heavy read (section 2 and 3). I didn't really spend e
 - Uncertainty Estimation Using a Single Deep Deterministic Neural Network [[pdf]](https://arxiv.org/abs/2003.02037) [[code]](https://github.com/y0ast/deterministic-uncertainty-quantification) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimation%20Using%20a%20Single%20Deep%20Deterministic%20Neural%20Network.pdf)
 - *Joost van Amersfoort, Lewis Smith, Yee Whye Teh, Yarin Gal*
 - `2020-03-04, ICML 2020`
-- [[Uncertainty Estimation]](#uncertainty-estimation)
+- [Uncertainty Estimation]
 ```
 Well-written and quite interesting paper. Interesting and neat idea, it definitely makes some intuitive sense. In the end though, I was not overly impressed. Once they used the more realistic setup on the CIFAR10 experiment (not using a third dataset to tune lambda), the proposed method was outperformed by ensembling (also using quite few networks). Yes, their method is more computationally efficient at test time (which is indeed very important in many applications), but it also seems quite a lot less convenient to train, involves setting a couple of important hyperparameters and so on. Interesting method and a step in the right direction though.
 ```
@@ -1786,7 +1786,7 @@ Quite well-written and somewhat interesting paper. Interesting paper in the sens
 - Denoising Diffusion Probabilistic Models [[pdf]](https://arxiv.org/abs/2006.11239) [[code]](https://github.com/hojonathanho/diffusion) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Denoising%20Diffusion%20Probabilistic%20Models.pdf)
 - *Jonathan Ho, Ajay Jain, Pieter Abbeel*
 - `2020-06-19, NeurIPS 2020`
-- [[Energy-Based Models]](#energy-based-models)
+- [Energy-Based Models]
 ```
 Quite well-written and interesting paper. I do find the connection between "diffusion probabilistic models" and denoising score matching relatively interesting. Since I was not familiar with diffusion probabilistic models, the paper was however a quite heavy read, and the established connection didn't really improve my intuition (reading Generative Modeling by Estimating Gradients of the Data Distribution gave a better understanding of score matching, I think).
 ```
@@ -1795,7 +1795,7 @@ Quite well-written and interesting paper. I do find the connection between "diff
 - Joint Training of Variational Auto-Encoder and Latent Energy-Based Model [[pdf]](https://arxiv.org/abs/2006.06059) [[code]](https://hthth0801.github.io/jointLearning/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Joint%20Training%20of%20Variational%20Auto-Encoder%20and%20Latent%20Energy-Based%20Model.pdf)
 - *Tian Han, Erik Nijkamp, Linqi Zhou, Bo Pang, Song-Chun Zhu, Ying Nian Wu*
 - `2020-06-10, CVPR 2020`
-- [[VAEs]](#vaes) [[Energy-Based Models]](#energy-based-models)
+- [VAEs], [Energy-Based Models]
 ```
 Interesting and very well-written paper. Neat and interesting idea. The paper is well-written and provides a clear and quite intuitive description of EBMs, VAEs and other related work. The comment "Learning well-formed energy landscape remains a challenging problem, and our experience suggests that the learned energy function can be sensitive to the setting of hyper-parameters and within the training algorithm." is somewhat concerning.
 ```
@@ -1804,7 +1804,7 @@ Interesting and very well-written paper. Neat and interesting idea. The paper is
 - End-to-End Object Detection with Transformers [[pdf]](https://arxiv.org/abs/2005.12872) [[code]](https://github.com/facebookresearch/detr) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-to-End%20Object%20Detection%20with%20Transformers.pdf)
 - *Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko*
 - `2020-05-26, ECCV 2020`
-- [[Object Detection]](#object-detection)
+- [Object Detection]
 ```
 Interesting and well-written paper. Interesting and quite neat idea. Impressive results on object detection, and panoptic segmentation. It seems like the model requires longer training (500 vs 109 epochs?), and might be somewhat more difficult to train? Would be interesting to play around with the code. The "decoder output slot analysis" in Figure 7 is quite interesting. Would be interesting to further study what information has been captured in the object queries (which are just N vectors?) during training.
 ```
@@ -1813,7 +1813,7 @@ Interesting and well-written paper. Interesting and quite neat idea. Impressive 
 - Efficient and Scalable Bayesian Neural Nets with Rank-1 Factors [[pdf]](https://arxiv.org/abs/2005.07186) [[code]](https://github.com/google/edward2) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Efficient%20and%20Scalable%20Bayesian%20Neural%20Nets%20with%20Rank-1%20Factors.pdf)
 - *Michael W. Dusenberry, Ghassen Jerfel, Yeming Wen, Yi-an Ma, Jasper Snoek, Katherine Heller, Balaji Lakshminarayanan, Dustin Tran*
 - `2020-05-14, ICML 2020`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Variational Inference]](#variational-inference)
+- [Uncertainty Estimation], [Variational Inference]
 ```
 Quite well-written and interesting paper. Extenstion of the BatchEnsemble paper. Still a quite neat and simple idea, and performance seems to be consistently improved compared to BatchEnsemble. Not quite clear to me if the model is much more difficult to implement or train. Seems quite promising overall.
 ```
@@ -1822,7 +1822,7 @@ Quite well-written and interesting paper. Extenstion of the BatchEnsemble paper.
 - BatchEnsemble: An Alternative Approach to Efficient Ensemble and Lifelong Learning [[pdf]](https://arxiv.org/abs/2002.06715) [[code]](https://github.com/google/edward2) [[video]](https://iclr.cc/virtual_2020/poster_Sklf1yrYDr.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/BatchEnsemble:%20An%20Alternative%20Approach%20to%20Efficient%20Ensemble%20and%20Lifelong%20Learning.pdf)
 - *Yeming Wen, Dustin Tran, Jimmy Ba*
 - `2020-02-17, ICLR 2020`
-- [[Uncertainty Estimation]](#uncertainty-estimation) [[Ensembling]](#ensembling)
+- [Uncertainty Estimation], [Ensembling]
 ```
 Quite interesting and well-written paper. Neat and quite simple idea. I am however not entirely sure how easy it is to implement, it must complicate things somewhat at least? Not overly impressed by the calibration/uncertainty experiments, the proposed method is actually quite significantly outperformed by standard ensembling. The decrease in test-time computational cost is however impressive.
 ```
