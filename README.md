@@ -2888,6 +2888,7 @@ First paper to apply the uncertainty estimation methods of Kendall and Gal to th
 - Bayesian Convolutional Neural Networks with Many Channels are Gaussian Processes [[pdf]](https://arxiv.org/abs/1810.05148) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bayesian%20Convolutional%20Neural%20Networks%20with%20Many%20Channels%20are%20Gaussian%20Processes_.pdf)
 - *Roman Novak, Lechao Xiao, Jaehoon Lee, Yasaman Bahri, Daniel A. Abolafia, Jeffrey Pennington, Jascha Sohl-Dickstein*
 - `2018-10-11, ICLR 2019`
+- [Theoretical Properties of Deep Learning]
 ```
 General comments on paper quality:
 Fairly well-written but rather heavy paper to read, I probably don't have the necessary background to fully appreciate its contributions.
@@ -2907,6 +2908,7 @@ I always find these kind of papers interesting as they try to improve our unders
 - Uncertainty in Neural Networks: Bayesian Ensembling [[pdf]](https://arxiv.org/abs/1810.05546) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20in%20Neural%20Networks:%20Bayesian%20Ensembling_.pdf)
 - *Tim Pearce, Mohamed Zaki, Alexandra Brintrup, Andy Neel*
 - `2018-10-12, AISTATS 2020`
+- [Uncertainty Estimation], [Ensembling]
 ```
 General comments on paper quality:
 Well-written and interesting paper. Compares different ensembling techniques and techniques for approximate Bayesian inference in neural networks.
@@ -2942,6 +2944,7 @@ Perhaps the Bayesian motivation used in this paper doesn't really hold for large
 - Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles [[pdf]](https://arxiv.org/abs/1612.01474) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Simple%20and%20Scalable%20Predictive%20Uncertainty%20Estimation%20using%20Deep%20Ensembles_.pdf)
 - *Balaji Lakshminarayanan, Alexander Pritzel, Charles Blundell*
 - `2017-11-17, NeurIPS 2017`
+- [Uncertainty Estimation], [Ensembling]
 ```
 General comments on paper quality:
 Well-written and interesting paper. The proposed method is simple and also very clearly explained.
@@ -2973,6 +2976,7 @@ Conceptually very simple, yet interesting method. The key drawback of using ense
 - Reliable Uncertainty Estimates in Deep Neural Networks using Noise Contrastive Priors [[pdf]](https://arxiv.org/abs/1807.09289) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Reliable%20Uncertainty%20Estimates%20in%20Deep%20Neural%20Networks%20using%20Noise%20Contrastive%20Priors_.pdf)
 - *Danijar Hafner, Dustin Tran, Alex Irpan, Timothy Lillicrap, James Davidson*
 - `2018-07-24, ICML 2018 Workshop`
+- [Uncertainty Estimation]
 ```
 General comments on paper quality:
 Well-written paper, the proposed method is fairly clearly explained.
@@ -2996,6 +3000,7 @@ Somewhat interesting method, although I must say it seems quite ad hoc. Not sure
 - VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection [[pdf]](https://arxiv.org/abs/1711.06396) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VoxelNet:%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection_.pdf)
 - *Yin Zhou, Oncel Tuzel*
 - `2017-11-17, CVPR 2018`
+- [3D Object Detection]
 ```
 General comments on paper quality:
 Well-written and interesting paper, the proposed architecture is clearly described.
@@ -3031,6 +3036,7 @@ I also think that their data augmentation scheme seems to make a lot of sense, c
 - PIXOR: Real-time 3D Object Detection from Point Clouds [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_PIXOR_Real-Time_3D_CVPR_2018_paper.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PIXOR:%20Real-time%203D%20Object%20Detection%20from%20Point%20Clouds_.pdf)
 - *Bin Yang, Wenjie Luo, Raquel Urtasun*
 - `CVPR 2018`
+- [3D Object Detection]
 ```
 General comments on paper quality:
 Fairly well-written paper, although there are a couple of typos (weird grammar). Quite interesting proposed 3D localization model.
@@ -3080,6 +3086,7 @@ The authors experimentally evaluate their proposed architectures on the task of 
 - Neural Processes [[pdf]](https://arxiv.org/abs/1807.01622) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Processes_.pdf)
 - *Marta Garnelo, Jonathan Schwarz, Dan Rosenbaum, Fabio Viola, Danilo J. Rezende, S.M. Ali Eslami, Yee Whye Teh*
 - `2018-07-04, ICML 2018 Workshop`
+- [Neural Processes]
 ```
 General comments on paper quality:
 Quite well-written overall, although I did find a couple of typos (and perhaps you should expect more for a paper with 7 authors?). Also, I don't think the proposed method is quite as clearly explained as in the Conditional Neural Processes paper.
@@ -3109,6 +3116,7 @@ I suppose the approach might be interesting if you were to train a 3DOD model on
 - Conditional Neural Processes [[pdf]](https://arxiv.org/abs/1807.01613) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conditional%20Neural%20Processes_.pdf)
 - *Marta Garnelo, Dan Rosenbaum, Chris J. Maddison, Tiago Ramalho, David Saxton, Murray Shanahan, Yee Whye Teh, Danilo J. Rezende, S. M. Ali Eslami*
 - `2018-07-04, ICML 2018`
+- [Neural Processes]
 ```
 General comments on paper quality:
 Quite well-written. Interesting proposed method.
@@ -3146,6 +3154,7 @@ Pretty interesting approach, although it's not immediately obvious to me what us
 - Neural Autoregressive Flows [[pdf]](https://arxiv.org/abs/1804.00779) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Autoregressive%20Flows_.pdf)
 - *Chin-Wei Huang, David Krueger, Alexandre Lacoste, Aaron Courville*
 - `2018-04-03, ICML 2018`
+- [Normalizing Flows]
 ```
 General comments on paper quality:
 Well-written and interesting paper. As I was quite unfamiliar with the material, it did however require an extra read-through.
@@ -3184,6 +3193,7 @@ I probably need to do some more reading on the background material to fully unde
 - Deep Confidence: A Computationally Efficient Framework for Calculating Reliable Errors for Deep Neural Networks [[pdf]](https://arxiv.org/abs/1809.09060) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Confidence:%20A%20Computationally%20Efficient%20Framework%20for%20Calculating%20Reliable%20Errors%20for%20Deep%20Neural%20Networks.pdf)
 - *Isidro Cortes-Ciriano, Andreas Bender*
 - `2018-09-24, Journal of Chemical Information and Modeling, 2019`
+- [Uncertainty Estimation]
 ```
 General comments on paper quality:
 Unfamiliar paper formatting (written by authors from a different field), but actually a well-written and interesting paper. The methods are quite clearly explained.
@@ -3217,6 +3227,7 @@ And if so, I suppose it doesn't really matter that the network in a sense is sti
 - Leveraging Heteroscedastic Aleatoric Uncertainties for Robust Real-Time LiDAR 3D Object Detection [[pdf]](https://arxiv.org/abs/1809.05590) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Leveraging%20Heteroscedastic%20Aleatoric%20Uncertainties%20for%20Robust%20Real-Time%20LiDAR%203D%20Object%20Detection_.pdf)
 - *Di Feng, Lars Rosenbaum, Fabian Timm, Klaus Dietmayer*
 - `2018-09-14, IEEE Intelligent Vehicles Symposium 2019`
+- [Uncertainty Estimation]
 ```
 General comments on paper quality:
 Fairly well-written paper. I did find a couple of typos though, and some concepts could definitely have been more carefully and clearly explained.
@@ -3249,6 +3260,7 @@ Also, it feels like this work is HEAVILY inspired by Kendall and Gal but it's no
 - Lightweight Probabilistic Deep Networks [[pdf]](https://arxiv.org/abs/1805.11327) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Lightweight%20Probabilistic%20Deep%20Networks_.pdf)
 - *Jochen Gast, Stefan Roth*
 - `2018-05-29, CVPR 2018`
+- [Uncertainty Estimation]
 ```
 General comments on paper quality:
 Quite interesting and well written paper, I did however find a couple of the derivations (Deep uncertainty propagation using ADF & Classification with Dirichlet outputs) somewhat difficult to follow.
@@ -3280,6 +3292,7 @@ Also, my question from the Kendall and Gal summary still remains. Even if we ass
 - What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? [[pdf]](https://arxiv.org/abs/1703.04977) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/What%20Uncertainties%20Do%20We%20Need%20in%20Bayesian%20Deep%20Learning%20for%20Computer%20Vision%3F_.pdf)
 - *Alex Kendall, Yarin Gal*
 - `2017-10-05, NeurIPS 2017`
+- [Uncertainty Estimation]
 ```
 General comments on paper quality:
 Well written and interesting paper. Seems like a fairly complete introduction to Bayesian deep learning. Clearly defines aleatoric and epistemic uncertainty, and provides good intuition for what they capture and how they differ. A recommended read.
@@ -3327,6 +3340,7 @@ However, it's still not quite clear to me how much you can actually trust these 
 - Gaussian Process Behaviour in Wide Deep Neural Networks [[pdf]](https://arxiv.org/abs/1804.11271) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gaussian%20Process%20Behaviour%20in%20Wide%20Deep%20Neural%20Networks.pdf)
 - *Alexander G. de G. Matthews, Mark Rowland, Jiri Hron, Richard E. Turner, Zoubin Ghahramani*
 - `2018-08-16, ICLR 2018`
+- [Theoretical Properties of Deep Learning]
 ```
 General comments on paper quality:
 Well written and mathematically rigorous paper that I'd recommend anyone interested in theoretical properties of deep learning to read. An interesting and pleasent read.
