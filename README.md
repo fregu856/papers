@@ -226,7 +226,7 @@ Quite interesting, but not overly well-written paper. I don't like the "... is a
 - Out-of-Distribution Detection and Selective Generation for Conditional Language Models
  [[pdf]](https://openreview.net/forum?id=kJUS5nD0vPB) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Out-of-Distribution%20Detection%20and%20Selective%20Generation%20for%20Conditional%20Language%20Models.pdf)
 - `ICLR 2023`
-- [Out-of-Distribution Detection], [Selective Prediction]
+- [Out-of-Distribution Detection], [Selective Prediction], [NLP]
 ```
 Well-written and quite interesting paper. Doing "selective generation" generally makes sense. Their method seems like a quite intuitive extension of "A simple fix to Mahalanobis distance for improving near-OOD detection" (relative Mahalanobis distance) to the setting of language models. Also seems to perform quite well, but not super impressive performance compared to the baselines perhaps.
 ```
