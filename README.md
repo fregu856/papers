@@ -4,7 +4,7 @@ I categorize, annotate and write comments for all research papers I read (300+ p
 
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Autonomous Driving], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [System Identification], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP].
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Autonomous Driving], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [System Identification], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Miscellaneous].
 
 
 ### Papers:
@@ -22,6 +22,7 @@ I categorize, annotate and write comments for all research papers I read (300+ p
 - An Overlooked Key to Excellence in Research: A Longitudinal Cohort Study on the Association Between the Psycho-Social Work Environment and Research Performance
  [[pdf]](https://www.tandfonline.com/doi/full/10.1080/03075079.2020.1744127) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Overlooked%20Key%20to%20Excellence%20in%20Research%3A%20A%20Longitudinal%20Cohort%20Study%20on%20the%20Association%20Between%20the%20Psycho-Social%20Work%20Environment%20and%20Research%20Performance.pdf)
 - `Studies in Higher Education, 2021`
+- [Miscellaneous]
 ```
 Quite well written and interesting paper. I wanted to read something completely different compared to what I usually read. This paper was mentioned in a lecture I attended and seemed quite interesting. I don't regret reading it. I have never heard of "SEM analysis", thus it's difficult for me to judge how significant the results are. I think one can quite safely conclude that a good psycho-social work environment positively impacts research performance/excellence, but it's probably difficult to say ~how~ big this impact actually is. And, how big this impact is compared to various other factors. Either way, I quite enjoyed reading the paper.
 ```
