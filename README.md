@@ -4,7 +4,7 @@ I categorize, annotate and write comments for all research papers I read (300+ p
 
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Autonomous Driving], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [System Identification], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Miscellaneous].
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Autonomous Driving], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [System Identification], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Miscellaneous].
 
 
 ### Papers:
@@ -591,7 +591,7 @@ Well-written and quite interesting paper. The proposed method is explained well 
 - Learning Deep Representations by Mutual Information Estimation and Maximization
  [[pdf]](https://openreview.net/forum?id=Bklr3j0cKX) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20deep%20representations%20by%20mutual%20information%20estimation%20and%20maximization.pdf)
 - `ICLR 2019`
-- [Miscellaneous]
+- [Representation Learning]
 ```
 Quite interesting paper, but I struggled to properly understand everything. I might not have the necessary background knowledge. I find it difficult to formulate what my main takeaway from the paper would be, their proposed method seems quite similar to previous work? And also difficult to judge how significant/impressive their experimental results are?
 ```
@@ -699,7 +699,7 @@ Quite well-written and fairly interesting paper. I was mainly just interested in
 - Weakly-Supervised Disentanglement Without Compromises
  [[pdf]](https://arxiv.org/abs/2002.02886) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Weakly-Supervised%20Disentanglement%20Without%20Compromises.pdf)
 - `ICML 2020`
-- [Miscellaneous]
+- [Representation Learning]
 ```
 Quite well-written and somewhat interesting paper. Definitely not my area of expertise (learning disentangled representations of e.g. images) and I didn't have a lot of time to read the paper, I struggled to understand big parts of the paper.
 ```
@@ -1272,7 +1272,7 @@ Quite interesting and well-written paper. The experimental results do seem promi
  [[pdf]](https://arxiv.org/abs/2111.06377) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Masked%20Autoencoders%20Are%20Scalable%20Vision%20Learners.pdf)
 - *Kaiming He, Xinlei Chen, Saining Xie, Yanghao Li, Piotr Dollár, Ross Girshick*
 - `CVPR 2022`
-- [Miscellaneous]
+- [Representation Learning]
 ```
 Interesting and well-written paper. The proposed method is simple and makes a lot of intuitive sense, which is rather satisfying. After page 4, there's mostly just detailed ablations and results.
 ```
@@ -1432,7 +1432,7 @@ Well-written and quite interesting paper. Interesting application, being able to
  [[pdf]](https://arxiv.org/abs/1611.01353) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Information%20Dropout:%20Learning%20Optimal%20Representations%20Through%20Noisy%20Computation.pdf)
 - *Alessandro Achille, Stefano Soatto*
 - `2016-11`
-- [Miscellaneous]
+- [Representation Learning]
 ```
 Well-written and somewhat interesting paper overall. I'm not overly familiar with the topics of the paper, and didn't fully understand everything. Some results and insights seem quite interesting/neat, but I'm not sure exactly what the main takeaways should be, or how significant they actually are.
 ```
@@ -1502,7 +1502,7 @@ Well-written paper. Everything is quite clearly explained and easy to understand
  [[pdf]](https://arxiv.org/abs/2102.07850) [[code]](https://github.com/JTT94/filterflow) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Differentiable%20Particle%20Filtering%20via%20Entropy-Regularized%20Optimal%20Transport.pdf)
 - *Adrien Corenflos, James Thornton, George Deligiannidis, Arnaud Doucet*
 - `ICML 2021`
-- [Miscellaneous]
+- [Sequence Modeling]
 
 ##### [21-09-02] [paper143]
 - Character Controllers Using Motion VAEs
@@ -1652,7 +1652,7 @@ Very well-written and quite interesting paper. Gives a good understanding of the
  [[pdf]](https://arxiv.org/abs/2006.09882) [[code]](https://github.com/facebookresearch/swav) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Unsupervised%20Learning%20of%20Visual%20Features%20by%20Contrasting%20Cluster%20Assignments.pdf)
 - *Mathilde Caron, Ishan Misra, Julien Mairal, Priya Goyal, Piotr Bojanowski, Armand Joulin*
 - `NeurIPS 2020`
-- [Miscellaneous]
+- [Representation Learning]
 
 ##### [21-03-04] [paper122]
 - Infinitely Deep Bayesian Neural Networks with Stochastic Differential Equations
@@ -1673,7 +1673,7 @@ Very well-written and quite interesting paper. Gives a good understanding of the
  [[pdf]](https://arxiv.org/abs/2102.05918) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Scaling%20Up%20Visual%20and%20Vision-Language%20Representation%20Learning%20With%20Noisy%20Text%20Supervision.pdf)
 - *Chao Jia, Yinfei Yang, Ye Xia, Yi-Ting Chen, Zarana Parekh, Hieu Pham, Quoc V. Le, Yunhsuan Sung, Zhen Li, Tom Duerig*
 - `ICML 2021`
-- [Miscellaneous]
+- [Representation Learning]
 
 ##### [21-02-12] [paper119]
 - On the Origin of Implicit Regularization in Stochastic Gradient Descent
