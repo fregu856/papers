@@ -1416,6 +1416,7 @@ Well-written and quite interesting paper. Interesting application, being able to
  [[pdf]](https://arxiv.org/abs/1611.01353) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Information%20Dropout:%20Learning%20Optimal%20Representations%20Through%20Noisy%20Computation.pdf)
 - *Alessandro Achille, Stefano Soatto*
 - `2016-11`
+- [Miscellaneous]
 ```
 Well-written and somewhat interesting paper overall. I'm not overly familiar with the topics of the paper, and didn't fully understand everything. Some results and insights seem quite interesting/neat, but I'm not sure exactly what the main takeaways should be, or how significant they actually are.
 ```
@@ -1485,6 +1486,7 @@ Well-written paper. Everything is quite clearly explained and easy to understand
  [[pdf]](https://arxiv.org/abs/2102.07850) [[code]](https://github.com/JTT94/filterflow) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Differentiable%20Particle%20Filtering%20via%20Entropy-Regularized%20Optimal%20Transport.pdf)
 - *Adrien Corenflos, James Thornton, George Deligiannidis, Arnaud Doucet*
 - `ICML 2021`
+- [Miscellaneous]
 
 ##### [21-09-02] [paper143]
 - Character Controllers Using Motion VAEs
@@ -1634,6 +1636,7 @@ Very well-written and quite interesting paper. Gives a good understanding of the
  [[pdf]](https://arxiv.org/abs/2006.09882) [[code]](https://github.com/facebookresearch/swav) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Unsupervised%20Learning%20of%20Visual%20Features%20by%20Contrasting%20Cluster%20Assignments.pdf)
 - *Mathilde Caron, Ishan Misra, Julien Mairal, Priya Goyal, Piotr Bojanowski, Armand Joulin*
 - `NeurIPS 2020`
+- [Miscellaneous]
 
 ##### [21-03-04] [paper122]
 - Infinitely Deep Bayesian Neural Networks with Stochastic Differential Equations
@@ -1647,12 +1650,14 @@ Very well-written and quite interesting paper. Gives a good understanding of the
  [[pdf]](https://arxiv.org/abs/1802.04687) [[code]](https://github.com/ethanfetaya/NRI) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Relational%20Inference%20for%20Interacting%20Systems.pdf)
 - *Thomas Kipf, Ethan Fetaya, Kuan-Chieh Wang, Max Welling, Richard Zemel*
 - `ICML 2018`
+- [Miscellaneous]
 
 ##### [21-02-19] [paper120]
 - Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision
  [[pdf]](https://arxiv.org/abs/2102.05918) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Scaling%20Up%20Visual%20and%20Vision-Language%20Representation%20Learning%20With%20Noisy%20Text%20Supervision.pdf)
 - *Chao Jia, Yinfei Yang, Ye Xia, Yi-Ting Chen, Zarana Parekh, Hieu Pham, Quoc V. Le, Yunhsuan Sung, Zhen Li, Tom Duerig*
 - `ICML 2021`
+- [Miscellaneous]
 
 ##### [21-02-12] [paper119]
 - On the Origin of Implicit Regularization in Stochastic Gradient Descent
@@ -1666,6 +1671,7 @@ Very well-written and quite interesting paper. Gives a good understanding of the
  [[pdf]](https://arxiv.org/abs/2003.10580) [[code]](https://github.com/google-research/google-research/tree/master/meta_pseudo_labels) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Meta%20Pseudo%20Labels.pdf)
 - *Hieu Pham, Zihang Dai, Qizhe Xie, Minh-Thang Luong, Quoc V. Le*
 - `CVPR 2021`
+- [Miscellaneous]
 
 ##### [21-01-29] [paper117]
 - No MCMC for Me: Amortized Sampling for Fast and Stable Training of Energy-Based Models
@@ -1745,6 +1751,7 @@ Well-written and somewhat interesting paper. Quite interesting concept, makes so
 - Satellite Conjunction Analysis and the False Confidence Theorem [[pdf]](https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.2018.0565) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Satellite%20conjunction%20analysis%20and%20the%20false%20confidence%20theorem.pdf)
 - *Michael Scott Balch, Ryan Martin, Scott Ferson*
 - `2018-03`
+- [Miscellaneous]
 ```
 Quite well-written and somewhat interesting paper. Section 6 (Future and on-going work) is IMO the most interesting part of the paper ("We recognize the natural desire to balance the goal of preventing collisions against the goal of keeping manoeuvres at a reasonable level, and we further recognize that it may not be possible to achieve an acceptable balance between these two goals using present tracking resources"). To me, it seems like the difference between their proposed approach and the standard approach is mainly just a change in how to interpret very uncertain satellite trajectories. In the standard approach, two very uncertain trajectories are deemed NOT likely to collide (the two satellites could be basically anywhere, so what are the chances they will collide?) . In their approach, they seem to instead say: "the two satellites could be basically anywhere, so they COULD collide!". They argue their approach prioritize safety (which I guess they do, they will check more trajectories since they COULD collide), but it must also actually be useful in practice. I mean, the safest way to drive a car is to just remain stationary at all times, otherwise you risk colliding with something.
 ```
@@ -1771,6 +1778,7 @@ Well-written and quite interesting paper. Interesting and neat idea, it definite
 - Gated Linear Networks [[pdf]](https://arxiv.org/abs/1910.01526) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Gated%20Linear%20Networks.pdf)
 - *Joel Veness, Tor Lattimore, David Budden, Avishkar Bhoopchand, Christopher Mattern, Agnieszka Grabska-Barwinska, Eren Sezener, Jianan Wang, Peter Toth, Simon Schmitt, Marcus Hutter*
 - `AAAI 2021`
+- [Miscellaneous]
 ```
 Quite well-written and somewhat interesting paper. Interesting paper in the sense that it was quite different compared to basically all other papers I've read. The proposed method seemed odd in the beginning, but eventually I think I understood it reasonably well. Still not quite sure how useful GLNs actually would be in practice though. It seems promising for online/continual learning applications, but only toy examples were considered in the paper? I don't think I understand the method well enough to properly assess its potential impact.
 ```
@@ -2050,7 +2058,7 @@ Interesting and very well-written paper. I recommend actually going through the 
 - Noise Contrastive Estimation and Negative Sampling for Conditional Models: Consistency and Statistical Efficiency [[pdf]](https://arxiv.org/abs/1809.01812) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise%20Contrastive%20Estimation%20and%20Negative%20Sampling%20for%20Conditional%20Models:%20Consistency%20and%20Statistical%20Efficiency.pdf)
 - *Zhuang Ma, Michael Collins*
 - `EMNLP 2018`
-- [Energy-Based Models], [NLP
+- [Energy-Based Models], [NLP]
 ```
 Interesting and quite well-written paper. Quite theoretical paper with a bunch of proofs. Interesting to see NCE applied specifically to supervised problems (modelling p(y | x)).
 ```
@@ -2238,6 +2246,7 @@ Very well-written and quite interesting paper. Good background material on SGD, 
 - Generating High Fidelity Images with Subscale Pixel Networks and Multidimensional Upscaling [[pdf]](https://openreview.net/forum?id=HylzTiC5Km) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/GENERATING%20HIGH%20FIDELITY%20IMAGES%20WITH%20SUBSCALE%20PIXEL%20NETWORKS%20AND%20MULTIDIMENSIONAL%20UPSCALING.pdf)
 - *Jacob Menick, Nal Kalchbrenner*
 - `ICLR 2019`
+- [Miscellaneous]
 ```
 Quite interesting paper. I do however think that the proposed method could be more clearly explained, the paper actually left me somewhat confused (I am however not particularly familiar with this specific sub-field). For e.g. the images in Figure 5, it is not clear to me how these are actually generated? Do you take a random image from ImageNet, choose a random slice of this image and then generate the image by size- and depth-upscaling? For training, I guess that they (for each image in the dataset) choose a random image slice, condition on the previous true image slices (according to their ordering), predict/generate the next image slice and compare this with the ground truth to compute an unbiased estimator of the NLL loss. But what do they do during evaluation? I.e., how are the NLL scores in Table 1-3 computed? The experimental results do not seem overly impressive/convincing to me.
 ```
@@ -2309,6 +2318,7 @@ Somewhat interesting paper that is quite theoretical. I found it to be a rather 
 - Visualizing the Loss Landscape of Neural Nets [[pdf]](https://arxiv.org/abs/1712.09913) [[code]](https://github.com/tomgoldstein/loss-landscape) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Visualizing%20the%20Loss%20Landscape%20of%20Neural%20Nets.pdf)
 - *Hao Li, Zheng Xu, Gavin Taylor, Christoph Studer, Tom Goldstein*
 - `NeurIPS 2018`
+- [Miscellaneous]
 ```
 Interesting and quite well-written paper. I think that the paper is a good introduction to methods for NN loss function visualization and previous work aiming to understand the corresponding optimization problem. They cite a number of papers which seem interesting, I will probably try and read a couple of those in the future. It would be interesting to apply their visualization method to some of my own problems, I will probably look more carefully at their code at some point. It is however not immediately obvious to me how to apply their "filter normalization" to e.g. an MLP network.
 ```
@@ -2815,6 +2825,7 @@ The multi-headed network is definitely an interesting idea, I did not expect it 
 - Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV) [[pdf]](https://arxiv.org/abs/1711.11279) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Interpretability%20Beyond%20Feature%20Attribution:%20Quantitative%20Testing%20with%20Concept%20Activation%20Vectors%20(TCAV)_.pdf)
 - *Been Kim, Martin Wattenberg, Justin Gilmer, Carrie Cai, James Wexler, Fernanda Viegas, Rory Sayres*
 - `ICML 2018`
+- [Miscellaneous]
 ```
 General comments on paper quality:
 Quite well-written and fairly interesting paper, the authors do a pretty good job of giving an intuitive explanation of the proposed methods.
@@ -3113,6 +3124,7 @@ There are however some design choices which I find somewhat peculiar, e.g. the w
 - On gradient regularizers for MMD GANs [[pdf]](https://arxiv.org/abs/1805.11565) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20gradient%20regularizers%20for%20MMD%20GANs_.pdf)
 - *Michael Arbel, Dougal J. Sutherland, Mikołaj Bińkowski, Arthur Gretton*
 - `NeurIPS 2018`
+- [Miscellaneous]
 ```
 General comments on paper quality:
 Well-written but rather heavy paper to read, I did definitely not have the background required neither to fully understand nor to properly appreciate the proposed methods. I would probably need to do some more background reading and then come back and read this paper again.
