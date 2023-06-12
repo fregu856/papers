@@ -121,6 +121,7 @@ Well-written and quite interesting paper. Just image classification, but a very 
 - A Deep Conjugate Direction Method for Iteratively Solving Linear Systems
  [[pdf]](https://arxiv.org/abs/2205.10763) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Deep%20Conjugate%20Direction%20Method%20for%20Iteratively%20Solving%20Linear%20Systems.pdf)
 - `2022-05`
+- [Miscellaneous]
 ```
 Quite well-written and somewhat interesting paper. I really struggled to understand everything properly, I definitely don't have the required background knowledge. I don't quite understand what data they train the network on, do they train separate networks for each example? Not clear to me how generally applicable this method actually is.
 ```
@@ -183,6 +184,7 @@ Quite well-written and quite interesting paper. I did not really have the backgr
 - Why AI is Harder Than We Think
  [[pdf]](https://arxiv.org/abs/2104.12871) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Why%20AI%20is%20Harder%20Than%20We%20Think.pdf)
 - `GECCO 2021`
+- [Miscellaneous]
 ```
 Interesting and well-written paper. A bit different than the papers I usually read, but in a good way. I enjoyed reading it and it made me think.
 ```
@@ -407,6 +409,7 @@ Interesting paper. I would have needed a bit more time to read it though, felt l
 - The Forward-Forward Algorithm: Some Preliminary Investigations
  [[pdf]](https://arxiv.org/abs/2212.13345) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Forward-Forward%20Algorithm:%20Some%20Preliminary%20Investigations.pdf)
 - `2022-12`
+- [Miscellaneous]
 ```
 Somewhat interesting, but quite odd paper. I was quite confused by multiple parts of it. This is probably partly because of my background, but I do also think that the paper could be more clearly structured.
 ```
@@ -489,6 +492,7 @@ Well-written and interesting paper. Provides some interesting comments/critique 
 - Physics-Informed Neural Networks for Cardiac Activation Mapping
  [[pdf]](https://www.frontiersin.org/articles/10.3389/fphy.2020.00042/full) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Physics-Informed%20Neural%20Networks%20for%20Cardiac%20Activation%20Mapping.pdf)
 - `Frontiers in Physics, 2020`
+- [Medical ML]
 ```
 Quite well-written and somewhat interesting paper.
 ```
@@ -578,6 +582,7 @@ Quite well-written and fairly interesting paper. Not sure how much new insight i
 - Prioritized Training on Points that are learnable, Worth Learning, and Not Yet Learnt
  [[pdf]](https://proceedings.mlr.press/v162/mindermann22a/mindermann22a.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Prioritized%20Training%20on%20Points%20that%20are%20learnable%2C%20Worth%20Learning%2C%20and%20Not%20Yet%20Learnt.pdf)
 - `ICML 2022`
+- [Miscellaneous]
 ```
 Well-written and quite interesting paper. The proposed method is explained well and makes intuitive sense overall, and seems to perform well in the intended setting.
 ```
@@ -586,6 +591,7 @@ Well-written and quite interesting paper. The proposed method is explained well 
 - Learning Deep Representations by Mutual Information Estimation and Maximization
  [[pdf]](https://openreview.net/forum?id=Bklr3j0cKX) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20deep%20representations%20by%20mutual%20information%20estimation%20and%20maximization.pdf)
 - `ICLR 2019`
+- [Miscellaneous]
 ```
 Quite interesting paper, but I struggled to properly understand everything. I might not have the necessary background knowledge. I find it difficult to formulate what my main takeaway from the paper would be, their proposed method seems quite similar to previous work? And also difficult to judge how significant/impressive their experimental results are?
 ```
@@ -630,6 +636,7 @@ Quite interesting and well-written paper. The proposed method is quite neat / co
 - Mechanistic Models Versus Machine Learning, a Fight Worth Fighting for the Biological Community?
  [[pdf]](https://royalsocietypublishing.org/doi/epdf/10.1098/rsbl.2017.0660) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Mechanistic%20models%20versus%20machine%20learning%2C%20a%20fight%20worth%20fighting%20for%20the%20biological%20community%3F.pdf)
 - `Biology Letters, 2018`
+- [Miscellaneous]
 ```
 An opinion peace, not really a technical paper. Just 3-4 pages long. Well-written and quite interesting paper though, I quite enjoyed reading it. What the authors write at the end "Fundamental biology should not choose between small-scale mechanistic understanding and large-scale prediction. It should embrace the complementary strengths of mechanistic modelling and machine learning approaches to provide, for example, the missing link between patient outcome prediction and the mechanistic understanding of disease progression" makes a lot of sense to, this is my main takeaway. I also find the statement "The training of a new generation of researchers versatile in all these fields will be vital in making this breakthrough" quite interesting, this is probably true for really making progress in medical machine learning applications as well?
 ```
@@ -638,6 +645,7 @@ An opinion peace, not really a technical paper. Just 3-4 pages long. Well-writte
 - Adversarial Examples Are Not Bugs, They Are Features
  [[pdf]](https://papers.nips.cc/paper/2019/hash/e2c420d928d4bf8ce0ff2ec19b371514-Abstract.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Adversarial%20Examples%20Are%20Not%20Bugs%2C%20They%20Are%20Features.pdf)
 - `NeurIPS 2019`
+- [Miscellaneous]
 ```
 Well-written and interesting paper, I quite enjoyed reading it. I found this quite a lot more interesting than previous papers I have read on adversarial examples. 
 ```
@@ -646,6 +654,7 @@ Well-written and interesting paper, I quite enjoyed reading it. I found this qui
 - Learning to Learn by Gradient Descent by Gradient Descent
  [[pdf]](https://proceedings.neurips.cc/paper/2016/file/fb87582825f9d28a8d42c5e5e5e8b23d-Paper.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20learn%20by%20gradient%20descent%20by%20gradient%20descent.pdf)
 - `NeurIPS 2016`
+- [Miscellaneous]
 ```
 Quite interesting and well-written paper. Not my area of expertise, but still a relatively enjoyable read. "After each epoch (some fixed number of learning steps) we freeze the optimizer parameters..." is quite unclear though, it seems like they never specify for how many number of steps the optimizer is trained?
 ```
@@ -672,6 +681,7 @@ Quite well-written and somewhat interesting paper.
 - Linear Time Sinkhorn Divergences using Positive Features
  [[pdf]](https://proceedings.neurips.cc/paper/2020/hash/9bde76f262285bb1eaeb7b40c758b53e-Abstract.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Linear%20Time%20Sinkhorn%20Divergences%20using%20Positive%20Features.pdf)
 - `NeurIPS 2020`
+- [Miscellaneous]
 ```
 Fairly well-written and somewhat interesting paper. Definitely not my area of expertise, I struggled to understand some parts of the paper, and it's difficult for me to judge how important/significant/useful the presented method actually is.
 ```
@@ -689,6 +699,7 @@ Quite well-written and fairly interesting paper. I was mainly just interested in
 - Weakly-Supervised Disentanglement Without Compromises
  [[pdf]](https://arxiv.org/abs/2002.02886) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Weakly-Supervised%20Disentanglement%20Without%20Compromises.pdf)
 - `ICML 2020`
+- [Miscellaneous]
 ```
 Quite well-written and somewhat interesting paper. Definitely not my area of expertise (learning disentangled representations of e.g. images) and I didn't have a lot of time to read the paper, I struggled to understand big parts of the paper.
 ```
@@ -697,6 +708,7 @@ Quite well-written and somewhat interesting paper. Definitely not my area of exp
 - Shaking the Foundations: Delusions in Sequence Models for Interaction and Control
  [[pdf]](https://arxiv.org/abs/2110.10819) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Shaking%20the%20foundations:%20delusions%20in%20sequence%20models%20for%20interaction%20and%20control.pdf)
 - `2021-10`
+- [Sequence Modeling]
 ```
 Quite well-written and somewhat interesting paper. Definitely not my area of expertise (causality). I didn't understand everything properly, and it's very difficult for me to judge how interesting this paper actually is.
 ```
@@ -705,6 +717,7 @@ Quite well-written and somewhat interesting paper. Definitely not my area of exp
 - When are Bayesian Model Probabilities Overconfident?
  [[pdf]](https://arxiv.org/abs/2003.04026) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/When%20are%20Bayesian%20model%20probabilities%20overconfident%3F.pdf)
 - `2020-03`
+- [Miscellaneous]
 ```
 Quite well-written and somewhat interesting paper. A bit different compared to the papers I usually read, this is written by people doing statistics. I did definitely not understand everything properly. Quite difficult for me to say what my main practical takeaway from the paper is.
 ```
@@ -803,6 +816,7 @@ Well-written and interesting paper. I was not familiar with the VQ-GAN/VAE model
 - Delving into Deep Imbalanced Regression
  [[pdf]](https://arxiv.org/abs/2102.09554) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Delving%20into%20Deep%20Imbalanced%20Regression.pdf)
 - `ICML 2021`
+- [Miscellaneous]
 ```
 Well-written and somewhat interesting paper. The "health condition score" estimation problem seems potentially interesting. They only consider problems with 1D regression targets. Their two proposed methods are clearly explained. I could probably encounter this imbalanced issue at some point, and then I'll keep this paper in mind.
 ```
@@ -856,6 +870,7 @@ Definitely not my area of expertise, but still a quite interesting paper to read
 - Comparing Elementary Cellular Automata Classifications with a Convolutional Neural Network
  [[pdf]](https://www.scitepress.org/Papers/2021/101600/101600.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Comparing%20Elementary%20Cellular%20Automata%20Classifications%20with%20a%20Convolutional%20Neural%20Network.pdf)
 - `ICAART 2021`
+- [Miscellaneous]
 ```
 I'm not familiar with "Cellular automata" at all, but still a somewhat interesting paper to read. I mostly understand what they're doing (previous papers have proposed different categorizations/groupings/classifications of ECAs, and in this paper they train CNNs to predict the classes assigned by these different ECA categorizations, to compare them), but I don't really know why it's interesting/useful.
 ```
@@ -1257,6 +1272,7 @@ Quite interesting and well-written paper. The experimental results do seem promi
  [[pdf]](https://arxiv.org/abs/2111.06377) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Masked%20Autoencoders%20Are%20Scalable%20Vision%20Learners.pdf)
 - *Kaiming He, Xinlei Chen, Saining Xie, Yanghao Li, Piotr Dollár, Ross Girshick*
 - `CVPR 2022`
+- [Miscellaneous]
 ```
 Interesting and well-written paper. The proposed method is simple and makes a lot of intuitive sense, which is rather satisfying. After page 4, there's mostly just detailed ablations and results.
 ```
