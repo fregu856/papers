@@ -18,6 +18,15 @@ I categorize, annotate and write comments for all research papers I read (300+ p
 
 #### Papers Read in 2023:
 
+##### [23-06-14] [paper303]
+- Transport with Support: Data-Conditional Diffusion Bridges
+ [[pdf]](https://arxiv.org/abs/2301.13636) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transport%20with%20Support%3A%20Data-Conditional%20Diffusion%20Bridges.pdf)
+- `2023-01`
+- [Diffusion Models]
+```
+Well written and quite interesting paper. Not exactly what I had expected, my background knowledge was probably not sufficient to fully understand and appreciate this paper. I still enjoyed reading it though. Neat figures and examples.
+```
+
 ##### [23-06-09] [paper302]
 - An Overlooked Key to Excellence in Research: A Longitudinal Cohort Study on the Association Between the Psycho-Social Work Environment and Research Performance
  [[pdf]](https://www.tandfonline.com/doi/full/10.1080/03075079.2020.1744127) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Overlooked%20Key%20to%20Excellence%20in%20Research%3A%20A%20Longitudinal%20Cohort%20Study%20on%20the%20Association%20Between%20the%20Psycho-Social%20Work%20Environment%20and%20Research%20Performance.pdf)
