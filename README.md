@@ -967,11 +967,11 @@ Interesting paper. I found it difficult to understand Section 2, I wouldn't real
 
 ##### [22-03-03] [paper198]
 - On the Practicality of Deterministic Epistemic Uncertainty
- [[pdf]](https://openreview.net/forum?id=W3-hiLnUYl) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Practicality%20of%20Deterministic%20Epistemic%20Uncertainty.pdf)
+ [[pdf]](https://arxiv.org/abs/2107.00649) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Practicality%20of%20Deterministic%20Epistemic%20Uncertainty.pdf)
 - `ICML 2022`
 - [Uncertainty Estimation]
 ```
-Interesting and well-written paper. Their evaluation with the corrupted datasets makes sense I think. The results are interesting,  the fact that ensembling/MC-dropout consistently outperforms the other methods. Another reminder of how strong of a baseline ensembling is when it comes to uncertainty estimation? Also, I think that their proposed rAULC is more or less equivalent to AUSE (area under the sparsification error curve)?
+Interesting and well-written paper. Their evaluation with the corrupted datasets makes sense I think. The results are interesting, the fact that ensembling/MC-dropout consistently outperforms the other methods. Another reminder of how strong of a baseline ensembling is when it comes to uncertainty estimation? Also, I think that their proposed rAULC is more or less equivalent to AUSE (area under the sparsification error curve)?
 ```
 
 ##### [22-03-03] [paper197]
