@@ -2033,7 +2033,7 @@ Well-written and quite interesting paper. The examples in section 3 are neat and
 ```
 
 ##### [20-01-14] [paper78]
-- Noise-contrastive estimation: A new estimation principle for unnormalized statistical models [[pdf]](http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.pdf)
+- Noise-Contrastive Estimation: A New Estimation Principle for Unnormalized Statistical Models [[pdf]](http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.pdf)
 - *Michael Gutmann, Aapo Hyvärinen*
 - `AISTATS 2010`
 - [Energy-Based Models]
