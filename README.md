@@ -4,7 +4,7 @@ I categorize, annotate and write comments for all research papers I read (300+ p
 
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Miscellaneous].
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Miscellaneous].
 
 
 ### Papers:
@@ -40,7 +40,7 @@ Quite well written and interesting paper. I wanted to read something completely 
 - Building One-class Detector for Anything: Open-vocabulary Zero-shot OOD Detection Using Text-image Models
  [[pdf]](https://arxiv.org/abs/2305.17207) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Building%20One-class%20Detector%20for%20Anything%3A%20Open-vocabulary%20Zero-shot%20OOD%20Detection%20Using%20Text-image%20Models.pdf)
 - `2023-05`
-- [Out-of-Distribution Detection]
+- [Out-of-Distribution Detection], [Vision-Language Models]
 ```
 Well written and interesting paper. Section 2.1 provides a good background, and their proposed OOD scores in Section 2.2 make intuitive sense. The datasets and evaluation setup in Section 3 are described well. The experimental results definitely seem promising.
 ```
