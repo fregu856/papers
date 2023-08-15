@@ -20,7 +20,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
-##### [23-06-14] [paper304]
+##### [23-08-15] [paper304]
 - Aligned Diffusion Schrödinger Bridges
  [[pdf]](https://arxiv.org/abs/2302.11419) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Aligned%20Diffusion%20Schr%C3%B6dinger%20Bridges.pdf)
 - `UAI 2023`
