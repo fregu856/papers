@@ -2,9 +2,11 @@
 
 I categorize, annotate and write comments for all research papers I read (300+ papers since 2018).
 
+_In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5 Years](https://www.fregu856.com/post/phd_of_reading/) (why I think it’s important to read a lot of papers + how I organize my reading + paper statistics + a list of 30 particularly interesting papers)._
+
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Miscellaneous].
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Miscellaneous].
 
 
 ### Papers:
@@ -17,6 +19,15 @@ I categorize, annotate and write comments for all research papers I read (300+ p
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2023:
+
+##### [23-06-14] [paper303]
+- Transport with Support: Data-Conditional Diffusion Bridges
+ [[pdf]](https://arxiv.org/abs/2301.13636) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transport%20with%20Support%3A%20Data-Conditional%20Diffusion%20Bridges.pdf)
+- `2023-01`
+- [Diffusion Models]
+```
+Well written and quite interesting paper. Not exactly what I had expected, my background knowledge was probably not sufficient to fully understand and appreciate this paper. I still enjoyed reading it though. Neat figures and examples.
+```
 
 ##### [23-06-09] [paper302]
 - An Overlooked Key to Excellence in Research: A Longitudinal Cohort Study on the Association Between the Psycho-Social Work Environment and Research Performance
@@ -31,7 +42,7 @@ Quite well written and interesting paper. I wanted to read something completely 
 - Building One-class Detector for Anything: Open-vocabulary Zero-shot OOD Detection Using Text-image Models
  [[pdf]](https://arxiv.org/abs/2305.17207) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Building%20One-class%20Detector%20for%20Anything%3A%20Open-vocabulary%20Zero-shot%20OOD%20Detection%20Using%20Text-image%20Models.pdf)
 - `2023-05`
-- [Out-of-Distribution Detection]
+- [Out-of-Distribution Detection], [Vision-Language Models]
 ```
 Well written and interesting paper. Section 2.1 provides a good background, and their proposed OOD scores in Section 2.2 make intuitive sense. The datasets and evaluation setup in Section 3 are described well. The experimental results definitely seem promising.
 ```
@@ -958,11 +969,11 @@ Interesting paper. I found it difficult to understand Section 2, I wouldn't real
 
 ##### [22-03-03] [paper198]
 - On the Practicality of Deterministic Epistemic Uncertainty
- [[pdf]](https://openreview.net/forum?id=W3-hiLnUYl) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Practicality%20of%20Deterministic%20Epistemic%20Uncertainty.pdf)
+ [[pdf]](https://arxiv.org/abs/2107.00649) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Practicality%20of%20Deterministic%20Epistemic%20Uncertainty.pdf)
 - `ICML 2022`
 - [Uncertainty Estimation]
 ```
-Interesting and well-written paper. Their evaluation with the corrupted datasets makes sense I think. The results are interesting,  the fact that ensembling/MC-dropout consistently outperforms the other methods. Another reminder of how strong of a baseline ensembling is when it comes to uncertainty estimation? Also, I think that their proposed rAULC is more or less equivalent to AUSE (area under the sparsification error curve)?
+Interesting and well-written paper. Their evaluation with the corrupted datasets makes sense I think. The results are interesting, the fact that ensembling/MC-dropout consistently outperforms the other methods. Another reminder of how strong of a baseline ensembling is when it comes to uncertainty estimation? Also, I think that their proposed rAULC is more or less equivalent to AUSE (area under the sparsification error curve)?
 ```
 
 ##### [22-03-03] [paper197]
@@ -1673,7 +1684,7 @@ Very well-written and quite interesting paper. Gives a good understanding of the
  [[pdf]](https://arxiv.org/abs/2102.05918) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Scaling%20Up%20Visual%20and%20Vision-Language%20Representation%20Learning%20With%20Noisy%20Text%20Supervision.pdf)
 - *Chao Jia, Yinfei Yang, Ye Xia, Yi-Ting Chen, Zarana Parekh, Hieu Pham, Quoc V. Le, Yunhsuan Sung, Zhen Li, Tom Duerig*
 - `ICML 2021`
-- [Representation Learning]
+- [Representation Learning], [Vision-Language Models]
 
 ##### [21-02-12] [paper119]
 - On the Origin of Implicit Regularization in Stochastic Gradient Descent
@@ -2024,7 +2035,7 @@ Well-written and quite interesting paper. The examples in section 3 are neat and
 ```
 
 ##### [20-01-14] [paper78]
-- Noise-contrastive estimation: A new estimation principle for unnormalized statistical models [[pdf]](http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.pdf)
+- Noise-Contrastive Estimation: A New Estimation Principle for Unnormalized Statistical Models [[pdf]](http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise-contrastive%20estimation:%20A%20new%20estimation%20principle%20for%20unnormalized%20statistical%20models.pdf)
 - *Michael Gutmann, Aapo Hyvärinen*
 - `AISTATS 2010`
 - [Energy-Based Models]
