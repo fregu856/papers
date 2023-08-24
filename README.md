@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-08-15] [paper304]
+- Aligned Diffusion Schrödinger Bridges
+ [[pdf]](https://arxiv.org/abs/2302.11419) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Aligned%20Diffusion%20Schr%C3%B6dinger%20Bridges.pdf)
+- `UAI 2023`
+- [Diffusion Models]
+```
+Interesting and very well-written paper. Cool applications from biology, although I definitely don't understand them fully. Don't quite understand how they get to the loss function in eq. (7) (match the terms in (3) and (6), yes, but why should this then be minimized?). 
+```
+
 ##### [23-06-14] [paper303]
 - Transport with Support: Data-Conditional Diffusion Bridges
  [[pdf]](https://arxiv.org/abs/2301.13636) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transport%20with%20Support%3A%20Data-Conditional%20Diffusion%20Bridges.pdf)
