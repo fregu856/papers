@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-08-31] [paper306]
+- A Law of Data Separation in Deep Learning
+ [[pdf]](https://arxiv.org/abs/2210.17020) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Law%20of%20Data%20Separation%20in%20Deep%20Learning.pdf)
+- `PNAS, 2023`
+- [Theoretical Properties of Deep Learning]
+```
+Quite well-written and fairly interesting paper. Interesting up until the end of Section 1, but then I got a bit confused and less impressed/convinced. Difficult for me to judge how general these findings actually are, or how useful they would be in practice. 
+```
+
 ##### [23-08-24] [paper305]
 - Loss Landscapes are All You Need: Neural Network Generalization Can Be Explained Without the Implicit Bias of Gradient Descent
  [[pdf]](https://openreview.net/forum?id=QC10RmRbZy9) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Loss%20Landscapes%20are%20All%20You%20Need%3A%20Neural%20Network%20Generalization%20Can%20Be%20Explained%20Without%20the%20Implicit%20Bias%20of%20Gradient%20Descent.pdf)
