@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-08-24] [paper305]
+- Loss Landscapes are All You Need: Neural Network Generalization Can Be Explained Without the Implicit Bias of Gradient Descent
+ [[pdf]](https://openreview.net/forum?id=QC10RmRbZy9) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Loss%20Landscapes%20are%20All%20You%20Need%3A%20Neural%20Network%20Generalization%20Can%20Be%20Explained%20Without%20the%20Implicit%20Bias%20of%20Gradient%20Descent.pdf)
+- `ICLR 2023`
+- [Theoretical Properties of Deep Learning]
+```
+ Interesting and quite well-written paper. I really liked the paper up until and including Section 4.1, but then I got less impressed. I found the experiments a bit confusing overall, and not entirely convincing. The paper structure is also a bit odd after Section 4 (why is Section 5 a separate section? Section 6 seems sort of out-of-place).
+```
+
 ##### [23-08-15] [paper304]
 - Aligned Diffusion Schrödinger Bridges
  [[pdf]](https://arxiv.org/abs/2302.11419) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Aligned%20Diffusion%20Schr%C3%B6dinger%20Bridges.pdf)
