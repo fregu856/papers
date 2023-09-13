@@ -6,7 +6,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [Medical ML], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Miscellaneous].
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Miscellaneous].
 
 
 ### Papers:
@@ -78,7 +78,7 @@ Well written and interesting paper. Section 2.1 provides a good background, and 
 - Benchmarking Common Uncertainty Estimation Methods with Histopathological Images under Domain Shift and Label Noise
  [[pdf]](https://arxiv.org/abs/2301.01054) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Benchmarking%20Common%20Uncertainty%20Estimation%20Methods%20with%20Histopathological%20Images%20under%20Domain%20Shift%20and%20Label%20Noise.pdf)
 - `2023-01`
-- [Uncertainty Estimation], [Medical ML]
+- [Uncertainty Estimation], [ML for Medicine/Healthcare]
 ```
 Well written and fairly interesting paper. The setup with ID/OOD data (different clinics and scanners), as described in Section 3.1, is really neat. Solid evaluation. I was not overly surprised by the results/findings. Figure 3 is neat.
 ```
@@ -132,7 +132,7 @@ Well written and interesting paper. Reading it raised a few questions though. It
 - Collaborative Strategies for Deploying Artificial Intelligence to Complement Physician Diagnoses of Acute Respiratory Distress Syndrome
  [[pdf]](https://www.nature.com/articles/s41746-023-00797-9) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Collaborative%20Strategies%20for%20Deploying%20Artificial%20Intelligence%20to%20Complement%20Physician%20Diagnoses%20of%20Acute%20Respiratory%20Distress%20Syndrome.pdf)
 - `npj Digital Medicine, 2023`
-- [Medical ML]
+- [ML for Medicine/Healthcare]
 ```
 Well written and quite interesting paper. A bit different (in a good way) compared to the pure ML papers I usually read. "It could communicate alerts to the respiratory therapist or nurses without significant physician oversight, only deferring to the physician in situations where the AI model has high uncertainty. This may be particularly helpful in low-resource settings, such as Intensive Care Units (ICU) without 24-hour access to critical care trained physicians", this would require that the model actually is well calibrated though (that you really can trust the model's uncertainty), and I'm not convinced that can be expected in many practical applications.
 ```
@@ -168,7 +168,7 @@ Quite well-written and somewhat interesting paper. I really struggled to underst
 - A Roadmap to Fair and Trustworthy Prediction Model Validation in Healthcare
  [[pdf]](https://arxiv.org/abs/2304.03779) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Roadmap%20to%20Fair%20and%20Trustworthy%20Prediction%20Model%20Validation%20in%20Healthcare.pdf)
 - `2023-04`
-- [Medical ML]
+- [ML for Medicine/Healthcare]
 ```
 A different type of paper compared to what I normally read (the title sounded interesting and I was just curious to read something a bit different). A quick read, fairly interesting. Not sure if I agree with the authors though (it might of course also just be that I don't have a sufficient background understanding). "...some works consider evaluation using external data to be stringent and highly encouraged due to the difference in population characteristics in evaluation and development settings. We propose an alternative roadmap for fair and trustworthy external validation using local data from the target population...", here I would tend to agree with the first approach, not their proposed alternative.
 ```
@@ -195,7 +195,7 @@ Well-written and fairly interesting paper. Extremely simple idea and it seems to
 - Evaluating the Fairness of Deep Learning Uncertainty Estimates in Medical Image Analysis
  [[pdf]](https://arxiv.org/abs/2303.03242) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Evaluating%20the%20Fairness%20of%20Deep%20Learning%20Uncertainty%20Estimates%20in%20Medical%20Image%20Analysis.pdf)
 - `MIDL 2023`
-- [Uncertainty Estimation], [Medical ML]
+- [Uncertainty Estimation], [ML for Medicine/Healthcare]
 ```
 Well-written and somewhat interesting paper. The studied problem is interesting and important, but I'm not sure about the evaluation approach. "when the uncertainty threshold is reduced, thereby increasing the number of filtered uncertain predictions, the differences in the performances on the remaining confident predictions across the subgroups should be reduced", I'm not sure this is the best metric one could use. I think there are other aspects which also would be important to measure (e.g. calibration). Also, I find it difficult to interpret the results or compare methods in Figure 2 - 4.
 ```
@@ -530,7 +530,7 @@ Well-written and interesting paper. Provides some interesting comments/critique 
 - Physics-Informed Neural Networks for Cardiac Activation Mapping
  [[pdf]](https://www.frontiersin.org/articles/10.3389/fphy.2020.00042/full) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Physics-Informed%20Neural%20Networks%20for%20Cardiac%20Activation%20Mapping.pdf)
 - `Frontiers in Physics, 2020`
-- [Medical ML]
+- [ML for Medicine/Healthcare]
 ```
 Quite well-written and somewhat interesting paper.
 ```
@@ -800,7 +800,7 @@ Quite interesting and well-written paper. Mainly consider regression problems (t
 - Consistent Estimators for Learning to Defer to an Expert
  [[pdf]](http://proceedings.mlr.press/v119/mozannar20b/mozannar20b.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Consistent%20Estimators%20for%20Learning%20to%20Defer%20to%20an%20Expert.pdf)
 - `ICML 2020`
-- [Uncertainty Estimation], [Medical ML]
+- [Uncertainty Estimation], [ML for Medicine/Healthcare]
 ```
 Somewhat interesting paper. Image and text classification. The general problem setting (that a model can either predict or defer to an expert) is interesting and the paper is well-written overall, but in the end I can't really state any specific takeaways. I didn't understand section 4 or 5 properly. I don't think I can judge the significance of their results/contributions. 
 ```
@@ -809,7 +809,7 @@ Somewhat interesting paper. Image and text classification. The general problem s
 - Uncalibrated Models Can Improve Human-AI Collaboration
  [[pdf]](https://arxiv.org/abs/2202.05983) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncalibrated%20Models%20Can%20Improve%20Human-AI%20Collaboration.pdf)
 - `NeurIPS 2022`
-- [Medical ML]
+- [ML for Medicine/Healthcare]
 ```
 Quite interesting paper. Sort of thought-provoking, an interesting perspective. I was not exactly convinced in the end though. It seems weird to me that they don't even use an ML model to provide the advice, but instead use the average response of another group of human participants. Because this means that, like they write in Section 6, the average advice accuracy is higher than the average human accuracy. So, if the advice is better than the human participants, we just want to push the human predictions towards the advice? And therefore it's beneficial to increase the confidence of the advice (and thus make it uncalibrated), because this will make more humans actually change their prediction and align it more with the advice? I might miss something here, but this sort of seems a bit trivial?
 ```
@@ -845,7 +845,7 @@ Somewhat interesting paper. They consider 6 different datasets, only classificat
 - Transformer-Based Out-of-Distribution Detection for Clinically Safe Segmentation
  [[pdf]](https://openreview.net/forum?id=En7660i-CLJ) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transformer-Based%20Out-of-Distribution%20Detection%20for%20Clinically%20Safe%20Segmentation.pdf)
 - `MIDL 2022`
-- [Medical ML], [Out-of-Distribution Detection], [Transformers]
+- [ML for Medicine/Healthcare], [Out-of-Distribution Detection], [Transformers]
 ```
 Well-written and interesting paper. I was not familiar with the VQ-GAN/VAE model, so I was confused by Section 2.3 at first, but now I think that I understand most of it. Their VQ-GAN + transformer approach seems quite complex indeed, but also seems to perform well. However, they didn't really compare with any other OOD detection method. I find it somewhat difficult to tell how useful this actually could be in practice.
 ```
@@ -863,7 +863,7 @@ Well-written and somewhat interesting paper. The "health condition score" estima
 - Hidden in Plain Sight: Subgroup Shifts Escape OOD Detection
  [[pdf]](https://openreview.net/forum?id=aZgiUNye2Cz) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hidden%20in%20Plain%20Sight:%20Subgroup%20Shifts%20Escape%20OOD%20Detection.pdf)
 - `MIDL 2022`
-- [Medical ML], [Out-of-Distribution Detection], [Distribution Shifts]
+- [ML for Medicine/Healthcare], [Out-of-Distribution Detection], [Distribution Shifts]
 ```
 Quite well-written, but somewhat confusing paper. The experiment in Table 1 seems odd to me, why would we expect or even want digit-5 images to be classified as OOD when the training data actually includes a bunch of digit-5 images (the bottom row)? And for what they write in the final paragraph of Section 3 (that the accuracy is a bit lower for the hospital 3 subgroup), this wouldn't actually be a problem in practice if the model then also is more uncertain for these examples? I.e., studying model calibration across the different subgroups would be what's actually interesting? Or am I not understanding this whole subgroup shift properly? I feel quite confused.
 ```
@@ -962,7 +962,7 @@ Interesting and well-written paper. They take the method from "Selective Classif
 - Second Opinion Needed: Communicating Uncertainty in Medical Artificial Intelligence
  [[pdf]](https://www.nature.com/articles/s41746-020-00367-3.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Second%20Opinion%20Needed:%20Communicating%20Uncertainty%20in%20Medical%20Artificial%20Intelligence.pdf)
 - `npj Digital Medicine, 2021`
-- [Uncertainty Estimation], [Medical ML]
+- [Uncertainty Estimation], [ML for Medicine/Healthcare]
 ```
 Well-written and quite interesting paper. A relatively short paper of just 4 pages. They give an overview of different uncertainty estimation techniques, and provide some intuitive examples and motivation for why uncertainty estimation is important/useful within medical applications. I quite enjoyed reading the paper.
 ```
@@ -1018,7 +1018,7 @@ Quite interesting and well-written paper. I did however find it difficult to pro
  [[pdf]](https://arxiv.org/abs/2203.00512) [[code]](https://github.com/hsd1503/ecg_uncertainty) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Deep%20Bayesian%20Neural%20Network%20for%20Cardiac%20Arrhythmia%20Classification%20with%20Rejection%20from%20ECG%20Recordings.pdf)
 - *Wenrui Zhang, Xinxin Di, Guodong Wei, Shijia Geng, Zhaoji Fu, Shenda Hong*
 - `2022-02`
-- [Uncertainty Estimation], [Medical ML]
+- [Uncertainty Estimation], [ML for Medicine/Healthcare]
 ```
 Somewhat interesting paper. They use a softmax model with MC-dropout to compute uncertainty estimates. The evaluation is not very extensive, they mostly just check that the classification accuracy improves as they reject more and more samples based on a uncertainty threshold.
 ```
@@ -1048,7 +1048,7 @@ Quite interesting and well-written paper. Two simple modifications of the "maxim
  [[pdf]](https://arxiv.org/abs/2107.02568) [[code]](https://github.com/christophbrgr/ood_detection_framework) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Confidence-based%20Out-of-Distribution%20Detection:%20A%20Comparative%20Study%20and%20Analysis.pdf)
 - *Christoph Berger, Magdalini Paschali, Ben Glocker, Konstantinos Kamnitsas*
 - `MICCAI Workshops 2021`
-- [Out-of-Distribution Detection], [Medical ML]
+- [Out-of-Distribution Detection], [ML for Medicine/Healthcare]
 ```
 Interesting and well-written paper. Interesting that Mahalanobis works very well on the CIFAR10 vs SVHN but not on the medical imaging dataset. I don't quite get how/why the ODIN method works, I'll probably have to read that paper.
 ```
@@ -1068,7 +1068,7 @@ Quite interesting and well-written paper. The definition of "prediction depth" i
  [[pdf]](https://arxiv.org/abs/2202.10847) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/UncertaINR:%20Uncertainty%20Quantification%20of%20End-to-End%20Implicit%20Neural%20Representations%20for%20Computed%20Tomography.pdf)
 - *Francisca Vasconcelos, Bobby He, Nalini Singh, Yee Whye Teh*
 - `TMLR, 2023`
-- [Implicit Neural Representations], [Uncertainty Estimation], [Medical ML]
+- [Implicit Neural Representations], [Uncertainty Estimation], [ML for Medicine/Healthcare]
 ```
 Interesting and well-written paper. I wasn't very familiar with CT image reconstruction, but they do a good job explaining everything. Interesting that MC-dropout seems important for getting well-calibrated predictions.
 ```
@@ -1078,7 +1078,7 @@ Interesting and well-written paper. I wasn't very familiar with CT image reconst
  [[pdf]](https://backend.orbit.dtu.dk/ws/portalfiles/portal/218217360/MICCAI2020.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Can%20you%20trust%20predictive%20uncertainty%20under%20real%20dataset%20shifts%20in%20digital%20pathology%3F.pdf)
 - *Jeppe Thagaard, Søren Hauberg, Bert van der Vegt, Thomas Ebstrup, Johan D. Hansen, Anders B. Dahl*
 - `MICCAI 2020`
-- [Uncertainty Estimation], [Out-of-Distribution Detection], [Medical ML]
+- [Uncertainty Estimation], [Out-of-Distribution Detection], [ML for Medicine/Healthcare]
 ```
 Quite interesting and well-written paper. They compare MC-dropout, ensemlbing and mixup (and with a standard softmax classifer as the baseline). Nothing groundbreaking, but the studied application (classification of pathology slides for cancer) is very interesting. The FPR95 metrics for OOD detection in Table 4 are terrible for ensembling, but the classification accuracy (89.7) is also pretty much the same as for D_test_int in Tabe 3 (90.1)? So, it doesn't really matter that the model isn't capable of distinguishing this "OOD" data from in-distribution? 
 ```
@@ -1128,7 +1128,7 @@ Quite interesting and well-written paper. Only experiments on a toy 1D regressio
  [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S1361841521003194?via%3Dihub) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Does%20your%20dermatology%20classifier%20know%20what%20it%20doesn't%20know%3F%20Detecting%20the%20long-tail%20of%20unseen%20conditions.pdf)
 - *Abhijit Guha Roy, Jie Ren, Shekoofeh Azizi, Aaron Loh, Vivek Natarajan, Basil Mustafa, Nick Pawlowski, Jan Freyberg, Yuan Liu, Zach Beaver, Nam Vo, Peggy Bui, Samantha Winter, Patricia MacWilliams, Greg S. Corrado, Umesh Telang, Yun Liu, Taylan Cemgil, Alan Karthikesalingam, Balaji Lakshminarayanan, Jim Winkens*
 - `Medical Image Analysis, 2022`
-- [Out-of-Distribution Detection], [Medical ML]
+- [Out-of-Distribution Detection], [ML for Medicine/Healthcare]
 ```
 Well-written and interesting paper. Quite long, so it took a bit longer than usual to read it. Section 1 and 2 gives a great overview of OOD detection in general, and how it can be used specifically in this dermatology setting. I can definitely recommend reading Section 2 (Related work). They assume access to some outlier data during training, so their approach is similar to the "Outlier exposure" method (specifically in this dermatology setting, they say that this is a fair assumption). Their method is an improvement of the "reject bucket" (add an extra class which you assign to all outlier training data points), in their proposed method they also use fine-grained classification of the outlier skin conditions. Then they also use an ensemble of 5 models, and also a more diverse ensemble (in which they combine models trained with different representation learning techniques). This diverse ensemble obtains the best performance.
 ```
@@ -1198,7 +1198,7 @@ Interesting and very well-written paper, I enjoyed reading it. I still think tha
  [[pdf]](https://arxiv.org/abs/2112.09196?context=cs) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Benchmarking%20Uncertainty%20Quantification%20on%20Biosignal%20Classification%20Tasks%20under%20Dataset%20Shift.pdf)
 - *Tong Xia, Jing Han, Cecilia Mascolo*
 - `AAAI Workshops 2022`
-- [Uncertainty Estimation], [Out-of-Distribution Detection], [Medical ML]
+- [Uncertainty Estimation], [Out-of-Distribution Detection], [ML for Medicine/Healthcare]
 ```
 Well-written and interesting paper. They synthetically create dataset shifts (e.g. by adding Gaussian noise to the data) of increasing intensity and study whether or not the uncertainty increases as the accuracy degrades. They compare regular softmax, temperature scaling, MC-dropout, ensembling and a simple variational inference method. Their conclusion is basically that ensembling slightly outperforms the other methods, but that no method performs overly well. I think these type of studies are really useful.
 ```
@@ -1280,7 +1280,7 @@ Quite interesting and well-written paper. Quite a heavy read, probably need to b
  [[pdf]](https://arxiv.org/abs/2110.14019) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Reliable%20and%20Trustworthy%20Machine%20Learning%20for%20Health%20Using%20Dataset%20Shift%20Detection.pdf)
 - *Chunjong Park, Anas Awadalla, Tadayoshi Kohno, Shwetak Patel*
 - `NeurIPS 2021`
-- [Out-of-Distribution Detection], [Medical ML]
+- [Out-of-Distribution Detection], [ML for Medicine/Healthcare]
 ```
 Interesting and very well-written paper. Gives a good overview of the field and contains a lot of seemingly useful references. The evaluation is very comprehensive. The user study is quite neat.
 ```
