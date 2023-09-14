@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-09-14] [paper309]
+- Artificial Intelligence-Supported Screen Reading versus Standard Double Reading in the Mammography Screening with Artificial Intelligence Trial (MASAI): A Clinical Safety Analysis of a Randomised, Controlled, Non-inferiority, Single-Blinded, Screening Accuracy Study
+ [[pdf]](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(23)00298-X/fulltext) [[annotated pdf]](unfortunately not open access, thus no annotated pdf)
+- `The Lancet Oncology, 2023`
+- [ML for Medicine/Healthcare]
+```
+Very very similar to the "Artificial Intelligence for Breast Cancer Detection in Screening Mammography in Sweden: A Prospective, Population-Based, Paired-Reader, Non-inferiority Study" paper, also well written and very interesting (and, it probably has the longest title of any paper I have ever read).
+```
+
 ##### [23-09-14] [paper308]
 - Efficient Formal Safety Analysis of Neural Networks
  [[pdf]](https://arxiv.org/abs/1809.08098) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Efficient%20Formal%20Safety%20Analysis%20of%20Neural%20Networks.pdf)
