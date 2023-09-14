@@ -22,7 +22,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 ##### [23-09-14] [paper309]
 - Artificial Intelligence-Supported Screen Reading versus Standard Double Reading in the Mammography Screening with Artificial Intelligence Trial (MASAI): A Clinical Safety Analysis of a Randomised, Controlled, Non-inferiority, Single-Blinded, Screening Accuracy Study
- [[pdf]](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(23)00298-X/fulltext) [[annotated pdf]](unfortunately not open access, thus no annotated pdf)
+ [[pdf]](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(23)00298-X/fulltext) [unfortunately not open access, thus no annotated pdf]
 - `The Lancet Oncology, 2023`
 - [ML for Medicine/Healthcare]
 ```
