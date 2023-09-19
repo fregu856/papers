@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-09-19] [paper310]
+- Self-Supervised Learning with Data Augmentations Provably Isolates Content from Style
+ [[pdf]](https://arxiv.org/abs/2106.04619) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Self-Supervised%20Learning%20with%20Data%20Augmentations%20Provably%20Isolates%20Content%20from%20Style.pdf)
+- `NeurIPS 2021`
+- [Representation Learning]
+```
+Quite well-written and somewhat interesting paper. I struggled to properly understand quite large parts of it, probably because I lack some background knowledge. It's not clear to me what the main takeaway / main practical implication of this paper is.
+```
+
 ##### [23-09-14] [paper309]
 - Artificial Intelligence-Supported Screen Reading versus Standard Double Reading in the Mammography Screening with Artificial Intelligence Trial (MASAI): A Clinical Safety Analysis of a Randomised, Controlled, Non-inferiority, Single-Blinded, Screening Accuracy Study
  [[pdf]](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(23)00298-X/fulltext) [unfortunately not open access, thus no annotated pdf]
