@@ -20,10 +20,28 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-09-14] [paper309]
+- Artificial Intelligence-Supported Screen Reading versus Standard Double Reading in the Mammography Screening with Artificial Intelligence Trial (MASAI): A Clinical Safety Analysis of a Randomised, Controlled, Non-inferiority, Single-Blinded, Screening Accuracy Study
+ [[pdf]](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(23)00298-X/fulltext) [unfortunately not open access, thus no annotated pdf]
+- `The Lancet Oncology, 2023`
+- [ML for Medicine/Healthcare]
+```
+Very very similar to the "Artificial Intelligence for Breast Cancer Detection in Screening Mammography in Sweden: A Prospective, Population-Based, Paired-Reader, Non-inferiority Study" paper, also well written and very interesting (and, it probably has the longest title of any paper I have ever read).
+```
+
+##### [23-09-14] [paper308]
+- Efficient Formal Safety Analysis of Neural Networks
+ [[pdf]](https://arxiv.org/abs/1809.08098) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Efficient%20Formal%20Safety%20Analysis%20of%20Neural%20Networks.pdf)
+- `NeurIPS 2018`
+- [Theoretical Properties of Deep Learning]
+```
+Well-written and quite interesting paper. I didn't entirely follow all details, and also find it difficult to know exactly how to interpret the results. I lack some background knowledge. I'm still not quite sure what a method like this actually could be used for in practice, how useful it actually would be for someone like me. Reading the paper made me think quite a lot though, which is a good thing.
+```
+
 ##### [23-09-14] [paper307]
 - Artificial Intelligence for Breast Cancer Detection in Screening Mammography in Sweden: A Prospective, Population-Based, Paired-Reader, Non-inferiority Study
  [[pdf]](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(23)00153-X/fulltext) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Artificial%20intelligence%20for%20breast%20cancer%20detection%20in%20screening%20mammography%20in%20Sweden%3A%20a%20prospective%2C%20population-based%2C%20paired-reader%2C%20non-inferiority%20study.pdf)
-- `The Lancet Digital Health, 2023.`
+- `The Lancet Digital Health, 2023`
 - [ML for Medicine/Healthcare]
 ```
 Well-written and very interesting paper. A bit different compared to the ML papers I usually read of course, but different in a good way. Definitely an impressive study with ~50 000 participants, and an ML system integrated into the standard mammography screening workflow at a hospital. The entire Discussion section is interesting.
