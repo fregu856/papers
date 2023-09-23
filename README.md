@@ -1,6 +1,6 @@
 # About
 
-I categorize, annotate and write comments for all research papers I read (300+ papers since 2018).
+I categorize, annotate and write comments for all research papers I read (310+ papers since 2018).
 
 _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5 Years](https://www.fregu856.com/post/phd_of_reading/) (why I think it’s important to read a lot of papers + how I organize my reading + paper statistics + a list of 30 particularly interesting papers)._
 
@@ -19,6 +19,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2023:
+
+##### [23-09-19] [paper311]
+- Blinded, Randomized Trial of Sonographer versus AI Cardiac Function Assessment
+ [[pdf]](https://www.nature.com/articles/s41586-023-05947-3) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Blinded%2C%20Randomized%20Trial%20of%20Sonographer%20versus%20AI%20Cardiac%20Function%20Assessment.pdf)
+- `Nature, 2023`
+- [ML for Medicine/Healthcare]
+```
+Well-written and interesting paper. It seems like I quite enjoy reading these types of papers.
+```
 
 ##### [23-09-19] [paper310]
 - Self-Supervised Learning with Data Augmentations Provably Isolates Content from Style
