@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-08-23] [paper320]
+- Random Word Data Augmentation with CLIP for Zero-Shot Anomaly Detection
+ [[pdf]](https://arxiv.org/abs/2308.11119) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Random%20Word%20Data%20Augmentation%20with%20CLIP%20for%20Zero-Shot%20Anomaly%20Detection.pdf)
+- `BMVC 2023`
+- [Vision-Language Models]
+```
+Interesting and well-written paper, I enjoyed reading it (even though I really don't like the BMVC template). The proposed method in Section 3 is clever/neat/interesting.
+```
+
 ##### [23-08-23] [paper319]
 - TextIR: A Simple Framework for Text-based Editable Image Restoration
  [[pdf]](https://arxiv.org/abs/2302.14736) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/TextIR%3A%20A%20Simple%20Framework%20for%20Text-based%20Editable%20Image%20Restoration.pdf)
