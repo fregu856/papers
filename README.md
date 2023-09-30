@@ -1,12 +1,12 @@
 # About
 
-I categorize, annotate and write comments for all research papers I read (310+ papers since 2018).
+I categorize, annotate and write comments for all research papers I read (320+ papers since 2018).
 
 _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5 Years](https://www.fregu856.com/post/phd_of_reading/) (why I think it’s important to read a lot of papers + how I organize my reading + paper statistics + a list of 30 particularly interesting papers)._
 
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Miscellaneous].
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Image Restoration], [Miscellaneous].
 
 
 ### Papers:
@@ -19,6 +19,87 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2023:
+
+##### [23-09-13] [paper321]
+- Adding Conditional Control to Text-to-Image Diffusion Models
+ [[pdf]](https://arxiv.org/abs/2302.05543) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Adding%20Conditional%20Control%20to%20Text-to-Image%20Diffusion%20Models.pdf)
+- `2023-02`
+- [Diffusion Models], [Vision-Language Models]
+```
+Well-written and quite interesting paper. The "sudden convergence phenomenon" in Figure 4 seems odd. The results in Figure 11 are actually very cool.
+```
+
+##### [23-08-23] [paper320]
+- Random Word Data Augmentation with CLIP for Zero-Shot Anomaly Detection
+ [[pdf]](https://arxiv.org/abs/2308.11119) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Random%20Word%20Data%20Augmentation%20with%20CLIP%20for%20Zero-Shot%20Anomaly%20Detection.pdf)
+- `BMVC 2023`
+- [Vision-Language Models]
+```
+Interesting and well-written paper, I enjoyed reading it (even though I really don't like the BMVC template). The proposed method in Section 3 is clever/neat/interesting.
+```
+
+##### [23-08-23] [paper319]
+- TextIR: A Simple Framework for Text-based Editable Image Restoration
+ [[pdf]](https://arxiv.org/abs/2302.14736) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/TextIR%3A%20A%20Simple%20Framework%20for%20Text-based%20Editable%20Image%20Restoration.pdf)
+- `2023-02`
+- [Vision-Language Models], [Image Restoration]
+```
+Quite interesting and well-written paper. The idea in Section 3.1 is interesting/neat. The results in Figure 6 - 8 are quite interesting.
+```
+
+##### [23-08-22] [paper318]
+- Learning to Prompt for Open-Vocabulary Object Detection with Vision-Language Model
+ [[pdf]](https://arxiv.org/abs/2203.14940) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Prompt%20for%20Open-Vocabulary%20Object%20Detection%20with%20Vision-Language%20Model.pdf)
+- `CVPR 2022`
+- [Vision-Language Models], [Object Detection]
+```
+Quite interesting and quite well-written paper. They basically improve the "Open-vocabulary Object Detection via Vision and Language Knowledge Distillation" paper by using learnable prompts. Section 4.1 gives a pretty good background.
+```
+
+##### [23-08-21] [paper317]
+- Open-vocabulary Object Detection via Vision and Language Knowledge Distillation
+ [[pdf]](https://arxiv.org/abs/2104.13921) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Open-vocabulary%20Object%20Detection%20via%20Vision%20and%20Language%20Knowledge%20Distillation.pdf)
+- `ICLR 2022`
+- [Vision-Language Models], [Object Detection]
+```
+Quite well-written and fairly interesting paper. The simple (but slow) baseline in Section 3.2 makes sense, but then I struggled to properly understand the proposed method in Section 3.3. I might lack some required background knowledge.
+```
+
+##### [23-08-21] [paper316]
+- All-In-One Image Restoration for Unknown Corruption
+ [[pdf]](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_All-in-One_Image_Restoration_for_Unknown_Corruption_CVPR_2022_paper.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/All-In-One%20Image%20Restoration%20for%20Unknown%20Corruption.pdf)
+- `CVPR 2022`
+- [Image Restoration]
+```
+Quite well-written and fairly interesting paper. Did not take very long to read. The general idea of the "Contrastive-Based Degradation Encoder" makes sense.
+```
+
+##### [23-08-18] [paper315]
+- ProRes: Exploring Degradation-aware Visual Prompt for Universal Image Restoration
+ [[pdf]](https://arxiv.org/abs/2306.13653) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/ProRes%3A%20Exploring%20Degradation-aware%20Visual%20Prompt%20for%20Universal%20Image%20Restoration.pdf)
+- `2023-06`
+- [Image Restoration]
+```
+Quite interesting and well-written paper. If I understand everything correctly, they need a user to select the correct task-specific visual prompt at test-time. I.e., the user needs to specify if a given input image is an image for denoising, low-light enhancement, deraining or deblurring. This seems like a quite significant limitation to me. Would like to have a model that, after being trained on restoration task 1, 2, ..., N, can restore a given image without any user input, for images from all N tasks.
+```
+
+##### [23-08-17] [paper314]
+- PromptIR: Prompting for All-in-One Blind Image Restoration
+ [[pdf]](https://arxiv.org/abs/2306.13090) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PromptIR%3A%20Prompting%20for%20All-in-One%20Blind%20Image%20Restoration.pdf)
+- `NeurIPS 2023`
+- [Image Restoration]
+```
+Well-written and quite interesting paper. They describe their overall method well in Section 3. I was not familiar with prompt-learning, but I think they did a good jobb explaining it.
+```
+
+##### [23-08-17] [paper313]
+- InstructPix2Pix: Learning to Follow Image Editing Instructions
+ [[pdf]](https://arxiv.org/abs/2211.09800) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/InstructPix2Pix%3A%20Learning%20to%20Follow%20Image%20Editing%20Instructions.pdf)
+- `CVPR 2023`
+- [Diffusion Models], [Vision-Language Models]
+```
+Well-written and quite interesting paper. The method is conceptually simple and makes intuitive sense. Definitely impressive visual results (I'm especially impressed by Figure 7 and the right part of Figure 17). Figure 14 is important, interesting to see such a clear example of gender bias in the data being reflected in the model.
+```
 
 ##### [23-09-23] [paper312]
 - Machine learning: Trends, Perspectives, and Prospects
