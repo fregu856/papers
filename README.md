@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-08-18] [paper315]
+- ProRes: Exploring Degradation-aware Visual Prompt for Universal Image Restoration
+ [[pdf]](https://arxiv.org/abs/2306.13653) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/ProRes%3A%20Exploring%20Degradation-aware%20Visual%20Prompt%20for%20Universal%20Image%20Restoration.pdf)
+- `2023-06`
+- [Image Restoration]
+```
+Quite interesting and well-written paper. If I understand everything correctly, they need a user to select the correct task-specific visual prompt at test-time. I.e., the user needs to specify if a given input image is an image for denoising, low-light enhancement, deraining or deblurring. This seems like a quite significant limitation to me. Would like to have a model that, after being trained on restoration task 1, 2, ..., N, can restore a given image without any user input, for images from all N tasks.
+```
+
 ##### [23-08-17] [paper314]
 - PromptIR: Prompting for All-in-One Blind Image Restoration
  [[pdf]](https://arxiv.org/abs/2306.13090) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PromptIR%3A%20Prompting%20for%20All-in-One%20Blind%20Image%20Restoration.pdf)
