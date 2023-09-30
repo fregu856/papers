@@ -6,7 +6,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Miscellaneous].
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Image Restoration], [Miscellaneous].
 
 
 ### Papers:
@@ -19,6 +19,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2023:
+
+##### [23-08-17] [paper314]
+- PromptIR: Prompting for All-in-One Blind Image Restoration
+ [[pdf]](https://arxiv.org/abs/2306.13090) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PromptIR%3A%20Prompting%20for%20All-in-One%20Blind%20Image%20Restoration.pdf)
+- `NeurIPS 2023`
+- [Image Restoration]
+```
+Well-written and quite interesting paper. They describe their overall method well in Section 3. I was not familiar with prompt-learning, but I think they did a good jobb explaining it.
+```
 
 ##### [23-08-17] [paper313]
 - InstructPix2Pix: Learning to Follow Image Editing Instructions
