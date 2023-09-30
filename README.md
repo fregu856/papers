@@ -20,7 +20,16 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
-##### [23-08-23] [paper317]
+##### [23-08-22] [paper318]
+- Learning to Prompt for Open-Vocabulary Object Detection with Vision-Language Model
+ [[pdf]](https://arxiv.org/abs/2203.14940) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Prompt%20for%20Open-Vocabulary%20Object%20Detection%20with%20Vision-Language%20Model.pdf)
+- `CVPR 2022`
+- [Vision-Language Models], [Object Detection]
+```
+Quite interesting and quite well-written paper. They basically improve the "Open-vocabulary Object Detection via Vision and Language Knowledge Distillation" paper by using learnable prompts. Section 4.1 gives a pretty good background.
+```
+
+##### [23-08-21] [paper317]
 - Open-vocabulary Object Detection via Vision and Language Knowledge Distillation
  [[pdf]](https://arxiv.org/abs/2104.13921) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Open-vocabulary%20Object%20Detection%20via%20Vision%20and%20Language%20Knowledge%20Distillation.pdf)
 - `ICLR 2022`
@@ -29,7 +38,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 Quite well-written and fairly interesting paper. The simple (but slow) baseline in Section 3.2 makes sense, but then I struggled to properly understand the proposed method in Section 3.3. I might lack some required background knowledge.
 ```
 
-##### [23-08-23] [paper316]
+##### [23-08-21] [paper316]
 - All-In-One Image Restoration for Unknown Corruption
  [[pdf]](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_All-in-One_Image_Restoration_for_Unknown_Corruption_CVPR_2022_paper.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/All-In-One%20Image%20Restoration%20for%20Unknown%20Corruption.pdf)
 - `CVPR 2022`
