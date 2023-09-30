@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-08-23] [paper316]
+- All-In-One Image Restoration for Unknown Corruption
+ [[pdf]](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_All-in-One_Image_Restoration_for_Unknown_Corruption_CVPR_2022_paper.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/All-In-One%20Image%20Restoration%20for%20Unknown%20Corruption.pdf)
+- `CVPR 2022`
+- [Image Restoration]
+```
+Quite well-written and fairly interesting paper. Did not take very long to read. The general idea of the "Contrastive-Based Degradation Encoder" makes sense.
+```
+
 ##### [23-08-18] [paper315]
 - ProRes: Exploring Degradation-aware Visual Prompt for Universal Image Restoration
  [[pdf]](https://arxiv.org/abs/2306.13653) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/ProRes%3A%20Exploring%20Degradation-aware%20Visual%20Prompt%20for%20Universal%20Image%20Restoration.pdf)
