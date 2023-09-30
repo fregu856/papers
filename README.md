@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-08-17] [paper313]
+- InstructPix2Pix: Learning to Follow Image Editing Instructions
+ [[pdf]](https://arxiv.org/abs/2211.09800) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/InstructPix2Pix%3A%20Learning%20to%20Follow%20Image%20Editing%20Instructions.pdf)
+- `CVPR 2023`
+- [Diffusion Models], [Vision-Language Models]
+```
+Well-written and quite interesting paper. The method is conceptually simple and makes intuitive sense. Definitely impressive visual results (I'm especially impressed by Figure 7 and the right part of Figure 17). Figure 14 is important, interesting to see such a clear example of gender bias in the data being reflected in the model.
+```
+
 ##### [23-09-23] [paper312]
 - Machine learning: Trends, Perspectives, and Prospects
  [[pdf]](https://www.cs.cmu.edu/~tom/pubs/Science-ML-2015.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Machine%20learning%3A%20Trends%2C%20Perspectives%2C%20and%20Prospects.pdf)
