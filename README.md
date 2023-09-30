@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-08-23] [paper319]
+- TextIR: A Simple Framework for Text-based Editable Image Restoration
+ [[pdf]](https://arxiv.org/abs/2302.14736) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/TextIR%3A%20A%20Simple%20Framework%20for%20Text-based%20Editable%20Image%20Restoration.pdf)
+- `2023-02`
+- [Vision-Language Models], [Image Restoration]
+```
+Quite interesting and well-written paper. The idea in Section 3.1 is interesting/neat. The results in Figure 6 - 8 are quite interesting.
+```
+
 ##### [23-08-22] [paper318]
 - Learning to Prompt for Open-Vocabulary Object Detection with Vision-Language Model
  [[pdf]](https://arxiv.org/abs/2203.14940) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20to%20Prompt%20for%20Open-Vocabulary%20Object%20Detection%20with%20Vision-Language%20Model.pdf)
