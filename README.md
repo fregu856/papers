@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-09-23] [paper312]
+- Machine learning: Trends, Perspectives, and Prospects
+ [[pdf]](https://www.cs.cmu.edu/~tom/pubs/Science-ML-2015.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Machine%20learning%3A%20Trends%2C%20Perspectives%2C%20and%20Prospects.pdf)
+- `Science, 2015`
+- [Miscellaneous]
+```
+Well-written paper. I read it for my thesis writing, wanted to see some basic definitions of machine learning, I quite liked it.
+```
+
 ##### [23-09-19] [paper311]
 - Blinded, Randomized Trial of Sonographer versus AI Cardiac Function Assessment
  [[pdf]](https://www.nature.com/articles/s41586-023-05947-3) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Blinded%2C%20Randomized%20Trial%20of%20Sonographer%20versus%20AI%20Cardiac%20Function%20Assessment.pdf)
