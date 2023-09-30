@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-09-13] [paper321]
+- Adding Conditional Control to Text-to-Image Diffusion Models
+ [[pdf]](https://arxiv.org/abs/2302.05543) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Adding%20Conditional%20Control%20to%20Text-to-Image%20Diffusion%20Models.pdf)
+- `2023-02`
+- [Diffusion Models], [Vision-Language Models]
+```
+Well-written and quite interesting paper. The "sudden convergence phenomenon" in Figure 4 seems odd. The results in Figure 11 are actually very cool.
+```
+
 ##### [23-08-23] [paper320]
 - Random Word Data Augmentation with CLIP for Zero-Shot Anomaly Detection
  [[pdf]](https://arxiv.org/abs/2308.11119) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Random%20Word%20Data%20Augmentation%20with%20CLIP%20for%20Zero-Shot%20Anomaly%20Detection.pdf)
