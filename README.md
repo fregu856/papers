@@ -6,7 +6,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [ML & Ethics], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Image Restoration], [Miscellaneous].
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [Social Consequences of ML], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Image Restoration], [Miscellaneous].
 
 
 ### Papers:
@@ -19,6 +19,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2023:
+
+##### [23-11-02] [paper323]
+- A Framework for Understanding Sources of Harm throughout the Machine Learning Life Cycle
+ [[pdf]](https://arxiv.org/abs/1901.10002) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Framework%20for%20Understanding%20Sources%20of%20Harm%20throughout%20the%20Machine%20Learning%20Life%20Cycle.pdf)
+- `EAAMO 2021`
+- [Social Consequences of ML]
+```
+Interesting paper, I enjoyed reading it. The description of different potential sources of harm (across the entire process from data collection to real-world deployment) in Section 3 is concise and clear. I have probably read about all these things at some point over the years, but to have it all summarized and structured in this way is neat. I definitely think this could be useful. If nothing else, is is a good introduction to these issues.
+```
 
 ##### [23-03-14] [paper322]
 - Supervised Contrastive Regression
@@ -647,7 +656,7 @@ Quite well-written and somewhat interesting paper. Longer (~20 pages) and more t
 - Toward a Theory of Justice for Artificial Intelligence
  [[pdf]](https://direct.mit.edu/daed/article-pdf/151/2/218/2009164/daed_a_01911.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Toward%20a%20Theory%20of%20Justice%20for%20Artificial%20Intelligence.pdf)
 - `Daedalus, 2022`
-- [ML & Ethics]
+- [Social Consequences of ML]
 ```
 Well-written and quite interesting paper. Describes the distributive justice principles of John Rawls' book "A theory of justice" and explores/discusses what these might imply for how "AI systems" should be regulated/deployed/etc. Doesn't really provide any overly concrete takeaways, at least not for me, but still a quite enjoyable read.
 ```
@@ -656,7 +665,7 @@ Well-written and quite interesting paper. Describes the distributive justice pri
 - Talking About Large Language Models
  [[pdf]](https://arxiv.org/abs/2212.03551) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Talking%20About%20Large%20Language%20Models.pdf)
 - `2022-12`
-- [ML & Ethics], [NLP]
+- [Social Consequences of ML], [NLP]
 ```
 Well-written and interesting paper. Sections 1-6 and Section 11 are very interesting. A breath of fresh air to read this in the midst of the ChatGPT hype. It contains a lot of good quotes, for example:"To ensure that we can make informed decisions about the trustworthiness and safety of the AI systems we deploy, it is advisable to keep to the fore the way those systems actually work, and thereby to avoid imputing to them capacities they lack, while making the best use of the remarkable capabilities they genuinely possess".
 ```
@@ -665,7 +674,7 @@ Well-written and interesting paper. Sections 1-6 and Section 11 are very interes
 - Artificial Intelligence, Humanistic Ethics
  [[pdf]](https://direct.mit.edu/daed/article-pdf/151/2/232/2009174/daed_a_01912.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Artificial%20Intelligence%2C%20Humanistic%20Ethics.pdf)
 - `Daedalus, 2022`
-- [ML & Ethics]
+- [Social Consequences of ML]
 ```
 Well-written and interesting paper. Provides some interesting comments/critique on utilitarianism and how engineers/scientists like myself might be inclined to find that approach attractive: "The optimizing mindset prevalent among computer scientists and economists, among other powerful actors, has led to an approach focused on maximizing the fulfilment of human preferences..... But this preference-based utilitarianism is open to serious objections. This essay sketches an alternative, “humanistic” ethics for AI that is sensitive to aspects of human engagement with the ethical often missed by the dominant approach." - - - - "So ethics is reduced to an exercise in prediction and optimization: which act or policy is likely to lead to the optimal fulfilment of human preferences?" - - - - "This incommensurability calls into question the availability of some optimizing function that determines the single option that is, all things considered, most beneficial or morally right, the quest for which has animated a lot of utilitarian thinking in ethics."
 ```
@@ -683,7 +692,7 @@ Quite well-written and somewhat interesting paper.
 - AI Ethics and its Pitfalls: Not Living up to its own Standards?
  [[pdf]](https://link.springer.com/article/10.1007/s43681-022-00173-5) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/AI%20ethics%20and%20its%20pitfalls:%20not%20living%20up%20to%20its%20own%20standards%3F.pdf)
 - `AI and Ethics, 2022`
-- [ML & Ethics]
+- [Social Consequences of ML]
 ```
 Well-written and somewhat interesting paper. Good reminder that also the practice of ML ethics could have unintended negative consequences. Section 2.6 is quite interesting.
 ```
@@ -692,7 +701,7 @@ Well-written and somewhat interesting paper. Good reminder that also the practic
 - Blind Spots in AI Ethics
  [[pdf]](https://link.springer.com/article/10.1007/s43681-021-00122-8) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Blind%20spots%20in%20AI%20ethics.pdf)
 - `AI and Ethics, 2022`
-- [ML & Ethics]
+- [Social Consequences of ML]
 ```
 Well-written and very interesting paper. I enjoyed reading it, and it made me think - which is a good thing! Contains quite a few quotes which I really liked, for example: "However, it is wrong to assume that the goal is ethical AI. Rather, the primary aim from which detailed norms can be derived should be a peaceful, sustainable, and just society. Hence, AI ethics must dare to ask the question where in an ethical society one should use AI and its inherent principle of predictive modeling and classification at all".
 ```
@@ -701,7 +710,7 @@ Well-written and very interesting paper. I enjoyed reading it, and it made me th
 - The Ethics of AI Ethics: An Evaluation of Guidelines
  [[pdf]](https://link.springer.com/article/10.1007/s11023-020-09517-8) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Ethics%20of%20AI%20Ethics:%20An%20Evaluation%20of%20Guidelines.pdf)
 - `Minds and Machines, 2020`
-- [ML & Ethics]
+- [Social Consequences of ML]
 ```
 Well-written and interesting paper. I liked that it discussed some actual ethical theories in Section 4.2. Sections 3.2, 3.3. and 4.1 were also interesting.
 ```
@@ -710,7 +719,7 @@ Well-written and interesting paper. I liked that it discussed some actual ethica
 - The Uselessness of AI Ethics
  [[pdf]](https://link.springer.com/article/10.1007/s43681-022-00209-w) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20uselessness%20of%20AI%20ethics.pdf)
 - `AI and Ethics, 2022`
-- [ML & Ethics]
+- [Social Consequences of ML]
 ```
 Well-written and very interesting paper. I enjoyed reading it, and it made me think - which is a good thing!
 ```
@@ -728,7 +737,7 @@ Quite well-written and interesting paper. I did struggle to properly understand 
 - You Cannot Have AI Ethics Without Ethics
  [[pdf]](https://link.springer.com/article/10.1007/s43681-020-00013-4)
 - `AI and Ethics, 2021`
-- [ML & Ethics]
+- [Social Consequences of ML]
 ```
 Well-written and quite interesting paper. Just 5 pages long, quick to read. Sort of like an opinion piece. I enjoyed reading it. Main takeaway: "Instead of trying to reinvent ethics, or adopt ethical guidelines in isolation, it is incumbent upon us to recognize the need for broadly ethical organizations. These will be the only entrants in a position to build truly ethical AI. You cannot simply have AI ethics. It requires real ethical due diligence at the organizational level—perhaps, in some cases, even industry-wide refection".
 ```
@@ -737,7 +746,7 @@ Well-written and quite interesting paper. Just 5 pages long, quick to read. Sort
 - Expert Responsibility in AI Development
  [[pdf]](https://link.springer.com/article/10.1007/s00146-022-01498-9) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Expert%20responsibility%20in%20AI%20development.pdf)
 - `AI & Society, 2022`
-- [ML & Ethics]
+- [Social Consequences of ML]
 ```
 Well-written and interesting paper, quite straightforward to follow and understand everything. Section 6 & 7 are interesting, with the discussion about unintended consequences of recommender algorithms (how they contribute to an impaired democratic debate).
 ```
@@ -746,7 +755,7 @@ Well-written and interesting paper, quite straightforward to follow and understa
 - The future of AI in our hands? To what extent are we as individuals morally responsible for guiding the development of AI in a desirable direction?
  [[pdf]](https://link.springer.com/article/10.1007/s43681-021-00125-5) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20future%20of%20AI%20in%20our%20hands%3F%20To%20what%20extent%20are%20we%20as%20individuals%20morally%20responsible%20for%20guiding%20the%20development%20of%20AI%20in%20a%20desirable%20direction%3F.pdf)
 - `AI and Ethics, 2022`
-- [ML & Ethics]
+- [Social Consequences of ML]
 ```
 Well-written and somewhat interesting paper. Not overly technical or difficult to read. Discusses different perspectives on who should be responsible for ensuring that the future development of "AI" actually benefits society.
 ```
