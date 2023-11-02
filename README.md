@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-03-14] [paper322]
+- Supervised Contrastive Regression
+ [[pdf]](https://arxiv.org/abs/2210.01189) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Supervised%20Contrastive%20Regression.pdf)
+- `2022-10`
+- [Representation Learning]
+```
+Well-written and interesting paper. Figure 1 is really interesting. Their proposed method makes intuitive sense, and it seems to consistently improve the regression accuracy. 
+```
+
 ##### [23-09-13] [paper321]
 - Adding Conditional Control to Text-to-Image Diffusion Models
  [[pdf]](https://arxiv.org/abs/2302.05543) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Adding%20Conditional%20Control%20to%20Text-to-Image%20Diffusion%20Models.pdf)
