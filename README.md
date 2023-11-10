@@ -20,7 +20,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
-##### [23-11-09] [paper327]
+##### [23-11-10] [paper327]
 - Sociotechnical Safety Evaluation of Generative AI Systems
  [[pdf]](https://arxiv.org/abs/2310.11986) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Sociotechnical%20Safety%20Evaluation%20of%20Generative%20AI%20Systems.pdf)
 - `2023-10`
