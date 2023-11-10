@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-11-08] [paper324]
+- Considerations For Addressing Bias In Artificial Intelligence For Health Equity
+ [[pdf]](https://www.nature.com/articles/s41746-023-00913-9) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Considerations%20For%20Addressing%20Bias%20In%20Artificial%20Intelligence%20For%20Health%20Equity.pdf)
+- `npj Digital Medicine, 2023`
+- [ML for Medicine/Healthcare], [Social Consequences of ML]
+```
+Quite well-written and fairly interesting paper. The overall approach (to consider health equity effects across the entire product lifecycle of ML systems) of course makes sense, but the paper is still quite vague. I would have liked to see more actionable, concrete takeaways.
+```
+
 ##### [23-11-02] [paper323]
 - A Framework for Understanding Sources of Harm throughout the Machine Learning Life Cycle
  [[pdf]](https://arxiv.org/abs/1901.10002) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Framework%20for%20Understanding%20Sources%20of%20Harm%20throughout%20the%20Machine%20Learning%20Life%20Cycle.pdf)
