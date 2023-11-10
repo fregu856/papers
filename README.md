@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-11-09] [paper325]
+- Consistent Diffusion Models: Mitigating Sampling Drift by Learning to be Consistent
+ [[pdf]](https://openreview.net/forum?id=GfZGdJHj27) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Consistent%20Diffusion%20Models%3A%20Mitigating%20Sampling%20Drift%20by%20Learning%20to%20be%20Consistent.pdf)
+- `NeurIPS 2023`
+- [Diffusion Models]
+```
+Well-written and fairly interesting paper. The overall idea makes sense, but I'm not entirely convinced that the performance gains in practice are worth the 50% increase in training cost.
+```
+
 ##### [23-11-08] [paper324]
 - Considerations For Addressing Bias In Artificial Intelligence For Health Equity
  [[pdf]](https://www.nature.com/articles/s41746-023-00913-9) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Considerations%20For%20Addressing%20Bias%20In%20Artificial%20Intelligence%20For%20Health%20Equity.pdf)
