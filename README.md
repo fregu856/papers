@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-11-09] [paper327]
+- Sociotechnical Safety Evaluation of Generative AI Systems
+ [[pdf]](https://arxiv.org/abs/2310.11986) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Sociotechnical%20Safety%20Evaluation%20of%20Generative%20AI%20Systems.pdf)
+- `2023-10`
+- [Social Consequences of ML]
+```
+Interesting paper. Longer than what I usually read (~25-30 pages). I didn't intend to read the entire paper but ended up doing so anyway, because I found it interesting overall. Section 4 was less interesting. If just reading parts of it, I would recommend Section 2, 5, A.1 and A.3. Section 5.4.2 - 5.4.4 is interesting, on who actually should be evaluating ML systems, that we need ~independent~ evaluators etc. I like this quote from Section 5.4.2 "Evaluations must be conducted during the process of AI development, to bake in ethical and social considerations from the inception of an AI system rather than imperfectly patching them on as an afterthought".
+```
+
 ##### [23-11-09] [paper326]
 - Ambient Diffusion: Learning Clean Distributions from Corrupted Data
  [[pdf]](https://openreview.net/forum?id=wBJBLy9kBY) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Ambient%20Diffusion%3A%20Learning%20Clean%20Distributions%20from%20Corrupted%20Data.pdf)
