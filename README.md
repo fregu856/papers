@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-11-14] [paper328]
+- Large Language Models Propagate Race-based Medicine
+ [[pdf]](https://www.nature.com/articles/s41746-023-00939-z) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large%20Language%20Models%20Propagate%20Race-based%20Medicine.pdf)
+- `npj Digital Medicine, 2023`
+- [ML for Medicine/Healthcare], [Social Consequences of ML]
+```
+Very short paper (just 2 pages long), but still quite interesting. It raises some interesting questions and thoughts. I also read this news article about the paper: https://apnews.com/article/ai-chatbots-racist-medicine-chatgpt-bard-6f2a330086acd0a1f8955ac995bdde4d, which also was quite interesting.
+```
+
 ##### [23-11-10] [paper327]
 - Sociotechnical Safety Evaluation of Generative AI Systems
  [[pdf]](https://arxiv.org/abs/2310.11986) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Sociotechnical%20Safety%20Evaluation%20of%20Generative%20AI%20Systems.pdf)
