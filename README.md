@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-11-23] [paper329]
+- Algorithmic Fairness In Artificial Intelligence For Medicine And Healthcare
+ [[pdf]](https://www.nature.com/articles/s41551-023-01056-8) [unfortunately not open access, thus no annotated pdf]
+- `Nature Biomedical Engineering, 2023`
+- [ML for Medicine/Healthcare], [Social Consequences of ML]
+```
+Quite interesting paper. Fairly long and dense, so I got a bit tired towards the end. I quite enjoyed reading page 1 - 10, and then I found the "Paths forward" section less interesting. They talk a lot about dataset shifts, which I liked. They gave some good concrete examples. I also found a bunch of seemingly interesting papers in the (long) reference list.
+```
+
 ##### [23-11-14] [paper328]
 - Large Language Models Propagate Race-based Medicine
  [[pdf]](https://www.nature.com/articles/s41746-023-00939-z) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large%20Language%20Models%20Propagate%20Race-based%20Medicine.pdf)
