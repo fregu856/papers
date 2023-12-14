@@ -6,7 +6,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [Social Consequences of ML], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Image Restoration], [Miscellaneous].
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [Social Consequences of ML], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Image Restoration], [Computational Pathology], [Miscellaneous].
 
 
 ### Papers:
@@ -19,6 +19,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2023:
+
+##### [23-12-14] [paper330]
+- Scaling Vision Transformers to Gigapixel Images via Hierarchical Self-Supervised Learning
+ [[pdf]](https://arxiv.org/abs/2206.02647) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Scaling%20Vision%20Transformers%20to%20Gigapixel%20Images%20via%20Hierarchical%20Self-Supervised%20Learning.pdf)
+- `CVPR 2022`
+- [Representation Learning], [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Quite interesting and well-written paper. The proposed method makes intuitive sense, I think. However, I definitely don't have the necessary background knowledge to fully appreciate this paper, or judge how novel/impressive/interesting the proposed method and the experimental results actually are. I should have started reading some earlier and more basic computational pathology papers.
+```
 
 ##### [23-11-23] [paper329]
 - Algorithmic Fairness In Artificial Intelligence For Medicine And Healthcare
