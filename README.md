@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-12-15] [paper331]
+- Predicting Molecular Phenotypes from Histopathology Images: A Transcriptome-Wide Expression–Morphology Analysis in Breast Cancer
+ [[pdf]](https://aacrjournals.org/cancerres/article/81/19/5115/670326/Predicting-Molecular-Phenotypes-from) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predicting%20Molecular%20Phenotypes%20from%20Histopathology%20Images%20A%20Transcriptome-Wide%20Expression%E2%80%93Morphology%20Analysis%20in%20Breast%20Cancer.pdf)
+- `Cancer Research, 2021`
+-  [ML for Medicine/Healthcare], [Computational Pathology]
+```
+A ton of medical background that I'm not even close to properly understanding, but still quite interesting to read. Odd but kind of cool that they trained a CNN for each of the ~17 000 (!) different genes. The actual ML model is quite straightforward and makes sense.
+```
+
 ##### [23-12-14] [paper330]
 - Scaling Vision Transformers to Gigapixel Images via Hierarchical Self-Supervised Learning
  [[pdf]](https://arxiv.org/abs/2206.02647) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Scaling%20Vision%20Transformers%20to%20Gigapixel%20Images%20via%20Hierarchical%20Self-Supervised%20Learning.pdf)
