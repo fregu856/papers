@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-12-18] [paper332]
+- Classification and Mutation Prediction From Non–Small Cell Lung Cancer Histopathology Images Using Deep Learning
+ [[pdf]](https://www.nature.com/articles/s41591-018-0177-5) [unfortunately not open access, thus no annotated pdf]
+- `Nature Medicine, 2018`
+-  [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Well-written an fairly interesting paper. I quite liked the introduction, it gives some good background. The ML-related things are simple and described well. The second half of the Results section contains a lot of medical details which I'm unable to properly understand/appreciate.
+```
+
 ##### [23-12-15] [paper331]
 - Predicting Molecular Phenotypes from Histopathology Images: A Transcriptome-Wide Expression–Morphology Analysis in Breast Cancer
  [[pdf]](https://aacrjournals.org/cancerres/article/81/19/5115/670326/Predicting-Molecular-Phenotypes-from) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predicting%20Molecular%20Phenotypes%20from%20Histopathology%20Images%20A%20Transcriptome-Wide%20Expression%E2%80%93Morphology%20Analysis%20in%20Breast%20Cancer.pdf)
