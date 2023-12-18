@@ -20,13 +20,22 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-12-18] [paper333]
+- Clinical-Grade Computational Pathology Using Weakly Supervised Deep Learning on Whole Slide Images
+ [[pdf]](https://www.nature.com/articles/s41591-019-0508-1) [unfortunately not open access, thus no annotated pdf]
+- `Nature Medicine, 2019`
+-  [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Well-written and quite interesting paper. Everything is clearly described. I think this is a good introductory paper to read if one wants fo get into computational pathology.
+```
+
 ##### [23-12-18] [paper332]
 - Classification and Mutation Prediction From Non–Small Cell Lung Cancer Histopathology Images Using Deep Learning
  [[pdf]](https://www.nature.com/articles/s41591-018-0177-5) [unfortunately not open access, thus no annotated pdf]
 - `Nature Medicine, 2018`
 -  [ML for Medicine/Healthcare], [Computational Pathology]
 ```
-Well-written an fairly interesting paper. I quite liked the introduction, it gives some good background. The ML-related things are simple and described well. The second half of the Results section contains a lot of medical details which I'm unable to properly understand/appreciate.
+Quite well-written an fairly interesting paper. I quite liked the introduction, it gives some good background. The ML-related things are simple and described well. The second half of the Results section contains a lot of medical details which I'm unable to properly understand/appreciate.
 ```
 
 ##### [23-12-15] [paper331]
