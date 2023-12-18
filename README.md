@@ -26,7 +26,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - `Nature Medicine, 2019`
 -  [ML for Medicine/Healthcare], [Computational Pathology]
 ```
-Well-written and quite interesting paper. Everything is clearly described. I think this is a good introductory paper to read if one wants fo get into computational pathology.
+Well-written and quite interesting paper. Everything is clearly described. I think this is a good introductory paper to read if one wants to get into computational pathology.
 ```
 
 ##### [23-12-18] [paper332]
