@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-12-19] [paper334]
+- Artificial Intelligence for Diagnosis and Grading of Prostate Cancer in Biopsies: A Population-Based, Diagnostic Study
+ [[pdf]](https://www.sciencedirect.com/science/article/pii/S1470204519307387?via%3Dihub) [unfortunately not open access, thus no annotated pdf]
+- `The Lancet Oncology, 2020`
+-  [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Well-written and fairly interesting paper. Quite similar to other papers, but another piece of good background knowledge for me.
+```
+
 ##### [23-12-18] [paper333]
 - Clinical-Grade Computational Pathology Using Weakly Supervised Deep Learning on Whole Slide Images
  [[pdf]](https://www.nature.com/articles/s41591-019-0508-1) [unfortunately not open access, thus no annotated pdf]
