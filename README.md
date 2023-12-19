@@ -35,7 +35,7 @@ Well-written and quite interesting paper. Everything is clearly described. I thi
 - `Nature Medicine, 2018`
 -  [ML for Medicine/Healthcare], [Computational Pathology]
 ```
-Quite well-written an fairly interesting paper. I quite liked the introduction, it gives some good background. The ML-related things are simple and described well. The second half of the Results section contains a lot of medical details which I'm unable to properly understand/appreciate.
+Quite well-written and fairly interesting paper. I quite liked the introduction, it gives some good background. The ML-related things are simple and described well. The second half of the Results section contains a lot of medical details which I'm unable to properly understand/appreciate.
 ```
 
 ##### [23-12-15] [paper331]
