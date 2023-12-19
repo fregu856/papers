@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-12-19] [paper335]
+- Artificial Intelligence as the Next Step Towards Precision Pathology
+ [[pdf]](https://onlinelibrary.wiley.com/doi/10.1111/joim.13030) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Artificial%20Intelligence%20as%20the%20Next%20Step%20Towards%20Precision%20Pathology.pdf)
+- `Journal of Internal Medicine, 2020`
+-  [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Review paper. Quite interesting. I think it was quite useful for me to read, good to just get a sense of what things have been tried before.
+```
+
 ##### [23-12-19] [paper334]
 - Artificial Intelligence for Diagnosis and Grading of Prostate Cancer in Biopsies: A Population-Based, Diagnostic Study
  [[pdf]](https://www.sciencedirect.com/science/article/pii/S1470204519307387?via%3Dihub) [unfortunately not open access, thus no annotated pdf]
