@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-12-20] [paper337]
+- Improved Breast Cancer Histological Grading Using Deep Learning
+ [[pdf]](https://www.annalsofoncology.org/article/S0923-7534(21)04486-0/fulltext) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Improved%20Breast%20Cancer%20Histological%20Grading%20Using%20Deep%20Learning.pdf)
+- `Annals of Oncology, 2022`
+-  [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Well-written and interesting paper. The application and overall approach makes sense, it's pretty cool. I think I'm starting to understand more of the medical content (the way these models are evaluated, how the results are presented etc.), it's also described well in this paper.
+```
+
 ##### [23-12-20] [paper336]
 - Deep Learning in Cancer Pathology: A New Generation of Clinical Biomarkers
  [[pdf]](https://www.nature.com/articles/s41416-020-01122-x) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning%20in%20Cancer%20Pathology%20A%20New%20Generation%20of%20Clinical%20Biomarkers.pdf)
