@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-12-20] [paper336]
+- Deep Learning in Cancer Pathology: A New Generation of Clinical Biomarkers
+ [[pdf]](https://www.nature.com/articles/s41416-020-01122-x) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning%20in%20Cancer%20Pathology%20A%20New%20Generation%20of%20Clinical%20Biomarkers.pdf)
+- `British Journal of Cancer, 2021`
+-  [ML for Medicine/Healthcare], [Computational Pathology]
+```
+A very well-written and interesting review paper, I enjoyed reading it. I also found it really useful, it helped me understand what biomarkers actually are and what they are used for much better than before. I can recommend reading this paper, I think it's a good way to gain quite a lot of medical background knowledge.
+```
+
 ##### [23-12-19] [paper335]
 - Artificial Intelligence as the Next Step Towards Precision Pathology
  [[pdf]](https://onlinelibrary.wiley.com/doi/10.1111/joim.13030) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Artificial%20Intelligence%20as%20the%20Next%20Step%20Towards%20Precision%20Pathology.pdf)
