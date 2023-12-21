@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-12-21] [paper338]
+- Development and Prognostic Validation of a Three-Level NHG-Like Deep Learning-Based Model for Histological Grading of Breast Cancer
+ [[pdf]](https://www.medrxiv.org/content/10.1101/2023.02.15.23285956v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Development%20and%20Prognostic%20Validation%20of%20a%20Three-Level%20NHG-Like%20Deep%20Learning-Based%20Model%20for%20Histological%20Grading%20of%20Breast%20Cancer.pdf)
+- `medrxiv 2023-02`
+-  [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Interesting paper. Very good background material for me. I still don't fully understand everything in the results (survival analysis etc.), but it feels like I'm slowly learning with each paper at least.
+```
+
 ##### [23-12-20] [paper337]
 - Improved Breast Cancer Histological Grading Using Deep Learning
  [[pdf]](https://www.annalsofoncology.org/article/S0923-7534(21)04486-0/fulltext) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Improved%20Breast%20Cancer%20Histological%20Grading%20Using%20Deep%20Learning.pdf)
