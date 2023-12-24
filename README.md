@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-12-23] [paper339]
+- Quilt-1M: One Million Image-Text Pairs for Histopathology
+ [[pdf]](https://openreview.net/forum?id=OL2JQoO0kq) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Quilt-1M%20One%20Million%20Image-Text%20Pairs%20for%20Histopathology.pdf)
+- `NeurIPS 2023 Track on Datasets and Benchmark`
+-  [Vision-Language Models], [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Well-written and fairly interesting paper. It mostly contains details about the dataset creation process. While this definitely is impressive and pretty cool, I personally didn't find it overly interesting. The zero-shot / linear probing results seem quite promising, but it's difficult for me to judge how impressive they actually are.
+```
+
 ##### [23-12-21] [paper338]
 - Development and Prognostic Validation of a Three-Level NHG-Like Deep Learning-Based Model for Histological Grading of Breast Cancer
  [[pdf]](https://www.medrxiv.org/content/10.1101/2023.02.15.23285956v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Development%20and%20Prognostic%20Validation%20of%20a%20Three-Level%20NHG-Like%20Deep%20Learning-Based%20Model%20for%20Histological%20Grading%20of%20Breast%20Cancer.pdf)
