@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-12-28] [paper340]
+- Deep Learning-Based Risk Stratification of Preoperative Breast Biopsies Using Digital Whole Slide Images
+ [[pdf]](https://www.medrxiv.org/content/10.1101/2023.08.22.23294409v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning-Based%20Risk%20Stratification%20of%20Preoperative%20Breast%20Biopsies%20Using%20Digital%20Whole%20Slide%20Images.pdf)
+- `medrxiv 2023-08`
+-  [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Interesting paper. Very good background material for me. Everything is quite clearly described. The performance comparisons between biopsy and resected tumour etc. are interesting. 
+```
+
 ##### [23-12-23] [paper339]
 - Quilt-1M: One Million Image-Text Pairs for Histopathology
  [[pdf]](https://openreview.net/forum?id=OL2JQoO0kq) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Quilt-1M%20One%20Million%20Image-Text%20Pairs%20for%20Histopathology.pdf)
