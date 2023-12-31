@@ -11,12 +11,17 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 ### Papers:
 
+- [Papers Read in 2024](#papers-read-in-2024)
 - [Papers Read in 2023](#papers-read-in-2023)
 - [Papers Read in 2022](#papers-read-in-2022)
 - [Papers Read in 2021](#papers-read-in-2021)
 - [Papers Read in 2020](#papers-read-in-2020)
 - [Papers Read in 2019](#papers-read-in-2019)
 - [Papers Read in 2018](#papers-read-in-2018)
+
+#### Papers Read in 2024:
+
+TODO!
 
 #### Papers Read in 2023:
 
