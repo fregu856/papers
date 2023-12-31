@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2023:
 
+##### [23-12-30] [paper341]
+- Colorectal Cancer Risk Stratification on Histological Slides Based on Survival Curves Predicted by Deep Learning
+ [[pdf]](https://www.nature.com/articles/s41698-023-00451-3) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Colorectal%20Cancer%20Risk%20Stratification%20on%20Histological%20Slides%20Based%20on%20Survival%20Curves%20Predicted%20by%20Deep%20Learning.pdf)
+- `npj Precision Oncology, 2023`
+-  [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Well-written and interesting paper. The used model shown in Figure 1 makes sense. The comparison of various feature extractors (pretrained in different ways) is interesting.
+```
+
 ##### [23-12-28] [paper340]
 - Deep Learning-Based Risk Stratification of Preoperative Breast Biopsies Using Digital Whole Slide Images
  [[pdf]](https://www.medrxiv.org/content/10.1101/2023.08.22.23294409v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning-Based%20Risk%20Stratification%20of%20Preoperative%20Breast%20Biopsies%20Using%20Digital%20Whole%20Slide%20Images.pdf)
