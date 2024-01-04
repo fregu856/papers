@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-04] [paper343]
+- End-To-End Prognostication in Colorectal Cancer by Deep Learning: A Retrospective, Multicentre Study
+ [[pdf]](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(23)00208-X/fulltext#%20) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-To-End%20Prognostication%20in%20Colorectal%20Cancer%20by%20Deep%20Learning%20A%20Retrospective%2C%20Multicentre%20Study.pdf)
+- `The Lancet Digital Health, 2024`
+-  [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Well-written and quite interesting paper. Everything seems solid, good background material for me. The used model, with attention-based aggregation of tile-level feature vectors into a single slide-level feature vector, makes sense. 
+```
+
 ##### [24-01-04] [paper342]
 - Clinical Evaluation of Deep Learning-Based Risk Profiling in Breast Cancer Histopathology and Comparison to an Established Multigene Assay
  [[pdf]](https://www.medrxiv.org/content/10.1101/2023.08.31.23294882v2) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Clinical%20Evaluation%20of%20Deep%20Learning-Based%20Risk%20Profiling%20in%20Breast%20Cancer%20Histopathology%20and%20Comparison%20to%20an%20Established%20Multigene%20Assay.pdf)
