@@ -21,7 +21,14 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
-TODO!
+##### [24-01-04] [paper342]
+- Clinical Evaluation of Deep Learning-Based Risk Profiling in Breast Cancer Histopathology and Comparison to an Established Multigene Assay
+ [[pdf]](https://www.medrxiv.org/content/10.1101/2023.08.31.23294882v2) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Clinical%20Evaluation%20of%20Deep%20Learning-Based%20Risk%20Profiling%20in%20Breast%20Cancer%20Histopathology%20and%20Comparison%20to%20an%20Established%20Multigene%20Assay.pdf)
+- `medrxiv, 2023-09`
+-  [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Interesting paper overall, definitely good background material for me.
+```
 
 #### Papers Read in 2023:
 
