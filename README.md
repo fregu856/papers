@@ -144,7 +144,7 @@ A ton of medical background that I'm not even close to properly understanding, b
 - Scaling Vision Transformers to Gigapixel Images via Hierarchical Self-Supervised Learning
  [[pdf]](https://arxiv.org/abs/2206.02647) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Scaling%20Vision%20Transformers%20to%20Gigapixel%20Images%20via%20Hierarchical%20Self-Supervised%20Learning.pdf)
 - `CVPR 2022`
-- [Representation Learning], [ML for Medicine/Healthcare], [Computational Pathology]
+- [Representation Learning], [Transformers], [ML for Medicine/Healthcare], [Computational Pathology]
 ```
 Quite interesting and well-written paper. The proposed method makes intuitive sense, I think. However, I definitely don't have the necessary background knowledge to fully appreciate this paper, or judge how novel/impressive/interesting the proposed method and the experimental results actually are. I should have started reading some earlier and more basic computational pathology papers.
 ```
