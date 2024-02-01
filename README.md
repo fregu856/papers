@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-02-01] [paper344]
+- Social Network Analysis of Cell Networks Improves Deep Learning for Prediction of Molecular Pathways and Key Mutations in Colorectal Cancer
+ [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841523003316) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Social%20Network%20Analysis%20of%20Cell%20Networks%20Improves%20Deep%20Learning%20for%20Prediction%20of%20Molecular%20Pathways%20and%20Key%20Mutations%20in%20Colorectal%20Cancer.pdf)
+- `Medical Image Analysis, 2024`
+-  [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Well written and quite interesting paper. The proposed method involves quite a few steps, but I think everything is explained well overall in Section 3. Figure 2 gives a good overview. The main idea, to incorporate explicit cell network-based features with the standard image features, makes some sense I think, and it seems to give at least a small boost in performance. But it's difficult for me to judge how impactful this actually might be.
+```
+
 ##### [24-01-04] [paper343]
 - End-To-End Prognostication in Colorectal Cancer by Deep Learning: A Retrospective, Multicentre Study
  [[pdf]](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(23)00208-X/fulltext#%20) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-To-End%20Prognostication%20in%20Colorectal%20Cancer%20by%20Deep%20Learning%20A%20Retrospective%2C%20Multicentre%20Study.pdf)
