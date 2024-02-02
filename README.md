@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-02-02] [paper346]
+- Predictive Uncertainty Estimation for Out-Of-Distribution Detection in Digital Pathology
+ [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841522002833) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predictive%20Uncertainty%20Estimation%20for%20Out-Of-Distribution%20Detection%20in%20Digital%20Pathology.pdf)
+- `Medical Image Analysis, 2023`
+-  [ML for Medicine/Healthcare], [Computational Pathology], [Uncertainty Estimation], [Out-of-Distribution Detection]
+```
+Quite well-written and fairly interesting paper. I tend to not love these types of OOD detection papers, where methods are evaluated just in terms of how well they can separate IID and OOD datasets. This has always seemed a bit arbitrary to me. The results here are also a bit messy, difficult to say what the main takeaways should be.
+```
+
 ##### [24-02-02] [paper345]
 - On the Calibration of Neural Networks for Histological Slide-Level Classification
  [[pdf]](https://arxiv.org/abs/2312.09719) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Calibration%20of%20Neural%20Networks%20for%20Histological%20Slide-Level%20Classification.pdf)
