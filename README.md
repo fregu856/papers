@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-02-02] [paper345]
+- On the Calibration of Neural Networks for Histological Slide-Level Classification
+ [[pdf]](https://arxiv.org/abs/2312.09719) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/On%20the%20Calibration%20of%20Neural%20Networks%20for%20Histological%20Slide-Level%20Classification.pdf)
+- `arxiv, 2023-12`
+-  [ML for Medicine/Healthcare], [Computational Pathology], [Uncertainty Estimation]
+```
+Short paper of just 5 pages, somewhat interesting. Not an overly extensive evaluation, quite basic setup. All three models seem fairly overconfident.
+```
+
 ##### [24-02-01] [paper344]
 - Social Network Analysis of Cell Networks Improves Deep Learning for Prediction of Molecular Pathways and Key Mutations in Colorectal Cancer
  [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841523003316) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Social%20Network%20Analysis%20of%20Cell%20Networks%20Improves%20Deep%20Learning%20for%20Prediction%20of%20Molecular%20Pathways%20and%20Key%20Mutations%20in%20Colorectal%20Cancer.pdf)
@@ -62,7 +71,7 @@ Well-written and interesting paper. The used model shown in Figure 1 makes sense
 ##### [23-12-28] [paper340]
 - Deep Learning-Based Risk Stratification of Preoperative Breast Biopsies Using Digital Whole Slide Images
  [[pdf]](https://www.medrxiv.org/content/10.1101/2023.08.22.23294409v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning-Based%20Risk%20Stratification%20of%20Preoperative%20Breast%20Biopsies%20Using%20Digital%20Whole%20Slide%20Images.pdf)
-- `medrxiv 2023-08`
+- `medrxiv, 2023-08`
 -  [ML for Medicine/Healthcare], [Computational Pathology]
 ```
 Interesting paper. Very good background material for me. Everything is quite clearly described. The performance comparisons between biopsy and resected tumour etc. are interesting. 
@@ -80,7 +89,7 @@ Well-written and fairly interesting paper. It mostly contains details about the 
 ##### [23-12-21] [paper338]
 - Development and Prognostic Validation of a Three-Level NHG-Like Deep Learning-Based Model for Histological Grading of Breast Cancer
  [[pdf]](https://www.medrxiv.org/content/10.1101/2023.02.15.23285956v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Development%20and%20Prognostic%20Validation%20of%20a%20Three-Level%20NHG-Like%20Deep%20Learning-Based%20Model%20for%20Histological%20Grading%20of%20Breast%20Cancer.pdf)
-- `medrxiv 2023-02`
+- `medrxiv, 2023-02`
 -  [ML for Medicine/Healthcare], [Computational Pathology]
 ```
 Interesting paper. Very good background material for me. I still don't fully understand everything in the results (survival analysis etc.), but it feels like I'm slowly learning with each paper at least.
