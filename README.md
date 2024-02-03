@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-02-03] [paper348]
+- Key Challenges for Delivering Clinical Impact with Artificial Intelligence
+ [[pdf]](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-019-1426-2) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Key%20Challenges%20for%20Delivering%20Clinical%20Impact%20with%20Artificial%20Intelligence.pdf)
+- `BMC Medicine, 2019`
+-  [ML for Medicine/Healthcare]
+```
+Opinion paper, ~6 pages. Well-written and quite interesting. Gives a good overview of various aspects and potential issues.
+```
+
 ##### [24-02-03] [paper347]
 - Second Opinion Needed: Communicating Uncertainty in Medical Machine Learning
  [[pdf]](https://www.nature.com/articles/s41746-020-00367-3) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Second%20Opinion%20Needed%20Communicating%20Uncertainty%20in%20Medical%20Machine%20Learning.pdf)
