@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-02-03] [paper347]
+- Second Opinion Needed: Communicating Uncertainty in Medical Machine Learning
+ [[pdf]](https://www.nature.com/articles/s41746-020-00367-3) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Second%20Opinion%20Needed%20Communicating%20Uncertainty%20in%20Medical%20Machine%20Learning.pdf)
+- `npj Digital Medicine, 2021`
+-  [ML for Medicine/Healthcare], [Uncertainty Estimation]
+```
+Perspective paper, just 4 pages. Fairly interesting. Not entirely clear who the target audience for this paper is perhaps. Some quite neat arguments for why uncertainty estimation is important/useful within the medical domain, but still mostly things I've seen before.
+```
+
 ##### [24-02-02] [paper346]
 - Predictive Uncertainty Estimation for Out-Of-Distribution Detection in Digital Pathology
  [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841522002833) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predictive%20Uncertainty%20Estimation%20for%20Out-Of-Distribution%20Detection%20in%20Digital%20Pathology.pdf)
