@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-02-04] [paper349]
+- RR-CP: Reliable-Region-Based Conformal Prediction for Trustworthy Medical Image Classification
+ [[pdf]](https://arxiv.org/abs/2309.04760) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/RR-CP%20Reliable-Region-Based%20Conformal%20Prediction%20for%20Trustworthy%20Medical%20Image%20Classification.pdf)
+- `MICCAI Workshops 2023`
+-  [ML for Medicine/Healthcare], [Uncertainty Estimation]
+```
+Quite well-written and fairly interesting paper. The proposed method seems reasonable overall, but it seems somewhat odd to evaluate only with 99.5% desired coverage. Not sure how useful/different this method would be in practice.
+```
+
 ##### [24-02-03] [paper348]
 - Key Challenges for Delivering Clinical Impact with Artificial Intelligence
  [[pdf]](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-019-1426-2) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Key%20Challenges%20for%20Delivering%20Clinical%20Impact%20with%20Artificial%20Intelligence.pdf)
