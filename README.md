@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-02-06] [paper350]
+- Differentiable Samplers for Deep Latent Variable Models
+ [[pdf]](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0147) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Differentiable%20Samplers%20for%20Deep%20Latent%20Variable%20Models.pdf)
+- `Philosophical Transactions of the Royal Society A, 2023`
+-  [Miscellaneous]
+```
+Well-written overall, somewhat interesting. My background knowledge is definitely not good enough for me to properly understand and appreciate this. I quite liked Section 1 and 5 at least.
+```
+
 ##### [24-02-04] [paper349]
 - RR-CP: Reliable-Region-Based Conformal Prediction for Trustworthy Medical Image Classification
  [[pdf]](https://arxiv.org/abs/2309.04760) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/RR-CP%20Reliable-Region-Based%20Conformal%20Prediction%20for%20Trustworthy%20Medical%20Image%20Classification.pdf)
