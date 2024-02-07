@@ -27,7 +27,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - `Philosophical Transactions of the Royal Society A, 2023`
 -  [Miscellaneous]
 ```
-Somewhat interesting. Didn't really feel like I learned that much. Would have preferred it Section 2 contained more specific details, I think.
+Somewhat interesting. Didn't really feel like I learned that much. Would have preferred if Section 2 contained more specific details, I think.
 ```
 
 ##### [24-02-06] [paper350]
