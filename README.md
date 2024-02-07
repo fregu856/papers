@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-02-07] [paper351]
+- Physics-Informed Machine Learning and its Structural Integrity Applications: State of the Art
+ [[pdf]](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0406) [unfortunately not open access, thus no annotated pdf]
+- `Philosophical Transactions of the Royal Society A, 2023`
+-  [Miscellaneous]
+```
+Somewhat interesting. Didn't really feel like I learned that much. Would have preferred it Section 2 contained more specific details, I think.
+```
+
 ##### [24-02-06] [paper350]
 - Differentiable Samplers for Deep Latent Variable Models
  [[pdf]](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0147) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Differentiable%20Samplers%20for%20Deep%20Latent%20Variable%20Models.pdf)
