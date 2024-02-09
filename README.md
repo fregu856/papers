@@ -21,7 +21,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
-##### [24-02-08] [paper353]
+##### [24-02-09] [paper353]
 - Artificial Intelligence in Histopathology: Enhancing Cancer Research and Clinical Oncology
  [[pdf]](https://www.nature.com/articles/s43018-022-00436-4) [unfortunately not open access, thus no annotated pdf]
 - `Nature Cancer, 2022`
