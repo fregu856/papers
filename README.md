@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-02-08] [paper353]
+- Artificial Intelligence in Histopathology: Enhancing Cancer Research and Clinical Oncology
+ [[pdf]](https://www.nature.com/articles/s43018-022-00436-4) [unfortunately not open access, thus no annotated pdf]
+- `Nature Cancer, 2022`
+-  [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Well-written review paper, interesting and a quite enjoyable read overall. The "Applications in cancer research and diagnostics" section was particularly interesting.
+```
+
 ##### [24-02-07] [paper352]
 - Time-Series Forecasting With Deep Learning: A Survey
  [[pdf]](https://royalsocietypublishing.org/doi/10.1098/rsta.2020.0209) [unfortunately not open access, thus no annotated pdf]
