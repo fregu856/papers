@@ -41,7 +41,7 @@ Well-written and fairly interesting paper. I liked the Background section. Quite
 
 ##### [24-02-09] [paper353]
 - Artificial Intelligence in Histopathology: Enhancing Cancer Research and Clinical Oncology
- [[pdf]](https://www.nature.com/articles/s43018-022-00436-4) [unfortunately not open access, thus no annotated pdf]
+ [[pdf]](https://www.nature.com/articles/s43018-022-00436-4) [_unfortunately not open access, thus no annotated pdf_]
 - `Nature Cancer, 2022`
 -  [ML for Medicine/Healthcare], [Computational Pathology]
 ```
@@ -50,7 +50,7 @@ Well-written review paper, interesting and a quite enjoyable read overall. The "
 
 ##### [24-02-07] [paper352]
 - Time-Series Forecasting With Deep Learning: A Survey
- [[pdf]](https://royalsocietypublishing.org/doi/10.1098/rsta.2020.0209) [unfortunately not open access, thus no annotated pdf]
+ [[pdf]](https://royalsocietypublishing.org/doi/10.1098/rsta.2020.0209) [_unfortunately not open access, thus no annotated pdf_]
 - `Philosophical Transactions of the Royal Society A, 2021`
 -  [Miscellaneous]
 ```
@@ -59,7 +59,7 @@ Well-written overall, somewhat interesting. I quite liked Section 1 and 2.
 
 ##### [24-02-07] [paper351]
 - Physics-Informed Machine Learning and its Structural Integrity Applications: State of the Art
- [[pdf]](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0406) [unfortunately not open access, thus no annotated pdf]
+ [[pdf]](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0406) [_unfortunately not open access, thus no annotated pdf_]
 - `Philosophical Transactions of the Royal Society A, 2023`
 -  [Miscellaneous]
 ```
@@ -214,7 +214,7 @@ Review paper. Quite interesting. I think it was quite useful for me to read, goo
 
 ##### [23-12-19] [paper334]
 - Artificial Intelligence for Diagnosis and Grading of Prostate Cancer in Biopsies: A Population-Based, Diagnostic Study
- [[pdf]](https://www.sciencedirect.com/science/article/pii/S1470204519307387?via%3Dihub) [unfortunately not open access, thus no annotated pdf]
+ [[pdf]](https://www.sciencedirect.com/science/article/pii/S1470204519307387?via%3Dihub) [_unfortunately not open access, thus no annotated pdf_]
 - `The Lancet Oncology, 2020`
 -  [ML for Medicine/Healthcare], [Computational Pathology]
 ```
@@ -223,7 +223,7 @@ Well-written and fairly interesting paper. Quite similar to other papers, but an
 
 ##### [23-12-18] [paper333]
 - Clinical-Grade Computational Pathology Using Weakly Supervised Deep Learning on Whole Slide Images
- [[pdf]](https://www.nature.com/articles/s41591-019-0508-1) [unfortunately not open access, thus no annotated pdf]
+ [[pdf]](https://www.nature.com/articles/s41591-019-0508-1) [_unfortunately not open access, thus no annotated pdf_]
 - `Nature Medicine, 2019`
 -  [ML for Medicine/Healthcare], [Computational Pathology]
 ```
@@ -232,7 +232,7 @@ Well-written and quite interesting paper. Everything is clearly described. I thi
 
 ##### [23-12-18] [paper332]
 - Classification and Mutation Prediction From Non–Small Cell Lung Cancer Histopathology Images Using Deep Learning
- [[pdf]](https://www.nature.com/articles/s41591-018-0177-5) [unfortunately not open access, thus no annotated pdf]
+ [[pdf]](https://www.nature.com/articles/s41591-018-0177-5) [_unfortunately not open access, thus no annotated pdf_]
 - `Nature Medicine, 2018`
 -  [ML for Medicine/Healthcare], [Computational Pathology]
 ```
@@ -259,7 +259,7 @@ Quite interesting and well-written paper. The proposed method makes intuitive se
 
 ##### [23-11-23] [paper329]
 - Algorithmic Fairness In Artificial Intelligence For Medicine And Healthcare
- [[pdf]](https://www.nature.com/articles/s41551-023-01056-8) [unfortunately not open access, thus no annotated pdf]
+ [[pdf]](https://www.nature.com/articles/s41551-023-01056-8) [_unfortunately not open access, thus no annotated pdf_]
 - `Nature Biomedical Engineering, 2023`
 - [ML for Medicine/Healthcare], [Social Consequences of ML]
 ```
@@ -439,7 +439,7 @@ Quite well-written and somewhat interesting paper. I struggled to properly under
 
 ##### [23-09-14] [paper309]
 - Artificial Intelligence-Supported Screen Reading versus Standard Double Reading in the Mammography Screening with Artificial Intelligence Trial (MASAI): A Clinical Safety Analysis of a Randomised, Controlled, Non-inferiority, Single-Blinded, Screening Accuracy Study
- [[pdf]](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(23)00298-X/fulltext) [unfortunately not open access, thus no annotated pdf]
+ [[pdf]](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(23)00298-X/fulltext) [_unfortunately not open access, thus no annotated pdf_]
 - `The Lancet Oncology, 2023`
 - [ML for Medicine/Healthcare]
 ```
