@@ -23,7 +23,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 ##### [24-02-25] [paper355]
 - Designing Deep Learning Studies in Cancer Diagnostics
- [[pdf]](https://www.nature.com/articles/s41568-020-00327-9) _[unfortunately not open access, thus no annotated pdf]_
+ [[pdf]](https://www.nature.com/articles/s41568-020-00327-9) [_unfortunately not open access, thus no annotated pdf_]
 - `Nature Reviews Cancer, 2021`
 -  [ML for Medicine/Healthcare], [Computational Pathology]
 ```
