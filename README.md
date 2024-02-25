@@ -27,7 +27,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - `Nature Reviews Cancer, 2021`
 -  [ML for Medicine/Healthcare], [Computational Pathology]
 ```
-Well-written and quite interesting paper. The conclusion and proposed evaluation approach make sense overall ("... helps distinguish rigorous, retrospective validation studies from studies that repeatedly evaluated the external cohort and might end up reporting severely biased performance estimates").
+Well-written and quite interesting paper. The conclusion and proposed evaluation approach make sense overall ("...helps distinguish rigorous, retrospective validation studies from studies that repeatedly evaluated the external cohort and might end up reporting severely biased performance estimates").
 ```
 
 ##### [24-02-17] [paper354]
