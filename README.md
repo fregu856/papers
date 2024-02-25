@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-02-25] [paper355]
+- Designing Deep Learning Studies in Cancer Diagnostics
+ [[pdf]](https://www.nature.com/articles/s41568-020-00327-9) [unfortunately not open access, thus no annotated pdf]
+- `Nature Reviews Cancer, 2021`
+-  [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Well-written and quite interesting paper. The conclusion and proposed evaluation approach make sense overall ("... helps distinguish rigorous, retrospective validation studies from studies that repeatedly evaluated the external cohort and might end up reporting severely biased performance estimates").
+```
+
 ##### [24-02-17] [paper354]
 - A Systematic Analysis of Deep Learning in Genomics and Histopathology for Precision Oncology
  [[pdf]](https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-024-01796-9) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Systematic%20Analysis%20of%20Deep%20Learning%20in%20Genomics%20and%20Histopathology%20for%20Precision%20Oncology.pdf)
