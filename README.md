@@ -6,7 +6,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [Social Consequences of ML], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Image Restoration], [Computational Pathology], [Miscellaneous].
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [Social Consequences of ML], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Image Restoration], [Computational Pathology], [Survival Analysis], [Miscellaneous].
 
 
 ### Papers:
@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2024:
+
+##### [24-02-29] [paper356]
+- Pan-Cancer Integrative Histology-Genomic Analysis via Multimodal Deep Learning
+ [[pdf]](https://www.sciencedirect.com/science/article/pii/S1535610822003178?via%3Dihub) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Pan-Cancer%20Integrative%20Histology-Genomic%20Analysis%20via%20Multimodal%20Deep%20Learning.pdf)
+- `Cancer Cell, 2022`
+-  [ML for Medicine/Healthcare], [Computational Pathology], [Survival Analysis]
+```
+Quite interesting paper. I liked the Introduction and the Discussion. "which suggests that molecular features drive most of the risk prediction in MMF (Figure 2C; Table S3). This substantiates the observation that molecular profiles are more prognostic for survival than WSIs in most cancer types" makes sense and is quite interesting. I am somewhat confused by the "Survival loss function" section in the appendix though, seems a bit strange to discretize the survival time into just four bins? And OK, so the network outputs four values, but how do they get a single "risk score" for each patient then, in order to compute the C-index etc?
+```
 
 ##### [24-02-25] [paper355]
 - Designing Deep Learning Studies in Cancer Diagnostics
