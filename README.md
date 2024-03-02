@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-03-02] [paper357]
+- Quantifying the Effects of Data Augmentation and Stain Color Normalization in Convolutional Neural Networks for Computational Pathology
+ [[pdf]](https://arxiv.org/abs/1902.06543) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Quantifying%20the%20Effects%20of%20Data%20Augmentation%20and%20Stain%20Color%20Normalization%20in%20Convolutional%20Neural%20Networks%20for%20Computational%20Pathology.pdf)
+- `Medical Image Analysis, 2019`
+-  [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Well-written and quite interesting paper. Very practical with actionable takeaways: "we found HSV and HED color transformations to be the key ingredients to improve performance", "We concluded that using the stain color normalization methods evaluated in this paper without proper stain color augmentation is insufficient to reduce the generalization error caused by stain variation", "Based on our empirical evaluation, we found that any type of stain color augmentation, i.e. HSV or HED transformation, should always be used".
+```
+
 ##### [24-02-29] [paper356]
 - Pan-Cancer Integrative Histology-Genomic Analysis via Multimodal Deep Learning
  [[pdf]](https://www.sciencedirect.com/science/article/pii/S1535610822003178?via%3Dihub) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Pan-Cancer%20Integrative%20Histology-Genomic%20Analysis%20via%20Multimodal%20Deep%20Learning.pdf)
