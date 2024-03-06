@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-12] [paper375]
+- CenTime: Event-Conditional Modelling of Censoring in Survival Analysis
+ [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841523002761) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/CenTime%20Event-Conditional%20Modelling%20of%20Censoring%20in%20Survival%20Analysis.pdf)
+- `Medical Image Analysis, 2024`
+- [ML for Medicine/Healthcare], [Survival Analysis]
+```
+Fairly interesting paper, well written overall. Quite quick to read. I don't fully understand Section 2, difficult for me to judge how impactful this contribution is. The discretized Gaussian model seems somewhat odd to me.
+```
+
 ##### [24-01-12] [paper374]
 - A Self-Supervised Vision Transformer to Predict Survival From Histopathology in Renal Cell Carcinoma
  [[pdf]](https://link.springer.com/article/10.1007/s00345-023-04489-7) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Self-Supervised%20Vision%20Transformer%20to%20Predict%20Survival%20From%20Histopathology%20in%20Renal%20Cell%20Carcinoma.pdf)
