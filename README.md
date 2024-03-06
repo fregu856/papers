@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-11] [paper373]
+- Conformalized Survival Analysis with Adaptive Cutoffs
+ [[pdf]](https://arxiv.org/abs/2211.01227) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conformalized%20Survival%20Analysis%20with%20Adaptive%20Cutoffs.pdf)
+- `Biometrika, 2023`
+- [Survival Analysis]
+```
+Well written and interesting paper. Not enitirely sure if this actually would be useufl in practice, but definitely an interesting potential approach for evaluating time-to-event prediction models.
+```
+
 ##### [24-01-10] [paper372]
 - Learning Accurate Personalized Survival Models for Predicting Hospital Discharge and Mortality of COVID-19 Patients
  [[pdf]](https://www.nature.com/articles/s41598-022-08601-6) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Accurate%20Personalized%20Survival%20Models%20for%20Predicting%20Hospital%20Discharge%20and%20Mortality%20of%20COVID-19%20Patients.pdf)
