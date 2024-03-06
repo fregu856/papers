@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-12] [paper374]
+- A Self-Supervised Vision Transformer to Predict Survival From Histopathology in Renal Cell Carcinoma
+ [[pdf]](https://link.springer.com/article/10.1007/s00345-023-04489-7) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Self-Supervised%20Vision%20Transformer%20to%20Predict%20Survival%20From%20Histopathology%20in%20Renal%20Cell%20Carcinoma.pdf)
+- `World Journal of Urology, 2023`
+- [Computational Pathology], [Survival Analysis]
+```
+Fairly interesting paper, well written overall. Quick to read. The results don't seem overly impressive (with significant high/low risk stratification for overall survival only on the train set)?
+```
+
 ##### [24-01-11] [paper373]
 - Conformalized Survival Analysis with Adaptive Cutoffs
  [[pdf]](https://arxiv.org/abs/2211.01227) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conformalized%20Survival%20Analysis%20with%20Adaptive%20Cutoffs.pdf)
