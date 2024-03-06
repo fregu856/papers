@@ -1,6 +1,6 @@
 # About
 
-I categorize, annotate and write comments for all research papers I read (350+ papers since 2018).
+I categorize, annotate and write comments for all research papers I read (360+ papers since 2018).
 
 _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5 Years](https://www.fregu856.com/post/phd_of_reading/) (why I think it’s important to read a lot of papers + how I organize my reading + paper statistics + a list of 30 particularly interesting papers)._
 
@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2024:
+
+##### [24-01-06] [paper363]
+- Censored Quantile Regression Neural Networks for Distribution-Free Survival Analysis
+ [[pdf]](https://arxiv.org/abs/2205.13496) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Censored%20Quantile%20Regression%20Neural%20Networks%20for%20Distribution-Free%20Survival%20Analysis.pdf)
+- `NeurIPS 2022`
+- [Survival Analysis] 
+```
+Interesting and very well-written paper, I enjoyed reading it. The experimental evaluation, with multiple datasets of three different types and so on, is neat.
+```
 
 ##### [24-01-06] [paper362]
 - Estimating Calibrated Individualized Survival Curves with Deep Learning
