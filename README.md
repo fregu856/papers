@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-11] [paper360]
+- Deep Extended Hazard Models for Survival Analysis
+ [[pdf]](https://proceedings.neurips.cc/paper/2021/hash/7f6caf1f0ba788cd7953d817724c2b6e-Abstract.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Extended%20Hazard%20Models%20for%20Survival%20Analysis.pdf)
+- `NeurIPS 2021`
+- [Survival Analysis] 
+```
+Interesting and very well-written paper. Section 1 and 2 are great, they provide a very thorough introduction and background for survival analysis, Cox proportional hazard models etc!
+```
+
 ##### [24-01-05] [paper359]
 - X-CAL: Explicit Calibration for Survival Analysis
  [[pdf]](https://arxiv.org/abs/2101.05346) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/X-CAL%20Explicit%20Calibration%20for%20Survival%20Analysis.pdf)
