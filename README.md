@@ -21,7 +21,16 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
-##### [24-01-01] [paper364]
+##### [24-01-07] [paper365]
+- Calibration and Uncertainty in Neural Time-to-Event Modeling
+ [[pdf]](https://ieeexplore.ieee.org/document/9244076) [_unfortunately not open access, thus no annotated pdf_]
+- `Transactions on Neural Networks and Learning Systems, 2020`
+- [Survival Analysis]
+```
+Well-written paper overall, but not particularly interesting for me. The proposed method seems quite complex.
+```
+
+##### [24-01-07] [paper364]
 - Calibration: The Achilles Heel of Predictive Analytics
  [[pdf]](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-019-1466-7) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Calibration%20The%20Achilles%20Heel%20of%20Predictive%20Analytics.pdf)
 - `BMC Medicine, 2019`
