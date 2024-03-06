@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-14] [paper378]
+- Autosurv: Interpretable Deep Learning Framework for Cancer Survival Analysis Incorporating Clinical and Multi-Omics Data
+ [[pdf]](https://www.nature.com/articles/s41698-023-00494-6) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Autosurv%20Interpretable%20Deep%20Learning%20Framework%20for%20Cancer%20Survival%20Analysis%20Incorporating%20Clinical%20and%20Multi-Omics%20Data.pdf)
+- `npj Precision Oncology, 2024`
+- [ML for Medicine/Healthcare], [Survival Analysis]
+```
+Somewhat interesting paper. I skimmed through quite large parts of it, those which contained very detailed descriptions of various results. One layer deepSurv network for survival analysis, i.e. trained with the Cox partial likelihood.
+```
+
 ##### [24-01-13] [paper377]
 - Learning Individual Survival Models from PanCancer Whole Transcriptome Data
  [[pdf]](https://aacrjournals.org/clincancerres/article/29/19/3924/729105/Learning-Individual-Survival-Models-from-PanCancer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Individual%20Survival%20Models%20from%20PanCancer%20Whole%20Transcriptome%20Data.pdf)
