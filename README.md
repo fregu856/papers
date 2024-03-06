@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-05] [paper359]
+- X-CAL: Explicit Calibration for Survival Analysis
+ [[pdf]](https://arxiv.org/abs/2101.05346) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/X-CAL%20Explicit%20Calibration%20for%20Survival%20Analysis.pdf)
+- `NeurIPS 2020`
+- [Survival Analysis] 
+```
+Somewhat interesting paper. The abstract and introduction was interesting, but then I struggled to properly understand Section 2 - 3. Not overly impressed by the results.
+```
+
 ##### [24-01-05] [paper358]
 - DeepSurv: Personalized Treatment Recommender System Using a Cox Proportional Hazards Deep Neural Network
  [[pdf]](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-018-0482-1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DeepSurv%20Personalized%20Treatment%20Recommender%20System%20Using%20a%20Cox%20Proportional%20Hazards%20Deep%20Neural%20Network.pdf)
