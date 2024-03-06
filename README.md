@@ -1,6 +1,6 @@
 # About
 
-I categorize, annotate and write comments for all research papers I read (360+ papers since 2018).
+I categorize, annotate and write comments for all research papers I read (370+ papers since 2018).
 
 _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5 Years](https://www.fregu856.com/post/phd_of_reading/) (why I think it’s important to read a lot of papers + how I organize my reading + paper statistics + a list of 30 particularly interesting papers)._
 
@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2024:
+
+##### [24-01-10] [paper371]
+- Proper Scoring Rules for Survival Analysis
+ [[pdf]](https://arxiv.org/abs/2305.00621) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Proper%20Scoring%20Rules%20for%20Survival%20Analysis.pdf)
+- `ICML 2023`
+- [Survival Analysis]
+```
+Well-written and somewhat interesting paper. Section 1 - Section 4 gave some quite good background, but then I got a bit confused and sceptical in Section 5 - 6. Not sure what the main practical implication/takeaway for me should be.
+```
 
 ##### [24-01-10] [paper370]
 - An Effective Meaningful Way to Evaluate Survival Models
