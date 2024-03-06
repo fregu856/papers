@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-06] [paper362]
+- Estimating Calibrated Individualized Survival Curves with Deep Learning
+ [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/view/16098) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Estimating%20Calibrated%20Individualized%20Survival%20Curves%20with%20Deep%20Learning.pdf)
+- `AAAI 2021`
+- [Survival Analysis] 
+```
+Well-written and interesting paper. I'm not quite sold on the overall approach (to output probabilities for a discrete set of time points etc.), and not overly impressed by the experimental evaluation, but it was interesting, quite happy that I decided to read it. 
+```
+
 ##### [24-01-05] [paper361]
 - Neural Frailty Machine: Beyond Proportional Hazard Assumption in Neural Survival Regressions
  [[pdf]](https://arxiv.org/abs/2303.10358) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Frailty%20Machine%20Beyond%20Proportional%20Hazard%20Assumption%20in%20Neural%20Survival%20Regressions.pdf)
