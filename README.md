@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-09] [paper369]
+- Uncertainty Estimation in Cancer Survival Prediction
+ [[pdf]](https://arxiv.org/abs/2003.08573) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimation%20in%20Cancer%20Survival%20Prediction.pdf)
+- `ICLR Workshops 2020`
+- [Survival Analysis]
+```
+Workshop paper, just 5 pages long. Quick to read. I didn't find the details for the specific used model etc. overly interetsing, but the overall aim of the paper + the way they created OOD datsets is interesting/neat.
+```
+
 ##### [24-01-09] [paper368]
 - Maximum Likelihood Estimation of Flexible Survival Densities with Importance Sampling
  [[pdf]](https://arxiv.org/abs/2311.01660) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Maximum%20Likelihood%20Estimation%20of%20Flexible%20Survival%20Densities%20with%20Importance%20Sampling.pdf)
