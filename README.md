@@ -21,7 +21,16 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
-##### [24-01-11] [paper360]
+##### [24-01-05] [paper361]
+- Neural Frailty Machine: Beyond Proportional Hazard Assumption in Neural Survival Regressions
+ [[pdf]](https://arxiv.org/abs/2303.10358) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Frailty%20Machine%20Beyond%20Proportional%20Hazard%20Assumption%20in%20Neural%20Survival%20Regressions.pdf)
+- `NeurIPS 2023`
+- [Survival Analysis] 
+```
+Well-written and interesting paper. The propsed mehtod is interesting, even though the results not exactly are revolutionary (seems difficult in general to come up with a method that clearly outperforms all baselines across these types of datasets). 
+```
+
+##### [24-01-05] [paper360]
 - Deep Extended Hazard Models for Survival Analysis
  [[pdf]](https://proceedings.neurips.cc/paper/2021/hash/7f6caf1f0ba788cd7953d817724c2b6e-Abstract.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Extended%20Hazard%20Models%20for%20Survival%20Analysis.pdf)
 - `NeurIPS 2021`
@@ -39,7 +48,7 @@ Interesting and very well-written paper. Section 1 and 2 are great, they provide
 Somewhat interesting paper. The abstract and introduction was interesting, but then I struggled to properly understand Section 2 - 3. Not overly impressed by the results.
 ```
 
-##### [24-01-05] [paper358]
+##### [24-01-04] [paper358]
 - DeepSurv: Personalized Treatment Recommender System Using a Cox Proportional Hazards Deep Neural Network
  [[pdf]](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-018-0482-1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DeepSurv%20Personalized%20Treatment%20Recommender%20System%20Using%20a%20Cox%20Proportional%20Hazards%20Deep%20Neural%20Network.pdf)
 - `BMC Medical Research Methodology, 2018`
