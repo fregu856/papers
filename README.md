@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-09] [paper368]
+- Maximum Likelihood Estimation of Flexible Survival Densities with Importance Sampling
+ [[pdf]](https://arxiv.org/abs/2311.01660) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Maximum%20Likelihood%20Estimation%20of%20Flexible%20Survival%20Densities%20with%20Importance%20Sampling.pdf)
+- `MLHC 2023`
+- [Survival Analysis]
+```
+Quite well-written and quite interesting paper. The proposed method is conceptually straightforward and it's neat that it works that well to just approximate the integrals etc. But, I think this would be fairly inconvenient to use in practice to actually output predictions?
+```
+
 ##### [24-01-08] [paper367]
 - Survival Mixture Density Networks
  [[pdf]](https://arxiv.org/abs/2208.10759) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Survival%20Mixture%20Density%20Networks.pdf)
