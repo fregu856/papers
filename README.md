@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-08] [paper367]
+- Survival Mixture Density Networks
+ [[pdf]](https://arxiv.org/abs/2208.10759) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Survival%20Mixture%20Density%20Networks.pdf)
+- `MLHC 2022`
+- [Survival Analysis]
+```
+Well-written and interesting paper. Good background and descriptions for the survival analysis problem, everything is explained well, I enjoyed reading it (at least up to and including Section 5.2).
+```
+
 ##### [24-01-08] [paper366]
 - Using Bayesian Neural Networks to Select Features and Compute Credible Intervals for Personalized Survival Prediction
  [[pdf]](https://ieeexplore.ieee.org/document/10158019) [_unfortunately not open access, thus no annotated pdf_]
