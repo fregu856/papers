@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-08] [paper366]
+- Using Bayesian Neural Networks to Select Features and Compute Credible Intervals for Personalized Survival Prediction
+ [[pdf]](https://ieeexplore.ieee.org/document/10158019) [_unfortunately not open access, thus no annotated pdf_]
+- `Transactions on Biomedical Engineering, 2023`
+- [Survival Analysis]
+```
+Interesting and quite well-written paper. The specific proposed method (variational BNN with different priors) seems unnecessarily complex to me, but the overall approach and aims are definitely interesting. 
+```
+
 ##### [24-01-07] [paper365]
 - Calibration and Uncertainty in Neural Time-to-Event Modeling
  [[pdf]](https://ieeexplore.ieee.org/document/9244076) [_unfortunately not open access, thus no annotated pdf_]
