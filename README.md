@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-10] [paper370]
+- An Effective Meaningful Way to Evaluate Survival Models
+ [[pdf]](https://arxiv.org/abs/2306.01196) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Effective%20Meaningful%20Way%20to%20Evaluate%20Survival%20Models.pdf)
+- `ICML 2023`
+- [Survival Analysis]
+```
+Quite interesting and well-written paper. The specific proposed methods/metrics are perhaps not overly interesting, but I found the paper really useful to read. Good descriptions of and interesting discussions about how various metrics relate to eachother. Appendix C is definitely useful.
+```
+
 ##### [24-01-09] [paper369]
 - Uncertainty Estimation in Cancer Survival Prediction
  [[pdf]](https://arxiv.org/abs/2003.08573) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Estimation%20in%20Cancer%20Survival%20Prediction.pdf)
