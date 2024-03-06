@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-12] [paper376]
+- Accurate Personalized Survival Prediction for Amyotrophic Lateral Sclerosis Patients
+ [[pdf]](https://www.nature.com/articles/s41598-023-47935-7) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Accurate%20Personalized%20Survival%20Prediction%20for%20Amyotrophic%20Lateral%20Sclerosis%20Patients.pdf)
+- `Scientific Reports, 2023`
+- [ML for Medicine/Healthcare], [Survival Analysis]
+```
+Interesting and very well written paper, I enjoyed reading it. Relatively short paper (basically all technical details seem to be in the supplementary material, which I didn't read), quick and easy to read.
+```
+
 ##### [24-01-12] [paper375]
 - CenTime: Event-Conditional Modelling of Censoring in Survival Analysis
  [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841523002761) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/CenTime%20Event-Conditional%20Modelling%20of%20Censoring%20in%20Survival%20Analysis.pdf)
