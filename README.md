@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-01] [paper364]
+- Calibration: The Achilles Heel of Predictive Analytics
+ [[pdf]](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-019-1466-7) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Calibration%20The%20Achilles%20Heel%20of%20Predictive%20Analytics.pdf)
+- `BMC Medicine, 2019`
+- [ML for Medicine/Healthcare]
+```
+Opinion paper, a bit shorter than usual. Somewhat interesting. A couple of quite neat arguments for (and examples of) why calibration is important.
+```
+
 ##### [24-01-06] [paper363]
 - Censored Quantile Regression Neural Networks for Distribution-Free Survival Analysis
  [[pdf]](https://arxiv.org/abs/2205.13496) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Censored%20Quantile%20Regression%20Neural%20Networks%20for%20Distribution-Free%20Survival%20Analysis.pdf)
