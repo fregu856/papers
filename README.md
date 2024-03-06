@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-13] [paper377]
+- Learning Individual Survival Models from PanCancer Whole Transcriptome Data
+ [[pdf]](https://aacrjournals.org/clincancerres/article/29/19/3924/729105/Learning-Individual-Survival-Models-from-PanCancer) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Individual%20Survival%20Models%20from%20PanCancer%20Whole%20Transcriptome%20Data.pdf)
+- `Clinical Cancer Research, 2023`
+- [ML for Medicine/Healthcare], [Survival Analysis]
+```
+Well written and interesting papers. Neat approach, to compress the ~16k dimensional gene expressions into 100 dimensional features. I just skimmed the "Interpretation of NMF Factors" and "Biological Interpretation of NMF Representation" sections, I didn't understand this anyway.
+```
+
 ##### [24-01-12] [paper376]
 - Accurate Personalized Survival Prediction for Amyotrophic Lateral Sclerosis Patients
  [[pdf]](https://www.nature.com/articles/s41598-023-47935-7) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Accurate%20Personalized%20Survival%20Prediction%20for%20Amyotrophic%20Lateral%20Sclerosis%20Patients.pdf)
