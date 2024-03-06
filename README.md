@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-10] [paper372]
+- Learning Accurate Personalized Survival Models for Predicting Hospital Discharge and Mortality of COVID-19 Patients
+ [[pdf]](https://www.nature.com/articles/s41598-022-08601-6) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Accurate%20Personalized%20Survival%20Models%20for%20Predicting%20Hospital%20Discharge%20and%20Mortality%20of%20COVID-19%20Patients.pdf)
+- `Scientific Reports, 2022`
+- [ML for Medicine/Healthcare], [Survival Analysis]
+```
+Interesting and overall well-written paper. The description of the experimental results was a bit confusing, I don't think that's entirely correct. The discussion is interesting.
+```
+
 ##### [24-01-10] [paper371]
 - Proper Scoring Rules for Survival Analysis
  [[pdf]](https://arxiv.org/abs/2305.00621) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Proper%20Scoring%20Rules%20for%20Survival%20Analysis.pdf)
