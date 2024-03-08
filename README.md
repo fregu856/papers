@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-03-08] [paper379]
+- All Models Are Wrong and Yours Are Useless: Making Clinical Prediction Models Impactful for Patients
+ [[pdf]](https://www.nature.com/articles/s41698-024-00553-6) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/All%20Models%20Are%20Wrong%20and%20Yours%20Are%20Useless%20Making%20Clinical%20Prediction%20Models%20Impactful%20for%20Patients.pdf)
+- `npj Precision Oncology, 2024`
+- [ML for Medicine/Healthcare]
+```
+Comment, just ~2 pages long. Well-written and quite interesting, definitely worth reading. The five observations and the checklist in box 1 make sense overall ("Do you address a clear clinical decision point? Are you really, really sure?"). Made me think quite a lot about the different roles academic researchers and industry/companies play / should play in this. Not quite sure how much of the nitty gritty engineering work (required to make an actual clinical tool) academic researchers can be expected to take on? But on the other hand, of course, if you actually want your research to have real-world impact, you might simply need to be prepared to take on at least some of this engineering (and less interesting/exciting) work.
+```
+
 ##### [24-01-14] [paper378]
 - Autosurv: Interpretable Deep Learning Framework for Cancer Survival Analysis Incorporating Clinical and Multi-Omics Data
  [[pdf]](https://www.nature.com/articles/s41698-023-00494-6) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Autosurv%20Interpretable%20Deep%20Learning%20Framework%20for%20Cancer%20Survival%20Analysis%20Incorporating%20Clinical%20and%20Multi-Omics%20Data.pdf)
