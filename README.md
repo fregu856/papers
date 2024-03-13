@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-03-13] [paper380]
+- An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+ [[pdf]](https://arxiv.org/abs/2010.11929) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Image%20is%20Worth%2016x16%20Words%20Transformers%20for%20Image%20Recognition%20at%20Scale.pdf)
+- `ICLR 2021`
+- [Transformers]
+```
+Quite interesting paper. I read this after having read the chapter on transformers in the "Understanding Deep Learning" book. The method is conceptually very simple, which is neat. I didn't really know that the ViT model is this straightforward. So, it was a good decision to read this paper at this time.
+```
+
 ##### [24-03-08] [paper379]
 - All Models Are Wrong and Yours Are Useless: Making Clinical Prediction Models Impactful for Patients
  [[pdf]](https://www.nature.com/articles/s41698-024-00553-6) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/All%20Models%20Are%20Wrong%20and%20Yours%20Are%20Useless%20Making%20Clinical%20Prediction%20Models%20Impactful%20for%20Patients.pdf)
