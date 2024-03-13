@@ -1,6 +1,6 @@
 # About
 
-I categorize, annotate and write comments for all research papers I read (370+ papers since 2018).
+I categorize, annotate and write comments for all research papers I read (380+ papers since 2018).
 
 _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5 Years](https://www.fregu856.com/post/phd_of_reading/) (why I think it’s important to read a lot of papers + how I organize my reading + paper statistics + a list of 30 particularly interesting papers)._
 
@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2024:
+
+##### [24-03-13] [paper381]
+- Generalizable Biomarker Prediction From Cancer Pathology Slides With Self-Supervised Deep Learning: A Retrospective Multi-Centric Study
+ [[pdf]](https://www.sciencedirect.com/science/article/pii/S2666379123000861?via%3Dihub) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generalizable%20Biomarker%20Prediction%20From%20Cancer%20Pathology%20Slides%20With%20Self-Supervised%20Deep%20Learning%20A%20Retrospective%20Multi-Centric%20Study.pdf)
+- `Cell Reports Medicine, 2023`
+- [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Well-written and quite interesting paper. This general SSL-attMIL model approach definitely seems reasonable. Not super impressed by the scale of the experiments though perhaps, just two different datasets/sites with ~2k patients each (this is of course much much better than just having a single site, but still).
+```
 
 ##### [24-03-13] [paper380]
 - An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
