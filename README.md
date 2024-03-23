@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-03-23] [paper382]
+- The Future of Artificial Intelligence in Digital Pathology - Results of a Survey Across Stakeholder Groups
+ [[pdf]](https://onlinelibrary.wiley.com/doi/10.1111/his.14659) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Future%20of%20Artificial%20Intelligence%20in%20Digital%20Pathology%20Results%20of%20a%20Survey%20Across%20Stakeholder%20Groups.pdf)
+- `Histopathology, 2022`
+- [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Short paper of just 5 pages, very quick to read. Somewhat interesting, the main takeaway is at least clear: "The prediction of treatment response directly from routine pathology slides is regarded as the most promising future application", "Prediction of genetic alterations, gene expression and survival directly from routine pathology images scored consistently high throughout subgroups".
+```
+
 ##### [24-03-13] [paper381]
 - Generalizable Biomarker Prediction From Cancer Pathology Slides With Self-Supervised Deep Learning: A Retrospective Multi-Centric Study
  [[pdf]](https://www.sciencedirect.com/science/article/pii/S2666379123000861?via%3Dihub) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generalizable%20Biomarker%20Prediction%20From%20Cancer%20Pathology%20Slides%20With%20Self-Supervised%20Deep%20Learning%20A%20Retrospective%20Multi-Centric%20Study.pdf)
