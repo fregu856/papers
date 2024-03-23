@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-03-23] [paper383]
+- A Systematic Pan-Cancer Study on Deep Learning-Based Prediction of Multi-Omic Biomarkers From Routine Pathology Images
+ [[pdf]](https://www.nature.com/articles/s43856-024-00471-5) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Systematic%20Pan-Cancer%20Study%20on%20Deep%20Learning-Based%20Prediction%20of%20Multi-Omic%20Biomarkers%20From%20Routine%20Pathology%20Images.pdf)
+- `Communications Medicine, 2024`
+- [ML for Medicine/Healthcare], [Computational Pathology]
+```
+Well-written overall, fairly interesting. Fully appreciating this paper definitely requires a stronger medical background than I have, but I still found parts of it quite useful/interesting.
+```
+
 ##### [24-03-23] [paper382]
 - The Future of Artificial Intelligence in Digital Pathology - Results of a Survey Across Stakeholder Groups
  [[pdf]](https://onlinelibrary.wiley.com/doi/10.1111/his.14659) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Future%20of%20Artificial%20Intelligence%20in%20Digital%20Pathology%20Results%20of%20a%20Survey%20Across%20Stakeholder%20Groups.pdf)
