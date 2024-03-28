@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-03-28] [paper384]
+- A Good Feature Extractor Is All You Need for Weakly Supervised Pathology Slide Classification
+ [[pdf]](https://arxiv.org/abs/2311.11772) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Good%20Feature%20Extractor%20Is%20All%20You%20Need%20for%20Weakly%20Supervised%20Pathology%20Slide%20Classification.pdf)
+- `arxiv, 2023-11`
+- [Computational Pathology]
+```
+Interesting paper, but I was somewhat confused in the end. Also, I didn't really have enough time to properly go through the details. I liked Section 1 and 2, but then it became less clear. The conclusion in Section 4.2 seems strange to me, that they found no clear difference with/without stain normalization for ~any~ feature extractor, not even for the ImageNet extractors. This doesn't really make sense to me. Thus, I'm not quite sure what to do with their main conclusions/recommendations.
+```
+
 ##### [24-03-23] [paper383]
 - A Systematic Pan-Cancer Study on Deep Learning-Based Prediction of Multi-Omic Biomarkers From Routine Pathology Images
  [[pdf]](https://www.nature.com/articles/s43856-024-00471-5) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Systematic%20Pan-Cancer%20Study%20on%20Deep%20Learning-Based%20Prediction%20of%20Multi-Omic%20Biomarkers%20From%20Routine%20Pathology%20Images.pdf)
