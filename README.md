@@ -21,6 +21,19 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-04-25] [paper385]
+- Understanding Deep Learning
+ [[pdf]](https://udlbook.github.io/udlbook/) [[annotated pdf]](https://drive.google.com/file/d/1RIFN9VJ6cUo3PvJ9fz5z_1lTngERzO8v/view?usp=sharing)
+- `The MIT Press, 2023`
+- [Miscellaneous]
+```
+A book that we read over multiple weeks in a reading group, 1-2 chapters per week. Chapters that I liked / found more useful than the rest: 1, 2, 8, 9, 12, 14, 15, 17, 18, 21. 
+
+Overall, the book contains a lot of neat/interesting/illustrative figures that really help to explain various concepts and methods. While I already knew most of what's covered in the book, it still provided a number of quite interesting/neat insights on various topics. Also, I definitely found the chapter about transformers useful (this is something that I sort of knew, but reading the chapter made me realize that I've never really taken the time to properly go through all the basics).
+
+Overall, I quite enjoyed going through the entire book. I took quite a lot of time of course, but I do think that it probably was worth it. I think it was quite useful, gave me a more thorough understanding of quite a few things.
+```
+
 ##### [24-03-28] [paper384]
 - A Good Feature Extractor Is All You Need for Weakly Supervised Pathology Slide Classification
  [[pdf]](https://arxiv.org/abs/2311.11772) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Good%20Feature%20Extractor%20Is%20All%20You%20Need%20for%20Weakly%20Supervised%20Pathology%20Slide%20Classification.pdf)
