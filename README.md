@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-05-11] [paper386]
+- Self-Supervised Attention-Based Deep Learning for Pan-Cancer Mutation Prediction from Histopathology
+ [[pdf]](https://www.nature.com/articles/s41698-023-00365-0) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Self-Supervised%20Attention-Based%20Deep%20Learning%20for%20Pan-Cancer%20Mutation%20Prediction%20from%20Histopathology.pdf)
+- `npj Precision Oncology, 2023 (Brief Communication)`
+- [Computational Pathology]
+```
+A short paper, just 3.5 pages. Quite interesting and well-written.
+```
+
 ##### [24-04-25] [paper385]
 - Understanding Deep Learning
  [[pdf]](https://udlbook.github.io/udlbook/) [[annotated pdf]](https://drive.google.com/file/d/1RIFN9VJ6cUo3PvJ9fz5z_1lTngERzO8v/view?usp=sharing)
