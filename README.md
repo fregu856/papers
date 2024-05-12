@@ -21,6 +21,16 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+
+##### [24-05-12] [paper387]
+- Overcoming Limitations in Current Measures of Drug Response May Enable AI-Driven Precision Oncology
+ [[pdf]](https://www.nature.com/articles/s41698-024-00583-0) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Overcoming%20Limitations%20in%20Current%20Measures%20of%20Drug%20Response%20May%20Enable%20AI-Driven%20Precision%20Oncology.pdf)
+- `npj Precision Oncology, 2024 (Brief Communication)`
+- [ML for Medicine/Healthcare]
+```
+ Quite short paper, ~5.5 pages. Quite well-written, somewhat interesting.
+```
+
 ##### [24-05-11] [paper386]
 - Self-Supervised Attention-Based Deep Learning for Pan-Cancer Mutation Prediction from Histopathology
  [[pdf]](https://www.nature.com/articles/s41698-023-00365-0) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Self-Supervised%20Attention-Based%20Deep%20Learning%20for%20Pan-Cancer%20Mutation%20Prediction%20from%20Histopathology.pdf)
