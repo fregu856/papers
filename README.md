@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2024:
 
 
+##### [24-05-12] [paper388]
+- The Clinician-AI Interface: Intended Use and Explainability in FDA-Cleared AI Devices for Medical Image Interpretation
+ [[pdf]](https://www.nature.com/articles/s41746-024-01080-1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Clinician-AI%20Interface%20Intended%20Use%20and%20Explainability%20in%20FDA-Cleared%20AI%20Devices%20for%20Medical%20Image%20Interpretation.pdf)
+- `npj Digital Medicine, 2024 (Brief Communication)`
+- [ML for Medicine/Healthcare]
+```
+Short paper, just ~3.5 pages. Somewhat interesting.
+```
+
 ##### [24-05-12] [paper387]
 - Overcoming Limitations in Current Measures of Drug Response May Enable AI-Driven Precision Oncology
  [[pdf]](https://www.nature.com/articles/s41698-024-00583-0) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Overcoming%20Limitations%20in%20Current%20Measures%20of%20Drug%20Response%20May%20Enable%20AI-Driven%20Precision%20Oncology.pdf)
