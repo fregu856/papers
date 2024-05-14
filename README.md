@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2024:
 
 
+##### [24-04-25] [paper390]
+- A Visual-Language Foundation Model for Computational Pathology
+ [[pdf]](https://www.nature.com/articles/s41591-024-02856-4) [_unfortunately not open access, thus no annotated pdf_]
+- `Nature Medicine, 2024`
+- [Computational Pathology], [Vision-Language Models]
+```
+Well-written and interesting paper, I quite enjoyed reading it. Contains a lot of details though, so I had to skim some of the Methods sections. ~1.17 million image-caption pairs, so perhaps a bit less data than I expected. But interesting/neat/cool that it's even possible to create this type of dataset from paper figures + figure captions. Interesting that only ~400k of these images are H&E, the rest are IHC + special (although I don't quite know what "special" means here).
+```
+
 ##### [24-04-11] [paper389]
 - Towards a General-Purpose Foundation Model for Computational Pathology
  [[pdf]](https://www.nature.com/articles/s41591-024-02857-3) [_unfortunately not open access, thus no annotated pdf_]
