@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2024:
 
 
+##### [24-04-11] [paper389]
+- Towards a General-Purpose Foundation Model for Computational Pathology
+ [[pdf]](https://www.nature.com/articles/s41591-024-02857-3) [_unfortunately not open access, thus no annotated pdf_]
+- `Nature Medicine, 2024`
+- [Computational Pathology]
+```
+Interesting paper, well-written, I enjoyed reading it. Extensive evaluation, everything is very thoroughly done. ViT-L model trained using DINOv2, on ~100 million patches extracted from ~100k WSIs.
+```
+
 ##### [24-05-12] [paper388]
 - The Clinician-AI Interface: Intended Use and Explainability in FDA-Cleared AI Devices for Medical Image Interpretation
  [[pdf]](https://www.nature.com/articles/s41746-024-01080-1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Clinician-AI%20Interface%20Intended%20Use%20and%20Explainability%20in%20FDA-Cleared%20AI%20Devices%20for%20Medical%20Image%20Interpretation.pdf)
