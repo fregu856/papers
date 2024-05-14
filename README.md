@@ -21,6 +21,14 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-05-14] [paper391]
+- A Foundational Multimodal Vision Language AI Assistant for Human Pathology
+ [[pdf]](https://arxiv.org/abs/2312.07814) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Foundational%20Multimodal%20Vision%20Language%20AI%20Assistant%20for%20Human%20Pathology.pdf)
+- `arxiv, 2023-12`
+- [Computational Pathology], [Vision-Language Models]
+```
+Well-written and interesting paper, I quite enjoyed reading it. The model is actually quite conceptually simple (take the UNI vision encoder, fine-tune it on the image-caption data from the CONCH paper, then combine it with the Llama 2 LLM to form an MLLM, which is fine-tuned on ~250k instructions). This type of application is of course a bit more of a long shot, it'll probably take a while (and a lot of thorough validation work) before a model like this actually is used in real-world clinical practice. But, it's still pretty cool and an interesting technical problem.
+```
 
 ##### [24-04-25] [paper390]
 - A Visual-Language Foundation Model for Computational Pathology
