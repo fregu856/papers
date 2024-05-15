@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-05-15] [paper392]
+- CLIP-Driven Universal Model for Organ Segmentation and Tumor Detection
+ [[pdf]](https://arxiv.org/abs/2301.00785) [[annotated pdf]](https://drive.google.com/file/d/1IEgM9wuMIO3QMzCjHJrjylaQI8iDtrbS/view?usp=sharing)
+- `ICCV 2023`
+- [Vision-Language Models]
+```
+Somewhat interesting paper. I found it quite difficult to understand their proposed model in Section 3.2 / Figure 2. Multiple design choices here also seem somewhat arbitrary, they're not really motivated or compared with simpler baselines.
+```
+
 ##### [24-05-14] [paper391]
 - A Foundational Multimodal Vision Language AI Assistant for Human Pathology
  [[pdf]](https://arxiv.org/abs/2312.07814) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Foundational%20Multimodal%20Vision%20Language%20AI%20Assistant%20for%20Human%20Pathology.pdf)
