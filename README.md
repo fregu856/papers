@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-05-23] [paper393]
+- BioFusionNet: Deep Learning-Based Survival Risk Stratification in ER+ Breast Cancer Through Multifeature and Multimodal Data Fusion
+ [[pdf]](https://arxiv.org/abs/2402.10717) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/BioFusionNet%20Deep%20Learning-Based%20Survival%20Risk%20Stratification%20in%20ER%2B%20Breast%20Cancer%20Through%20Multifeature%20and%20Multimodal%20Data%20Fusion.pdf)
+- `arxiv, 2024-02`
+- [Computational Pathology], [Survival Analysis]
+```
+Somewhat interesting paper. Well-written overall. Section 1 and Figure 1 are interesting, give good background on breast cancer diagnosis/treatment. Figure 2 and 3 illustrate the method in a nice way. However, the method just seems unnecessarily complicated to me. Why fuse three different feature extractors via VAE? Doesn't seem to help that much according to Table 5? And, they only have 249 cases in total for train/val, which means that the number of events is very quite low. Also, in Table 5, seems like most of the performance gain comes from the weighted Cox loss, which doesn't quite seem reasonable. It definitely makes sense to fuse image data with genetic/clinical data, I just feel like it must be possible to see performance gains using more straightforward approaches.
+```
+
 ##### [24-05-15] [paper392]
 - CLIP-Driven Universal Model for Organ Segmentation and Tumor Detection
  [[pdf]](https://arxiv.org/abs/2301.00785) [[annotated pdf]](https://drive.google.com/file/d/1IEgM9wuMIO3QMzCjHJrjylaQI8iDtrbS/view?usp=sharing)
