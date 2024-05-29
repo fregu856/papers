@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-05-29] [paper394]
+- No "Zero-Shot" Without Exponential Data: Pretraining Concept Frequency Determines Multimodal Model Performance
+ [[pdf]](https://arxiv.org/abs/2404.04125) [[annotated pdf]](https://drive.google.com/file/d/13t_Mvf4Jv7ulkzfvB05Kq_ydoBE2HXwN/view?usp=sharing)
+- `arxiv, 2024-04`
+- [Vision-Language Models]
+```
+Well-written and quite interesting paper. These findings are quite expected though, right? CLIP works well on a variety of downstream tasks because it's trained on a huge dataset containing all kind of "concepts"? For it to perform well on a certain task it needs to be represented in the pretraining dataset somehow? But still, quite interesting paper that I liked overall.
+```
+
 ##### [24-05-23] [paper393]
 - BioFusionNet: Deep Learning-Based Survival Risk Stratification in ER+ Breast Cancer Through Multifeature and Multimodal Data Fusion
  [[pdf]](https://arxiv.org/abs/2402.10717) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/BioFusionNet%20Deep%20Learning-Based%20Survival%20Risk%20Stratification%20in%20ER%2B%20Breast%20Cancer%20Through%20Multifeature%20and%20Multimodal%20Data%20Fusion.pdf)
