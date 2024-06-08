@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-06-08] [paper395]
+- Flow Matching for Generative Modeling
+ [[pdf]](https://openreview.net/forum?id=PqvMRDCJT9t) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Flow%20Matching%20for%20Generative%20Modeling.pdf)
+- `ICLR 2023`
+- [Diffusion Models]
+```
+Well-written and interesting paper, I've been meaning to read this for quite some time now. I struggled a bit to follow Section 3 and 4, but overall the method makes sense I think. Would need to read more, and probably also discuss this with someone, to properly understand and appreciate all the details.
+```
+
 ##### [24-05-29] [paper394]
 - No "Zero-Shot" Without Exponential Data: Pretraining Concept Frequency Determines Multimodal Model Performance
  [[pdf]](https://arxiv.org/abs/2404.04125) [[annotated pdf]](https://drive.google.com/file/d/13t_Mvf4Jv7ulkzfvB05Kq_ydoBE2HXwN/view?usp=sharing)
