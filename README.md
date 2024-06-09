@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-06-09] [paper396]
+- Multistep Distillation of Diffusion Models via Moment Matching
+ [[pdf]](https://arxiv.org/abs/2406.04103) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Multistep%20Distillation%20of%20Diffusion%20Models%20via%20Moment%20Matching.pdf)
+- `arxiv, 2024-06`
+- [Diffusion Models]
+```
+Fairly interesting and well-written paper. I should probably have read a more basic paper about diffusion model distillation instead, don't think I was able to fully appreciate the details here. Struggled to properly follow everything in Section 3.2. The proposed method seems somewhat ad hoc, but also seems to work well in practice. Quite interesting to see an example of a SOTA distillation method at least.
+```
+
 ##### [24-06-08] [paper395]
 - Flow Matching for Generative Modeling
  [[pdf]](https://openreview.net/forum?id=PqvMRDCJT9t) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Flow%20Matching%20for%20Generative%20Modeling.pdf)
