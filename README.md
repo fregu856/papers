@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-06-09] [paper397]
+- A Whole-Slide Foundation Model for Digital Pathology from Real-World Data
+ [[pdf]](https://www.nature.com/articles/s41586-024-07441-w) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Whole-Slide%20Foundation%20Model%20for%20Digital%20Pathology%20from%20Real-World%20Data.pdf)
+- `Nature, 2024`
+- [Computational Pathology]
+```
+Well-written and interesting paper, I quite enjoyed reading it. ~1.3 billion 256x256 patches, from ~170k WSIs, from ~30k patients. 45% of the slides are from lung tissue, 30% from bowel, 9% from CNS/brain, 3% from breast (Suppl. Fig 1). I didn't look too too carefully at the results, I was mostly just interested in the data and method, but seems reasonable. The vision-language experiments are interesting, the fact that they to do this contrastive alignment on the slide level, they use ~17k WSI - pathology report pairs.
+```
+
 ##### [24-06-09] [paper396]
 - Multistep Distillation of Diffusion Models via Moment Matching
  [[pdf]](https://arxiv.org/abs/2406.04103) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Multistep%20Distillation%20of%20Diffusion%20Models%20via%20Moment%20Matching.pdf)
