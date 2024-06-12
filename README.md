@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-06-12] [paper398]
+- Prediction of Recurrence Risk in Endometrial Cancer with Multimodal Deep Learning
+ [[pdf]](https://www.nature.com/articles/s41591-024-02993-w) [[annotated pdf]](https://drive.google.com/file/d/1dT78m-EuN0n7h7jmtnrvi13BoQF42wQR/view?usp=sharing)
+- `Nature Medicine, 2024`
+- [Computational Pathology]
+```
+Well-written and somewhat interesting paper. Not quite my type of paper, would probably need a bit stronger medical background. The method sort of seems unnecessarily complicated to me, using a second frozen model, embedding layers etc. Yes, they see some gains in ablations, but still feels like doing something simpler also could work well. The experiment on adjuvant chemotherapy response prediction is interesting.
+```
+
 ##### [24-06-11] [paper397]
 - A Whole-Slide Foundation Model for Digital Pathology from Real-World Data
  [[pdf]](https://www.nature.com/articles/s41586-024-07441-w) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Whole-Slide%20Foundation%20Model%20for%20Digital%20Pathology%20from%20Real-World%20Data.pdf)
