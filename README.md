@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-06-16] [paper399]
+- Morphological Prototyping for Unsupervised Slide Representation Learning in Computational Pathology
+ [[pdf]](https://arxiv.org/abs/2405.11643) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Morphological%20Prototyping%20for%20Unsupervised%20Slide%20Representation%20Learning%20in%20Computational%20Pathology.pdf)
+- `CVPR 2024`
+- [Computational Pathology]
+```
+Interesting and very well-written paper, I enjoyed reading it. Figure 2 gives a great overview of their approach. The visualizations in Fig 1, 3, S1 - S4 are really neat.
+```
+
 ##### [24-06-12] [paper398]
 - Prediction of Recurrence Risk in Endometrial Cancer with Multimodal Deep Learning
  [[pdf]](https://www.nature.com/articles/s41591-024-02993-w) [[annotated pdf]](https://drive.google.com/file/d/1dT78m-EuN0n7h7jmtnrvi13BoQF42wQR/view?usp=sharing)
