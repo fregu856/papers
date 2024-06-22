@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-19] [paper400]
+- Artificial Intelligence for Diagnosis and Gleason Grading of Prostate Cancer: The PANDA Challenge
+ [[pdf]](https://www.nature.com/articles/s41591-021-01620-2) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Artificial%20Intelligence%20for%20Diagnosis%20and%20Gleason%20Grading%20of%20Prostate%20Cancer%20The%20PANDA%20Challenge.pdf)
+- `Nature Medicine, 2022`
+- [Computational Pathology]
+```
+Well-written and interesting paper. Neat/cool/impressive study/challenge design, it makes sense to evaluate the top-performing mehtods on external data afterwards.
+```
+
 ##### [24-06-16] [paper399]
 - Morphological Prototyping for Unsupervised Slide Representation Learning in Computational Pathology
  [[pdf]](https://arxiv.org/abs/2405.11643) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Morphological%20Prototyping%20for%20Unsupervised%20Slide%20Representation%20Learning%20in%20Computational%20Pathology.pdf)
