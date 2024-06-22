@@ -36,7 +36,7 @@ Well-written and interesting paper, I enjoyed reading it. Gives a very good back
 - `Bioinformatics, 2022`
 - [Computational Pathology]
 ```
-Well written and interesting paper, I enjoyed reading it. Helped me understand the general problem a bit better, good background material for me. I definitely didn't understand all the medical stuff, but still found e.g. everything in the Discussion interesting and useful.
+Well written and quite interesting paper. Helped me understand the general problem a bit better, good background material for me. I definitely didn't understand all the medical stuff, but still found e.g. everything in the Discussion interesting and useful.
 ```
 
 ##### [24-02-04] [paper406]
