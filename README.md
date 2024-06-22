@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-21] [paper403]
+- Improving Trustworthiness of AI Disease Severity Rating in Medical Imaging with Ordinal Conformal Prediction Sets
+ [[pdf]](https://arxiv.org/abs/2207.02238) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Improving%20Trustworthiness%20of%20AI%20Disease%20Severity%20Rating%20in%20Medical%20Imaging%20with%20Ordinal%20Conformal%20Prediction%20Sets.pdf)
+- `MICCAI 2022`
+- [Uncertainty Estimation], [ML for Medicine/Healthcare]
+```
+Quite well-written and interesting paper, not overly impressed. I don't fully understand how the method is implemented in practice, Algorithm 1 makes sense, but how does one compute the value of lambda?
+```
+
 ##### [24-01-20] [paper402]
 - Hierarchical Vision Transformers for Context-Aware Prostate Cancer Grading in Whole Slide Images
  [[pdf]](https://arxiv.org/abs/2312.12619) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20Vision%20Transformers%20for%20Context-Aware%20Prostate%20Cancer%20Grading%20in%20Whole%20Slide%20Images.pdf)
