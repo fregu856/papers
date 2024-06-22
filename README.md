@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-02-27] [paper404]
+- Estimating Diagnostic Uncertainty in Artificial Intelligence Assisted Pathology Using Conformal Prediction
+ [[pdf]](https://www.nature.com/articles/s41467-022-34945-8) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Estimating%20Diagnostic%20Uncertainty%20in%20Artificial%20Intelligence%20Assisted%20Pathology%20Using%20Conformal%20Prediction.pdf)
+- `Nature Communications, 2022`
+- [Computational Pathology], [Uncertainty Estimation]
+```
+Interesting paper, but I found it quite difficult to understand. I was confused by the employed conformal prediction method, it did not make sense to me that it could output empty predictions for some inputs. "efficiency, defined as the fraction of all predictions resulting in a correct single-label prediction" is not something I've seen before either. The dataset setup is neat though, with test sets from the same scanner/lab, from a different scanner, and from a different scanner and lab. Figure 2 is interesting, shows that the model becomes significantly overconfident on test set 3-5.
+```
+
 ##### [24-01-21] [paper403]
 - Improving Trustworthiness of AI Disease Severity Rating in Medical Imaging with Ordinal Conformal Prediction Sets
  [[pdf]](https://arxiv.org/abs/2207.02238) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Improving%20Trustworthiness%20of%20AI%20Disease%20Severity%20Rating%20in%20Medical%20Imaging%20with%20Ordinal%20Conformal%20Prediction%20Sets.pdf)
