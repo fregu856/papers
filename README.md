@@ -21,7 +21,16 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
-##### [24-02-27] [paper404]
+##### [24-02-03] [paper405]
+- Uncertainty Sets for Image Classifiers using Conformal Prediction
+ [[pdf]](https://openreview.net/forum?id=eNdiU_DbM9) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Sets%20for%20Image%20Classifiers%20using%20Conformal%20Prediction.pdf)
+- `ICLR 2021`
+- [Uncertainty Estimation]
+```
+Quite interesting and well-written paper. The proposed method mostly makes sense, and it does indeed seem to produce smaller prediction sets than the baselines. Not sure how relevant this is for me though.
+```
+
+##### [24-02-02] [paper404]
 - Estimating Diagnostic Uncertainty in Artificial Intelligence Assisted Pathology Using Conformal Prediction
  [[pdf]](https://www.nature.com/articles/s41467-022-34945-8) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Estimating%20Diagnostic%20Uncertainty%20in%20Artificial%20Intelligence%20Assisted%20Pathology%20Using%20Conformal%20Prediction.pdf)
 - `Nature Communications, 2022`
