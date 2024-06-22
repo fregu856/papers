@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-02-04] [paper406]
+- Assessing and Enhancing Robustness of Deep Learning Models with Corruption Emulation in Digital Pathology
+ [[pdf]](https://arxiv.org/abs/2310.20427) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Assessing%20and%20Enhancing%20Robustness%20of%20Deep%20Learning%20Models%20with%20Corruption%20Emulation%20in%20Digital%20Pathology.pdf)
+- `arxiv, 2023-10`
+- [Computational Pathology]
+```
+Interesting and quite well-written paper. Quite short, and basically no implementation details are given for the various corruptions. It does seem potentially useful though, for both benchmarking and augmentation. The results in Table 3 seem quite impressive.
+```
+
 ##### [24-02-03] [paper405]
 - Uncertainty Sets for Image Classifiers using Conformal Prediction
  [[pdf]](https://openreview.net/forum?id=eNdiU_DbM9) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Sets%20for%20Image%20Classifiers%20using%20Conformal%20Prediction.pdf)
