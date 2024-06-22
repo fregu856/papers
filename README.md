@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-03-03] [paper409]
+- Diffusion Models for Out-of-Distribution Detection in Digital Pathology
+ [[pdf]](https://doi.org/10.1016/j.media.2024.103088) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Diffusion%20Models%20for%20Out-of-Distribution%20Detection%20in%20Digital%20Pathology.pdf)
+- `Medical Image Analysis, 2024`
+- [Computational Pathology], [Out-of-Distribution Detection], [Diffusion Models]
+```
+Interesting paper overall, but I got a bit lost in all the details. Not my favourite type of paper perhaps (I might also have been a bit too tired when reading). The overall idea of using diffusion models for reconstruction-based OOD detection is definitely interesting though.
+```
+
 ##### [24-02-18] [paper408]
 - Artificial Intelligence to Identify Genetic Alterations in Conventional Histopathology
  [[pdf]](https://pathsocjournals.onlinelibrary.wiley.com/doi/full/10.1002/path.5898) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Artificial%20Intelligence%20to%20Identify%20Genetic%20Alterations%20in%20Conventional%20Histopathology.pdf)
