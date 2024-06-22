@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-06-22] [paper410]
+- Modeling Dense Multimodal Interactions Between Biological Pathways and Histology for Survival Prediction
+ [[pdf]](https://arxiv.org/abs/2304.06819) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Modeling%20Dense%20Multimodal%20Interactions%20Between%20Biological%20Pathways%20and%20Histology%20for%20Survival%20Prediction.pdf)
+- `CVPR 2024`
+- [Computational Pathology], [Survival Analysis]
+```
+Well-written and quite interesting paper, I enjoyed reading it. The method makes sense overall, they describe it well. The results actually seem quite impressive, relevant baselines and they do get a relatively clear bump in performance. Difficult for me to judge how actionable the interpretability results in Section 4.5 actually are though.
+```
+
 ##### [24-03-03] [paper409]
 - Diffusion Models for Out-of-Distribution Detection in Digital Pathology
  [[pdf]](https://doi.org/10.1016/j.media.2024.103088) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Diffusion%20Models%20for%20Out-of-Distribution%20Detection%20in%20Digital%20Pathology.pdf)
