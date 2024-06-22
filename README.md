@@ -1,6 +1,6 @@
 # About
 
-I categorize, annotate and write comments for all research papers I read (390+ papers since 2018).
+I categorize, annotate and write comments for all research papers I read (400+ papers since 2018).
 
 _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5 Years](https://www.fregu856.com/post/phd_of_reading/) (why I think it’s important to read a lot of papers + how I organize my reading + paper statistics + a list of 30 particularly interesting papers)._
 
@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2024:
+
+##### [24-01-19] [paper401]
+- Conformal Prediction Sets for Ordinal Classification
+ [[pdf]](https://openreview.net/forum?id=YI4bn6aAmz) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conformal%20Prediction%20Sets%20for%20Ordinal%20Classification.pdf)
+- `NeurIPS 2023`
+- [Uncertainty Estimation]
+```
+Quite well-written paper, interesting overall. The propsed approach is actually very simple in the end, just modify the DNN output before the softmax layer according to eq. (5), train it using standard cross-entropy, and then apply the existing conformal prediction method APS (or LAC) at test-time to output prediction sets (if I understood everything correclty). The results seem reasonable. Tables and figures could be made to look a bit better.
+```
 
 ##### [24-01-19] [paper400]
 - Artificial Intelligence for Diagnosis and Gleason Grading of Prostate Cancer: The PANDA Challenge
