@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-02-18] [paper408]
+- Artificial Intelligence to Identify Genetic Alterations in Conventional Histopathology
+ [[pdf]](https://pathsocjournals.onlinelibrary.wiley.com/doi/full/10.1002/path.5898) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Artificial%20Intelligence%20to%20Identify%20Genetic%20Alterations%20in%20Conventional%20Histopathology.pdf)
+- `Journal of Pathology, 2022`
+- [Computational Pathology]
+```
+Well-written and interesting paper, I enjoyed reading it. Gives a very good background on various biomarkers. I definitely didn't understand all the medical details, but still found it interesting and useful.
+```
+
 ##### [24-02-11] [paper407]
 - Transcriptome-Wide Prediction of Prostate Cancer Gene Expression From Histopathology Images Using Co-Expression-Based Convolutional Neural Networks
  [[pdf]](https://academic.oup.com/bioinformatics/article/38/13/3462/6589889) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transcriptome-Wide%20Prediction%20of%20Prostate%20Cancer%20Gene%20Expression%20From%20Histopathology%20Images%20Using%20Co-Expression-Based%20Convolutional%20Neural%20Networks.pdf)
