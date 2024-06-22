@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-01-20] [paper402]
+- Hierarchical Vision Transformers for Context-Aware Prostate Cancer Grading in Whole Slide Images
+ [[pdf]](https://arxiv.org/abs/2312.12619) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Hierarchical%20Vision%20Transformers%20for%20Context-Aware%20Prostate%20Cancer%20Grading%20in%20Whole%20Slide%20Images.pdf)
+- `NeurIPS Workshops 2023`
+- [Computational Pathology], [Transformers]
+```
+Workshop paper, just ~3 pages. The appendix also contains some useful info. Well-written and interesting paper. The method/model makes intuitive sense. Seemingly strong performance without any ad hoc modifications. Qiute interesting that the local model version (fine-tuning also the region-level transformer) gave such a clear performance boost.
+```
+
 ##### [24-01-19] [paper401]
 - Conformal Prediction Sets for Ordinal Classification
  [[pdf]](https://openreview.net/forum?id=YI4bn6aAmz) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Conformal%20Prediction%20Sets%20for%20Ordinal%20Classification.pdf)
