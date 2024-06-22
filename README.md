@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-02-11] [paper407]
+- Transcriptome-Wide Prediction of Prostate Cancer Gene Expression From Histopathology Images Using Co-Expression-Based Convolutional Neural Networks
+ [[pdf]](https://academic.oup.com/bioinformatics/article/38/13/3462/6589889) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transcriptome-Wide%20Prediction%20of%20Prostate%20Cancer%20Gene%20Expression%20From%20Histopathology%20Images%20Using%20Co-Expression-Based%20Convolutional%20Neural%20Networks.pdf)
+- `Bioinformatics, 2022`
+- [Computational Pathology]
+```
+Well written and interesting paper, I enjoyed reading it. Helped me understand the general problem a bit better, good background material for me. I definitely didn't understand all the medical stuff, but still found e.g. everything in the Discussion interesting and useful.
+```
+
 ##### [24-02-04] [paper406]
 - Assessing and Enhancing Robustness of Deep Learning Models with Corruption Emulation in Digital Pathology
  [[pdf]](https://arxiv.org/abs/2310.20427) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Assessing%20and%20Enhancing%20Robustness%20of%20Deep%20Learning%20Models%20with%20Corruption%20Emulation%20in%20Digital%20Pathology.pdf)
