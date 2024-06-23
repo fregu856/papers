@@ -1,6 +1,6 @@
 # About
 
-I categorize, annotate and write comments for all research papers I read (400+ papers since 2018).
+I categorize, annotate and write comments for all research papers I read (410+ papers since 2018).
 
 _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5 Years](https://www.fregu856.com/post/phd_of_reading/) (why I think it’s important to read a lot of papers + how I organize my reading + paper statistics + a list of 30 particularly interesting papers)._
 
@@ -20,6 +20,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2024:
+
+##### [24-06-23] [paper411]
+- Multimodal Prototyping for Cancer Survival Prediction
+ [[pdf]](https://openreview.net/pdf?id=3MfvxH3Gia) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Multimodal%20Prototyping%20for%20Cancer%20Survival%20Prediction.pdf)
+- `ICML 2024`
+- [Computational Pathology], [Survival Analysis]
+```
+Well-written and quite interesting paper. Basically, they apply the prototype-based slide representation from "Morphological Prototyping for Unsupervised Slide Representation Learning in Computational Pathology" to the survival analysis model in "Modeling Dense Multimodal Interactions Between Biological Pathways and Histology for Survival Prediction" (SurvPath), two CVPR 2024 papers from the same group. The main thing is that the compact prototype-based slide representation now allows them to use standard attention without any approximations, and also to train the survival model using the Cox partial log-likelihood loss - instead of the discrete NLL with batch size = 1 used in SurvPath. In fact, if they use the NLL loss with batch size = 1, they even get slightly worse performance than SurvPath (0.621 vs 0.629)? I.e., this seems to be the main/only thing that improves over SurvPath? Still a very solid paper though, and it makes a lot of sense to combine their two previous papers.
+```
 
 ##### [24-06-22] [paper410]
 - Modeling Dense Multimodal Interactions Between Biological Pathways and Histology for Survival Prediction
