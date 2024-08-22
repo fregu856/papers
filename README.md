@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-08-22] [paper412]
+- A Clinical Benchmark of Public Self-Supervised Pathology Foundation Models
+ [[pdf]](https://arxiv.org/abs/2407.06508) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Clinical%20Benchmark%20of%20Public%20Self-Supervised%20Pathology%20Foundation%20Models.pdf)
+- `arxiv, 2024-07`
+- [Computational Pathology]
+```
+Interesting paper. I liked basically everything expect the scaling law evaluations in Fig 3 and 4, I think it's very difficult to say anything conclusive when the models being compared are pretrained on completely different datasets. The comparison of their own SP22M and SP85M models is fair, since they are trained on the same datasets. The discussion is interesting. I feel like the overall sentiment of this paper is that, OK, it's time to move beyond just trying to train foundation models on more and more data (trying to be the first reaching 100k slides, 1 million slides etc.), we need to actually study more carefully WHAT and WHAT TYPE of data we should use ("this suggests that the composition of the pretraining dataset may be crucial").
+```
+
 ##### [24-06-23] [paper411]
 - Multimodal Prototyping for Cancer Survival Prediction
  [[pdf]](https://openreview.net/pdf?id=3MfvxH3Gia) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Multimodal%20Prototyping%20for%20Cancer%20Survival%20Prediction.pdf)
