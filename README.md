@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-08-29] [paper413]
+- Benchmarking Embedding Aggregation Methods in Computational Pathology: A Clinical Data Perspective
+ [[pdf]](https://arxiv.org/abs/2407.07841) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Benchmarking%20Embedding%20Aggregation%20Methods%20in%20Computational%20Pathology%20A%20Clinical%20Data%20Perspective.pdf)
+- `arxiv, 2024-07`
+- [Computational Pathology]
+```
+Well-written, solid and quite interesting paper. "Based on these findings, while it is clear that pathology FMs provide superior performance, it is not possible to recommend any particular aggregation method. We suggest using AB-MIL as a strong baseline and validate other methods on a case by case basis" is a very good summary. Would indeed be interesting to see more advanced tasks than just binary classification in this type of evaluation, for example survival analysis. Could be that spatially-aware methods actually would outperform ABMIL in such settings.
+```
+
 ##### [24-08-22] [paper412]
 - A Clinical Benchmark of Public Self-Supervised Pathology Foundation Models
  [[pdf]](https://arxiv.org/abs/2407.06508) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Clinical%20Benchmark%20of%20Public%20Self-Supervised%20Pathology%20Foundation%20Models.pdf)
