@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-09-06] [paper414]
+- Benchmarking Foundation Models as Feature Extractors For Weakly-Supervised Computational Pathology
+ [[pdf]](https://arxiv.org/abs/2408.15823) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Benchmarking%20Foundation%20Models%20as%20Feature%20Extractors%20For%20Weakly-Supervised%20Computational%20Pathology.pdf)
+- `arxiv, 2024-08`
+- [Computational Pathology]
+```
+Interesting paper. It made me think a lot, in a good way. Definitely a solid benchmark, and a bit surprising that CONCH performs that well. "A key insight of our study is that performance of foundation models does not scale well with increasing numbers of images in the training set used for self-supervised learning... Rather, the diversity of the training set suggests to be a key factor": I agree that this probably is true, that it's time to move beyond just trying to train foundation models on more and more data, we need to actually study more carefully WHAT and WHAT TYPE of data we should use. However, I'm not sure that the quite strong claims in this paper are fully supported, it's difficult to see any clear trends in Figure 3 or Figure S5. I think we need to do various controlled experiments, training the same model on increasingly large subsets of the same dataset, or step by step increase the number of patients, tissue types etc in the datasets. There are still many open questions, a lot of more careful analysis is still needed.
+```
+
 ##### [24-08-29] [paper413]
 - Benchmarking Embedding Aggregation Methods in Computational Pathology: A Clinical Data Perspective
  [[pdf]](https://arxiv.org/abs/2407.07841) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Benchmarking%20Embedding%20Aggregation%20Methods%20in%20Computational%20Pathology%20A%20Clinical%20Data%20Perspective.pdf)
