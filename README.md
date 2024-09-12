@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-09-12] [paper415]
+- Screen Them All: High-Throughput Pan-Cancer Genetic and Phenotypic Biomarker Screening from H&E Whole Slide Images
+ [[pdf]](https://arxiv.org/abs/2408.09554) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Screen%20Them%20All%20High-Throughput%20Pan-Cancer%20Genetic%20and%20Phenotypic%20Biomarker%20Screening%20from%20H%26E%20Whole%20Slide%20Images.pdf)
+- `arxiv, 2024-08`
+- [Computational Pathology]
+```
+Fairly interesting paper. Interesting method and problem overall, but not my favorite type of paper (a ton of very detailed results in Section 2). You need a stronger medical background in order to really understand and appreciate this. The discussion in Section 3 is quite interesting, but difficult for me to judge if the model performance actually is good enough to be used for the different potential real-world applications they describe.
+```
+
 ##### [24-09-06] [paper414]
 - Benchmarking Foundation Models as Feature Extractors For Weakly-Supervised Computational Pathology
  [[pdf]](https://arxiv.org/abs/2408.15823) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Benchmarking%20Foundation%20Models%20as%20Feature%20Extractors%20For%20Weakly-Supervised%20Computational%20Pathology.pdf)
