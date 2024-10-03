@@ -21,7 +21,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
-##### [24-04-XX] [paper4XX]
+##### [24-05-XX] [paper4XX]
 - 
  [[pdf]]() [[annotated pdf]]()
 - ``
@@ -32,6 +32,16 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 
 
+
+
+##### [24-05-02] [paper425]
+- Generative Models Improve Fairness of Medical Classifiers Under Distribution Shifts
+ [[pdf]](https://www.nature.com/articles/s41591-024-02838-6#Sec44) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generative%20Models%20Improve%20Fairness%20of%20Medical%20Classifiers%20Under%20Distribution%20Shifts.pdf)
+- `Nature Medicine, 2024`
+- [ML for Medicine/Healthcare], [Diffusion Models]
+```
+Quite interesting and well-written paper. I definitely find the overall method/approach interesting, but I didn't love this paper. I found the experiments/results a bit messy, it took me quite a long time to read everything, but some things are still a bit unclear. I do think that this general approach (generating synthetic data to improve the training of prediction models) is promising, but just from this paper I'm not sure how well one actually should expect it to work.
+```
 
 ##### [24-04-27] [paper424]
 - Diffusion-Based Generation of Histopathological Whole Slide Images at a Gigapixel Scale
