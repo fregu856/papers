@@ -32,6 +32,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 
 
+##### [24-04-17] [paper419]
+- Spatially Resolved Gene Expression Prediction from Histology Images via Bi-modal Contrastive Learning
+ [[pdf]](https://openreview.net/forum?id=eT1tMdAUoc) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Spatially%20Resolved%20Gene%20Expression%20Prediction%20from%20Histology%20Images%20via%20Bi-modal%20Contrastive%20Learning.pdf)
+- `NeurIPS 2023`
+- [Computational Pathology]
+```
+Interesting and quite well-written paper. The method is definitely interesting, makes intutive sense. The experiments/results are not overly extensive/impressive perhaps (I also ran a bit short on time, so I read Section 4-5 quite quickly). Don't like the formatting of the two equations in Section 3.2.
+```
+
 ##### [24-02-10] [paper418]
 - An Investigation of Attention Mechanisms in Histopathology Whole-Slide-Image Analysis for Regression Objectives
  [[pdf]](https://openaccess.thecvf.com/content/ICCV2021W/CDPath/papers/Weitz_An_Investigation_of_Attention_Mechanisms_in_Histopathology_Whole-Slide-Image_Analysis_for_ICCVW_2021_paper.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Investigation%20of%20Attention%20Mechanisms%20in%20Histopathology%20Whole-Slide-Image%20Analysis%20for%20Regression%20Objectives.pdf)
