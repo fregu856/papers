@@ -33,6 +33,14 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 
 
+##### [24-05-15] [paper429]
+- Synthetic Data in Machine Learning for Medicine and Healthcare
+ [[pdf]](https://www.nature.com/articles/s41551-021-00751-8) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Synthetic%20Data%20in%20Machine%20Learning%20for%20Medicine%20and%20Healthcare.pdf)
+- `Nature Biomedical Engineering, 2021 (Comment)`
+- [ML for Medicine/Healthcare]
+```
+Short paper, 4.5 pages. Well-written and somewhat interesting, but not quite the type of paper I thought it was gonna be. The experiment in Fig 1 is quite interesting, that they get a clear performance gain by training a classifier with real and generated data, but not a lot of details are provided.
+```
 
 ##### [24-05-15] [paper428]
 - Synthetic Augmentation with Large-scale Unconditional Pre-Training
