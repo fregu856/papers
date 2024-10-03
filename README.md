@@ -32,6 +32,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 
 
+##### [24-04-22] [paper421]
+- Estrogen Receptor Gene Expression Prediction from H&E Whole Slide Images
+ [[pdf]](https://www.medrxiv.org/content/10.1101/2024.04.05.24302951v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Estrogen%20Receptor%20Gene%20Expression%20Prediction%20from%20H%26E%20Whole%20Slide%20Images.pdf)
+- `medrxiv, 2024-04`
+- [Computational Pathology]
+```
+Short paper, just 3.5 pages, but well-written and quite interesting. The performance doesn't seem overly impressive though (Pearson's corr of 0.57, not that much lower MAE than for the "predict the dataset mean" baseline) (also, Table 3), feels like higher regression accuracy might be needed for this to actually be useful in practice. Would have been interesting to have the "using ground truth ESRI expression" upper bound also in Table 3.
+```
+
 ##### [24-03-09] [paper420]
 - Multimodal Histopathologic Models Stratify Hormone Receptor-Positive Early Breast Cancer
  [[pdf]](https://www.biorxiv.org/content/10.1101/2024.02.23.581806v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Multimodal%20Histopathologic%20Models%20Stratify%20Hormone%20Receptor-Positive%20Early%20Breast%20Cancer.pdf)
