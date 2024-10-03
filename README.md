@@ -21,7 +21,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
-##### [24-02-04] [paper4XX]
+##### [24-04-XX] [paper4XX]
 - 
  [[pdf]]() [[annotated pdf]]()
 - ``
@@ -31,6 +31,16 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 ```
 
 
+
+
+##### [24-04-25] [paper422]
+- Joint Multi-Task Learning Improves Weakly-Supervised Biomarker Prediction in Computational Pathology
+ [[pdf]](https://arxiv.org/abs/2403.03891) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Joint%20Multi-Task%20Learning%20Improves%20Weakly-Supervised%20Biomarker%20Prediction%20in%20Computational%20Pathology.pdf)
+- `arxiv, 2024-03`
+- [Computational Pathology]
+```
+Well-written overall, quite interesting. The approach makes sense, but the results are not overly impressive. I find Table 1 a bit odd. For TCGA-CRC, it's only "autol" that clearly outperforms the baseline, but this is quite far away from being the best method on TCGA-LUAD? And the method that gets the best results in the external CPTAC data, "autol + cagrad", doesn't improve much over the baseline on TCGA? I'm not entirely convinced by these results.
+```
 
 ##### [24-04-22] [paper421]
 - Estrogen Receptor Gene Expression Prediction from H&E Whole Slide Images
