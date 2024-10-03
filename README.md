@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-02-04] [paper416]
+- Regression-Based Deep-Learning Predicts Molecular Biomarkers From Pathology Slides
+ [[pdf]](https://arxiv.org/abs/2304.05153) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Regression-Based%20Deep-Learning%20Predicts%20Molecular%20Biomarkers%20From%20Pathology%20Slides.pdf)
+- `arxiv, 2023-04`
+- [Computational Pathology]
+```
+Well-written and interesting paper. I didn't quite follow all medical details, but I still enjoyed reading it.
+```
+
 ##### [24-09-12] [paper415]
 - Screen Them All: High-Throughput Pan-Cancer Genetic and Phenotypic Biomarker Screening from H&E Whole Slide Images
  [[pdf]](https://arxiv.org/abs/2408.09554) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Screen%20Them%20All%20High-Throughput%20Pan-Cancer%20Genetic%20and%20Phenotypic%20Biomarker%20Screening%20from%20H%26E%20Whole%20Slide%20Images.pdf)
