@@ -34,6 +34,14 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 
 
+##### [24-05-15] [paper427]
+- Using Histopathology Latent Diffusion Models as Privacy-Preserving Dataset Augmenters Improves Downstream Classification Performance
+ [[pdf]](https://www.sciencedirect.com/science/article/pii/S0010482524004943?via%3Dihub#abs0015) [_unfortunately not open access, thus no annotated pdf_]
+- `Computers in Biology and Medicine, 2024`
+- [Computational Pathology], [Diffusion Models]
+```
+Well-written and interesting paper, I quite enjoyed it. I like the experimental setup (train diffusion model on a train set, generate images. Then train classifier on the same train set, or on the train set + generated images. Compare the classifier performance). Interesting that they get 81% accuracy when training on the original data and 80% (i.e., almost the same) when training only on generated data. When training on the original data + generated data they get 85% accuracy. 81% --> 85% is obviously not a huge performance boost, there might be other regularization methods that can give similar gains, but it's not nothing either.
+```
 
 ##### [24-05-04] [paper426]
 - Generation of Synthetic Whole-Slide Image Tiles of Tumours from RNA-Sequencing Data via Cascaded Diffusion Models
