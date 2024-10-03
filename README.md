@@ -34,6 +34,16 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 
 
+
+##### [24-05-04] [paper426]
+- Generation of Synthetic Whole-Slide Image Tiles of Tumours from RNA-Sequencing Data via Cascaded Diffusion Models
+ [[pdf]](https://www.nature.com/articles/s41551-024-01193-8) [_unfortunately not open access, thus no annotated pdf_]
+- `Nature Biomedical Engineering, 2024`
+- [Computational Pathology], [Diffusion Models]
+```
+Well-written and interesting paper. Made me think a lot, which is always a good thing. Interesting approach with using a VAE to compress the gene-expression profile from ~17k dim down to a latent vector of dim 200, cool that this can be used as conditioning in the diffusion model. I'm not entirely convinced by the experiments on using the generated synthetic data for model training though. Seems like some of the comparisons might not be entirely fair. The model pretrained using SSL on synthetic tiles should also have been compared with a model pretrained using SSL on the original train set, I think. But sure, the generated tiles definitely seem to be high-quality and realistic.
+```
+
 ##### [24-05-02] [paper425]
 - Generative Models Improve Fairness of Medical Classifiers Under Distribution Shifts
  [[pdf]](https://www.nature.com/articles/s41591-024-02838-6#Sec44) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generative%20Models%20Improve%20Fairness%20of%20Medical%20Classifiers%20Under%20Distribution%20Shifts.pdf)
