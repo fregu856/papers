@@ -1,6 +1,6 @@
 # About
 
-I categorize, annotate and write comments for all research papers I read (410+ papers since 2018).
+I categorize, annotate and write comments for all research papers I read (430+ papers since 2018).
 
 _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5 Years](https://www.fregu856.com/post/phd_of_reading/) (why I think it’s important to read a lot of papers + how I organize my reading + paper statistics + a list of 30 particularly interesting papers)._
 
@@ -21,17 +21,14 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
-##### [24-05-XX] [paper4XX]
-- 
- [[pdf]]() [[annotated pdf]]()
-- ``
-- [Computational Pathology]
+##### [24-05-27] [paper431]
+- Transcriptomics-Guided Slide Representation Learning in Computational Pathology
+ [[pdf]](https://arxiv.org/abs/2405.11618) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transcriptomics-Guided%20Slide%20Representation%20Learning%20in%20Computational%20Pathology.pdf)
+- `CVPR 2024`
+- [Computational Pathology], [Representation Learning]
 ```
-
+Well-written and interesting paper. Figure 2 and 3 are nice, they illustrate the proposed approach well. The approach is very simple/intuitive, really neat that it seems to work so well. The experiments/results all seem reasonable, but I didn't look at them in to much detail, I was mostly just interested in the overall model idea.
 ```
-
-
-
 
 ##### [24-05-20] [paper430]
 - StainFuser: Controlling Diffusion for Faster Neural Style Transfer in Multi-Gigapixel Histology Images
