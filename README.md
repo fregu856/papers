@@ -32,6 +32,14 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 
 
+##### [24-04-27] [paper423]
+- Ultra-Resolution Cascaded Diffusion Model for Gigapixel Image Synthesis in Histopathology
+ [[pdf]](https://arxiv.org/abs/2312.01152) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Ultra-Resolution%20Cascaded%20Diffusion%20Model%20for%20Gigapixel%20Image%20Synthesis%20in%20Histopathology.pdf)
+- `NeurIPS Workshops 2023`
+- [Computational Pathology], [Diffusion Models]
+```
+Short papers, only 3.5 pages. Well-written and quite interesting but details are of course missing, especially in terms of what data was used to train the model. But a good first quick glimpse into what type of models can be used to generate these super high-resolution images.
+```
 
 ##### [24-04-25] [paper422]
 - Joint Multi-Task Learning Improves Weakly-Supervised Biomarker Prediction in Computational Pathology
