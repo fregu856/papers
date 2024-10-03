@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-10-03] [paper432]
+- PathAlign: A vision-language model for whole slide images in histopathology
+ [[pdf]](https://arxiv.org/abs/2406.19578) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PathAlign%20A%20vision-language%20model%20for%20whole%20slide%20images%20in%20histopathology.pdf)
+- `arxiv, 2024-06`
+- [Computational Pathology], [Vision-Language Models]
+```
+Interesting and quite well-written paper. The main idea, to train a ~slide-level~ vision-language model, i.e. to train on WSI-text pairs, makes sense and is definitely interesting. Seems like quite a lot of details are missing though, and the evaluation could definitely be more extensive (for example, would have been nice to have at least some kind of baseline model for the WSI classification results). But overall it was still interesting, happy that I read it.
+```
+
 ##### [24-05-27] [paper431]
 - Transcriptomics-Guided Slide Representation Learning in Computational Pathology
  [[pdf]](https://arxiv.org/abs/2405.11618) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transcriptomics-Guided%20Slide%20Representation%20Learning%20in%20Computational%20Pathology.pdf)
