@@ -32,6 +32,16 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 
 
+
+##### [24-04-27] [paper424]
+- Diffusion-Based Generation of Histopathological Whole Slide Images at a Gigapixel Scale
+ [[pdf]](https://arxiv.org/abs/2311.08199) [[annotated pdf]](https://drive.google.com/file/d/1Aj9zK00Pxx0_NhnWJvY8NdOeYdC54bMh/view?usp=sharing)
+- `WACV 2024`
+- [Computational Pathology], [Diffusion Models]
+```
+Well-written and interesting paper. The method is quite intuitive overall. Mostly qualitative results, but I think that's fine. The example generated WSIs do look pretty good (at least to my untrained eye). That it takes ~40 min to generate a single WSI is interesting and a bit concerning of course, but I actually don't think that's too too bad.
+```
+
 ##### [24-04-27] [paper423]
 - Ultra-Resolution Cascaded Diffusion Model for Gigapixel Image Synthesis in Histopathology
  [[pdf]](https://arxiv.org/abs/2312.01152) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Ultra-Resolution%20Cascaded%20Diffusion%20Model%20for%20Gigapixel%20Image%20Synthesis%20in%20Histopathology.pdf)
