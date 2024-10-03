@@ -21,6 +21,27 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-02-04] [paper4XX]
+- 
+ [[pdf]]() [[annotated pdf]]()
+- ``
+- [Computational Pathology]
+```
+
+```
+
+
+
+
+##### [24-04-17] [paper417]
+- Attention-based Interpretable Regression of Gene Expression in Histology
+ [[pdf]](https://arxiv.org/abs/2208.13776) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Attention-based%20Interpretable%20Regression%20of%20Gene%20Expression%20in%20Histology.pdf)
+- `MICCAI Workshops 2022`
+- [Computational Pathology]
+```
+Well-written and quite interesting paper. The method makes sense overall I think, although it seems a bit strange to use a model pretrained on imagenet as a frozen feature extractor. Not quite clear to me how many of the 45 genes the model actually can predict well, they list just four genes with correlation above 0.6 in Section 3.2, are these the only genes that reach 0.6? Difficult for me to judge if the attention heatmaps actually are reasonable from a medical perspective.
+```
+
 ##### [24-02-04] [paper416]
 - Regression-Based Deep-Learning Predicts Molecular Biomarkers From Pathology Slides
  [[pdf]](https://arxiv.org/abs/2304.05153) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Regression-Based%20Deep-Learning%20Predicts%20Molecular%20Biomarkers%20From%20Pathology%20Slides.pdf)
