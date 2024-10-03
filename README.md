@@ -22,7 +22,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2024:
 
 ##### [24-10-03] [paper432]
-- PathAlign: A vision-language model for whole slide images in histopathology
+- PathAlign: A Vision-Language Model for Whole Slide Images in Histopathology
  [[pdf]](https://arxiv.org/abs/2406.19578) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PathAlign%20A%20vision-language%20model%20for%20whole%20slide%20images%20in%20histopathology.pdf)
 - `arxiv, 2024-06`
 - [Computational Pathology], [Vision-Language Models]
