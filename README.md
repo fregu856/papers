@@ -33,6 +33,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 
 
+##### [24-05-20] [paper430]
+- StainFuser: Controlling Diffusion for Faster Neural Style Transfer in Multi-Gigapixel Histology Images
+ [[pdf]](https://arxiv.org/abs/2403.09302) [[annotated pdf]](https://drive.google.com/file/d/1oapguBpSjQnHdoYXQYK73jKeTbIo3A_1/view?usp=sharing)
+- `arxiv, 2024-03`
+- [Computational Pathology], [Diffusion Models]
+```
+Well-written and quite interesting paper. The overall approach is interesting with the "controlled" stable diffusion model etc. I didn't pay too too much attention to the specific application of stain normalization, I got more interested just in the general model, but the results look reasonable. All figures in the entire paper are nice.
+```
+
 ##### [24-05-15] [paper429]
 - Synthetic Data in Machine Learning for Medicine and Healthcare
  [[pdf]](https://www.nature.com/articles/s41551-021-00751-8) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Synthetic%20Data%20in%20Machine%20Learning%20for%20Medicine%20and%20Healthcare.pdf)
