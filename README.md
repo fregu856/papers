@@ -34,6 +34,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 
 
+##### [24-05-15] [paper428]
+- Synthetic Augmentation with Large-scale Unconditional Pre-Training
+ [[pdf]](https://arxiv.org/abs/2308.04020) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Synthetic%20Augmentation%20with%20Large-scale%20Unconditional%20Pre-Training.pdf)
+- `MICCAI 2023`
+- [Computational Pathology], [Diffusion Models]
+```
+Quite interesting and well-written paper. Similar to "Using Histopathology Latent Diffusion Models as Privacy-Preserving Dataset Augmenters Improves Downstream Classification Performance", and they also get similar performance gains, which is neat. A ~5% performance gain sort of seems to be what's reasonable/realistic to expect from this "use diffusion model to generate synthetic data, train classifier on original + generated data" approach. Again, this is not amazingly big gains, but it's not nothing either.
+```
+
 ##### [24-05-15] [paper427]
 - Using Histopathology Latent Diffusion Models as Privacy-Preserving Dataset Augmenters Improves Downstream Classification Performance
  [[pdf]](https://www.sciencedirect.com/science/article/pii/S0010482524004943?via%3Dihub#abs0015) [_unfortunately not open access, thus no annotated pdf_]
