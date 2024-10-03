@@ -32,8 +32,16 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 
 
+##### [24-02-10] [paper418]
+- An Investigation of Attention Mechanisms in Histopathology Whole-Slide-Image Analysis for Regression Objectives
+ [[pdf]](https://openaccess.thecvf.com/content/ICCV2021W/CDPath/papers/Weitz_An_Investigation_of_Attention_Mechanisms_in_Histopathology_Whole-Slide-Image_Analysis_for_ICCVW_2021_paper.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/An%20Investigation%20of%20Attention%20Mechanisms%20in%20Histopathology%20Whole-Slide-Image%20Analysis%20for%20Regression%20Objectives.pdf)
+- `ICCV Workshops 2021`
+- [Computational Pathology]
+```
+Well-written and interesting paper. I'm slightly confused by the MNIST experiment though. It seems weird to add a proportion of random noise images, what would those correspond to in the histopathology application?
+```
 
-##### [24-04-17] [paper417]
+##### [24-02-06] [paper417]
 - Attention-based Interpretable Regression of Gene Expression in Histology
  [[pdf]](https://arxiv.org/abs/2208.13776) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Attention-based%20Interpretable%20Regression%20of%20Gene%20Expression%20in%20Histology.pdf)
 - `MICCAI Workshops 2022`
