@@ -32,7 +32,16 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 
 
-##### [24-04-17] [paper419]
+##### [24-03-09] [paper420]
+- Multimodal Histopathologic Models Stratify Hormone Receptor-Positive Early Breast Cancer
+ [[pdf]](https://www.biorxiv.org/content/10.1101/2024.02.23.581806v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Multimodal%20Histopathologic%20Models%20Stratify%20Hormone%20Receptor-Positive%20Early%20Breast%20Cancer.pdf)
+- `biorxiv, 2024-02`
+- [Computational Pathology]
+```
+Well-written and interesting paper, I enjoyed reading it. Good background material for me as well.
+```
+
+##### [24-03-07] [paper419]
 - Spatially Resolved Gene Expression Prediction from Histology Images via Bi-modal Contrastive Learning
  [[pdf]](https://openreview.net/forum?id=eT1tMdAUoc) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Spatially%20Resolved%20Gene%20Expression%20Prediction%20from%20Histology%20Images%20via%20Bi-modal%20Contrastive%20Learning.pdf)
 - `NeurIPS 2023`
