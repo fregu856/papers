@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-10-10] [paper433]
+- Benchmarking Spatial Clustering Methods with Spatially Resolved Transcriptomics Data
+ [[pdf]](https://www.nature.com/articles/s41592-024-02215-8) [_unfortunately not open access, thus no annotated pdf_]
+- `Nature Methods, 2024`
+- [ML for Medicine/Healthcare]
+```
+Not particularly interesting paper for me, it's not quite relevant for what I'm working on. I didn't read it in too too much detail.
+```
+
 ##### [24-10-03] [paper432]
 - PathAlign: A Vision-Language Model for Whole Slide Images in Histopathology
  [[pdf]](https://arxiv.org/abs/2406.19578) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PathAlign%20A%20vision-language%20model%20for%20whole%20slide%20images%20in%20histopathology.pdf)
