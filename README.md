@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-10-24] [paper434]
+- A Pathology Foundation Model for Cancer Diagnosis and Prognosis Prediction
+ [[pdf]](https://www.nature.com/articles/s41586-024-07894-z) [_unfortunately not open access, thus no annotated pdf_]
+- `Nature, 2024`
+- [Computational Pathology]
+```
+Quite interesting paper. I read it very quickly though, would have needed more time. I was somewhat confused at first, but OK, this is basically a method for (based on a given patch-level feature extractor) training a model that outputs a ~slide-level~ feature vector for a given WSI. And this slide-level aggregator is trained on 60k WSIs from multiple different tissue types (prostate, colon, breast etc). And in this training they also use a CLIP text encoder to encode the tissue type and incorporate that information into the slide-level feature vector. This idea makes some sense I think, and the performance was consistently improved at least a bit in the ablation in the supplementary material, but this should have been evaluated in more detail (across more tasks) IMO. In downstream tasks, they can then train just a fully-connected layer on top of the slide-level feature vector, which is neat. Overall, I was expecting quite a bit more from a Nature paper.
+```
+
 ##### [24-10-10] [paper433]
 - Benchmarking Spatial Clustering Methods with Spatially Resolved Transcriptomics Data
  [[pdf]](https://www.nature.com/articles/s41592-024-02215-8) [_unfortunately not open access, thus no annotated pdf_]
