@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-10-30] [paper435]
+- Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow
+ [[pdf]](https://openreview.net/pdf/910c5efa5739a5d2bef83d432da87d3096712ebe.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Flow%20Straight%20and%20Fast%20Learning%20to%20Generate%20and%20Transfer%20Data%20with%20Rectified%20Flow.pdf)
+- `ICLR 2023`
+- [Diffusion Models]
+```
+Quite interesting paper. I had to read it a bit too quickly to understand everything properly, but the method overall definitely seems interesting and relatively simple/neat/intuitive (the paper is too long to actually fit the 9 page conference format though).
+```
+
 ##### [24-10-24] [paper434]
 - A Pathology Foundation Model for Cancer Diagnosis and Prognosis Prediction
  [[pdf]](https://www.nature.com/articles/s41586-024-07894-z) [_unfortunately not open access, thus no annotated pdf_]
