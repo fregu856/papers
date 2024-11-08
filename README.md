@@ -21,7 +21,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
-##### [24-10-30] [paper435]
+##### [24-11-07] [paper436]
 - Deep Learning Assessment of Senescence-Associated Nuclear Morphologies in Mammary Tissue from Healthy Female Donors to Predict Future Risk of Breast Cancer: A Retrospective Cohort Study
  [[pdf]](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(24)00150-X/fulltext) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning%20Assessment%20of%20Senescence-Associated%20Nuclear%20Morphologies%20in%20Mammary%20Tissue%20from%20Healthy%20Female%20Donors%20to%20Predict%20Future%20Risk%20of%20Breast%20Cancer%20A%20Retrospective%20Cohort%20Study.pdf)
 - `The Lancet Digital Health, 2024`
