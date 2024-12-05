@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-12-05] [paper438]
+- Out-of-Distribution Detection in Digital Pathology: Do Foundation Models Bring the End to Reconstruction-Based Approaches?
+ [[pdf]]() [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Out-of-Distribution%20Detection%20in%20Digital%20Pathology%20Do%20Foundation%20Models%20Bring%20the%20End%20to%20Reconstruction-Based%20Approaches.pdf)
+- `Computers in Biology and Medicine, 2024`
+- [Computational Pathology], [Out-of-Distribution Detection]
+```
+Well-written and interesting paper, I quite enjoyed reading it. Made me think and gave some ideas. Gives a good overview of what's been done within OOD detection for computational pathology.
+```
+
 ##### [24-11-21] [paper437]
 - Do Histopathological Foundation Models Eliminate Batch Effects? A Comparative Study
  [[pdf]](https://arxiv.org/abs/2411.05489) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Do%20Histopathological%20Foundation%20Models%20Eliminate%20Batch%20Effects%20A%20Comparative%20Study.pdf)
