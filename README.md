@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-12-12] [paper439]
+- Unsupervised Foundation Model-Agnostic Slide-Level Representation Learning
+ [[pdf]](https://arxiv.org/abs/2411.13623) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Unsupervised%20Foundation%20Model-Agnostic%20Slide-Level%20Representation%20Learning.pdf)
+- `arxiv, 2024-11`
+- [Computational Pathology]
+```
+Well-written and quite interesting paper. Not entirely convinced/impressed by the results though. It seems strange to not include standard ABMIL models as a baseline. I would expect ABMIL to outperform doing an MLP on top of the mean patch-level feature vector, so, how much performance gain would then this proposed COBRA approach actually give compared to ABMIL?
+```
+
 ##### [24-12-05] [paper438]
 - Out-of-Distribution Detection in Digital Pathology: Do Foundation Models Bring the End to Reconstruction-Based Approaches?
  [[pdf]](https://www.sciencedirect.com/science/article/pii/S0010482524014124) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Out-of-Distribution%20Detection%20in%20Digital%20Pathology%20Do%20Foundation%20Models%20Bring%20the%20End%20to%20Reconstruction-Based%20Approaches.pdf)
