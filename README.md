@@ -27,7 +27,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - `arxiv, 2024-11`
 - [Computational Pathology]
 ```
-Well-written and quite interesting paper. Not entirely convinced/impressed by the results though. It seems strange to not include standard ABMIL models as a baseline. I would expect ABMIL to outperform doing an MLP on top of the mean patch-level feature vector, so, how much performance gain would then this proposed COBRA approach actually give compared to ABMIL?
+Well-written and quite interesting paper. Not entirely convinced/impressed by the results though. It seems strange to not include standard ABMIL models as a baseline. I would expect ABMIL to outperform doing an MLP on top of the mean patch-level feature vector, so, how much performance gain would then this proposed COBRA approach actually give compared to ABMIL? Also, they don't evaluate if equation (3) actually improves the performance? It might not be needed to do that extra modelling layer, could just apply the attention-based aggregation directly on top of the embeddings?
 ```
 
 ##### [24-12-05] [paper438]
