@@ -27,7 +27,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - `arxiv, 2024-10`
 - [Computational Pathology]
 ```
-
+Quite interesting and well-written paper, but also a bit odd. This is a validation study for a product by a new company (https://www.ataraxis.ai/ataraxis-breast). The paper only contains results for their final model, no ablations at all. For example, they don't compare the performance of their image + clinical model with an image-only or clinical-only model, which is a shame because this would have been interesting. The model itself is also a bit odd, they create ensembles of 10 model variants separately for image data and clinical data. And then in the end they average the risk score of the image-only ensemble and the clinical-only ensemble to compute the final model risk score.
 ```
 
 ##### [24-10-18] [paper440]
