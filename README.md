@@ -27,7 +27,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - `Cell, 2021 (Perspective)`
 - [Computational Pathology]
 ```
-Well-written and interesting paper. Quite easy to understand also for me, gives a good introduction/background to this stuff. I'm happy that I decided to read it.
+Well-written and quite interesting paper. Quite easy to understand also for me, gives a good introduction/background to this stuff. I'm happy that I decided to read it.
 ```
 
 ##### [24-12-12] [paper439]
