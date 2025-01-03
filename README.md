@@ -1,6 +1,6 @@
 # About
 
-I categorize, annotate and write comments for all research papers I read (430+ papers since 2018).
+I categorize, annotate and write comments for all research papers I read (440+ papers since 2018).
 
 _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5 Years](https://www.fregu856.com/post/phd_of_reading/) (why I think it’s important to read a lot of papers + how I organize my reading + paper statistics + a list of 30 particularly interesting papers)._
 
@@ -11,6 +11,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 ### Papers:
 
+- [Papers Read in 2025](#papers-read-in-2025)
 - [Papers Read in 2024](#papers-read-in-2024)
 - [Papers Read in 2023](#papers-read-in-2023)
 - [Papers Read in 2022](#papers-read-in-2022)
@@ -19,9 +20,9 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - [Papers Read in 2019](#papers-read-in-2019)
 - [Papers Read in 2018](#papers-read-in-2018)
 
-#### Papers Read in 2024:
+#### Papers Read in 2025:
 
-##### [24-11-14] [paper441]
+##### [25-01-03] [paper441]
 - Multi-Modal AI for Comprehensive Breast Cancer Prognostication
  [[pdf]](https://arxiv.org/abs/2410.21256) [[annotated pdf]](https://drive.google.com/file/d/1aldnbd6jx_FX7al3IAIWOBiaRdqGkAFJ/view?usp=sharing)
 - `arxiv, 2024-10`
@@ -29,6 +30,8 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 ```
 Quite interesting and well-written paper, but also a bit odd. This is a validation study for a product by a new company (https://www.ataraxis.ai/ataraxis-breast). The paper only contains results for their final model, no ablations at all. For example, they don't compare the performance of their image + clinical model with an image-only or clinical-only model, which is a shame because this would have been interesting. The model itself is also a bit odd, they create ensembles of 10 model variants separately for image data and clinical data. And then in the end they average the risk score of the image-only ensemble and the clinical-only ensemble to compute the final model risk score.
 ```
+
+#### Papers Read in 2024:
 
 ##### [24-10-18] [paper440]
 - The Next Horizon in Precision Oncology: Proteogenomics to Inform Cancer Diagnosis and Treatment
