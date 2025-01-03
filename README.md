@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2024:
 
+##### [24-10-18] [paper440]
+- The Next Horizon in Precision Oncology: Proteogenomics to Inform Cancer Diagnosis and Treatment
+ [[pdf]](https://www.sciencedirect.com/science/article/pii/S0092867421002853?via%3Dihub) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/The%20Next%20Horizon%20in%20Precision%20Oncology_%20Proteogenomics%20to%20Inform%20Cancer%20Diagnosis%20and%20Treatment.pdf)
+- `Cell, 2021 (Perspective)`
+- [Computational Pathology]
+```
+Well-written and interesting paper. Quite easy to understand also for me, gives a good introduction/background to this stuff. I'm happy that I decided to read it.
+```
+
 ##### [24-12-12] [paper439]
 - Unsupervised Foundation Model-Agnostic Slide-Level Representation Learning
  [[pdf]](https://arxiv.org/abs/2411.13623) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Unsupervised%20Foundation%20Model-Agnostic%20Slide-Level%20Representation%20Learning.pdf)
