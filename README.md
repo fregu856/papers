@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-01-11] [paper442]
+- A Novel Pathology Foundation Model by Mayo Clinic, Charité, and Aignostics
+ [[pdf]](https://arxiv.org/abs/2501.05409) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Novel%20Pathology%20Foundation%20Model%20by%20Mayo%20Clinic%2C%20Charit%C3%A9%2C%20and%20Aignostics.pdf)
+- `arxiv, 2025-01`
+- [Computational Pathology]
+```
+Quite interesting and well-written paper. Short, just 5 pages. Interesting dataset, containing H&E, IHC and special stains (not just H&E). And, tiles are extracted at 40x, 20x, 10x and 5x (not just 20x). They don't do any comparisons though, unfortunately. The evaluation only includes two slide-level tasks, with two quite small datasets. But sure, the model still seems to perform well compared to UNI, H-optimus-0, Virchow2 etc.
+```
+
 ##### [25-01-03] [paper441]
 - Multi-Modal AI for Comprehensive Breast Cancer Prognostication
  [[pdf]](https://arxiv.org/abs/2410.21256) [[annotated pdf]](https://drive.google.com/file/d/1aldnbd6jx_FX7al3IAIWOBiaRdqGkAFJ/view?usp=sharing)
