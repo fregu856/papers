@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-01-16] [paper443]
+- EXAONEPath 1.0 Patch-level Foundation Model for Pathology
+ [[pdf]](https://arxiv.org/abs/2408.00380v3) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/EXAONEPath%201.0%20Patch-level%20Foundation%20Model%20for%20Pathology.pdf)
+- `arxiv, 2024-08`
+- [Computational Pathology]
+```
+Interesting topic, but I must say that I was hoping for a bit more, for a more detailed analysis. Figure 2 is interesting, and it makes sense that using color normalization during training of the foundation model could mitigate this. However, I think it's very difficult to determine if / how much the color normalization actually helps given the results in this paper. I would want to see two identical models, trained with/without color normalization, being compared on various downstream tasks. They don't do this direct comparison in the paper, unfortunately. Also, they don't mention where the 35k WSIs used for training are taken from?
+```
+
 ##### [25-01-11] [paper442]
 - A Novel Pathology Foundation Model by Mayo Clinic, Charité, and Aignostics
  [[pdf]](https://arxiv.org/abs/2501.05409) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Novel%20Pathology%20Foundation%20Model%20by%20Mayo%20Clinic%2C%20Charit%C3%A9%2C%20and%20Aignostics.pdf)
