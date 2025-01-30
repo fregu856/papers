@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-01-30] [paper444]
+- Learning Biologically Relevant Features in a Pathology Foundation Model Using Sparse Autoencoders
+ [[pdf]](https://www.arxiv.org/abs/2407.10785) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Biologically%20Relevant%20Features%20in%20a%20Pathology%20Foundation%20Model%20Using%20Sparse%20Autoencoders.pdf)
+- `arxiv, 2024-07`
+- [Computational Pathology]
+```
+Fairly interesting paper. At first I struggled a bit to understand what they actually are trying to do, what the point of this type of analysis is,  this became more clear towards the end of the paper. I think they probably could have given a more general introduction. Could be interesting if this type of analysis perhaps could be used to compare different pathology foundation models, potentially help explain why some model works better for some specific type of tasks.
+```
+
 ##### [25-01-16] [paper443]
 - EXAONEPath 1.0 Patch-level Foundation Model for Pathology
  [[pdf]](https://arxiv.org/abs/2408.00380v3) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/EXAONEPath%201.0%20Patch-level%20Foundation%20Model%20for%20Pathology.pdf)
