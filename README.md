@@ -28,7 +28,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - `arxiv, 2024-07`
 - [Computational Pathology]
 ```
-Fairly interesting paper. At first I struggled a bit to understand what they actually are trying to do, what the point of this type of analysis is,  this became more clear towards the end of the paper. I think they probably could have given a more general introduction. Could be interesting if this type of analysis perhaps could be used to compare different pathology foundation models, potentially help explain why some model works better for some specific type of tasks.
+Fairly interesting paper. At first I struggled a bit to understand what they actually are trying to do, what the point of this type of analysis is, this became more clear towards the end of the paper. I think they probably could have given a more general introduction. Could be interesting if this type of analysis perhaps could be used to compare different pathology foundation models, potentially help explain why some model works better for some specific type of tasks.
 ```
 
 ##### [25-01-16] [paper443]
