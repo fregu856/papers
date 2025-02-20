@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-02-20] [paper445]
+- Deep Learning Predicts Subtype Heterogeneity and Outcomes in Luminal A Breast Cancer Using Routinely Stained Whole-Slide Images 
+ [[pdf]](https://aacrjournals.org/cancerrescommun/article/5/1/157/751265/Deep-Learning-Predicts-Subtype-Heterogeneity-and) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning%20Predicts%20Subtype%20Heterogeneity%20and%20Outcomes%20in%20Luminal%20A%20Breast%20Cancer%20Using%20Routinely%20Stained%20Whole-Slide%20Images.pdf)
+- `Cancer Research Communications, 2025`
+- [Computational Pathology]
+```
+Quite interesting paper. Not a lot of data, neither for training nor evaluation, but still. Interesting that "heterogeneous LumA images, as revealed by a DNN, have worse tumor characteristics and outcomes than homogeneous ones".
+```
+
 ##### [25-01-30] [paper444]
 - Learning Biologically Relevant Features in a Pathology Foundation Model Using Sparse Autoencoders
  [[pdf]](https://www.arxiv.org/abs/2407.10785) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Learning%20Biologically%20Relevant%20Features%20in%20a%20Pathology%20Foundation%20Model%20Using%20Sparse%20Autoencoders.pdf)
