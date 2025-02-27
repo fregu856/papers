@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-02-27] [paper446]
+- Current Pathology Foundation Models are Unrobust to Medical Center Differences 
+ [[pdf]](https://arxiv.org/abs/2501.18055) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Current%20Pathology%20Foundation%20Models%20are%20Unrobust%20to%20Medical%20Center%20Differences.pdf)
+- `arxiv, 2025-01`
+- [Computational Pathology]
+```
+Quite interesting paper. I like the "Robustness index" they propose, seems like a neat way to quantify this. And quite interesting that some models cluster the different medical centers that clearly. Not entirely sure what my main takeaway is though. It's not surprising that models capture differences in color, staining etc. between sites, and it's not quite clear to me how big of a problem this actually will be in practice.
+```
+
 ##### [25-02-20] [paper445]
 - Deep Learning Predicts Subtype Heterogeneity and Outcomes in Luminal A Breast Cancer Using Routinely Stained Whole-Slide Images 
  [[pdf]](https://aacrjournals.org/cancerrescommun/article/5/1/157/751265/Deep-Learning-Predicts-Subtype-Heterogeneity-and) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning%20Predicts%20Subtype%20Heterogeneity%20and%20Outcomes%20in%20Luminal%20A%20Breast%20Cancer%20Using%20Routinely%20Stained%20Whole-Slide%20Images.pdf)
