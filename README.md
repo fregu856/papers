@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-03-06] [paper447]
+-  Distilling Foundation Models for Robust and Efficient Models in Digital Pathology
+ [[pdf]](https://arxiv.org/abs/2501.16239) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Distilling%20Foundation%20Models%20for%20Robust%20and%20Efficient%20Models%20in%20Digital%20Pathology.pdf)
+- `arxiv, 2025-01`
+- [Computational Pathology]
+```
+Interesting paper, well written overall. I quite enjoyed reading it. Interesting that 1.1 billion param ViT-Giant can be distilled down to 86 million param ViT-Base with similar performance here. And just using ~6k WSIs for this, surprising. They never discuss ~WHY~ doing this distillation should improve the robustness in terms of scanner/staining-variability though? How does this actually work? Not at all obvious to me why/how this works. Also, they go against the paper [5] and do ~not~ apply random masking of patches in the iBOT loss, but never even argue for why they choose to do this?
+```
+
 ##### [25-02-27] [paper446]
 - Current Pathology Foundation Models are Unrobust to Medical Center Differences 
  [[pdf]](https://arxiv.org/abs/2501.18055) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Current%20Pathology%20Foundation%20Models%20are%20Unrobust%20to%20Medical%20Center%20Differences.pdf)
