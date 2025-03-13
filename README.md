@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-03-13] [paper448]
+-  Uncertainty Awareness Enables Efficient Labeling for Cancer Subtyping in Digital Pathology 
+ [[pdf]](https://openaccess.thecvf.com/content/WACV2025/html/Sivaroopan_Uncertainty_Awareness_Enables_Efficient_Labeling_for_Cancer_Subtyping_in_Digital_WACV_2025_paper.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Awareness%20Enables%20Efficient%20Labeling%20for%20Cancer%20Subtyping%20in%20Digital%20Pathology.pdf)
+- `WACV 2025`
+- [Computational Pathology]
+```
+Somewhat interesting paper. They train an evidential learning version of SimCLRv2 to estimate uncertainty, which they then use to select examples within active learning. But, just a single dataset for the active learning experiment, only patch-level classification. And they just compare with randomly selecting examples, they don't compare with any other uncertainty estimation method. And, I don't think the results in Table 5 are very impressive. "In essence, our work transforms digital pathology image analysis, introducing a new era of precision and efficiency led by the UA-AL with UA-SimCLRv2" at the end of the Conclusion is a way, way too strong claim.
+```
+
 ##### [25-03-06] [paper447]
 -  Distilling Foundation Models for Robust and Efficient Models in Digital Pathology
  [[pdf]](https://arxiv.org/abs/2501.16239) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Distilling%20Foundation%20Models%20for%20Robust%20and%20Efficient%20Models%20in%20Digital%20Pathology.pdf)
