@@ -22,8 +22,17 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-03-15] [paper449]
+- Emerging Properties in Self-Supervised Vision Transformers
+ [[pdf]](https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html) [[annotated pdf]](https://drive.google.com/file/d/1oNtpQyvmmubFxA7bGr7SdqjS8r1Plzyp/view?usp=sharing)
+- `ICCV 2021`
+- [Representation Learning]
+```
+Well-written and interesting paper. This is the DINO paper, I'm reading this because I'm trying to properly understand how DINOv2 works (because it's used to train basically all CPATH foundation models). Happy that I decided to read this paper, it describes how DINO works, how it relates to previous similar methods etc in a very good way. "we observe that this teacher performs a form of model ensembling.... We observe that this teacher has better performance than the student throughout the training, and hence, guides the training of the student by providing target features of higher quality" is a really neat explanation.
+```
+
 ##### [25-03-13] [paper448]
--  Uncertainty Awareness Enables Efficient Labeling for Cancer Subtyping in Digital Pathology 
+- Uncertainty Awareness Enables Efficient Labeling for Cancer Subtyping in Digital Pathology
  [[pdf]](https://openaccess.thecvf.com/content/WACV2025/html/Sivaroopan_Uncertainty_Awareness_Enables_Efficient_Labeling_for_Cancer_Subtyping_in_Digital_WACV_2025_paper.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Uncertainty%20Awareness%20Enables%20Efficient%20Labeling%20for%20Cancer%20Subtyping%20in%20Digital%20Pathology.pdf)
 - `WACV 2025`
 - [Computational Pathology]
@@ -32,7 +41,7 @@ Somewhat interesting paper. They train an evidential learning version of SimCLRv
 ```
 
 ##### [25-03-06] [paper447]
--  Distilling Foundation Models for Robust and Efficient Models in Digital Pathology
+- Distilling Foundation Models for Robust and Efficient Models in Digital Pathology
  [[pdf]](https://arxiv.org/abs/2501.16239) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Distilling%20Foundation%20Models%20for%20Robust%20and%20Efficient%20Models%20in%20Digital%20Pathology.pdf)
 - `arxiv, 2025-01`
 - [Computational Pathology]
