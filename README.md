@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-03-20] [paper450]
+- iBOT: Image BERT Pre-Training with Online Tokenizer
+ [[pdf]](https://arxiv.org/abs/2111.07832) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/iBOT%20Image%20BERT%20Pre-Training%20with%20Online%20Tokenizer.pdf)
+- `ICLR 2022`
+- [Representation Learning]
+```
+Interesting and overall well-written paper. I'm reading this because I'm trying to properly understand how DINOv2 works. The proposed iBOT is a quite straightforward extension of DINO, adding the random masking and the L_MIM loss. The performance gains compared to DINO are not huge, but still consistent. Conceptually, it also makes sense to add the masked image modelling objective, feels like this should help improve the performance in most cases. Figure 7 and 8 are interesting. Definitely read the DINO paper first, I think that makes it much easier to understand this current iBOT paper.
+```
+
 ##### [25-03-15] [paper449]
 - Emerging Properties in Self-Supervised Vision Transformers
  [[pdf]](https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html) [[annotated pdf]](https://drive.google.com/file/d/1oNtpQyvmmubFxA7bGr7SdqjS8r1Plzyp/view?usp=sharing)
