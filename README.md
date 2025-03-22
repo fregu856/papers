@@ -1,6 +1,6 @@
 # About
 
-I categorize, annotate and write comments for all research papers I read (440+ papers since 2018).
+I categorize, annotate and write comments for all research papers I read (450+ papers since 2018).
 
 _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5 Years](https://www.fregu856.com/post/phd_of_reading/) (why I think it’s important to read a lot of papers + how I organize my reading + paper statistics + a list of 30 particularly interesting papers)._
 
@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2025:
+
+##### [25-03-22] [paper451]
+- Mean Teachers are Better Role Models: Weight-Averaged Consistency Targets Improve Semi-Supervised Deep Learning Results
+ [[pdf]](https://arxiv.org/abs/1703.01780) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Mean%20Teachers%20are%20Better%20Role%20Models%20Weight-Averaged%20Consistency%20Targets%20Improve%20Semi-Supervised%20Deep%20Learning%20Results.pdf)
+- `NeurIPS 2017`
+- [Representation Learning]
+```
+Fairly interesting paper. After having read the original DINO paper, I thought i might be interesting to read this as well. Didn't really add that much, but it was very quick to read, and still kind of interesting and neat to see this idea (exponential moving average of a student to act as a teacher model) in its original form.
+```
 
 ##### [25-03-20] [paper450]
 - iBOT: Image BERT Pre-Training with Online Tokenizer
