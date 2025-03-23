@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-03-23] [paper453]
+- DINOv2: Learning Robust Visual Features without Supervision
+ [[pdf]](https://arxiv.org/abs/2304.07193) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DINOv2%20Learning%20Robust%20Visual%20Features%20without%20Supervision.pdf)
+- `TMLR, 2024`
+- [Representation Learning]
+```
+Well-written and overall interesting paper. The methodological differences compared to iBOT are quite small, but still interesting to see how they actually implement this at a larger scale. After reading the DINO and iBOT paper, this doesn't really add THAT much I suppose, but I still think it will be good to have read this in detail at least once. They summarize it very well in Section 10: "We can attribute the strong performance of the DINOv2 family of models to several factors: i) an improved training recipe with better hyperparameters and regularization (Table 1), ii) a larger model scale with improved results regardless of the data used for training (Fig. 4), iii) a larger dataset (Fig. 4) and iv) the distillation process that makes smaller models benefit from the performance of the strongest ViT-g model (Fig. 5)". The main thing definitely seems to be that they scale iBOT from ViT-L/16 trained on ImageNet-22k (14 million images) to ViT-g/14 trained on their LVD-142M dataset (142 million images). The one proper method change that seems to have the biggest effect is probably adding the KoLeo regularization loss term? The model distillation approach is interesting, that they distill their ViT-g model down to ViT-L and smaller models. Seems to work really well, Figure 5, which interesting and neat.
+```
+
 ##### [25-03-23] [paper452]
 - Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning
  [[pdf]](https://arxiv.org/abs/2006.07733) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bootstrap%20Your%20Own%20Latent%20A%20New%20Approach%20to%20Self-Supervised%20Learning.pdf)
