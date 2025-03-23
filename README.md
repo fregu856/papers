@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-03-23] [paper452]
+- Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning
+ [[pdf]](https://arxiv.org/abs/2006.07733) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Bootstrap%20Your%20Own%20Latent%20A%20New%20Approach%20to%20Self-Supervised%20Learning.pdf)
+- `NeurIPS 2020`
+- [Representation Learning]
+```
+Interesting and well-written paper. After having read the original DINO paper, I thought i might be interesting to read this as well. And yes, this was definitely interesting to read, should have read it before DINO. I was confused why the predictor network branch needs to be added to the online/student network to avoid collapse here in BYOL, and didn't quite understand how DINO actually is different from BYOL. But then I went back to Appendix B and Table 5 in the DINO paper, which is really neat. BYOL without the predictor but with the DINO centering operation (row 9 in Table 5) is stable again, but just 52.6% accuracy. Then change the BYOL MSE loss to the DINO cross-entropy loss (row 4 in Table 5), 52.6% --> 72.5%. And then finally add multi-crop, 72.5% --> 76.1%, and we have the DINO method!
+```
+
 ##### [25-03-22] [paper451]
 - Mean Teachers are Better Role Models: Weight-Averaged Consistency Targets Improve Semi-Supervised Deep Learning Results
  [[pdf]](https://arxiv.org/abs/1703.01780) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Mean%20Teachers%20are%20Better%20Role%20Models%20Weight-Averaged%20Consistency%20Targets%20Improve%20Semi-Supervised%20Deep%20Learning%20Results.pdf)
