@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-03-27] [paper454]
+- Shazam: Unifying Multiple Foundation Models for Advanced Computational Pathology
+ [[pdf]](https://www.arxiv.org/abs/2503.00736) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Shazam%20Unifying%20Multiple%20Foundation%20Models%20for%20Advanced%20Computational%20Pathology.pdf)
+- `arxiv, 2025-03`
+- [Computational Pathology]
+```
+Fairly interesting paper. The idea is kind of interesting and neat, but just patch-level classification, just two datasets, and these datasets are quite small as well. I think you really should compare with simply training a separate model on top of each individual FM, and then doing an ensemble of these. I'm not convinced that their proposed method actually would outperform that simple baseline in practice (at least not in a significant way).
+```
+
 ##### [25-03-23] [paper453]
 - DINOv2: Learning Robust Visual Features without Supervision
  [[pdf]](https://arxiv.org/abs/2304.07193) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DINOv2%20Learning%20Robust%20Visual%20Features%20without%20Supervision.pdf)
