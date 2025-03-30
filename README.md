@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-03-30] [paper457] (originally read 24-10-18)
+- STimage-1K4M: A Histopathology Image-Gene Expression Dataset for Spatial Transcriptomics
+ [[pdf]](https://arxiv.org/abs/2406.06393) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/STimage-1K4M_%20A%20Histopathology%20Image-Gene%20Expression%20Dataset%20for%20Spatial%20Transcriptomics.pdf)
+- `NeurIPS 2024 (Track on Datasets and Benchmarks)`
+- [Computational Pathology]
+```
+Interesting and quite well-written paper. Definitely seems like a useful resource. The ~paper~ itself was a bit less interesting than "HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis", but I think the dataset can still be very useful.
+```
+
 ##### [25-03-30] [paper456] (originally read 24-10-18)
 - HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis
  [[pdf]](https://arxiv.org/abs/2406.16192) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/HEST-1k_%20A%20Dataset%20for%20Spatial%20Transcriptomics%20and%20Histology%20Image%20Analysis.pdf)
