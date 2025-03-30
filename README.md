@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-03-30] [paper459] (originally read 24-12-16)
+- Transcriptional Intra-Tumour Heterogeneity Predicted by Deep Learning in Routine Breast Histopathology Slides Provides Independent Prognostic Information
+ [[pdf]](https://www.sciencedirect.com/science/article/pii/S0959804923003052) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transcriptional%20Intra-Tumour%20Heterogeneity%20Predicted%20by%20Deep%20Learning%20in%20Routine%20Breast%20Histopathology%20Slides%20Provides%20Independent%20Prognostic%20Information.pdf)
+- `European Journal of Cancer, 2023`
+- [Computational Pathology]
+```
+Well-written and interesting paper. Also gives some good medical background for me. Would have been very interesting to see a CoxPH model based only on the predicted slide-level gene-expression as a baseline though (without any spatial features from the patch-level predictions at all), to more explicitly see the effect of including spatial features/info.
+```
+
 ##### [25-03-30] [paper458] (originally read 24-12-16)
 - Path2Space: An AI Approach for Cancer Biomarker Discovery Via Histopathology Inferred Spatial Transcriptomics
  [[pdf]](https://www.biorxiv.org/content/10.1101/2024.10.16.618609v1) [[annotated pdf]](https://drive.google.com/file/d/176FIrYvv5WVFI0qoA5dfCkG8PaPqS7-y/view?usp=sharing)
