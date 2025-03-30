@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-03-30] [paper460] (originally read 24-12-17)
+- Spatial Transcriptomics Reveals Substantial Heterogeneity in Triple-Negative Breast Cancer With Potential Clinical Implications
+ [[pdf]](https://www.nature.com/articles/s41467-024-54145-w) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Spatial%20Transcriptomics%20Reveals%20Substantial%20Heterogeneity%20in%20Triple-Negative%20Breast%20Cancer%20With%20Potential%20Clinical%20Implications.pdf)
+- `Nature Communications, 2024`
+- [Computational Pathology]
+```
+Well-written and interesting paper. I definitely didn't understand everything (I don't have a strong enough medical background for that), but it was still relatively easy to follow. Happy that I read this, I think it's pretty good background material for me. I didn't have time to read the Methods section in much detail though.
+```
+
 ##### [25-03-30] [paper459] (originally read 24-12-16)
 - Transcriptional Intra-Tumour Heterogeneity Predicted by Deep Learning in Routine Breast Histopathology Slides Provides Independent Prognostic Information
  [[pdf]](https://www.sciencedirect.com/science/article/pii/S0959804923003052) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Transcriptional%20Intra-Tumour%20Heterogeneity%20Predicted%20by%20Deep%20Learning%20in%20Routine%20Breast%20Histopathology%20Slides%20Provides%20Independent%20Prognostic%20Information.pdf)
