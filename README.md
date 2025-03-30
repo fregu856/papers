@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-03-30] [paper458] (originally read 24-12-16)
+- Path2Space: An AI Approach for Cancer Biomarker Discovery Via Histopathology Inferred Spatial Transcriptomics
+ [[pdf]](https://www.biorxiv.org/content/10.1101/2024.10.16.618609v1) [[annotated pdf]](https://drive.google.com/file/d/176FIrYvv5WVFI0qoA5dfCkG8PaPqS7-y/view?usp=sharing)
+- `biorxiv, 2024-10`
+- [Computational Pathology]
+```
+Well-written and very interesting paper. The spatial gene-expression regression model is very simple (224x224 tiles centered at spots, CtransPath as feature extractor, and then a 3-layer MLP on top to regress the genes, trained using L2 loss), but still seems to work very well. The patient stratification of TCGA-BRCA based on spatial clusters (Fig 2.c) and the treatment response prediction (Fig 2.d) is super interesting. Cool paper, I enjoyed reading it.
+```
+
 ##### [25-03-30] [paper457] (originally read 24-10-18)
 - STimage-1K4M: A Histopathology Image-Gene Expression Dataset for Spatial Transcriptomics
  [[pdf]](https://arxiv.org/abs/2406.06393) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/STimage-1K4M_%20A%20Histopathology%20Image-Gene%20Expression%20Dataset%20for%20Spatial%20Transcriptomics.pdf)
