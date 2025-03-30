@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-03-30] [paper455] (originally read 24-10-18)
+- SpatialDE: Identification of Spatially Variable Genes
+ [[pdf]](https://www.nature.com/articles/nmeth.4636) [_unfortunately not open access, thus no annotated pdf_]
+- `Nature Methods, 2018`
+- [Computational Pathology]
+```
+Quite interesting and well-written paper, but I still don't fully understand what this type of method actually is used for. I'm still not entirely sure if this is relevant for what I want do to, if this actually could be practically useful for me.
+```
+
 ##### [25-03-27] [paper454]
 - Shazam: Unifying Multiple Foundation Models for Advanced Computational Pathology
  [[pdf]](https://www.arxiv.org/abs/2503.00736) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Shazam%20Unifying%20Multiple%20Foundation%20Models%20for%20Advanced%20Computational%20Pathology.pdf)
