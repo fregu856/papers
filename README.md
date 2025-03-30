@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-03-30] [paper461] (originally read 24-12-18)
+- Digital Profiling of Gene Expression from Histology Images with Linearized Attention
+ [[pdf]](https://www.nature.com/articles/s41467-024-54182-5) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Digital%20Profiling%20of%20Gene%20Expression%20from%20Histology%20Images%20with%20Linearized%20Attention.pdf)
+- `Nature Communications, 2024`
+- [Computational Pathology]
+```
+Well-written and very interesting, I enjoyed reading it. A bunch of highly relevant things for me. Basically my only question is this: why don't they compare their model with a standard ABMIL model? Seems like an obvious baseline. Feels like that could perform just as well?
+```
+
 ##### [25-03-30] [paper460] (originally read 24-12-17)
 - Spatial Transcriptomics Reveals Substantial Heterogeneity in Triple-Negative Breast Cancer With Potential Clinical Implications
  [[pdf]](https://www.nature.com/articles/s41467-024-54145-w) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Spatial%20Transcriptomics%20Reveals%20Substantial%20Heterogeneity%20in%20Triple-Negative%20Breast%20Cancer%20With%20Potential%20Clinical%20Implications.pdf)
