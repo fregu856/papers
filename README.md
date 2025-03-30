@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-03-30] [paper456] (originally read 24-10-18)
+- HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis
+ [[pdf]](https://arxiv.org/abs/2406.16192) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/HEST-1k_%20A%20Dataset%20for%20Spatial%20Transcriptomics%20and%20Histology%20Image%20Analysis.pdf)
+- `NeurIPS 2024`
+- [Computational Pathology]
+```
+Well-written and interesting paper, seems like a super useful resource! The benchmark of the foundation models is cool, and the updated results on github are interesting, H-optimus-0 seems to perform very well on these tasks.
+```
+
 ##### [25-03-30] [paper455] (originally read 24-10-18)
 - SpatialDE: Identification of Spatially Variable Genes
  [[pdf]](https://www.nature.com/articles/nmeth.4636) [_unfortunately not open access, thus no annotated pdf_]
