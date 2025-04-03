@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-04-03] [paper462]
+- STAIG: Spatial Transcriptomics Analysis via Image-Aided Graph Contrastive Learning for Domain Exploration and Alignment-Free Integration
+ [[pdf]](https://www.nature.com/articles/s41467-025-56276-0) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/STAIG%20Spatial%20Transcriptomics%20Analysis%20via%20Image-Aided%20Graph%20Contrastive%20Learning%20for%20Domain%20Exploration%20and%20Alignment-Free%20Integration.pdf)
+- `Nature Communications, 2025`
+- [Computational Pathology]
+```
+Somewhat interesting paper, don't think I have the background for properly understanding/appreciating this. Some things seem a bit odd though, like doing Gaussian blur + bandpass filtering on the images. Also, it's not clear to me how they actually train the image feature extractor with BYOL, what data do they use? Just all spots/patches in all slices in the different datasets/cases they evaluate on?
+```
+
 ##### [25-03-30] [paper461] (originally read 24-12-18)
 - Digital Profiling of Gene Expression from Histology Images with Linearized Attention
  [[pdf]](https://www.nature.com/articles/s41467-024-54182-5) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Digital%20Profiling%20of%20Gene%20Expression%20from%20Histology%20Images%20with%20Linearized%20Attention.pdf)
