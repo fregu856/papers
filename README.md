@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-04-09] [paper463]
+- RankMe: Assessing the Downstream Performance of Pretrained Self-Supervised Representations by Their Rank
+ [[pdf]](https://arxiv.org/abs/2210.02885) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/RankMe%20Assessing%20the%20Downstream%20Performance%20of%20Pretrained%20Self-Supervised%20Representations%20by%20Their%20Rank.pdf)
+- `ICML 2023`
+- [Representation Learning]
+```
+Interesting paper. Simple and intuitive metric. I thought that I understood quite well how DINO works though, but I don't see why it's considered a cluster-based method. Still need to do some more reading there.
+```
+
 ##### [25-04-03] [paper462]
 - STAIG: Spatial Transcriptomics Analysis via Image-Aided Graph Contrastive Learning for Domain Exploration and Alignment-Free Integration
  [[pdf]](https://www.nature.com/articles/s41467-025-56276-0) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/STAIG%20Spatial%20Transcriptomics%20Analysis%20via%20Image-Aided%20Graph%20Contrastive%20Learning%20for%20Domain%20Exploration%20and%20Alignment-Free%20Integration.pdf)
