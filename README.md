@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-04-12] [paper464]
+- Towards Large-Scale Training of Pathology Foundation Models
+ [[pdf]](https://arxiv.org/abs/2404.15217) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Towards%20Large-Scale%20Training%20of%20Pathology%20Foundation%20Models.pdf)
+- `arxiv, 2024-03`
+- [Computational Pathology], [Representation Learning]
+```
+Well-written and quite interesting paper. The experiment with training on 1%, 10%, 30%, 100% of TCGA WSIs is interesting. Their ODCorr metric also seems interesting (in particular, Figure 4 (left) is interesting), but not entirely sure how heavy it is to compute for large numbers of tile-level feature vectors.
+```
+
 ##### [25-04-09] [paper463]
 - RankMe: Assessing the Downstream Performance of Pretrained Self-Supervised Representations by Their Rank
  [[pdf]](https://arxiv.org/abs/2210.02885) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/RankMe%20Assessing%20the%20Downstream%20Performance%20of%20Pretrained%20Self-Supervised%20Representations%20by%20Their%20Rank.pdf)
