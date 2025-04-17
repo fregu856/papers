@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-04-17] [paper465]
+- Revisiting Automatic Data Curation for Vision Foundation Models in Digital Pathology
+ [[pdf]](https://arxiv.org/abs/2503.18709) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Revisiting%20Automatic%20Data%20Curation%20for%20Vision%20Foundation%20Models%20in%20Digital%20Pathology.pdf)
+- `arxiv, 2025-04`
+- [Computational Pathology], [Representation Learning]
+```
+Interesting paper. Intuitive idea, neat that it also seems quite promising in practice. One thing I don't really understand though: If they do the stratified batch sampling (T1-BS), so that each batch during training contains an equal number of tiles from each cluster, why do this on the 10% curated subset? Why not just do this on the full dataset? Then you're not just throwing away any parts of the data?
+```
+
 ##### [25-04-12] [paper464]
 - Towards Large-Scale Training of Pathology Foundation Models
  [[pdf]](https://arxiv.org/abs/2404.15217) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Towards%20Large-Scale%20Training%20of%20Pathology%20Foundation%20Models.pdf)
