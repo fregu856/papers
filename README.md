@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-04-23] [paper466]
+- Unsupervised Embedding Quality Evaluation
+ [[pdf]](https://arxiv.org/abs/2305.16562) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Unsupervised%20Embedding%20Quality%20Evaluation.pdf)
+- `ICML Workshops 2023`
+- [Representation Learning]
+```
+Quite interesting paper. A couple of different metrics here which seem potentially useful, in particular NESum (at least based on the results in Figure 1 and 2). NESum seems to be better than RankMe at least?
+```
+
 ##### [25-04-17] [paper465]
 - Revisiting Automatic Data Curation for Vision Foundation Models in Digital Pathology
  [[pdf]](https://arxiv.org/abs/2503.18709) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Revisiting%20Automatic%20Data%20Curation%20for%20Vision%20Foundation%20Models%20in%20Digital%20Pathology.pdf)
