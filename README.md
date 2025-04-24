@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-04-24] [paper467]
+- Training State-of-the-Art Pathology Foundation Models with Orders of Magnitude Less Data
+ [[pdf]](https://arxiv.org/abs/2504.05186) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Training%20State-of-the-Art%20Pathology%20Foundation%20Models%20with%20Orders%20of%20Magnitude%20Less%20Data.pdf)
+- `arxiv, 2025-04`
+- [Computational Pathology], [Representation Learning]
+```
+Interesting paper, but also a couple of things which are a bit unclear to me. I'm confused by the high-resolution tuning, how this is different from what they did in UNI. What is actually the difference between "tcga-100M" and "Midnight-12k"? Because, tcga-100M is even a bit better in both slide-level tasks and on HEST. Does the training really not converge without the HSV filter, seems a bit odd? But yes, still interesting overall. Not entirely sure what the main takeaway is though. Yes, just training on more WSIs doesn't automatically give better models, but we sort of knew this from before as well (since Virchow is trained on more than 1 million WSIs but still performs quite poorly in many tasks). And, I'm not sure if this paper helps me understand WHY this is, or what actually are the important factors that makes strong FMs?
+```
+
 ##### [25-04-23] [paper466]
 - Unsupervised Embedding Quality Evaluation
  [[pdf]](https://arxiv.org/abs/2305.16562) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Unsupervised%20Embedding%20Quality%20Evaluation.pdf)
