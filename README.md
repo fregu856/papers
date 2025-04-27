@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-04-27] [paper468]
+- Posterior-Mean Rectified Flow: Towards Minimum MSE Photo-Realistic Image Restoration
+ [[pdf]](https://openreview.net/forum?id=hPOt3yUXii) [[annotated pdf]](https://drive.google.com/file/d/1oormDl8lmeKDavZ-X_nxs-qDrS3iGEAu/view?usp=sharing)
+- `ICLR 2025`
+- [Diffusion Models]
+```
+Well written and quite interesting paper. Conceptually quite simple and intuitive approach. The evaluation/comparison in Section 5.2 is neat, and Table 11 in the appendix is interesting, makes it very clear how these methods differ.
+```
+
 ##### [25-04-24] [paper467]
 - Training State-of-the-Art Pathology Foundation Models with Orders of Magnitude Less Data
  [[pdf]](https://arxiv.org/abs/2504.05186) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Training%20State-of-the-Art%20Pathology%20Foundation%20Models%20with%20Orders%20of%20Magnitude%20Less%20Data.pdf)
