@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-06-02] [paper469]
+- Foundation Models -- A Panacea for Artificial Intelligence in Pathology?
+ [[pdf]](https://arxiv.org/abs/2502.21264) [[annotated pdf]](https://drive.google.com/file/d/11w2HMv19PDlQuE-4f3dkqz6eCh3WI4D0/view?usp=sharing)
+- `arxiv, 2025-02`
+- [Computational Pathology] 
+```
+Interesting paper, I quite enjoyed reading it. Very impressive datasets, comprehensive external validation with data from multiple sites from different countries etc. I think the overall idea makes sense, that if you happen to have 50k labeled WSIs, then it definitely feels like training a model from scratch on this data should be able to outperform the approach of using frozen FMs. I wish that they would have discussed Figure 2.e and 2.f more though, the fact that the performance barely improves when the amount of train data is doubled from 50% to 100%. Is this just because they have hit the performance ceiling for this particular task, where the labels are known to be noisy due to inter-rater variability etc? Or, could the performance perhaps scale better with increased data if they had used a bigger model?
+```
+
 ##### [25-04-27] [paper468]
 - Posterior-Mean Rectified Flow: Towards Minimum MSE Photo-Realistic Image Restoration
  [[pdf]](https://openreview.net/forum?id=hPOt3yUXii) [[annotated pdf]](https://drive.google.com/file/d/1oormDl8lmeKDavZ-X_nxs-qDrS3iGEAu/view?usp=sharing)
