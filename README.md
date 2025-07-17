@@ -6,7 +6,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [Social Consequences of ML], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Image Restoration], [Computational Pathology], [Survival Analysis], [Miscellaneous].
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [Social Consequences of ML], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Image Restoration], [Computational Pathology], [Survival Analysis], [Time Series], [Miscellaneous].
 
 
 ### Papers:
@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2025:
+
+##### [25-07-17] [paper470]
+- Are Time Series Foundation Models Ready for Vital Sign Forecasting in Healthcare?
+ [[pdf]](https://proceedings.mlr.press/v259/gu25a.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Are%20Time%20Series%20Foundation%20Models%20Ready%20for%20Vital%20Sign%20Forecasting%20in%20Healthcare.pdf)
+- `ML4H 2024`
+- [ML for Medicine/Healthcare], [Time Series]
+```
+Well written and quite interesting paper, I think this was a pretty good place to start for me, I will need to do a lot more reading on time series model, medical time series data etc etc.
+```
 
 ##### [25-06-02] [paper469]
 - Foundation Models -- A Panacea for Artificial Intelligence in Pathology?
