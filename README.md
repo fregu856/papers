@@ -28,7 +28,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - `ML4H 2024`
 - [ML for Medicine/Healthcare], [Time Series]
 ```
-Well written and quite interesting paper, I think this was a pretty good place to start for me, I will need to do a lot more reading on time series model, medical time series data etc etc.
+Well written and quite interesting paper, I think this was a pretty good place to start for me, I will need to do a lot more reading on time series models, medical time series data etc etc.
 ```
 
 ##### [25-06-02] [paper469]
