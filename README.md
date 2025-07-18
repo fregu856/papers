@@ -6,7 +6,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [Social Consequences of ML], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Image Restoration], [Computational Pathology], [Survival Analysis], [Time Series], [Miscellaneous].
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [Social Consequences of ML], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Image Restoration], [Computational Pathology], [Survival Analysis], [Time Series], [ECGs], [Miscellaneous].
 
 
 ### Papers:
@@ -21,6 +21,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2025:
+
+##### [25-07-18] [paper471]
+- Sensing Cardiac Health Across Scenarios and Devices: A Multi-Modal Foundation Model Pretrained on Heterogeneous Data from 1.7 Million Individuals
+ [[pdf]](https://arxiv.org/abs/2507.01045) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Sensing%20Cardiac%20Health%20Across%20Scenarios%20and%20Devices%20A%20Multi-Modal%20Foundation%20Model%20Pretrained%20on%20Heterogeneous%20Data%20from%201.7%20Million%20Individuals.pdf)
+- `arxiv, 2025-06`
+- [ML for Medicine/Healthcare], [ECGs]
+```
+Well written and interesting paper, pretty cool approach. All experiments/analysis in section 2.4 - 2.7 is quite interesting. Note however that this version contains no Methods section, so it gives no details on the transformer-based model or the masking-based pre-training method, unfortunately.
+```
 
 ##### [25-07-17] [paper470]
 - Are Time Series Foundation Models Ready for Vital Sign Forecasting in Healthcare?
