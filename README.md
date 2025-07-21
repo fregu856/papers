@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-07-21] [paper472]
+- RiskAgent: Autonomous Medical AI Copilot for Generalist Risk Prediction
+ [[pdf]](https://arxiv.org/abs/2503.03802) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/RiskAgent%20Autonomous%20Medical%20AI%20Copilot%20for%20Generalist%20Risk%20Prediction.pdf)
+- `arxiv, 2025-03`
+- [ML for Medicine/Healthcare], [Language Models] 
+```
+Quite interesting paper. This is definitely not my area of expertise, but they explain things well here, I ~think~ that I mostly understand how this works on a high level. Seems like an approach that makes sense overall, and the results compared to the original LLMs do seem strong, but difficult for me to properly judge this.
+```
+
 ##### [25-07-18] [paper471]
 - Sensing Cardiac Health Across Scenarios and Devices: A Multi-Modal Foundation Model Pretrained on Heterogeneous Data from 1.7 Million Individuals
  [[pdf]](https://arxiv.org/abs/2507.01045) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Sensing%20Cardiac%20Health%20Across%20Scenarios%20and%20Devices%20A%20Multi-Modal%20Foundation%20Model%20Pretrained%20on%20Heterogeneous%20Data%20from%201.7%20Million%20Individuals.pdf)
