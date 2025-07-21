@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-07-21] [paper473]
+- Machine Learning Generalizability Across Healthcare Settings: Insights from Multi-Site COVID-19 Screening
+ [[pdf]](https://www.nature.com/articles/s41746-022-00614-9) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Machine%20Learning%20Generalizability%20Across%20Healthcare%20Settings%20Insights%20from%20Multi-Site%20COVID-19%20Screening.pdf)
+- `npj Digital Medicine, 2022`
+- [ML for Medicine/Healthcare]
+```
+Well written and fairly interesting paper, pretty quick to read. Everything is solid, large datasets, results make sense etc. I'm trying to read quite broadly, different types of papers from the group.
+```
+
 ##### [25-07-21] [paper472]
 - RiskAgent: Autonomous Medical AI Copilot for Generalist Risk Prediction
  [[pdf]](https://arxiv.org/abs/2503.03802) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/RiskAgent%20Autonomous%20Medical%20AI%20Copilot%20for%20Generalist%20Risk%20Prediction.pdf)
