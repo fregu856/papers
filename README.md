@@ -6,7 +6,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [Social Consequences of ML], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [NLP], [Representation Learning], [Vision-Language Models], [Image Restoration], [Computational Pathology], [Survival Analysis], [Time Series], [ECGs], [Miscellaneous].
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [Social Consequences of ML], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [Language Models], [Representation Learning], [Vision-Language Models], [Image Restoration], [Computational Pathology], [Survival Analysis], [Time Series], [ECGs], [Miscellaneous].
 
 
 ### Papers:
@@ -1762,7 +1762,7 @@ Quite interesting, but not overly well-written paper. I don't like the "... is a
 - Out-of-Distribution Detection and Selective Generation for Conditional Language Models
  [[pdf]](https://openreview.net/forum?id=kJUS5nD0vPB) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Out-of-Distribution%20Detection%20and%20Selective%20Generation%20for%20Conditional%20Language%20Models.pdf)
 - `ICLR 2023`
-- [Out-of-Distribution Detection], [Selective Prediction], [NLP]
+- [Out-of-Distribution Detection], [Selective Prediction], [Language Models]
 ```
 Well-written and quite interesting paper. Doing "selective generation" generally makes sense. Their method seems like a quite intuitive extension of "A simple fix to Mahalanobis distance for improving near-OOD detection" (relative Mahalanobis distance) to the setting of language models. Also seems to perform quite well, but not super impressive performance compared to the baselines perhaps.
 ```
@@ -2007,7 +2007,7 @@ Well-written and quite interesting paper. Describes the distributive justice pri
 - Talking About Large Language Models
  [[pdf]](https://arxiv.org/abs/2212.03551) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Talking%20About%20Large%20Language%20Models.pdf)
 - `2022-12`
-- [Social Consequences of ML], [NLP]
+- [Social Consequences of ML], [Language Models]
 ```
 Well-written and interesting paper. Sections 1-6 and Section 11 are very interesting. A breath of fresh air to read this in the midst of the ChatGPT hype. It contains a lot of good quotes, for example:"To ensure that we can make informed decisions about the trustworthiness and safety of the AI systems we deploy, it is advisable to keep to the fore the way those systems actually work, and thereby to avoid imputing to them capacities they lack, while making the best use of the remarkable capabilities they genuinely possess".
 ```
@@ -3607,7 +3607,7 @@ Interesting and very well-written paper. I recommend actually going through the 
 - Noise Contrastive Estimation and Negative Sampling for Conditional Models: Consistency and Statistical Efficiency [[pdf]](https://arxiv.org/abs/1809.01812) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Noise%20Contrastive%20Estimation%20and%20Negative%20Sampling%20for%20Conditional%20Models:%20Consistency%20and%20Statistical%20Efficiency.pdf)
 - *Zhuang Ma, Michael Collins*
 - `EMNLP 2018`
-- [Energy-Based Models], [NLP]
+- [Energy-Based Models], [Language Models]
 ```
 Interesting and quite well-written paper. Quite theoretical paper with a bunch of proofs. Interesting to see NCE applied specifically to supervised problems (modelling p(y | x)).
 ```
@@ -3831,7 +3831,7 @@ Somewhat well-written and interesting paper. It was however a quite heavy read. 
 - Language Models are Unsupervised Multitask Learners [[pdf]](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) [[blog post]](https://blog.openai.com/better-language-models/) [[code]](https://github.com/openai/gpt-2) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Language%20Models%20are%20Unsupervised%20Multitask%20Learners.pdf)
 - *Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever*
 - `2019-02`
-- [NLP]
+- [Language Models]
 ```
 Interesting and quite well-written paper. There are not that many technical details, one would probably have to read previous work for that. One probably needs to be somewhat familiar with NLP. Very impressive work from an infrastructure perspective. Just as context to their model with 1.5 billion parameters: a ResNet101 has 45 million parameters, which takes up 180 Mb when saved to disk. DeepLabV3 for semantic segmentation has roughly 75 million parameters. This has become a pretty hyped paper, and I agree that the work is impressive, but it still seems to me like their model is performing roughly as one would expect. It performs really well on general language modeling tasks, which is exactly what it was trained for (although it was not fine-tuned on the specific benchmark datasets), but performs rather poorly on translation and question-answering. The fact that the model has been able to learn some basic translation in this fully unsupervised setting is still quite impressive and interesting though.
 ```
