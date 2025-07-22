@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-07-22] [paper474]
+- A Multimodal Multidomain Multilingual Medical Foundation Model for Zero Shot Clinical Diagnosis
+ [[pdf]](https://www.nature.com/articles/s41746-024-01339-7) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Multimodal%20Multidomain%20Multilingual%20Medical%20Foundation%20Model%20for%20Zero%20Shot%20Clinical%20Diagnosis.pdf)
+- `npj Digital Medicine, 2025`
+- [ML for Medicine/Healthcare], [Vision-Language Models]
+```
+Again not my main area of expertise, but quite interesting paper. Pretty cool approach, Figure 1 is neat, and I think the method/model makes sense overall. Difficult for me to properly judge how strong all results are though, in particular how well the Chinese report generation works, whether this actually would be useful in practice.
+```
+
 ##### [25-07-21] [paper473]
 - Machine Learning Generalizability Across Healthcare Settings: Insights from Multi-Site COVID-19 Screening
  [[pdf]](https://www.nature.com/articles/s41746-022-00614-9) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Machine%20Learning%20Generalizability%20Across%20Healthcare%20Settings%20Insights%20from%20Multi-Site%20COVID-19%20Screening.pdf)
