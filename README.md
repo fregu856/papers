@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-07-22] [paper475]
+- A Scalable Federated Learning Solution for Secondary Care Using Low-Cost Microcomputing: Privacy-Preserving Development and Evaluation of a COVID-19 Screening Test in UK Hospitals
+ [[pdf]](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(23)00226-1/fulltext) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Scalable%20Federated%20Learning%20Solution%20for%20Secondary%20Care%20Using%20Low-Cost%20Microcomputing%20Privacy-Preserving%20Development%20and%20Evaluation%20of%20a%20COVID-19%20Screening%20Test%20in%20UK%20Hospitals.pdf)
+- `The Lancet Digital Health, 2024`
+- [ML for Medicine/Healthcare]
+```
+Well written and solid paper, everything is explained well. I don't know much at all about federated learning, but this was easy to understand. Pretty neat that they could use Raspberry Pis for this entire study.
+```
+
 ##### [25-07-22] [paper474]
 - A Multimodal Multidomain Multilingual Medical Foundation Model for Zero Shot Clinical Diagnosis
  [[pdf]](https://www.nature.com/articles/s41746-024-01339-7) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Multimodal%20Multidomain%20Multilingual%20Medical%20Foundation%20Model%20for%20Zero%20Shot%20Clinical%20Diagnosis.pdf)
