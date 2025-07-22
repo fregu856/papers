@@ -22,6 +22,16 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+
+##### [25-07-22] [paper476]
+- Predicting Type 1 Diabetes in Children Using Electronic Health Records in Primary Care in the UK: Development and Validation of a Machine-Learning Algorithm
+ [[pdf]](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(24)00050-5/fulltext) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predicting%20Type%201%20Diabetes%20in%20Children%20Using%20Electronic%20Health%20Records%20in%20Primary%20Care%20in%20the%20UK%20Development%20and%20Validation%20of%20a%20Machine-Learning%20Algorithm.pdf)
+- `The Lancet Digital Health, 2024`
+- [ML for Medicine/Healthcare]
+```
+Quite interesting paper. A lot of data, interesting problem, I quite enjoyed reading it overall. I'm confused by the "Mean number of days by which diagnosis would have been anticipated" results in Table 3 and Figure 3 though. They discuss this a bit at the end of the Discussion, how it might seem weird that the random chance baseline has a higher number than their model, but that this "must be balanced against the lower proportion of correct diagnoses that the chance algorithm would achieve". But, does it make sense to report this number then, this conditional number? Could it not be better to report the total number of days, across all patients? Sort of?
+```
+
 ##### [25-07-22] [paper475]
 - A Scalable Federated Learning Solution for Secondary Care Using Low-Cost Microcomputing: Privacy-Preserving Development and Evaluation of a COVID-19 Screening Test in UK Hospitals
  [[pdf]](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(23)00226-1/fulltext) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Scalable%20Federated%20Learning%20Solution%20for%20Secondary%20Care%20Using%20Low-Cost%20Microcomputing%20Privacy-Preserving%20Development%20and%20Evaluation%20of%20a%20COVID-19%20Screening%20Test%20in%20UK%20Hospitals.pdf)
