@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-07-23] [paper479]
+- Aligning, Autoencoding and Prompting Large Language Models for Novel Disease Reporting
+ [[pdf]](https://ieeexplore.ieee.org/document/10854911) [_unfortunately not open access, thus no annotated pdf_]
+- `TPAMI, 2025`
+- [ML for Medicine/Healthcare], [Vision-Language Models] 
+```
+Well written and quite interesting paper. I think the method makes sense overall, and they also describe things well. I don't quite understand how the actual report generation is done though, how the learned dictionary is utilized there. Results seem promising, but difficult for me to properly judge I think.
+```
+
 ##### [25-07-23] [paper478]
 - There Is No Such Thing as a Validated Prediction Model
  [[pdf]](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-023-02779-w) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/There%20Is%20No%20Such%20Thing%20as%20a%20Validated%20Prediction%20Model.pdf)
