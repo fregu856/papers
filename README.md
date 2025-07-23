@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-07-23] [paper478]
+- There Is No Such Thing as a Validated Prediction Model
+ [[pdf]](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-023-02779-w) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/There%20Is%20No%20Such%20Thing%20as%20a%20Validated%20Prediction%20Model.pdf)
+- `BMC Medicine, 2023 (Opinion paper)`
+- [ML for Medicine/Healthcare]
+```
+Fairly interesting paper, quick to read. Can of course seem like all this should be obvious, but I do quite like the final conclusion: "In conclusion, clinical prediction models are never truly validated due to expected heterogeneity in model performance between locations and settings, and over time. This calls for a stronger focus on validation studies, using principled validation strategies to quantify heterogeneity, regularly monitor model performance, and update models". Yes, I can agree that we should encourage validation studies more, put more effort into evaluating current models really extensively, instead of just churning out more and more new models.
+```
+
 ##### [25-07-23] [paper477]
 - Generalizability Assessment of AI Models Across Hospitals in a Low-Middle and High Income Country
  [[pdf]](https://www.nature.com/articles/s41467-024-52618-6) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generalizability%20Assessment%20of%20AI%20Models%20Across%20Hospitals%20in%20a%20Low-Middle%20and%20High%20Income%20Country.pdf)
