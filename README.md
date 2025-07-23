@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-07-23] [paper477]
+- Generalizability Assessment of AI Models Across Hospitals in a Low-Middle and High Income Country
+ [[pdf]](https://www.nature.com/articles/s41467-024-52618-6) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generalizability%20Assessment%20of%20AI%20Models%20Across%20Hospitals%20in%20a%20Low-Middle%20and%20High%20Income%20Country.pdf)
+- `Nature Communications, 2024`
+- [ML for Medicine/Healthcare]
+```
+Well written and solid paper. Results make sense, nothing is particularly surprising, but quite interesting study with both UK and Vietnam data etc.
+```
+
 ##### [25-07-22] [paper476]
 - Predicting Type 1 Diabetes in Children Using Electronic Health Records in Primary Care in the UK: Development and Validation of a Machine-Learning Algorithm
  [[pdf]](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(24)00050-5/fulltext) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predicting%20Type%201%20Diabetes%20in%20Children%20Using%20Electronic%20Health%20Records%20in%20Primary%20Care%20in%20the%20UK%20Development%20and%20Validation%20of%20a%20Machine-Learning%20Algorithm.pdf)
