@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-07-24] [paper482]
+- Large Language Models Are Poor Clinical Decision-Makers: A Comprehensive Benchmark
+ [[pdf]](https://aclanthology.org/2024.emnlp-main.759/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large%20Language%20Models%20Are%20Poor%20Clinical%20Decision-Makers%20A%20Comprehensive%20Benchmark.pdf)
+- `EMNLP 2024`
+- [ML for Medicine/Healthcare], [Language Models] 
+```
+Quite interesting paper, overall a good paper for me to read I think, to get a better sense of how LLMs typically are benchmarked within the medical domain and how well they perform. Section 2 is nice, with all key findings summarized.
+```
+
 ##### [25-07-24] [paper481]
 - The Rise and Potential of Large Language Model Based Agents: A Survey
  [[pdf]](https://link.springer.com/article/10.1007/s11432-024-4222-0) [_unfortunately not open access, thus no annotated pdf_]
