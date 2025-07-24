@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-07-24] [paper481]
+- The Rise and Potential of Large Language Model Based Agents: A Survey
+ [[pdf]](https://link.springer.com/article/10.1007/s11432-024-4222-0) [_unfortunately not open access, thus no annotated pdf_]
+- `Science China Information Sciences, 2025`
+- [Language Models]
+```
+Not the type of paper I had expected, basically no technical details at all. Personally, I did not find this useful. Long paper, 30 pages, but I didn't read everything in detail.
+```
+
 ##### [25-07-24] [paper480]
 - Application of Large Language Models in Medicine
  [[pdf]](https://www.nature.com/articles/s44222-025-00279-5) [_unfortunately not open access, thus no annotated pdf_]
