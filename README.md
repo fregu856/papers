@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-07-24] [paper480]
+- Application of Large Language Models in Medicine
+ [[pdf]](https://www.nature.com/articles/s44222-025-00279-5) [_unfortunately not open access, thus no annotated pdf_]
+- `Nature Reviews Bioengineering, 2025`
+- [ML for Medicine/Healthcare], [Language Models] 
+```
+Well-written paper, and I think this was quite useful for me to read. I think it gives a good overview of things, a good place to start. My main concrete takeaway is that the authors seem to feel quite strongly that we need better benchmarks, that we need to evaluate these models in a better way, which better captures how they actually would perform in real-world medical practice (not just a bunch of Q&As).
+```
+
 ##### [25-07-23] [paper479]
 - Aligning, Autoencoding and Prompting Large Language Models for Novel Disease Reporting
  [[pdf]](https://ieeexplore.ieee.org/document/10854911) [_unfortunately not open access, thus no annotated pdf_]
