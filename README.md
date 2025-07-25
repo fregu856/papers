@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-07-25] [paper484]
+- Development and Validation of an Autonomous Artificial Intelligence Agent for Clinical Decision-Making in Oncology
+ [[pdf]](https://www.nature.com/articles/s43018-025-00991-6) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Development%20and%20Validation%20of%20an%20Autonomous%20Artificial%20Intelligence%20Agent%20for%20Clinical%20Decision-Making%20in%20Oncology.pdf)
+- `Nature Cancer, 2025`
+- [ML for Medicine/Healthcare], [Language Models] 
+```
+Well written and interesting paper, I enjoyed reading it. Who knows how long it's going to take before an approach like this actually can be used in real-world clinical practice, demonstrated to be safe and effective, I guess I'm still a bit skeptical. But, just from a purely technical standpoint, this is actually really interesting and pretty cool! In particular, I find this really cool: "GPT-4 invoked the MedSAM tool twice to obtain segmentation masks from two images taken at different time points. Subsequently, GPT-4 used the calculator function with the appropriate values from MedSAM to determine that the tumor had grown by a factor of 2.14". I do also think that the agent-based approach makes some sense, as it enables multiple specialized models to be utilized in a really flexible way ("....preventing a singular entity from developing an all-encompassing foundational model. Instead, entities can leverage smaller, specialized models developed by those with direct access to the respective data.... this modular approach allows for individual validation, updating and regulatory compliance of each tool.... this modular approach also offers far superior explainability compared to a large, generalist black-box model, as physicians can investigate the output from each individual tool separately").
+```
+
 ##### [25-07-25] [paper483]
 - The Use of Artificial Intelligence for Cancer Therapeutic Decision-Making
  [[pdf]](https://ai.nejm.org/doi/full/10.1056/AIra2401164) [_unfortunately not open access, thus no annotated pdf_]
