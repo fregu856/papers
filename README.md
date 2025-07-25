@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-07-25] [paper485]
+- Role of Large Language Models in the Multidisciplinary Decision-Making Process for Patients With Renal Cell Carcinoma: A Pilot Experience
+ [[pdf]](https://www.nature.com/articles/s41698-025-01014-4) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Role%20of%20Large%20Language%20Models%20in%20the%20Multidisciplinary%20Decision-Making%20Process%20for%20Patients%20With%20Renal%20Cell%20Carcinoma%20A%20Pilot%20Experience.pdf)
+- `npj Precision Oncology, 2025 (Brief Communication)`
+- [ML for Medicine/Healthcare], [Language Models] 
+```
+Just 3 pages, very quick to read. Quite interesting, it gave a quick overview which I think is somewhat useful at least for me. They also describe a few other papers doing similar evaluations for other cancer types, with similar results overall.
+```
+
 ##### [25-07-25] [paper484]
 - Development and Validation of an Autonomous Artificial Intelligence Agent for Clinical Decision-Making in Oncology
  [[pdf]](https://www.nature.com/articles/s43018-025-00991-6) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Development%20and%20Validation%20of%20an%20Autonomous%20Artificial%20Intelligence%20Agent%20for%20Clinical%20Decision-Making%20in%20Oncology.pdf)
