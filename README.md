@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-07-25] [paper483]
+- The Use of Artificial Intelligence for Cancer Therapeutic Decision-Making
+ [[pdf]](https://ai.nejm.org/doi/full/10.1056/AIra2401164) [_unfortunately not open access, thus no annotated pdf_]
+- `NEJM AI, 2025`
+- [ML for Medicine/Healthcare], [Language Models] 
+```
+A non-technical review paper, fairly interesting. Just 6 pages long, very quick to read. I tend to find that it's pretty nice/useful to read these types of papers every once in a while, even though I'm not sure there are any major actionable takeaways for me here.
+```
+
 ##### [25-07-24] [paper482]
 - Large Language Models Are Poor Clinical Decision-Makers: A Comprehensive Benchmark
  [[pdf]](https://aclanthology.org/2024.emnlp-main.759/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large%20Language%20Models%20Are%20Poor%20Clinical%20Decision-Makers%20A%20Comprehensive%20Benchmark.pdf)
