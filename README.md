@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-07-26] [paper486]
+- MedRAX: Medical Reasoning Agent for Chest X-ray
+ [[pdf]](https://arxiv.org/abs/2502.02673) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MedRAX%20Medical%20Reasoning%20Agent%20for%20Chest%20X-ray.pdf)
+- `ICML 2025`
+- [ML for Medicine/Healthcare], [Language Models] 
+```
+Well written and interesting paper, I quite enjoyed reading it. This overall approach is interesting, I must say, it definitely makes some intuitive sense to me. The performance gain compared to GPT-4o (the underlying LLM used in their agent) in Table 1 and 2 is not exactly huge though, how much is the performance actually improved by plugging GPT-4o into this agent system? A bit difficult for me to judge this I think.
+```
+
 ##### [25-07-25] [paper485]
 - Role of Large Language Models in the Multidisciplinary Decision-Making Process for Patients With Renal Cell Carcinoma: A Pilot Experience
  [[pdf]](https://www.nature.com/articles/s41698-025-01014-4) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Role%20of%20Large%20Language%20Models%20in%20the%20Multidisciplinary%20Decision-Making%20Process%20for%20Patients%20With%20Renal%20Cell%20Carcinoma%20A%20Pilot%20Experience.pdf)
