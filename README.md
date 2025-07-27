@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-07-27] [paper487]
+- ReAct: Synergizing Reasoning and Acting in Language Models
+ [[pdf]](https://arxiv.org/abs/2210.03629) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/ReAct%20Synergizing%20Reasoning%20and%20Acting%20in%20Language%20Models.pdf)
+- `ICLR 2023`
+- [Language Models]
+```
+Well written and quite interesting paper. Illustrative and pretty cool examples in Figure 1. Don't think I can fully appreciate this, feel like there's some assumed LLM-related background knowledge that I lack, but still think this was fairly useful for me to read.
+```
+
 ##### [25-07-26] [paper486]
 - MedRAX: Medical Reasoning Agent for Chest X-ray
  [[pdf]](https://arxiv.org/abs/2502.02673) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MedRAX%20Medical%20Reasoning%20Agent%20for%20Chest%20X-ray.pdf)
