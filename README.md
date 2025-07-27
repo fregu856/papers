@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-07-27] [paper488]
+- MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical LLM Agents
+ [[pdf]](https://arxiv.org/abs/2501.14654) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MedAgentBench%20A%20Realistic%20Virtual%20EHR%20Environment%20to%20Benchmark%20Medical%20LLM%20Agents.pdf)
+- `arxiv, 2025-01`
+- [ML for Medicine/Healthcare], [Language Models] 
+```
+Quite interesting paper, pretty quick to read. Methods/datasets/results are not described in a lot of details, but everything seems reasonable. They evaluate many of the recent SOTA LLMs, still room to improve the performance. Nothing groundbreaking, but seems like a solid and probably quite useful benchmark.
+```
+
 ##### [25-07-27] [paper487]
 - ReAct: Synergizing Reasoning and Acting in Language Models
  [[pdf]](https://arxiv.org/abs/2210.03629) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/ReAct%20Synergizing%20Reasoning%20and%20Acting%20in%20Language%20Models.pdf)
