@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-07-29] [paper489]
+- Towards Physician-Centered Oversight of Conversational Diagnostic AI
+ [[pdf]](https://arxiv.org/abs/2507.15743) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Towards%20Physician-Centered%20Oversight%20of%20Conversational%20Diagnostic%20AI.pdf)
+- `arxiv, 2025-07`
+- [ML for Medicine/Healthcare], [Language Models] 
+```
+Well written and interesting paper. Quite long, I read Section 5 - 7 in less detail. Everything in Section 1 - 4 is clearly explained, very easy to follow and understand everything. Just reading Section 1 and looking at Figure 1 gives a good understanding of the core method, evaluation and results. I quite enjoyed reading this.
+```
+
 ##### [25-07-27] [paper488]
 - MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical LLM Agents
  [[pdf]](https://arxiv.org/abs/2501.14654) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MedAgentBench%20A%20Realistic%20Virtual%20EHR%20Environment%20to%20Benchmark%20Medical%20LLM%20Agents.pdf)
