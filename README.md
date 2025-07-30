@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-07-30] [paper491]
+- Large Language Models Lack Essential Metacognition for Reliable Medical Reasoning
+ [[pdf]](https://www.nature.com/articles/s41467-024-55628-6) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large%20Language%20Models%20Lack%20Essential%20Metacognition%20for%20Reliable%20Medical%20Reasoning.pdf)
+- `Nature Communications, 2025`
+- [ML for Medicine/Healthcare], [Language Models] 
+```
+Well written and quite interesting paper. Nothing super special, but solid, I quite enjoyed reading it, I think it gave a pretty good introduction to these type of issues in LLMs. Quite interesting that GPT-4o actually is capable of outputting a confidence scores which are relatively accurate.
+```
+
 ##### [25-07-29] [paper490]
 - Foundation Models for Clinical Records at Health System Scale
  [[pdf]](https://arxiv.org/abs/2507.00574) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Foundation%20Models%20for%20Clinical%20Records%20at%20Health%20System%20Scale.pdf)
