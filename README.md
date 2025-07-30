@@ -23,7 +23,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
-##### [25-07-30] [paper491]
+##### [25-07-30] [paper492]
 - Large Language Models Lack Essential Metacognition for Reliable Medical Reasoning
  [[pdf]](https://www.nature.com/articles/s41467-024-55628-6) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large%20Language%20Models%20Lack%20Essential%20Metacognition%20for%20Reliable%20Medical%20Reasoning.pdf)
 - `Nature Communications, 2025`
@@ -32,7 +32,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 Well written and quite interesting paper. Nothing super special, but solid, I quite enjoyed reading it, I think it gave a pretty good introduction to these type of issues in LLMs. Quite interesting that GPT-4o actually is capable of outputting a confidence scores which are relatively accurate.
 ```
 
-##### [25-07-29] [paper490]
+##### [25-07-29] [paper491]
 - Foundation Models for Clinical Records at Health System Scale
  [[pdf]](https://arxiv.org/abs/2507.00574) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Foundation%20Models%20for%20Clinical%20Records%20at%20Health%20System%20Scale.pdf)
 - `ICML Workshops 2025`
@@ -41,7 +41,7 @@ Well written and quite interesting paper. Nothing super special, but solid, I qu
 Fairly interesting paper, just 4 pages long. Impressive dataset with 1.29 million unique patients. The overall pretraining approach makes sense, and neat that they can make predictions entirely zero-shot.
 ```
 
-##### [25-07-29] [paper489]
+##### [25-07-29] [paper490]
 - Towards Physician-Centered Oversight of Conversational Diagnostic AI
  [[pdf]](https://arxiv.org/abs/2507.15743) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Towards%20Physician-Centered%20Oversight%20of%20Conversational%20Diagnostic%20AI.pdf)
 - `arxiv, 2025-07`
@@ -50,7 +50,7 @@ Fairly interesting paper, just 4 pages long. Impressive dataset with 1.29 millio
 Well written and interesting paper. Quite long, I read Section 5 - 7 in less detail. Everything in Section 1 - 4 is clearly explained, very easy to follow and understand everything. Just reading Section 1 and looking at Figure 1 gives a good understanding of the core method, evaluation and results. I quite enjoyed reading this.
 ```
 
-##### [25-07-27] [paper488]
+##### [25-07-27] [paper489]
 - MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical LLM Agents
  [[pdf]](https://arxiv.org/abs/2501.14654) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MedAgentBench%20A%20Realistic%20Virtual%20EHR%20Environment%20to%20Benchmark%20Medical%20LLM%20Agents.pdf)
 - `arxiv, 2025-01`
@@ -59,7 +59,7 @@ Well written and interesting paper. Quite long, I read Section 5 - 7 in less det
 Quite interesting paper, pretty quick to read. Methods/datasets/results are not described in a lot of details, but everything seems reasonable. They evaluate many of the recent SOTA LLMs, still room to improve the performance. Nothing groundbreaking, but seems like a solid and probably quite useful benchmark.
 ```
 
-##### [25-07-27] [paper487]
+##### [25-07-27] [paper488]
 - ReAct: Synergizing Reasoning and Acting in Language Models
  [[pdf]](https://arxiv.org/abs/2210.03629) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/ReAct%20Synergizing%20Reasoning%20and%20Acting%20in%20Language%20Models.pdf)
 - `ICLR 2023`
@@ -68,7 +68,7 @@ Quite interesting paper, pretty quick to read. Methods/datasets/results are not 
 Well written and quite interesting paper. Illustrative and pretty cool examples in Figure 1. Don't think I can fully appreciate this, feel like there's some assumed LLM-related background knowledge that I lack, but still think this was fairly useful for me to read.
 ```
 
-##### [25-07-26] [paper486]
+##### [25-07-26] [paper487]
 - MedRAX: Medical Reasoning Agent for Chest X-ray
  [[pdf]](https://arxiv.org/abs/2502.02673) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MedRAX%20Medical%20Reasoning%20Agent%20for%20Chest%20X-ray.pdf)
 - `ICML 2025`
@@ -77,7 +77,7 @@ Well written and quite interesting paper. Illustrative and pretty cool examples 
 Well written and interesting paper, I quite enjoyed reading it. This overall approach is interesting, I must say, it definitely makes some intuitive sense to me. The performance gain compared to GPT-4o (the underlying LLM used in their agent) in Table 1 and 2 is not exactly huge though, how much is the performance actually improved by plugging GPT-4o into this agent system? A bit difficult for me to judge this I think.
 ```
 
-##### [25-07-25] [paper485]
+##### [25-07-25] [paper486]
 - Role of Large Language Models in the Multidisciplinary Decision-Making Process for Patients With Renal Cell Carcinoma: A Pilot Experience
  [[pdf]](https://www.nature.com/articles/s41698-025-01014-4) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Role%20of%20Large%20Language%20Models%20in%20the%20Multidisciplinary%20Decision-Making%20Process%20for%20Patients%20With%20Renal%20Cell%20Carcinoma%20A%20Pilot%20Experience.pdf)
 - `npj Precision Oncology, 2025 (Brief Communication)`
@@ -86,7 +86,7 @@ Well written and interesting paper, I quite enjoyed reading it. This overall app
 Just 3 pages, very quick to read. Quite interesting, it gave a quick overview which I think is somewhat useful at least for me. They also describe a few other papers doing similar evaluations for other cancer types, with similar results overall.
 ```
 
-##### [25-07-25] [paper484]
+##### [25-07-25] [paper485]
 - Development and Validation of an Autonomous Artificial Intelligence Agent for Clinical Decision-Making in Oncology
  [[pdf]](https://www.nature.com/articles/s43018-025-00991-6) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Development%20and%20Validation%20of%20an%20Autonomous%20Artificial%20Intelligence%20Agent%20for%20Clinical%20Decision-Making%20in%20Oncology.pdf)
 - `Nature Cancer, 2025`
@@ -95,7 +95,7 @@ Just 3 pages, very quick to read. Quite interesting, it gave a quick overview wh
 Well written and interesting paper, I enjoyed reading it. Who knows how long it's going to take before an approach like this actually can be used in real-world clinical practice, demonstrated to be safe and effective, I guess I'm still a bit skeptical. But, just from a purely technical standpoint, this is actually really interesting and pretty cool! In particular, I find this really cool: "GPT-4 invoked the MedSAM tool twice to obtain segmentation masks from two images taken at different time points. Subsequently, GPT-4 used the calculator function with the appropriate values from MedSAM to determine that the tumor had grown by a factor of 2.14". I do also think that the agent-based approach makes some sense, as it enables multiple specialized models to be utilized in a really flexible way ("....preventing a singular entity from developing an all-encompassing foundational model. Instead, entities can leverage smaller, specialized models developed by those with direct access to the respective data.... this modular approach allows for individual validation, updating and regulatory compliance of each tool.... this modular approach also offers far superior explainability compared to a large, generalist black-box model, as physicians can investigate the output from each individual tool separately").
 ```
 
-##### [25-07-25] [paper483]
+##### [25-07-25] [paper484]
 - The Use of Artificial Intelligence for Cancer Therapeutic Decision-Making
  [[pdf]](https://ai.nejm.org/doi/full/10.1056/AIra2401164) [_unfortunately not open access, thus no annotated pdf_]
 - `NEJM AI, 2025`
@@ -104,7 +104,7 @@ Well written and interesting paper, I enjoyed reading it. Who knows how long it'
 A non-technical review paper, fairly interesting. Just 6 pages long, very quick to read. I tend to find that it's pretty nice/useful to read these types of papers every once in a while, even though I'm not sure there are any major actionable takeaways for me here.
 ```
 
-##### [25-07-24] [paper482]
+##### [25-07-24] [paper483]
 - Large Language Models Are Poor Clinical Decision-Makers: A Comprehensive Benchmark
  [[pdf]](https://aclanthology.org/2024.emnlp-main.759/) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large%20Language%20Models%20Are%20Poor%20Clinical%20Decision-Makers%20A%20Comprehensive%20Benchmark.pdf)
 - `EMNLP 2024`
@@ -113,7 +113,7 @@ A non-technical review paper, fairly interesting. Just 6 pages long, very quick 
 Quite interesting paper, overall a good paper for me to read I think, to get a better sense of how LLMs typically are benchmarked within the medical domain and how well they perform. Section 2 is nice, with all key findings summarized.
 ```
 
-##### [25-07-24] [paper481]
+##### [25-07-24] [paper482]
 - The Rise and Potential of Large Language Model Based Agents: A Survey
  [[pdf]](https://link.springer.com/article/10.1007/s11432-024-4222-0) [_unfortunately not open access, thus no annotated pdf_]
 - `Science China Information Sciences, 2025`
@@ -122,7 +122,7 @@ Quite interesting paper, overall a good paper for me to read I think, to get a b
 Not the type of paper I had expected, basically no technical details at all. Personally, I did not find this useful. Long paper, 30 pages, but I didn't read everything in detail.
 ```
 
-##### [25-07-24] [paper480]
+##### [25-07-24] [paper481]
 - Application of Large Language Models in Medicine
  [[pdf]](https://www.nature.com/articles/s44222-025-00279-5) [_unfortunately not open access, thus no annotated pdf_]
 - `Nature Reviews Bioengineering, 2025`
@@ -131,7 +131,7 @@ Not the type of paper I had expected, basically no technical details at all. Per
 Well-written paper, and I think this was quite useful for me to read. I think it gives a good overview of things, a good place to start. My main concrete takeaway is that the authors seem to feel quite strongly that we need better benchmarks, that we need to evaluate these models in a better way, which better captures how they actually would perform in real-world medical practice (not just a bunch of Q&As).
 ```
 
-##### [25-07-23] [paper479]
+##### [25-07-23] [paper480]
 - Aligning, Autoencoding and Prompting Large Language Models for Novel Disease Reporting
  [[pdf]](https://ieeexplore.ieee.org/document/10854911) [_unfortunately not open access, thus no annotated pdf_]
 - `TPAMI, 2025`
@@ -140,7 +140,7 @@ Well-written paper, and I think this was quite useful for me to read. I think it
 Well written and quite interesting paper. I think the method makes sense overall, and they also describe things well. I don't quite understand how the actual report generation is done though, how the learned dictionary is utilized there. Results seem promising, but difficult for me to properly judge I think.
 ```
 
-##### [25-07-23] [paper478]
+##### [25-07-23] [paper479]
 - There Is No Such Thing as a Validated Prediction Model
  [[pdf]](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-023-02779-w) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/There%20Is%20No%20Such%20Thing%20as%20a%20Validated%20Prediction%20Model.pdf)
 - `BMC Medicine, 2023 (Opinion paper)`
@@ -149,7 +149,7 @@ Well written and quite interesting paper. I think the method makes sense overall
 Fairly interesting paper, quick to read. Can of course seem like all this should be obvious, but I do quite like the final conclusion: "In conclusion, clinical prediction models are never truly validated due to expected heterogeneity in model performance between locations and settings, and over time. This calls for a stronger focus on validation studies, using principled validation strategies to quantify heterogeneity, regularly monitor model performance, and update models". Yes, I can agree that we should encourage validation studies more, put more effort into evaluating current models really extensively, instead of just churning out more and more new models.
 ```
 
-##### [25-07-23] [paper477]
+##### [25-07-23] [paper478]
 - Generalizability Assessment of AI Models Across Hospitals in a Low-Middle and High Income Country
  [[pdf]](https://www.nature.com/articles/s41467-024-52618-6) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Generalizability%20Assessment%20of%20AI%20Models%20Across%20Hospitals%20in%20a%20Low-Middle%20and%20High%20Income%20Country.pdf)
 - `Nature Communications, 2024`
@@ -158,7 +158,7 @@ Fairly interesting paper, quick to read. Can of course seem like all this should
 Well written and solid paper. Results make sense, nothing is particularly surprising, but quite interesting study with both UK and Vietnam data etc.
 ```
 
-##### [25-07-22] [paper476]
+##### [25-07-22] [paper477]
 - Predicting Type 1 Diabetes in Children Using Electronic Health Records in Primary Care in the UK: Development and Validation of a Machine-Learning Algorithm
  [[pdf]](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(24)00050-5/fulltext) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predicting%20Type%201%20Diabetes%20in%20Children%20Using%20Electronic%20Health%20Records%20in%20Primary%20Care%20in%20the%20UK%20Development%20and%20Validation%20of%20a%20Machine-Learning%20Algorithm.pdf)
 - `The Lancet Digital Health, 2024`
@@ -167,7 +167,7 @@ Well written and solid paper. Results make sense, nothing is particularly surpri
 Quite interesting paper. A lot of data, interesting problem, I quite enjoyed reading it overall. I'm confused by the "Mean number of days by which diagnosis would have been anticipated" results in Table 3 and Figure 3 though. They discuss this a bit at the end of the Discussion, how it might seem weird that the random chance baseline has a higher number than their model, but that this "must be balanced against the lower proportion of correct diagnoses that the chance algorithm would achieve". But, does it make sense to report this number then, this conditional number? Could it not be better to report the total number of days, across all patients? Sort of?
 ```
 
-##### [25-07-22] [paper475]
+##### [25-07-22] [paper476]
 - A Scalable Federated Learning Solution for Secondary Care Using Low-Cost Microcomputing: Privacy-Preserving Development and Evaluation of a COVID-19 Screening Test in UK Hospitals
  [[pdf]](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(23)00226-1/fulltext) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Scalable%20Federated%20Learning%20Solution%20for%20Secondary%20Care%20Using%20Low-Cost%20Microcomputing%20Privacy-Preserving%20Development%20and%20Evaluation%20of%20a%20COVID-19%20Screening%20Test%20in%20UK%20Hospitals.pdf)
 - `The Lancet Digital Health, 2024`
@@ -176,7 +176,7 @@ Quite interesting paper. A lot of data, interesting problem, I quite enjoyed rea
 Well written and solid paper, everything is explained well. I don't know much at all about federated learning, but this was easy to understand. Pretty neat that they could use Raspberry Pis for this entire study.
 ```
 
-##### [25-07-22] [paper474]
+##### [25-07-22] [paper475]
 - A Multimodal Multidomain Multilingual Medical Foundation Model for Zero Shot Clinical Diagnosis
  [[pdf]](https://www.nature.com/articles/s41746-024-01339-7) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Multimodal%20Multidomain%20Multilingual%20Medical%20Foundation%20Model%20for%20Zero%20Shot%20Clinical%20Diagnosis.pdf)
 - `npj Digital Medicine, 2025`
@@ -185,7 +185,7 @@ Well written and solid paper, everything is explained well. I don't know much at
 Again not my main area of expertise, but quite interesting paper. Pretty cool approach, Figure 1 is neat, and I think the method/model makes sense overall. Difficult for me to properly judge how strong all results are though, in particular how well the Chinese report generation works, whether this actually would be useful in practice.
 ```
 
-##### [25-07-21] [paper473]
+##### [25-07-21] [paper474]
 - Machine Learning Generalizability Across Healthcare Settings: Insights from Multi-Site COVID-19 Screening
  [[pdf]](https://www.nature.com/articles/s41746-022-00614-9) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Machine%20Learning%20Generalizability%20Across%20Healthcare%20Settings%20Insights%20from%20Multi-Site%20COVID-19%20Screening.pdf)
 - `npj Digital Medicine, 2022`
@@ -194,7 +194,7 @@ Again not my main area of expertise, but quite interesting paper. Pretty cool ap
 Well written and fairly interesting paper, pretty quick to read. Everything is solid, large datasets, results make sense etc. I'm trying to read quite broadly, different types of papers from the group.
 ```
 
-##### [25-07-21] [paper472]
+##### [25-07-21] [paper473]
 - RiskAgent: Autonomous Medical AI Copilot for Generalist Risk Prediction
  [[pdf]](https://arxiv.org/abs/2503.03802) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/RiskAgent%20Autonomous%20Medical%20AI%20Copilot%20for%20Generalist%20Risk%20Prediction.pdf)
 - `arxiv, 2025-03`
@@ -203,7 +203,7 @@ Well written and fairly interesting paper, pretty quick to read. Everything is s
 Quite interesting paper. This is definitely not my area of expertise, but they explain things well here, I ~think~ that I mostly understand how this works on a high level. Seems like an approach that makes sense overall, and the results compared to the original LLMs do seem strong, but difficult for me to properly judge this.
 ```
 
-##### [25-07-18] [paper471]
+##### [25-07-18] [paper472]
 - Sensing Cardiac Health Across Scenarios and Devices: A Multi-Modal Foundation Model Pretrained on Heterogeneous Data from 1.7 Million Individuals
  [[pdf]](https://arxiv.org/abs/2507.01045) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Sensing%20Cardiac%20Health%20Across%20Scenarios%20and%20Devices%20A%20Multi-Modal%20Foundation%20Model%20Pretrained%20on%20Heterogeneous%20Data%20from%201.7%20Million%20Individuals.pdf)
 - `arxiv, 2025-06`
@@ -212,7 +212,7 @@ Quite interesting paper. This is definitely not my area of expertise, but they e
 Well written and interesting paper, pretty cool approach. All experiments/analysis in section 2.4 - 2.7 is quite interesting. Note however that this version contains no Methods section, so it gives no details on the transformer-based model or the masking-based pre-training method, unfortunately.
 ```
 
-##### [25-07-17] [paper470]
+##### [25-07-17] [paper471]
 - Are Time Series Foundation Models Ready for Vital Sign Forecasting in Healthcare?
  [[pdf]](https://proceedings.mlr.press/v259/gu25a.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Are%20Time%20Series%20Foundation%20Models%20Ready%20for%20Vital%20Sign%20Forecasting%20in%20Healthcare.pdf)
 - `ML4H 2024`
@@ -221,7 +221,7 @@ Well written and interesting paper, pretty cool approach. All experiments/analys
 Well written and quite interesting paper, I think this was a pretty good place to start for me, I will need to do a lot more reading on time series models, medical time series data etc etc.
 ```
 
-##### [25-06-02] [paper469]
+##### [25-06-02] [paper470]
 - Foundation Models -- A Panacea for Artificial Intelligence in Pathology?
  [[pdf]](https://arxiv.org/abs/2502.21264) [[annotated pdf]](https://drive.google.com/file/d/11w2HMv19PDlQuE-4f3dkqz6eCh3WI4D0/view?usp=sharing)
 - `arxiv, 2025-02`
@@ -230,7 +230,7 @@ Well written and quite interesting paper, I think this was a pretty good place t
 Interesting paper, I quite enjoyed reading it. Very impressive datasets, comprehensive external validation with data from multiple sites from different countries etc. I think the overall idea makes sense, that if you happen to have 50k labeled WSIs, then it definitely feels like training a model from scratch on this data should be able to outperform the approach of using frozen FMs. I wish that they would have discussed Figure 2.e and 2.f more though, the fact that the performance barely improves when the amount of train data is doubled from 50% to 100%. Is this just because they have hit the performance ceiling for this particular task, where the labels are known to be noisy due to inter-rater variability etc? Or, could the performance perhaps scale better with increased data if they had used a bigger model?
 ```
 
-##### [25-04-27] [paper468]
+##### [25-04-27] [paper469]
 - Posterior-Mean Rectified Flow: Towards Minimum MSE Photo-Realistic Image Restoration
  [[pdf]](https://openreview.net/forum?id=hPOt3yUXii) [[annotated pdf]](https://drive.google.com/file/d/1oormDl8lmeKDavZ-X_nxs-qDrS3iGEAu/view?usp=sharing)
 - `ICLR 2025`
@@ -239,7 +239,7 @@ Interesting paper, I quite enjoyed reading it. Very impressive datasets, compreh
 Well written and quite interesting paper. Conceptually quite simple and intuitive approach. The evaluation/comparison in Section 5.2 is neat, and Table 11 in the appendix is interesting, makes it very clear how these methods differ.
 ```
 
-##### [25-04-24] [paper467]
+##### [25-04-24] [paper468]
 - Training State-of-the-Art Pathology Foundation Models with Orders of Magnitude Less Data
  [[pdf]](https://arxiv.org/abs/2504.05186) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Training%20State-of-the-Art%20Pathology%20Foundation%20Models%20with%20Orders%20of%20Magnitude%20Less%20Data.pdf)
 - `arxiv, 2025-04`
@@ -248,7 +248,7 @@ Well written and quite interesting paper. Conceptually quite simple and intuitiv
 Interesting paper, but also a couple of things which are a bit unclear to me. I'm confused by the high-resolution tuning, how this is different from what they did in UNI. What is actually the difference between "tcga-100M" and "Midnight-12k"? Because, tcga-100M is even a bit better in both slide-level tasks and on HEST. Does the training really not converge without the HSV filter, seems a bit odd? But yes, still interesting overall. Not entirely sure what the main takeaway is though. Yes, just training on more WSIs doesn't automatically give better models, but we sort of knew this from before as well (since Virchow is trained on more than 1 million WSIs but still performs quite poorly in many tasks). And, I'm not sure if this paper helps me understand WHY this is, or what actually are the important factors that makes strong FMs?
 ```
 
-##### [25-04-23] [paper466]
+##### [25-04-23] [paper467]
 - Unsupervised Embedding Quality Evaluation
  [[pdf]](https://arxiv.org/abs/2305.16562) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Unsupervised%20Embedding%20Quality%20Evaluation.pdf)
 - `ICML Workshops 2023`
@@ -257,7 +257,7 @@ Interesting paper, but also a couple of things which are a bit unclear to me. I'
 Quite interesting paper. A couple of different metrics here which seem potentially useful, in particular NESum (at least based on the results in Figure 1 and 2). NESum seems to be better than RankMe at least?
 ```
 
-##### [25-04-17] [paper465]
+##### [25-04-17] [paper466]
 - Revisiting Automatic Data Curation for Vision Foundation Models in Digital Pathology
  [[pdf]](https://arxiv.org/abs/2503.18709) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Revisiting%20Automatic%20Data%20Curation%20for%20Vision%20Foundation%20Models%20in%20Digital%20Pathology.pdf)
 - `arxiv, 2025-04`
@@ -266,13 +266,22 @@ Quite interesting paper. A couple of different metrics here which seem potential
 Interesting paper. Intuitive idea, neat that it also seems quite promising in practice. One thing I don't really understand though: If they do the stratified batch sampling (T1-BS), so that each batch during training contains an equal number of tiles from each cluster, why do this on the 10% curated subset? Why not just do this on the full dataset? Then you're not just throwing away any parts of the data?
 ```
 
-##### [25-04-12] [paper464]
+##### [25-04-12] [paper465]
 - Towards Large-Scale Training of Pathology Foundation Models
  [[pdf]](https://arxiv.org/abs/2404.15217) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Towards%20Large-Scale%20Training%20of%20Pathology%20Foundation%20Models.pdf)
 - `arxiv, 2024-03`
 - [Computational Pathology], [Representation Learning]
 ```
 Well-written and quite interesting paper. The experiment with training on 1%, 10%, 30%, 100% of TCGA WSIs is interesting. Their ODCorr metric also seems interesting (in particular, Figure 4 (left) is interesting), but not entirely sure how heavy it is to compute for large numbers of tile-level feature vectors.
+```
+
+##### [25-04-10] [paper464]
+- HistoEncoder: A Digital Pathology Foundation Model for Prostate Cancer
+ [[pdf]](https://arxiv.org/abs/2411.11458) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/HistoEncoder%20A%20Digital%20Pathology%20Foundation%20Model%20for%20Prostate%20Cancer.pdf)
+- `arxiv, 2024-11`
+- [Computational Pathology]
+```
+Quite interesting paper. The dataset is interesting, 11.2k slides from 1.3k patients at the Helsinki University Hospital. But, the evaluation is not overly interesting, it's not exactly surprising that models pretrained on their prostate cancer dataset outperforms the same models pretrained on Imagenet.
 ```
 
 ##### [25-04-09] [paper463]
