@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-07-31] [paper494]
+- Semantic Volume: Quantifying and Detecting both External and Internal Uncertainty in LLMs
+ [[pdf]](https://arxiv.org/abs/2502.21239) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Semantic%20Volume%20Quantifying%20and%20Detecting%20both%20External%20and%20Internal%20Uncertainty%20in%20LLMs.pdf)
+- `arxiv, 2025-02`
+- [Language Models], [Uncertainty Estimation]
+```
+Interesting paper, made me think quite a lot, in a good way. Would probably have been better to read some of the eariler papers first (especially "Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation"), but this is still a good starting point I think. There are probably aspects of all this which I'm unable to properly evaluate/appreciate atm, but the method overall mostly makes sense to me, and the results do seem promising. Seems like it performs well compared to good baselines.
+```
+
 ##### [25-07-31] [paper493]
 - TabLLM: Few-shot Classification of Tabular Data with Large Language Models
  [[pdf]](https://arxiv.org/abs/2210.10723) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/TabLLM%20Few-shot%20Classification%20of%20Tabular%20Data%20with%20Large%20Language%20Models.pdf)
