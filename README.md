@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-07-31] [paper493]
+- TabLLM: Few-shot Classification of Tabular Data with Large Language Models
+ [[pdf]](https://arxiv.org/abs/2210.10723) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/TabLLM%20Few-shot%20Classification%20of%20Tabular%20Data%20with%20Large%20Language%20Models.pdf)
+- `AISTATS 2023`
+- [Language Models]
+```
+Well written and fairly interesting paper. Things are clearly explained, Figure 1 illustrates what they do in a good way. Interesting to see this general method, that standard tabular data can be converted into text and fed as input to LLMs for classification tasks, and that this works quite well compared to standard, especially for few-shot settings. But then I lost interest a bit when getting to the detailes results and discussion etc.
+```
+
 ##### [25-07-30] [paper492]
 - Large Language Models Lack Essential Metacognition for Reliable Medical Reasoning
  [[pdf]](https://www.nature.com/articles/s41467-024-55628-6) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large%20Language%20Models%20Lack%20Essential%20Metacognition%20for%20Reliable%20Medical%20Reasoning.pdf)
