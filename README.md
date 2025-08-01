@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-01] [paper496]
+- Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation
+ [[pdf]](https://arxiv.org/abs/2302.09664) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Semantic%20Uncertainty%20Linguistic%20Invariances%20for%20Uncertainty%20Estimation%20in%20Natural%20Language%20Generation.pdf)
+- `ICLR 2023`
+- [Language Models], [Uncertainty Estimation] 
+```
+Well written and interesting paper. Yes, I should have read this before "Semantic Volume: Quantifying and Detecting both External and Internal Uncertainty in LLMs", this provided more background. The method here makes sense overall I think, but seems somewhat inconvenient having to "manually" classify each par of sentences, whether they ~mean~ the same thing or not. So yes, my initial impression is that the Semantic Volume method actually might be more neat, that you there sort of do this automatically by embedding sentences in a semantic space and measuring the volume. But yes, interesting stuff.
+```
+
 ##### [25-08-01] [paper495]
 - Deep Learning-based Prediction of Clinical Trial Enrollment with Uncertainty Estimates
  [[pdf]](https://arxiv.org/abs/2507.23607) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning-based%20Prediction%20of%20Clinical%20Trial%20Enrollment%20with%20Uncertainty%20Estimates.pdf)
