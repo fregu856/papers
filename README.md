@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-01] [paper495]
+- Deep Learning-based Prediction of Clinical Trial Enrollment with Uncertainty Estimates
+ [[pdf]](https://arxiv.org/abs/2507.23607) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning-based%20Prediction%20of%20Clinical%20Trial%20Enrollment%20with%20Uncertainty%20Estimates.pdf)
+- `arxiv, 2025-07`
+- [ML for Medicine/Healthcare]
+```
+Fairly interesting paper. Kind of neat to get some background info about this type of problem, clinical trials etc, but perhaps not exactly the type of paper I had expected. The method overall makes some sense though I think.
+```
+
 ##### [25-07-31] [paper494]
 - Semantic Volume: Quantifying and Detecting both External and Internal Uncertainty in LLMs
  [[pdf]](https://arxiv.org/abs/2502.21239) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Semantic%20Volume%20Quantifying%20and%20Detecting%20both%20External%20and%20Internal%20Uncertainty%20in%20LLMs.pdf)
