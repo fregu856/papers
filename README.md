@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-03] [paper497]
+- TransformEHR: Transformer-Based Encoder-Decoder Generative Model to Enhance Prediction of Disease Outcomes Using Electronic Health Records
+ [[pdf]](https://www.nature.com/articles/s41467-023-43715-z) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/TransformEHR%20Transformer-Based%20Encoder-Decoder%20Generative%20Model%20to%20Enhance%20Prediction%20of%20Disease%20Outcomes%20Using%20Electronic%20Health%20Records.pdf)
+- `Nature Communications, 2023`
+- [ML for Medicine/Healthcare], [EHRs] 
+```
+Well written and quite interesting paper, gives a pretty good introduction to pretraining methods for EHR data I think. 255 million visits from 6.5 million patients, seems like a lot of data. The evaluation is not super extensive, but yes, seems to consistently outperform the BERT baseline. I don't quite understand how the model handles that different visits can have different numbers of ICD codes though, are the code embeddings just added together?
+```
+
 ##### [25-08-01] [paper496]
 - Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation
  [[pdf]](https://arxiv.org/abs/2302.09664) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Semantic%20Uncertainty%20Linguistic%20Invariances%20for%20Uncertainty%20Estimation%20in%20Natural%20Language%20Generation.pdf)
