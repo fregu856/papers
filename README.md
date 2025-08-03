@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-03] [paper498]
+- Foresight—A Generative Pretrained Transformer for Modelling of Patient Timelines Using Electronic Health Records: A Retrospective Modelling Study
+ [[pdf]](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(24)00025-6/fulltext) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Foresight%E2%80%94A%20Generative%20Pretrained%20Transformer%20for%20Modelling%20of%20Patient%20Timelines%20Using%20Electronic%20Health%20Records%20A%20Retrospective%20Modelling%20Study.pdf)
+- `The Lancet Digital Health, 2024`
+- [ML for Medicine/Healthcare], [EHRs]  
+```
+Quite interesting paper. Neat that they use both the free text and structured data in the EHRs ("uses named entity recognition and linking tools to convert EHR document text into structured, coded concepts"). But then I got a bit confused, found it difficult to understand exactly how the model actually works. Does the model just iteratively output tokens? I.e., for generating the "top N forecasts", they just run the model to output N tokens? But so how do they generate timelines as in Figure 4 in that case? The output tokens/concepts have no time information? But, output tokens can also be "patient demographics, such as age, gender, or ethnicity"? So, the second output token can thus be e.g. "age 50 years" as in the top example of Figure 4? And those put all other output tokens on a timeline like that? I also find it a bit difficult to interpret the results, how well the model actually works.
+```
+
 ##### [25-08-03] [paper497]
 - TransformEHR: Transformer-Based Encoder-Decoder Generative Model to Enhance Prediction of Disease Outcomes Using Electronic Health Records
  [[pdf]](https://www.nature.com/articles/s41467-023-43715-z) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/TransformEHR%20Transformer-Based%20Encoder-Decoder%20Generative%20Model%20to%20Enhance%20Prediction%20of%20Disease%20Outcomes%20Using%20Electronic%20Health%20Records.pdf)
