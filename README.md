@@ -88,7 +88,7 @@ Well written and quite interesting paper. Nothing super special, but solid, I qu
 
 ##### [25-07-29] [paper491]
 - Foundation Models for Clinical Records at Health System Scale
- [[pdf]](https://arxiv.org/abs/2507.00574) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Foundation%20Models%20for%20Clinical%20Records%20at%20Health%20System%20Scale.pdf)
+ [[pdf]](https://arxiv.org/abs/2507.00574) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Foundation%20Models%20for%20Clinical%20Records%20at%20Health%20System%20Scale_2.pdf)
 - `ICML Workshops 2025`
 - [ML for Medicine/Healthcare], [EHRs]
 ```
