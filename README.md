@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-05] [paper499]
+- Zero Shot Health Trajectory Prediction Using Transformer
+ [[pdf]](https://www.nature.com/articles/s41746-024-01235-0) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Zero%20Shot%20Health%20Trajectory%20Prediction%20Using%20Transformer.pdf)
+- `npj Digital Medicine, 2024`
+- [ML for Medicine/Healthcare], [EHRs]
+```
+Well written and interesting paper, I quite enjoyed reading it. All figures etc are really neat. The method is pretty cool, that you can get zero-shot predictions of different things by simulating multiple future patient timelines (albeit a somewhat computationally inefficient approach, I suppose).
+```
+
 ##### [25-08-03] [paper498]
 - Foresight—A Generative Pretrained Transformer for Modelling of Patient Timelines Using Electronic Health Records: A Retrospective Modelling Study
  [[pdf]](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(24)00025-6/fulltext) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Foresight%E2%80%94A%20Generative%20Pretrained%20Transformer%20for%20Modelling%20of%20Patient%20Timelines%20Using%20Electronic%20Health%20Records%20A%20Retrospective%20Modelling%20Study.pdf)
