@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-06] [paper500]
+- MOTOR: A Time-to-Event Foundation Model For Structured Medical Records
+ [[pdf]](https://openreview.net/forum?id=NialiwI2V6) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MOTOR%20A%20Time-to-Event%20Foundation%20Model%20For%20Structured%20Medical%20Records.pdf)
+- `ICLR 2024`
+- [ML for Medicine/Healthcare], [EHRs] 
+```
+ Well written and quite interesting paper. Their approach turned out to be more similar to the other EHR-based FM papers I've read though, I think. I just expected this to stand out a bit more. Like for those other papers, I also feel like there's quite a lot of details which are still missing here. At least personally, I feel like I wouldn't know exactly how to apply this in practice just by reading the paper. Overall, it also feels like this paper is a bit too long for the 9 page conference format, they have to refer to the appendix quite a lot. But overall this seems like very solid work, definitely.
+```
+
 ##### [25-08-05] [paper499]
 - Zero Shot Health Trajectory Prediction Using Transformer
  [[pdf]](https://www.nature.com/articles/s41746-024-01235-0) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Zero%20Shot%20Health%20Trajectory%20Prediction%20Using%20Transformer.pdf)
