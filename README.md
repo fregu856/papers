@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-06] [paper501]
+- Foundation Model of Electronic Medical Records for Adaptive Risk Estimation
+ [[pdf]](https://arxiv.org/abs/2502.06124) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Foundation%20Model%20of%20Electronic%20Medical%20Records%20for%20Adaptive%20Risk%20Estimation.pdf)
+- `arxiv, 2025-02`
+- [ML for Medicine/Healthcare], [EHRs] 
+```
+Well written and quite interesting paper. Everything is clearly explained, I quite enjoyed reading this. Also provides a good summary of the ETHOS model, I think it helped me understand how that works a bit better. Simulating >= 100 future patient timelines and estimating probabilities for different critical events based on these is a quite intuitive approach, albeit somewhat computationally inefficient I suppose. Really neat that this can be done zero-shot without any re-training though.
+```
+
 ##### [25-08-06] [paper500]
 - MOTOR: A Time-to-Event Foundation Model For Structured Medical Records
  [[pdf]](https://openreview.net/forum?id=NialiwI2V6) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MOTOR%20A%20Time-to-Event%20Foundation%20Model%20For%20Structured%20Medical%20Records.pdf)
