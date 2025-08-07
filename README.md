@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-07] [paper502]
+- Assessing the Importance of Primary Care Diagnoses in the UK Biobank
+ [[pdf]](https://link.springer.com/article/10.1007/s10654-023-01095-0) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Assessing%20the%20Importance%20of%20Primary%20Care%20Diagnoses%20in%20the%20UK%20Biobank.pdf)
+- `European Journal of Epidemiology, 2024`
+- [Miscellaneous]
+```
+I read this just to get some additional background on the UK biobank study and data. Of course I'm not able to fully appreciate everything in an epidemiology paper like this, but still somewhat interesting.
+```
+
 ##### [25-08-06] [paper501]
 - Foundation Model of Electronic Medical Records for Adaptive Risk Estimation
  [[pdf]](https://arxiv.org/abs/2502.06124) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Foundation%20Model%20of%20Electronic%20Medical%20Records%20for%20Adaptive%20Risk%20Estimation.pdf)
