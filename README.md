@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-07] [paper504]
+- Adaptable Cardiovascular Disease Risk Prediction from Heterogeneous Data using Large Language Models
+ [[pdf]](https://arxiv.org/abs/2505.24655) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Adaptable%20Cardiovascular%20Disease%20Risk%20Prediction%20from%20Heterogeneous%20Data%20using%20Large%20Language%20Models.pdf)
+- `arxiv, 2025-05`
+- [ML for Medicine/Healthcare], [Language Models] 
+```
+Well written and interesting paper. Everything is solid, I quite enjoyed reading it (although I did get pretty tired towards the end, it's a quite long paper). A conceptually straightforward approach, and seems to work well overall. Not sure how impressive/surprising the "adapting to textual patient representations" results in Figure 6 are though, given that the textual representations are LLM-generated from the structured patient representations that the original AdaCVD model is fine-tuned on.
+```
+
 ##### [25-08-07] [paper503]
 - MedMod: Multimodal Benchmark for Medical Prediction Tasks with Electronic Health Records and Chest X-Ray Scans
  [[pdf]](https://raw.githubusercontent.com/mlresearch/v287/main/assets/elsharief25a/elsharief25a.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MedMod%20Multimodal%20Benchmark%20for%20Medical%20Prediction%20Tasks%20with%20Electronic%20Health%20Records%20and%20Chest%20X-Ray%20Scans.pdf)
