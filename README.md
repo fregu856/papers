@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-07] [paper503]
+- MedMod: Multimodal Benchmark for Medical Prediction Tasks with Electronic Health Records and Chest X-Ray Scans
+ [[pdf]](https://raw.githubusercontent.com/mlresearch/v287/main/assets/elsharief25a/elsharief25a.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MedMod%20Multimodal%20Benchmark%20for%20Medical%20Prediction%20Tasks%20with%20Electronic%20Health%20Records%20and%20Chest%20X-Ray%20Scans.pdf)
+- `CHIL 2025`
+- [ML for Medicine/Healthcare], [EHRs] 
+```
+Quite interesting, well written and solid overall. 18k unique patients with both EHR and CXR data in the data they use. For "In-hospital mortality" in Table 3, CXR-only is quite a lot worse than EHR-only, but still EHR + CXR improves over EHR-only, which I find a bit interesting.
+```
+
 ##### [25-08-07] [paper502]
 - Assessing the Importance of Primary Care Diagnoses in the UK Biobank
  [[pdf]](https://link.springer.com/article/10.1007/s10654-023-01095-0) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Assessing%20the%20Importance%20of%20Primary%20Care%20Diagnoses%20in%20the%20UK%20Biobank.pdf)
