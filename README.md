@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-08] [paper505]
+- FoMoH: A Clinically Meaningful Foundation Model Evaluation for Structured Electronic Health Records
+ [[pdf]](https://arxiv.org/abs/2505.16941) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/FoMoH%20A%20Clinically%20Meaningful%20Foundation%20Model%20Evaluation%20for%20Structured%20Electronic%20Health%20Records.pdf)
+- `arxiv, 2025-05`
+- [ML for Medicine/Healthcare], [EHRs] 
+```
+Quite well written and quite interesting paper. What they set out to do is great and very interesting (training and evaluating 6 EHR FMs on in-house data from than 5 million patients, on different downstream prediction tasks), but then I feel like it's a bit difficult to know what main conclusions to draw. CEHR-GPT and MOTOR seems to be the two top-performing models, but can we say anything about the next-token prediction vs time-to-event pretraining loss? Would have been nice with a direct comparison of the these two.
+```
+
 ##### [25-08-07] [paper504]
 - Adaptable Cardiovascular Disease Risk Prediction from Heterogeneous Data using Large Language Models
  [[pdf]](https://arxiv.org/abs/2505.24655) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Adaptable%20Cardiovascular%20Disease%20Risk%20Prediction%20from%20Heterogeneous%20Data%20using%20Large%20Language%20Models.pdf)
