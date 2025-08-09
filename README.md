@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-09] [paper506]
+- Large Language Models for Medical Forecasting -- Foresight 2
+ [[pdf]](https://arxiv.org/abs/2412.10848) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large%20Language%20Models%20for%20Medical%20Forecasting%20--%20Foresight%202.pdf)
+- `arxiv, 2024-12`
+- [ML for Medicine/Healthcare], [Language Models], [EHRs]
+```
+Interesting paper, overall I quite enjoyed reading this. But, I still don't understand what the input to their model is?! Is it the actual patient timeline with temporal separator tokens etc, or is it just the reconstructed clinical note at the bottom of Figure 1? Also, what loss is used in the risk forecasting fine-tuning in Section 2.4?
+```
+
 ##### [25-08-08] [paper505]
 - FoMoH: A Clinically Meaningful Foundation Model Evaluation for Structured Electronic Health Records
  [[pdf]](https://arxiv.org/abs/2505.16941) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/FoMoH%20A%20Clinically%20Meaningful%20Foundation%20Model%20Evaluation%20for%20Structured%20Electronic%20Health%20Records.pdf)
