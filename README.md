@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-12] [paper507]
+- MoMA: A Mixture-of-Multimodal-Agents Architecture for Enhancing Clinical Prediction Modelling
+ [[pdf]](https://arxiv.org/abs/2508.05492) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MoMA%20A%20Mixture-of-Multimodal-Agents%20Architecture%20for%20Enhancing%20Clinical%20Prediction%20Modelling.pdf)
+- `arxiv, 2025-08`
+- [ML for Medicine/Healthcare], [Language Models], [EHRs]
+```
+Well-written and quite interesting paper. Things are explained well, Figure 1 gives a good overview. The approach is conceptually quite straightforward, seems to perform quite well compared to a vision-language model at least. A pretty nice paper to read.
+```
+
 ##### [25-08-09] [paper506]
 - Large Language Models for Medical Forecasting -- Foresight 2
  [[pdf]](https://arxiv.org/abs/2412.10848) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large%20Language%20Models%20for%20Medical%20Forecasting%20--%20Foresight%202.pdf)
