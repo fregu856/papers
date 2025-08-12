@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-12] [paper511]
+- Mixture-of-Agents Enhances Large Language Model Capabilities
+ [[pdf]](https://openreview.net/forum?id=h0ZfDIrj7T) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Mixture-of-Agents%20Enhances%20Large%20Language%20Model%20Capabilities.pdf)
+- `ICLR 2025`
+- [Language Models] 
+```
+Quite interesting and well-written paper. Conceptually simple and quite intuitive approach, neat that it also seems to work well overall. (seems like Figure 3 is covering the bottom row of Table 2 though^^)
+```
+
 ##### [25-08-12] [paper510]
 - MoMA: A Mixture-of-Multimodal-Agents Architecture for Enhancing Clinical Prediction Modelling
  [[pdf]](https://arxiv.org/abs/2508.05492) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MoMA%20A%20Mixture-of-Multimodal-Agents%20Architecture%20for%20Enhancing%20Clinical%20Prediction%20Modelling.pdf)
