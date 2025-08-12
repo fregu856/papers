@@ -23,13 +23,22 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
-##### [25-08-12] [paper507]
+##### [25-08-12] [paper508]
 - MoMA: A Mixture-of-Multimodal-Agents Architecture for Enhancing Clinical Prediction Modelling
  [[pdf]](https://arxiv.org/abs/2508.05492) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MoMA%20A%20Mixture-of-Multimodal-Agents%20Architecture%20for%20Enhancing%20Clinical%20Prediction%20Modelling.pdf)
 - `arxiv, 2025-08`
 - [ML for Medicine/Healthcare], [Language Models], [EHRs]
 ```
 Well-written and quite interesting paper. Things are explained well, Figure 1 gives a good overview. The approach is conceptually quite straightforward, seems to perform quite well compared to a vision-language model at least. A pretty nice paper to read.
+```
+
+##### [25-08-10] [paper507]
+- Performance Prediction for Large Systems via Text-to-Text Regression
+ [[pdf]](https://arxiv.org/abs/2506.21718) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Performance%20Prediction%20for%20Large%20Systems%20via%20Text-to-Text%20Regression.pdf)
+- `arxiv, 2025-06`
+- [Language Models] 
+```
+Well written and interesting paper, I quite enjoyed reading it. Everything is explained well, but I should probably go back and read "OmniPred: Language Models as Universal Regressors" from the same group for more details about the actual method.
 ```
 
 ##### [25-08-09] [paper506]
