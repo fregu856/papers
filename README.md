@@ -23,13 +23,22 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
-##### [25-08-12] [paper509]
+##### [25-08-12] [paper510]
 - MoMA: A Mixture-of-Multimodal-Agents Architecture for Enhancing Clinical Prediction Modelling
  [[pdf]](https://arxiv.org/abs/2508.05492) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MoMA%20A%20Mixture-of-Multimodal-Agents%20Architecture%20for%20Enhancing%20Clinical%20Prediction%20Modelling.pdf)
 - `arxiv, 2025-08`
 - [ML for Medicine/Healthcare], [Language Models], [EHRs]
 ```
 Well-written and quite interesting paper. Things are explained well, Figure 1 gives a good overview. The approach is conceptually quite straightforward, seems to perform quite well compared to a vision-language model at least. A pretty nice paper to read.
+```
+
+##### [25-08-11] [paper509]
+- Decoding-Based Regression
+ [[pdf]](https://openreview.net/forum?id=avUQ8jguxg) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Decoding-Based%20Regression.pdf)
+- `TMLR, 2025`
+- [Language Models]
+```
+Quite interesting paper. Everything is solid and results are reasonable etc, but I was just hoping for a bit more, not entirely sure how much this added compared to "Performance Prediction for Large Systems via Text-to-Text Regression" and "OmniPred: Language Models as Universal Regressors" which I already have read. I did not follow much at all in Secton 3.3, difficult for me to judge how valuable this theoretical analysis is.
 ```
 
 ##### [25-08-10] [paper508]
