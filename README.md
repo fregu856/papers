@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-13] [paper513]
+- Benchmarking Foundation Models with Multimodal Public Electronic Health Records
+ [[pdf]](https://arxiv.org/abs/2507.14824) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Benchmarking%20Foundation%20Models%20with%20Multimodal%20Public%20Electronic%20Health%20Records.pdf)
+- `arxiv, 2025-07`
+- [ML for Medicine/Healthcare], [EHRs]
+```
+Quite interesting paper, their code looks potentially useful. The results in Table 2 & 3 and Figure 4 are quite interesting, that "Baseline + Text" is better than both "Baseline + Image" and "Baseline + Image + Text". Images seem to add basically no information once the text notes are available here.
+```
+
 ##### [25-08-13] [paper512]
 - Agent-Based Feature Generation from Clinical Notes for Outcome Prediction
  [[pdf]](https://www.arxiv.org/abs/2508.01956) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Agent-Based%20Feature%20Generation%20from%20Clinical%20Notes%20for%20Outcome%20Prediction.pdf)
