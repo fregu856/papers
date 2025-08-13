@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-13] [paper512]
+- Agent-Based Feature Generation from Clinical Notes for Outcome Prediction
+ [[pdf]](https://www.arxiv.org/abs/2508.01956) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Agent-Based%20Feature%20Generation%20from%20Clinical%20Notes%20for%20Outcome%20Prediction.pdf)
+- `arxiv, 2025-08`
+- [ML for Medicine/Healthcare], [Language Models], [EHRs] 
+```
+Quite interesting paper, the proposed approach is conceptually interesting and makes some sense, the results seem quite promising etc. HOWEVER, they provide no technical details whatsoever? They don't specify which LLMs are used in their different agents? They don't describe how these are prompted? Basically, they give no detailed description of how their agent-based system actually works, at all? Also, the evaluation is only performed on a single small dataset of 147 patients.
+```
+
 ##### [25-08-12] [paper511]
 - Mixture-of-Agents Enhances Large Language Model Capabilities
  [[pdf]](https://openreview.net/forum?id=h0ZfDIrj7T) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Mixture-of-Agents%20Enhances%20Large%20Language%20Model%20Capabilities.pdf)
