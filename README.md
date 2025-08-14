@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-14] [paper514]
+- Large Language Models are Powerful Electronic Health Record Encoders
+ [[pdf]](https://arxiv.org/abs/2502.17403) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large%20Language%20Models%20are%20Powerful%20Electronic%20Health%20Record%20Encoders.pdf)
+- `arxiv, 2025-02`
+- [ML for Medicine/Healthcare], [Language Models], [EHRs] 
+```
+Well-written and interesting paper. Longer than what I usually read, 20+ pages, but I still quite enjoyed reading this. Everything is clearly explained, and I do think this approach makes quite a lot of sense, especially in terms of its flexibility ("This limitation underscores a key challenge in adapting domain-specific models to external datasets, even with considerable manual effort. In contrast, the LLM-based models required only a mapping from clinical concepts to their natural language descriptions, which were directly incorporated into the Markdown-based serialization. This simplified integration process substantially reduced implementation overhead and emphasized the strong generalization ability of LLM-based encodings across diverse coding systems and healthcare domains"). The LLM-based approach also seems to perform quite well compared to reasonable baselines.
+```
+
 ##### [25-08-13] [paper513]
 - Benchmarking Foundation Models with Multimodal Public Electronic Health Records
  [[pdf]](https://arxiv.org/abs/2507.14824) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Benchmarking%20Foundation%20Models%20with%20Multimodal%20Public%20Electronic%20Health%20Records.pdf)
