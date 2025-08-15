@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-15] [paper515]
+- Scaling Wearable Foundation Models
+ [[pdf]](https://openreview.net/forum?id=yb4QE6b22f) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Scaling%20Wearable%20Foundation%20Models.pdf)
+- `ICLR 2025`
+- [ML for Medicine/Healthcare], [Time Series]
+```
+Quite interesting and overall well-written paper. Mostly focusing on scaling results (as the title suggests, of course), not a lot of downstream tasks. So, that could be more interesting. Cool dataset though, collected from real-world users of Fitbit Sense 2 and Google Pixel Watch 2. I was surprised that they use ViT models for this type of data, the input is a "sensor matrix" of 26 signals (derived from 5 sensors) x 300 minutes. Pretty good introduction to this type of data, I think, pretty good background.
+```
+
 ##### [25-08-14] [paper514]
 - Large Language Models are Powerful Electronic Health Record Encoders
  [[pdf]](https://arxiv.org/abs/2502.17403) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large%20Language%20Models%20are%20Powerful%20Electronic%20Health%20Record%20Encoders.pdf)
