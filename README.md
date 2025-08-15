@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-15] [paper516]
+- LSM-2: Learning from Incomplete Wearable Sensor Data
+ [[pdf]](https://arxiv.org/abs/2506.05321) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/LSM-2%20Learning%20from%20Incomplete%20Wearable%20Sensor%20Data.pdf)
+- `arxiv, 2025-06`
+- [ML for Medicine/Healthcare], [Time Series]
+```
+Quite interesting and well-written paper, this is a direct follow-up of "Scaling Wearable Foundation Models" (LSM-1). The method difference compared to LSM-1 seems reasonable, to better handle missingness in the input data, relatively small/simple changes. The difference in performance on the downstream tasks (Table 2 and 4) is quite small indeed though. But both LSM-1 and LSM-2 clealry outperform the contrastive-based baselines (SimCLR, DINO, MSN) here at least. Not sure how much reading this paper added compared to just reading the LSM-1 paper, but still quite interesting to see Google's most recent model within this domain.
+```
+
 ##### [25-08-15] [paper515]
 - Scaling Wearable Foundation Models
  [[pdf]](https://openreview.net/forum?id=yb4QE6b22f) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Scaling%20Wearable%20Foundation%20Models.pdf)
