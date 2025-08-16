@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-16] [paper518]
+- Artificial Intelligence for Hemodynamic Monitoring With a Wearable Electrocardiogram Monitor
+ [[pdf]](https://www.nature.com/articles/s43856-024-00730-5) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Artificial%20Intelligence%20for%20Hemodynamic%20Monitoring%20With%20a%20Wearable%20Electrocardiogram%20Monitor.pdf)
+- `Communications Medicine, 2025`
+- [ML for Medicine/Healthcare], [ECGs]
+```
+Interesting and really well-written paper, I enjoyed reading this. Everything is clearly explained, the medical background is interesting and easy to understand, the approach makes sense, interesting datasets etc. High-quality stuff.
+```
+
 ##### [25-08-15] [paper517]
 - SensorLM: Learning the Language of Wearable Sensors
  [[pdf]](https://arxiv.org/abs/2506.09108) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SensorLM%20Learning%20the%20Language%20of%20Wearable%20Sensors.pdf)
