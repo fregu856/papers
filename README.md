@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-17] [paper519]
+- Wearable-Echo-FM: An ECG-Echo Foundation Model for Single Lead Electrocardiography
+ [[pdf]](https://www.medrxiv.org/content/10.1101/2025.06.10.25329163v2) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Wearable-Echo-FM%20An%20ECG-Echo%20Foundation%20Model%20for%20Single%20Lead%20Electrocardiography.pdf)
+- `medrxiv, 2025-06`
+- [ML for Medicine/Healthcare], [ECGs]
+```
+Interesting paper, pretty quick and easy to read. Quite impressive datasets, interesting that they pretrain the model using text reports and a CLIP loss, results look pretty good etc.
+```
+
 ##### [25-08-16] [paper518]
 - Artificial Intelligence for Hemodynamic Monitoring With a Wearable Electrocardiogram Monitor
  [[pdf]](https://www.nature.com/articles/s43856-024-00730-5) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Artificial%20Intelligence%20for%20Hemodynamic%20Monitoring%20With%20a%20Wearable%20Electrocardiogram%20Monitor.pdf)
