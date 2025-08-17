@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
+##### [25-08-17] [paper520]
+- Knowledge-Enhanced Multimodal ECG Representation Learning with Arbitrary-Lead Inputs
+ [[pdf]](https://arxiv.org/abs/2502.17900) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Knowledge-Enhanced%20Multimodal%20ECG%20Representation%20Learning%20with%20Arbitrary-Lead%20Inputs.pdf)
+- `arxiv, 2025-02`
+- [ML for Medicine/Healthcare], [ECGs]
+```
+Interesting and quite well-written paper. This is an extension of MERL ("Zero-Shot ECG Classification with Multimodal Learning and Test-time Clinical Knowledge Enhancement" (ICML 2024)) from the same group. The changes compared to MERL are not huge, but make sense overall and seem to improve the performance at least to some extent. Figure 7 Right is interesting, I was surprised that doing such aggressive lead masking (masking at least 9 leads) is optimal, also for the performance on 12-lead ECGs. Their performance with missing leads in Figure 6 does also seem quite impressive, it doesn't drop that much from 12-lead to single-lead. Although the baseline there, just filling missing leads with zeros for MERL, doesn't seem like the strongest possible baseline.
+```
+
 ##### [25-08-17] [paper519]
 - Wearable-Echo-FM: An ECG-Echo Foundation Model for Single Lead Electrocardiography
  [[pdf]](https://www.medrxiv.org/content/10.1101/2025.06.10.25329163v2) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Wearable-Echo-FM%20An%20ECG-Echo%20Foundation%20Model%20for%20Single%20Lead%20Electrocardiography.pdf)
