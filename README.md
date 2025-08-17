@@ -23,7 +23,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2025:
 
 
-##### [25-08-17] [paper521]
+##### [25-08-17] [paper522]
 - Knowledge-Enhanced Multimodal ECG Representation Learning with Arbitrary-Lead Inputs
  [[pdf]](https://arxiv.org/abs/2502.17900) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Knowledge-Enhanced%20Multimodal%20ECG%20Representation%20Learning%20with%20Arbitrary-Lead%20Inputs.pdf)
 - `arxiv, 2025-02`
@@ -32,7 +32,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 Interesting and quite well-written paper. This is an extension of MERL ("Zero-Shot ECG Classification with Multimodal Learning and Test-time Clinical Knowledge Enhancement" (ICML 2024)) from the same group. The changes compared to MERL are not huge, but make sense overall and seem to improve the performance at least to some extent. Figure 7 Right is interesting, I was surprised that doing such aggressive lead masking (masking at least 9 leads) is optimal, also for the performance on 12-lead ECGs. Their performance with missing leads in Figure 6 does also seem quite impressive, it doesn't drop that much from 12-lead to single-lead. Although the baseline there, just filling missing leads with zeros for MERL, doesn't seem like the strongest possible baseline.
 ```
 
-##### [25-08-17] [paper520]
+##### [25-08-17] [paper521]
 - Wearable-Echo-FM: An ECG-Echo Foundation Model for Single Lead Electrocardiography
  [[pdf]](https://www.medrxiv.org/content/10.1101/2025.06.10.25329163v2) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Wearable-Echo-FM%20An%20ECG-Echo%20Foundation%20Model%20for%20Single%20Lead%20Electrocardiography.pdf)
 - `medrxiv, 2025-06`
@@ -41,7 +41,7 @@ Interesting and quite well-written paper. This is an extension of MERL ("Zero-Sh
 Interesting paper, pretty quick and easy to read. Quite impressive datasets, interesting that they pretrain the model using text reports and a CLIP loss, results look pretty good etc.
 ```
 
-##### [25-08-16] [paper519]
+##### [25-08-16] [paper520]
 - Artificial Intelligence for Hemodynamic Monitoring With a Wearable Electrocardiogram Monitor
  [[pdf]](https://www.nature.com/articles/s43856-024-00730-5) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Artificial%20Intelligence%20for%20Hemodynamic%20Monitoring%20With%20a%20Wearable%20Electrocardiogram%20Monitor.pdf)
 - `Communications Medicine, 2025`
@@ -50,7 +50,7 @@ Interesting paper, pretty quick and easy to read. Quite impressive datasets, int
 Interesting and really well-written paper, I enjoyed reading this. Everything is clearly explained, the medical background is interesting and easy to understand, the approach makes sense, interesting datasets etc. High-quality stuff.
 ```
 
-##### [25-08-15] [paper518]
+##### [25-08-15] [paper519]
 - SensorLM: Learning the Language of Wearable Sensors
  [[pdf]](https://arxiv.org/abs/2506.09108) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SensorLM%20Learning%20the%20Language%20of%20Wearable%20Sensors.pdf)
 - `arxiv, 2025-06`
@@ -59,7 +59,7 @@ Interesting and really well-written paper, I enjoyed reading this. Everything is
 Interesting paper, the general idea of signal-language models is definitely interesting, just not entirely sure how useful it would be in practice? The zero-shot classification capability seems like it could be useful, I think. The results in Figure 5, Table 19 and Table 20 are not overly impressive though, if you compare with the results for LSM-1 and LSM-2 in Table 2 and Table 4 in "LSM-2: Learning from Incomplete Wearable Sensor Data". SensorLM has similar performance to all the SSL baselines, which are clearly outperformed by both LSM-1 and LSM-2. I.e., it seems like the masked autoencoder approach of LSM is more effective. But of course, the signal-language approach also adds novel capabilities (in particular, zero-shot prediction), some kind of trade-off I suppose.
 ```
 
-##### [25-08-15] [paper517]
+##### [25-08-15] [paper518]
 - LSM-2: Learning from Incomplete Wearable Sensor Data
  [[pdf]](https://arxiv.org/abs/2506.05321) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/LSM-2%20Learning%20from%20Incomplete%20Wearable%20Sensor%20Data.pdf)
 - `arxiv, 2025-06`
@@ -68,7 +68,7 @@ Interesting paper, the general idea of signal-language models is definitely inte
 Quite interesting and well-written paper, this is a direct follow-up of "Scaling Wearable Foundation Models" (LSM-1). The method difference compared to LSM-1 seems reasonable, to better handle missingness in the input data, relatively small/simple changes. The difference in performance on the downstream tasks (Table 2 and 4) is quite small indeed though. But both LSM-1 and LSM-2 clealry outperform the contrastive-based baselines (SimCLR, DINO, MSN) here at least. Not sure how much reading this paper added compared to just reading the LSM-1 paper, but still quite interesting to see Google's most recent model within this domain.
 ```
 
-##### [25-08-15] [paper516]
+##### [25-08-15] [paper517]
 - Scaling Wearable Foundation Models
  [[pdf]](https://openreview.net/forum?id=yb4QE6b22f) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Scaling%20Wearable%20Foundation%20Models.pdf)
 - `ICLR 2025`
@@ -77,7 +77,7 @@ Quite interesting and well-written paper, this is a direct follow-up of "Scaling
 Quite interesting and overall well-written paper. Mostly focusing on scaling results (as the title suggests, of course), not a lot of downstream tasks. So, that could be more interesting. Cool dataset though, collected from real-world users of Fitbit Sense 2 and Google Pixel Watch 2. I was surprised that they use ViT models for this type of data, the input is a "sensor matrix" of 26 signals (derived from 5 sensors) x 300 minutes. Pretty good introduction to this type of data, I think, pretty good background.
 ```
 
-##### [25-08-14] [paper515]
+##### [25-08-14] [paper516]
 - Large Language Models are Powerful Electronic Health Record Encoders
  [[pdf]](https://arxiv.org/abs/2502.17403) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large%20Language%20Models%20are%20Powerful%20Electronic%20Health%20Record%20Encoders.pdf)
 - `arxiv, 2025-02`
@@ -86,7 +86,7 @@ Quite interesting and overall well-written paper. Mostly focusing on scaling res
 Well-written and interesting paper. Longer than what I usually read, 20+ pages, but I still quite enjoyed reading this. Everything is clearly explained, and I do think this approach makes quite a lot of sense, especially in terms of its flexibility ("This limitation underscores a key challenge in adapting domain-specific models to external datasets, even with considerable manual effort. In contrast, the LLM-based models required only a mapping from clinical concepts to their natural language descriptions, which were directly incorporated into the Markdown-based serialization. This simplified integration process substantially reduced implementation overhead and emphasized the strong generalization ability of LLM-based encodings across diverse coding systems and healthcare domains"). The LLM-based approach also seems to perform quite well compared to reasonable baselines.
 ```
 
-##### [25-08-13] [paper514]
+##### [25-08-13] [paper515]
 - Benchmarking Foundation Models with Multimodal Public Electronic Health Records
  [[pdf]](https://arxiv.org/abs/2507.14824) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Benchmarking%20Foundation%20Models%20with%20Multimodal%20Public%20Electronic%20Health%20Records.pdf)
 - `arxiv, 2025-07`
@@ -95,7 +95,7 @@ Well-written and interesting paper. Longer than what I usually read, 20+ pages, 
 Quite interesting paper, their code looks potentially useful. The results in Table 2 & 3 and Figure 4 are quite interesting, that "Baseline + Text" is better than both "Baseline + Image" and "Baseline + Image + Text". Images seem to add basically no information once the text notes are available here.
 ```
 
-##### [25-08-13] [paper513]
+##### [25-08-13] [paper514]
 - Agent-Based Feature Generation from Clinical Notes for Outcome Prediction
  [[pdf]](https://www.arxiv.org/abs/2508.01956) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Agent-Based%20Feature%20Generation%20from%20Clinical%20Notes%20for%20Outcome%20Prediction.pdf)
 - `arxiv, 2025-08`
@@ -104,7 +104,7 @@ Quite interesting paper, their code looks potentially useful. The results in Tab
 Quite interesting paper, the proposed approach is conceptually interesting and makes some sense, the results seem quite promising etc. HOWEVER, they provide no technical details whatsoever? They don't specify which LLMs are used in their different agents? They don't describe how these are prompted? Basically, they give no detailed description of how their agent-based system actually works, at all? Also, the evaluation is only performed on a single small dataset of 147 patients.
 ```
 
-##### [25-08-12] [paper512]
+##### [25-08-12] [paper513]
 - Mixture-of-Agents Enhances Large Language Model Capabilities
  [[pdf]](https://openreview.net/forum?id=h0ZfDIrj7T) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Mixture-of-Agents%20Enhances%20Large%20Language%20Model%20Capabilities.pdf)
 - `ICLR 2025`
@@ -113,7 +113,7 @@ Quite interesting paper, the proposed approach is conceptually interesting and m
 Quite interesting and well-written paper. Conceptually simple and quite intuitive approach, neat that it also seems to work well overall. (seems like Figure 3 is covering the bottom row of Table 2 though^^)
 ```
 
-##### [25-08-12] [paper511]
+##### [25-08-12] [paper512]
 - MoMA: A Mixture-of-Multimodal-Agents Architecture for Enhancing Clinical Prediction Modelling
  [[pdf]](https://arxiv.org/abs/2508.05492) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MoMA%20A%20Mixture-of-Multimodal-Agents%20Architecture%20for%20Enhancing%20Clinical%20Prediction%20Modelling.pdf)
 - `arxiv, 2025-08`
@@ -122,7 +122,7 @@ Quite interesting and well-written paper. Conceptually simple and quite intuitiv
 Well-written and quite interesting paper. Things are explained well, Figure 1 gives a good overview. The approach is conceptually quite straightforward, seems to perform quite well compared to a vision-language model at least. A pretty nice paper to read.
 ```
 
-##### [25-08-11] [paper510]
+##### [25-08-11] [paper511]
 - Decoding-Based Regression
  [[pdf]](https://openreview.net/forum?id=avUQ8jguxg) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Decoding-Based%20Regression.pdf)
 - `TMLR, 2025`
@@ -131,7 +131,7 @@ Well-written and quite interesting paper. Things are explained well, Figure 1 gi
 Quite interesting paper. Everything is solid and results are reasonable etc, but I was just hoping for a bit more, not entirely sure how much this added compared to "Performance Prediction for Large Systems via Text-to-Text Regression" and "OmniPred: Language Models as Universal Regressors" which I already have read. I did not follow much at all in Secton 3.3, difficult for me to judge how valuable this theoretical analysis is.
 ```
 
-##### [25-08-10] [paper509]
+##### [25-08-10] [paper510]
 - OmniPred: Language Models as Universal Regressors
  [[pdf]](https://openreview.net/forum?id=t9c3pfrR1X) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/OmniPred%20Language%20Models%20as%20Universal%20Regressors.pdf)
 - `TMLR, 2024`
@@ -140,7 +140,7 @@ Quite interesting paper. Everything is solid and results are reasonable etc, but
 Quite interesting paper. I thought this was going to provide some more method details and background than "Performance Prediction for Large Systems via Text-to-Text Regression" which I read before, but this didn't really give that much more. Still a solid paper though.
 ```
 
-##### [25-08-10] [paper508]
+##### [25-08-10] [paper509]
 - Performance Prediction for Large Systems via Text-to-Text Regression
  [[pdf]](https://arxiv.org/abs/2506.21718) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Performance%20Prediction%20for%20Large%20Systems%20via%20Text-to-Text%20Regression.pdf)
 - `arxiv, 2025-06`
@@ -149,13 +149,22 @@ Quite interesting paper. I thought this was going to provide some more method de
 Well written and interesting paper, I quite enjoyed reading it. Everything is explained well, but I should probably go back and read "OmniPred: Language Models as Universal Regressors" from the same group for more details about the actual method.
 ```
 
-##### [25-08-09] [paper507]
+##### [25-08-09] [paper508]
 - Large Language Models for Medical Forecasting -- Foresight 2
  [[pdf]](https://arxiv.org/abs/2412.10848) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large%20Language%20Models%20for%20Medical%20Forecasting%20--%20Foresight%202.pdf)
 - `arxiv, 2024-12`
 - [ML for Medicine/Healthcare], [Language Models], [EHRs]
 ```
 Interesting paper, overall I quite enjoyed reading this. But, I still don't understand what the input to their model is?! Is it the actual patient timeline with temporal separator tokens etc, or is it just the reconstructed clinical note at the bottom of Figure 1? Also, what loss is used in the risk forecasting fine-tuning in Section 2.4?
+```
+
+##### [25-08-08] [paper507]
+- SurvivEHR: A Competing Risks, Time-To-Event Foundation Model for Multiple Long-Term Conditions From Primary Care Electronic Health Records
+ [[pdf]](https://www.medrxiv.org/content/10.1101/2025.08.04.25332916v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SurvivEHR%20A%20Competing%20Risks%2C%20Time-To-Event%20Foundation%20Model%20for%20Multiple%20Long-Term%20Conditions%20From%20Primary%20Care%20Electronic%20Health%20Records.pdf)
+- `medrxiv, 2025-08`
+- [ML for Medicine/Healthcare], [EHRs] 
+```
+Interesting paper. Quite long, took me a while to get through everything, and I was pretty tired towards the end. Trained on a lot of data, primary care data, which is cool. Figure 1 is nice. Figure 4 is quite messy, difficult to interpret. I'm confused by the "Causal value prediction" paragraph in "Model architecture implementation", is this regression NLL loss added to the survival loss? What is actually the final loss that's used to train the model? Not clear to me how different their approach actually is compared to MOTOR ("Recently, this limitation has been overcome with MOTOR [45], a self-supervised, time-to-event (TTE) foundation model but this is limited to approximations of time-to-event distributions using Piecewise Exponential Artificial Neural Networks"), would have been interesting to see a direct comparison. I also don't quite understand why their model can't do zero-shot prediction?
 ```
 
 ##### [25-08-08] [paper506]
