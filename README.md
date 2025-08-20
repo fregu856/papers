@@ -22,6 +22,14 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-08-20] [paper523]
+- Boosting Masked ECG-Text Auto-Encoders as Discriminative Learners
+ [[pdf]](https://openreview.net/forum?id=mM65b81LdM) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Boosting%20Masked%20ECG-Text%20Auto-Encoders%20as%20Discriminative%20Learners.pdf)
+- `ICML 2025`
+- [ML for Medicine/Healthcare], [ECGs]
+```
+Interesting and quite well-written paper, but at least I personally found parts of the method description confusing. I don't quite understand why the ETM loss is used? Yes I see in Table 12 that it improves the performance a tiny bit, but the motivation for it is not clear to me? Where does this come from? Is it standard to include this when doing masked modelling with two modalities? I don't really think I've seen this before? Also, is the cross-attention fusion module really needed? This is only used during the pretraining, or?
+```
 
 ##### [25-08-17] [paper522]
 - Knowledge-Enhanced Multimodal ECG Representation Learning with Arbitrary-Lead Inputs
