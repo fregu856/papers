@@ -28,7 +28,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - `arxiv, 2025-02`
 - [ML for Medicine/Healthcare], [ECGs]
 ```
-Quite interesting paper. Figure 1 - 3 are small and very dense, contain a lot of information, but overall illustrate things well once you zoom in and study them carefully. I liked Section 3.2, they explain things with a lot of details there, but still easy to follow. I don't understand the zero-shot classification thing though, how do they construct these dataset-specific query lists? Based on what? "SuPreME is evaluated on six ~unseen~ datasets using ~dataset-specific~ prompts", isn't this a bit of a contradiction? Also, in Table 4 - 9 the performance of their method drops significantly when they make different modifications, drops well below the MERL baseline for example. I.e., seems like their method is quite sensitive? This is a pretty clear weakness?
+Quite interesting paper. Figure 1 - 3 are small and very dense, contain a lot of information, but overall illustrate things well once you zoom in and study them carefully. I liked Section 3.2, they explain things with a lot of details there, but still easy to follow. I don't understand the zero-shot classification thing though, how do they construct these dataset-specific query lists? Based on what? "SuPreME is evaluated on six ~unseen~ datasets using ~dataset-specific~ prompts", isn't this a bit of a contradiction? Also, in Table 4 - 9 the performance of their method drops significantly when they make different modifications, drops well below the MERL baseline for example. I.e., seems like their method is quite sensitive? Isn't this is a pretty clear weakness?
 ```
 
 ##### [25-08-21] [paper524]
