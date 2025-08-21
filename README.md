@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-08-21] [paper524]
+- From Token to Rhythm: A Multi-Scale Approach for ECG-Language Pretraining
+ [[pdf]](https://openreview.net/forum?id=fUjkoGUre0) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/From%20Token%20to%20Rhythm%20A%20Multi-Scale%20Approach%20for%20ECG-Language%20Pretraining.pdf)
+- `ICML 2025`
+- [ML for Medicine/Healthcare], [ECGs]
+```
+Quite interesting paper, but very similar to the previous paper I read "Boosting Masked ECG-Text Auto-Encoders as Discriminative Learners". They evaluate their models in basically the same way, Table 2, 3 & 4 in the two papers can be directly compared, and they achieve very similar performance. It's probably sufficient to read just one of these two papers.
+```
+
 ##### [25-08-20] [paper523]
 - Boosting Masked ECG-Text Auto-Encoders as Discriminative Learners
  [[pdf]](https://openreview.net/forum?id=mM65b81LdM) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Boosting%20Masked%20ECG-Text%20Auto-Encoders%20as%20Discriminative%20Learners.pdf)
