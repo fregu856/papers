@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-08-22] [paper526]
+- PaPaGei: Open Foundation Models for Optical Physiological Signals
+ [[pdf]](https://arxiv.org/abs/2410.20542) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PaPaGei%20Open%20Foundation%20Models%20for%20Optical%20Physiological%20Signals.pdf)
+- `ICLR 2025`
+- [ML for Medicine/Healthcare], [Time Series] 
+```
+Well-written and quite interesting paper. The proposed PaPaGei-S does perhaps seem a bit ad hoc (adding MAE losses for predicting IPA and SQI), but at the same time it generally makes sense to utilize domain-specific knowledge I think. The performance gain compared to PaPaGei-P (Table 3 & 4) is not huge, but quite consistently a bit better at least. Sensible evaluation, good baselines, and seems to perform well overall. I found Figure 6 a bit odd though, it seems strange that both "sVRI + SQI+ and "sVRI + IPA" are worse than "sVRI", but "sVRI + SQI + IPA" is better than "sVRI"? Also seems strange that the 35M param model is worse than the 5M model, but 139M model is better than 35M model?
+```
+
 ##### [25-08-21] [paper525]
 - SuPreME: A Supervised Pre-training Framework for Multimodal ECG Representation Learning
  [[pdf]](https://arxiv.org/abs/2502.19668) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SuPreME%20A%20Supervised%20Pre-training%20Framework%20for%20Multimodal%20ECG%20Representation%20Learning.pdf)
