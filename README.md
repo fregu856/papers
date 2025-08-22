@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-08-22] [paper527]
+- Large-scale Training of Foundation Models for Wearable Biosignals
+ [[pdf]](https://arxiv.org/abs/2312.05409) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large-scale%20Training%20of%20Foundation%20Models%20for%20Wearable%20Biosignals.pdf)
+- `ICLR 2024`
+- [ML for Medicine/Healthcare], [ECGs], [Time Series] 
+```
+Interesting paper, cool to see what data Apple can extract directly from Apple Watch users. 4-channel PPG and 1-channel ECG (user wears the watch and then also puts a finger on the crown). Interesting that the model trained on PPG is more predictive than the ECG model. I was not overly interested in the model/method specifics, I mainly focused on the data and the downstream tasks.
+```
+
 ##### [25-08-22] [paper526]
 - PaPaGei: Open Foundation Models for Optical Physiological Signals
  [[pdf]](https://arxiv.org/abs/2410.20542) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PaPaGei%20Open%20Foundation%20Models%20for%20Optical%20Physiological%20Signals.pdf)
