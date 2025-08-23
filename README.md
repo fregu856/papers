@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-08-23] [paper528]
+- MOMENT: A Family of Open Time-series Foundation Models
+ [[pdf]](https://arxiv.org/abs/2402.03885) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MOMENT%20A%20Family%20of%20Open%20Time-series%20Foundation%20Models.pdf)
+- `ICML 2024`
+- [Time Series] 
+```
+Well-written overall, somewhat interesting. I read this mostly just to get a sense of what data these general-purpose time-series FMs are trained on, how they are evaluated etc. I didn't analyze the results in much detail.
+```
+
 ##### [25-08-22] [paper527]
 - Large-scale Training of Foundation Models for Wearable Biosignals
  [[pdf]](https://arxiv.org/abs/2312.05409) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Large-scale%20Training%20of%20Foundation%20Models%20for%20Wearable%20Biosignals.pdf)
