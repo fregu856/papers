@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-08-24] [paper529]
+- Beyond Sensor Data: Foundation Models of Behavioral Data from Wearables Improve Health Predictions
+ [[pdf]](https://arxiv.org/abs/2507.00191) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Beyond%20Sensor%20Data%20Foundation%20Models%20of%20Behavioral%20Data%20from%20Wearables%20Improve%20Health%20Predictions.pdf)
+- `ICML 2025`
+- [ML for Medicine/Healthcare], [Time Series]
+```
+Interesting paper, a natural follow-up for "Large-scale Training of Foundation Models for Wearable Biosignals" (ICLR 2024) from Apple. Again, cool to see what data they can extract directly from Apple watch users, and what this data can be used for. Nothing groundbreaking in terms of models/methods, and there are probably details missing if one actually would want to implement something similar in practice, but I still quite enjoyed reading this. Easy to follow, and just quite interesting to get an overview of Apple's data and what they're working on within this domain.
+```
+
 ##### [25-08-23] [paper528]
 - MOMENT: A Family of Open Time-series Foundation Models
  [[pdf]](https://arxiv.org/abs/2402.03885) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MOMENT%20A%20Family%20of%20Open%20Time-series%20Foundation%20Models.pdf)
