@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-08-25] [paper530]
+- Predicting Cardiovascular Disease Risk Using Photoplethysmography and Deep Learning
+ [[pdf]](https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0003204) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predicting%20Cardiovascular%20Disease%20Risk%20Using%20Photoplethysmography%20and%20Deep%20Learning.pdf)
+- `PLOS Global Public Health, 2024`
+- [ML for Medicine/Healthcare], [Time Series]
+```
+Somewhat interesting paper. The performance of their PPG-based model doesn't seem overly impressive, basically the same as for the baseline that replaces their 5 PPG features with height, weight and systolic blood pressure. And, I'm not quite sure if I buy that it would be easier to collect PPG measurements than height/weight and blood pressure in resource-limited settings.
+```
+
 ##### [25-08-24] [paper529]
 - Beyond Sensor Data: Foundation Models of Behavioral Data from Wearables Improve Health Predictions
  [[pdf]](https://arxiv.org/abs/2507.00191) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Beyond%20Sensor%20Data%20Foundation%20Models%20of%20Behavioral%20Data%20from%20Wearables%20Improve%20Health%20Predictions.pdf)
