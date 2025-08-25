@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-08-25] [paper532]
+- Q-Heart: ECG Question Answering via Knowledge-Informed Multimodal LLMs
+ [[pdf]](https://arxiv.org/abs/2505.06296) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Q-Heart%20ECG%20Question%20Answering%20via%20Knowledge-Informed%20Multimodal%20LLMs.pdf)
+- `arxiv, 2025-05`
+- [ML for Medicine/Healthcare], [ECGs], [Language Models]
+```
+Well-written and interesting paper, I quite enjoyed reading this. The approach is interesting and overall makes intuitive sense to me. Things are explained well overall. Seems to perform well compared to baselines, but difficult for me to judge how significant these performance differences are, or to judge how close this is to something that actually would be useful in practice. The ablation in Table 4 is interesting, but I don't understand what "w/o ET-Mapper" means, is the ECG embedding not incorporated at all then? The ECG info is only given indirectly via the retrieved top text report which is included in the prompt? But if so, shouldn't this give worse performance than "w/o Pos-Encoder"?
+```
+
 ##### [25-08-25] [paper531]
 - Electrocardiogram-Language Model for Few-Shot Question Answering with Meta Learning
  [[pdf]](https://arxiv.org/abs/2410.14464) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Electrocardiogram-Language%20Model%20for%20Few-Shot%20Question%20Answering%20with%20Meta%20Learning.pdf)
