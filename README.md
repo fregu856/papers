@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-08-25] [paper531]
+- Electrocardiogram-Language Model for Few-Shot Question Answering with Meta Learning
+ [[pdf]](https://arxiv.org/abs/2410.14464) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Electrocardiogram-Language%20Model%20for%20Few-Shot%20Question%20Answering%20with%20Meta%20Learning.pdf)
+- `CHIL 2025`
+- [ML for Medicine/Healthcare], [ECGs], [Language Models]
+```
+Fairly interesting paper, but unfortunately I didn't really understand the overall meta-learning setup, I guess I don't know the meta-learning basics well enough. Therefore, it's very difficult for me to judge how impressive these results are, if the model actually seems to work. Figure 1 with the general approach illustrated there is quite interesting though, to combine a frozen LLM with a frozen ECG feature extractor in that way, this makes some sense to me.
+```
+
 ##### [25-08-25] [paper530]
 - Predicting Cardiovascular Disease Risk Using Photoplethysmography and Deep Learning
  [[pdf]](https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0003204) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predicting%20Cardiovascular%20Disease%20Risk%20Using%20Photoplethysmography%20and%20Deep%20Learning.pdf)
