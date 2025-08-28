@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-08-28] [paper534]
+- ECG-Chat: A Large ECG-Language Model for Cardiac Disease Diagnosis
+ [[pdf]](https://arxiv.org/abs/2408.08849) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/ECG-Chat%20A%20Large%20ECG-Language%20Model%20for%20Cardiac%20Disease%20Diagnosis.pdf)
+- `ICME 2025`
+- [ML for Medicine/Healthcare], [ECGs], [Language Models] 
+```
+Interesting paper. Quite a lot of things here which intuitively makes sense to me. Interesting that they used NeuroKit2 to extend the text report for each ECG in the ECG encoder training, and that this seems to make such a big difference in Table 1. Interesting that they use GPT-4o to create instruction tuning datasets based on MIMIC-IV-ECG. However, seems like the report generation doesn't really work without DDP (Table 2), RAG or DSPy (Table 7)? These approaches in general are probably limited by the available public datasets atm?
+```
+
 ##### [25-08-28] [paper533]
 - ECG-LM: Understanding Electrocardiogram with a Large Language Model
  [[pdf]](https://spj.science.org/doi/10.34133/hds.0221) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/ECG-LM%20Understanding%20Electrocardiogram%20with%20a%20Large%20Language%20Model.pdf)
