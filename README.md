@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-08-28] [paper533]
+- ECG-LM: Understanding Electrocardiogram with a Large Language Model
+ [[pdf]](https://spj.science.org/doi/10.34133/hds.0221) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/ECG-LM%20Understanding%20Electrocardiogram%20with%20a%20Large%20Language%20Model.pdf)
+- `Health Data Science, 2025`
+- [ML for Medicine/Healthcare], [ECGs], [Language Models] 
+```
+Quite interesting and quite well-written paper. The general approach is interesting, but I found some things a bit unclear, especially how they used the PTB-XL+ dataset to extract lead-specific text descriptions. Also, they both pretrain the model and then evaluate zero-shot classification on PTB-XL, but they don't really specify any train/test splits?
+```
+
 ##### [25-08-25] [paper532]
 - Q-Heart: ECG Question Answering via Knowledge-Informed Multimodal LLMs
  [[pdf]](https://arxiv.org/abs/2505.06296) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Q-Heart%20ECG%20Question%20Answering%20via%20Knowledge-Informed%20Multimodal%20LLMs.pdf)
