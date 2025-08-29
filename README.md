@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-08-29] [paper536]
+- MEIT: Multimodal Electrocardiogram Instruction Tuning on Large Language Models for Report Generation
+ [[pdf]](https://arxiv.org/abs/2403.04945) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MEIT%20Multimodal%20Electrocardiogram%20Instruction%20Tuning%20on%20Large%20Language%20Models%20for%20Report%20Generation.pdf)
+- `ACL 2025`
+- [ML for Medicine/Healthcare], [ECGs], [Language Models]
+```
+Quite interesting paper. Overall quite similar compared to other papers on ECGs + language that I've read recently. Very difficult to know how well this approach actually works though, they just compare using different LLMs within their own approach, and the metrics are just general text generation quality metrics. This is true for basically all these ECG + language models, at least personally I find it difficult to know how well they actually work, how close they are to something that would be practically useful.
+```
+
 ##### [25-08-29] [paper535]
 - anyECG-Chat: A Generalist ECG-MLLM for Flexible ECG Input and Multi-Task Understanding
  [[pdf]](https://arxiv.org/abs/2506.00942) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/anyECG-Chat%20A%20Generalist%20ECG-MLLM%20for%20Flexible%20ECG%20Input%20and%20Multi-Task%20Understanding.pdf)
