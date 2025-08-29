@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-08-29] [paper535]
+- anyECG-Chat: A Generalist ECG-MLLM for Flexible ECG Input and Multi-Task Understanding
+ [[pdf]](https://arxiv.org/abs/2506.00942) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/anyECG-Chat%20A%20Generalist%20ECG-MLLM%20for%20Flexible%20ECG%20Input%20and%20Multi-Task%20Understanding.pdf)
+- `arxiv, 2025-06`
+- [ML for Medicine/Healthcare], [ECGs], [Language Models]
+```
+Well-written and quite interesting paper. The approach makes sense overall I think. They create quite interesting datasets, seems reasonable to try and extend with more varying types of ECG inputs. I didn't analyze the results in a lot of details, I find it a bit difficult to judge how impressive the performance actually is for these types of models.
+```
+
 ##### [25-08-28] [paper534]
 - ECG-Chat: A Large ECG-Language Model for Cardiac Disease Diagnosis
  [[pdf]](https://arxiv.org/abs/2408.08849) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/ECG-Chat%20A%20Large%20ECG-Language%20Model%20for%20Cardiac%20Disease%20Diagnosis.pdf)
