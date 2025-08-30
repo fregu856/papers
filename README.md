@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-08-30] [paper537]
+- Visual Instruction Tuning
+ [[pdf]](https://arxiv.org/abs/2304.08485) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Visual%20Instruction%20Tuning.pdf)
+- `NeurIPS 2023`
+- [Language Models], [Vision-Language Models]
+```
+The LLaVA paper, quite interesting. Doesn't quite "feel" like a typical NeurIPS paper though, not a lot of method details, not an overly extensive evaluation etc. But, the core approach in Section 4 is interesting, conceptually simple. Probably good to have read this, to know exactly what other papers are referring to etc.
+```
+
 ##### [25-08-29] [paper536]
 - MEIT: Multimodal Electrocardiogram Instruction Tuning on Large Language Models for Report Generation
  [[pdf]](https://arxiv.org/abs/2403.04945) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MEIT%20Multimodal%20Electrocardiogram%20Instruction%20Tuning%20on%20Large%20Language%20Models%20for%20Report%20Generation.pdf)
