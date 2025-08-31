@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-08-31] [paper539]
+- BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models
+ [[pdf]](https://proceedings.mlr.press/v202/li23q/li23q.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/BLIP-2%20Bootstrapping%20Language-Image%20Pre-training%20with%20Frozen%20Image%20Encoders%20and%20Large%20Language%20Models.pdf)
+- `ICML 2023`
+- [Language Models], [Vision-Language Models]
+```
+Well-written and quite interesting. As a ~paper~ I definitely liked this more than the LLaVA papers, feels more high-quality overall, and I quite enjoyed reading this. The ~method~ is probably a bit more complex though, uses a much bigger model to align image and text. Still think it was pretty useful to read this though.
+```
+
 ##### [25-08-31] [paper538]
 - Improved Baselines with Visual Instruction Tuning
  [[pdf]](https://arxiv.org/abs/2310.03744) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Improved%20Baselines%20with%20Visual%20Instruction%20Tuning.pdf)
