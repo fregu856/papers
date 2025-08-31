@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-08-31] [paper538]
+- Improved Baselines with Visual Instruction Tuning
+ [[pdf]](https://arxiv.org/abs/2310.03744) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Improved%20Baselines%20with%20Visual%20Instruction%20Tuning.pdf)
+- `CVPR 2024`
+- [Language Models], [Vision-Language Models]
+```
+The LLaVA-1.5 paper, quite interesting. Just small tweaks/improvements compared to LLaVA really (2-layer MLP projector instead of single linear layer, VQA and some other datasets added to the instruction-following data, higher-res CLIP model for the image encoder, later version of Vicuna for the LLM with 13B params instead of 7B), the overall approach is still very simple. Not sure how much reading this added compared to the LLaVA paper, but quick to read and still quite interesting, it also summarizes LLaVA well.
+```
+
 ##### [25-08-30] [paper537]
 - Visual Instruction Tuning
  [[pdf]](https://arxiv.org/abs/2304.08485) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Visual%20Instruction%20Tuning.pdf)
