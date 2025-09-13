@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-09-13] [paper540]
+- ECG Semantic Integrator (ESI): A Foundation ECG Model Pretrained with LLM-Enhanced Cardiological Text
+ [[pdf]](https://openreview.net/forum?id=giEbq8Khcf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/ECG%20Semantic%20Integrator%20(ESI)%20A%20Foundation%20ECG%20Model%20Pretrained%20with%20LLM-Enhanced%20Cardiological%20Text.pdf)
+- `TMLR, 2024`
+- [ML for Medicine/Healthcare], [ECGs]
+```
+Well-written and interesting paper, I quite enjoyed reading this. Everything is explained well and makes sense overall. Multiple interesting and neat ablations/experiments in Section 5. Just a very solid paper overall.
+```
+
 ##### [25-08-31] [paper539]
 - BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models
  [[pdf]](https://proceedings.mlr.press/v202/li23q/li23q.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/BLIP-2%20Bootstrapping%20Language-Image%20Pre-training%20with%20Frozen%20Image%20Encoders%20and%20Large%20Language%20Models.pdf)
