@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-09-15] [paper541]
+- Predicting Future Hospital Antimicrobial Resistance Prevalence Using Machine Learning
+ [[pdf]](https://www.nature.com/articles/s43856-024-00606-8) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predicting%20Future%20Hospital%20Antimicrobial%20Resistance%20Prevalence%20Using%20Machine%20Learning.pdf)
+- `Communications Medicine, 2024`
+- [ML for Medicine/Healthcare] 
+```
+Quite interesting, I'm reading this to get a sense of what type of problems David Eyre and his group are working on. The abstract/introduction was pretty good/useful/interesting medical background for me.
+```
+
 ##### [25-09-13] [paper540]
 - ECG Semantic Integrator (ESI): A Foundation ECG Model Pretrained with LLM-Enhanced Cardiological Text
  [[pdf]](https://openreview.net/forum?id=giEbq8Khcf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/ECG%20Semantic%20Integrator%20(ESI)%20A%20Foundation%20ECG%20Model%20Pretrained%20with%20LLM-Enhanced%20Cardiological%20Text.pdf)
