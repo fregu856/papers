@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
+##### [25-09-17] [paper542]
+- BenchECG and xECG: A Benchmark and Baseline for ECG Foundation Models
+ [[pdf]](https://arxiv.org/abs/2509.10151) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/BenchECG%20and%20xECG%20A%20Benchmark%20and%20Baseline%20for%20ECG%20Foundation%20Models.pdf)
+- `arxiv, 2025-09`
+- [ML for Medicine/Healthcare], [ECGs] 
+```
+Well-written and interesting paper, overall I quite enjoyed reading this. But then towards the end I got somewhat confused and perhaps a bit less impressed. Interesting that they use an xLSTM model instead of a transformer, and interesting that they use a DINOv2 variant to pretrain the model instead of random masking / reconstruction etc. I don't think I've seen DINO being applied to ECGs before? I think that this approach might make sense. I was a bit confused by the evaluation though, how they use different "window len" for different models (Table 15 - 18). I thought that they were gonna be able to directly apply their xLSTM model to ~really~ long signals (even multiple hours perhaps), but if I understand correctly, they never feed their model longer subsegments than 3 minutes. But yes, still interesting, made think quite a lot, in a good way.
+```
+
 ##### [25-09-15] [paper541]
 - Predicting Future Hospital Antimicrobial Resistance Prevalence Using Machine Learning
  [[pdf]](https://www.nature.com/articles/s43856-024-00606-8) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predicting%20Future%20Hospital%20Antimicrobial%20Resistance%20Prevalence%20Using%20Machine%20Learning.pdf)
