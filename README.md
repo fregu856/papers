@@ -22,7 +22,34 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2025:
 
-##### [25-09-17] [paper542]
+##### [25-09-20] [paper553]
+- Contrastive Multi-Modal Training With Electrocardiography and Natural Language Echocardiography Reports for Zero-Shot Prediction of Structural Heart Disease
+ [[pdf]](https://www.medrxiv.org/content/10.1101/2025.09.16.25335870v1) [[annotated pdf (TODO!)]]()
+- `medrxiv, 2025-09`
+- [ML for Medicine/Healthcare], [ECGs] 
+```
+Quite interesting and well-written paper. They take the MERL model and train it further on 45k ECG-text data pairs, with the text data extracted from echocardiography reports. The external test data is from EchoNext, but then I don't quite understand why they only have 5.4k ECGs, EchoNext is much bigger than that?
+```
+
+##### [25-09-18] [paper552]
+- Multimodal Clinical Benchmark for Emergency Care (MC-BEC): A Comprehensive Benchmark for Evaluating Foundation Models in Emergency Medicine
+ [[pdf]](https://arxiv.org/abs/2311.04937) [[annotated pdf (TODO!)]]()
+- `NeurIPS 2023 (Track on Datasets and Benchmarks)`
+- [ML for Medicine/Healthcare], [ECGs], [Time Series] 
+```
+I wanted to read this because they use an earlier version of the MC-MED dataset. They evaluate on three specific tasks (1. Decompensation: "predict which patients are likely to experience clinical decompensation, defined as new onset of tachycardia (heart rate [HR] > 110), hypotension (mean arterial pressure [MAP] < 65 mmHg), or hypoxia (oxygen saturation by pulse oximetry [SpO2] < 90%) in patients with initially normal vital signs". 2. Disposition: "predict the binary outcome of a patient’s disposition from the ED: whether they will be discharged home or admitted to the hospital". 3. Revisit: "predict whether a patient will revisit the ED within a 3, 7, or 14-day period after being discharged") which all are pretty interesting and seem to make sense. But, a ton of details are missing? I would definitely not be able to implement their model just based on this paper at least. For example, what's even the format of the ECG/PPG data? Do they have one long, continuous signal for each ED visit? If so, exactly how do they extract features from these long signals then? In conclusion, I'm not sure how much I learned from this compared to just reading the MC-MED paper.
+```
+
+##### [25-09-18] [paper551]
+- MC-MED, Multimodal Clinical Monitoring in the Emergency Department
+ [[pdf]](https://www.nature.com/articles/s41597-025-05419-5) [[annotated pdf (TODO!)]]()
+- `Scientific Data, 2025`
+- [ML for Medicine/Healthcare], [ECGs], [Time Series]
+```
+Short paper describing the MC-MED dataset. Not a ton of details (for example, not clear how many ECG segments there typically are for a visit, or how long these segments typically are), but yes, this seems like an interesting/useful dataset and resource.
+```
+
+##### [25-09-17] [paper550]
 - BenchECG and xECG: A Benchmark and Baseline for ECG Foundation Models
  [[pdf]](https://arxiv.org/abs/2509.10151) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/BenchECG%20and%20xECG%20A%20Benchmark%20and%20Baseline%20for%20ECG%20Foundation%20Models.pdf)
 - `arxiv, 2025-09`
@@ -31,7 +58,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 Well-written and interesting paper, overall I quite enjoyed reading this. But then towards the end I got somewhat confused and perhaps a bit less impressed. Interesting that they use an xLSTM model instead of a transformer, and interesting that they use a DINOv2 variant to pretrain the model instead of random masking / reconstruction etc. I don't think I've seen DINO being applied to ECGs before? I think that this approach might make sense. I was a bit confused by the evaluation though, how they use different "window len" for different models (Table 15 - 18). I thought that they were gonna be able to directly apply their xLSTM model to ~really~ long signals (even multiple hours perhaps), but if I understand correctly, they never feed their model longer subsegments than 3 minutes. But yes, still interesting, made think quite a lot, in a good way.
 ```
 
-##### [25-09-15] [paper541]
+##### [25-09-15] [paper549]
 - Predicting Future Hospital Antimicrobial Resistance Prevalence Using Machine Learning
  [[pdf]](https://www.nature.com/articles/s43856-024-00606-8) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Predicting%20Future%20Hospital%20Antimicrobial%20Resistance%20Prevalence%20Using%20Machine%20Learning.pdf)
 - `Communications Medicine, 2024`
@@ -40,27 +67,13 @@ Well-written and interesting paper, overall I quite enjoyed reading this. But th
 Quite interesting, I'm reading this to get a sense of what type of problems David Eyre and his group are working on. The abstract/introduction was pretty good/useful/interesting medical background for me.
 ```
 
-##### [25-09-13] [paper540]
+##### [25-09-13] [paper548]
 - ECG Semantic Integrator (ESI): A Foundation ECG Model Pretrained with LLM-Enhanced Cardiological Text
  [[pdf]](https://openreview.net/forum?id=giEbq8Khcf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/ECG%20Semantic%20Integrator%20(ESI)%20A%20Foundation%20ECG%20Model%20Pretrained%20with%20LLM-Enhanced%20Cardiological%20Text.pdf)
 - `TMLR, 2024`
 - [ML for Medicine/Healthcare], [ECGs]
 ```
 Well-written and interesting paper, I quite enjoyed reading this. Everything is explained well and makes sense overall. Multiple interesting and neat ablations/experiments in Section 5. Just a very solid paper overall.
-```
-
-
-
-
-
-
-##### [25-09-XX] [paper5XX]
-- XXX
- [[pdf]](XXXXX) [[annotated pdf (TODO!)]]()
-- `XXX`
-- [XXX]
-```
-XXX
 ```
 
 ##### [25-09-08] [paper547]
