@@ -52,6 +52,8 @@ Well-written and interesting paper, I quite enjoyed reading this. Everything is 
 
 
 
+
+
 ##### [25-09-XX] [paper5XX]
 - XXX
  [[pdf]](XXXXX) [[annotated pdf (TODO!)]]()
@@ -59,6 +61,15 @@ Well-written and interesting paper, I quite enjoyed reading this. Everything is 
 - [XXX]
 ```
 XXX
+```
+
+##### [25-09-05] [paper545]
+- Neural Discrete Representation Learning
+ [[pdf]](https://arxiv.org/abs/1711.00937) [[annotated pdf (TODO!)]]()
+- `NeurIPS 2017`
+- [Miscellaneous] 
+```
+The VQ-VAE paper, fairly interesting. I read this as background for the work on unified discrete diffusion models, but I'm not sure this gave that much compared to the papers I've already read. Very quick to read though, and still a bit interesting.
 ```
 
 ##### [25-09-05] [paper544]
