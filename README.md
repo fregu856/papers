@@ -63,6 +63,15 @@ Well-written and interesting paper, I quite enjoyed reading this. Everything is 
 XXX
 ```
 
+##### [25-09-06] [paper546]
+- OneCAT: Decoder-Only Auto-Regressive Model for Unified Understanding and Generation
+ [[pdf]](https://arxiv.org/abs/2509.03498) [[annotated pdf (TODO!)]]()
+- `arxiv, 2025-09`
+- [Vision-Language Models]
+```
+Well-written and interesting paper. Interesting approach, seemingly impressive results. I wanted to read another unified multimodal model paper, to compare with "Muddit: Liberating Generation Beyond Text-to-Image with a Unified Discrete Diffusion Model". The related work in Section 2 was good background for me. Not the most straightforward training setup perhaps, incorporating distillation from a pretrained ViT/MLLM. Also, I didn't realize until reaching the "Text-to-Image Generation" paragraph in Section 3.1 that they also utilize a pretrained image VAE, although just the decoder at test-time.
+```
+
 ##### [25-09-05] [paper545]
 - Neural Discrete Representation Learning
  [[pdf]](https://arxiv.org/abs/1711.00937) [[annotated pdf (TODO!)]]()
