@@ -49,6 +49,20 @@ Quite interesting, I'm reading this to get a sense of what type of problems Davi
 Well-written and interesting paper, I quite enjoyed reading this. Everything is explained well and makes sense overall. Multiple interesting and neat ablations/experiments in Section 5. Just a very solid paper overall.
 ```
 
+
+
+
+
+
+##### [25-08-31] [paper540]
+- Discrete Diffusion in Large Language and Multimodal Models: A Survey
+ [[pdf]](https://arxiv.org/abs/2506.13759) [[annotated pdf (TODO!)]]()
+- `arxiv, 2025-06`
+- [Language Models], [Vision-Language Models], [Diffusion Models]
+```
+Quite long survey paper, I didn't read absolutely everything in detail. Overall well-written and quite interesting. I haven't read anything about discrete diffusion models / diffusion language models before and I was just curious about all this, feels like a lot of things are happening within this space atm. And yes, this survey provided a pretty good introduction I think, showed what the main existing models are and what people are working on. Not a perfect survey, but it did the job. In particular, I found Section 1, Figure 1, Section 2.A, Section 2.C, Figure 1 and Figure 3 useful/interesting.
+```
+
 ##### [25-08-31] [paper539]
 - BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models
  [[pdf]](https://proceedings.mlr.press/v202/li23q/li23q.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/BLIP-2%20Bootstrapping%20Language-Image%20Pre-training%20with%20Frozen%20Image%20Encoders%20and%20Large%20Language%20Models.pdf)
