@@ -52,13 +52,22 @@ Well-written and interesting paper, I quite enjoyed reading this. Everything is 
 
 
 
-##### [25-08-31] [paper540]
+##### [25-08-31] [paper5XX]
 - XXX
  [[pdf]](XXXXX) [[annotated pdf (TODO!)]]()
 - `XXX`
 - [XXX]
 ```
 XXX
+```
+
+##### [25-09-02] [paper542]
+- Unified Multimodal Discrete Diffusion
+ [[pdf]](https://arxiv.org/abs/2503.20853) [[annotated pdf (TODO!)]]()
+- `arxiv, 2025-03`
+- [Vision-Language Models], [Diffusion Models] 
+```
+Somewhat interesting paper. Section 3 is pretty interesting, but then it feels like quite a few things were a bit unclear, at least to me. Not sure if this helped me understand these types of models better, not as much as I was hoping for at least. The results don't seem overly encouraging, their diffusion-based model is 13x slower to train, and at least not clearly faster for the same performance at test-time (compared to the AR baseline)?
 ```
 
 ##### [25-09-01] [paper541]
