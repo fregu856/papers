@@ -61,6 +61,15 @@ Well-written and interesting paper, I quite enjoyed reading this. Everything is 
 XXX
 ```
 
+##### [25-09-02] [paper543]
+- Muddit: Liberating Generation Beyond Text-to-Image with a Unified Discrete Diffusion Model
+ [[pdf]](https://arxiv.org/abs/2505.23606) [[annotated pdf (TODO!)]]()
+- `arxiv, 2025-05`
+- [Vision-Language Models], [Diffusion Models] 
+```
+Well-written and interesting paper, I enjoyed reading this. Pretty much everything is clearly explained and easy to follow, and makes intuitive sense as well. Happy that I decided to read this. The results in Table 2 are perhaps not overly impressive though, and the image captioning examples in Figure 5 also contain quite a few small errors? The step-by-step generation examples in Figure 11 and 12 are interesting, would be nice to see more similar examples, also for the text-to-image setting.
+```
+
 ##### [25-09-02] [paper542]
 - Unified Multimodal Discrete Diffusion
  [[pdf]](https://arxiv.org/abs/2503.20853) [[annotated pdf (TODO!)]]()
