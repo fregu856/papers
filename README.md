@@ -52,13 +52,22 @@ Well-written and interesting paper, I quite enjoyed reading this. Everything is 
 
 
 
-##### [25-08-31] [paper5XX]
+##### [25-09-XX] [paper5XX]
 - XXX
  [[pdf]](XXXXX) [[annotated pdf (TODO!)]]()
 - `XXX`
 - [XXX]
 ```
 XXX
+```
+
+##### [25-09-05] [paper544]
+- MaskGIT: Masked Generative Image Transformer 
+ [[pdf]](https://openaccess.thecvf.com/content/CVPR2022/html/Chang_MaskGIT_Masked_Generative_Image_Transformer_CVPR_2022_paper.html) [[annotated pdf (TODO!)]]()
+- `CVPR 2022`
+- [Miscellaneous]
+```
+Quite interesting paper. I read this as background for the work on unified discrete diffusion models, but it did perhaps seem a bit less relevant/useful than I had expected. Still pretty happy that I chose to read this though.
 ```
 
 ##### [25-09-02] [paper543]
