@@ -52,7 +52,23 @@ Well-written and interesting paper, I quite enjoyed reading this. Everything is 
 
 
 
+##### [25-08-31] [paper540]
+- XXX
+ [[pdf]](XXXXX) [[annotated pdf (TODO!)]]()
+- `XXX`
+- [XXX]
+```
+XXX
+```
 
+##### [25-09-01] [paper541]
+- LaViDa: A Large Diffusion Language Model for Multimodal Understanding
+ [[pdf]](https://arxiv.org/abs/2505.16839) [[annotated pdf (TODO!)]]()
+- `arxiv, 2025-05`
+- [Language Models], [Vision-Language Models], [Diffusion Models] 
+```
+Well-written and quite interesting paper. Everything in Section 1 - 3 is clearly explained and easy to follow, I quite enjoyed reading it. This approach is basically the same as LLaVA but using a diffusion LLM instead of a regular one, with some proposed tweaks. These tweaks (complementary masking, Prefix-DLM) also make sense I think. Not entirely sure how much a diffusion VLM like this adds compared e.g. LLaVA in practice though, it's not even faster when they set K = L (unmask one token per iteration) (see Figure 4.b). But either way, I found the paper interesting overall and quite enjoyed reading it, I think this was a good second paper to read after that survey on diffusion language models, it summarized and explained some things well.
+```
 
 ##### [25-08-31] [paper540]
 - Discrete Diffusion in Large Language and Multimodal Models: A Survey
