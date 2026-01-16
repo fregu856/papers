@@ -331,7 +331,7 @@ Interesting and really well-written paper, I enjoyed reading this. Everything is
 ##### [25-08-15] [paper519]
 - SensorLM: Learning the Language of Wearable Sensors
  [[pdf]](https://arxiv.org/abs/2506.09108) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SensorLM%20Learning%20the%20Language%20of%20Wearable%20Sensors.pdf)
-- `arxiv, 2025-06`
+- `NeurIPS 2025`
 - [ML for Medicine/Healthcare], [Time Series], [Vision-Language Models]
 ```
 Interesting paper, the general idea of signal-language models is definitely interesting, just not entirely sure how useful it would be in practice? The zero-shot classification capability seems like it could be useful, I think. The results in Figure 5, Table 19 and Table 20 are not overly impressive though, if you compare with the results for LSM-1 and LSM-2 in Table 2 and Table 4 in "LSM-2: Learning from Incomplete Wearable Sensor Data". SensorLM has similar performance to all the SSL baselines, which are clearly outperformed by both LSM-1 and LSM-2. I.e., it seems like the masked autoencoder approach of LSM is more effective. But of course, the signal-language approach also adds novel capabilities (in particular, zero-shot prediction), some kind of trade-off I suppose.
