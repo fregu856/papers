@@ -484,7 +484,7 @@ I read this just to get some additional background on the UK biobank study and d
 ##### [25-08-06] [paper502]
 - Foundation Model of Electronic Medical Records for Adaptive Risk Estimation
  [[pdf]](https://arxiv.org/abs/2502.06124) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Foundation%20Model%20of%20Electronic%20Medical%20Records%20for%20Adaptive%20Risk%20Estimation.pdf)
-- `arxiv, 2025-02`
+- `GigaScience, 2025`
 - [ML for Medicine/Healthcare], [EHRs] 
 ```
 Well written and quite interesting paper. Everything is clearly explained, I quite enjoyed reading this. Also provides a good summary of the ETHOS model, I think it helped me understand how that works a bit better. Simulating >= 100 future patient timelines and estimating probabilities for different critical events based on these is a quite intuitive approach, albeit somewhat computationally inefficient I suppose. Really neat that this can be done zero-shot without any re-training though.
