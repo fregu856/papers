@@ -141,7 +141,7 @@ Well-written and quite interesting paper. Everything in Section 1 - 3 is clearly
 
 ##### [25-08-31] [paper540]
 - Discrete Diffusion in Large Language and Multimodal Models: A Survey
- [[pdf]](https://arxiv.org/abs/2506.13759) [[annotated pdf (TODO!)]]()
+ [[pdf]](https://arxiv.org/abs/2506.13759) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Discrete%20Diffusion%20in%20Large%20Language%20and%20Multimodal%20Models%20A%20Survey.pdf)
 - `arxiv, 2025-06`
 - [Language Models], [Vision-Language Models], [Diffusion Models]
 ```
