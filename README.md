@@ -24,7 +24,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 ##### [25-09-20] [paper553]
 - Contrastive Multi-Modal Training With Electrocardiography and Natural Language Echocardiography Reports for Zero-Shot Prediction of Structural Heart Disease
- [[pdf]](https://www.medrxiv.org/content/10.1101/2025.09.16.25335870v1) [[annotated pdf (TODO!)]]()
+ [[pdf]](https://www.medrxiv.org/content/10.1101/2025.09.16.25335870v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Contrastive%20Multi-Modal%20Training%20With%20Electrocardiography%20and%20Natural%20Language%20Echocardiography%20Reports%20for%20Zero-Shot%20Prediction%20of%20Structural%20Heart%20Disease.pdf)
 - `medrxiv, 2025-09`
 - [ML for Medicine/Healthcare], [ECGs] 
 ```
@@ -33,7 +33,7 @@ Quite interesting and well-written paper. They take the MERL model and train it 
 
 ##### [25-09-18] [paper552]
 - Multimodal Clinical Benchmark for Emergency Care (MC-BEC): A Comprehensive Benchmark for Evaluating Foundation Models in Emergency Medicine
- [[pdf]](https://arxiv.org/abs/2311.04937) [[annotated pdf (TODO!)]]()
+ [[pdf]](https://arxiv.org/abs/2311.04937) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Multimodal%20Clinical%20Benchmark%20for%20Emergency%20Care%20(MC-BEC)%20A%20Comprehensive%20Benchmark%20for%20Evaluating%20Foundation%20Models%20in%20Emergency%20Medicine.pdf)
 - `NeurIPS 2023 (Track on Datasets and Benchmarks)`
 - [ML for Medicine/Healthcare], [ECGs], [Time Series] 
 ```
@@ -42,7 +42,7 @@ I wanted to read this because they use an earlier version of the MC-MED dataset.
 
 ##### [25-09-18] [paper551]
 - MC-MED, Multimodal Clinical Monitoring in the Emergency Department
- [[pdf]](https://www.nature.com/articles/s41597-025-05419-5) [[annotated pdf (TODO!)]]()
+ [[pdf]](https://www.nature.com/articles/s41597-025-05419-5) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MC-MED%2C%20Multimodal%20Clinical%20Monitoring%20in%20the%20Emergency%20Department.pdf)
 - `Scientific Data, 2025`
 - [ML for Medicine/Healthcare], [ECGs], [Time Series]
 ```
@@ -78,7 +78,7 @@ Well-written and interesting paper, I quite enjoyed reading this. Everything is 
 
 ##### [25-09-08] [paper547]
 - MEETI: A Multimodal ECG Dataset from MIMIC-IV-ECG with Signals, Images, Features and Interpretations
- [[pdf]](https://arxiv.org/abs/2507.15255) [[annotated pdf (TODO!)]]()
+ [[pdf]](https://arxiv.org/abs/2507.15255) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MEETI%20A%20Multimodal%20ECG%20Dataset%20from%20MIMIC-IV-ECG%20with%20Signals%2C%20Images%2C%20Features%20and%20Interpretations.pdf)
 - `arxiv, 2025-07`
 - [ML for Medicine/Healthcare], [ECGs] 
 ```
@@ -87,7 +87,7 @@ Pretty short paper, quick to read. They describe how they extend the MIMIC-IV-EC
 
 ##### [25-09-06] [paper546]
 - OneCAT: Decoder-Only Auto-Regressive Model for Unified Understanding and Generation
- [[pdf]](https://arxiv.org/abs/2509.03498) [[annotated pdf (TODO!)]]()
+ [[pdf]](https://arxiv.org/abs/2509.03498) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/OneCAT%20Decoder-Only%20Auto-Regressive%20Model%20for%20Unified%20Understanding%20and%20Generation.pdf)
 - `arxiv, 2025-09`
 - [Vision-Language Models]
 ```
@@ -96,7 +96,7 @@ Well-written and interesting paper. Interesting approach, seemingly impressive r
 
 ##### [25-09-05] [paper545]
 - Neural Discrete Representation Learning
- [[pdf]](https://arxiv.org/abs/1711.00937) [[annotated pdf (TODO!)]]()
+ [[pdf]](https://arxiv.org/abs/1711.00937) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Neural%20Discrete%20Representation%20Learning.pdf)
 - `NeurIPS 2017`
 - [Miscellaneous] 
 ```
@@ -105,7 +105,7 @@ The VQ-VAE paper, fairly interesting. I read this as background for the work on 
 
 ##### [25-09-05] [paper544]
 - MaskGIT: Masked Generative Image Transformer 
- [[pdf]](https://openaccess.thecvf.com/content/CVPR2022/html/Chang_MaskGIT_Masked_Generative_Image_Transformer_CVPR_2022_paper.html) [[annotated pdf (TODO!)]]()
+ [[pdf]](https://openaccess.thecvf.com/content/CVPR2022/html/Chang_MaskGIT_Masked_Generative_Image_Transformer_CVPR_2022_paper.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/MaskGIT%20Masked%20Generative%20Image%20Transformer.pdf)
 - `CVPR 2022`
 - [Miscellaneous]
 ```
@@ -114,7 +114,7 @@ Quite interesting paper. I read this as background for the work on unified discr
 
 ##### [25-09-02] [paper543]
 - Muddit: Liberating Generation Beyond Text-to-Image with a Unified Discrete Diffusion Model
- [[pdf]](https://arxiv.org/abs/2505.23606) [[annotated pdf (TODO!)]]()
+ [[pdf]](https://arxiv.org/abs/2505.23606) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Muddit%20Liberating%20Generation%20Beyond%20Text-to-Image%20with%20a%20Unified%20Discrete%20Diffusion%20Model.pdf)
 - `arxiv, 2025-05`
 - [Vision-Language Models], [Diffusion Models] 
 ```
@@ -123,7 +123,7 @@ Well-written and interesting paper, I enjoyed reading this. Pretty much everythi
 
 ##### [25-09-02] [paper542]
 - Unified Multimodal Discrete Diffusion
- [[pdf]](https://arxiv.org/abs/2503.20853) [[annotated pdf (TODO!)]]()
+ [[pdf]](https://arxiv.org/abs/2503.20853) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Unified%20Multimodal%20Discrete%20Diffusion.pdf)
 - `arxiv, 2025-03`
 - [Vision-Language Models], [Diffusion Models] 
 ```
@@ -132,7 +132,7 @@ Somewhat interesting paper. Section 3 is pretty interesting, but then it feels l
 
 ##### [25-09-01] [paper541]
 - LaViDa: A Large Diffusion Language Model for Multimodal Understanding
- [[pdf]](https://arxiv.org/abs/2505.16839) [[annotated pdf (TODO!)]]()
+ [[pdf]](https://arxiv.org/abs/2505.16839) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/LaViDa%20A%20Large%20Diffusion%20Language%20Model%20for%20Multimodal%20Understanding.pdf)
 - `arxiv, 2025-05`
 - [Language Models], [Vision-Language Models], [Diffusion Models] 
 ```
