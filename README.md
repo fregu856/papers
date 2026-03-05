@@ -11,6 +11,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 ### Papers:
 
+- [Papers Read in 2026](#papers-read-in-2026)
 - [Papers Read in 2025](#papers-read-in-2025)
 - [Papers Read in 2024](#papers-read-in-2024)
 - [Papers Read in 2023](#papers-read-in-2023)
@@ -19,6 +20,17 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - [Papers Read in 2020](#papers-read-in-2020)
 - [Papers Read in 2019](#papers-read-in-2019)
 - [Papers Read in 2018](#papers-read-in-2018)
+
+#### Papers Read in 2026:
+
+##### [26-03-05] [paper554]
+- PulseLM: A Foundation Dataset and Benchmark for PPG-Text Learning
+ [[pdf]](https://arxiv.org/abs/2603.03331) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/PulseLM%20A%20Foundation%20Dataset%20and%20Benchmark%20for%20PPG-Text%20Learning.pdf)
+- ``
+- [ML for Medicine/Healthcare], [Language Models], [Time Series] 
+```
+Interesting paper. Seems like a potentially useful dataset. The model/approach they use is simple and makes sense (frozen PaPaGei as PPG encoder, and then they train a mapping/projection layer while fine-tuning the LLM using LoRA). Some pretty nice scaling results for LLama 3.2 1B, 3B, 8B.
+```
 
 #### Papers Read in 2025:
 
