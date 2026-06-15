@@ -6,7 +6,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Categories:
 
-[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [Social Consequences of ML], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [Language Models], [Representation Learning], [Vision-Language Models], [Image Restoration], [Computational Pathology], [Survival Analysis], [Time Series], [ECGs], [EHRs], [Miscellaneous].
+[Uncertainty Estimation], [Ensembling], [Stochastic Gradient MCMC], [Variational Inference], [Out-of-Distribution Detection], [Theoretical Properties of Deep Learning], [VAEs], [Normalizing Flows], [ML for Medicine/Healthcare], [Object Detection], [3D Object Detection], [3D Multi-Object Tracking], [3D Human Pose Estimation], [Visual Tracking], [Sequence Modeling], [Reinforcement Learning], [Energy-Based Models], [Neural Processes], [Neural ODEs], [Transformers], [Implicit Neural Representations], [Distribution Shifts], [Social Consequences of ML], [Diffusion Models], [Graph Neural Networks], [Selective Prediction], [Language Models], [Representation Learning], [Vision-Language Models], [Image Restoration], [Computational Pathology], [Survival Analysis], [Time Series], [ECGs], [EHRs], [ML for Drug Discovery], [Miscellaneous].
 
 
 ### Papers:
@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2026:
+
+##### [26-06-15] [paper555]
+- Equivariant Diffusion for Molecule Generation in 3D
+ [[pdf]](https://arxiv.org/abs/2203.17003) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Equivariant%20Diffusion%20for%20Molecule%20Generation%20in%203D.pdf)
+- `ICML 2022`
+- [Diffusion Models], [ML for Drug Discovery]
+```
+Quite interesting paper. I just wanted to start somewhere, with a well-cited paper, from a couple of years back, starting to get a basic understanding of the whole ML for drug discovery/design area.
+```
 
 ##### [26-03-05] [paper554]
 - PulseLM: A Foundation Dataset and Benchmark for PPG-Text Learning
