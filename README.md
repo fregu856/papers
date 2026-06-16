@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-06-16] [paper557]
+- Machine Learning in Preclinical Drug Discovery
+ [[pdf]](https://www.nature.com/articles/s41589-024-01679-1) [_unfortunately not open access, thus no annotated pdf_]
+- `Nature Chemical Biology, 2024 (Perspective)`
+- [ML for Drug Discovery] 
+```
+Fairly interesting review paper. Well-written overall and with nice figures etc, and gives a pretty good high-level overview of the field, but I think there probably are paper I would find more interesting/useful.
+```
+
 ##### [26-06-16] [paper556]
 - Diffusion Models in Protein Structure and Docking
  [[pdf]](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1711) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Diffusion%20Models%20in%20Protein%20Structure%20and%20Docking.pdf)
