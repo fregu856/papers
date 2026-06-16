@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-06-16] [paper556]
+- Diffusion Models in Protein Structure and Docking
+ [[pdf]](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1711) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Diffusion%20Models%20in%20Protein%20Structure%20and%20Docking.pdf)
+- `Wiley Interdisciplinary Reviews: Computational Molecular Science, 2024`
+- [Diffusion Models], [ML for Drug Discovery] 
+```
+Quite interesting paper, a well-written review. I found it quite useful. Section 2 is nice, I think they explain things in a good/clear way. Overall happy that I decided to read this.
+```
+
 ##### [26-06-15] [paper555]
 - Equivariant Diffusion for Molecule Generation in 3D
  [[pdf]](https://arxiv.org/abs/2203.17003) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Equivariant%20Diffusion%20for%20Molecule%20Generation%20in%203D.pdf)
