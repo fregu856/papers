@@ -29,7 +29,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - `Nature Chemical Biology, 2024 (Perspective)`
 - [ML for Drug Discovery] 
 ```
-Fairly interesting review paper. Well-written overall and with nice figures etc, and gives a pretty good high-level overview of the field, but I think there probably are paper I would find more interesting/useful.
+Fairly interesting review paper. Well-written overall and with nice figures etc, and gives a pretty good high-level overview of the field, but I think there probably are papers I would find more interesting/useful.
 ```
 
 ##### [26-06-16] [paper556]
