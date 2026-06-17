@@ -24,6 +24,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 #### Papers Read in 2026:
 
 
+##### [26-06-17] [paper560]
+- Boltz-1: Democratizing Biomolecular Interaction Modeling
+ [[pdf]](https://www.biorxiv.org/content/10.1101/2024.11.19.624167v4) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Boltz-1%20Democratizing%20Biomolecular%20Interaction%20Modeling.pdf)
+- `biorxiv, 2024-11`
+- [ML for Drug Discovery] 
+```
+Quite interesting paper, I found this quite useful to read. The conclusion summarizes the paper well, they basically create an open-source version of AlphaFold3, and then also add various tweaks/improvements/optimizations. Their model does indeed seem to perform competitively to AlphaFold (Figure 5 and 6). Figure 7 is neat. 
+```
+
 ##### [26-06-17] [paper559]
 - Accurate Structure Prediction of Biomolecular Interactions with AlphaFold 3
  [[pdf]](https://www.nature.com/articles/s41586-024-07487-w) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Accurate%20Structure%20Prediction%20of%20Biomolecular%20Interactions%20with%20AlphaFold%203.pdf)
