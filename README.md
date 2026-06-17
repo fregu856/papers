@@ -23,6 +23,16 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+
+##### [26-06-17] [paper559]
+- Accurate Structure Prediction of Biomolecular Interactions with AlphaFold 3
+ [[pdf]](https://www.nature.com/articles/s41586-024-07487-w) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Accurate%20Structure%20Prediction%20of%20Biomolecular%20Interactions%20with%20AlphaFold%203.pdf)
+- `Nature, 2024`
+- [ML for Drug Discovery] 
+```
+Fairly interesting paper for me. I didn't check the supplementary material in detail this time either, I just wanted an overview. Not sure how much I gained by reading this compared to the previous AlphaFold 2 paper.
+```
+
 ##### [26-06-17] [paper558]
 - Highly Accurate Protein Structure Prediction With AlphaFold
  [[pdf]](https://www.nature.com/articles/s41586-021-03819-2) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Highly%20Accurate%20Protein%20Structure%20Prediction%20With%20AlphaFold.pdf)
