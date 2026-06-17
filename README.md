@@ -23,6 +23,16 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-06-17] [paper558]
+- Highly Accurate Protein Structure Prediction With AlphaFold
+ [[pdf]](https://www.nature.com/articles/s41586-021-03819-2) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Highly%20Accurate%20Protein%20Structure%20Prediction%20With%20AlphaFold.pdf)
+- `Nature, 2021`
+- [ML for Drug Discovery] 
+```
+I found this quite interesting/useful to read. I just scrolled through the supplementary material super quickly, so I didn't even really try to understand the model in detail. It's definitely quite complex, not "clean" or straightforward. But still quite interesting to read, just to get an overview of the model and what they actually did.
+```
+
+
 ##### [26-06-16] [paper557]
 - Machine Learning in Preclinical Drug Discovery
  [[pdf]](https://www.nature.com/articles/s41589-024-01679-1) [_unfortunately not open access, thus no annotated pdf_]
