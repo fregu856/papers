@@ -23,6 +23,14 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-06-20] [paper561]
+- Boltz-2: Towards Accurate and Efficient Binding Affinity Prediction
+ [[pdf]](https://www.biorxiv.org/content/10.1101/2025.06.14.659707v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Boltz-2%20Towards%20Accurate%20and%20Efficient%20Binding%20Affinity%20Prediction.pdf)
+- `biorxiv, 2025-06`
+- [ML for Drug Discovery] 
+```
+Interesting paper, I quite enjoyed reading this. Binding affinity prediction definitely seems like an interesting problem/application to me. Things are clearly explained overall, I feel like this provided some pretty good background for me.
+```
 
 ##### [26-06-17] [paper560]
 - Boltz-1: Democratizing Biomolecular Interaction Modeling
