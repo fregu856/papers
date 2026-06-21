@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-06-21] [paper564]
+- Drug-Like Antibody Design Against Challenging Targets with Atomic Precision
+ [[pdf]](https://www.biorxiv.org/content/10.1101/2025.11.29.691346v2) [[annotated pdf]](https://drive.google.com/file/d/1J-10I7c95YNTI1TfzZNObuo-bfI8eXKs/view?usp=sharing)
+- `biorxiv, 2025-12`
+- [ML for Drug Discovery] 
+```
+Quite interesting paper. This is a technical report from Chai Discovery, doing further validation and proof-of-concept demonstrations of their previously published Chai-2 model. I definitely don't have the background necessary to understand and appreciate everything here, but I still found it quite interesting to read, I feel like learned quite a lot. Glad I decided to read this.
+```
+
 ##### [26-06-21] [paper563]
 - Latent-X: An Atom-level Frontier Model for De Novo Protein Binder Design
  [[pdf]](https://arxiv.org/abs/2507.19375) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Latent-X%20An%20Atom-level%20Frontier%20Model%20for%20De%20Novo%20Protein%20Binder%20Design.pdf)
