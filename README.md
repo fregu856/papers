@@ -29,7 +29,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - `arxiv, 2025-07`
 - [ML for Drug Discovery] 
 ```
-Quite interesting paper. Basically no technical details on their model, but still some pretty interesting/useful background on the problem they're trying to solve and the field in general. Difficult for me to judge how impressive their results actually are though, whether they indeed have a strong product to sell here.
+Quite interesting paper. Basically no technical details on their model, but still some pretty interesting/useful background on the problem they're trying to solve and the field in general. Difficult for me to judge how impressive their results actually are though, whether they indeed have a strong product to sell here. Nice figures/visualizations.
 ```
 
 ##### [26-06-21] [paper562]
