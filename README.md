@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-06-21] [paper562]
+- BoltzProt-1: Towards Efficient De Novo Binder Design with Good Developability
+ [[pdf]](https://boltz.bio/boltzprot1-technical-report.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/BoltzProt-1%20Towards%20Efficient%20De%20Novo%20Binder%20Design%20with%20Good%20Developability.pdf)
+- `Technical report, 2026-06`
+- [ML for Drug Discovery] 
+```
+Quite interesting paper. However, I should probably have read the BoltzGen paper and some more other papers before reading this one, to better appreciate what they're doing and the importance of it.
+```
+
 ##### [26-06-20] [paper561]
 - Boltz-2: Towards Accurate and Efficient Binding Affinity Prediction
  [[pdf]](https://www.biorxiv.org/content/10.1101/2025.06.14.659707v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Boltz-2%20Towards%20Accurate%20and%20Efficient%20Binding%20Affinity%20Prediction.pdf)
