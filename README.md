@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-06-21] [paper563]
+- Latent-X: An Atom-level Frontier Model for De Novo Protein Binder Design
+ [[pdf]](https://arxiv.org/abs/2507.19375) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Latent-X%20An%20Atom-level%20Frontier%20Model%20for%20De%20Novo%20Protein%20Binder%20Design.pdf)
+- `arxiv, 2025-07`
+- [ML for Drug Discovery] 
+```
+Quite interesting paper. Basically no technical details on their model, but still some pretty interesting/useful background on the problem they're trying to solve and the field in general. Difficult for me to judge how impressive their results actually are though, whether they indeed have a strong product to sell here.
+```
+
 ##### [26-06-21] [paper562]
 - BoltzProt-1: Towards Efficient De Novo Binder Design with Good Developability
  [[pdf]](https://boltz.bio/boltzprot1-technical-report.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/BoltzProt-1%20Towards%20Efficient%20De%20Novo%20Binder%20Design%20with%20Good%20Developability.pdf)
