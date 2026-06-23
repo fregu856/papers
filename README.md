@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-06-23] [paper565]
+- Drug-Like Antibodies with Low Immunogenicity in Human Panels Designed with Latent-X2
+ [[pdf]](https://arxiv.org/abs/2512.20263) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Drug-Like%20Antibodies%20with%20Low%20Immunogenicity%20in%20Human%20Panels%20Designed%20with%20Latent-X2.pdf)
+- `arxiv, 2025-12`
+- [ML for Drug Discovery] 
+```
+Quite interesting paper. Interesting to see that multiple companies are working on similar problems at the moment, to demonstrate that their models can generate structures that not only bind well to various targets, but also pass common requirements for actual use as drugs in practice (good "developability" properties, low immunogenicity). Of course very difficult for someone with my background to judge how impressive these results are though, if they actually have a strong product to sell. But quite interesting to read either way, and I feel like I gain a better understanding of this space step by step.
+```
+
 ##### [26-06-21] [paper564]
 - Drug-Like Antibody Design Against Challenging Targets with Atomic Precision
  [[pdf]](https://www.biorxiv.org/content/10.1101/2025.11.29.691346v2) [[annotated pdf]](https://drive.google.com/file/d/1J-10I7c95YNTI1TfzZNObuo-bfI8eXKs/view?usp=sharing)
