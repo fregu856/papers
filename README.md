@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-06-24] [paper566]
+- BoltzMol-1: Towards Reliable Virtual Screening for Fast and Cost-Effective Hit Discovery
+ [[pdf]](https://boltz.bio/boltzmol1-technical-report.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/BoltzMol-1%20Towards%20Reliable%20Virtual%20Screening%20for%20Fast%20and%20Cost-Effective%20Hit%20Discovery.pdf)
+- `Technical report, 2026-06`
+- [ML for Drug Discovery] 
+```
+Quite interesting paper, to see a concrete applicaton/evaluation of their Boltz-2 model. Of course a bunch of things in Section 2 that I don't understand, but still a bit interesting, it gives some background. Section 3 is quite interesting. In particular, this highlights a pretty interesting limitation / failure case of the Boltz-2 model: "we identify and exclude a set of structures we term virtual PAINS: compounds that the model systematically scores as strong binders across unrelated targets, independent of any genuine target-specific interaction signal [...] by aggregating Boltz-2 scores across a diverse panel of held-out targets and flagging compounds that consistently appear in the top ranks regardless of target identity".
+```
+
 ##### [26-06-23] [paper565]
 - Drug-Like Antibodies with Low Immunogenicity in Human Panels Designed with Latent-X2
  [[pdf]](https://arxiv.org/abs/2512.20263) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Drug-Like%20Antibodies%20with%20Low%20Immunogenicity%20in%20Human%20Panels%20Designed%20with%20Latent-X2.pdf)
