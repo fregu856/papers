@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-06-26] [paper568]
+- Protenix-v2: Broadening the Reach of Structure Prediction and Biomolecular Design
+ [[pdf]](https://www.biorxiv.org/content/10.64898/2026.04.10.717613v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Protenix-v2%20Broadening%20the%20Reach%20of%20Structure%20Prediction%20and%20Biomolecular%20Design.pdf)
+- `biorxiv, 2026-04`
+- [ML for Drug Discovery] 
+```
+Fairly interesting paper. No model/method details whatsoever, they just state that it's improved compared to the v1 version. Pretty quick to read, and I feel like I become a bit more familiar/comfortable with all the biology-related background with every paper, but this probably didn't give that much compared to similar papers I've read before.
+```
+
 ##### [26-06-26] [paper567]
 - Latent-Y: A Lab-Validated Autonomous Agent for De Novo Drug Design
  [[pdf]](https://arxiv.org/abs/2603.29727) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Latent-Y%20A%20Lab-Validated%20Autonomous%20Agent%20for%20De%20Novo%20Drug%20Design.pdf)
