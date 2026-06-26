@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-06-26] [paper567]
+- Latent-Y: A Lab-Validated Autonomous Agent for De Novo Drug Design
+ [[pdf]](https://arxiv.org/abs/2603.29727) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Latent-Y%20A%20Lab-Validated%20Autonomous%20Agent%20for%20De%20Novo%20Drug%20Design.pdf)
+- `arxiv, 2026-03`
+- [ML for Drug Discovery] 
+```
+Quite interesting paper. Not a lot of details, but on the other hand quick and easy to read. Technically, this is definitely an interesting/impressive system, but very difficult for me to judge if their claims regarding speed-ups are realistic/fair, and whether this actually is a type of product that would be useful/valuable for companies in practice, etc (in particular, the experiments where they give a paper as input to the system, technically impressive and cool, but would this actually be used in practice?).
+```
+
 ##### [26-06-24] [paper566]
 - BoltzMol-1: Towards Reliable Virtual Screening for Fast and Cost-Effective Hit Discovery
  [[pdf]](https://boltz.bio/boltzmol1-technical-report.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/BoltzMol-1%20Towards%20Reliable%20Virtual%20Screening%20for%20Fast%20and%20Cost-Effective%20Hit%20Discovery.pdf)
