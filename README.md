@@ -140,7 +140,6 @@ Fairly interesting paper for me. I didn't check the supplementary material in de
 I found this quite interesting/useful to read. I just scrolled through the supplementary material super quickly, so I didn't even really try to understand the model in detail. It's definitely quite complex, not "clean" or straightforward. But still quite interesting to read, just to get an overview of the model and what they actually did.
 ```
 
-
 ##### [26-06-16] [paper557]
 - Machine Learning in Preclinical Drug Discovery
  [[pdf]](https://www.nature.com/articles/s41589-024-01679-1) [_unfortunately not open access, thus no annotated pdf_]
