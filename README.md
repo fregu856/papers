@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-06-27] [paper570]
+- Proteina: Scaling Flow-based Protein Structure Generative Models
+ [[pdf]](https://arxiv.org/abs/2503.00710) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Proteina%20Scaling%20Flow-based%20Protein%20Structure%20Generative%20Models.pdf)
+- `ICLR 2025`
+- [ML for Drug Discovery], [Diffusion Models] 
+```
+Well-written and fairly interesting paper. Definitely solid work and a bunch of different types of contributions which all make sense, but I personally didn't find the technical details overly interesting at this stage. But I think/hope this can probably be a pretty good starting point for some other recent papers.
+```
+
 ##### [26-06-27] [paper569]
 - Accurate Predictions of Novel Biomolecular Interactions with IsoDDE
  [[pdf]](https://storage.googleapis.com/isomorphiclabs-website-public-artifacts/isodde_technical_report.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Accurate%20Predictions%20of%20Novel%20Biomolecular%20Interactions%20with%20IsoDDE.pdf)
