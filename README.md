@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-06-27] [paper569]
+- Accurate Predictions of Novel Biomolecular Interactions with IsoDDE
+ [[pdf]](https://storage.googleapis.com/isomorphiclabs-website-public-artifacts/isodde_technical_report.pdf) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Accurate%20Predictions%20of%20Novel%20Biomolecular%20Interactions%20with%20IsoDDE.pdf)
+- `Technical report, 2026-02`
+- [ML for Drug Discovery] 
+```
+Interesting paper, I enjoyed reading this. No model/method details whatsoever, which of course is too bad, but still interesting. Things are explained well and easy to follow. Figure 15 is quite odd though, they write "showing that confidence score is well calibrated to success rate even for examples with low similarity to the training set", but this is true just for High similarity? For both Medium and Low, the model is quite clearly overconfident (e.g., confidence of 0.6 gives a success rate much lower than 60%)?
+```
+
 ##### [26-06-26] [paper568]
 - Protenix-v2: Broadening the Reach of Structure Prediction and Biomolecular Design
  [[pdf]](https://www.biorxiv.org/content/10.64898/2026.04.10.717613v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Protenix-v2%20Broadening%20the%20Reach%20of%20Structure%20Prediction%20and%20Biomolecular%20Design.pdf)
