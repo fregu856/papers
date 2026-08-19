@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-08-19] [paper571]
+- Lessons Learned From the Fate of AstraZeneca's Drug Pipeline: A Five-Dimensional Framework
+ [[pdf]](https://www.nature.com/articles/nrd4309) [_unfortunately not open access, thus no annotated pdf_]
+- `Nature Reviews Drug Discovery, 2014`
+- [ML for Drug Discovery]
+```
+Interesting paper, I definitely found this useful. Good background material for me, I quite enjoyed reading it. 
+```
+
 ##### [26-06-27] [paper570]
 - Proteina: Scaling Flow-based Protein Structure Generative Models
  [[pdf]](https://arxiv.org/abs/2503.00710) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Proteina%20Scaling%20Flow-based%20Protein%20Structure%20Generative%20Models.pdf)
