@@ -29,7 +29,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - `Drug Discovery Today, 2022`
 - [ML for Drug Discovery]
 ```
-Pretty short paper that was quick/easy to read, and at least quite interesting. If nothing else, interesting to read a bit about the Pfizer/Biontech COVID-19 vaccine and just how quickly they were able to develop this (and then also shop 2 billion doses), super impressive actually.
+Pretty short paper that was quick/easy to read, and at least quite interesting. If nothing else, interesting to read a bit about the Pfizer/Biontech COVID-19 vaccine and just how quickly they were able to develop this (and then also ship 2 billion doses), super impressive actually.
 ```
 
 ##### [26-08-20] [paper572]
