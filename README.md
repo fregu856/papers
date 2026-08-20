@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-08-20] [paper572]
+- Artificial Intelligence in Drug Discovery — What It Is, Where We Stand and the Path Forward
+ [[pdf]](https://www.nature.com/articles/s41573-026-01496-2) [_unfortunately not open access, thus no annotated pdf_]
+- `Nature Reviews Drug Discovery, 2026`
+- [ML for Drug Discovery]
+```
+Quite interesting paper, but I was probably expecting / hoping for a bit more. I found it less interesting starting from roughly the halfway point. I appreciate the authors' critical, non-hype-driven perspective on the field, but some things also seem a bit basic/obvious to me (e.g., "The performance of a model therefore needs to be evaluated in the context of its eventual use case").
+```
+
 ##### [26-08-19] [paper571]
 - Lessons Learned From the Fate of AstraZeneca's Drug Pipeline: A Five-Dimensional Framework
  [[pdf]](https://www.nature.com/articles/nrd4309) [_unfortunately not open access, thus no annotated pdf_]
