@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-08-20] [paper573]
+- Achieving End-To-End Success in the Clinic: Pfizer's Learnings on R&D Productivity
+ [[pdf]](https://www.sciencedirect.com/science/article/pii/S1359644621005444) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Achieving%20End-To-End%20Success%20in%20the%20Clinic%20Pfizer's%20Learnings%20on%20R%26D%20Productivity.pdf)
+- `Drug Discovery Today, 2022`
+- [ML for Drug Discovery]
+```
+Pretty short paper that was quick/easy to read, and at least quite interesting. If nothing else, interesting to read a bit about the Pfizer/Biontech COVID-19 vaccine and just how quickly they were able to develop this (and then also shop 2 billion doses), super impressive actually.
+```
+
 ##### [26-08-20] [paper572]
 - Artificial Intelligence in Drug Discovery — What It Is, Where We Stand and the Path Forward
  [[pdf]](https://www.nature.com/articles/s41573-026-01496-2) [_unfortunately not open access, thus no annotated pdf_]
