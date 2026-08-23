@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-08-23] [paper574]
+- Impact of a Five-Dimensional Framework on R&D Productivity at AstraZeneca
+ [[pdf]](https://www.nature.com/articles/nrd.2017.244) [_unfortunately not open access, thus no annotated pdf_]
+- `Nature Reviews Drug Discovery, 2018`
+- [ML for Drug Discovery]
+```
+Interesting paper. Basically a direct follow-up to "Lessons Learned From the Fate of AstraZeneca's Drug Pipeline: A Five-Dimensional Framework" that I read before. This also felt like good background material for me, and I quite enjoyed reading this as well.
+```
+
 ##### [26-08-20] [paper573]
 - Achieving End-To-End Success in the Clinic: Pfizer's Learnings on R&D Productivity
  [[pdf]](https://www.sciencedirect.com/science/article/pii/S1359644621005444) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Achieving%20End-To-End%20Success%20in%20the%20Clinic%20Pfizer's%20Learnings%20on%20R%26D%20Productivity.pdf)
