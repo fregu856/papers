@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-08-24] [paper575]
+- Target Identification and Assessment in the Era of AI
+ [[pdf]](https://www.nature.com/articles/s41573-026-01412-8) [_unfortunately not open access, thus no annotated pdf_]
+- `Nature Reviews Drug Discovery, 2026`
+- [ML for Drug Discovery]
+```
+Fairly interesting paper. The "Key considerations in target identification" section was quite interesting and felt like good background material for me, but then the rest of the paper didn't really give me that much.
+```
+
 ##### [26-08-23] [paper574]
 - Impact of a Five-Dimensional Framework on R&D Productivity at AstraZeneca
  [[pdf]](https://www.nature.com/articles/nrd.2017.244) [_unfortunately not open access, thus no annotated pdf_]
