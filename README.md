@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-08-28] [paper576]
+- End-To-End Multimodal Pathology Foundation Model With Clinical Dialogue
+ [[pdf]](https://www.nature.com/articles/s41591-026-04521-4) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-To-End%20Multimodal%20Pathology%20Foundation%20Model%20With%20Clinical%20Dialogue.pdf)
+- `Nature Medicine, 2026`
+- [Computational Pathology], [Vision-Language Models]
+```
+Quite interesting and well-written paper. Slide-level VLMs are definitely interesting, to be able to do "prompt-based inference" directly on the slide-level could definitely be very useful. Not entirely sure how well report generation, open-ended Q&A and multiple-choice Q&A etc actually can be expected to work though, given that Phi-3-Mini still is a relatively small and not overly powerful LLM.
+```
+
 ##### [26-08-24] [paper575]
 - Target Identification and Assessment in the Era of AI
  [[pdf]](https://www.nature.com/articles/s41573-026-01412-8) [_unfortunately not open access, thus no annotated pdf_]
