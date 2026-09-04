@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-09-04] [paper577]
+- The Antibody Revolution is Real. The Business, Less So
+ [[pdf]](https://couteiral.substack.com/p/the-antibody-revolution-is-real-the) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/%20The%20Antibody%20Revolution%20is%20Real.%20The%20Business%2C%20Less%20So.pdf)
+- `(Blog post, 2026-07)`
+- [ML for Drug Discovery] 
+```
+A blog post and not a paper, but I still wanted to include this here because I enjoyed reading it and found it both really interetsing and informative.
+```
+
 ##### [26-08-28] [paper576]
 - End-To-End Multimodal Pathology Foundation Model With Clinical Dialogue
  [[pdf]](https://www.nature.com/articles/s41591-026-04521-4) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/End-To-End%20Multimodal%20Pathology%20Foundation%20Model%20With%20Clinical%20Dialogue.pdf)
