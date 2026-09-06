@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-09-06] [paper578]
+- Miniproteins are the TikZ Unicorn of Biology
+ [[pdf]](https://couteiral.substack.com/p/miniproteins-are-the-tikz-unicorn) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Miniproteins%20are%20the%20TikZ%20Unicorn%20of%20Biology.pdf)
+- `(Blog post, 2026-09)`
+- [ML for Drug Discovery] 
+```
+A blog post and not a paper, but I wanted to include it here as well. Not quite as interesting/informative as the previous one, and it didn't actually cover quite what I thought that it would, but I'm still pretty happy that I decided to read this.
+```
+
 ##### [26-09-04] [paper577]
 - The Antibody Revolution is Real. The Business, Less So
  [[pdf]](https://couteiral.substack.com/p/the-antibody-revolution-is-real-the) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/%20The%20Antibody%20Revolution%20is%20Real.%20The%20Business%2C%20Less%20So.pdf)
