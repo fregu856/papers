@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-09-08] [paper579]
+- Multimodality as Supervision: Self-Supervised Specialization to the Test Environment via Multimodality
+ [[pdf]](https://openreview.net/forum?id=4dMlAKBwrA) [[annotated pdf]](https://drive.google.com/file/d/1-t7h3aYKtBICG5LK7TPHDvb5hp5y9piv/view?usp=sharing)
+- `ICLR 2026`
+- [Representation Learning]
+```
+Quite interesting paper. They study this with the robotics setting in mind, but it made me think about how one could/should adapt a general pathology FM to a tissue-specific model, a certain deployment setting with fixed staining and scanning processes or similar, I think what they analyze in this paper potentially could be interesting/relevant for that as well. I don't understand how this ICLR paper can be 13.5 pages long though?
+```
+
 ##### [26-09-06] [paper578]
 - Miniproteins are the TikZ Unicorn of Biology
  [[pdf]](https://couteiral.substack.com/p/miniproteins-are-the-tikz-unicorn) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Miniproteins%20are%20the%20TikZ%20Unicorn%20of%20Biology.pdf)
