@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-09-23] [paper580]
+- Self-Supervised DXA Representations Encode Multi-System Disease Risk, Biological Aging and Heritability
+ [[pdf]](https://arxiv.org/abs/2608.02208) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Self-Supervised%20DXA%20Representations%20Encode%20Multi-System%20Disease%20Risk%2C%20Biological%20Aging%20and%20Heritability.pdf)
+- `arxiv, 2026-08`
+- [ML for Medicine/Healthcare]
+```
+Fairly interesting paper. Quite long, and I didn't read absolutly everything in full detail. I was not familiar with this type of data before, DXA scans. Quite interesting that they use LeJEPA to train their model from scratch, I was not overly familiar with LeJEPA/JEPA either. Looks solid overall, seems to perform quite well, and they compare with reasonable baselines. They don't really mention that DINOv3 actually outperforms their model for mortality prediction though (Figure 3a). And while the age gap results (Figure 5) are neat, I suspect that you probably would achieve pretty similar results based on DINOv3 as well.
+```
+
 ##### [26-09-08] [paper579]
 - Multimodality as Supervision: Self-Supervised Specialization to the Test Environment via Multimodality
  [[pdf]](https://openreview.net/forum?id=4dMlAKBwrA) [[annotated pdf]](https://drive.google.com/file/d/1-t7h3aYKtBICG5LK7TPHDvb5hp5y9piv/view?usp=sharing)
