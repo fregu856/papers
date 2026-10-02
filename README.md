@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-02] [paper581]
+- Drug Discovery & Development Basics
+ [[pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Drug%20Discovery%20%26%20Development%20Basics.pdf)
+- `(Generated document, 2026-10)`
+- [ML for Drug Discovery] 
+```
+A long ChatGPT-generated document (400 pages) I have used to just get some basic understanding of the overall drug discovery/development process. The most important is part IV which mainly contains short summaries of various recent papers. There, I've asked ChatGPT to summarize and help me understand the basic underlying biology of papers I spotted in Nature, Nature Medicine, Nature Communications, npj Precision Oncology, etc. These are papers I just found interesting based on the titles, often papers which evaluated different types of drugs that I wanted to understand better (immune checkpoint inhibitors, CAR-T cell therapy, T-cell engagers, DNA damage response inhibitors, antibody-drug conjugates, PROTACs, molecular glues, etc). I have read the full document in detail using my tablet. I definitely don't remember/understand absolutely everything, but I did find it very useful to go through all this over the past month or so. Spotting new papers which seem to cover something I'd like to understand better / learn more about, asking ChatGPT to quickly summarize them, saving these summaries in a document, and then reading these in detail. I have found this process very useful, and I feel like I have learned a lot in a quite short time.
+```
+
 ##### [26-09-23] [paper580]
 - Self-Supervised DXA Representations Encode Multi-System Disease Risk, Biological Aging and Heritability
  [[pdf]](https://arxiv.org/abs/2608.02208) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Self-Supervised%20DXA%20Representations%20Encode%20Multi-System%20Disease%20Risk%2C%20Biological%20Aging%20and%20Heritability.pdf)
