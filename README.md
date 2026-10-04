@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-04] [paper582]
+- Coevolution Took Us Here, but It’s Not Enough
+ [[pdf]](https://couteiral.substack.com/p/coevolution-took-us-here-but-its) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Coevolution%20Took%20Us%20Here%2C%20but%20It%E2%80%99s%20Not%20Enough.pdf)
+- `(Blog post, 2026-08)`
+- [ML for Drug Discovery] 
+```
+A blog post and not a paper, but I still wanted to include it here because I enjoyed reading it and found it interesting/informative. Third blog post from Carlos Outeiral that I read, and I will definitely try to read future posts as well. Interesting, and I feel like they give good insights into how the field has developed and might progress moving forward.
+```
+
 ##### [26-10-02] [paper581]
 - Drug Discovery & Development Basics
  [[pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Drug%20Discovery%20%26%20Development%20Basics.pdf)
@@ -65,7 +74,7 @@ A blog post and not a paper, but I wanted to include it here as well. Not quite 
 - `(Blog post, 2026-07)`
 - [ML for Drug Discovery] 
 ```
-A blog post and not a paper, but I still wanted to include this here because I enjoyed reading it and found it both really interetsing and informative.
+A blog post and not a paper, but I still wanted to include this here because I enjoyed reading it and found it both really interesting and informative.
 ```
 
 ##### [26-08-28] [paper576]
