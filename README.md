@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-05] [paper583]
+- Biomarkers of Kidney Failure and All-Cause Mortality in CKD
+ [[pdf]](https://www.ovid.com/jnls/jasn/fulltext/10.1681/asn.0000000767~biomarkers-of-kidney-failure-and-all-cause-mortality-in-ckd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Biomarkers%20of%20Kidney%20Failure%20and%20All-Cause%20Mortality%20in%20CKD.pdf)
+- `Journal of the American Society of Nephrology, 2025`
+- [ML for Medicine/Healthcare] 
+```
+Quite interesting paper, and definitely useful for me read. Good background info on CKD, the Nurture dataset, etc. Good for me to see how difficult the standard risk factors (UACR + eGFR, and sex + age + ethnicity) are to beat in terms of pure predictive performance of kidney failure or all-cause mortality, and how the authors here argue that other urine/blood biomarkers still could be useful.
+```
+
 ##### [26-10-04] [paper582]
 - Coevolution Took Us Here, but It’s Not Enough
  [[pdf]](https://couteiral.substack.com/p/coevolution-took-us-here-but-its) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Coevolution%20Took%20Us%20Here%2C%20but%20It%E2%80%99s%20Not%20Enough.pdf)
