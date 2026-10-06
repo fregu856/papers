@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-06] [paper584]
+- Personalized Care in CKD: Moving Beyond Traditional Biomarkers
+ [[pdf]](https://karger.com/nef/article/149/6/339/919567/Personalized-Care-in-CKD-Moving-Beyond-Traditional) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Personalized%20Care%20in%20CKD%20Moving%20Beyond%20Traditional%20Biomarkers.pdf)
+- `Nephron, 2025`
+- [ML for Medicine/Healthcare] 
+```
+Fairly interesting paper. I wanted to get some more general background on CKD, which I think it did a pretty good job for.  So, not overly interesting, but I don't regret deciding to read this.
+```
+
 ##### [26-10-05] [paper583]
 - Biomarkers of Kidney Failure and All-Cause Mortality in CKD
  [[pdf]](https://www.ovid.com/jnls/jasn/fulltext/10.1681/asn.0000000767~biomarkers-of-kidney-failure-and-all-cause-mortality-in-ckd) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Biomarkers%20of%20Kidney%20Failure%20and%20All-Cause%20Mortality%20in%20CKD.pdf)
