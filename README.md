@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-06] [paper585]
+- Stateful Visual Encoders for Vision-Language Models
+ [[pdf]](https://arxiv.org/abs/2606.04433) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stateful%20Visual%20Encoders%20for%20Vision-Language%20Models.pdf)
+- `arxiv, 2026-06`
+- [Vision-Language Models] 
+```
+Quite interesting paper. Nice, simple and intuitive idea, feels like it should work. The performance gains seem to be pretty marginal though. Table 3, their model "Cross+FFN" is quite clearly better than "Baseline (Stateless)", yes, but the difference compared to "Capacity-controlled baseline Self+FFN" is small. The performance gains on all three real-world tasks in Table 6 - 8 are also pretty small, and the "Capacity controlled baseline" would probably be even closer to their model, I suppose.
+```
+
 ##### [26-10-06] [paper584]
 - Personalized Care in CKD: Moving Beyond Traditional Biomarkers
  [[pdf]](https://karger.com/nef/article/149/6/339/919567/Personalized-Care-in-CKD-Moving-Beyond-Traditional) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Personalized%20Care%20in%20CKD%20Moving%20Beyond%20Traditional%20Biomarkers.pdf)
