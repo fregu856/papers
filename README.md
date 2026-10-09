@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-09] [paper586]
+- Spatial Biomarker Discovery via Interpretable Semantic Learning in Histopathology
+ [[pdf]](https://www.sciencedirect.com/science/article/pii/S153561082600259X) [[annotated pdf]](https://drive.google.com/file/d/1ObxHmtk4KMlflLhku85gn25dWZJv_1kI/view?usp=sharing)
+- `Cancer Cell, 2026`
+- [Computational Pathology]
+```
+Well-written and interesting paper, happy that I decided to read this (quite a lot of details though, I probably spent a bit too much time on this, but I also quite enjoyed it). The approach definitely makes some intuitive sense, and seems to work quite well in different settings.
+```
+
 ##### [26-10-06] [paper585]
 - Stateful Visual Encoders for Vision-Language Models
  [[pdf]](https://arxiv.org/abs/2606.04433) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Stateful%20Visual%20Encoders%20for%20Vision-Language%20Models.pdf)
