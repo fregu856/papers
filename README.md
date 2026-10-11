@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-11] [paper587]
+- The Past, Present and Future of de Novo Protein Design
+ [[pdf]](https://www.nature.com/articles/s41586-026-10328-7) [_unfortunately not open access, thus no annotated pdf_]
+- `Nature, 2026`
+- [ML for Drug Discovery]
+```
+Fairly interesting paper. Figure 1 - 4 are all really nice, if nothing else, it was interesting to just go through these in detail. I was probably expecting/hoping to get a bit more out of reading this, feels like you need to know this stuff quite well already from before to really appreciate this paper. But still quite useful for me I think, quite a few seemingly interesting references that I will look up in a bit more detail as well.
+```
+
 ##### [26-10-09] [paper586]
 - Spatial Biomarker Discovery via Interpretable Semantic Learning in Histopathology
  [[pdf]](https://www.sciencedirect.com/science/article/pii/S153561082600259X) [[annotated pdf]](https://drive.google.com/file/d/1ObxHmtk4KMlflLhku85gn25dWZJv_1kI/view?usp=sharing)
