@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-12] [paper589]
+- Toward Comprehensive Cellular Characterization of H&E Slides
+ [[pdf]](https://www.sciencedirect.com/science/article/pii/S2153353926001562) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Toward%20Comprehensive%20Cellular%20Characterization%20of%20H%26E%20Slides.pdf)
+- `Journal of Pathology Informatics, 2026`
+- [Computational Pathology]
+```
+Somewhat interesting paper. I was expecting something a bit different, I was hoping for much more in the "HistoPLUS allows interpretable biomarker discovery in downstream tasks" direction. Now they just have the "Resullts - HistoPLUS enables interpretable biomarker analysis in downstream clinical tasks" section, and I don't even fully understand what they do there, exactly what the "72 histomorphometric covariates from HistoPLUS outputs" are or how they are computed. Otherwise what they actually do and their approach makes sense, to create a better train dataset and utilize pathology FMs. Neat that the small distilled H0-mini performs well also in this application.
+```
+
 ##### [26-10-12] [paper588]
 - Designing Protein Structures from Natural Language
  [[pdf]](https://arxiv.org/abs/2610.13917) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Designing%20Protein%20Structures%20from%20Natural%20Language.pdf)
