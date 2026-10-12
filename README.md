@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-12] [paper588]
+- Designing Protein Structures from Natural Language
+ [[pdf]](https://arxiv.org/abs/2610.13917) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Designing%20Protein%20Structures%20from%20Natural%20Language.pdf)
+- `arxiv, 2026-10`
+- [ML for Drug Discovery]
+```
+Well-written and quite interesting paper. All figures are really nice. The basic idea of text-conditioned protein structure generation is definitely cool/nice and makes quite a lot of sense. The agent-guided, iterative approach also makes sense, and the application of it to design binders for GM2A in 3.3 is cool. Difficult for me to judge exactly how impressive these results are though, or how useful/impactful this text-conditioned approach actually will be in practice moving forwards. This from the conclusion makes some sense to me, "As language-model agents improve, specialist generative models need interfaces that let agents use scientific knowledge and language-based reasoning to guide generation. Prompteina makes this connection more seamless [...] these results establish natural language as an effective, powerful conditioning interface that lets agents directly connect scientific knowledge, language-based reasoning, and experimental results to protein structure generation and design", but is a natural language interface really a necessary requirement for this?
+```
+
 ##### [26-10-11] [paper587]
 - The Past, Present and Future of de Novo Protein Design
  [[pdf]](https://www.nature.com/articles/s41586-026-10328-7) [_unfortunately not open access, thus no annotated pdf_]
