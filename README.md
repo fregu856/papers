@@ -26,7 +26,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 ##### [26-10-14] [paper590]
 - Sparse Concept Attribution for Histomorphological Hypothesis Generation From Whole-Slide Classifiers
  [[pdf]](https://arxiv.org/abs/2609.02985) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Sparse%20Concept%20Attribution%20for%20Histomorphological%20Hypothesis%20Generation%20From%20Whole-Slide%20Classifiers.pdf)
-- ``
+- `arxiv, 2026-09`
 - [Computational Pathology]
 ```
 Well-written and quite interesting paper. Quite long, so I didn't read absolutely everything in detail. I do think the overall approach is interesting and makes some sense. Feel like it's difficult for me to judge how useful generated short hypotheses like those in Table S3 actually might be in practice though, but maybe this could be combined with other methods in some way at least.
