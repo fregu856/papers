@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-14] [paper591]
+- Human-Interpretable Image Features Derived From Densely Mapped Cancer Pathology Slides Predict Diverse Molecular Phenotypes
+ [[pdf]](https://www.nature.com/articles/s41467-021-21896-9) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Human-Interpretable%20Image%20Features%20Derived%20From%20Densely%20Mapped%20Cancer%20Pathology%20Slides%20Predict%20Diverse%20Molecular%20Phenotypes.pdf)
+- `Nature Communications, 2021`
+- [Computational Pathology]
+```
+Fairly interesting paper. Quite a lot of details that I didn't fully follow. But nice to see an example of what type of features can be computed, and what these can be used to predict. I was perhaps hoping for this paper to feel a bit more practically relevant/useful, but I don't regret reading it.
+```
+
 ##### [26-10-14] [paper590]
 - Sparse Concept Attribution for Histomorphological Hypothesis Generation From Whole-Slide Classifiers
  [[pdf]](https://arxiv.org/abs/2609.02985) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Sparse%20Concept%20Attribution%20for%20Histomorphological%20Hypothesis%20Generation%20From%20Whole-Slide%20Classifiers.pdf)
