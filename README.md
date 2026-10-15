@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-15] [paper592]
+- From Cosmos to Clinic: Interpretable Spatial Statistics for Histopathology Prognosis
+ [[pdf]](https://openaccess.thecvf.com/content/ICCV2025W/CVAMD/html/Barna_From_Cosmos_to_Clinic_Interpretable_Spatial_Statistics_for_Histopathology_Prognosis_ICCVW_2025_paper.html) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/From%20Cosmos%20to%20Clinic%20Interpretable%20Spatial%20Statistics%20for%20Histopathology%20Prognosis.pdf)
+- `ICCV Workshops 2025`
+- [Computational Pathology]
+```
+Quite interesting paper. It's not clear exactly how they create those textual descriptions ("each reconstructed correlation function is matched against our predefined taxonomy of spatial relationship patterns based on curve characteristics", so I guess that they have a number of curve templats they compare with? But how many, and how did they define these?), and I'm not sure how useful those actually would be in practice. But other than that I think their approach makes some sense and was quite interesting, seems like a reasonable way to compute handcrafted features. Would be interesting to see how well a linear classifier on top of their 100-dim features would perform on other tasks as well, not just this one platinum response prediction task.
+```
+
 ##### [26-10-14] [paper591]
 - Human-Interpretable Image Features Derived From Densely Mapped Cancer Pathology Slides Predict Diverse Molecular Phenotypes
  [[pdf]](https://www.nature.com/articles/s41467-021-21896-9) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Human-Interpretable%20Image%20Features%20Derived%20From%20Densely%20Mapped%20Cancer%20Pathology%20Slides%20Predict%20Diverse%20Molecular%20Phenotypes.pdf)
