@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-18] [paper596]
+- A Multimodal Whole-Slide Foundation Model for Pathology
+ [[pdf]](https://www.nature.com/articles/s41591-025-03982-3) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Multimodal%20Whole-Slide%20Foundation%20Model%20for%20Pathology.pdf)
+- `Nature Medicine, 2025`
+- [Computational Pathology], [Vision-Language Models]
+```
+Interesting and well-written paper, I really enjoyed reading this. The TITAN paper from the Mahmood lab, super solid / comprehensive / high-quality work. I read everything until the end of the "TITAN improves region and slide-level diagnostic capabilities" section in Results in a lot of detail (and also all figures in the main paper), then I had to go through the rest a bit quicker. In particular, I didn't have much time to read the Methods. The one main thing I don't understand is the "Rare cancer external" results in Figure 4.a, why is the vision-only TITAN_v suddenly quite a lot better than TITAN there?
+```
+
 ##### [26-10-18] [paper595]
 - Incorporating Pathomics Into IgAN Risk Prediction
  [[pdf]](https://www.sciencedirect.com/science/article/pii/S2468024926029402) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Incorporating%20Pathomics%20Into%20IgAN%20Risk%20Prediction.pdf)
