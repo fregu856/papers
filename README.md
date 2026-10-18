@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-18] [paper594]
+- Next-Generation Morphometry for Pathomics-Data Mining in Histopathology
+ [[pdf]](https://www.nature.com/articles/s41467-023-36173-0) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Next-Generation%20Morphometry%20for%20Pathomics-Data%20Mining%20in%20Histopathology.pdf)
+- `Nature Communications, 2023`
+- [Computational Pathology]
+```
+Quite interesting paper, directly builds upon "Deep Learning-Based Segmentation and Quantification in Experimental Kidney Histopathology" that I read previously. I do think that this overall approach makes some sense, and the results in Figure 4 seem relatively strong. I don't understand how they actually do the pseudotime stuff in Figure 5 though.
+```
+
 ##### [26-10-16] [paper593]
 - Deep Learning-Based Segmentation and Quantification in Experimental Kidney Histopathology
  [[pdf]](https://www.ovid.com/jnls/jasn/fulltext/10.1681/asn.2020050597~deep-learningbased-segmentation-and-quantification-in) [_unfortunately not open access, thus no annotated pdf_]
