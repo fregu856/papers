@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-18] [paper595]
+- Incorporating Pathomics Into IgAN Risk Prediction
+ [[pdf]](https://www.sciencedirect.com/science/article/pii/S2468024926029402) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Incorporating%20Pathomics%20Into%20IgAN%20Risk%20Prediction.pdf)
+- `Kidney International Reports, 2026`
+- [Computational Pathology]
+```
+Quite interesting paper, further evaluation/application of the approach from "Next-Generation Morphometry for Pathomics-Data Mining in Histopathology" that I read previously, so these three papers directly build on each other. I think it was pretty useful for me to read all three. Here they use 10 segmentation-based features, and compare the performance with established risk scores.
+```
+
 ##### [26-10-18] [paper594]
 - Next-Generation Morphometry for Pathomics-Data Mining in Histopathology
  [[pdf]](https://www.nature.com/articles/s41467-023-36173-0) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Next-Generation%20Morphometry%20for%20Pathomics-Data%20Mining%20in%20Histopathology.pdf)
