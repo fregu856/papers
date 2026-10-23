@@ -23,7 +23,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
-##### [26-10-19] [paper597]
+##### [26-10-23] [paper597]
 - TiSAM: Fusing Spatial and Histopathology Foundation Models for Whole-Slide Image Segmentation
  [[pdf]](https://www.biorxiv.org/content/10.64898/2026.10.16.759688v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/TiSAM%20Fusing%20Spatial%20and%20Histopathology%20Foundation%20Models%20for%20Whole-Slide%20Image%20Segmentation.pdf)
 - `biorxiv, 2026-10`
