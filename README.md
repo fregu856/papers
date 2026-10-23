@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-19] [paper597]
+- TiSAM: Fusing Spatial and Histopathology Foundation Models for Whole-Slide Image Segmentation
+ [[pdf]](https://www.biorxiv.org/content/10.64898/2026.10.16.759688v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/TiSAM%20Fusing%20Spatial%20and%20Histopathology%20Foundation%20Models%20for%20Whole-Slide%20Image%20Segmentation.pdf)
+- `biorxiv, 2026-10`
+- [Computational Pathology]
+```
+Fairly interesting paper. Figure 1.B is interesting, that UNI-only is quite a lot better than SAM3-only, whereas UNI + SAM3 doesn't add that much more. TiSAM with UNI2-h is substantially better than with Resnet-50 in Figure 2, but not really in Figure 3.B. Figure 4.C seems encouraging, that not too much annotated data is needed for good performance (would like to see results for TiSAM with Resnet-50 here as well though, but I guess that might perform similarly to DeeplabV3+).
+```
+
 ##### [26-10-18] [paper596]
 - A Multimodal Whole-Slide Foundation Model for Pathology
  [[pdf]](https://www.nature.com/articles/s41591-025-03982-3) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/A%20Multimodal%20Whole-Slide%20Foundation%20Model%20for%20Pathology.pdf)
