@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-23] [paper598]
+- Data-Efficient Pathology Whole-Slide Image Segmentation With Slide-Level Conditioning
+ [[pdf]](https://www.nature.com/articles/s44303-026-00201-7) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Data-Efficient%20Pathology%20Whole-Slide%20Image%20Segmentation%20With%20Slide-Level%20Conditioning.pdf)
+- `npj Imaging, 2026`
+- [Computational Pathology]
+```
+Well-written and quite interesting paper, pretty happy that I decided to read this. The main idea makes sense to me, to do tile-level segmentation/prediction and aggregate these into a segmentation of the full WSI as usual, but to condition the tile-level predictions on the slide-level feature vector. The analysis in Section 2.4 - 2.7 is all quite interesting. Encouraging results in Figure 3, seems like you don't need too much annotated data. Somewhat strange results when comparing "w/o FiLM" in Supplementary Table 7 & 8 with the results in Table 1 & 2 though, as this variant often is worse than all baselines, even the most basic U-Net. Section 2.7 is interesting, using mean-pooled UNI2 patch-level features as the slide-level features instead of Prov-Gigapath's slide-level.
+```
+
 ##### [26-10-23] [paper597]
 - TiSAM: Fusing Spatial and Histopathology Foundation Models for Whole-Slide Image Segmentation
  [[pdf]](https://www.biorxiv.org/content/10.64898/2026.10.16.759688v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/TiSAM%20Fusing%20Spatial%20and%20Histopathology%20Foundation%20Models%20for%20Whole-Slide%20Image%20Segmentation.pdf)
