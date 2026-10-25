@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-25] [paper599]
+- AI-Powered Deep Visual Proteomics Reveals Critical Molecular Transitions in Pancreatic Cancer Precursors 
+ [[pdf]](https://aacrjournals.org/cancerdiscovery/article/16/7/1323/786251/AI-Powered-Deep-Visual-Proteomics-Reveals-Critical) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/AI-Powered%20Deep%20Visual%20Proteomics%20Reveals%20Critical%20Molecular%20Transitions%20in%20Pancreatic%20Cancer%20Precursors.pdf)
+- `Cancer Discovery, 2026`
+- [Computational Pathology]
+```
+Quite interesting paper, even though I definitely didn't understand absolutely everything, and it's difficult for me to judge how interesting/important/impactful these results and findings actually are. Main claimed finding: "histologically normal ducts from patients with cancer display significantly different molecular profiles than those from cancer-free individuals despite identical histopathologic presentation", which seems interesting. I've heard of "deep visual proteomics" before but didn't really know what this means until now.
+```
+
 ##### [26-10-23] [paper598]
 - Data-Efficient Pathology Whole-Slide Image Segmentation With Slide-Level Conditioning
  [[pdf]](https://www.nature.com/articles/s44303-026-00201-7) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Data-Efficient%20Pathology%20Whole-Slide%20Image%20Segmentation%20With%20Slide-Level%20Conditioning.pdf)
