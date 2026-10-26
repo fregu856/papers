@@ -1,6 +1,6 @@
 # About
 
-I categorize, annotate and write comments for all research papers I read (550+ papers since 2018).
+I categorize, annotate and write comments for all research papers I read (600+ papers since 2018).
 
 _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5 Years](https://www.fregu856.com/post/phd_of_reading/) (why I think it’s important to read a lot of papers + how I organize my reading + paper statistics + a list of 30 particularly interesting papers)._
 
@@ -22,6 +22,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 - [Papers Read in 2018](#papers-read-in-2018)
 
 #### Papers Read in 2026:
+
+##### [26-10-26] [paper601]
+- Pan-Cancer Virtual Spatial Transcriptomics From Routine Histology With Phoenix
+ [[pdf]](https://www.biorxiv.org/content/10.64898/2026.04.25.720812v2) [[annotated pdf]](https://drive.google.com/file/d/1Nf6sdePLC5oVCrpfPBE8qQIG8v-IqFTB/view?usp=sharing)
+- `biorxiv, 2026-04`
+- [Computational Pathology]
+```
+Well-written and interesting paper. Took a while to read, and I definitely didn't understand absolutely everything (or am able to judge exactly how interesting/impressive/impactful all these results are), but I'm pretty happy that I read this. The model seems to perform well, in particular the 0.66 Spearman corr for pseudobulk predictions of 373 genes across all 9.5 TCGA samples seems quite impressive indeed to me. The "we concluded that lower sensitivity is the main shortcoming of Xenium 5K Prime" in the Discussion is interesting as well.
+```
 
 ##### [26-10-26] [paper600]
 - Nationwide HER2 Testing, Prospective Trastuzumab-Based Therapy, and Deep Visual Proteomics in Esophageal Squamous Cell Carcinoma
