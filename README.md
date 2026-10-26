@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-26] [paper600]
+- Nationwide HER2 Testing, Prospective Trastuzumab-Based Therapy, and Deep Visual Proteomics in Esophageal Squamous Cell Carcinoma
+ [[pdf]](https://www.medrxiv.org/content/10.64898/2026.10.14.26365244v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Nationwide%20HER2%20Testing%2C%20Prospective%20Trastuzumab-Based%20Therapy%2C%20and%20Deep%20Visual%20Proteomics%20in%20Esophageal%20Squamous%20Cell%20Carcinoma.pdf)
+- `medrxiv, 2026-10`
+- [Computational Pathology]
+```
+Fairly interesting paper. I wanted to learn a bit more about "deep visual proteomics" after the previous paper I read, but this was a bit less interesting. They don't do unsupervised clustering of tile-level PFM (H-optimus-0) features here, but instead use a cell segmentation and classification model, and cluster tiles based on the cell type abundance/proportions in some way.
+```
+
 ##### [26-10-25] [paper599]
 - AI-Powered Deep Visual Proteomics Reveals Critical Molecular Transitions in Pancreatic Cancer Precursors 
  [[pdf]](https://aacrjournals.org/cancerdiscovery/article/16/7/1323/786251/AI-Powered-Deep-Visual-Proteomics-Reveals-Critical) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/AI-Powered%20Deep%20Visual%20Proteomics%20Reveals%20Critical%20Molecular%20Transitions%20in%20Pancreatic%20Cancer%20Precursors.pdf)
