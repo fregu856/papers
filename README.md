@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-27] [paper602]
+- Cellular Architecture and Neighborhood-Informed Virtual Spatial Tumor Profiling From Histopathology
+ [[pdf]](https://www.cell.com/cell/fulltext/S0092-8674(26)00590-8) [[annotated pdf]](https://drive.google.com/file/d/1_DJK78GDiIYn8BKDrjhEpg5kIsOxD7Hs/view?usp=sharing)
+- `Cell, 2026`
+- [Computational Pathology]
+```
+Quite interesting paper, but dense and took quite a long time to get through (at least for me). I definitely don't understand everything fully (or am able to judge exactly how interesting/impressive/impactful all these results are), but the overall approach makes some sense and is quite interesting. In the end they have a patch-level classification model with 10 classes + background (classification head on top of the MUSK PFM, they also fine-tune the last two layers of the encoder apparently), trained on ~180k patches. Then they compute 262 features for each WSI based on the predictions, a lot of which are some kind of spatial features, and then use data to select just 13 of these features, and finally fit Cox PH models on these for survival modelling/prediction after immunotherapy.
+```
+
 ##### [26-10-26] [paper601]
 - Pan-Cancer Virtual Spatial Transcriptomics From Routine Histology With Phoenix
  [[pdf]](https://www.biorxiv.org/content/10.64898/2026.04.25.720812v2) [[annotated pdf]](https://drive.google.com/file/d/1Nf6sdePLC5oVCrpfPBE8qQIG8v-IqFTB/view?usp=sharing)
