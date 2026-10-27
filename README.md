@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-27] [paper603]
+- Virtual Spatial Transcriptomics From Histopathology Enables Prognostic and Therapeutic Response Prediction in Cancer
+ [[pdf]](https://www.biorxiv.org/content/10.64898/2026.08.04.742671v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Virtual%20Spatial%20Transcriptomics%20From%20Histopathology%20Enables%20Prognostic%20and%20Therapeutic%20Response%20Prediction%20in%20Cancer.pdf)
+- `biorxiv, 2026-08`
+- [Computational Pathology]
+```
+Somewhat interesting paper, but all results are based on very small samples. Why only 79 TCGA-BRCA samlpes for the results in Figure 4? They also mention "liver cancer samples" and "a trastuzumab response cohort" in the Discussion, but these results aren't actually included in the paper? I found this quite interesting and nice to read until the start of 2.3, Figure 1 gives a good overview of their model, and the model makes some sense overall (neat to use both a patch-level and slide-level PFM, for example), but then the results seem rather shaky. Their model is also quite complex with multiple different components, so would have been nice with some kind of ablation, to evaluate whether all these components actually are necessary.
+```
+
 ##### [26-10-27] [paper602]
 - Cellular Architecture and Neighborhood-Informed Virtual Spatial Tumor Profiling From Histopathology
  [[pdf]](https://www.cell.com/cell/fulltext/S0092-8674(26)00590-8) [[annotated pdf]](https://drive.google.com/file/d/1_DJK78GDiIYn8BKDrjhEpg5kIsOxD7Hs/view?usp=sharing)
