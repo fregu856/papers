@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-29] [paper604]
+- STP-BENCH: A Unified Systematic Benchmark for Virtual Spatial Transcriptomics from Histopathology Images
+ [[pdf]](https://arxiv.org/abs/2609.05956) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/STP-BENCH%20A%20Unified%20Systematic%20Benchmark%20for%20Virtual%20Spatial%20Transcriptomics%20from%20Histopathology%20Images.pdf)
+- `arxiv, 2026-09`
+- [Computational Pathology]
+```
+Interesting and very solid paper, easy to follow everything, I quite enjoyed reading this. A few interesting findigs/insights. The simplest possible baseline of linear probing on top of PFM patch/spot-level features works quite well. Figure 5 is interesting, how cross-tissue generalization is pretty bad, and how it does ~not~ help performance on the target tissue to add training data from other tissues.
+```
+
 ##### [26-10-27] [paper603]
 - Virtual Spatial Transcriptomics From Histopathology Enables Prognostic and Therapeutic Response Prediction in Cancer
  [[pdf]](https://www.biorxiv.org/content/10.64898/2026.08.04.742671v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Virtual%20Spatial%20Transcriptomics%20From%20Histopathology%20Enables%20Prognostic%20and%20Therapeutic%20Response%20Prediction%20in%20Cancer.pdf)
