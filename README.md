@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-30] [paper606]
+- Holon-S1 Technical Report
+ [[pdf]](https://sophont.med/blog/holon/assets/holon-s1-technical-report.pdf) [[annotated pdf]](https://drive.google.com/file/d/1vhf0qFBHIDSfpWnKU26UaezeXiu9zacM/view?usp=sharing)
+- `Techncial report, 2026-10`
+- [Computational Pathology]
+```
+Quite interesting, but this is a company technical report with a lot of missing details (as probably should be expected, of course). "We trained the model using a pan-cancer strategy on data spanning multiple assay platforms and spatial resolutions, including both spot-level and single-cell measurements" is basically the only provided info about the training data, and "Holon-S1 integrated fine-grained cellular morphology with broader slide-level spatial context" the only info about the model, plus that it outputs gene-expression predictions for 56×56 μm regions in each WSI. I take basically all results and comparisons with a grain of salt, but still, there are definitely some quite interesting things in Section 3 & 4.
+```
+
 ##### [26-10-29] [paper605]
 - Unsupervised Cellular Anomaly Detection in Toxicological Histopathology
  [[pdf]](https://openreview.net/forum?id=CM6VBbB2cb) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Unsupervised%20Cellular%20Anomaly%20Detection%20in%20Toxicological%20Histopathology.pdf)
