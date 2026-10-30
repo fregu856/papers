@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-30] [paper607]
+- Robust and Interpretable Prediction of Gene Markers and Cell Types From Spatial Transcriptomics Data
+ [[pdf]](https://www.nature.com/articles/s41467-026-68487-0) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Robust%20and%20Interpretable%20Prediction%20of%20Gene%20Markers%20and%20Cell%20Types%20From%20Spatial%20Transcriptomics%20Data.pdf)
+- `Nature Communications, 2026`
+- [Computational Pathology]
+```
+Quite interesting paper, but I didn't have a lot of time and thus read most parts rather quickly. The paper was published in 2026 but apparently submitted already in 2023, and it also feels quite dated in terms of baseline models and datasets etc. The overall approach, to do probabilistic regression with a negative binomial distribution, is interesting though, but unfortunately they don't really evaluate the resulting uncertainty estimates in any meaningful way.
+```
+
 ##### [26-10-30] [paper606]
 - Holon-S1 Technical Report
  [[pdf]](https://sophont.med/blog/holon/assets/holon-s1-technical-report.pdf) [[annotated pdf]](https://drive.google.com/file/d/1vhf0qFBHIDSfpWnKU26UaezeXiu9zacM/view?usp=sharing)
