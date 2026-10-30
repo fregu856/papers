@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-10-29] [paper605]
+- Unsupervised Cellular Anomaly Detection in Toxicological Histopathology
+ [[pdf]](https://openreview.net/forum?id=CM6VBbB2cb) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Unsupervised%20Cellular%20Anomaly%20Detection%20in%20Toxicological%20Histopathology.pdf)
+- `MIDL 2025`
+- [Computational Pathology]
+```
+Somewhat interesting paper, very quick to read. This seems like the simplest possible baseline that still should work quite well, seems like the obvious starting point, and the baseline that any more complex approach needs to beat.
+```
+
 ##### [26-10-29] [paper604]
 - STP-BENCH: A Unified Systematic Benchmark for Virtual Spatial Transcriptomics from Histopathology Images
  [[pdf]](https://arxiv.org/abs/2609.05956) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/STP-BENCH%20A%20Unified%20Systematic%20Benchmark%20for%20Virtual%20Spatial%20Transcriptomics%20from%20Histopathology%20Images.pdf)
