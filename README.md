@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-11-01] [paper609]
+- Multiscale Confidence Quantification for Virtual Spatial Transcriptomics with UTOPIA
+ [[pdf]](https://www.biorxiv.org/content/10.64898/2026.03.01.708850v1) [[annotated pdf]](https://drive.google.com/file/d/12WL7Pw2HwCYAHe59lnJaWTI8booOeaZW/view?usp=sharing)
+- `biorxiv, 2026-03`
+- [Computational Pathology]
+```
+Interesting, but I was quite confused by this. They're not doing what I thought they're doing, they are not estimating predictive uncertainty for the continuous gene-expression values, their confidence is just confidence for binary detection of non-zero / above-threshold expression. I see how this also could be useful, false-positive control and for finding regions where certain genes are expressed, but it's not as general as what it sounds like in some of their claims. Also, the references section seems to be missing in this version of the paper, which is a bit annoying.
+```
+
 ##### [26-10-31] [paper608]
 - Toxicity Assessment in Preclinical Histopathology via Class-Aware Mahalanobis Distance for Known and Novel Anomalies
  [[pdf]](https://www.nature.com/articles/s41598-026-56510-9) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Toxicity%20Assessment%20in%20Preclinical%20Histopathology%20via%20Class-Aware%20Mahalanobis%20Distance%20for%20Known%20and%20Novel%20Anomalies.pdf)
