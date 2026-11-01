@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-11-01] [paper610]
+- Interpretable Deep Learning Maps Spatial Morphological Phenotypes to HCC and LUAD Survival
+ [[pdf]](https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(26)00543-4) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Interpretable%20Deep%20Learning%20Maps%20Spatial%20Morphological%20Phenotypes%20to%20HCC%20and%20LUAD%20Survival.pdf)
+- `Cell Reports Medicine, 2026`
+- [Computational Pathology]
+```
+Fairly interesting paper. I think the overall approach could make sense, to use hand-crafted features, feel like that could be good when you don't have a lot of data. But, all these results are based on small cohorts (HCC: 330 for discovery and 151 for validation, LUAD: 285 and 301), and I'm not sure if the biomarkers in Figure 7 really would generalize to truly external data, large datasets etc. The results in Figure 2.A also seem a bit odd, as CLAM-UNI and CLAM-Res50 have very similar performance.
+```
+
 ##### [26-11-01] [paper609]
 - Multiscale Confidence Quantification for Virtual Spatial Transcriptomics with UTOPIA
  [[pdf]](https://www.biorxiv.org/content/10.64898/2026.03.01.708850v1) [[annotated pdf]](https://drive.google.com/file/d/12WL7Pw2HwCYAHe59lnJaWTI8booOeaZW/view?usp=sharing)
