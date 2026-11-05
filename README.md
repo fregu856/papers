@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-11-05] [paper612]
+- Implementing Trust in Non-Small Cell Lung Cancer Diagnosis With a Conformalized Uncertainty-Aware AI Framework
+ [[pdf]](https://www.nature.com/articles/s41551-026-01694-8) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Implementing%20Trust%20in%20Non-Small%20Cell%20Lung%20Cancer%20Diagnosis%20With%20a%20Conformalized%20Uncertainty-Aware%20AI%20Framework.pdf)
+- `Nature Biomedical Engineering, 2026`
+- [Computational Pathology]
+```
+Somewhat interesting paper, but this felt less relevant than what I had expected/hoped. Not the most straightforward approach, combining multiple things (SNGP, conformal predicton, tile-elimination). I also feel like they oversell their contributions a bit too much overall (for example this from the Discussion: "TRUECAM represents a transformative step towards making AI a trusted partner in clinical decision-making"). Figure 6.k is quite interesting/surprising though, that you only need to use 0.1% of the tiles in each WSI to do this binary subtype classification.
+```
+
 ##### [26-11-05] [paper611]
 - TISSUE: Uncertainty-Calibrated Prediction of Single-Cell Spatial Transcriptomics Improves Downstream Analyses
  [[pdf]](https://www.nature.com/articles/s41592-024-02184-y) [_unfortunately not open access, thus no annotated pdf_]
