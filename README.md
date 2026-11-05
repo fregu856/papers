@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-11-05] [paper611]
+- TISSUE: Uncertainty-Calibrated Prediction of Single-Cell Spatial Transcriptomics Improves Downstream Analyses
+ [[pdf]](https://www.nature.com/articles/s41592-024-02184-y) [_unfortunately not open access, thus no annotated pdf_]
+- `Nature Methods, 2024`
+- [Computational Pathology]
+```
+Quite interesting paper. Conformal prediction to output prediction intervals, and using a local/adaptive method that incorporates the spatial neighbourhood variability as weights (basically, if the predictions for a certain gene vary a lot among neighbouring cells, the uncertainty should be higher). A couple of pretty neat examples of downstream use-cases of the prediction uncertainty as well (hypthesis testing, filtering of cells with uncertain predictions in supervised learning and cell clustering).
+```
+
 ##### [26-11-01] [paper610]
 - Interpretable Deep Learning Maps Spatial Morphological Phenotypes to HCC and LUAD Survival
  [[pdf]](https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(26)00543-4) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Interpretable%20Deep%20Learning%20Maps%20Spatial%20Morphological%20Phenotypes%20to%20HCC%20and%20LUAD%20Survival.pdf)
