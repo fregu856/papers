@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-11-06] [paper614]
+- DeepSpot-M: A Multimodal Foundation Model for Transcriptome-Wide Virtual Spatial Transcriptomics From Histology
+ [[pdf]](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DeepSpot-M%20A%20Multimodal%20Foundation%20Model%20for%20Transcriptome-Wide%20Virtual%20Spatial%20Transcriptomics%20From%20Histology.pdf)
+- `medrxiv, 2026-06`
+- [Computational Pathology]
+```
+Interesting paper, I quite enjoyed reading this. I spent a bit too much time on it though, so after Section 2.3 I had to read the rest a bit more quickly. The overall gene-query approach is interesting and pretty cool, "genes are represented as queryable embeddings rather than fixed outputs", which enables them to make predictions for genes not seen during training (and also deal with train datasets having different sets and varying number of genes). The analysis in 2.3 could have been extended though, could have held the 4.4k unseen/evaluation genes fixed, and then varied how many of the 12.9k train genes they actually use during training (e.g., use 50%, 25%, 10%, 5%, 1% of these) and checked how this affects the performance on the unseen genes. Would be interesting. Eventually, you would see a substantial drop in performance, I would expect? I don't understand 4.3 and the extended data Fig 12 though. Xavier random initialization is better than scGPT? But, using such random inits would not allow them to predict for unseen genes, or? I'm quite confused by this.
+```
+
 ##### [26-11-06] [paper613]
 - Probabilistic Uncertainty in Virtual Spatial Transcriptomics From Histology Is Largely Redundant With the Predicted Mean
  [[pdf]](https://www.biorxiv.org/content/10.64898/2026.10.23.760875v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%20Uncertainty%20in%20Virtual%20Spatial%20Transcriptomics%20From%20Histology%20Is%20Largely%20Redundant%20With%20the%20Predicted%20Mean.pdf)
