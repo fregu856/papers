@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-11-06] [paper613]
+- Probabilistic Uncertainty in Virtual Spatial Transcriptomics From Histology Is Largely Redundant With the Predicted Mean
+ [[pdf]](https://www.biorxiv.org/content/10.64898/2026.10.23.760875v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Probabilistic%20Uncertainty%20in%20Virtual%20Spatial%20Transcriptomics%20From%20Histology%20Is%20Largely%20Redundant%20With%20the%20Predicted%20Mean.pdf)
+- `NeurIPS Workshops 2026`
+- [Computational Pathology]
+```
+Interesting paper. Somewhat discouraging results, seems like it might be quite difficult to train models that properly capture meaningful/informative uncertainty in the predictions. Perhaps it could at least help to use another PFM than Midnight-12k. 
+```
+
 ##### [26-11-05] [paper612]
 - Implementing Trust in Non-Small Cell Lung Cancer Diagnosis With a Conformalized Uncertainty-Aware AI Framework
  [[pdf]](https://www.nature.com/articles/s41551-026-01694-8) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Implementing%20Trust%20in%20Non-Small%20Cell%20Lung%20Cancer%20Diagnosis%20With%20a%20Conformalized%20Uncertainty-Aware%20AI%20Framework.pdf)
