@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-11-07] [paper615]
+- SPARC: A Mechanism-Aware Spatial Representation from Routine Histology Predicts Cancer Survival and Therapy Response
+ [[pdf]](https://www.medrxiv.org/content/10.64898/2026.05.04.26352410v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SPARC%20A%20Mechanism-Aware%20Spatial%20Representation%20from%20Routine%20Histology%20Predicts%20Cancer%20Survival%20and%20Therapy%20Response.pdf)
+- `medrxiv, 2026-05`
+- [Computational Pathology]
+```
+Well written and fairly interesting paper. They train using the HEST-1k spatial transcriptomics data. The general idea of predicting defined gene sets / programs (they predict 40 different ones) instead of individual genes makes some sense, but they could have done a more controlled/direct comparison of this (instead of comparing to another model, STPath). I don't quite understand the therapeutic response modelling in 4.5, they compute patient-level SPARC-Map representations / program scores by taking the mean of patch-level scores, but then they completely discard all spatial information?
+```
+
 ##### [26-11-06] [paper614]
 - DeepSpot-M: A Multimodal Foundation Model for Transcriptome-Wide Virtual Spatial Transcriptomics From Histology
  [[pdf]](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/DeepSpot-M%20A%20Multimodal%20Foundation%20Model%20for%20Transcriptome-Wide%20Virtual%20Spatial%20Transcriptomics%20From%20Histology.pdf)
