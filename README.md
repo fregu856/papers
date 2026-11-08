@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-11-08] [paper616]
+- Multi-Modal Foundation Model with Whole-Slide Attention Enables Transferrable Digital Pathology at Single-Cell Resolution
+ [[pdf]](https://www.biorxiv.org/content/10.64898/2026.07.31.741265v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Multi-Modal%20Foundation%20Model%20with%20Whole-Slide%20Attention%20Enables%20Transferrable%20Digital%20Pathology%20at%20Single-Cell%20Resolution.pdf)
+- `biorxiv, 2026-08`
+- [Computational Pathology]
+```
+Interesting, well-written and very solid paper, I enjoyed reading this. Scalable global / slide-level attention and a scalable contrastive loss, that's the core methodological contribution (check Figure S3 in the supplementary pdf, to see the difference in compute/memory compared to standard softmax attention and InfoNCE loss). Figure S7 is also interesting, comparing with TissueFormer-local that "replaces the global attention of TissueFormer with the local counterpart that only attends to neighboring cells", not exactly enormous gains, but consistently better. Figure 2.e as well, that they get pretty good performance on human data when training only on mouse data (they even beat all human data-trained baselines).
+```
+
 ##### [26-11-07] [paper615]
 - SPARC: A Mechanism-Aware Spatial Representation from Routine Histology Predicts Cancer Survival and Therapy Response
  [[pdf]](https://www.medrxiv.org/content/10.64898/2026.05.04.26352410v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/SPARC%20A%20Mechanism-Aware%20Spatial%20Representation%20from%20Routine%20Histology%20Predicts%20Cancer%20Survival%20and%20Therapy%20Response.pdf)
