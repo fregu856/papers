@@ -26,7 +26,7 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 ##### [26-11-09] [paper618]
 - Towards Spatial Transcriptomics-Driven Pathology Foundation Models
  [[pdf]](https://arxiv.org/abs/2602.14177) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Towards%20Spatial%20Transcriptomics-driven%20Pathology%20Foundation%20Models.pdf)
-- `Towards Spatial Transcriptomics-Driven Pathology Foundation Models`
+- `arxiv, 2026-02`
 - [Computational Pathology]
 ```
 Quite interesting paper. The overall approach makes sense, feels like it should help a bit to fine-tune patch-level PFMs on spatial transcriptomics data. The performance gains are not exactly huge, but consistent across five different PFMs. I'm still not 100% sure what data they train on though, but I ~think~ that they take basically all human Visium and Visium HD data from HEST-1k (HEST-1k contains basically 50/50 human/mouse data, and also some STv1 and Xenium data, but they don't use any of that here for training).
