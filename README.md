@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-11-09] [paper617]
+- Histopathology-Inferred Spatial Transcriptomics Characterizes the Tumor Microenvironment in 1,500 Head and Neck Tumors and Predicts Clinical Outcomes
+ [[pdf]](https://www.biorxiv.org/content/10.64898/2026.05.16.725687v1) [[annotated pdf]](https://drive.google.com/file/d/1maKUwW8OOxSplIXOMnHjaEUupdskxTXz/view?usp=sharing)
+- `biorxiv, 2026-05`
+- [Computational Pathology]
+```
+Quite interesting paper, well written and easy to follow basically everything. The ST prediction model is simple (Virchow2 patch-level features + MLP) and they don't use a lot of data to train it (10 patients/slides, 21.6k Visium spots in total). And then all downstream results are based on representing each WSI with an 11-dim feature vector, the proportions of 11 spatial clusters. So, everything is pretty simple, surprisingly simple even, but they still seem to get quite good/encouraging results.
+```
+
 ##### [26-11-08] [paper616]
 - Multi-Modal Foundation Model with Whole-Slide Attention Enables Transferrable Digital Pathology at Single-Cell Resolution
  [[pdf]](https://www.biorxiv.org/content/10.64898/2026.07.31.741265v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Multi-Modal%20Foundation%20Model%20with%20Whole-Slide%20Attention%20Enables%20Transferrable%20Digital%20Pathology%20at%20Single-Cell%20Resolution.pdf)
