@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-11-10] [paper619]
+- Deep Learning-Based Modeling for Preclinical Drug Safety Assessment
+ [[pdf]](https://www.biorxiv.org/content/10.1101/2024.07.20.604430v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning-Based%20Modeling%20for%20Preclinical%20Drug%20Safety%20Assessment.pdf)
+- `biorxiv, 2024-07`
+- [Computational Pathology]
+```
+Fairly interesting paper. It gives some pretty good background on the overall "computational pathology for preclinical / toxicological applications" domain, and having read this will probably help a bit when moving on to more recent papers. It does feel a bit dated (only comparing with Resnet-IN and CTransPath), but good to see what data they use and so on (ViT-base trained using iBOT, on 15 million tissue patches from 46k WSIs, kideny and liver, from the public TG-GATE dataset. Only rat data). The reader study comparing with pathologists is pretty neat as well.
+```
+
 ##### [26-11-09] [paper618]
 - Towards Spatial Transcriptomics-Driven Pathology Foundation Models
  [[pdf]](https://arxiv.org/abs/2602.14177) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Towards%20Spatial%20Transcriptomics-driven%20Pathology%20Foundation%20Models.pdf)
