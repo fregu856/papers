@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-11-15] [paper621]
+- Scaling Vision Foundation Models for Toxicologic Pathology
+ [[pdf]](https://arxiv.org/abs/2610.26586) [[annotated pdf]](https://drive.google.com/file/d/1pWGWIXb2PS7kF8ZTXsVyrodCE40KvcKw/view?usp=sharing)
+- `arxiv, 2026-10`
+- [Computational Pathology]
+```
+Quite interesting paper. Interesting datasets they use to train their models, internal data from across Novartis. 100k WSIs from 1999 - 2024, already digitized, from 700 rat-only studies. Then 1 million additional WSIs by digitizing achieved slides, going back all the way to 1967, 13.3k studies across six species (rat, mouse, dog, monkey, pig, rabbit). Results in Figure 3 are not overly impressive perhaps, at least not at first glance. But, given that the performance bump isn't massive even when going from natural image datasets to pathology datasets, the bump for clinical/human pathology data --> preclinical/animal pathology data can probably not be expected to be overly big either. I think they should have trained a model on a combined 100k + 1M dataset though, seems like that would have made a lot of sense to include as an additional comparison.
+```
+
 ##### [26-11-15] [paper620]
 - VIPER: An Expert-Curated Benchmark for Vision-Language Models in Veterinary Pathology
  [[pdf]](https://arxiv.org/abs/2608.26382) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VIPER%20An%20Expert-Curated%20Benchmark%20for%20Vision-Language%20Models%20in%20Veterinary%20Pathology.pdf)
