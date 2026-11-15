@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-11-15] [paper620]
+- VIPER: An Expert-Curated Benchmark for Vision-Language Models in Veterinary Pathology
+ [[pdf]](https://arxiv.org/abs/2608.26382) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/VIPER%20An%20Expert-Curated%20Benchmark%20for%20Vision-Language%20Models%20in%20Veterinary%20Pathology.pdf)
+- `NeurIPS 2026 (Evaluations & Datasets)`
+- [Computational Pathology]
+```
+Well-written and quite interesting paper. Not an overly big benchmark/dataset (1.2k questions from 419 images, 1024x1024 ROIs), but everything is validated by a veterinary pathologist. Quite substantial gains over the Qwen 3.5 / Gemma 4 baselines in Table 1, although a bit difficult to know how these performance metric gains would translate in practice (how much better is 62.4 vs 52.4). Not a lot of details on the data they used to train their ToxScribe models ("Training data were assembled from permissively reusable pathology sources, including PubMed Open Access PDFs, regulatory agency documents, and teaching materials"), but 345k ROIs with 3.98 million instruction pairs at least. LoRA fine-tuning of the language models, one full epoch, while the vision encoder is frozen.
+```
+
 ##### [26-11-10] [paper619]
 - Deep Learning-Based Modeling for Preclinical Drug Safety Assessment
  [[pdf]](https://www.biorxiv.org/content/10.1101/2024.07.20.604430v1) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Deep%20Learning-Based%20Modeling%20for%20Preclinical%20Drug%20Safety%20Assessment.pdf)
