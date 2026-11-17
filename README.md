@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-11-15] [paper622]
+- Beyond Sparse Captions: Aligning Slide-Level Text and Patch-Level Vision in Pathology
+ [[pdf]](https://arxiv.org/abs/2610.17233) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Beyond%20Sparse%20Captions%20Aligning%20Slide-Level%20Text%20and%20Patch-Level%20Vision%20in%20Pathology.pdf)
+- `NeurIPS 2026`
+- [Computational Pathology]
+```
+Interesting paper. The method is conceptually simple and makes sense, but I'm a bit confused in Section 3.3. You get K different text-conditioned slide-level feature vectors h_W_k = h_W(c_k), k = 1, ..., K, right? And, equation (5) should therefore be be sim(h_W_k, c_k) instead of sim(h_W, c_k)? Also seems a bit odd that CONCH-Z_lin beats ABMIL in Table 3, I think they should have included "mean pool of patch-level features + linear probe" as an additional baseline there. Otherwise, the results of CONCH-Z compared to CONCH and TITAN seem quite impressive.
+```
+
 ##### [26-11-15] [paper621]
 - Scaling Vision Foundation Models for Toxicologic Pathology
  [[pdf]](https://arxiv.org/abs/2610.26586) [[annotated pdf]](https://drive.google.com/file/d/1pWGWIXb2PS7kF8ZTXsVyrodCE40KvcKw/view?usp=sharing)
