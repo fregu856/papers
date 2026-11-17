@@ -23,6 +23,15 @@ _In June 2023, I wrote the blog post [The How and Why of Reading 300 Papers in 5
 
 #### Papers Read in 2026:
 
+##### [26-11-17] [paper623]
+- Towards Scalable Context-Aware Single-Cell Spatial Transcriptomics Prediction from Histology Images
+ [[pdf]](https://arxiv.org/abs/2609.36429) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Towards%20Scalable%20Context-Aware%20Single-Cell%20Spatial%20Transcriptomics%20Prediction%20from%20Histology%20Images.pdf)
+- `NeurIPS 2026`
+- [Computational Pathology]
+```
+Quite interesting paper. The method is conceptually very simple and makes sense. A few somewhat odd things starting in Secton 4.2 and in the appendix though. And they solely use HEST-1k data. I was probably expecting a bit more from a NeurIPS paper, to be honest. Don't understand why they talk about SLIDE-level information in 4.2 and appendix F, the CLS token is still just tile-level, contains no slide-level info? Also, I didn't realize until appendix C that they actually fine-tune the PFM, and that they don't do this for DeepSpot2Cell. The "per-cell crop" comparison in appendix G is then also quite strange, as they don't fine-tune the PFM for that either. Should have included a version of their method where they keep the PFM frozen, really don't understand why they didn't do that.
+```
+
 ##### [26-11-15] [paper622]
 - Beyond Sparse Captions: Aligning Slide-Level Text and Patch-Level Vision in Pathology
  [[pdf]](https://arxiv.org/abs/2610.17233) [[annotated pdf]](https://github.com/fregu856/papers/blob/master/commented_pdfs/Beyond%20Sparse%20Captions%20Aligning%20Slide-Level%20Text%20and%20Patch-Level%20Vision%20in%20Pathology.pdf)
